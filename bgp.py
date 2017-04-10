@@ -7,8 +7,7 @@ Fonctions pour le projet LIFT
 #    Emmanuel Desmontils <emmanuel.desmontils@univ-nantes.fr>
 #    Patricia Serrano-Alvarado <patricia.serrano-alvarado@univ-nantes.fr>
 #    All rights reserved.
-#    CC BY-NC-ND 3.0 FR license.
-#    http://creativecommons.org/licenses/by-nc-nd/3.0/fr/legalcode
+#    GPL v 2.0 license.
 
 from pprint import pprint
 
