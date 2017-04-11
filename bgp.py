@@ -343,7 +343,7 @@ def em2(e1, e2):
 
 def toRDFLibGraph(bgp):
   g = Graph()
-  for (s, p, o) in BGPSet:
+  for (s, p, o) in bgp:
     g.add((s, p, o))
   return g 
 
