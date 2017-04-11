@@ -341,6 +341,15 @@ def em2(e1, e2):
 
 #==================================================
 
+def toRDFLibGraph(bgp):
+  g = Graph()
+  for (s, p, o) in BGPSet:
+    g.add((s, p, o))
+  return g 
+
+
+#==================================================
+
 
 def BGPtoGraph(bgp):
     g = nx.MultiDiGraph()
