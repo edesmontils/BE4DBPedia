@@ -159,6 +159,26 @@ def getBGP(n):
         nbgp.append((treat(s), treat(p), treat(o)))
     return nbgp
 
+
+def extractBGP(text):
+  try:
+    tree = parseQuery(text)
+    try:
+      q = translateQuery(tree)
+      try:
+        BGPSet = getBGP(q.algebra)
+        return BGPSet
+      except ValueError as e:
+          print('Pb de BGP', e)
+          return None      
+    except Exception as e:
+        print('Pb translateQuery:' + e.__str__())
+        return None
+  except Exception as e:
+      print('Pb parseQuery:' + e.__str__())
+      return None
+
+
 #==================================================
 
 
@@ -201,6 +221,9 @@ def serializeBGP2str(bgp):
     """
     from rdflib -> string
     """
+    #---
+    assert bgp is not None
+    #---
     ser = '<bgp>\n'
     for (s, p, o) in bgp:
         ser += '<tp>' + serialize2str('s',
@@ -215,6 +238,9 @@ def serializeBGP(bgp):
     """
     from rdflib -> lxml
     """
+    #---
+    assert bgp is not None
+    #---
     bgp_node = etree.Element('bgp')
     for (s, p, o) in bgp:
         tp_node = etree.Element('tp')
@@ -256,6 +282,9 @@ def count(q, bgp):
     Compte le nombre de fois que l'on trouve la variable dans le BGP
     Si c'est > 1 alors il y a une jointure sur cette variable !
     """
+    #---
+    assert bgp is not None
+    #---
     n = 0
     for (s, p, o) in bgp:
         if (s == q) or (p == q) or (o == q):
@@ -267,6 +296,9 @@ def count(q, bgp):
 
 
 def valid(bgp):
+    #---
+    assert bgp is not None
+    #---
     ok = True
     for (s, p, o) in bgp:
         ok = (
@@ -342,16 +374,28 @@ def em2(e1, e2):
 #==================================================
 
 def toRDFLibGraph(bgp):
-  g = Graph()
-  for (s, p, o) in bgp:
-    g.add((s, p, o))
-  return g 
+    """
+    BGP (list of TP) -> RDFLib Graph
+    """
+    #---
+    assert bgp is not None
+    #---
+    g = Graph()
+    for (s, p, o) in bgp:
+        g.add((s, p, o))
+    return g 
 
 
 #==================================================
 
 
 def BGPtoGraph(bgp):
+    """
+    BGP (list of TP) -> networkx Graph
+    """
+    #---
+    assert bgp is not None
+    #---
     g = nx.MultiDiGraph()
     for (s, p, o) in bgp:
         if not (s in g):
@@ -369,6 +413,9 @@ def BGPtoGraph(bgp):
 
 
 def equals(g1, g2):
+    #---
+    assert isinstance(g1, nx.Graph) and isinstance(g2, nx.Graph)
+    #---
     return nx.isomorphism.GraphMatcher(
         g1, g2, node_match=nm, edge_match=em2).is_isomorphic()
 
