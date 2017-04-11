@@ -50,7 +50,7 @@ def compute(idp, tab_date, sem, in_queue, stat, default_prefixes):
                         with sem:
                             saveEntry(file, s, host)
         except Empty as e:
-            print('empty!')
+            logging.info('empty!')
         except Exception as e:
             print(e)
             break

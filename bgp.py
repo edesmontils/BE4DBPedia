@@ -64,6 +64,8 @@ def canonicalize_sparql_bgp(gp):
     >>> cgp == canonicalize_sparql_bgp(gp2)
     True
 
+    Source : https://github.com/RDFLib/rdflib/issues/483 
+
     """
     #assert isinstance(gp, Iterable)
     g = Graph()
