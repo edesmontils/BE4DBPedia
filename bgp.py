@@ -221,6 +221,9 @@ def serializeBGP2str(bgp):
     """
     from rdflib -> string
     """
+    #---
+    assert bgp is not None
+    #---
     ser = '<bgp>\n'
     for (s, p, o) in bgp:
         ser += '<tp>' + serialize2str('s',
