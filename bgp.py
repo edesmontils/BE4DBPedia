@@ -1,7 +1,7 @@
 #!/usr/bin/env python3.6
 # coding: utf8
 """
-Tools to manage BGP
+Fonctions pour le projet LIFT
 """
 #    Copyright (C) 2017 by
 #    Emmanuel Desmontils <emmanuel.desmontils@univ-nantes.fr>
