@@ -1,6 +1,13 @@
 #!/usr/bin/env python3.6
 # coding: utf8
-#from __future__ import unicode_literals
+"""
+Application to extract BGP from a DBPedia log.
+"""
+#    Copyright (C) 2017 by
+#    Emmanuel Desmontils <emmanuel.desmontils@univ-nantes.fr>
+#    Patricia Serrano-Alvarado <patricia.serrano-alvarado@univ-nantes.fr>
+#    All rights reserved.
+#    GPL v 2.0 license.
 
 import time
 import datetime
