@@ -96,7 +96,7 @@ for d in users:
         if os.path.isfile(file):
             closeLog(file)
             if doRanking: 
-                rankAnalysis(file)
+                rankAnalysis(file) 
 
 logging.info('Fin')
 print('Nb line(s) : ', nb_lines)
