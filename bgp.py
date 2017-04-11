@@ -235,6 +235,9 @@ def serializeBGP(bgp):
     """
     from rdflib -> lxml
     """
+    #---
+    assert bgp is not None
+    #---
     bgp_node = etree.Element('bgp')
     for (s, p, o) in bgp:
         tp_node = etree.Element('tp')
@@ -276,6 +279,9 @@ def count(q, bgp):
     Compte le nombre de fois que l'on trouve la variable dans le BGP
     Si c'est > 1 alors il y a une jointure sur cette variable !
     """
+    #---
+    assert bgp is not None
+    #---
     n = 0
     for (s, p, o) in bgp:
         if (s == q) or (p == q) or (o == q):
@@ -287,6 +293,9 @@ def count(q, bgp):
 
 
 def valid(bgp):
+    #---
+    assert bgp is not None
+    #---
     ok = True
     for (s, p, o) in bgp:
         ok = (
@@ -365,6 +374,9 @@ def toRDFLibGraph(bgp):
     """
     BGP (list of TP) -> RDFLib Graph
     """
+    #---
+    assert bgp is not None
+    #---
     g = Graph()
     for (s, p, o) in bgp:
         g.add((s, p, o))
@@ -378,6 +390,9 @@ def BGPtoGraph(bgp):
     """
     BGP (list of TP) -> networkx Graph
     """
+    #---
+    assert bgp is not None
+    #---
     g = nx.MultiDiGraph()
     for (s, p, o) in bgp:
         if not (s in g):
