@@ -28,8 +28,8 @@ from beLibProcesses import *
 #==================================================
 
 
-def compute(sem, in_queue, stat, default_prefixes):
-    logging.debug('Start compute worker "%s"', os.getpid())
+def compute(idp, tab_date, sem, in_queue, stat, default_prefixes):
+    logging.debug('(%d) Start compute worker "%s"' %(idp, os.getpid()) )
     while True:
         try:
             mess = in_queue.get()
@@ -38,6 +38,8 @@ def compute(sem, in_queue, stat, default_prefixes):
             else:
                 (query, param_list, host, file, date, line) = mess
                 logging.debug('Treat mess in %s %s', os.getpid(), host)
+                if date != tab_date[idp]:
+                    tab_date[idp] = date
                 (ok, nquery, bgp) = validate(
                     ParallelCounter(stat, date), line, host, query,
                     default_prefixes)
@@ -75,17 +77,21 @@ logging.info('Initialisations')
 pattern = makeLogPattern()
 old_date = ''
 nb_lines = 0
-file_set = set()
+file_set = dict()
 
 nb_processes = args.nb_processes
 logging.info('Lancement des %d processus de traitement', nb_processes)
 sem = Lock()
 stat = Stat()
+manager = mp.Manager()
+tab_date = manager.dict()
+for i in range(nb_processes) :
+    tab_date[i]=''
 compute_queue = mp.Queue()
 process_list = [
     mp.Process(
-        target=compute, args=(sem, compute_queue, stat, default_prefixes))
-    for _ in range(nb_processes)
+        target=compute, args=(i, tab_date, sem, compute_queue, stat, default_prefixes))
+    for i in range(nb_processes)
 ]
 for process in process_list:
     process.start()
@@ -106,6 +112,7 @@ for line in f_in:
             logging.info('%d - passage de %s', nb_lines, date)
 
         old_date = date
+        file_set[date] = set()
         rep = newDir(baseDir, date)
         cpt = ParallelCounter(stat, date)
 
@@ -117,7 +124,7 @@ for line in f_in:
         if (query != ''):
             file = rep + ip + '-be4dbp.xml'
             compute_queue.put((query, param_list, ip, file, date, nb_lines))
-            file_set.add(file)
+            file_set[date].add(file)
         else:
             logging.debug('(%d) No query for %s', nb_lines, ip)
             cpt.autre()
@@ -134,9 +141,10 @@ for process in process_list:
 stat.stop()
 
 logging.info('Terminaison des fichiers')
-for file in file_set:
-    if os.path.isfile(file):
-        closeLog(file)
+for date in file_set:
+    for file in file_set[date]:
+        if os.path.isfile(file):
+            closeLog(file)
 
 if doRanking:
     logging.info('Lancement des %d processus d\'analyse', nb_processes)
@@ -147,10 +155,11 @@ if doRanking:
     for process in process_list:
         process.start()
 
-    for file in file_set:
-        if os.path.isfile(file):
-            logging.debug('Analyse de "%s"', file)
-            compute_queue.put(file)
+    for date in file_set:
+        for file in file_set[date]:
+            if os.path.isfile(file):
+                logging.debug('Analyse de "%s"', file)
+                compute_queue.put(file)
 
     logging.info('Arrêt des processus d' 'analyse')
     for process in process_list:
