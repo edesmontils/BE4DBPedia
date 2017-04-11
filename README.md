@@ -1,5 +1,5 @@
-# BGP Extractor for DBpedia Logs provided in http://usewod.org
-
+# BGP Extractor for logs of the SPARQL endpoint of DBpedia
+#### DBpedia logs from http://usewod.org
 
 ## Contacts
 
