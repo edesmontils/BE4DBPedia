@@ -553,6 +553,8 @@ def setStdArgs(exp):
         default='')
     parser.add_argument("-d", "--dir", dest="baseDir",
                         help="Set the directory for results", default='./logs')
+    parser.add_argument("-r","--ranking", help="do ranking after extraction",
+                    action="store_true",dest="doR")
     return parser
 
 
@@ -560,9 +562,10 @@ def manageStdArgs(args):
     manageLogging(args.logLevel)
     refDate = manageDT(args.refdate)
     baseDir = manageDirectories(args.baseDir)
+    doRanking = args.doR
     logging.info('Ouverture de "%s"' % args.file)
     f_in = open(args.file, 'r')
-    return (refDate, baseDir, f_in)
+    return (refDate, baseDir, f_in, doRanking)
 
 
 #==================================================

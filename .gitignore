@@ -11,6 +11,8 @@ testRegex.py
 
 *.xml
 
+logs/*/*.dtd
+
 *.zip
 
 *.webloc
@@ -29,9 +31,8 @@ divers/*
 
 logs20151031/*
 
-
 scan-2b.py
 
 scan-3.py
 
-__pycache__/*
+__pycache__

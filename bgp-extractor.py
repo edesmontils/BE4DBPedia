@@ -40,7 +40,7 @@ def compute(cpt, line, file, date, host, query, param_list, default_prefixes,
 
 parser = setStdArgs('BGP Extractor for DBPedia log.')
 args = parser.parse_args()
-(refDate, baseDir, f_in) = manageStdArgs(args)
+(refDate, baseDir, f_in, doRanking) = manageStdArgs(args)
 
 logging.info('Initialisations')
 pattern = makeLogPattern()
@@ -90,12 +90,13 @@ for line in f_in:
 logging.info('Fermeture des fichiers')
 f_in.close()
 
-# for d in users:
-#     for f in users[d]:
-#         file = users[d][f]
-#         if os.path.isfile(file):
-#             closeLog(file)
-#             rankAnalysis(file)
+for d in users:
+    for f in users[d]:
+        file = users[d][f]
+        if os.path.isfile(file):
+            closeLog(file)
+            if doRanking: 
+                rankAnalysis(file)
 
 logging.info('Fin')
 print('Nb line(s) : ', nb_lines)

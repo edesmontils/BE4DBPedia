@@ -66,7 +66,7 @@ parser = setStdArgs('Parallel BGP Extractor for DBPedia log.')
 parser.add_argument("-p", "--proc", type=int, default=mp.cpu_count(), dest="nb_processes",
                     help="Number of processes used (%d by default)" % mp.cpu_count())
 args = parser.parse_args()
-(refDate, baseDir, f_in) = manageStdArgs(args)
+(refDate, baseDir, f_in, doRanking) = manageStdArgs(args)
 
 logging.info('Lecture des préfixes par défaut')
 default_prefixes = loadPrefixes()
@@ -138,23 +138,24 @@ for file in file_set:
     if os.path.isfile(file):
         closeLog(file)
 
-# logging.info('Lancement des %d processus d\'analyse', nb_processes)
-# process_list = [
-#     mp.Process(target=analyse, args=(compute_queue, ))
-#     for _ in range(nb_processes)
-# ]
-# for process in process_list:
-#     process.start()
+if doRanking:
+    logging.info('Lancement des %d processus d\'analyse', nb_processes)
+    process_list = [
+        mp.Process(target=analyse, args=(compute_queue, ))
+        for _ in range(nb_processes)
+    ]
+    for process in process_list:
+        process.start()
 
-# for file in file_set:
-#     if os.path.isfile(file):
-#         logging.debug('Analyse de "%s"', file)
-#         compute_queue.put(file)
+    for file in file_set:
+        if os.path.isfile(file):
+            logging.debug('Analyse de "%s"', file)
+            compute_queue.put(file)
 
-# logging.info('Arrêt des processus d' 'analyse')
-# for process in process_list:
-#     compute_queue.put(None)
-# for process in process_list:
-#     process.join()
+    logging.info('Arrêt des processus d' 'analyse')
+    for process in process_list:
+        compute_queue.put(None)
+    for process in process_list:
+        process.join()
 
 logging.info('Fin')
