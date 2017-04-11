@@ -1,10 +1,10 @@
-# BGP Extractor for DBPedia Log
+# BGP Extractor for DBpedia Logs provided in usewod.org
 
 
-## Contact
+## Contacts
 
-- E. Desmontils
-- P. Serrano-Alvarado
+- E. Desmontils (Emmanuel.Desmontils_at_univ-nantes.fr)
+- P. Serrano-Alvarado (Patricia.Serrano-Alvarado_at_univ-nantes.fr)
 
 ## usage
 ###  bgp-extractor
