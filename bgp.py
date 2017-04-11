@@ -159,6 +159,26 @@ def getBGP(n):
         nbgp.append((treat(s), treat(p), treat(o)))
     return nbgp
 
+
+def extractBGP(text):
+  try:
+    tree = parseQuery(text)
+    try:
+      q = translateQuery(tree)
+      try:
+        BGPSet = getBGP(q.algebra)
+        return BGPSet
+      except ValueError as e:
+          print('Pb de BGP', e)
+          return None      
+    except Exception as e:
+        print('Pb translateQuery:' + e.__str__())
+        return None
+  except Exception as e:
+      print('Pb parseQuery:' + e.__str__())
+      return None
+
+
 #==================================================
 
 
@@ -342,16 +362,22 @@ def em2(e1, e2):
 #==================================================
 
 def toRDFLibGraph(bgp):
-  g = Graph()
-  for (s, p, o) in bgp:
-    g.add((s, p, o))
-  return g 
+    """
+    BGP (list of TP) -> RDFLib Graph
+    """
+    g = Graph()
+    for (s, p, o) in bgp:
+        g.add((s, p, o))
+    return g 
 
 
 #==================================================
 
 
 def BGPtoGraph(bgp):
+    """
+    BGP (list of TP) -> networkx Graph
+    """
     g = nx.MultiDiGraph()
     for (s, p, o) in bgp:
         if not (s in g):
@@ -369,6 +395,9 @@ def BGPtoGraph(bgp):
 
 
 def equals(g1, g2):
+    #---
+    assert isinstance(g1, nx.Graph) and isinstance(g2, nx.Graph)
+    #---
     return nx.isomorphism.GraphMatcher(
         g1, g2, node_match=nm, edge_match=em2).is_isomorphic()
 
