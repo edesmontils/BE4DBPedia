@@ -62,13 +62,12 @@ def compute(idp, tab_date, sem, in_queue, stat, default_prefixes, doTPFC):
 #==================================================
 
 # Traitement de la ligne de commande
-# time python3.6 scan-2.py -p 4 -t '2015-11-03T02:00:00+01:00'
 
 parser = setStdArgs('Parallel BGP Extractor for DBPedia log.')
 max_processes = mp.cpu_count()
 nb_processes_default = min(4, max_processes / 2)
 parser.add_argument("-p", "--proc", type=int, default=nb_processes_default, dest="nb_processes",
-                    help="Number of processes used to extract (%d by default) over %d usuable processes)" % (nb_processes_default,max_processes))
+                    help="Number of processes used to extract (%d by default) over %d usuable processes" % (nb_processes_default,max_processes))
 args = parser.parse_args()
 (refDate, baseDir, f_in, doRanking, doTPFC) = manageStdArgs(args)
 
