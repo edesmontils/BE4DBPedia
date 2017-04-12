@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!ELEMENT request (#PCDATA) >
-
 <!ELEMENT bgp (tp*)>
 <!ELEMENT tp (s,p,o)>
 <!ELEMENT s (#PCDATA)>

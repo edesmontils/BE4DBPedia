@@ -317,17 +317,18 @@ def makeLogPattern():
 #==================================================
 
 
-def addBGP2Rank(bgp, query, rank):
+def addBGP2Rank(bgp, query, line, ranking):
     ok = False
-    for (i, (d, p, n)) in enumerate(rank):
+    for (i, (d, p, n, ll)) in enumerate(ranking):
         if bgp == d:
             # if equals(bgp,d) :
             ok = True
             break
     if ok:
-        rank[i] = (d, p, n + 1)
+        ll.add(line)
+        ranking[i] = (d, p, n+1, ll)
     else:
-        rank.append((bgp, query, 1))
+        ranking.append( (bgp, query, 1 , {line}) )
 
 
 #==================================================
@@ -343,22 +344,21 @@ def rankAnalysis(file):
     assert dtd.validate(tree), '%s non valide au chargement : %s' % (
         file, dtd.error_log.filter_from_errors()[0])
     #---
-
     ranking = []
     nbe = 0
     for entry in tree.getroot():
         nbe += 1
+        ide = entry.get('logline')
         bgp = unSerializeBGP(entry.find('bgp'))
         cbgp = canonicalize_sparql_bgp(bgp)
         addBGP2Rank(
             cbgp,
-            entry.find('request').text, ranking)
+            entry.find('request').text, ide, ranking)
     ranking.sort(key=itemgetter(2, 1), reverse=True)
     node_tree_ranking = etree.Element('ranking')
     node_tree_ranking.set('ip', tree.getroot().get('ip'))
-    i = 0
-    for (bgp, query, freq) in ranking:
-        i += 1
+    for (i, (bgp, query, freq, lines)) in enumerate(ranking):
+        s = " ".join(x for x in lines)
         f = freq / nbe
         node_r = etree.SubElement(
             node_tree_ranking,
@@ -366,12 +366,13 @@ def rankAnalysis(file):
             attrib={
                 'frequence': '{:04.3f}'.format(f),
                 'nb-occurences': '{:d}'.format(freq),
-                'rank':'{:d}'.format(i)}
+                'rank':'{:d}'.format(i+1),'lines':'{:s}'.format(s)
+                }
         )
         node_b = serializeBGP(bgp)
         node_r.append(node_b)
-        node_q = etree.SubElement(node_r, 'request')
-        node_q.text = query
+        #node_q = etree.SubElement(node_r, 'request')
+        #node_q.text = query
 
     try:
         file_ranking = file[:-4]+'-ranking.xml'

@@ -3,11 +3,12 @@
 <!ELEMENT ranking (entry-rank*) >
 <!ATTLIST ranking ip CDATA #REQUIRED >
 
-<!ELEMENT entry-rank (bgp,request) >
+<!ELEMENT entry-rank (bgp) >
 <!ATTLIST entry-rank 
     frequence CDATA #REQUIRED 
     nb-occurences CDATA #REQUIRED
-    rank CDATA #REQUIRED > 
+    rank CDATA #REQUIRED
+    lines NMTOKENS #REQUIRED > 
     <!-- 
     frequence : decimal in [0..1] = nb-occurences/size(entry-list)
     nb-occurences : integer
@@ -15,3 +16,5 @@
     -->
 <!ENTITY % bgp SYSTEM 'bgp.dtd' >
 %bgp;
+
+<!--ELEMENT request (#PCDATA) -->

@@ -12,6 +12,7 @@
     
 <!ENTITY % bgp SYSTEM 'bgp.dtd' >
 %bgp;
-	
+
+<!ELEMENT request (#PCDATA) >	
 <!ELEMENT param EMPTY > <!-- other url parameters of the http request -->
 <!ATTLIST param name CDATA #REQUIRED val CDATA #REQUIRED >

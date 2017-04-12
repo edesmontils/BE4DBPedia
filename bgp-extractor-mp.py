@@ -32,7 +32,7 @@ def compute(idp, tab_date, sem, in_queue, stat, default_prefixes):
     logging.debug('(%d) Start compute worker "%s"' %(idp, os.getpid()) )
     while True:
         try:
-            mess = in_queue.get()
+            mess = in_queue.get(timeout=5)
             if mess is None:
                 break
             else:
@@ -50,7 +50,7 @@ def compute(idp, tab_date, sem, in_queue, stat, default_prefixes):
                         with sem:
                             saveEntry(file, s, host)
         except Empty as e:
-            logging.info('empty!')
+            logging.info('%d - %s empty!' %(idp, os.getpid()) )
         except Exception as e:
             print(e)
             break
@@ -98,6 +98,16 @@ for process in process_list:
 
 cpt = ParallelCounter(stat)
 
+if doRanking:
+    logging.info('Lancement des %d processus d\'analyse', nb_processes)
+    ranking_queue = mp.Queue()
+    ranking_list = [
+        mp.Process(target=analyse, args=(ranking_queue, ))
+        for _ in range(nb_processes)
+    ]
+    for process in ranking_list:
+        process.start()
+
 logging.info('Lancement du traitement')
 for line in f_in:
     nb_lines += 1
@@ -118,6 +128,20 @@ for line in f_in:
 
     if nb_lines % 1000 == 0:
         logging.info('%d ligne(s) vues', nb_lines)
+        for d in file_set:
+            if len(file_set[d]) > 0 :
+                i=0
+                for n in range(nb_processes):
+                    if tab_date[n] > d:
+                        i += 1
+                if i == nb_processes:
+                    for file in file_set[d]:
+                        if os.path.isfile(file):
+                            closeLog(file)
+                            if doRanking:
+                                logging.info('Analyse de "%s"', file)
+                                ranking_queue.put(file)
+                    file_set[d].clear()                  
 
     cpt.line()
     if dateOk:  # and (nb_lines < 100):
@@ -141,30 +165,19 @@ for process in process_list:
 stat.stop()
 
 logging.info('Terminaison des fichiers')
-for date in file_set:
-    for file in file_set[date]:
+for d in file_set:
+    for file in file_set[d]:
         if os.path.isfile(file):
             closeLog(file)
+            if doRanking:
+                logging.info('Analyse de "%s"', file)
+                ranking_queue.put(file)
 
 if doRanking:
-    logging.info('Lancement des %d processus d\'analyse', nb_processes)
-    process_list = [
-        mp.Process(target=analyse, args=(compute_queue, ))
-        for _ in range(nb_processes)
-    ]
-    for process in process_list:
-        process.start()
-
-    for date in file_set:
-        for file in file_set[date]:
-            if os.path.isfile(file):
-                logging.debug('Analyse de "%s"', file)
-                compute_queue.put(file)
-
     logging.info('Arrêt des processus d' 'analyse')
-    for process in process_list:
-        compute_queue.put(None)
-    for process in process_list:
+    for process in ranking_list:
+        ranking_queue.put(None)
+    for process in ranking_list:
         process.join()
 
 logging.info('Fin')
