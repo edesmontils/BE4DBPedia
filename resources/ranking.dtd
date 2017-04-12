@@ -6,7 +6,7 @@
 <!ELEMENT entry-rank (bgp) >
 <!ATTLIST entry-rank 
     frequence CDATA #REQUIRED 
-    nb-occurences CDATA #REQUIRED
+    nb-occurrences CDATA #REQUIRED
     rank CDATA #REQUIRED
     lines NMTOKENS #REQUIRED > 
     <!-- 

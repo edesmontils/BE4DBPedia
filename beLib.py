@@ -365,7 +365,7 @@ def rankAnalysis(file):
             'entry-rank',
             attrib={
                 'frequence': '{:04.3f}'.format(f),
-                'nb-occurences': '{:d}'.format(freq),
+                'nb-occurrences': '{:d}'.format(freq),
                 'rank':'{:d}'.format(i+1),'lines':'{:s}'.format(s)
                 }
         )
