@@ -363,11 +363,15 @@ def rankAnalysis(file):
         addBGP2Rank(
             cbgp,
             entry.find('request').text, ide, ranking)
-    ranking.sort(key=itemgetter(2, 1), reverse=True)
+    ranking.sort(key=itemgetter(2), reverse=True)
     node_tree_ranking = etree.Element('ranking')
     node_tree_ranking.set('ip', tree.getroot().get('ip'))
+    rank = 0
+    old_freq = 0;
     for (i, (bgp, query, freq, lines)) in enumerate(ranking):
-        s = " ".join(x for x in lines)
+        if freq != old_freq:
+            rank += 1
+            old_freq = freq
         f = freq / nbe
         node_r = etree.SubElement(
             node_tree_ranking,
@@ -375,7 +379,8 @@ def rankAnalysis(file):
             attrib={
                 'frequence': '{:04.3f}'.format(f),
                 'nb-occurrences': '{:d}'.format(freq),
-                'rank':'{:d}'.format(i+1),'lines':'{:s}'.format(s)
+                'rank':'{:d}'.format(rank),
+                'lines':'{:s}'.format(" ".join(x for x in lines))
                 }
         )
         node_b = serializeBGP(bgp)
