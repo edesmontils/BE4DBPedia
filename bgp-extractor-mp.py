@@ -65,8 +65,10 @@ def compute(idp, tab_date, sem, in_queue, stat, default_prefixes):
 # time python3.6 scan-2.py -p 4 -t '2015-11-03T02:00:00+01:00'
 
 parser = setStdArgs('Parallel BGP Extractor for DBPedia log.')
-parser.add_argument("-p", "--proc", type=int, default=mp.cpu_count(), dest="nb_processes",
-                    help="Number of processes used (%d by default)" % mp.cpu_count())
+max_processes = mp.cpu_count()
+nb_processes_default = min(4, max_processes / 2)
+parser.add_argument("-p", "--proc", type=int, default=nb_processes_default, dest="nb_processes",
+                    help="Number of processes used (%d by default) over %d usuable processes)" % (nb_processes_default,max_processes))
 args = parser.parse_args()
 (refDate, baseDir, f_in, doRanking) = manageStdArgs(args)
 
@@ -79,7 +81,7 @@ old_date = ''
 nb_lines = 0
 file_set = dict()
 
-nb_processes = args.nb_processes
+nb_processes = min(args.nb_processes,max_processes)
 logging.info('Lancement des %d processus de traitement', nb_processes)
 sem = Lock()
 stat = Stat()
@@ -135,6 +137,7 @@ for line in f_in:
                     if tab_date[n] > d:
                         i += 1
                 if i == nb_processes:
+                    logging.info('cloture pour %s' % d)
                     for file in file_set[d]:
                         if os.path.isfile(file):
                             closeLog(file)
