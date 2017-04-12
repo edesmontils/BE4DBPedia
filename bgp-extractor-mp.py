@@ -70,7 +70,7 @@ nb_processes_default = min(4, max_processes / 2)
 parser.add_argument("-p", "--proc", type=int, default=nb_processes_default, dest="nb_processes",
                     help="Number of processes used to extract (%d by default) over %d usuable processes)" % (nb_processes_default,max_processes))
 args = parser.parse_args()
-(refDate, baseDir, f_in, doRanking) = manageStdArgs(args)
+(refDate, baseDir, f_in, doRanking, doTPFC) = manageStdArgs(args)
 
 logging.info('Lecture des préfixes par défaut')
 default_prefixes = loadPrefixes()
@@ -92,7 +92,7 @@ for i in range(nb_processes) :
 compute_queue = mp.Queue()
 process_list = [
     mp.Process(
-        target=compute, args=(i, tab_date, sem, compute_queue, stat, default_prefixes))
+        target=compute, args=(i, tab_date, sem, compute_queue, stat, default_prefixes, doTPFC))
     for i in range(nb_processes)
 ]
 for process in process_list:

@@ -33,7 +33,7 @@ from rdflib.plugins.sparql.evaluate import evalQuery
 from rdflib.plugins.sparql.update import evalUpdate
 from rdflib import Graph, Literal, BNode, Namespace, RDF, URIRef, Variable
 
-# from SPARQLWrapper import SPARQLWrapper
+from SPARQLWrapper import SPARQLWrapper
 
 from bgp import *
 
@@ -234,12 +234,16 @@ reIsIRI = re.compile(r"""
 """, re.IGNORECASE | re.VERBOSE)
 
 reRegex = re.compile(r"""
-\Wregex\W*
-\(
-    ( [^,()"'<]+ | "[^"]*" | '[^']*' | <[^>]*> | \w* \( [^)]* \) )+
-( , ( [^,()"'<]+ | "[^"]*" | '[^']*' | <[^>]*> | \w* \( [^)]* \) )+ ){2,}
-\)
-""", re.IGNORECASE | re.VERBOSE)
+\Wregex\s*\(
+"""
+# r"""
+# \Wregex\W*
+# \(
+#     ( [^,()"'<]+ | "[^"]*" | '[^']*' | <[^>]*> | \w* \( [^)]* \) )+
+# ( , ( [^,()"'<]+ | "[^"]*" | '[^']*' | <[^>]*> | \w* \( [^)]* \) )+ ){2,}
+# \)
+# """
+, re.IGNORECASE | re.VERBOSE)
 
 reThumbnail = re.compile(r"""
 \Wxsd\:date\s*\(
@@ -257,41 +261,46 @@ def isTPFCompatible(query):
     return ok
 
 
-def validate(cpt, line, ip, query, dp):
-	# if (re.search('(\s+)select(\s+)', query.lower()) is not None):
-	if (reSelect.search(query) is not None):
-	    cpt.select()
-	    # if (re.search('(\s+)union(\s+)', query.lower()) is None):
-	    if (reUnion.search(query) is None):
-	        if isTPFCompatible(query):
-	            try:
-	                tree = parseQuery(query)
-	                (ok, n_query, bgp) = translate(cpt, line, ip, query,
-	                                               tree, dp)
-	                if ok:
-	                    if valid(bgp):
-	                        cpt.ok()
-	                        return (True, n_query, bgp)
-	                    else:
-	                        cpt.bgp_not_valid()
-	                        return (False, None, None)
-	                else:
-	                    return (False, None, None)
-	            except Exception as e:
-	                logging.debug('PB parseQuery (%d) : %s\n%s', line, e, query)
-	                cpt.err_qr()
-	                return (False, None, None)
-	        else:
-	            logging.debug('PB TPF Client (%d) : %s', line, query)
-	            cpt.err_tpf()
-	            return (False, None, None)
-	    else:
-	        logging.debug('Union (%d) : %s', line, query)
-	        cpt.union()
-	        return (False, None, None)
-	else:
-	    cpt.autre()
-	    return (False, None, None)
+def validate(cpt, line, ip, query, dp, doTPFC):
+    # if (re.search('(\s+)select(\s+)', query.lower()) is not None):
+    if (reSelect.search(query) is not None):
+        cpt.select()
+        # if (re.search('(\s+)union(\s+)', query.lower()) is None):
+        if (reUnion.search(query) is None):
+            try:
+                tree = parseQuery(query)
+                (ok, n_query, bgp) = translate(cpt, line, ip, query,
+                                               tree, dp)
+                if ok:
+                    if valid(bgp):
+                        if doTPFC:
+                            if isTPFCompatible(n_query):
+                                cpt.ok()
+                                return (True, n_query, bgp)
+                            else:
+                                logging.debug('PB TPF Client (%d) : %s', line, n_query)
+                                cpt.err_tpf()
+                                return (False, None, None)
+                        else:
+                            cpt.ok()
+                            return (True, n_query, bgp)
+                    else:
+                        cpt.bgp_not_valid()
+                        return (False, None, None)
+                else:
+                    return (False, None, None)
+            except Exception as e:
+                logging.debug('PB parseQuery (%d) : %s\n%s', line, e, query)
+                cpt.err_qr()
+                return (False, None, None)
+
+        else:
+            logging.debug('Union (%d) : %s', line, query)
+            cpt.union()
+            return (False, None, None)
+    else:
+        cpt.autre()
+        return (False, None, None)
 
 
 #==================================================
@@ -556,6 +565,8 @@ def setStdArgs(exp):
                         help="Set the directory for results", default='./logs')
     parser.add_argument("-r","--ranking", help="do ranking after extraction",
                     action="store_true",dest="doR")
+    parser.add_argument("--tpfc", help="filter some query the TPF Client does'nt treat",
+                    action="store_true",dest="doTPFC")
     return parser
 
 
@@ -564,9 +575,10 @@ def manageStdArgs(args):
     refDate = manageDT(args.refdate)
     baseDir = manageDirectories(args.baseDir)
     doRanking = args.doR
+    doTPFC = args.doTPFC
     logging.info('Ouverture de "%s"' % args.file)
     f_in = open(args.file, 'r')
-    return (refDate, baseDir, f_in, doRanking)
+    return (refDate, baseDir, f_in, doRanking,doTPFC)
 
 
 #==================================================
