@@ -28,7 +28,7 @@ from beLibProcesses import *
 #==================================================
 
 
-def compute(idp, tab_date, sem, in_queue, stat, default_prefixes):
+def compute(idp, tab_date, sem, in_queue, stat, default_prefixes, doTPFC):
     logging.debug('(%d) Start compute worker "%s"' %(idp, os.getpid()) )
     while True:
         try:
@@ -42,7 +42,7 @@ def compute(idp, tab_date, sem, in_queue, stat, default_prefixes):
                     tab_date[idp] = date
                 (ok, nquery, bgp) = validate(
                     ParallelCounter(stat, date), line, host, query,
-                    default_prefixes)
+                    default_prefixes, doTPFC)
                 logging.debug('Analyse "%s" pour %s', ok, host)
                 if ok:
                     s = buildXMLBGP(nquery, param_list, bgp, host, date, line)

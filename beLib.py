@@ -33,7 +33,7 @@ from rdflib.plugins.sparql.evaluate import evalQuery
 from rdflib.plugins.sparql.update import evalUpdate
 from rdflib import Graph, Literal, BNode, Namespace, RDF, URIRef, Variable
 
-from SPARQLWrapper import SPARQLWrapper
+#from SPARQLWrapper import SPARQLWrapper
 
 from bgp import *
 
