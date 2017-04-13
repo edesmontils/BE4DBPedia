@@ -33,7 +33,7 @@ from rdflib.plugins.sparql.evaluate import evalQuery
 from rdflib.plugins.sparql.update import evalUpdate
 from rdflib import Graph, Literal, BNode, Namespace, RDF, URIRef, Variable
 
-#from SPARQLWrapper import SPARQLWrapper
+from SPARQLWrapper import SPARQLWrapper, JSON
 
 from bgp import *
 
@@ -115,10 +115,6 @@ def loadPrefixes():
         except csv.Error as e:
             sys.exit('file %s, line %d: %s' % (f, reader.line_num, e))
 
-
-#==================================================
-# sparql = SPARQLWrapper("http://dbpedia.org/sparql")
-
 #==================================================
 
 
@@ -130,6 +126,7 @@ class Counter:
             'err_qr': 0,
             'err_ns': 0,
             'ok': 0,
+            'emptyQuery':0,
             'select': 0,
             'autre': 0,
             'union': 0,
@@ -151,6 +148,9 @@ class Counter:
 
     def err_ns(self):
         self.cpt['err_ns'] += 1
+
+    def emptyQuery(self):
+        self.cpt['emptyQuery'] += 1
 
     def ok(self):
         self.cpt['ok'] += 1
@@ -260,6 +260,36 @@ def isTPFCompatible(query):
   else:
     return ok
 
+#sparql = SPARQLWrapper("http://dbpedia.org/sparql")
+sparql = SPARQLWrapper("http://172.16.9.15:8890/sparql")
+sparql.setReturnFormat(JSON)
+reLimit = re.compile(r'limit\s*\d+',re.IGNORECASE)
+def existDBPEDIA(query):
+    """
+    test if the query has at least one response
+    """
+    try:
+        # sparql.setQuery(query)
+        # results = sparql.query().convert()
+        # nb0 = len(results["results"]["bindings"])
+        # #print(nb0, ':', query)
+
+        if reLimit.search(query):
+            query = reLimit.sub('limit 1',query)
+        else:
+            query = query + ' limit 1 '
+        sparql.setQuery(query)
+
+        results = sparql.query().convert()
+        nb1 = len(results["results"]["bindings"])
+        #print(nb1, ':', query)
+
+        # assert (nb0==0 and nb1==0) or (nb0>0 and nb1==1), 'marche pas (%d/%d)' % (nb0,nb1)
+
+        return  nb1 > 0
+    except Exception as e:
+        logging.warning('PB SPARQL:%s',e)
+        return False
 
 def validate(cpt, line, ip, query, dp, doTPFC):
     # if (re.search('(\s+)select(\s+)', query.lower()) is not None):
@@ -275,8 +305,13 @@ def validate(cpt, line, ip, query, dp, doTPFC):
                     if valid(bgp):
                         if doTPFC:
                             if isTPFCompatible(n_query):
-                                cpt.ok()
-                                return (True, n_query, bgp)
+                                if existDBPEDIA(n_query):
+                                    cpt.ok()
+                                    return (True, n_query, bgp)
+                                else:
+                                    logging.debug('PB empty query (%d) : %s', line, n_query)
+                                    cpt.emptyQuery()
+                                    return (False, None, None)
                             else:
                                 logging.debug('PB TPF Client (%d) : %s', line, n_query)
                                 cpt.err_tpf()

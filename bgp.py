@@ -89,15 +89,15 @@ def canonicalize_sparql_bgp(gp):
 
 
 #==================================================
-
-
-def parse(tt, n, ind=''):
-    print(ind, '--', tt, '--')
-    if tt in [
+basicNodes = [
             '_vars', 'start', 'length', 'PV', 'datasetClause', 'arg', 'op',
             'Literal', 'other', 'expr', 'lazy', 'var', 'A', 'template', 'term',
             'res'
-    ]:
+    ]
+
+def parse(tt, n, ind=''):
+    print(ind, '--', tt, '--')
+    if tt in basicNodes:
         print(ind, n)
     elif tt == 'part':
         print(ind, 'part:', n)
@@ -118,11 +118,7 @@ def parse(tt, n, ind=''):
 
 
 def _getBGP(tt, n):
-    if (tt in [
-            '_vars', 'start', 'length', 'PV', 'datasetClause', 'arg', 'op',
-            'Literal', 'other', 'expr', 'lazy', 'var', 'A', 'template', 'term',
-            'res'
-    ]):
+    if (tt in basicNodes):
         return []
     elif tt == 'part':
         s = []

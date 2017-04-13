@@ -43,6 +43,10 @@ class ParallelCounter(Counter):
         self.stat.put((self.date, 'ok'))
         Counter.ok(self)
 
+    def emptyQuery(self):
+        self.stat.put((self.date, 'emptyQuery'))
+        Counter.emptyQuery(self)
+
     def select(self):
         self.stat.put((self.date, 'select'))
         Counter.select(self)
