@@ -47,10 +47,14 @@ class ParallelCounter(Counter):
         self.stat.put((self.date, 'emptyQuery'))
         Counter.emptyQuery(self)
 
+    def err_endpoint(self):
+        self.stat.put((self.date, 'err_endpoint'))
+        Counter.err_endpoint(self)
+
     def select(self):
         self.stat.put((self.date, 'select'))
         Counter.select(self)
-
+        
     def autre(self):
         self.stat.put((self.date, 'autre'))
         Counter.autre(self)

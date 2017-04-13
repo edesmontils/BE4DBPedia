@@ -131,7 +131,8 @@ class Counter:
             'autre': 0,
             'union': 0,
             'bgp_not_valid': 0,
-            'err_tpf': 0
+            'err_tpf': 0,
+            'err_endpoint':0
         }
 
     def setDate(self, date):
@@ -145,6 +146,9 @@ class Counter:
 
     def err_qr(self):
         self.cpt['err_qr'] += 1
+
+    def err_endpoint(self):
+        self.cpt['err_endpoint'] += 1
 
     def err_ns(self):
         self.cpt['err_ns'] += 1
@@ -264,7 +268,7 @@ def isTPFCompatible(query):
 sparql = SPARQLWrapper("http://172.16.9.15:8890/sparql")
 sparql.setReturnFormat(JSON)
 reLimit = re.compile(r'limit\s*\d+',re.IGNORECASE)
-def existDBPEDIA(query):
+def existDBPEDIA(cpt,line,query):
     """
     test if the query has at least one response
     """
@@ -285,17 +289,24 @@ def existDBPEDIA(query):
         #print(nb1, ':', query)
 
         # assert (nb0==0 and nb1==0) or (nb0>0 and nb1==1), 'marche pas (%d/%d)' % (nb0,nb1)
-
-        return  nb1 > 0
+        if nb1>0:
+            return True
+        else:
+            logging.debug('Empty Query (%d) : %s', line, n_query)
+            cpt.emptyQuery()
+            return False
     except Exception as e:
-        logging.warning('PB SPARQL:%s',e)
+        message = e.__str__()
+        if message.startswith('QueryBadFormed'):
+            cpt.err_qr()
+        else:
+            cpt.err_endpoint()
+        logging.warning('PB SPARQL Endpoint:%s',e)
         return False
 
 def validate(cpt, line, ip, query, dp, doTPFC):
-    # if (re.search('(\s+)select(\s+)', query.lower()) is not None):
     if (reSelect.search(query) is not None):
         cpt.select()
-        # if (re.search('(\s+)union(\s+)', query.lower()) is None):
         if (reUnion.search(query) is None):
             try:
                 tree = parseQuery(query)
@@ -305,12 +316,10 @@ def validate(cpt, line, ip, query, dp, doTPFC):
                     if valid(bgp):
                         if doTPFC:
                             if isTPFCompatible(n_query):
-                                if existDBPEDIA(n_query):
+                                if existDBPEDIA(cpt,line,n_query):
                                     cpt.ok()
                                     return (True, n_query, bgp)
                                 else:
-                                    logging.debug('PB empty query (%d) : %s', line, n_query)
-                                    cpt.emptyQuery()
                                     return (False, None, None)
                             else:
                                 logging.debug('PB TPF Client (%d) : %s', line, n_query)
