@@ -50,6 +50,7 @@ def compare(file_ground_truth, file_lift_deduction):
 						s==ss and p==pp and (isinstance(o,Variable) and isinstance(oo,Variable)) or (
 						s==ss and (isinstance(p,Variable) and isinstance(pp,Variable)) and o==oo)):
 							b += 1
+							break
 				precision = b/size_bgp_lift
 				recall = b/size_bgp_dbp
 				result += [(cano_dbp,cano_lift,entry_dbp.get('nb-occurences'),entry_lift.get('nb-occurences'),entry_dbp.get('rank'),entry_lift.get('rank'),precision,recall)]
