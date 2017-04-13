@@ -33,7 +33,7 @@ from rdflib.plugins.sparql.evaluate import evalQuery
 from rdflib.plugins.sparql.update import evalUpdate
 from rdflib import Graph, Literal, BNode, Namespace, RDF, URIRef, Variable
 
-# from SPARQLWrapper import SPARQLWrapper
+#from SPARQLWrapper import SPARQLWrapper
 
 from bgp import *
 
@@ -234,12 +234,16 @@ reIsIRI = re.compile(r"""
 """, re.IGNORECASE | re.VERBOSE)
 
 reRegex = re.compile(r"""
-\Wregex\W*
-\(
-    ( [^,()"'<]+ | "[^"]*" | '[^']*' | <[^>]*> | \w* \( [^)]* \) )+
-( , ( [^,()"'<]+ | "[^"]*" | '[^']*' | <[^>]*> | \w* \( [^)]* \) )+ ){2,}
-\)
-""", re.IGNORECASE | re.VERBOSE)
+\Wregex\s*\(
+"""
+# r"""
+# \Wregex\W*
+# \(
+#     ( [^,()"'<]+ | "[^"]*" | '[^']*' | <[^>]*> | \w* \( [^)]* \) )+
+# ( , ( [^,()"'<]+ | "[^"]*" | '[^']*' | <[^>]*> | \w* \( [^)]* \) )+ ){2,}
+# \)
+# """
+, re.IGNORECASE | re.VERBOSE)
 
 reThumbnail = re.compile(r"""
 \Wxsd\:date\s*\(
@@ -257,41 +261,46 @@ def isTPFCompatible(query):
     return ok
 
 
-def validate(cpt, line, ip, query, dp):
-	# if (re.search('(\s+)select(\s+)', query.lower()) is not None):
-	if (reSelect.search(query) is not None):
-	    cpt.select()
-	    # if (re.search('(\s+)union(\s+)', query.lower()) is None):
-	    if (reUnion.search(query) is None):
-	        if isTPFCompatible(query):
-	            try:
-	                tree = parseQuery(query)
-	                (ok, n_query, bgp) = translate(cpt, line, ip, query,
-	                                               tree, dp)
-	                if ok:
-	                    if valid(bgp):
-	                        cpt.ok()
-	                        return (True, n_query, bgp)
-	                    else:
-	                        cpt.bgp_not_valid()
-	                        return (False, None, None)
-	                else:
-	                    return (False, None, None)
-	            except Exception as e:
-	                logging.debug('PB parseQuery (%d) : %s\n%s', line, e, query)
-	                cpt.err_qr()
-	                return (False, None, None)
-	        else:
-	            logging.debug('PB TPF Client (%d) : %s', line, query)
-	            cpt.err_tpf()
-	            return (False, None, None)
-	    else:
-	        logging.debug('Union (%d) : %s', line, query)
-	        cpt.union()
-	        return (False, None, None)
-	else:
-	    cpt.autre()
-	    return (False, None, None)
+def validate(cpt, line, ip, query, dp, doTPFC):
+    # if (re.search('(\s+)select(\s+)', query.lower()) is not None):
+    if (reSelect.search(query) is not None):
+        cpt.select()
+        # if (re.search('(\s+)union(\s+)', query.lower()) is None):
+        if (reUnion.search(query) is None):
+            try:
+                tree = parseQuery(query)
+                (ok, n_query, bgp) = translate(cpt, line, ip, query,
+                                               tree, dp)
+                if ok:
+                    if valid(bgp):
+                        if doTPFC:
+                            if isTPFCompatible(n_query):
+                                cpt.ok()
+                                return (True, n_query, bgp)
+                            else:
+                                logging.debug('PB TPF Client (%d) : %s', line, n_query)
+                                cpt.err_tpf()
+                                return (False, None, None)
+                        else:
+                            cpt.ok()
+                            return (True, n_query, bgp)
+                    else:
+                        cpt.bgp_not_valid()
+                        return (False, None, None)
+                else:
+                    return (False, None, None)
+            except Exception as e:
+                logging.debug('PB parseQuery (%d) : %s\n%s', line, e, query)
+                cpt.err_qr()
+                return (False, None, None)
+
+        else:
+            logging.debug('Union (%d) : %s', line, query)
+            cpt.union()
+            return (False, None, None)
+    else:
+        cpt.autre()
+        return (False, None, None)
 
 
 #==================================================
@@ -317,17 +326,18 @@ def makeLogPattern():
 #==================================================
 
 
-def addBGP2Rank(bgp, query, rank):
+def addBGP2Rank(bgp, line, ranking):
     ok = False
-    for (i, (d, p, n)) in enumerate(rank):
+    for (i, (d, n, ll)) in enumerate(ranking):
         if bgp == d:
             # if equals(bgp,d) :
             ok = True
             break
     if ok:
-        rank[i] = (d, p, n + 1)
+        ll.add(line)
+        ranking[i] = (d, n+1, ll)
     else:
-        rank.append((bgp, query, 1))
+        ranking.append( (bgp, 1 , {line}) )
 
 
 #==================================================
@@ -343,36 +353,36 @@ def rankAnalysis(file):
     assert dtd.validate(tree), '%s non valide au chargement : %s' % (
         file, dtd.error_log.filter_from_errors()[0])
     #---
-
     ranking = []
     nbe = 0
     for entry in tree.getroot():
         nbe += 1
+        ide = entry.get('logline')
         bgp = unSerializeBGP(entry.find('bgp'))
         cbgp = canonicalize_sparql_bgp(bgp)
-        addBGP2Rank(
-            cbgp,
-            entry.find('request').text, ranking)
-    ranking.sort(key=itemgetter(2, 1), reverse=True)
+        addBGP2Rank(cbgp, ide, ranking)
+    ranking.sort(key=itemgetter(1), reverse=True)
     node_tree_ranking = etree.Element('ranking')
     node_tree_ranking.set('ip', tree.getroot().get('ip'))
-    i = 0
-    for (bgp, query, freq) in ranking:
-        i += 1
+    rank = 0
+    old_freq = 0;
+    for (i, (bgp, freq, lines)) in enumerate(ranking):
+        if freq != old_freq:
+            rank += 1
+            old_freq = freq
         f = freq / nbe
         node_r = etree.SubElement(
             node_tree_ranking,
             'entry-rank',
             attrib={
                 'frequence': '{:04.3f}'.format(f),
-                'nb-occurences': '{:d}'.format(freq),
-                'rank':'{:d}'.format(i)}
+                'nb-occurrences': '{:d}'.format(freq),
+                'rank':'{:d}'.format(rank),
+                'lines':'{:s}'.format(" ".join(x for x in lines))
+                }
         )
         node_b = serializeBGP(bgp)
         node_r.append(node_b)
-        node_q = etree.SubElement(node_r, 'request')
-        node_q.text = query
-
     try:
         file_ranking = file[:-4]+'-ranking.xml'
         logging.debug('Ecriture de "%s"', file_ranking)
@@ -555,6 +565,8 @@ def setStdArgs(exp):
                         help="Set the directory for results", default='./logs')
     parser.add_argument("-r","--ranking", help="do ranking after extraction",
                     action="store_true",dest="doR")
+    parser.add_argument("--tpfc", help="filter some query the TPF Client does'nt treat",
+                    action="store_true",dest="doTPFC")
     return parser
 
 
@@ -563,9 +575,10 @@ def manageStdArgs(args):
     refDate = manageDT(args.refdate)
     baseDir = manageDirectories(args.baseDir)
     doRanking = args.doR
+    doTPFC = args.doTPFC
     logging.info('Ouverture de "%s"' % args.file)
     f_in = open(args.file, 'r')
-    return (refDate, baseDir, f_in, doRanking)
+    return (refDate, baseDir, f_in, doRanking,doTPFC)
 
 
 #==================================================

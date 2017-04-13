@@ -21,8 +21,8 @@ from beLib import *
 
 
 def compute(cpt, line, file, date, host, query, param_list, default_prefixes,
-            rep):
-    (ok, nquery, bgp) = validate(cpt, line, host, query, default_prefixes)
+            rep, doTPFC):
+    (ok, nquery, bgp) = validate(cpt, line, host, query, default_prefixes, doTPFC)
     if ok:
         logging.debug('ok (%d) for %s' % (line, query))
         entry = buildXMLBGP(nquery, param_list, bgp, host, date, line)
@@ -40,7 +40,7 @@ def compute(cpt, line, file, date, host, query, param_list, default_prefixes,
 
 parser = setStdArgs('BGP Extractor for DBPedia log.')
 args = parser.parse_args()
-(refDate, baseDir, f_in, doRanking) = manageStdArgs(args)
+(refDate, baseDir, f_in, doRanking, doTPFC) = manageStdArgs(args)
 
 logging.info('Initialisations')
 pattern = makeLogPattern()
@@ -82,7 +82,7 @@ for line in f_in:
             file = rep + ip + '-be4dbp.xml'
             users[date][ip] = file
             compute(cur_cpt, nb_lines, file, date, ip, query, param_list,
-                    default_prefixes, rep)
+                    default_prefixes, rep, doTPFC)
         else:
             logging.debug('(%d) No query for %s', nb_lines, ip)
             cur_cpt.autre()
@@ -96,7 +96,7 @@ for d in users:
         if os.path.isfile(file):
             closeLog(file)
             if doRanking: 
-                rankAnalysis(file)
+                rankAnalysis(file) 
 
 logging.info('Fin')
 print('Nb line(s) : ', nb_lines)
