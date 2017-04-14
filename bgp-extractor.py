@@ -46,22 +46,20 @@ pattern = makeLogPattern()
 users = dict()
 cpt = dict()
 old_date = ''
-nb_lines = 0
-nb_dates = 0
 
 logging.info('Lancement du traitement')
 for line in ctx.file():
-    nb_lines += 1
+    ctx.newLine()
     m = pattern.match(line)
     (query, date, param_list, ip) = extract(m.groupdict())
 
     if (date != old_date):
         dateOk = date.startswith(ctx.refDate)
         if dateOk:
-            logging.info('%d - Study of %s', nb_lines, date)
+            logging.info('%d - Study of %s', ctx.lines(), date)
         else:
-            logging.info('%d - Pass %s', nb_lines, date)
-        nb_dates += 1
+            logging.info('%d - Pass %s', ctx.lines(), date)
+        ctx.newDate(date)
         users[date] = dict()
         old_date = date
         rep = newDir(ctx.baseDir, date)
@@ -69,17 +67,17 @@ for line in ctx.file():
         cur_cpt = cpt[date]
 
     cur_cpt.line()
-    if nb_lines % 1000 == 0:
-        logging.info('%d line(s) viewed (%d for the current date)', nb_lines,
+    if ctx.lines() % 1000 == 0:
+        logging.info('%d line(s) viewed (%d for the current date)', ctx.lines(),
                      cur_cpt.getLine())
 
     if dateOk:
         if (query != ''):
             file = rep + ip + '-be4dbp.xml'
             users[date][ip] = file
-            compute(cur_cpt, nb_lines, file, date, ip, query, param_list, rep, ctx)
+            compute(cur_cpt, ctx.lines(), file, date, ip, query, param_list, rep, ctx)
         else:
-            logging.debug('(%d) No query for %s', nb_lines, ip)
+            logging.debug('(%d) No query for %s', ctx.lines(), ip)
             cur_cpt.autre()
 
 ctx.close()
@@ -95,8 +93,8 @@ for d in users:
 
 logging.info('Fin')
 
-print('Nb line(s) : ', nb_lines)
-print('Nb date(s) : ', nb_dates)
+print('Nb line(s) : ', ctx.lines())
+print('Nb date(s) : ', ctx.nbDates())
 total = Counter()
 for d in cpt:
     total.join(cpt[d])

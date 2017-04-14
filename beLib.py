@@ -648,12 +648,37 @@ class Context:
             self.emptyTest = False
 
         self.file_name = args.file
-        logging.info('Open "%s"' % self.file_name)
-        self.f_in = open(args.file, 'r')
+        if existFile(self.file_name):
+            logging.info('Open "%s"' % self.file_name)
+            self.f_in = open(self.file_name, 'r')
+        else :
+            logging.info('"%s" does\'nt exist' % self.file_name)
+            print('Can\'t open file %s' % self.file_name )
+            sys.exit()
 
         logging.info('Reading of default prefixes')
         self.default_prefixes = loadPrefixes()
 
+        self.nb_lines = 0
+        self.nb_dates = 0
+        self.date_set= set()
+
+    def newLine(self):
+        self.nb_lines += 1
+
+    def lines(self):
+        return self.nb_lines
+
+    def newDate(self,date):
+        self.nb_dates += 1
+        self.date_set.add(date)
+
+    def nbDates(self):
+        return self.nb_dates
+
+    def dates(self):
+        return self.date_set
+        
     def close(self):
         logging.info('Close "%s"' % self.file_name)
         self.f_in.close()

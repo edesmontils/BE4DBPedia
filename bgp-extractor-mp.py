@@ -12,8 +12,6 @@ Multi-processing application to extract BGP from a DBPedia log.
 import time
 import datetime
 #from pprint import pprint
-import os
-import os.path
 
 from multiprocessing import Process, Lock, Queue, BoundedSemaphore, Semaphore
 import multiprocessing as mp
@@ -62,33 +60,27 @@ def compute(idp, tab_date, sem, in_queue, stat, ctx):
 
 # Traitement de la ligne de commande
 
-parser = setStdArgs('Parallel BGP Extractor for DBPedia log.')
-max_processes = mp.cpu_count()
-nb_processes_default = min(4, max_processes / 2)
-parser.add_argument("-p", "--proc", type=int, default=nb_processes_default, dest="nb_processes",
-                    help="Number of processes used to extract (%d by default) over %d usuable processes" % (nb_processes_default,max_processes))
+parser = setParaArgs('Parallel BGP Extractor for DBPedia log.')
 args = parser.parse_args()
 ctx = ParallelContext(args)
 
 logging.info('Initialisations')
 pattern = makeLogPattern()
 old_date = ''
-nb_lines = 0
 file_set = dict()
 
-nb_processes = min(args.nb_processes,max_processes)
-logging.info('Lancement des %d processus de traitement', nb_processes)
+logging.info('Lancement des %d processus de traitement', ctx.nb_processes)
 sem = Lock()
 stat = Stat()
 manager = mp.Manager()
 tab_date = manager.dict()
-for i in range(nb_processes) :
+for i in range(ctx.nb_processes) :
     tab_date[i]=''
 compute_queue = mp.Queue()
 process_list = [
     mp.Process(
         target=compute, args=(i, tab_date, sem, compute_queue, stat, ctx))
-    for i in range(nb_processes)
+    for i in range(ctx.nb_processes)
 ]
 for process in process_list:
     process.start()
@@ -96,42 +88,43 @@ for process in process_list:
 cpt = ParallelCounter(stat)
 
 if ctx.doRanking:
-    logging.info('Lancement des %d processus d\'analyse', nb_processes)
+    logging.info('Lancement des %d processus d\'analyse', ctx.nb_processes)
     ranking_queue = mp.Queue()
     ranking_list = [
         mp.Process(target=analyse, args=(ranking_queue, ))
-        for _ in range(nb_processes)
+        for _ in range(ctx.nb_processes)
     ]
     for process in ranking_list:
         process.start()
 
 logging.info('Lancement du traitement')
 for line in ctx.file():
-    nb_lines += 1
+    ctx.newLine()
     m = pattern.match(line)
     (query, date, param_list, ip) = extract(m.groupdict())
 
     if (date != old_date):
         dateOk = date.startswith(ctx.refDate)
         if dateOk:
-            logging.info('%d - Study of %s', nb_lines, date)
+            logging.info('%d - Study of %s', ctx.lines(), date)
         else:
-            logging.info('%d - Pass %s', nb_lines, date)
+            logging.info('%d - Pass %s', ctx.lines(), date)
 
         old_date = date
+        ctx.newDate(date)
         file_set[date] = set()
         rep = newDir(ctx.baseDir, date)
         cpt = ParallelCounter(stat, date)
 
-    if nb_lines % 1000 == 0:
-        logging.info('%d line(s) viewed', nb_lines)
+    if ctx.lines() % 1000 == 0:
+        logging.info('%d line(s) viewed', ctx.lines())
         for d in file_set:
             if len(file_set[d]) > 0 :
                 i=0
-                for n in range(nb_processes):
+                for n in range(ctx.nb_processes):
                     if tab_date[n] > d:
                         i += 1
-                if i == nb_processes:
+                if i == ctx.nb_processes:
                     logging.info('Close %s' % d)
                     for file in file_set[d]:
                         if existFile(file):
@@ -142,13 +135,13 @@ for line in ctx.file():
                     file_set[d].clear()                  
 
     cpt.line()
-    if dateOk:  # and (nb_lines < 100):
+    if dateOk:  # and (ctx.lines() < 100):
         if (query != ''):
             file = rep + ip + '-be4dbp.xml'
-            compute_queue.put((query, param_list, ip, file, date, nb_lines))
+            compute_queue.put((query, param_list, ip, file, date, ctx.lines()))
             file_set[date].add(file)
         else:
-            logging.debug('(%d) No query for %s', nb_lines, ip)
+            logging.debug('(%d) No query for %s', ctx.lines(), ip)
             cpt.autre()
 
 logging.info('Fermeture de "%s"' % args.file)

@@ -20,11 +20,19 @@ from bgp import *
 from beLib import *
 
 #==================================================
+def setParaArgs(exp):
+    parser = setStdArgs(exp)
+    max_processes = mp.cpu_count()
+    nb_processes_default = min(4, max_processes / 2)
+    parser.add_argument("-p", "--proc", type=int, default=nb_processes_default, dest="nb_processes",
+                    help="Number of processes used to extract (%d by default) over %d usuable processes" % (nb_processes_default,max_processes))
+    return parser
+    
 class ParallelContext(Context):
     def __init__(self,args):
         Context.__init__(self,args)
-        
-
+        self.max_processes = mp.cpu_count()
+        self.nb_processes = min(args.nb_processes,self.max_processes)
 
 
 class ParallelCounter(Counter):
