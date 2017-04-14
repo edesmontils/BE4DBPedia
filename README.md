@@ -95,7 +95,7 @@ Creating a BGP analysis for DBPedia 2015 (October 31)
 
 
 ```
-python3.2 -OO bgp-extractor-mp.py -p 64 -d ./logs-20151031 -f access.log-20151031.log
+python3.2 -OO bgp-extractor-mp.py -p 64 -d ./logs-20151031 access.log-20151031.log
 python3.2 -OO bgp-ranking-analysis.py ./logs-20151031/*/*-be4dbp.xml
 tar cvfz logs-20151031.tar ./logs-20151031/ ; gzip logs-20151031.tar
 ```
