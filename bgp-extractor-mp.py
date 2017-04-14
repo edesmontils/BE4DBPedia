@@ -28,7 +28,7 @@ from beLibProcesses import *
 #==================================================
 
 
-def compute(idp, tab_date, sem, in_queue, stat, default_prefixes, doTPFC):
+def compute(idp, tab_date, sem, in_queue, stat, ctx):
     logging.debug('(%d) Start compute worker "%s"' %(idp, os.getpid()) )
     while True:
         try:
@@ -41,8 +41,7 @@ def compute(idp, tab_date, sem, in_queue, stat, default_prefixes, doTPFC):
                 if date != tab_date[idp]:
                     tab_date[idp] = date
                 (ok, nquery, bgp) = validate(
-                    ParallelCounter(stat, date), line, host, query,
-                    default_prefixes, doTPFC)
+                    ParallelCounter(stat, date), line, host, query, ctx)
                 logging.debug('Analyse "%s" pour %s', ok, host)
                 if ok:
                     s = buildXMLBGP(nquery, param_list, bgp, host, date, line)
@@ -69,10 +68,7 @@ nb_processes_default = min(4, max_processes / 2)
 parser.add_argument("-p", "--proc", type=int, default=nb_processes_default, dest="nb_processes",
                     help="Number of processes used to extract (%d by default) over %d usuable processes" % (nb_processes_default,max_processes))
 args = parser.parse_args()
-(refDate, baseDir, f_in, doRanking, doTPFC) = manageStdArgs(args)
-
-logging.info('Lecture des préfixes par défaut')
-default_prefixes = loadPrefixes()
+ctx = Context(args)
 
 logging.info('Initialisations')
 pattern = makeLogPattern()
@@ -91,7 +87,7 @@ for i in range(nb_processes) :
 compute_queue = mp.Queue()
 process_list = [
     mp.Process(
-        target=compute, args=(i, tab_date, sem, compute_queue, stat, default_prefixes, doTPFC))
+        target=compute, args=(i, tab_date, sem, compute_queue, stat, ctx))
     for i in range(nb_processes)
 ]
 for process in process_list:
@@ -99,7 +95,7 @@ for process in process_list:
 
 cpt = ParallelCounter(stat)
 
-if doRanking:
+if ctx.doRanking:
     logging.info('Lancement des %d processus d\'analyse', nb_processes)
     ranking_queue = mp.Queue()
     ranking_list = [
@@ -110,25 +106,25 @@ if doRanking:
         process.start()
 
 logging.info('Lancement du traitement')
-for line in f_in:
+for line in ctx.file():
     nb_lines += 1
     m = pattern.match(line)
     (query, date, param_list, ip) = extract(m.groupdict())
 
     if (date != old_date):
-        dateOk = date.startswith(refDate)
+        dateOk = date.startswith(ctx.refDate)
         if dateOk:
-            logging.info('%d - Traitement de %s', nb_lines, date)
+            logging.info('%d - Study of %s', nb_lines, date)
         else:
-            logging.info('%d - passage de %s', nb_lines, date)
+            logging.info('%d - Pass %s', nb_lines, date)
 
         old_date = date
         file_set[date] = set()
-        rep = newDir(baseDir, date)
+        rep = newDir(ctx.baseDir, date)
         cpt = ParallelCounter(stat, date)
 
     if nb_lines % 1000 == 0:
-        logging.info('%d ligne(s) vues', nb_lines)
+        logging.info('%d line(s) viewed', nb_lines)
         for d in file_set:
             if len(file_set[d]) > 0 :
                 i=0
@@ -136,12 +132,12 @@ for line in f_in:
                     if tab_date[n] > d:
                         i += 1
                 if i == nb_processes:
-                    logging.info('cloture pour %s' % d)
+                    logging.info('Close %s' % d)
                     for file in file_set[d]:
-                        if os.path.isfile(file):
+                        if existFile(file):
                             closeLog(file)
-                            if doRanking:
-                                logging.info('Analyse de "%s"', file)
+                            if ctx.doRanking:
+                                logging.info('Study of "%s"', file)
                                 ranking_queue.put(file)
                     file_set[d].clear()                  
 
@@ -156,7 +152,7 @@ for line in f_in:
             cpt.autre()
 
 logging.info('Fermeture de "%s"' % args.file)
-f_in.close()
+ctx.close()
 
 logging.info('Arrêt des processus de traitement')
 for process in process_list:
@@ -169,13 +165,13 @@ stat.stop()
 logging.info('Terminaison des fichiers')
 for d in file_set:
     for file in file_set[d]:
-        if os.path.isfile(file):
+        if existFile(file):
             closeLog(file)
-            if doRanking:
+            if ctx.doRanking:
                 logging.info('Analyse de "%s"', file)
                 ranking_queue.put(file)
 
-if doRanking:
+if ctx.doRanking:
     logging.info('Arrêt des processus d' 'analyse')
     for process in ranking_list:
         ranking_queue.put(None)

@@ -50,7 +50,7 @@ for process in process_list:
     process.start()
 
 for file in file_set:
-    if os.path.isfile(file):
+    if existFile(file):
         logging.debug('Analyse de "%s"', file)
         compute_queue.put(file)
 

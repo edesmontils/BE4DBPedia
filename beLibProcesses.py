@@ -20,7 +20,9 @@ from bgp import *
 from beLib import *
 
 #==================================================
-
+class ParallelContext(Context):
+    def __init__(self):
+        pass
 
 class ParallelCounter(Counter):
     def __init__(self, stat, date=''):
@@ -54,7 +56,7 @@ class ParallelCounter(Counter):
     def select(self):
         self.stat.put((self.date, 'select'))
         Counter.select(self)
-        
+
     def autre(self):
         self.stat.put((self.date, 'autre'))
         Counter.autre(self)

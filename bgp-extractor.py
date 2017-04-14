@@ -20,9 +20,8 @@ from beLib import *
 #==================================================
 
 
-def compute(cpt, line, file, date, host, query, param_list, default_prefixes,
-            rep, doTPFC):
-    (ok, nquery, bgp) = validate(cpt, line, host, query, default_prefixes, doTPFC)
+def compute(cpt, line, file, date, host, query, param_list, rep, ctx):
+    (ok, nquery, bgp) = validate(cpt, line, host, query, ctx)
     if ok:
         logging.debug('ok (%d) for %s' % (line, query))
         entry = buildXMLBGP(nquery, param_list, bgp, host, date, line)
@@ -40,7 +39,7 @@ def compute(cpt, line, file, date, host, query, param_list, default_prefixes,
 
 parser = setStdArgs('BGP Extractor for DBPedia log.')
 args = parser.parse_args()
-(refDate, baseDir, f_in, doRanking, doTPFC) = manageStdArgs(args)
+ctx = Context(args)
 
 logging.info('Initialisations')
 pattern = makeLogPattern()
@@ -50,55 +49,52 @@ old_date = ''
 nb_lines = 0
 nb_dates = 0
 
-logging.info('Lecture des préfixes par défaut')
-default_prefixes = loadPrefixes()
-
 logging.info('Lancement du traitement')
-for line in f_in:
+for line in ctx.file():
     nb_lines += 1
     m = pattern.match(line)
     (query, date, param_list, ip) = extract(m.groupdict())
 
     if (date != old_date):
-        dateOk = date.startswith(refDate)
+        dateOk = date.startswith(ctx.refDate)
         if dateOk:
-            logging.info('%d - Traitement de %s', nb_lines, date)
+            logging.info('%d - Study of %s', nb_lines, date)
         else:
-            logging.info('%d - passage de %s', nb_lines, date)
+            logging.info('%d - Pass %s', nb_lines, date)
         nb_dates += 1
         users[date] = dict()
         old_date = date
-        rep = newDir(baseDir, date)
+        rep = newDir(ctx.baseDir, date)
         cpt[date] = Counter(date)
         cur_cpt = cpt[date]
 
     cur_cpt.line()
     if nb_lines % 1000 == 0:
-        logging.info('%d ligne(s) vues (%d pour la date courante)', nb_lines,
+        logging.info('%d line(s) viewed (%d for the current date)', nb_lines,
                      cur_cpt.getLine())
 
     if dateOk:
         if (query != ''):
             file = rep + ip + '-be4dbp.xml'
             users[date][ip] = file
-            compute(cur_cpt, nb_lines, file, date, ip, query, param_list,
-                    default_prefixes, rep, doTPFC)
+            compute(cur_cpt, nb_lines, file, date, ip, query, param_list, rep, ctx)
         else:
             logging.debug('(%d) No query for %s', nb_lines, ip)
             cur_cpt.autre()
 
-logging.info('Fermeture des fichiers')
-f_in.close()
+ctx.close()
 
+logging.info('Fermeture des fichiers')
 for d in users:
     for f in users[d]:
         file = users[d][f]
-        if os.path.isfile(file):
+        if existFile(file):
             closeLog(file)
-            if doRanking: 
+            if ctx.doRanking: 
                 rankAnalysis(file) 
 
 logging.info('Fin')
+
 print('Nb line(s) : ', nb_lines)
 print('Nb date(s) : ', nb_dates)
 total = Counter()

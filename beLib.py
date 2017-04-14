@@ -33,7 +33,7 @@ from rdflib.plugins.sparql.evaluate import evalQuery
 from rdflib.plugins.sparql.update import evalUpdate
 from rdflib import Graph, Literal, BNode, Namespace, RDF, URIRef, Variable
 
-from SPARQLWrapper import SPARQLWrapper, JSON
+from SPARQLWrapper import SPARQLWrapper, JSON, POST
 
 from bgp import *
 
@@ -189,7 +189,7 @@ class Counter:
 #==================================================
 
 
-def translate(cpt, line, ip, query, tree, dp):
+def translate(cpt, line, ip, query, tree, ctx):
     try:
         q = translateQuery(tree).algebra
 
@@ -212,11 +212,10 @@ def translate(cpt, line, ip, query, tree, dp):
         m = e.__str__().split(':')
         if (m[0] == 'Unknown namespace prefix '):
             pr = m[1].strip()
-            if (pr in dp):
+            if (pr in ctx.default_prefixes):
                 n_query = 'PREFIX ' + pr + ': <' + \
                     dp[pr] + '> #ADD by SCAN \n' + query
-                return translate(cpt, line, ip, n_query,
-                                 parseQuery(n_query), dp)
+                return translate(cpt, line, ip, n_query, parseQuery(n_query), ctx)
             else:
                 logging.debug('PB NS (%d) : %s\n%s', line, e, query)
                 cpt.err_ns()
@@ -263,12 +262,9 @@ def isTPFCompatible(query):
     return False
   else:
     return ok
-
-#sparql = SPARQLWrapper("http://dbpedia.org/sparql")
-sparql = SPARQLWrapper("http://172.16.9.15:8890/sparql")
-sparql.setReturnFormat(JSON)
+#sparql.setRequestMethod(POST)
 reLimit = re.compile(r'limit\s*\d+',re.IGNORECASE)
-def existDBPEDIA(cpt,line,query):
+def existDBPEDIA(cpt,line,query,ctx):
     """
     test if the query has at least one response
     """
@@ -282,45 +278,47 @@ def existDBPEDIA(cpt,line,query):
             query = reLimit.sub('limit 1',query)
         else:
             query = query + ' limit 1 '
-        sparql.setQuery(query)
 
-        results = sparql.query().convert()
-        nb1 = len(results["results"]["bindings"])
-        #print(nb1, ':', query)
+        ok = ctx.notEmpty(query)
 
         # assert (nb0==0 and nb1==0) or (nb0>0 and nb1==1), 'marche pas (%d/%d)' % (nb0,nb1)
-        if nb1>0:
+        if ok:
             return True
         else:
-            logging.debug('Empty Query (%d) : %s', line, n_query)
+            logging.debug('Empty Query (%d) : %s', line, query)
             cpt.emptyQuery()
             return False
     except Exception as e:
         message = e.__str__()
+        print(line, message, query)
         if message.startswith('QueryBadFormed'):
             cpt.err_qr()
+            logging.warning('PB SPARQL Endpoint (QueryBadFormed):%s',e)
         else:
             cpt.err_endpoint()
-        logging.warning('PB SPARQL Endpoint:%s',e)
+            logging.warning('PB SPARQL Endpoint (autre):%s',e)
         return False
 
-def validate(cpt, line, ip, query, dp, doTPFC):
+def validate(cpt, line, ip, query, ctx):
     if (reSelect.search(query) is not None):
         cpt.select()
         if (reUnion.search(query) is None):
             try:
                 tree = parseQuery(query)
-                (ok, n_query, bgp) = translate(cpt, line, ip, query,
-                                               tree, dp)
+                (ok, n_query, bgp) = translate(cpt, line, ip, query, tree, ctx)
                 if ok:
                     if valid(bgp):
-                        if doTPFC:
+                        if ctx.doTPFC:
                             if isTPFCompatible(n_query):
-                                if existDBPEDIA(cpt,line,n_query):
+                                if ctx.emptyTest:
+                                    if existDBPEDIA(cpt,line,n_query,ctx):
+                                        cpt.ok()
+                                        return (True, n_query, bgp)
+                                    else:
+                                        return (False, None, None)
+                                else:
                                     cpt.ok()
                                     return (True, n_query, bgp)
-                                else:
-                                    return (False, None, None)
                             else:
                                 logging.debug('PB TPF Client (%d) : %s', line, n_query)
                                 cpt.err_tpf()
@@ -337,7 +335,6 @@ def validate(cpt, line, ip, query, dp, doTPFC):
                 logging.debug('PB parseQuery (%d) : %s\n%s', line, e, query)
                 cpt.err_qr()
                 return (False, None, None)
-
         else:
             logging.debug('Union (%d) : %s', line, query)
             cpt.union()
@@ -530,7 +527,7 @@ def saveEntry(file, s, host, test=existFile):
 def closeLog(file, test=existFile):
     if test(file):
         try:
-            logging.debug('Fermeture de "%s"', file)
+            logging.debug('Close "%s"', file)
             f_out = open(file, 'a')
             f_out.write('</log>')
         finally:
@@ -555,14 +552,14 @@ def manageLogging(logLevel, logfile = 'be4dbp.log'):
 
 def manageDT(refDate):
     if refDate != '':
-        logging.info('Etude du "%s"', refDate)
+        logging.info('Extracting "%s"', refDate)
     else:
-        logging.info('Etude de tout le fichier')
+        logging.info('Extracting all the file')
     return refDate
 
 
 def manageDirectories(d):
-    logging.info('Résultat dans "%s"', d)
+    logging.info('Results in "%s"', d)
     if os.path.isdir(d):
         dirList = os.listdir(d)
         for f in dirList:
@@ -576,7 +573,7 @@ def manageDirectories(d):
 def newDir(baseDir, date):
     rep = baseDir + date.replace('-', '').replace(':', '').replace('+', '-')
     if not (os.path.isdir(rep)):
-        logging.debug('Création de "%s"', rep)
+        logging.info('Creation of "%s"', rep)
         os.makedirs(rep)
         shutil.copyfile('./resources/log.dtd', rep + '/log.dtd')
         shutil.copyfile('./resources/ranking.dtd', rep + '/ranking.dtd')
@@ -611,19 +608,66 @@ def setStdArgs(exp):
                     action="store_true",dest="doR")
     parser.add_argument("--tpfc", help="filter some query the TPF Client does'nt treat",
                     action="store_true",dest="doTPFC")
+    parser.add_argument("-e","--empty", help="Request an endpoint to verify the query and test it returns at least one triple",
+                    action="store_true",dest="doEmpty")
+    parser.add_argument("-ep","--endpoint", help="The endpoint requested for the '-e' ('--empty') option ('http://dbpedia.org/sparql' by default)",
+                    dest="ep", default='http://dbpedia.org/sparql')
     return parser
 
+class Context:
+    def __init__(self,args):
+        manageLogging(args.logLevel)
 
-def manageStdArgs(args):
-    manageLogging(args.logLevel)
-    refDate = manageDT(args.refdate)
-    baseDir = manageDirectories(args.baseDir)
-    doRanking = args.doR
-    doTPFC = args.doTPFC
-    logging.info('Ouverture de "%s"' % args.file)
-    f_in = open(args.file, 'r')
-    return (refDate, baseDir, f_in, doRanking,doTPFC)
+        self.refDate = manageDT(args.refdate)
 
+        self.baseDir = manageDirectories(args.baseDir)
+
+        if args.doR:
+            self.doRanking = True
+            logging.info('Ranking activated')
+        else:
+            self.doRanking = False
+
+        if args.doTPFC:
+            logging.info('TPFC constraints activated')
+            self.doTPFC = True
+        else:
+            self.doTPFC = False
+
+        if args.doEmpty:
+            self.endpoint = args.ep
+            logging.info('Empty responses tests with %s' % self.endpoint)
+            self.emptyTest = True
+            #sparql = SPARQLWrapper("http://dbpedia.org/sparql")
+            #sparql = SPARQLWrapper("http://172.16.9.15:8890/sparql")
+            self.sparql = SPARQLWrapper(self.endpoint)
+            self.sparql.setReturnFormat(JSON)
+        else:
+            self.emptyTest = False
+
+        self.file_name = args.file
+        logging.info('Open "%s"' % self.file_name)
+        self.f_in = open(args.file, 'r')
+
+        logging.info('Reading of default prefixes')
+        self.default_prefixes = loadPrefixes()
+
+    def close(self):
+        logging.info('Close "%s"' % self.file_name)
+        self.f_in.close()
+
+    def file(self):
+        return self.f_in
+
+    def sparqlRequest(self,query):
+        self.sparql.setQuery(query)
+        return self.sparql.query().convert()
+
+    def notEmpty(self,query):
+        results = self.sparqlRequest(query)
+        nb = len(results["results"]["bindings"])
+        print(nb, ':', query)
+        return nb > 0
 
 #==================================================
 #==================================================
