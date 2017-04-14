@@ -20,6 +20,7 @@ import sys
 import os
 import os.path
 import shutil
+import hashlib
 
 import logging
 import argparse
@@ -568,8 +569,33 @@ class Context:
         self.nb_dates = 0
         self.date_set= set()
 
+        self.cache = dict()
+        if existFile('be4dbp.csv') :
+            logging.info('Reading cache file')
+            with open("be4dbp.csv","r", encoding='utf-8') as f:
+                reader = csv.DictReader(f)
+                for row in reader:
+                    self.cache[row['qhash']] = int(row['nb'])
+
         self.resourcesDir = './resources'
         self.resourceSet = {'log.dtd', 'bgp.dtd', 'ranking.dtd'}
+
+    def close(self):
+        logging.info('Close "%s"' % self.file_name)
+        self.f_in.close()
+
+        print('Nb line(s) : ', self.lines())
+        print('Nb date(s) : ', self.nbDates())
+
+        logging.info('Writing cache file')
+        with open("be4dbp.csv","w", encoding='utf-8') as f:
+            fn=['nb','qhash']
+            writer = csv.DictWriter(f,fieldnames=fn)
+            writer.writeheader()
+            for x in self.cache:
+                writer.writerow({'nb':self.cache[x],'qhash':x})
+
+        logging.info('End')
 
     def setArgs(self,exp):
         # https://docs.python.org/3/library/argparse.html
@@ -662,25 +688,23 @@ class Context:
     def dates(self):
         return self.date_set
 
-    def close(self):
-        logging.info('Close "%s"' % self.file_name)
-        self.f_in.close()
-        print('Nb line(s) : ', self.lines())
-        print('Nb date(s) : ', self.nbDates())
-        logging.info('End')
-
     def file(self):
         return self.f_in
 
     def notEmpty(self,query):
-        if self.reLimit.search(query):
-            query = self.reLimit.sub('limit 1',query)
+        #On cherche d'abord dans le cache
+        qhash = hashlib.sha512(query.encode('utf-8')).hexdigest()
+        if qhash in self.cache:
+            nb = self.cache[qhash]
         else:
-            query = query + ' limit 1 '
-        self.sparql.setQuery(query)
-        results = self.sparql.query().convert()
-        nb = len(results["results"]["bindings"])
-        #print(nb, ':', query)
+            if self.reLimit.search(query):
+                nquery = self.reLimit.sub('limit 1',query)
+            else:
+                nquery = query + ' limit 1 '
+            self.sparql.setQuery(nquery)
+            results = self.sparql.query().convert()
+            nb = len(results["results"]["bindings"])
+            self.cache[qhash] = nb #(nb,query)
         return nb > 0
 
 #==================================================
