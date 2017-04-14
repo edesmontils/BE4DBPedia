@@ -11,19 +11,29 @@
 
 ```
 usage: bgp-extractor.py [-h] [-l {DEBUG,INFO,WARNING,ERROR,CRITICAL}]
-                        [-f FILE] [-t REFDATE] [-d BASEDIR]
+                        [-t REFDATE] [-d BASEDIR] [-r] [--tpfc] [-e] [-ep EP]
+                        file
 
 BGP Extractor for DBPedia log.
+
+positional arguments:
+  file                  Set the file to study
 
 optional arguments:
   -h, --help            show this help message and exit
   -l {DEBUG,INFO,WARNING,ERROR,CRITICAL}, --log {DEBUG,INFO,WARNING,ERROR,CRITICAL}
-                        Set the logging level
-  -f FILE, --file FILE  Set the file to study
+                        Set the logging level (INFO by default)
   -t REFDATE, --datetime REFDATE
                         Set the date-time to study in the log
   -d BASEDIR, --dir BASEDIR
-                        Set the directory for results
+                        Set the directory for results ('./logs' by default)
+  -r, --ranking         do ranking after extraction
+  --tpfc                filter some query the TPF Client does'nt treat
+  -e, --empty           Request an endpoint to verify the query and test it
+                        returns at least one triple
+  -ep EP, --endpoint EP
+                        The endpoint requested for the '-e' ('--empty') option
+                        ('http://dbpedia.org/sparql' by default)
 
 ```
 
@@ -31,23 +41,33 @@ optional arguments:
 
 ```
 usage: bgp-extractor-mp.py [-h] [-l {DEBUG,INFO,WARNING,ERROR,CRITICAL}]
-                           [-f FILE] [-t REFDATE] [-d BASEDIR]
-                           [-p NB_PROCESSES]
+                           [-t REFDATE] [-d BASEDIR] [-r] [--tpfc] [-e]
+                           [-ep EP] [-p NB_PROCESSES]
+                           file
 
 Parallel BGP Extractor for DBPedia log.
+
+positional arguments:
+  file                  Set the file to study
 
 optional arguments:
   -h, --help            show this help message and exit
   -l {DEBUG,INFO,WARNING,ERROR,CRITICAL}, --log {DEBUG,INFO,WARNING,ERROR,CRITICAL}
-                        Set the logging level
-  -f FILE, --file FILE  Set the file to study
+                        Set the logging level (INFO by default)
   -t REFDATE, --datetime REFDATE
                         Set the date-time to study in the log
   -d BASEDIR, --dir BASEDIR
-                        Set the directory for results
+                        Set the directory for results ('./logs' by default)
+  -r, --ranking         do ranking after extraction
+  --tpfc                filter some query the TPF Client does'nt treat
+  -e, --empty           Request an endpoint to verify the query and test it
+                        returns at least one triple
+  -ep EP, --endpoint EP
+                        The endpoint requested for the '-e' ('--empty') option
+                        ('http://dbpedia.org/sparql' by default)
   -p NB_PROCESSES, --proc NB_PROCESSES
-                        Number of processes used (8 by default)
-
+                        Number of processes used to extract (4 by default)
+                        over 8 usuable processes
 ```
 
 ### bgp-ranking-analysis
@@ -68,7 +88,7 @@ optional arguments:
                         Set the logging level
   -p NB_PROCESSES, --proc NB_PROCESSES
                         Number of processes used (8 by default)
-```
+                        ```
 
 ## Exemple
 

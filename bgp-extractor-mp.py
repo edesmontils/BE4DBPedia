@@ -68,7 +68,7 @@ nb_processes_default = min(4, max_processes / 2)
 parser.add_argument("-p", "--proc", type=int, default=nb_processes_default, dest="nb_processes",
                     help="Number of processes used to extract (%d by default) over %d usuable processes" % (nb_processes_default,max_processes))
 args = parser.parse_args()
-ctx = Context(args)
+ctx = ParallelContext(args)
 
 logging.info('Initialisations')
 pattern = makeLogPattern()

@@ -593,9 +593,11 @@ def setStdArgs(exp):
                             'WARNING',
                             'ERROR',
                             'CRITICAL'],
-                        help="Set the logging level", default='INFO')
-    parser.add_argument("-f", "--file", dest="file",
-                        help="Set the file to study", default='log.log')
+                        help="Set the logging level (INFO by default)", default='INFO')
+
+    #parser.add_argument("-f", "--file", dest="file", help="Set the file to study")
+    parser.add_argument("file", help="Set the file to study")
+
     parser.add_argument(
         "-t",
         "--datetime",
@@ -603,7 +605,7 @@ def setStdArgs(exp):
         help="Set the date-time to study in the log",
         default='')
     parser.add_argument("-d", "--dir", dest="baseDir",
-                        help="Set the directory for results", default='./logs')
+                        help="Set the directory for results ('./logs' by default)", default='./logs')
     parser.add_argument("-r","--ranking", help="do ranking after extraction",
                     action="store_true",dest="doR")
     parser.add_argument("--tpfc", help="filter some query the TPF Client does'nt treat",

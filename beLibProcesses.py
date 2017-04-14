@@ -21,8 +21,11 @@ from beLib import *
 
 #==================================================
 class ParallelContext(Context):
-    def __init__(self):
-        pass
+    def __init__(self,args):
+        Context.__init__(self,args)
+        
+
+
 
 class ParallelCounter(Counter):
     def __init__(self, stat, date=''):
