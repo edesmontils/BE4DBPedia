@@ -523,7 +523,6 @@ def saveEntry(file, s, host, test=existFile):
     finally:
         f_out.close()
 
-
 def closeLog(file, test=existFile):
     if test(file):
         try:
@@ -536,40 +535,6 @@ def closeLog(file, test=existFile):
 
 #==================================================
 
-
-def manageLogging(logLevel, logfile = 'be4dbp.log'):
-    if logLevel:
-        # https://docs.python.org/3/library/logging.html?highlight=log#module-logging
-        # https://docs.python.org/3/howto/logging.html#logging-basic-tutorial
-        logging.basicConfig(
-            format='%(levelname)s:%(asctime)s:%(message)s',
-            filename=logfile,
-            filemode='w',
-            level=getattr(
-                logging,
-                logLevel))
-
-
-def manageDT(refDate):
-    if refDate != '':
-        logging.info('Extracting "%s"', refDate)
-    else:
-        logging.info('Extracting all the file')
-    return refDate
-
-
-def manageDirectories(d):
-    logging.info('Results in "%s"', d)
-    if os.path.isdir(d):
-        dirList = os.listdir(d)
-        for f in dirList:
-            if os.path.isdir(d + '/' + f):
-                shutil.rmtree(d + '/' + f)
-    else:
-        os.makedirs(d)
-    return d + '/'
-
-
 def newDir(baseDir, date):
     rep = baseDir + date.replace('-', '').replace(':', '').replace('+', '-')
     if not (os.path.isdir(rep)):
@@ -581,73 +546,41 @@ def newDir(baseDir, date):
     rep = rep + '/'
     return rep
 
-
-def setStdArgs(exp):
-    # https://docs.python.org/3/library/argparse.html
-    # https://docs.python.org/3/howto/argparse.html
-    parser = argparse.ArgumentParser(description=exp)
-    parser.add_argument("-l", "--log", dest="logLevel",
-                        choices=[
-                            'DEBUG',
-                            'INFO',
-                            'WARNING',
-                            'ERROR',
-                            'CRITICAL'],
-                        help="Set the logging level (INFO by default)", default='INFO')
-
-    #parser.add_argument("-f", "--file", dest="file", help="Set the file to study")
-    parser.add_argument("file", help="Set the file to study")
-
-    parser.add_argument(
-        "-t",
-        "--datetime",
-        dest="refdate",
-        help="Set the date-time to study in the log",
-        default='')
-    parser.add_argument("-d", "--dir", dest="baseDir",
-                        help="Set the directory for results ('./logs' by default)", default='./logs')
-    parser.add_argument("-r","--ranking", help="do ranking after extraction",
-                    action="store_true",dest="doR")
-    parser.add_argument("--tpfc", help="filter some query the TPF Client does'nt treat",
-                    action="store_true",dest="doTPFC")
-    parser.add_argument("-e","--empty", help="Request an endpoint to verify the query and test it returns at least one triple",
-                    action="store_true",dest="doEmpty")
-    parser.add_argument("-ep","--endpoint", help="The endpoint requested for the '-e' ('--empty') option ('http://dbpedia.org/sparql' by default)",
-                    dest="ep", default='http://dbpedia.org/sparql')
-    return parser
-
 class Context:
-    def __init__(self,args):
-        manageLogging(args.logLevel)
+    def __init__(self,description):
+        self.setArgs(description)
+        self.args = self.parser.parse_args()
 
-        self.refDate = manageDT(args.refdate)
+        self.manageLogging(self.args.logLevel)
 
-        self.baseDir = manageDirectories(args.baseDir)
+        self.refDate = self.manageDT(self.args.refdate)
 
-        if args.doR:
+        self.baseDir = self.manageDirectories(self.args.baseDir)
+
+        if self.args.doR:
             self.doRanking = True
             logging.info('Ranking activated')
         else:
             self.doRanking = False
 
-        if args.doTPFC:
+        if self.args.doTPFC:
             logging.info('TPFC constraints activated')
             self.doTPFC = True
         else:
             self.doTPFC = False
 
-        if args.doEmpty:
-            self.endpoint = args.ep
+        if self.args.doEmpty:
+            self.endpoint = self.args.ep
             logging.info('Empty responses tests with %s' % self.endpoint)
             self.emptyTest = True
-            #sparql = SPARQLWrapper("http://dbpedia.org/sparql")
-            #sparql = SPARQLWrapper("http://172.16.9.15:8890/sparql")
+            #self.sparql = SPARQLWrapper("http://dbpedia.org/sparql")
+            #self.sparql = SPARQLWrapper("http://172.16.9.15:8890/sparql")
             self.sparql = SPARQLWrapper(self.endpoint)
             self.sparql.setReturnFormat(JSON)
         else:
             self.emptyTest = False
 
-        self.file_name = args.file
+        self.file_name = self.args.file
         if existFile(self.file_name):
             logging.info('Open "%s"' % self.file_name)
             self.f_in = open(self.file_name, 'r')
@@ -662,6 +595,73 @@ class Context:
         self.nb_lines = 0
         self.nb_dates = 0
         self.date_set= set()
+
+    def setArgs(self,exp):
+        # https://docs.python.org/3/library/argparse.html
+        # https://docs.python.org/3/howto/argparse.html
+        self.parser = argparse.ArgumentParser(description=exp)
+        self.parser.add_argument("-l", "--log", dest="logLevel",
+                            choices=[
+                                'DEBUG',
+                                'INFO',
+                                'WARNING',
+                                'ERROR',
+                                'CRITICAL'],
+                            help="Set the logging level (INFO by default)", default='INFO')
+
+        #self.parser.add_argument("-f", "--file", dest="file", help="Set the file to study")
+        self.parser.add_argument("file", help="Set the file to study")
+
+        self.parser.add_argument(
+            "-t",
+            "--datetime",
+            dest="refdate",
+            help="Set the date-time to study in the log",
+            default='')
+        self.parser.add_argument("-d", "--dir", dest="baseDir",
+                            help="Set the directory for results ('./logs' by default)", default='./logs')
+        self.parser.add_argument("-r","--ranking", help="do ranking after extraction",
+                        action="store_true",dest="doR")
+        self.parser.add_argument("--tpfc", help="filter some query the TPF Client does'nt treat",
+                        action="store_true",dest="doTPFC")
+        self.parser.add_argument("-e","--empty", help="Request an endpoint to verify the query and test it returns at least one triple",
+                        action="store_true",dest="doEmpty")
+        self.parser.add_argument("-ep","--endpoint", help="The endpoint requested for the '-e' ('--empty') option ('http://dbpedia.org/sparql' by default)",
+                        dest="ep", default='http://dbpedia.org/sparql')
+
+
+
+    def manageLogging(self,logLevel, logfile = 'be4dbp.log'):
+        if logLevel:
+            # https://docs.python.org/3/library/logging.html?highlight=log#module-logging
+            # https://docs.python.org/3/howto/logging.html#logging-basic-tutorial
+            logging.basicConfig(
+                format='%(levelname)s:%(asctime)s:%(message)s',
+                filename=logfile,
+                filemode='w',
+                level=getattr(
+                    logging,
+                    logLevel))
+
+
+    def manageDT(self,refDate):
+        if refDate != '':
+            logging.info('Extracting "%s"', refDate)
+        else:
+            logging.info('Extracting all the file')
+        return refDate
+
+
+    def manageDirectories(self,d):
+        logging.info('Results in "%s"', d)
+        if os.path.isdir(d):
+            dirList = os.listdir(d)
+            for f in dirList:
+                if os.path.isdir(d + '/' + f):
+                    shutil.rmtree(d + '/' + f)
+        else:
+            os.makedirs(d)
+        return d + '/'
 
     def newLine(self):
         self.nb_lines += 1
@@ -682,6 +682,8 @@ class Context:
     def close(self):
         logging.info('Close "%s"' % self.file_name)
         self.f_in.close()
+        print('Nb line(s) : ', self.lines())
+        print('Nb date(s) : ', self.nbDates())
         logging.info('End')
 
     def file(self):

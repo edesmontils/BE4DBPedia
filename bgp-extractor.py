@@ -37,9 +37,7 @@ def compute(cpt, line, file, date, host, query, param_list, rep, ctx):
 # https://docs.python.org/3/library/argparse.html
 # https://docs.python.org/3/howto/argparse.html
 
-parser = setStdArgs('BGP Extractor for DBPedia log.')
-args = parser.parse_args()
-ctx = Context(args)
+ctx = Context('BGP Extractor for DBPedia log.')
 
 logging.info('Initialisations')
 pattern = makeLogPattern()
@@ -90,13 +88,11 @@ for d in users:
             if ctx.doRanking: 
                 rankAnalysis(file) 
 
-print('Nb line(s) : ', ctx.lines())
-print('Nb date(s) : ', ctx.nbDates())
 total = Counter()
 for d in cpt:
     total.join(cpt[d])
     cpt[d].print()
 print('=========== total =============')
 total.print()
-
+        
 ctx.close()

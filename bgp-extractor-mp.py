@@ -60,9 +60,7 @@ def compute(idp, tab_date, sem, in_queue, stat, ctx):
 
 # Traitement de la ligne de commande
 
-parser = setParaArgs('Parallel BGP Extractor for DBPedia log.')
-args = parser.parse_args()
-ctx = ParallelContext(args)
+ctx = ParallelContext('Parallel BGP Extractor for DBPedia log.')
 
 logging.info('Initialisations')
 pattern = makeLogPattern()
