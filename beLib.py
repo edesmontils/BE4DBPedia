@@ -577,17 +577,16 @@ class Context:
         self.nb_lines = 0
         self.nb_dates = 0
         self.date_set= set()
+        self.resourcesDir = './resources'
+        self.resourceSet = {'log.dtd', 'bgp.dtd', 'ranking.dtd'}
 
         self.cache = dict()
-        if existFile('be4dbp.csv') :
+        if existFile(self.resourcesDir+'/be4dbp.csv') :
             logging.info('Reading cache file')
-            with open("be4dbp.csv","r", encoding='utf-8') as f:
+            with open(self.resourcesDir+"/be4dbp.csv","r", encoding='utf-8') as f:
                 reader = csv.DictReader(f)
                 for row in reader:
                     self.cache[row['qhash']] = int(row['nb'])
-
-        self.resourcesDir = './resources'
-        self.resourceSet = {'log.dtd', 'bgp.dtd', 'ranking.dtd'}
 
     def close(self):
         logging.info('Close "%s"' % self.file_name)
@@ -597,7 +596,7 @@ class Context:
         print('Nb date(s) : ', self.nbDates())
 
         logging.info('Writing cache file')
-        with open("be4dbp.csv","w", encoding='utf-8') as f:
+        with open(self.resourcesDir+"/be4dbp.csv","w", encoding='utf-8') as f:
             fn=['nb','qhash']
             writer = csv.DictWriter(f,fieldnames=fn)
             writer.writeheader()
@@ -704,7 +703,6 @@ class Context:
 
     def notEmpty(self,query):
         #On cherche d'abord dans le cache
-        print(query)
         qhash = hashlib.sha512(query.encode('utf-8')).hexdigest()
         if qhash in self.cache:
             nb = self.cache[qhash]
