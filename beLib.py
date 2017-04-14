@@ -298,7 +298,7 @@ def validate(cpt, line, ip, query, ctx):
                             logging.debug('PB TPF Client (%d) : %s', line, n_query)
                             cpt.err_tpf()
                             return (False, None, None)
-                    if ctx.emptyTest:
+                    if ctx.emptyTest is not None :
                         (done, mss) = existDBPEDIA(line,n_query,ctx)
                         if not(done):
                             if mss=='empty':
