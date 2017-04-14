@@ -34,7 +34,6 @@ optional arguments:
   -ep EP, --endpoint EP
                         The endpoint requested for the '-e' ('--empty') option
                         ('http://dbpedia.org/sparql' by default)
-
 ```
 
 ### bgp-extractor-mp
@@ -88,7 +87,7 @@ optional arguments:
                         Set the logging level
   -p NB_PROCESSES, --proc NB_PROCESSES
                         Number of processes used (8 by default)
-                        ```
+```
 
 ## Exemple
 
