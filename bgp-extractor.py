@@ -80,7 +80,6 @@ for line in ctx.file():
             logging.debug('(%d) No query for %s', ctx.lines(), ip)
             cur_cpt.autre()
 
-ctx.close()
 
 logging.info('Fermeture des fichiers')
 for d in users:
@@ -91,8 +90,6 @@ for d in users:
             if ctx.doRanking: 
                 rankAnalysis(file) 
 
-logging.info('Fin')
-
 print('Nb line(s) : ', ctx.lines())
 print('Nb date(s) : ', ctx.nbDates())
 total = Counter()
@@ -101,3 +98,5 @@ for d in cpt:
     cpt[d].print()
 print('=========== total =============')
 total.print()
+
+ctx.close()

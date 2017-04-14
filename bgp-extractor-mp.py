@@ -144,9 +144,6 @@ for line in ctx.file():
             logging.debug('(%d) No query for %s', ctx.lines(), ip)
             cpt.autre()
 
-logging.info('Fermeture de "%s"' % args.file)
-ctx.close()
-
 logging.info('Arrêt des processus de traitement')
 for process in process_list:
     compute_queue.put(None)
@@ -171,4 +168,4 @@ if ctx.doRanking:
     for process in ranking_list:
         process.join()
 
-logging.info('Fin')
+ctx.close()

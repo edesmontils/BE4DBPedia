@@ -678,10 +678,11 @@ class Context:
 
     def dates(self):
         return self.date_set
-        
+
     def close(self):
         logging.info('Close "%s"' % self.file_name)
         self.f_in.close()
+        logging.info('End')
 
     def file(self):
         return self.f_in
