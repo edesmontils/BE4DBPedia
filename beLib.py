@@ -262,42 +262,23 @@ def isTPFCompatible(query):
     return False
   else:
     return ok
-#sparql.setRequestMethod(POST)
-reLimit = re.compile(r'limit\s*\d+',re.IGNORECASE)
-def existDBPEDIA(cpt,line,query,ctx):
+
+def existDBPEDIA(line,query,ctx):
     """
     test if the query has at least one response
     """
     try:
-        # sparql.setQuery(query)
-        # results = sparql.query().convert()
-        # nb0 = len(results["results"]["bindings"])
-        # #print(nb0, ':', query)
-
-        if reLimit.search(query):
-            query = reLimit.sub('limit 1',query)
-        else:
-            query = query + ' limit 1 '
-
         ok = ctx.notEmpty(query)
-
-        # assert (nb0==0 and nb1==0) or (nb0>0 and nb1==1), 'marche pas (%d/%d)' % (nb0,nb1)
-        if ok:
-            return True
-        else:
-            logging.debug('Empty Query (%d) : %s', line, query)
-            cpt.emptyQuery()
-            return False
+        return (ok, 'empty')
     except Exception as e:
         message = e.__str__()
         print(line, message, query)
         if message.startswith('QueryBadFormed'):
-            cpt.err_qr()
             logging.warning('PB SPARQL Endpoint (QueryBadFormed):%s',e)
+            return (False, 'QBF')
         else:
-            cpt.err_endpoint()
             logging.warning('PB SPARQL Endpoint (autre):%s',e)
-        return False
+            return (False, 'autre')
 
 def validate(cpt, line, ip, query, ctx):
     if (reSelect.search(query) is not None):
@@ -307,28 +288,27 @@ def validate(cpt, line, ip, query, ctx):
                 tree = parseQuery(query)
                 (ok, n_query, bgp) = translate(cpt, line, ip, query, tree, ctx)
                 if ok:
-                    if valid(bgp):
-                        if ctx.doTPFC:
-                            if isTPFCompatible(n_query):
-                                if ctx.emptyTest:
-                                    if existDBPEDIA(cpt,line,n_query,ctx):
-                                        cpt.ok()
-                                        return (True, n_query, bgp)
-                                    else:
-                                        return (False, None, None)
-                                else:
-                                    cpt.ok()
-                                    return (True, n_query, bgp)
-                            else:
-                                logging.debug('PB TPF Client (%d) : %s', line, n_query)
-                                cpt.err_tpf()
-                                return (False, None, None)
-                        else:
-                            cpt.ok()
-                            return (True, n_query, bgp)
-                    else:
+                    if not(valid(bgp)):
                         cpt.bgp_not_valid()
                         return (False, None, None)
+                    if ctx.doTPFC: 
+                        if not(isTPFCompatible(n_query)):
+                            logging.debug('PB TPF Client (%d) : %s', line, n_query)
+                            cpt.err_tpf()
+                            return (False, None, None)
+                    if ctx.emptyTest:
+                        (done, mss) = existDBPEDIA(line,n_query,ctx)
+                        if not(done):
+                            if mss=='empty':
+                                logging.debug('Empty Query (%d) : %s', line, query)
+                                cpt.emptyQuery()
+                            elif mss=='QBF':
+                                cpt.err_qr()
+                            else:
+                                cpt.err_endpoint()
+                            return (False, None, None)
+                    cpt.ok()
+                    return (True, n_query, bgp)
                 else:
                     return (False, None, None)
             except Exception as e:
@@ -566,6 +546,9 @@ class Context:
             #self.sparql = SPARQLWrapper("http://172.16.9.15:8890/sparql")
             self.sparql = SPARQLWrapper(self.endpoint)
             self.sparql.setReturnFormat(JSON)
+            # self.sparql.setRequestMethod(POST)
+            self.reLimit = re.compile(r'limit\s*\d+',re.IGNORECASE)
+
         else:
             self.emptyTest = False
 
@@ -689,12 +672,13 @@ class Context:
     def file(self):
         return self.f_in
 
-    def sparqlRequest(self,query):
-        self.sparql.setQuery(query)
-        return self.sparql.query().convert()
-
     def notEmpty(self,query):
-        results = self.sparqlRequest(query)
+        if self.reLimit.search(query):
+            query = self.reLimit.sub('limit 1',query)
+        else:
+            query = query + ' limit 1 '
+        self.sparql.setQuery(query)
+        results = self.sparql.query().convert()
         nb = len(results["results"]["bindings"])
         print(nb, ':', query)
         return nb > 0
