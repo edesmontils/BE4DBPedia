@@ -98,7 +98,7 @@ def extract(res):
         else:
             # .replace('"', '\'').replace('<', '').replace('>', '')))
             param_list.append((p, q))
-
+    query = ' '.join(query.split())
     return (query, date, param_list, res['host'])
 
 
@@ -270,11 +270,11 @@ def existDBPEDIA(line,query,ctx):
     test if the query has at least one response
     """
     try:
-        ok = ctx.notEmptyTPF(query)
+        ok = ctx.notEmpty(query)
         return (ok, 'empty')
     except Exception as e:
         message = e.__str__()
-        print(line, message, query)
+        print('Erreur existDBPEDIA:',line, message, query)
         if message.startswith('QueryBadFormed'):
             logging.warning('PB SPARQL Endpoint (QueryBadFormed):%s',e)
             return (False, 'QBF')
@@ -540,19 +540,27 @@ class Context:
         else:
             self.doTPFC = False
 
-        if self.args.doEmpty:
-            self.endpoint = self.args.ep
+        if self.args.doEmpty != 'None':
+            self.emptyTest = self.args.doEmpty
+            if self.args.ep == '':
+                if self.emptyTest == 'SPARQL':
+                    self.endpoint = 'http://172.16.9.15:8890/sparql'
+                else:
+                    self.endpoint = 'http://172.16.9.3:5001/dbpedia_3_9'
+            else:
+                self.endpoint = self.args.ep
             logging.info('Empty responses tests with %s' % self.endpoint)
-            self.emptyTest = True
-            #self.sparql = SPARQLWrapper("http://dbpedia.org/sparql")
-            #self.sparql = SPARQLWrapper("http://172.16.9.15:8890/sparql")
-            self.sparql = SPARQLWrapper(self.endpoint)
-            self.sparql.setReturnFormat(JSON)
-            # self.sparql.setRequestMethod(POST)
+            if self.emptyTest == 'SPARQL':
+                #self.sparql = SPARQLWrapper("http://dbpedia.org/sparql")
+                #self.sparql = SPARQLWrapper("http://172.16.9.15:8890/sparql")
+                self.sparql = SPARQLWrapper(self.endpoint)
+                self.sparql.setReturnFormat(JSON)
+                # self.sparql.setRequestMethod(POST)
+            else :
+                pass
             self.reLimit = re.compile(r'limit\s*\d+',re.IGNORECASE)
-
         else:
-            self.emptyTest = False
+            self.emptyTest = None
 
         self.file_name = self.args.file
         if existFile(self.file_name):
@@ -626,10 +634,12 @@ class Context:
                         action="store_true",dest="doR")
         self.parser.add_argument("--tpfc", help="filter some query the TPF Client does'nt treat",
                         action="store_true",dest="doTPFC")
-        self.parser.add_argument("-e","--empty", help="Request an endpoint to verify the query and test it returns at least one triple",
-                        action="store_true",dest="doEmpty")
-        self.parser.add_argument("-ep","--endpoint", help="The endpoint requested for the '-e' ('--empty') option ('http://dbpedia.org/sparql' by default)",
-                        dest="ep", default='http://dbpedia.org/sparql')
+        # self.parser.add_argument("-e","--empty", help="Request a SPARQL or a TPF endpoint to verify the query and test it returns at least one triple",
+        #                 action="store_true",dest="doEmpty")
+        self.parser.add_argument("-e","--empty", help="Request a SPARQL or a TPF endpoint to verify the query and test it returns at least one triple",
+                        choices=['SPARQL','TPF', 'None'],dest="doEmpty",default='None')
+        self.parser.add_argument("-ep","--endpoint", help="The endpoint requested for the '-e' ('--empty') option ( for exemple 'http://dbpedia.org/sparql' for SPARQL)",
+                        dest="ep", default='')
 
     def newDir(self, date):
         rep = self.baseDir + date.replace('-', '').replace(':', '').replace('+', '-')
@@ -692,8 +702,9 @@ class Context:
     def file(self):
         return self.f_in
 
-    def notEmptyEP(self,query):
+    def notEmpty(self,query):
         #On cherche d'abord dans le cache
+        print(query)
         qhash = hashlib.sha512(query.encode('utf-8')).hexdigest()
         if qhash in self.cache:
             nb = self.cache[qhash]
@@ -702,48 +713,34 @@ class Context:
                 nquery = self.reLimit.sub('limit 1',query)
             else:
                 nquery = query + ' limit 1 '
-            self.sparql.setQuery(nquery)
-            results = self.sparql.query().convert()
-            nb = len(results["results"]["bindings"])
-            self.cache[qhash] = nb #(nb,query)
-        return nb > 0
-
-    def notEmptyTPF(self,query):
-        #On cherche d'abord dans le cache
-        qhash = hashlib.sha512(query.encode('utf-8')).hexdigest()
-        if qhash in self.cache:
-            nb = self.cache[qhash]
-            print(nb)
-        else:
-            if self.reLimit.search(query):
-                nquery = self.reLimit.sub('limit 1',query)
+            if self.emptyTest == 'SPARQL':
+                self.sparql.setQuery(nquery)
+                results = self.sparql.query().convert()
+                nb = len(results["results"]["bindings"])
             else:
-                nquery = query + ' limit 1 '
-
-            try:
-                ret = subprocess.run(['ldf-client','http://172.16.9.3:5001/dbpedia_3_9', nquery], 
+                ret = subprocess.run(['ldf-client',self.endpoint, nquery], 
                                      stdout=subprocess.PIPE, encoding='utf-8', stderr=subprocess.PIPE, check=True)
                 out = ret.stdout
                 if out != '':
-                    res= json.loads(out)
-                    nb = len(res)
-                    print(nb, res)
+                    nb = len(json.loads(out))
                 else:
-                    print('Erreur TPF Client', ret.stderr)
-                    nb = 0
-                self.cache[qhash] = nb #(nb,query)
-            except subprocess.CalledProcessError as e :
-                print('Erreur CalledProcessError :',e)
-                print(query)
-                nb = 0
-            except JSONDecodeError as e:
-                print('Erreur JSON :',e)
-                nb = 0
-            except Exception as e:
-                print('Erreur ??? :',e)
-                nb = 0
-            
-        return nb > 0 
+                    raise Exception('TPF Client error : %s' % ret.stderr)
+
+            self.cache[qhash] = nb #(nb,query)
+        return nb > 0
+
+
+                    
+                # except subprocess.CalledProcessError as e :
+                #     logging.info('Erreur CalledProcessError :',e)
+                #     print(query)
+                #     nb = 0
+                # except JSONDecodeError as e:
+                #     print('Erreur JSON :',e)
+                #     nb = 0
+                # except Exception as e:
+                #     print('Erreur ??? :',e)
+                #     nb = 0
 
 #==================================================
 #==================================================
