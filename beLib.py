@@ -535,17 +535,6 @@ def closeLog(file, test=existFile):
 
 #==================================================
 
-def newDir(baseDir, date):
-    rep = baseDir + date.replace('-', '').replace(':', '').replace('+', '-')
-    if not (os.path.isdir(rep)):
-        logging.info('Creation of "%s"', rep)
-        os.makedirs(rep)
-        shutil.copyfile('./resources/log.dtd', rep + '/log.dtd')
-        shutil.copyfile('./resources/ranking.dtd', rep + '/ranking.dtd')
-        shutil.copyfile('./resources/bgp.dtd', rep + '/bgp.dtd')
-    rep = rep + '/'
-    return rep
-
 class Context:
     def __init__(self,description):
         self.setArgs(description)
@@ -596,6 +585,9 @@ class Context:
         self.nb_dates = 0
         self.date_set= set()
 
+        self.resourcesDir = './resources'
+        self.resourceSet = {'log.dtd', 'bgp.dtd', 'ranking.dtd'}
+
     def setArgs(self,exp):
         # https://docs.python.org/3/library/argparse.html
         # https://docs.python.org/3/howto/argparse.html
@@ -629,7 +621,15 @@ class Context:
         self.parser.add_argument("-ep","--endpoint", help="The endpoint requested for the '-e' ('--empty') option ('http://dbpedia.org/sparql' by default)",
                         dest="ep", default='http://dbpedia.org/sparql')
 
-
+    def newDir(self, date):
+        rep = self.baseDir + date.replace('-', '').replace(':', '').replace('+', '-')
+        if not (os.path.isdir(rep)):
+            logging.info('Creation of "%s"', rep)
+            os.makedirs(rep)
+            for x in self.resourceSet:
+                shutil.copyfile(self.resourcesDir+'/'+x, rep + '/'+x)
+        rep = rep + '/'
+        return rep
 
     def manageLogging(self,logLevel, logfile = 'be4dbp.log'):
         if logLevel:

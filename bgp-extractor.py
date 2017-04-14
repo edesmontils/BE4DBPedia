@@ -60,7 +60,7 @@ for line in ctx.file():
         ctx.newDate(date)
         users[date] = dict()
         old_date = date
-        rep = newDir(ctx.baseDir, date)
+        rep = ctx.newDir(date)
         cpt[date] = Counter(date)
         cur_cpt = cpt[date]
 

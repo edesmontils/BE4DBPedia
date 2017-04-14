@@ -111,7 +111,7 @@ for line in ctx.file():
         old_date = date
         ctx.newDate(date)
         file_set[date] = set()
-        rep = newDir(ctx.baseDir, date)
+        rep = ctx.newDir(date)
         cpt = ParallelCounter(stat, date)
 
     if ctx.lines() % 1000 == 0:
