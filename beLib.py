@@ -19,9 +19,10 @@ import csv
 import sys
 import os
 import os.path
+import subprocess
 import shutil
 import hashlib
-
+import json
 import logging
 import argparse
 
@@ -269,7 +270,7 @@ def existDBPEDIA(line,query,ctx):
     test if the query has at least one response
     """
     try:
-        ok = ctx.notEmpty(query)
+        ok = ctx.notEmptyTPF(query)
         return (ok, 'empty')
     except Exception as e:
         message = e.__str__()
@@ -691,7 +692,7 @@ class Context:
     def file(self):
         return self.f_in
 
-    def notEmpty(self,query):
+    def notEmptyEP(self,query):
         #On cherche d'abord dans le cache
         qhash = hashlib.sha512(query.encode('utf-8')).hexdigest()
         if qhash in self.cache:
@@ -706,6 +707,43 @@ class Context:
             nb = len(results["results"]["bindings"])
             self.cache[qhash] = nb #(nb,query)
         return nb > 0
+
+    def notEmptyTPF(self,query):
+        #On cherche d'abord dans le cache
+        qhash = hashlib.sha512(query.encode('utf-8')).hexdigest()
+        if qhash in self.cache:
+            nb = self.cache[qhash]
+            print(nb)
+        else:
+            if self.reLimit.search(query):
+                nquery = self.reLimit.sub('limit 1',query)
+            else:
+                nquery = query + ' limit 1 '
+
+            try:
+                ret = subprocess.run(['ldf-client','http://172.16.9.3:5001/dbpedia_3_9', nquery], 
+                                     stdout=subprocess.PIPE, encoding='utf-8', stderr=subprocess.PIPE, check=True)
+                out = ret.stdout
+                if out != '':
+                    res= json.loads(out)
+                    nb = len(res)
+                    print(nb, res)
+                else:
+                    print('Erreur TPF Client', ret.stderr)
+                    nb = 0
+                self.cache[qhash] = nb #(nb,query)
+            except subprocess.CalledProcessError as e :
+                print('Erreur CalledProcessError :',e)
+                print(query)
+                nb = 0
+            except JSONDecodeError as e:
+                print('Erreur JSON :',e)
+                nb = 0
+            except Exception as e:
+                print('Erreur ??? :',e)
+                nb = 0
+            
+        return nb > 0 
 
 #==================================================
 #==================================================
