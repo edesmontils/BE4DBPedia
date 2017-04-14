@@ -680,7 +680,7 @@ class Context:
         self.sparql.setQuery(query)
         results = self.sparql.query().convert()
         nb = len(results["results"]["bindings"])
-        print(nb, ':', query)
+        #print(nb, ':', query)
         return nb > 0
 
 #==================================================
