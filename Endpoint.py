@@ -118,7 +118,7 @@ class SPARQLEP (Endpoint): # "http://dbpedia.org/sparql" "http://172.16.9.15:889
             print('EndPointInternalError',qstr)
             nb = 0
         except Exception as e:
-            print('Erreur SPARQL EP ??? :',e)
+            print('Erreur SPARQL EP ??? :',e,qstr)
             nb = 0
         return nb > 0
 
@@ -155,6 +155,6 @@ class TPFEP(Endpoint):
             print('JSONDecodeError :',e)
             nb = 0
         except Exception as e:
-            print('Erreur TPF EP ??? :',e)
+            print('Erreur TPF EP ??? :',e , qstr)
             nb = 0
         return nb > 0

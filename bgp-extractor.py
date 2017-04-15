@@ -66,8 +66,8 @@ for line in ctx.file():
 
     cur_cpt.line()
     if ctx.lines() % 1000 == 0:
-        logging.info('%d line(s) viewed (%d for the current date)', ctx.lines(),
-                     cur_cpt.getLine())
+        logging.info('%d line(s) viewed (%d for the current date)', ctx.lines(), cur_cpt.getLine())
+        ctx.save()
 
     if dateOk:
         if (query != ''):

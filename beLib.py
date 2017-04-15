@@ -19,11 +19,8 @@ import csv
 import sys
 import os
 import os.path
-import subprocess
 import shutil
-import hashlib
-import json
-#from json import JSONDecodeError
+
 import logging
 import argparse
 
@@ -35,8 +32,6 @@ from rdflib.plugins.sparql.algebra import translateQuery, translateUpdate, pprin
 from rdflib.plugins.sparql.evaluate import evalQuery
 from rdflib.plugins.sparql.update import evalUpdate
 from rdflib import Graph, Literal, BNode, Namespace, RDF, URIRef, Variable
-
-from SPARQLWrapper import SPARQLWrapper, JSON, POST
 
 from bgp import *
 from Endpoint import *
@@ -470,6 +465,10 @@ class Context:
         self.nb_lines = 0
         self.nb_dates = 0
         self.date_set= set()
+
+    def save(self):
+        if self.emptyTest is not None:
+            self.endpoint.saveCache()
 
     def close(self):
         logging.info('Close "%s"' % self.file_name)
