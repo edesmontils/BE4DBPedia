@@ -39,6 +39,7 @@ from rdflib import Graph, Literal, BNode, Namespace, RDF, URIRef, Variable
 from SPARQLWrapper import SPARQLWrapper, JSON, POST
 
 from bgp import *
+from Endpoint import *
 
 from operator import itemgetter
 # import xml.etree.ElementTree as ET
@@ -409,132 +410,6 @@ def closeLog(file, test=existFile):
             f_out.write('</log>')
         finally:
             f_out.close()
-
-
-#==================================================
-#==================================================
-
-class Endpoint:
-    def __init__(self, service, cacheDir = '.') :
-        self.engine = None
-        self.service = service
-        self.reLimit = re.compile(r'limit\s*\d+',re.IGNORECASE)
-        self.setCacheDir(cacheDir)
-        self.cache = dict()
-        self.do_cache = False
-
-    def loadCache(self):
-        if existFile(self.cacheDir+'/be4dbp.csv') :
-            logging.info('Reading cache file')
-            with open(self.cacheDir+"/be4dbp.csv","r", encoding='utf-8') as f:
-                reader = csv.DictReader(f)
-                for row in reader:
-                    self.cache[row['qhash']] = bool(row['nb'])
-
-    def saveCache(self):
-        if self.do_cache:
-            logging.info('Writing cache file')
-            print(self.cacheDir+"/be4dbp.csv")
-            with open(self.cacheDir+"/be4dbp.csv","w", encoding='utf-8') as f:
-                fn=['nb','qhash']
-                writer = csv.DictWriter(f,fieldnames=fn)
-                writer.writeheader()
-                for x in self.cache:
-                    writer.writerow({'nb':self.cache[x],'qhash':x}) 
-
-    def setCacheDir(self,cacheDir):
-        self.cacheDir = cacheDir
-
-    def caching(self, mode = True):
-        if mode:
-            self.loadCache()
-        else:
-            self.saveCache()
-            self.cache.clear()
-        self.do_cache = mode;
-
-    def query(self, qstr):
-        return []
-
-    def is_answering(self, qstr):
-        return False
-
-    def hash(self,qstr):
-        return hashlib.sha512(qstr.encode('utf-8')).hexdigest()
-
-    def setLimit1(self,query):
-        if self.reLimit.search(query):
-            nquery = self.reLimit.sub('limit 1',query)
-        else:
-            nquery = query + ' limit 1 '
-        return nquery
-
-    def notEmpty(self,query):
-        #On cherche d'abord dans le cache
-        qhash = self.hash(query) 
-        if qhash in self.cache:
-            print('*')
-            ok = self.cache[qhash]
-        else:
-            ok = self.is_answering(self.setLimit1(query))
-            self.cache[qhash] = ok
-        return ok
-
-#==================================================
-
-class SPARQLEP (Endpoint):
-    def __init__(self, service = 'http://172.16.9.15:8890/sparql', cacheDir = '.'):
-        Endpoint.__init__(self, service, cacheDir)
-        #self.engine = SPARQLWrapper("http://dbpedia.org/sparql")
-        #self.engine = SPARQLWrapper("http://172.16.9.15:8890/sparql")
-        self.engine = SPARQLWrapper(self.service)
-        self.engine.setReturnFormat(JSON)
-        # self.sparql.setRequestMethod(POST)
-
-    def query(self, qstr):
-        self.engine.setQuery(qstr)
-        return self.engine.query().convert()
-
-    def is_answering(self, qstr):
-        results = self.query(qstr)
-        return len(results["results"]["bindings"]) > 0
-
-class DBPediaEP (SPARQLEP):
-    def __init__(self, service = "http://dbpedia.org/sparql", cacheDir = '.'):
-        SPARQLEP.__init__(self, service, cacheDir)
-
-#==================================================
-
-class TPFEP(Endpoint):
-    def __init__(self,service = "http://172.16.9.3:5001/dbpedia_3_9", cacheDir = '.'):
-        Endpoint.__init__(self,service, cacheDir)  
-
-    def query(self, qstr):
-        ret = subprocess.run(['ldf-client',self.service, qstr], 
-                             stdout=subprocess.PIPE, encoding='utf-8', stderr=subprocess.PIPE, check=True)
-        out = ret.stdout
-        if out != '':
-            return json.loads(out)
-        else:
-            #raise Exception('TPF Client error : %s' % ret.stderr)
-            return []
-
-    def is_answering(self, qstr):
-        try:
-            results = self.query(qstr)
-            nb = len(results)
-        except subprocess.CalledProcessError as e :
-            logging.info('Erreur CalledProcessError : %s',e)
-            print('CalledProcessError',qstr)
-            nb = 0
-        except json.JSONDecodeError as e:
-            logging.info('Erreur JSONDecodeError : %s',e)
-            print('JSONDecodeError :',e)
-            nb = 0
-        except Exception as e:
-            print('Erreur ??? :',e)
-            nb = 0
-        return nb > 0
 
 #==================================================
 #==================================================
