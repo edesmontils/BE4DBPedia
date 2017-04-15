@@ -429,11 +429,12 @@ class Endpoint:
             with open(self.cacheDir+"/be4dbp.csv","r", encoding='utf-8') as f:
                 reader = csv.DictReader(f)
                 for row in reader:
-                    self.cache[row['qhash']] = int(row['nb'])
+                    self.cache[row['qhash']] = bool(row['nb'])
 
     def saveCache(self):
         if self.do_cache:
             logging.info('Writing cache file')
+            print(self.cacheDir+"/be4dbp.csv")
             with open(self.cacheDir+"/be4dbp.csv","w", encoding='utf-8') as f:
                 fn=['nb','qhash']
                 writer = csv.DictWriter(f,fieldnames=fn)
@@ -445,11 +446,12 @@ class Endpoint:
         self.cacheDir = cacheDir
 
     def caching(self, mode = True):
-        self.do_cache = mode;
-        if self.do_cache:
+        if mode:
             self.loadCache()
         else:
+            self.saveCache()
             self.cache.clear()
+        self.do_cache = mode;
 
     def query(self, qstr):
         return []
@@ -471,6 +473,7 @@ class Endpoint:
         #On cherche d'abord dans le cache
         qhash = self.hash(query) 
         if qhash in self.cache:
+            print('*')
             ok = self.cache[qhash]
         else:
             ok = self.is_answering(self.setLimit1(query))
@@ -480,8 +483,8 @@ class Endpoint:
 #==================================================
 
 class SPARQLEP (Endpoint):
-    def __init__(self, service = 'http://172.16.9.15:8890/sparql'):
-        Endpoint.__init__(self, service)
+    def __init__(self, service = 'http://172.16.9.15:8890/sparql', cacheDir = '.'):
+        Endpoint.__init__(self, service, cacheDir)
         #self.engine = SPARQLWrapper("http://dbpedia.org/sparql")
         #self.engine = SPARQLWrapper("http://172.16.9.15:8890/sparql")
         self.engine = SPARQLWrapper(self.service)
@@ -490,21 +493,21 @@ class SPARQLEP (Endpoint):
 
     def query(self, qstr):
         self.engine.setQuery(qstr)
-        results = self.engine.query().convert()
+        return self.engine.query().convert()
 
     def is_answering(self, qstr):
         results = self.query(qstr)
         return len(results["results"]["bindings"]) > 0
 
 class DBPediaEP (SPARQLEP):
-    def __init__(self, service = "http://dbpedia.org/sparql"):
-        Endpoint.__init__(self, service)
+    def __init__(self, service = "http://dbpedia.org/sparql", cacheDir = '.'):
+        SPARQLEP.__init__(self, service, cacheDir)
 
 #==================================================
 
 class TPFEP(Endpoint):
-    def __init__(self,service = "http://172.16.9.3:5001/dbpedia_3_9"):
-        Endpoint.__init__(self,service)  
+    def __init__(self,service = "http://172.16.9.3:5001/dbpedia_3_9", cacheDir = '.'):
+        Endpoint.__init__(self,service, cacheDir)  
 
     def query(self, qstr):
         ret = subprocess.run(['ldf-client',self.service, qstr], 
@@ -567,17 +570,16 @@ class Context:
             self.emptyTest = self.args.doEmpty
             if self.emptyTest == 'SPARQL':
                 if self.args.ep == '':
-                    self.endpoint = SPARQLEP()
+                    self.endpoint = SPARQLEP(cacheDir = self.resourcesDir)
                 else:
-                    self.endpoint = SPARQLEP(self.args.ep)
+                    self.endpoint = SPARQLEP(self.args.ep, cacheDir = self.resourcesDir)
             else:
                 if self.args.ep == '':
-                    self.endpoint = TPFEP()
+                    self.endpoint = TPFEP(cacheDir = self.resourcesDir)
                 else:
-                    self.endpoint = TPFEP(self.args.ep)
+                    self.endpoint = TPFEP(service = self.args.ep, cacheDir = self.resourcesDir)
             logging.info('Empty responses tests with %s' % self.endpoint)
-            self.endpoint.setCacheDir(self.resourcesDir)
-            self.endpoint.loadCache()
+            self.endpoint.caching(True)
         else:
             self.emptyTest = None
 
