@@ -32,6 +32,7 @@ class Endpoint:
         self.setCacheDir(cacheDir)
         self.cache = dict()
         self.do_cache = False
+        self.reSupCom=re.compile(r'#[^>].*$',re.IGNORECASE | re.MULTILINE)
 
     def loadCache(self):
         if os.path.isfile(self.cacheDir+'/be4dbp.csv') :
@@ -78,11 +79,21 @@ class Endpoint:
             nquery = query + ' limit 1 '
         return nquery
 
+    def simplifyQuery(self,query) :
+    	if self.reSupCom.search(query):
+    		nquery = self.reSupCom.sub('',query)
+    	else:
+    		nquery = query
+    	return ' '.join(nquery.split())
+
     def notEmpty(self,query):
         #On cherche d'abord dans le cache
         qhash = self.hash(query) 
         if qhash in self.cache:
             ok = self.cache[qhash]
+            #nq = self.simplifyQuery(self.setLimit1(query))
+            #nok = self.is_answering(nq)
+            #assert ok == nok, 'pas égal\n %s \n %s' % (query,nq)
         else:
             ok = self.is_answering(self.setLimit1(query))
             self.cache[qhash] = ok

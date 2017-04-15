@@ -299,33 +299,9 @@ def valid(bgp):
     #---
     ok = True
     for (s, p, o) in bgp:
-        ok = (
-            isinstance(
-                s,
-                Variable) or isinstance(
-                s,
-                URIRef) or isinstance(
-                s,
-                BNode)) and (
-                    isinstance(
-                        o,
-                        Variable) or isinstance(
-                            o,
-                            URIRef) or isinstance(
-                                o,
-                                BNode) or isinstance(
-                                    o,
-                                    Literal)) and (
-                                        (isinstance(
-                                            p,
-                                            Variable) and (
-                                                count(
-                                                    p,
-                                                    bgp) == 1)) or isinstance(
-                                                        p,
-                                                        URIRef) or isinstance(
-                                                            p,
-                                            BNode))
+        ok = (isinstance(s,Variable) or isinstance(s,URIRef) or isinstance(s,BNode)) \
+         and (isinstance(o,Variable) or isinstance(o,URIRef) or isinstance(o,BNode) or isinstance(o,Literal)) \
+         and ((isinstance(p,Variable) and (count(p,bgp) == 1)) or isinstance(p,URIRef) or isinstance(p,BNode))
         if not (ok):
             break
     return ok

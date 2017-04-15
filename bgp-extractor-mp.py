@@ -116,6 +116,7 @@ for line in ctx.file():
 
     if ctx.lines() % 1000 == 0:
         logging.info('%d line(s) viewed', ctx.lines())
+        ctx.save()
         for d in file_set:
             if len(file_set[d]) > 0 :
                 i=0

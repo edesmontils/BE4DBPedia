@@ -94,5 +94,5 @@ for d in cpt:
     cpt[d].print()
 print('=========== total =============')
 total.print()
-        
+
 ctx.close()
