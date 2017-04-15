@@ -18,7 +18,8 @@ import csv
 import subprocess
 import os.path
 
-from SPARQLWrapper import SPARQLWrapper, JSON
+from SPARQLWrapper import SPARQLWrapper, JSON #, SPARQLWrapperException
+from SPARQLWrapper.Wrapper import QueryResult, QueryBadFormed, EndPointNotFound, EndPointInternalError
 
 #==================================================
 #==================================================
@@ -101,8 +102,25 @@ class SPARQLEP (Endpoint): # "http://dbpedia.org/sparql" "http://172.16.9.15:889
         return self.engine.query().convert()
 
     def is_answering(self, qstr):
-        results = self.query(qstr)
-        return len(results["results"]["bindings"]) > 0
+        try:
+            results = self.query(qstr)
+            nb = len(results["results"]["bindings"])
+        except QueryBadFormed as e:
+            logging.info('Erreur QueryBadFormed : %s',e)
+            print('QueryBadFormed',qstr)
+            nb = 0
+        except EndPointNotFound as e:
+            logging.info('Erreur EndPointNotFound : %s',e)
+            print('EndPointNotFound',qstr)
+            nb = 0
+        except EndPointInternalError as e:
+            logging.info('Erreur EndPointInternalError : %s',e)
+            print('EndPointInternalError',qstr)
+            nb = 0
+        except Exception as e:
+            print('Erreur SPARQL EP ??? :',e)
+            nb = 0
+        return nb > 0
 
 class DBPediaEP (SPARQLEP):
     def __init__(self, service = "http://dbpedia.org/sparql", cacheDir = '.'):
@@ -137,6 +155,6 @@ class TPFEP(Endpoint):
             print('JSONDecodeError :',e)
             nb = 0
         except Exception as e:
-            print('Erreur ??? :',e)
+            print('Erreur TPF EP ??? :',e)
             nb = 0
         return nb > 0
