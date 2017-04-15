@@ -74,7 +74,7 @@ manager = mp.Manager()
 tab_date = manager.dict()
 for i in range(ctx.nb_processes) :
     tab_date[i]=''
-compute_queue = mp.Queue()
+compute_queue = mp.Queue(ctx.nb_processes)
 process_list = [
     mp.Process(
         target=compute, args=(i, tab_date, sem, compute_queue, stat, ctx))
@@ -136,7 +136,7 @@ for line in ctx.file():
     if dateOk:  # and (ctx.lines() < 100):
         if (query != ''):
             file = rep + ip + '-be4dbp.xml'
-            compute_queue.put((query, param_list, ip, file, date, ctx.lines()))
+            compute_queue.put( (query, param_list, ip, file, date, ctx.lines()) )
             file_set[date].add(file)
         else:
             logging.debug('(%d) No query for %s', ctx.lines(), ip)

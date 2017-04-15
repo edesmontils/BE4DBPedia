@@ -23,6 +23,7 @@ import subprocess
 import shutil
 import hashlib
 import json
+#from json import JSONDecodeError
 import logging
 import argparse
 
@@ -42,24 +43,6 @@ from bgp import *
 from operator import itemgetter
 # import xml.etree.ElementTree as ET
 from lxml import etree  # http://lxml.de/index.html#documentation
-
-#==================================================
-
-
-class Timezone(dt.tzinfo):
-    def __init__(self, name="+0000"):
-        self.name = name
-        seconds = int(name[:-2]) * 3600 + int(name[-2:]) * 60
-        self.offset = dt.timedelta(seconds=seconds)
-
-    def utcoffset(self, dt):
-        return self.offset
-
-    def dst(self, dt):
-        return timedelta(0)
-
-    def tzname(self, dt):
-        return self.name
 
 
 #==================================================
@@ -98,95 +81,8 @@ def extract(res):
         else:
             # .replace('"', '\'').replace('<', '').replace('>', '')))
             param_list.append((p, q))
-    query = ' '.join(query.split())
+    #query = ' '.join(query.split())
     return (query, date, param_list, res['host'])
-
-
-#==================================================
-
-
-def loadPrefixes():
-    default_prefix = dict()
-    with open('./resources/PrefixDBPedia.txt', 'r') as f:
-        reader = csv.DictReader(
-            f, fieldnames=['prefix', 'uri'], delimiter='\t')
-        try:
-            for row in reader:
-                default_prefix[row['prefix']] = row['uri']
-            return default_prefix
-        except csv.Error as e:
-            sys.exit('file %s, line %d: %s' % (f, reader.line_num, e))
-
-#==================================================
-
-
-class Counter:
-    def __init__(self, date=''):
-        self.setDate(date)
-        self.cpt = {
-            'line': 0,
-            'err_qr': 0,
-            'err_ns': 0,
-            'ok': 0,
-            'emptyQuery':0,
-            'select': 0,
-            'autre': 0,
-            'union': 0,
-            'bgp_not_valid': 0,
-            'err_tpf': 0,
-            'err_endpoint':0
-        }
-
-    def setDate(self, date):
-        self.date = date
-
-    def line(self):
-        self.cpt['line'] += 1
-
-    def getLine(self):
-        return self.cpt['line']
-
-    def err_qr(self):
-        self.cpt['err_qr'] += 1
-
-    def err_endpoint(self):
-        self.cpt['err_endpoint'] += 1
-
-    def err_ns(self):
-        self.cpt['err_ns'] += 1
-
-    def emptyQuery(self):
-        self.cpt['emptyQuery'] += 1
-
-    def ok(self):
-        self.cpt['ok'] += 1
-
-    def select(self):
-        self.cpt['select'] += 1
-
-    def autre(self):
-        self.cpt['autre'] += 1
-
-    def union(self):
-        self.cpt['union'] += 1
-
-    def bgp_not_valid(self):
-        self.cpt['bgp_not_valid'] += 1
-
-    def err_tpf(self):
-        self.cpt['err_tpf'] += 1
-
-    def join(self, c):
-        for x in c.cpt:
-            self.cpt[x] += c.cpt[x]
-
-    def print(self):
-        if (self.date != ''):
-            print('=========== ', self.date, '=============')
-        # else:
-        #	print('=========== ','xxxxxxxx','=============')
-        pprint(self.cpt)
-
 
 #==================================================
 
@@ -270,7 +166,7 @@ def existDBPEDIA(line,query,ctx):
     test if the query has at least one response
     """
     try:
-        ok = ctx.notEmpty(query)
+        ok = ctx.endpoint.notEmpty(query)
         return (ok, 'empty')
     except Exception as e:
         message = e.__str__()
@@ -516,17 +412,144 @@ def closeLog(file, test=existFile):
 
 
 #==================================================
+#==================================================
+
+class Endpoint:
+    def __init__(self, service, cacheDir = '.') :
+        self.engine = None
+        self.service = service
+        self.reLimit = re.compile(r'limit\s*\d+',re.IGNORECASE)
+        self.setCacheDir(cacheDir)
+        self.cache = dict()
+        self.do_cache = False
+
+    def loadCache(self):
+        if existFile(self.cacheDir+'/be4dbp.csv') :
+            logging.info('Reading cache file')
+            with open(self.cacheDir+"/be4dbp.csv","r", encoding='utf-8') as f:
+                reader = csv.DictReader(f)
+                for row in reader:
+                    self.cache[row['qhash']] = int(row['nb'])
+
+    def saveCache(self):
+        if self.do_cache:
+            logging.info('Writing cache file')
+            with open(self.cacheDir+"/be4dbp.csv","w", encoding='utf-8') as f:
+                fn=['nb','qhash']
+                writer = csv.DictWriter(f,fieldnames=fn)
+                writer.writeheader()
+                for x in self.cache:
+                    writer.writerow({'nb':self.cache[x],'qhash':x}) 
+
+    def setCacheDir(self,cacheDir):
+        self.cacheDir = cacheDir
+
+    def caching(self, mode = True):
+        self.do_cache = mode;
+        if self.do_cache:
+            self.loadCache()
+        else:
+            self.cache.clear()
+
+    def query(self, qstr):
+        return []
+
+    def is_answering(self, qstr):
+        return False
+
+    def hash(self,qstr):
+        return hashlib.sha512(qstr.encode('utf-8')).hexdigest()
+
+    def setLimit1(self,query):
+        if self.reLimit.search(query):
+            nquery = self.reLimit.sub('limit 1',query)
+        else:
+            nquery = query + ' limit 1 '
+        return nquery
+
+    def notEmpty(self,query):
+        #On cherche d'abord dans le cache
+        qhash = self.hash(query) 
+        if qhash in self.cache:
+            ok = self.cache[qhash]
+        else:
+            ok = self.is_answering(self.setLimit1(query))
+            self.cache[qhash] = ok
+        return ok
+
+#==================================================
+
+class SPARQLEP (Endpoint):
+    def __init__(self, service = 'http://172.16.9.15:8890/sparql'):
+        Endpoint.__init__(self, service)
+        #self.engine = SPARQLWrapper("http://dbpedia.org/sparql")
+        #self.engine = SPARQLWrapper("http://172.16.9.15:8890/sparql")
+        self.engine = SPARQLWrapper(self.service)
+        self.engine.setReturnFormat(JSON)
+        # self.sparql.setRequestMethod(POST)
+
+    def query(self, qstr):
+        self.engine.setQuery(qstr)
+        results = self.engine.query().convert()
+
+    def is_answering(self, qstr):
+        results = self.query(qstr)
+        return len(results["results"]["bindings"]) > 0
+
+class DBPediaEP (SPARQLEP):
+    def __init__(self, service = "http://dbpedia.org/sparql"):
+        Endpoint.__init__(self, service)
+
+#==================================================
+
+class TPFEP(Endpoint):
+    def __init__(self,service = "http://172.16.9.3:5001/dbpedia_3_9"):
+        Endpoint.__init__(self,service)  
+
+    def query(self, qstr):
+        ret = subprocess.run(['ldf-client',self.service, qstr], 
+                             stdout=subprocess.PIPE, encoding='utf-8', stderr=subprocess.PIPE, check=True)
+        out = ret.stdout
+        if out != '':
+            return json.loads(out)
+        else:
+            #raise Exception('TPF Client error : %s' % ret.stderr)
+            return []
+
+    def is_answering(self, qstr):
+        try:
+            results = self.query(qstr)
+            nb = len(results)
+        except subprocess.CalledProcessError as e :
+            logging.info('Erreur CalledProcessError : %s',e)
+            print('CalledProcessError',qstr)
+            nb = 0
+        except json.JSONDecodeError as e:
+            logging.info('Erreur JSONDecodeError : %s',e)
+            print('JSONDecodeError :',e)
+            nb = 0
+        except Exception as e:
+            print('Erreur ??? :',e)
+            nb = 0
+        return nb > 0
+
+#==================================================
+#==================================================
 
 class Context:
     def __init__(self,description):
         self.setArgs(description)
         self.args = self.parser.parse_args()
-
-        self.manageLogging(self.args.logLevel)
+        self.startDate = dt.datetime.now().__str__().replace(' ', 'T').replace(':', '-')[0:19]
+        self.manageLogging(self.args.logLevel, 'be4dbp-'+self.startDate+'.log')
 
         self.refDate = self.manageDT(self.args.refdate)
 
         self.baseDir = self.manageDirectories(self.args.baseDir)
+        self.resourcesDir = './resources'
+        self.resourceSet = {'log.dtd', 'bgp.dtd', 'ranking.dtd'}
+
+        self.loadPrefixes()
 
         if self.args.doR:
             self.doRanking = True
@@ -542,23 +565,19 @@ class Context:
 
         if self.args.doEmpty != 'None':
             self.emptyTest = self.args.doEmpty
-            if self.args.ep == '':
-                if self.emptyTest == 'SPARQL':
-                    self.endpoint = 'http://172.16.9.15:8890/sparql'
-                else:
-                    self.endpoint = 'http://172.16.9.3:5001/dbpedia_3_9'
-            else:
-                self.endpoint = self.args.ep
-            logging.info('Empty responses tests with %s' % self.endpoint)
             if self.emptyTest == 'SPARQL':
-                #self.sparql = SPARQLWrapper("http://dbpedia.org/sparql")
-                #self.sparql = SPARQLWrapper("http://172.16.9.15:8890/sparql")
-                self.sparql = SPARQLWrapper(self.endpoint)
-                self.sparql.setReturnFormat(JSON)
-                # self.sparql.setRequestMethod(POST)
-            else :
-                pass
-            self.reLimit = re.compile(r'limit\s*\d+',re.IGNORECASE)
+                if self.args.ep == '':
+                    self.endpoint = SPARQLEP()
+                else:
+                    self.endpoint = SPARQLEP(self.args.ep)
+            else:
+                if self.args.ep == '':
+                    self.endpoint = TPFEP()
+                else:
+                    self.endpoint = TPFEP(self.args.ep)
+            logging.info('Empty responses tests with %s' % self.endpoint)
+            self.endpoint.setCacheDir(self.resourcesDir)
+            self.endpoint.loadCache()
         else:
             self.emptyTest = None
 
@@ -571,38 +590,17 @@ class Context:
             print('Can\'t open file %s' % self.file_name )
             sys.exit()
 
-        logging.info('Reading of default prefixes')
-        self.default_prefixes = loadPrefixes()
-
         self.nb_lines = 0
         self.nb_dates = 0
         self.date_set= set()
-        self.resourcesDir = './resources'
-        self.resourceSet = {'log.dtd', 'bgp.dtd', 'ranking.dtd'}
-
-        self.cache = dict()
-        if existFile(self.resourcesDir+'/be4dbp.csv') :
-            logging.info('Reading cache file')
-            with open(self.resourcesDir+"/be4dbp.csv","r", encoding='utf-8') as f:
-                reader = csv.DictReader(f)
-                for row in reader:
-                    self.cache[row['qhash']] = int(row['nb'])
 
     def close(self):
         logging.info('Close "%s"' % self.file_name)
         self.f_in.close()
-
         print('Nb line(s) : ', self.lines())
         print('Nb date(s) : ', self.nbDates())
-
-        logging.info('Writing cache file')
-        with open(self.resourcesDir+"/be4dbp.csv","w", encoding='utf-8') as f:
-            fn=['nb','qhash']
-            writer = csv.DictWriter(f,fieldnames=fn)
-            writer.writeheader()
-            for x in self.cache:
-                writer.writerow({'nb':self.cache[x],'qhash':x})
-
+        if self.emptyTest is not None:
+            self.endpoint.saveCache()
         logging.info('End')
 
     def setArgs(self,exp):
@@ -610,23 +608,13 @@ class Context:
         # https://docs.python.org/3/howto/argparse.html
         self.parser = argparse.ArgumentParser(description=exp)
         self.parser.add_argument("-l", "--log", dest="logLevel",
-                            choices=[
-                                'DEBUG',
-                                'INFO',
-                                'WARNING',
-                                'ERROR',
-                                'CRITICAL'],
+                            choices=['DEBUG','INFO','WARNING','ERROR','CRITICAL'],
                             help="Set the logging level (INFO by default)", default='INFO')
 
         #self.parser.add_argument("-f", "--file", dest="file", help="Set the file to study")
         self.parser.add_argument("file", help="Set the file to study")
 
-        self.parser.add_argument(
-            "-t",
-            "--datetime",
-            dest="refdate",
-            help="Set the date-time to study in the log",
-            default='')
+        self.parser.add_argument("-t","--datetime",dest="refdate",help="Set the date-time to study in the log",default='')
         self.parser.add_argument("-d", "--dir", dest="baseDir",
                             help="Set the directory for results ('./logs' by default)", default='./logs')
         self.parser.add_argument("-r","--ranking", help="do ranking after extraction",
@@ -639,6 +627,17 @@ class Context:
                         choices=['SPARQL','TPF', 'None'],dest="doEmpty",default='None')
         self.parser.add_argument("-ep","--endpoint", help="The endpoint requested for the '-e' ('--empty') option ( for exemple 'http://dbpedia.org/sparql' for SPARQL)",
                         dest="ep", default='')
+
+    def loadPrefixes(self):
+        logging.info('Reading of default prefixes')
+        self.default_prefixes = dict()
+        with open(self.resourcesDir+'/PrefixDBPedia.txt', 'r') as f:
+            reader = csv.DictReader(f, fieldnames=['prefix', 'uri'], delimiter='\t')
+            try:
+                for row in reader:
+                    self.default_prefixes[row['prefix']] = row['uri']
+            except csv.Error as e:
+                sys.exit('file %s, line %d: %s' % (f, reader.line_num, e))
 
     def newDir(self, date):
         rep = self.baseDir + date.replace('-', '').replace(':', '').replace('+', '-')
@@ -656,12 +655,8 @@ class Context:
             # https://docs.python.org/3/howto/logging.html#logging-basic-tutorial
             logging.basicConfig(
                 format='%(levelname)s:%(asctime)s:%(message)s',
-                filename=logfile,
-                filemode='w',
-                level=getattr(
-                    logging,
-                    logLevel))
-
+                filename=logfile,filemode='w',
+                level=getattr(logging,logLevel))
 
     def manageDT(self,refDate):
         if refDate != '':
@@ -701,44 +696,94 @@ class Context:
     def file(self):
         return self.f_in
 
-    def notEmpty(self,query):
-        #On cherche d'abord dans le cache
-        qhash = hashlib.sha512(query.encode('utf-8')).hexdigest()
-        if qhash in self.cache:
-            nb = self.cache[qhash]
-        else:
-            if self.reLimit.search(query):
-                nquery = self.reLimit.sub('limit 1',query)
-            else:
-                nquery = query + ' limit 1 '
-            if self.emptyTest == 'SPARQL':
-                self.sparql.setQuery(nquery)
-                results = self.sparql.query().convert()
-                nb = len(results["results"]["bindings"])
-            else:
-                ret = subprocess.run(['ldf-client',self.endpoint, nquery], 
-                                     stdout=subprocess.PIPE, encoding='utf-8', stderr=subprocess.PIPE, check=True)
-                out = ret.stdout
-                if out != '':
-                    nb = len(json.loads(out))
-                else:
-                    raise Exception('TPF Client error : %s' % ret.stderr)
+#==================================================
+#==================================================
 
-            self.cache[qhash] = nb #(nb,query)
-        return nb > 0
+class Counter:
+    def __init__(self, date=''):
+        self.setDate(date)
+        self.cpt = {
+            'line': 0,
+            'err_qr': 0,
+            'err_ns': 0,
+            'ok': 0,
+            'emptyQuery':0,
+            'select': 0,
+            'autre': 0,
+            'union': 0,
+            'bgp_not_valid': 0,
+            'err_tpf': 0,
+            'err_endpoint':0
+        }
 
+    def setDate(self, date):
+        self.date = date
 
-                    
-                # except subprocess.CalledProcessError as e :
-                #     logging.info('Erreur CalledProcessError :',e)
-                #     print(query)
-                #     nb = 0
-                # except JSONDecodeError as e:
-                #     print('Erreur JSON :',e)
-                #     nb = 0
-                # except Exception as e:
-                #     print('Erreur ??? :',e)
-                #     nb = 0
+    def line(self):
+        self.cpt['line'] += 1
+
+    def getLine(self):
+        return self.cpt['line']
+
+    def err_qr(self):
+        self.cpt['err_qr'] += 1
+
+    def err_endpoint(self):
+        self.cpt['err_endpoint'] += 1
+
+    def err_ns(self):
+        self.cpt['err_ns'] += 1
+
+    def emptyQuery(self):
+        self.cpt['emptyQuery'] += 1
+
+    def ok(self):
+        self.cpt['ok'] += 1
+
+    def select(self):
+        self.cpt['select'] += 1
+
+    def autre(self):
+        self.cpt['autre'] += 1
+
+    def union(self):
+        self.cpt['union'] += 1
+
+    def bgp_not_valid(self):
+        self.cpt['bgp_not_valid'] += 1
+
+    def err_tpf(self):
+        self.cpt['err_tpf'] += 1
+
+    def join(self, c):
+        for x in c.cpt:
+            self.cpt[x] += c.cpt[x]
+
+    def print(self):
+        if (self.date != ''):
+            print('=========== ', self.date, '=============')
+        # else:
+        #   print('=========== ','xxxxxxxx','=============')
+        pprint(self.cpt)
+
+#==================================================
+#==================================================
+
+class Timezone(dt.tzinfo):
+    def __init__(self, name="+0000"):
+        self.name = name
+        seconds = int(name[:-2]) * 3600 + int(name[-2:]) * 60
+        self.offset = dt.timedelta(seconds=seconds)
+
+    def utcoffset(self, dt):
+        return self.offset
+
+    def dst(self, dt):
+        return timedelta(0)
+
+    def tzname(self, dt):
+        return self.name
+
 
 #==================================================
 #==================================================

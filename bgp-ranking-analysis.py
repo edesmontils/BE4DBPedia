@@ -29,19 +29,14 @@ parser.add_argument("-l", "--log", dest="logLevel",
 parser.add_argument("-p", "--proc", type=int, default=mp.cpu_count(), dest="nb_processes",
                     help="Number of processes used (%d by default)" % mp.cpu_count())
 args = parser.parse_args()
+startDate = dt.datetime.now().__str__().replace(' ', 'T').replace(':', '-')[0:19]
+manageLogging(args.logLevel, 'be4dbp-ranking-'+startDate+'.log')
 
-manageLogging(args.logLevel,'be4dbp-ranking.log')
-
-# for file in args.files:
-#     if os.path.isfile(file):
-#         rankAnalysis(file)
-#     else:
-#         print(file, 'does\'nt exist')
 file_set = args.files
 
 nb_processes = args.nb_processes
 logging.info('Lancement des %d processus d\'analyse', nb_processes)
-compute_queue = mp.Queue()
+compute_queue = mp.Queue(nb_processes)
 process_list = [
     mp.Process(target=analyse, args=(compute_queue, ))
     for _ in range(nb_processes)
