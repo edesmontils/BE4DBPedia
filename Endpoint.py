@@ -133,6 +133,8 @@ class SPARQLEP (Endpoint): # "http://dbpedia.org/sparql" "http://172.16.9.15:889
             nb = 0
         return nb > 0
 
+#==================================================
+
 class DBPediaEP (SPARQLEP):
     def __init__(self, service = "http://dbpedia.org/sparql", cacheDir = '.'):
         SPARQLEP.__init__(self, service, cacheDir)

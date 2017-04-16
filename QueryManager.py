@@ -27,13 +27,24 @@ COPY       = "COPY"
 MOVE       = "MOVE"
 ADD        = "ADD"
 
-class QueryEvaluator:
+class QueryManager:
   def __init__(self):
     self.comments_pattern = re.compile(r"(^|\n)\s*#.*?\n")
+
     self.pattern = re.compile(r"""
         ((?P<base>(\s*BASE\s*<.*?>)\s*)|(?P<prefixes>(\s*PREFIX\s+.+:\s*<.*?>)\s*))*
         (?P<queryType>(CONSTRUCT|SELECT|ASK|DESCRIBE|INSERT|DELETE|CREATE|CLEAR|DROP|LOAD|COPY|MOVE|ADD))
         """, re.VERBOSE | re.IGNORECASE)
+
+    self.reThumbnail = re.compile(r"\Wxsd\:date\s*\(", re.IGNORECASE | re.VERBOSE)
+    self.reIsIRI = re.compile(r"\WisIRI\s*\(", re.IGNORECASE | re.VERBOSE)
+    self.reRegex = re.compile(r"\Wregex\s*\(", re.IGNORECASE | re.VERBOSE)
+
+    self.reUnion = re.compile(r'(\W+)union(\W+)', re.IGNORECASE)
+
+    self.reLimit = re.compile(r'limit\s*\d+',re.IGNORECASE)
+    self.reOffset = re.compile(r'offset\s*\d+',re.IGNORECASE)
+
     self.requestQueryTypes = {SELECT, CONSTRUCT, ASK, DESCRIBE}
     self.modificationQueryTypes = {INSERT, DELETE, CREATE, CLEAR, DROP, LOAD, COPY, MOVE, ADD}
     self.allowedQueryTypes = self.requestQueryTypes | self.modificationQueryTypes
@@ -55,3 +66,33 @@ class QueryEvaluator:
         #raise Exception("Illegal SPARQL Query; must be one of SELECT, ASK, DESCRIBE, or CONSTRUCT")
         warnings.warn("unknown query type '%s'" % r_queryType, RuntimeWarning)
         return SELECT
+
+  def isTPFCompatible(self, query):
+    ok = True
+    if self.reIsIRI.search(query) != None:
+      return False
+    elif self.reRegex.search(query) != None:
+      return False
+    elif self.reThumbnail.search(query) != None:
+      return False
+    else:
+      return ok
+
+  def containsUnion(self, query):
+    return self.reUnion.search(query) is not None
+
+  def simplifyQuery(self, query):
+    nquery = self.cleanCommentLines(query)
+    nquery = re.sub(self.reLimit, "" , nquery)
+    nquery = re.sub(self.reOffset, "" , nquery)
+    return nquery
+
+# reSelect = re.compile(r'(\W+)select(\s+)', re.IGNORECASE)
+
+# r"""
+# \Wregex\W*
+# \(
+#     ( [^,()"'<]+ | "[^"]*" | '[^']*' | <[^>]*> | \w* \( [^)]* \) )+
+# ( , ( [^,()"'<]+ | "[^"]*" | '[^']*' | <[^>]*> | \w* \( [^)]* \) )+ ){2,}
+# \)
+# """

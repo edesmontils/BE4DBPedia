@@ -35,7 +35,7 @@ from rdflib import Graph, Literal, BNode, Namespace, RDF, URIRef, Variable
 
 from bgp import *
 from Endpoint import *
-from queryTools import *
+from QueryManager import *
 
 from operator import itemgetter
 # import xml.etree.ElementTree as ET
@@ -123,47 +123,12 @@ def translate(cpt, line, ip, query, tree, ctx):
 
 #==================================================
 
-reSelect = re.compile(r'(\W+)select(\s+)', re.IGNORECASE)
-
-reUnion = re.compile(r'(\W+)union(\W+)', re.IGNORECASE)
-
-reIsIRI = re.compile(r"""
-\WisIRI\s*\(
-""", re.IGNORECASE | re.VERBOSE)
-
-reRegex = re.compile(r"""
-\Wregex\s*\(
-"""
-# r"""
-# \Wregex\W*
-# \(
-#     ( [^,()"'<]+ | "[^"]*" | '[^']*' | <[^>]*> | \w* \( [^)]* \) )+
-# ( , ( [^,()"'<]+ | "[^"]*" | '[^']*' | <[^>]*> | \w* \( [^)]* \) )+ ){2,}
-# \)
-# """
-, re.IGNORECASE | re.VERBOSE)
-
-reThumbnail = re.compile(r"""
-\Wxsd\:date\s*\(
-""", re.IGNORECASE | re.VERBOSE)
-
-def isTPFCompatible(query):
-  ok = True
-  if reIsIRI.search(query) != None:
-    return False
-  elif reRegex.search(query) != None:
-    return False
-  elif reThumbnail.search(query) != None:
-    return False
-  else:
-    return ok
-
 def existDBPEDIA(line,query,ctx):
     """
     test if the query has at least one response
     """
     try:
-        ok = ctx.endpoint.notEmpty(query)
+        ok = ctx.endpoint.notEmpty(ctx.qe.simplifyQuery(query))
         return (ok, 'empty')
     except Exception as e:
         message = e.__str__()
@@ -179,7 +144,7 @@ def validate(cpt, line, ip, query, ctx):
     #if (reSelect.search(query) is not None):
     if ctx.qe.queryType(query) == SELECT:
         cpt.select()
-        if (reUnion.search(query) is None):
+        if not(ctx.qe.containsUnion(query)):
             try:
                 tree = parseQuery(query)
                 (ok, n_query, bgp) = translate(cpt, line, ip, query, tree, ctx)
@@ -188,7 +153,7 @@ def validate(cpt, line, ip, query, ctx):
                         cpt.bgp_not_valid()
                         return (False, None, None)
                     if ctx.doTPFC: 
-                        if not(isTPFCompatible(n_query)):
+                        if not(ctx.qe.isTPFCompatible(n_query)):
                             logging.debug('PB TPF Client (%d) : %s', line, n_query)
                             cpt.err_tpf()
                             return (False, None, None)
@@ -423,7 +388,7 @@ class Context:
         self.baseDir = self.manageDirectories(self.args.baseDir)
         self.resourcesDir = './resources'
         self.resourceSet = {'log.dtd', 'bgp.dtd', 'ranking.dtd'}
-        self.qe = QueryEvaluator()
+        self.qe = QueryManager()
         self.loadPrefixes()
 
         if self.args.doR:
