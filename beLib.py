@@ -35,6 +35,7 @@ from rdflib import Graph, Literal, BNode, Namespace, RDF, URIRef, Variable
 
 from bgp import *
 from Endpoint import *
+from queryTools import *
 
 from operator import itemgetter
 # import xml.etree.ElementTree as ET
