@@ -176,7 +176,8 @@ def existDBPEDIA(line,query,ctx):
             return (False, 'autre')
 
 def validate(cpt, line, ip, query, ctx):
-    if (reSelect.search(query) is not None):
+    #if (reSelect.search(query) is not None):
+    if ctx.qe.queryType(query) == SELECT:
         cpt.select()
         if (reUnion.search(query) is None):
             try:
@@ -422,7 +423,7 @@ class Context:
         self.baseDir = self.manageDirectories(self.args.baseDir)
         self.resourcesDir = './resources'
         self.resourceSet = {'log.dtd', 'bgp.dtd', 'ranking.dtd'}
-
+        self.qe = QueryEvaluator()
         self.loadPrefixes()
 
         if self.args.doR:
