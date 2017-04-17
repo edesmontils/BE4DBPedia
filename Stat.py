@@ -1,7 +1,7 @@
 #!/usr/bin/env python3.6
 # coding: utf8
 """
-Tools to manage multi-processing
+Class to process statrictics in a parallel context
 """
 #    Copyright (C) 2017 by
 #    Emmanuel Desmontils <emmanuel.desmontils@univ-nantes.fr>
@@ -11,80 +11,13 @@ Tools to manage multi-processing
 
 from pprint import pprint
 
-from multiprocessing import Process, Lock, Queue, BoundedSemaphore, Semaphore
 import multiprocessing as mp
-import os
 from queue import Empty
 
-from bgp import *
 from beLib import *
-from Context import *
 from Counter import *
 
 #==================================================
-# class ParallelContext(Context):
-#     def __init__(self,description):
-#         Context.__init__(self,description)
-#         self.nb_processes = min(self.args.nb_processes,self.max_processes)
-
-#     def setArgs(self,exp):
-#         Context.setArgs(self,exp)
-#         self.max_processes = mp.cpu_count()
-#         nb_processes_default = min(4, self.max_processes / 2)
-#         self.parser.add_argument("-p", "--proc", type=int, default=nb_processes_default, dest="nb_processes",
-#                         help="Number of processes used to extract (%d by default) over %d usuable processes" % (nb_processes_default,self.max_processes))
-
-# class ParallelCounter(Counter):
-#     def __init__(self, stat, date=''):
-#         Counter.__init__(self, date)
-#         self.stat = stat
-
-#     def line(self):
-#         self.stat.put((self.date, 'line'))
-#         Counter.line(self)
-
-#     def err_qr(self):
-#         self.stat.put((self.date, 'err_qr'))
-#         Counter.err_qr(self)
-
-#     def err_ns(self):
-#         self.stat.put((self.date, 'err_ns'))
-#         Counter.err_ns(self)
-
-#     def ok(self):
-#         self.stat.put((self.date, 'ok'))
-#         Counter.ok(self)
-
-#     def emptyQuery(self):
-#         self.stat.put((self.date, 'emptyQuery'))
-#         Counter.emptyQuery(self)
-
-#     def err_endpoint(self):
-#         self.stat.put((self.date, 'err_endpoint'))
-#         Counter.err_endpoint(self)
-
-#     def select(self):
-#         self.stat.put((self.date, 'select'))
-#         Counter.select(self)
-
-#     def autre(self):
-#         self.stat.put((self.date, 'autre'))
-#         Counter.autre(self)
-
-#     def union(self):
-#         self.stat.put((self.date, 'union'))
-#         Counter.union(self)
-
-#     def bgp_not_valid(self):
-#         self.stat.put((self.date, 'bgp_not_valid'))
-#         Counter.bgp_not_valid(self)
-
-#     def err_tpf(self):
-#         self.stat.put((self.date, 'err_tpf'))
-#         Counter.err_tpf(self)
-
-#==================================================
-
 
 def analyse(in_queue):
     logging.debug('Start analyse worker "%s"', os.getpid())
