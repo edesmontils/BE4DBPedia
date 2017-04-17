@@ -27,7 +27,6 @@ from Counter import *
 
 #==================================================
 
-
 def compute(idp, tab_date, sem, in_queue, stat, ctx):
     logging.debug('(%d) Start compute worker "%s"' %(idp, os.getpid()) )
     while True:

@@ -10,10 +10,26 @@ Application to rank BGP according to frequency
 #    GPL v 2.0 license.
 
 from beLib import *
-from beLibProcesses import *
+from Stat import *
+
+import logging
+import argparse
 
 import os.path
 import argparse
+
+#==================================================
+
+def manageLogging(logLevel, logfile = 'be4dbp.log'):
+    if logLevel:
+        # https://docs.python.org/3/library/logging.html?highlight=log#module-logging
+        # https://docs.python.org/3/howto/logging.html#logging-basic-tutorial
+        logging.basicConfig(
+            format='%(levelname)s:%(asctime)s:%(message)s',
+            filename=logfile,filemode='w',
+            level=getattr(logging,logLevel))
+        
+#==================================================
 
 parser = argparse.ArgumentParser(description='Etude du ranking')
 parser.add_argument('files', metavar='file', nargs='+',
