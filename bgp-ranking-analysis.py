@@ -16,7 +16,6 @@ import logging
 import argparse
 
 import os.path
-import argparse
 
 #==================================================
 
@@ -28,7 +27,7 @@ def manageLogging(logLevel, logfile = 'be4dbp.log'):
             format='%(levelname)s:%(asctime)s:%(message)s',
             filename=logfile,filemode='w',
             level=getattr(logging,logLevel))
-        
+
 #==================================================
 
 parser = argparse.ArgumentParser(description='Etude du ranking')
