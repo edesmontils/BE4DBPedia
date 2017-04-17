@@ -15,32 +15,13 @@ import re
 import time
 import datetime as dt
 from urllib.parse import urlparse, parse_qsl
-import csv
-import sys
 import os
-import os.path
-import shutil
-
-import logging
-import argparse
-
-import rdflib
-from rdflib.query import Processor, Result, UpdateProcessor
-from rdflib.plugins.sparql.sparql import Query, SPARQLError
-from rdflib.plugins.sparql.parser import parseQuery, parseUpdate
-from rdflib.plugins.sparql.algebra import translateQuery, translateUpdate, pprintAlgebra
-from rdflib.plugins.sparql.evaluate import evalQuery
-from rdflib.plugins.sparql.update import evalUpdate
-from rdflib import Graph, Literal, BNode, Namespace, RDF, URIRef, Variable
 
 from bgp import *
-from Endpoint import *
 from QueryManager import *
 
 from operator import itemgetter
-# import xml.etree.ElementTree as ET
 from lxml import etree  # http://lxml.de/index.html#documentation
-
 
 #==================================================
 
@@ -376,238 +357,238 @@ def closeLog(file, test=existFile):
 #==================================================
 #==================================================
 
-class Context:
-    def __init__(self,description):
-        self.setArgs(description)
-        self.args = self.parser.parse_args()
-        self.startDate = dt.datetime.now().__str__().replace(' ', 'T').replace(':', '-')[0:19]
-        self.manageLogging(self.args.logLevel, 'be4dbp-'+self.startDate+'.log')
+# class Context:
+#     def __init__(self,description):
+#         self.setArgs(description)
+#         self.args = self.parser.parse_args()
+#         self.startDate = dt.datetime.now().__str__().replace(' ', 'T').replace(':', '-')[0:19]
+#         self.manageLogging(self.args.logLevel, 'be4dbp-'+self.startDate+'.log')
 
-        self.refDate = self.manageDT(self.args.refdate)
+#         self.refDate = self.manageDT(self.args.refdate)
 
-        self.baseDir = self.manageDirectories(self.args.baseDir)
-        self.resourcesDir = './resources'
-        self.resourceSet = {'log.dtd', 'bgp.dtd', 'ranking.dtd'}
-        self.qe = QueryManager()
-        self.loadPrefixes()
+#         self.baseDir = self.manageDirectories(self.args.baseDir)
+#         self.resourcesDir = './resources'
+#         self.resourceSet = {'log.dtd', 'bgp.dtd', 'ranking.dtd'}
+#         self.qe = QueryManager()
+#         self.loadPrefixes()
 
-        if self.args.doR:
-            self.doRanking = True
-            logging.info('Ranking activated')
-        else:
-            self.doRanking = False
+#         if self.args.doR:
+#             self.doRanking = True
+#             logging.info('Ranking activated')
+#         else:
+#             self.doRanking = False
 
-        if self.args.doTPFC:
-            logging.info('TPFC constraints activated')
-            self.doTPFC = True
-        else:
-            self.doTPFC = False
+#         if self.args.doTPFC:
+#             logging.info('TPFC constraints activated')
+#             self.doTPFC = True
+#         else:
+#             self.doTPFC = False
 
-        if self.args.doEmpty != 'None':
-            self.emptyTest = self.args.doEmpty
-            if self.emptyTest == 'SPARQL':
-                if self.args.ep == '':
-                    self.endpoint = SPARQLEP(cacheDir = self.resourcesDir)
-                else:
-                    self.endpoint = SPARQLEP(self.args.ep, cacheDir = self.resourcesDir)
-            else:
-                if self.args.ep == '':
-                    self.endpoint = TPFEP(cacheDir = self.resourcesDir)
-                else:
-                    self.endpoint = TPFEP(service = self.args.ep, cacheDir = self.resourcesDir)
-            logging.info('Empty responses tests with %s' % self.endpoint)
-            self.endpoint.caching(True)
-        else:
-            self.emptyTest = None
+#         if self.args.doEmpty != 'None':
+#             self.emptyTest = self.args.doEmpty
+#             if self.emptyTest == 'SPARQL':
+#                 if self.args.ep == '':
+#                     self.endpoint = SPARQLEP(cacheDir = self.resourcesDir)
+#                 else:
+#                     self.endpoint = SPARQLEP(self.args.ep, cacheDir = self.resourcesDir)
+#             else:
+#                 if self.args.ep == '':
+#                     self.endpoint = TPFEP(cacheDir = self.resourcesDir)
+#                 else:
+#                     self.endpoint = TPFEP(service = self.args.ep, cacheDir = self.resourcesDir)
+#             logging.info('Empty responses tests with %s' % self.endpoint)
+#             self.endpoint.caching(True)
+#         else:
+#             self.emptyTest = None
 
-        self.file_name = self.args.file
-        if existFile(self.file_name):
-            logging.info('Open "%s"' % self.file_name)
-            self.f_in = open(self.file_name, 'r')
-        else :
-            logging.info('"%s" does\'nt exist' % self.file_name)
-            print('Can\'t open file %s' % self.file_name )
-            sys.exit()
+#         self.file_name = self.args.file
+#         if existFile(self.file_name):
+#             logging.info('Open "%s"' % self.file_name)
+#             self.f_in = open(self.file_name, 'r')
+#         else :
+#             logging.info('"%s" does\'nt exist' % self.file_name)
+#             print('Can\'t open file %s' % self.file_name )
+#             sys.exit()
 
-        self.nb_lines = 0
-        self.nb_dates = 0
-        self.date_set= set()
+#         self.nb_lines = 0
+#         self.nb_dates = 0
+#         self.date_set= set()
 
-    def save(self):
-        if self.emptyTest is not None:
-            self.endpoint.saveCache()
+#     def save(self):
+#         if self.emptyTest is not None:
+#             self.endpoint.saveCache()
 
-    def close(self):
-        logging.info('Close "%s"' % self.file_name)
-        self.f_in.close()
-        print('Nb line(s) : ', self.lines())
-        print('Nb date(s) : ', self.nbDates())
-        if self.emptyTest is not None:
-            self.endpoint.saveCache()
-        logging.info('End')
+#     def close(self):
+#         logging.info('Close "%s"' % self.file_name)
+#         self.f_in.close()
+#         print('Nb line(s) : ', self.lines())
+#         print('Nb date(s) : ', self.nbDates())
+#         if self.emptyTest is not None:
+#             self.endpoint.saveCache()
+#         logging.info('End')
 
-    def setArgs(self,exp):
-        # https://docs.python.org/3/library/argparse.html
-        # https://docs.python.org/3/howto/argparse.html
-        self.parser = argparse.ArgumentParser(description=exp)
-        self.parser.add_argument("-l", "--log", dest="logLevel",
-                            choices=['DEBUG','INFO','WARNING','ERROR','CRITICAL'],
-                            help="Set the logging level (INFO by default)", default='INFO')
+#     def setArgs(self,exp):
+#         # https://docs.python.org/3/library/argparse.html
+#         # https://docs.python.org/3/howto/argparse.html
+#         self.parser = argparse.ArgumentParser(description=exp)
+#         self.parser.add_argument("-l", "--log", dest="logLevel",
+#                             choices=['DEBUG','INFO','WARNING','ERROR','CRITICAL'],
+#                             help="Set the logging level (INFO by default)", default='INFO')
 
-        #self.parser.add_argument("-f", "--file", dest="file", help="Set the file to study")
-        self.parser.add_argument("file", help="Set the file to study")
+#         #self.parser.add_argument("-f", "--file", dest="file", help="Set the file to study")
+#         self.parser.add_argument("file", help="Set the file to study")
 
-        self.parser.add_argument("-t","--datetime",dest="refdate",help="Set the date-time to study in the log",default='')
-        self.parser.add_argument("-d", "--dir", dest="baseDir",
-                            help="Set the directory for results ('./logs' by default)", default='./logs')
-        self.parser.add_argument("-r","--ranking", help="do ranking after extraction",
-                        action="store_true",dest="doR")
-        self.parser.add_argument("--tpfc", help="filter some query the TPF Client does'nt treat",
-                        action="store_true",dest="doTPFC")
-        # self.parser.add_argument("-e","--empty", help="Request a SPARQL or a TPF endpoint to verify the query and test it returns at least one triple",
-        #                 action="store_true",dest="doEmpty")
-        self.parser.add_argument("-e","--empty", help="Request a SPARQL or a TPF endpoint to verify the query and test it returns at least one triple",
-                        choices=['SPARQL','TPF', 'None'],dest="doEmpty",default='None')
-        self.parser.add_argument("-ep","--endpoint", help="The endpoint requested for the '-e' ('--empty') option ( for exemple 'http://dbpedia.org/sparql' for SPARQL)",
-                        dest="ep", default='')
+#         self.parser.add_argument("-t","--datetime",dest="refdate",help="Set the date-time to study in the log",default='')
+#         self.parser.add_argument("-d", "--dir", dest="baseDir",
+#                             help="Set the directory for results ('./logs' by default)", default='./logs')
+#         self.parser.add_argument("-r","--ranking", help="do ranking after extraction",
+#                         action="store_true",dest="doR")
+#         self.parser.add_argument("--tpfc", help="filter some query the TPF Client does'nt treat",
+#                         action="store_true",dest="doTPFC")
+#         # self.parser.add_argument("-e","--empty", help="Request a SPARQL or a TPF endpoint to verify the query and test it returns at least one triple",
+#         #                 action="store_true",dest="doEmpty")
+#         self.parser.add_argument("-e","--empty", help="Request a SPARQL or a TPF endpoint to verify the query and test it returns at least one triple",
+#                         choices=['SPARQL','TPF', 'None'],dest="doEmpty",default='None')
+#         self.parser.add_argument("-ep","--endpoint", help="The endpoint requested for the '-e' ('--empty') option ( for exemple 'http://dbpedia.org/sparql' for SPARQL)",
+#                         dest="ep", default='')
 
-    def loadPrefixes(self):
-        logging.info('Reading of default prefixes')
-        self.default_prefixes = dict()
-        with open(self.resourcesDir+'/PrefixDBPedia.txt', 'r') as f:
-            reader = csv.DictReader(f, fieldnames=['prefix', 'uri'], delimiter='\t')
-            try:
-                for row in reader:
-                    self.default_prefixes[row['prefix']] = row['uri']
-            except csv.Error as e:
-                sys.exit('file %s, line %d: %s' % (f, reader.line_num, e))
+#     def loadPrefixes(self):
+#         logging.info('Reading of default prefixes')
+#         self.default_prefixes = dict()
+#         with open(self.resourcesDir+'/PrefixDBPedia.txt', 'r') as f:
+#             reader = csv.DictReader(f, fieldnames=['prefix', 'uri'], delimiter='\t')
+#             try:
+#                 for row in reader:
+#                     self.default_prefixes[row['prefix']] = row['uri']
+#             except csv.Error as e:
+#                 sys.exit('file %s, line %d: %s' % (f, reader.line_num, e))
 
-    def newDir(self, date):
-        rep = self.baseDir + date.replace('-', '').replace(':', '').replace('+', '-')
-        if not (os.path.isdir(rep)):
-            logging.info('Creation of "%s"', rep)
-            os.makedirs(rep)
-            for x in self.resourceSet:
-                shutil.copyfile(self.resourcesDir+'/'+x, rep + '/'+x)
-        rep = rep + '/'
-        return rep
+#     def newDir(self, date):
+#         rep = self.baseDir + date.replace('-', '').replace(':', '').replace('+', '-')
+#         if not (os.path.isdir(rep)):
+#             logging.info('Creation of "%s"', rep)
+#             os.makedirs(rep)
+#             for x in self.resourceSet:
+#                 shutil.copyfile(self.resourcesDir+'/'+x, rep + '/'+x)
+#         rep = rep + '/'
+#         return rep
 
-    def manageLogging(self,logLevel, logfile = 'be4dbp.log'):
-        if logLevel:
-            # https://docs.python.org/3/library/logging.html?highlight=log#module-logging
-            # https://docs.python.org/3/howto/logging.html#logging-basic-tutorial
-            logging.basicConfig(
-                format='%(levelname)s:%(asctime)s:%(message)s',
-                filename=logfile,filemode='w',
-                level=getattr(logging,logLevel))
+#     def manageLogging(self,logLevel, logfile = 'be4dbp.log'):
+#         if logLevel:
+#             # https://docs.python.org/3/library/logging.html?highlight=log#module-logging
+#             # https://docs.python.org/3/howto/logging.html#logging-basic-tutorial
+#             logging.basicConfig(
+#                 format='%(levelname)s:%(asctime)s:%(message)s',
+#                 filename=logfile,filemode='w',
+#                 level=getattr(logging,logLevel))
 
-    def manageDT(self,refDate):
-        if refDate != '':
-            logging.info('Extracting "%s"', refDate)
-        else:
-            logging.info('Extracting all the file')
-        return refDate
+#     def manageDT(self,refDate):
+#         if refDate != '':
+#             logging.info('Extracting "%s"', refDate)
+#         else:
+#             logging.info('Extracting all the file')
+#         return refDate
 
 
-    def manageDirectories(self,d):
-        logging.info('Results in "%s"', d)
-        if os.path.isdir(d):
-            dirList = os.listdir(d)
-            for f in dirList:
-                if os.path.isdir(d + '/' + f):
-                    shutil.rmtree(d + '/' + f)
-        else:
-            os.makedirs(d)
-        return d + '/'
+#     def manageDirectories(self,d):
+#         logging.info('Results in "%s"', d)
+#         if os.path.isdir(d):
+#             dirList = os.listdir(d)
+#             for f in dirList:
+#                 if os.path.isdir(d + '/' + f):
+#                     shutil.rmtree(d + '/' + f)
+#         else:
+#             os.makedirs(d)
+#         return d + '/'
 
-    def newLine(self):
-        self.nb_lines += 1
+#     def newLine(self):
+#         self.nb_lines += 1
 
-    def lines(self):
-        return self.nb_lines
+#     def lines(self):
+#         return self.nb_lines
 
-    def newDate(self,date):
-        self.nb_dates += 1
-        self.date_set.add(date)
+#     def newDate(self,date):
+#         self.nb_dates += 1
+#         self.date_set.add(date)
 
-    def nbDates(self):
-        return self.nb_dates
+#     def nbDates(self):
+#         return self.nb_dates
 
-    def dates(self):
-        return self.date_set
+#     def dates(self):
+#         return self.date_set
 
-    def file(self):
-        return self.f_in
+#     def file(self):
+#         return self.f_in
 
 #==================================================
 #==================================================
 
-class Counter:
-    def __init__(self, date=''):
-        self.setDate(date)
-        self.cpt = {
-            'line': 0,
-            'err_qr': 0,
-            'err_ns': 0,
-            'ok': 0,
-            'emptyQuery':0,
-            'select': 0,
-            'autre': 0,
-            'union': 0,
-            'bgp_not_valid': 0,
-            'err_tpf': 0,
-            'err_endpoint':0
-        }
+# class Counter:
+#     def __init__(self, date=''):
+#         self.setDate(date)
+#         self.cpt = {
+#             'line': 0,
+#             'err_qr': 0,
+#             'err_ns': 0,
+#             'ok': 0,
+#             'emptyQuery':0,
+#             'select': 0,
+#             'autre': 0,
+#             'union': 0,
+#             'bgp_not_valid': 0,
+#             'err_tpf': 0,
+#             'err_endpoint':0
+#         }
 
-    def setDate(self, date):
-        self.date = date
+#     def setDate(self, date):
+#         self.date = date
 
-    def line(self):
-        self.cpt['line'] += 1
+#     def line(self):
+#         self.cpt['line'] += 1
 
-    def getLine(self):
-        return self.cpt['line']
+#     def getLine(self):
+#         return self.cpt['line']
 
-    def err_qr(self):
-        self.cpt['err_qr'] += 1
+#     def err_qr(self):
+#         self.cpt['err_qr'] += 1
 
-    def err_endpoint(self):
-        self.cpt['err_endpoint'] += 1
+#     def err_endpoint(self):
+#         self.cpt['err_endpoint'] += 1
 
-    def err_ns(self):
-        self.cpt['err_ns'] += 1
+#     def err_ns(self):
+#         self.cpt['err_ns'] += 1
 
-    def emptyQuery(self):
-        self.cpt['emptyQuery'] += 1
+#     def emptyQuery(self):
+#         self.cpt['emptyQuery'] += 1
 
-    def ok(self):
-        self.cpt['ok'] += 1
+#     def ok(self):
+#         self.cpt['ok'] += 1
 
-    def select(self):
-        self.cpt['select'] += 1
+#     def select(self):
+#         self.cpt['select'] += 1
 
-    def autre(self):
-        self.cpt['autre'] += 1
+#     def autre(self):
+#         self.cpt['autre'] += 1
 
-    def union(self):
-        self.cpt['union'] += 1
+#     def union(self):
+#         self.cpt['union'] += 1
 
-    def bgp_not_valid(self):
-        self.cpt['bgp_not_valid'] += 1
+#     def bgp_not_valid(self):
+#         self.cpt['bgp_not_valid'] += 1
 
-    def err_tpf(self):
-        self.cpt['err_tpf'] += 1
+#     def err_tpf(self):
+#         self.cpt['err_tpf'] += 1
 
-    def join(self, c):
-        for x in c.cpt:
-            self.cpt[x] += c.cpt[x]
+#     def join(self, c):
+#         for x in c.cpt:
+#             self.cpt[x] += c.cpt[x]
 
-    def print(self):
-        if (self.date != ''):
-            print('=========== ', self.date, '=============')
-        # else:
-        #   print('=========== ','xxxxxxxx','=============')
-        pprint(self.cpt)
+#     def print(self):
+#         if (self.date != ''):
+#             print('=========== ', self.date, '=============')
+#         # else:
+#         #   print('=========== ','xxxxxxxx','=============')
+#         pprint(self.cpt)
 
 #==================================================
 #==================================================
