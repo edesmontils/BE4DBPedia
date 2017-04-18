@@ -28,6 +28,9 @@ LOAD       = "LOAD"
 COPY       = "COPY"
 MOVE       = "MOVE"
 ADD        = "ADD"
+INSERTDATA = "INSERTDATA"
+DELETEDATA = "DELETEDATA"
+DELETEWHERE = "DELETEWHERE"
 
 #==================================================
 
@@ -35,9 +38,9 @@ class QueryManager:
   def __init__(self):
     self.comments_pattern = re.compile(r"(^|\n)\s*#.*?\n")
 
-    self.pattern = re.compile(r"""
-        ((?P<base>(\s*BASE\s*<.*?>)\s*)|(?P<prefixes>(\s*PREFIX\s+.+:\s*<.*?>)\s*))*
-        (?P<queryType>(CONSTRUCT|SELECT|ASK|DESCRIBE|INSERT|DELETE|CREATE|CLEAR|DROP|LOAD|COPY|MOVE|ADD))
+    self.typePattern = re.compile(r"""
+        ((?P<baseDef>(\s*BASE\s*<.*?>)\s*)|(?P<prefixesDef>(\s*PREFIX\s+.+:\s*<.*?>)\s*))*
+        (?P<type>(CONSTRUCT|SELECT|ASK|DESCRIBE|INSERT|DELETE|CREATE|CLEAR|DROP|LOAD|COPY|MOVE|ADD|INSERTDATA|DELETEDATA|DELETEWHERE))
         """, re.VERBOSE | re.IGNORECASE)
 
     self.reThumbnail = re.compile(r"\Wxsd\:date\s*\(", re.IGNORECASE | re.VERBOSE)
@@ -50,7 +53,7 @@ class QueryManager:
     self.reOffset = re.compile(r'offset\s*\d+',re.IGNORECASE)
 
     self.requestQueryTypes = {SELECT, CONSTRUCT, ASK, DESCRIBE}
-    self.modificationQueryTypes = {INSERT, DELETE, CREATE, CLEAR, DROP, LOAD, COPY, MOVE, ADD}
+    self.modificationQueryTypes = {INSERT, DELETE, CREATE, CLEAR, DROP, LOAD, COPY, MOVE, ADD, INSERTDATA, DELETEDATA, DELETEWHERE}
     self.allowedQueryTypes = self.requestQueryTypes | self.modificationQueryTypes
 
   def cleanCommentLines(self, query):
@@ -59,16 +62,15 @@ class QueryManager:
   def queryType(self,query):
     try:
       query = self.cleanCommentLines(query)
-      r_queryType =  self.pattern.search(query).group("queryType").upper()
+      r_queryType =  self.typePattern.search(query).group("type").upper()
     except AttributeError:
-      warnings.warn("not detected query type for query '%s'" % query.replace("\n", " "), RuntimeWarning)
+      logging.warning("not detected query type for query '%s'" % query.replace("\n", " "), RuntimeWarning)
       r_queryType = None
 
     if r_queryType in self.allowedQueryTypes :
         return r_queryType
     else :
-        #raise Exception("Illegal SPARQL Query; must be one of SELECT, ASK, DESCRIBE, or CONSTRUCT")
-        warnings.warn("unknown query type '%s'" % r_queryType, RuntimeWarning)
+        logging.warning("unknown query type '%s'" % r_queryType, RuntimeWarning)
         return SELECT
 
   def isTPFCompatible(self, query):

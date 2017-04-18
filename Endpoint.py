@@ -30,33 +30,38 @@ class EndpointException(Exception):
 #==================================================
 #==================================================
 
+EP_QueryBadFormed = False
+EP_QueryWellFormed = True
+
 class Endpoint:
-    def __init__(self, service, cacheDir = '.') :
+    def __init__(self, service, cacheType = '', cacheDir = '.') :
         self.engine = None
         self.service = service
         self.reLimit = re.compile(r'limit\s*\d+',re.IGNORECASE)
         self.setCacheDir(cacheDir)
         self.cache = dict()
+        self.cacheType = cacheType
         self.do_cache = False
         self.reSupCom=re.compile(r'#[^>].*$',re.IGNORECASE | re.MULTILINE)
 
     def loadCache(self):
-        if os.path.isfile(self.cacheDir+'/be4dbp.csv') :
+        if os.path.isfile(self.cacheDir+"/be4dbp-"+self.cacheType+".csv") :
             logging.info('Reading cache file')
-            with open(self.cacheDir+"/be4dbp.csv","r", encoding='utf-8') as f:
+            with open(self.cacheDir+"/be4dbp-"+self.cacheType+".csv","r", encoding='utf-8') as f:
                 reader = csv.DictReader(f)
                 for row in reader:
-                    self.cache[row['qhash']] = row['nb'] == "True"
+                    self.cache[row['qhash']] = (row['ok'] == "True", row['wf'] == "True")
 
     def saveCache(self):
         if self.do_cache:
             logging.info('Writing cache file')
-            with open(self.cacheDir+"/be4dbp.csv","w", encoding='utf-8') as f:
-                fn=['nb','qhash']
+            with open(self.cacheDir+"/be4dbp-"+self.cacheType+".csv","w", encoding='utf-8') as f:
+                fn=['ok','wf', 'qhash']
                 writer = csv.DictWriter(f,fieldnames=fn)
                 writer.writeheader()
                 for x in self.cache:
-                    writer.writerow({'nb':self.cache[x],'qhash':x}) 
+                    (ok,wellFormed) = self.cache[x]
+                    writer.writerow({'ok':ok, 'wf':wellFormed,'qhash':x}) 
 
     def setCacheDir(self,cacheDir):
         self.cacheDir = cacheDir
@@ -73,8 +78,9 @@ class Endpoint:
         return []
 
     def is_answering(self, qstr):
+        '''Test if the query replies at least one answer (first value) and if the query is well formed (second value)'''
         raise EndpointException("There is no defined endpoint")
-        return False
+        return (False, EP_QueryWellFormed)
 
     def hash(self,qstr):
         return hashlib.sha512(qstr.encode('utf-8')).hexdigest()
@@ -90,21 +96,24 @@ class Endpoint:
         #On cherche d'abord dans le cache
         qhash = self.hash(query) 
         if qhash in self.cache:
-            ok = self.cache[qhash]
+            (ok,wf) = self.cache[qhash]
+            #if wf: print('*')
         else:
+        	wf = False
+        if not(wf):
             try:
-                ok = self.is_answering(self.setLimit1(query))
-                self.cache[qhash] = ok
+                (ok,wf) = self.is_answering(self.setLimit1(query))
+                self.cache[qhash] = (ok,wf)
             except EndpointException as e:
                 logging.info('Erreur EndpointException : %s',e)
                 raise Exception('Endpoint error',e)
-        return ok
+        return (ok,wf)
 
 #==================================================
 
 class SPARQLEP (Endpoint): # "http://dbpedia.org/sparql" "http://172.16.9.15:8890/sparql"
     def __init__(self, service = 'http://172.16.9.15:8890/sparql', cacheDir = '.'):
-        Endpoint.__init__(self, service, cacheDir)
+        Endpoint.__init__(self, service, cacheType='SPARQL', cacheDir=cacheDir)
         self.engine = SPARQLWrapper(self.service)
         self.engine.setReturnFormat(JSON)
         # self.sparql.setRequestMethod(POST)
@@ -117,11 +126,11 @@ class SPARQLEP (Endpoint): # "http://dbpedia.org/sparql" "http://172.16.9.15:889
         try:
             results = self.query(qstr)
             nb = len(results["results"]["bindings"])
-            return nb > 0
+            return (nb > 0, EP_QueryWellFormed)
         except QueryBadFormed as e:
             #logging.info('Erreur QueryBadFormed : %s',e)
             print('QueryBadFormed',qstr)
-            return False
+            return (False, EP_QueryBadFormed)
         except EndPointNotFound as e:
             logging.info('Erreur EndPointNotFound : %s',e)
             #print('EndPointNotFound',qstr)
@@ -139,13 +148,13 @@ class SPARQLEP (Endpoint): # "http://dbpedia.org/sparql" "http://172.16.9.15:889
 
 class DBPediaEP (SPARQLEP):
     def __init__(self, service = "http://dbpedia.org/sparql", cacheDir = '.'):
-        SPARQLEP.__init__(self, service, cacheDir)
+        SPARQLEP.__init__(self, service, cacheDir=cacheDir)
 
 #==================================================
 
 class TPFEP(Endpoint):
     def __init__(self,service = "http://172.16.9.3:5001/dbpedia_3_9", cacheDir = '.'):
-        Endpoint.__init__(self,service, cacheDir)  
+        Endpoint.__init__(self,service, cacheType='TPF', cacheDir=cacheDir)  
 
     def query(self, qstr):
         ret = subprocess.run(['ldf-client',self.service, qstr], 
@@ -154,14 +163,17 @@ class TPFEP(Endpoint):
         if out != '':
             return json.loads(out)
         else:
-            raise Exception('TPF Client error : %s' % ret.stderr)
+            if ret.stderr.startswith('ERROR: Query execution could not start.\n\nSyntax error in query'):
+                raise Exception('QueryBadFormed : %s' % ret.stderr)
+            else:
+                raise Exception('TPF Client error : %s' % ret.stderr)
             #return []
 
     def is_answering(self, qstr):
         try:
             results = self.query(qstr)
             nb = len(results)
-            return nb > 0
+            return (nb > 0,EP_QueryWellFormed)
         except subprocess.CalledProcessError as e :
             logging.info('Erreur CalledProcessError : %s',e)
             #print('CalledProcessError',qstr)
@@ -171,6 +183,11 @@ class TPFEP(Endpoint):
             #print('JSONDecodeError :',e)
             raise EndpointException("TPF endpoint error (JSONDecodeError)",e,qstr)
         except Exception as e:
-            logging.info('Erreur TPF EP ??? : %s',e)
-            print('Erreur TPF EP ??? :',e , qstr)
-            raise EndpointException("TPF endpoint error (???)",e,qstr)
+            message = e.__str__()
+            if message.startswith('QueryBadFormed'):
+                print('QueryBadFormed',qstr)
+                return (False,EP_QueryBadFormed)
+            else:
+                logging.info('Erreur TPF EP ??? : %s',e)
+                print('Erreur TPF EP ??? :',e , qstr)
+                raise EndpointException("TPF endpoint error (???)",e,qstr)

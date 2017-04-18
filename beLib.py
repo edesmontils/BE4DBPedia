@@ -109,8 +109,11 @@ def existDBPEDIA(line,query,ctx):
     test if the query has at least one response
     """
     try:
-        ok = ctx.endpoint.notEmpty(ctx.qe.simplifyQuery(query))
-        return (ok, 'empty')
+        (ok, wellFormed) = ctx.endpoint.notEmpty(ctx.qe.simplifyQuery(query))
+        if wellFormed:
+            return (ok, 'empty')
+        else:
+            return (False,'QBF')
     except Exception as e:
         message = e.__str__()
         print('Erreur existDBPEDIA:',line, message, query)
