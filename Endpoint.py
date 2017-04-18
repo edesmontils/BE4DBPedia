@@ -24,6 +24,12 @@ from SPARQLWrapper.Wrapper import QueryResult, QueryBadFormed, EndPointNotFound,
 #==================================================
 #==================================================
 
+class EndpointException(Exception):
+	'''raise when the endpoint can't answer normally to the query (timeout...). Syntax errors are right answers'''
+
+#==================================================
+#==================================================
+
 class Endpoint:
     def __init__(self, service, cacheDir = '.') :
         self.engine = None
@@ -67,6 +73,7 @@ class Endpoint:
         return []
 
     def is_answering(self, qstr):
+        raise EndpointException("There is no defined endpoint")
         return False
 
     def hash(self,qstr):
@@ -79,24 +86,18 @@ class Endpoint:
             nquery = query + ' limit 1 '
         return nquery
 
-    def simplifyQuery(self,query) :
-    	if self.reSupCom.search(query):
-    		nquery = self.reSupCom.sub('',query)
-    	else:
-    		nquery = query
-    	return ' '.join(nquery.split())
-
     def notEmpty(self,query):
         #On cherche d'abord dans le cache
         qhash = self.hash(query) 
         if qhash in self.cache:
             ok = self.cache[qhash]
-            #nq = self.simplifyQuery(self.setLimit1(query))
-            #nok = self.is_answering(nq)
-            #assert ok == nok, 'pas égal\n %s \n %s' % (query,nq)
         else:
-            ok = self.is_answering(self.setLimit1(query))
-            self.cache[qhash] = ok
+            try:
+                ok = self.is_answering(self.setLimit1(query))
+                self.cache[qhash] = ok
+            except EndpointException as e:
+                logging.info('Erreur EndpointException : %s',e)
+                raise Exception('Endpoint error',e)
         return ok
 
 #==================================================
@@ -116,22 +117,23 @@ class SPARQLEP (Endpoint): # "http://dbpedia.org/sparql" "http://172.16.9.15:889
         try:
             results = self.query(qstr)
             nb = len(results["results"]["bindings"])
+            return nb > 0
         except QueryBadFormed as e:
-            logging.info('Erreur QueryBadFormed : %s',e)
+            #logging.info('Erreur QueryBadFormed : %s',e)
             print('QueryBadFormed',qstr)
-            nb = 0
+            return False
         except EndPointNotFound as e:
             logging.info('Erreur EndPointNotFound : %s',e)
-            print('EndPointNotFound',qstr)
-            nb = 0
+            #print('EndPointNotFound',qstr)
+            raise EndpointException("SPARQL endpoint error (EndPointNotFound)",e,qstr)
         except EndPointInternalError as e:
             logging.info('Erreur EndPointInternalError : %s',e)
-            print('EndPointInternalError',qstr)
-            nb = 0
+            #print('EndPointInternalError',qstr)
+            raise EndpointException("SPARQL endpoint error (EndPointInternalError)",e,qstr)
         except Exception as e:
+            logging.info('Erreur SPARQL EP ??? : %s',e)
             print('Erreur SPARQL EP ??? :',e,qstr)
-            nb = 0
-        return nb > 0
+            raise EndpointException("SPARQL endpoint error (???)",e,qstr)
 
 #==================================================
 
@@ -152,22 +154,23 @@ class TPFEP(Endpoint):
         if out != '':
             return json.loads(out)
         else:
-            #raise Exception('TPF Client error : %s' % ret.stderr)
-            return []
+            raise Exception('TPF Client error : %s' % ret.stderr)
+            #return []
 
     def is_answering(self, qstr):
         try:
             results = self.query(qstr)
             nb = len(results)
+            return nb > 0
         except subprocess.CalledProcessError as e :
             logging.info('Erreur CalledProcessError : %s',e)
-            print('CalledProcessError',qstr)
-            nb = 0
+            #print('CalledProcessError',qstr)
+            raise EndpointException("TPF endpoint error (CalledProcessError)",e,qstr)
         except json.JSONDecodeError as e:
             logging.info('Erreur JSONDecodeError : %s',e)
-            print('JSONDecodeError :',e)
-            nb = 0
+            #print('JSONDecodeError :',e)
+            raise EndpointException("TPF endpoint error (JSONDecodeError)",e,qstr)
         except Exception as e:
+            logging.info('Erreur TPF EP ??? : %s',e)
             print('Erreur TPF EP ??? :',e , qstr)
-            nb = 0
-        return nb > 0
+            raise EndpointException("TPF endpoint error (???)",e,qstr)

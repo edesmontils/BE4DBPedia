@@ -115,10 +115,10 @@ def existDBPEDIA(line,query,ctx):
         message = e.__str__()
         print('Erreur existDBPEDIA:',line, message, query)
         if message.startswith('QueryBadFormed'):
-            logging.warning('PB SPARQL Endpoint (QueryBadFormed):%s',e)
+            logging.warning('PB Endpoint (QueryBadFormed):%s',e)
             return (False, 'QBF')
         else:
-            logging.warning('PB SPARQL Endpoint (autre):%s',e)
+            logging.warning('PB Endpoint (autre):%s',e)
             return (False, 'autre')
 
 def validate(cpt, line, ip, query, ctx):
