@@ -12,6 +12,8 @@ Basic query tools
 import re
 import logging
 
+#==================================================
+
 # Possible SPARQL/SPARUL query type
 SELECT     = "SELECT"
 CONSTRUCT  = "CONSTRUCT"
@@ -26,6 +28,8 @@ LOAD       = "LOAD"
 COPY       = "COPY"
 MOVE       = "MOVE"
 ADD        = "ADD"
+
+#==================================================
 
 class QueryManager:
   def __init__(self):
