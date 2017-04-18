@@ -56,6 +56,16 @@ class QueryManager:
     self.modificationQueryTypes = {INSERT, DELETE, CREATE, CLEAR, DROP, LOAD, COPY, MOVE, ADD, INSERTDATA, DELETEDATA, DELETEWHERE}
     self.allowedQueryTypes = self.requestQueryTypes | self.modificationQueryTypes
 
+    self.stat = dict()
+    for t in self.allowedQueryTypes:
+      self.stat[t] = 0
+    self.stat['None'] = 0
+
+  def printStats(self):
+    print('Query Type Stats')
+    for t in self.stat:
+      print('\t',t.ljust(12),'=',self.stat[t])
+
   def cleanCommentLines(self, query):
     return re.sub(self.comments_pattern, "\n" , query)
 
@@ -64,14 +74,18 @@ class QueryManager:
       query = self.cleanCommentLines(query)
       r_queryType =  self.typePattern.search(query).group("type").upper()
     except AttributeError:
-      logging.warning("not detected query type for query '%s'" % query.replace("\n", " "), RuntimeWarning)
+      logging.warning("not detected query type for query '%s'" % query.replace("\n", " "))
       r_queryType = None
 
     if r_queryType in self.allowedQueryTypes :
+        #print(r_queryType,'//',query.replace("\n", " "))
+        self.stat[r_queryType] += 1
         return r_queryType
     else :
-        logging.warning("unknown query type '%s'" % r_queryType, RuntimeWarning)
-        return SELECT
+        logging.warning("unknown query type '%s'" % r_queryType)
+        print(None,'//',query.replace("\n", " "))
+        self.stat['None'] += 1
+        return None # SELECT
 
   def isTPFCompatible(self, query):
     ok = True
@@ -89,8 +103,8 @@ class QueryManager:
 
   def simplifyQuery(self, query):
     nquery = self.cleanCommentLines(query)
-    nquery = re.sub(self.reLimit, "" , nquery)
-    nquery = re.sub(self.reOffset, "" , nquery)
+    #nquery = re.sub(self.reLimit, "" , nquery)
+    #nquery = re.sub(self.reOffset, "" , nquery)
     return nquery
 
 # reSelect = re.compile(r'(\W+)select(\s+)', re.IGNORECASE)
@@ -102,3 +116,62 @@ class QueryManager:
 # ( , ( [^,()"'<]+ | "[^"]*" | '[^']*' | <[^>]*> | \w* \( [^)]* \) )+ ){2,}
 # \)
 # """
+
+
+#==================================================
+#==================================================
+#==================================================
+
+if __name__ == '__main__':
+  logging.basicConfig(
+      format='%(levelname)s:%(asctime)s:%(message)s',
+      filename='scan.log',
+      filemode='w',
+      level=logging.DEBUG)
+
+  print('main')
+
+  ref = """
+      PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+      SELECT ?label
+      WHERE { <http://dbpedia.org/resource/Asturias> rdfs:label ?label }
+      LIMIT 10
+  """
+
+  pb = """
+  select DISTINCT ?zzzzzz where{  ?x ?y ?zzzzzz FILTER regex(?zzzzzz, <http://dbpedia.org/class/yago/PresidentsOfTheUnitedState>)} LIMIT 5 
+  """
+
+  #print(reLimit.sub('limit 1',ref))
+
+  q5 = """
+  prefix : <http://www.example.org/lift2#> select ?s ?o where {?s :p3 "titi" . ?s :p1 ?o . ?s :p4 "tata"}
+  """
+
+  q6 = """
+  prefix : <http://www.example.org/lift2#>  #njvbjonbtrg
+
+  #Q2
+  select ?s ?o whre {
+    ?s :p2 "toto" . #kjgfjgj
+    # ?s ?p ?o .
+    #?s <http://machin.org/toto#bidule> ?o ## jhjhj
+  } limit 10 offset 1000
+  """
+
+  # reSupCom=re.compile(r'#\w*[^>].*$',re.IGNORECASE | re.MULTILINE)
+
+  # def simplyQuery(query) :
+  #   if reSupCom.search(query):
+  #     nquery = reSupCom.sub('',query)
+  #   else:
+  #     nquery = query
+  #   return ' '.join(nquery.split())
+
+  qe = QueryManager()
+  #q = qe.simplifyQuery(q6)
+  print('origin:',q6)
+  #print('simplified',q)
+  print('Select?',qe.queryType(q6) == SELECT)
+
+

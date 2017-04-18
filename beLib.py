@@ -17,6 +17,9 @@ import datetime as dt
 from urllib.parse import urlparse, parse_qsl
 import os
 
+from rdflib.plugins.sparql.parser import parseQuery
+from rdflib.plugins.sparql.algebra import translateQuery
+
 from bgp import *
 from QueryManager import *
 

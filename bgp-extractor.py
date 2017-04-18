@@ -72,14 +72,9 @@ for line in ctx.file():
         ctx.save()
 
     if dateOk:
-        if (query != ''):
-            file = rep + ip + '-be4dbp.xml'
-            users[date][ip] = file
-            compute(cur_cpt, ctx.lines(), file, date, ip, query, param_list, rep, ctx)
-        else:
-            logging.debug('(%d) No query for %s', ctx.lines(), ip)
-            cur_cpt.autre()
-
+        file = rep + ip + '-be4dbp.xml'
+        users[date][ip] = file
+        compute(cur_cpt, ctx.lines(), file, date, ip, query, param_list, rep, ctx)
 
 logging.info('Fermeture des fichiers')
 for d in users:

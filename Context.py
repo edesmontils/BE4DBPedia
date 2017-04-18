@@ -98,6 +98,7 @@ class Context:
         print('Nb date(s) : ', self.nbDates())
         if self.emptyTest is not None:
             self.endpoint.saveCache()
+        self.qe.printStats()
         logging.info('End')
 
     def setArgs(self,exp):

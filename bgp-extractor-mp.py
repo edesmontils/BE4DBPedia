@@ -136,13 +136,10 @@ for line in ctx.file():
 
     cpt.line()
     if dateOk:  # and (ctx.lines() < 100):
-        if (query != ''):
-            file = rep + ip + '-be4dbp.xml'
-            compute_queue.put( (query, param_list, ip, file, date, ctx.lines()) )
-            file_set[date].add(file)
-        else:
-            logging.debug('(%d) No query for %s', ctx.lines(), ip)
-            cpt.autre()
+        file = rep + ip + '-be4dbp.xml'
+        compute_queue.put( (query, param_list, ip, file, date, ctx.lines()) )
+        file_set[date].add(file)
+
 
 logging.info('Arrêt des processus de traitement')
 for process in process_list:

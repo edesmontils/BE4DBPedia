@@ -96,18 +96,18 @@ class Endpoint:
         #On cherche d'abord dans le cache
         qhash = self.hash(query) 
         if qhash in self.cache:
-            (ok,wf) = self.cache[qhash]
-            #if wf: print('*')
+            return self.cache[qhash]
         else:
-        	wf = False
-        if not(wf):
             try:
                 (ok,wf) = self.is_answering(self.setLimit1(query))
                 self.cache[qhash] = (ok,wf)
+                #---
+                assert not(ok==True and wf==False), 'Bad response of is_answering'
+                #---
+                return (ok,wf)
             except EndpointException as e:
                 logging.info('Erreur EndpointException : %s',e)
                 raise Exception('Endpoint error',e)
-        return (ok,wf)
 
 #==================================================
 
@@ -124,6 +124,7 @@ class SPARQLEP (Endpoint): # "http://dbpedia.org/sparql" "http://172.16.9.15:889
 
     def is_answering(self, qstr):
         try:
+            print('Search in %s for %s'%(self.service,query.replace("\n", " ")))
             results = self.query(qstr)
             nb = len(results["results"]["bindings"])
             return (nb > 0, EP_QueryWellFormed)
@@ -157,17 +158,22 @@ class TPFEP(Endpoint):
         Endpoint.__init__(self,service, cacheType='TPF', cacheDir=cacheDir)  
 
     def query(self, qstr):
-        ret = subprocess.run(['ldf-client',self.service, qstr], 
-                             stdout=subprocess.PIPE, encoding='utf-8', stderr=subprocess.PIPE, check=True)
-        out = ret.stdout
+        # ret = subprocess.run(['ldf-client',self.service, qstr], 
+        #                      stdout=subprocess.PIPE, encoding='utf-8', stderr=subprocess.PIPE, check=True)
+        # out = ret.stdout
+        # if out != '':
+        #     return json.loads(out)
+        # else:
+        #     if ret.stderr.startswith('ERROR: Query execution could not start.\n\nSyntax error in query'):
+        #         raise Exception('QueryBadFormed : %s' % ret.stderr)
+        #     else:
+        #         raise Exception('TPF Client error : %s' % ret.stderr)
+        # 'run' n'existe que depuis python 3.5 !!! donc pas en 3.2 !!!!
+        out = subprocess.check_output(['ldf-client',self.service, qstr]) #, encoding='utf-8') # ,stderr=subprocess.DEVNULL : python3.3
+        #print('out=',out)
         if out != '':
             return json.loads(out)
-        else:
-            if ret.stderr.startswith('ERROR: Query execution could not start.\n\nSyntax error in query'):
-                raise Exception('QueryBadFormed : %s' % ret.stderr)
-            else:
-                raise Exception('TPF Client error : %s' % ret.stderr)
-            #return []
+        else: raise Exception('QueryBadFormed') #return []
 
     def is_answering(self, qstr):
         try:
@@ -176,18 +182,75 @@ class TPFEP(Endpoint):
             return (nb > 0,EP_QueryWellFormed)
         except subprocess.CalledProcessError as e :
             logging.info('Erreur CalledProcessError : %s',e)
-            #print('CalledProcessError',qstr)
+            print('CalledProcessError',e,qstr)
             raise EndpointException("TPF endpoint error (CalledProcessError)",e,qstr)
-        except json.JSONDecodeError as e:
-            logging.info('Erreur JSONDecodeError : %s',e)
-            #print('JSONDecodeError :',e)
-            raise EndpointException("TPF endpoint error (JSONDecodeError)",e,qstr)
+        # except json.JSONDecodeError as e: #Fonctionne pas en python 3.2... que depuis 3.5 !!!!
+        #     logging.info('Erreur JSONDecodeError : %s',e)
+        #     #print('JSONDecodeError :',e)
+        #     raise EndpointException("TPF endpoint error (JSONDecodeError)",e,qstr)
         except Exception as e:
             message = e.__str__()
             if message.startswith('QueryBadFormed'):
-                print('QueryBadFormed',qstr)
+                #print('QueryBadFormed',qstr)
                 return (False,EP_QueryBadFormed)
             else:
                 logging.info('Erreur TPF EP ??? : %s',e)
                 print('Erreur TPF EP ??? :',e , qstr)
                 raise EndpointException("TPF endpoint error (???)",e,qstr)
+
+#==================================================
+#==================================================
+#==================================================
+
+if __name__ == '__main__':
+	logging.basicConfig(
+	    format='%(levelname)s:%(asctime)s:%(message)s',
+	    filename='scan.log',
+	    filemode='w',
+	    level=logging.DEBUG)
+
+	print('main')
+
+	ref = """
+	    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+	    SELECT ?label
+	    WHERE { <http://dbpedia.org/resource/Asturias> rdfs:label ?label }
+	    LIMIT 10
+	"""
+
+	pb = """
+	select DISTINCT ?zzzzzz where{  ?x ?y ?zzzzzz FILTER regex(?zzzzzz, <http://dbpedia.org/class/yago/PresidentsOfTheUnitedState>)} LIMIT 5 
+	"""
+	sp = DBPediaEP()
+	sp.caching(True)
+	try:
+	  print(sp.notEmpty(ref))
+	  sp.caching(False)
+	except Exception as e:
+	  print(e)
+
+	q5 = """
+	prefix : <http://www.example.org/lift2#> select ?s ?o where {?s :p3 "titi" . ?s :p1 ?o . ?s :p4 "tata"}
+	"""
+
+	q6 = """
+	prefix : <http://www.example.org/lift2#>  #njvbjonbtrg
+
+	#Q2
+	select ?s ?o whre {
+	  ?s :p2 "toto" . #kjgfjgj
+	  # ?s ?p ?o .
+	  #?s <http://machin.org/toto#bidule> ?o ## jhjhj
+	} limit 10 offset 1000
+	"""
+	print('origin:',q6)
+
+	 # http://localhost:5000/lift : serveur TPF LIFT (exemple du papier)
+	sp = TPFEP(service = 'http://localhost:5000/lift')
+	#sp.caching(True)
+	try:
+	  print('NotEmpty:',sp.notEmpty(q6))
+	  #sp.saveCache()
+	except Exception as e:
+	  #print(e)
+		pass
