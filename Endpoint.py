@@ -178,7 +178,7 @@ class TPFEP(Endpoint):
     def query(self, qstr):
         # 'run' n'existe que depuis python 3.5 !!! donc pas en 3.2 !!!!
         ret = subprocess.run(['ldf-client',self.service, qstr], 
-                             stdout=subprocess.PIPE, encoding='utf-8', stderr=subprocess.PIPE, check=True, timeout=10)
+                             stdout=subprocess.PIPE, encoding='utf-8', stderr=subprocess.PIPE, check=True, timeout=self.timeOut)
         #pprint(ret)
         #sys.exit()
         out = ret.stdout

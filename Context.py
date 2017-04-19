@@ -72,7 +72,7 @@ class Context:
                     self.endpoint = TPFEP(service = self.args.ep, cacheDir = current_dir+'/'+self.resourcesDir)
             logging.info('Empty responses tests with %s' % self.endpoint)
             self.endpoint.caching(True)
-            self.endpoint.setTimeOut(10)
+            self.endpoint.setTimeOut(20)
         else:
             self.emptyTest = None
 
