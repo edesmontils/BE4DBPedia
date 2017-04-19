@@ -99,5 +99,9 @@ python3.2 -OO bgp-extractor-mp.py -p 64 -d ./logs-20151031 access.log-20151031.l
 python3.2 -OO bgp-ranking-analysis.py ./logs-20151031/*/*-be4dbp.xml
 tar cvfz logs-20151031.tar ./logs-20151031/ ; gzip logs-20151031.tar
 ```
+## Librairies to install 
 
+- RDFLib : https://github.com/RDFLib/rdflib https://rdflib.readthedocs.io/
+- SPARQLWarpper : https://github.com/RDFLib/sparqlwrapper https://rdflib.github.io/sparqlwrapper/
+- lxml : http://lxml.de/
 

@@ -19,6 +19,8 @@ from beLib import *
 from Context import *
 from Counter import *
 
+from ranking import *
+
 #==================================================
 
 

@@ -24,6 +24,7 @@ from beLib import *
 from Stat import *
 from Context import *
 from Counter import *
+from ranking import *
 
 #==================================================
 

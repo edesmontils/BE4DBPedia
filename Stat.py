@@ -19,26 +19,6 @@ from Counter import *
 
 #==================================================
 
-def analyse(in_queue):
-    logging.debug('Start analyse worker "%s"', os.getpid())
-    while True:
-        try:
-            mess = in_queue.get()
-            if mess is None:
-                break
-            else:
-                logging.debug('Treat mess in %s %s', os.getpid(), mess)
-                rankAnalysis(mess)
-        except Empty as e:
-            print('empty!')
-        except Exception as e:
-            print(mess, e)
-            break
-    logging.debug('Stop analyse worker "%s"', os.getpid())
-
-
-#==================================================
-
 
 def count_stat(in_queue):
     logging.debug('Start stat worker "%s"', os.getpid())

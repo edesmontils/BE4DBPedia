@@ -9,8 +9,12 @@ Application to rank BGP according to frequency
 #    All rights reserved.
 #    GPL v 2.0 license.
 
-from beLib import *
-from Stat import *
+from ranking import *
+
+import multiprocessing as mp
+import logging
+
+import datetime as dt
 
 import logging
 import argparse
@@ -60,7 +64,7 @@ for process in process_list:
     process.start()
 
 for file in file_set:
-    if existFile(file):
+    if os.path.isfile(file): #existFile(file):
         logging.debug('Analyse de "%s"', file)
         compute_queue.put(file)
 
