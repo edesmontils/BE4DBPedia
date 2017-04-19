@@ -9,6 +9,8 @@ Basic endpoint wrappers for SPARQL et TPF
 #    All rights reserved.
 #    GPL v 2.0 license.
 
+from pprint import pprint
+
 import re
 import json
 import logging
@@ -17,6 +19,7 @@ import hashlib
 import csv
 import subprocess
 import os.path
+import sys
 import multiprocessing as mp
 
 from SPARQLWrapper import SPARQLWrapper, JSON #, SPARQLWrapperException
@@ -168,25 +171,39 @@ class DBPediaEP (SPARQLEP):
 
 class TPFEP(Endpoint):
     def __init__(self,service = "http://172.16.9.3:5001/dbpedia_3_9", cacheDir = '.'):
-        Endpoint.__init__(self,service, cacheType='TPF', cacheDir=cacheDir)  
+        Endpoint.__init__(self,service, cacheType='TPF', cacheDir=cacheDir)
+        self.reSyntaxError = re.compile(r'\A(ERROR\:).*?\n\n(Syntax\ error\ in\ query).*',re.IGNORECASE)
+        self.reQueryNotSupported = re.compile(r'\A(ERROR\:).*?\n\n(The\ query\ is\ not\ yet\ supported).*',re.IGNORECASE)
 
     def query(self, qstr):
-        # ret = subprocess.run(['ldf-client',self.service, qstr], 
-        #                      stdout=subprocess.PIPE, encoding='utf-8', stderr=subprocess.PIPE, check=True)
-        # out = ret.stdout
-        # if out != '':
-        #     return json.loads(out)
-        # else:
-        #     if ret.stderr.startswith('ERROR: Query execution could not start.\n\nSyntax error in query'):
-        #         raise Exception('QueryBadFormed : %s' % ret.stderr)
-        #     else:
-        #         raise Exception('TPF Client error : %s' % ret.stderr)
         # 'run' n'existe que depuis python 3.5 !!! donc pas en 3.2 !!!!
-        out = subprocess.check_output(['ldf-client',self.service, qstr]) #, encoding='utf-8') # ,stderr=subprocess.DEVNULL : python3.3 # timeout... uniquement python 3.3
-        #print('out=',out)
+        ret = subprocess.run(['ldf-client',self.service, qstr], 
+                             stdout=subprocess.PIPE, encoding='utf-8', stderr=subprocess.PIPE, check=True, timeout=10)
+        #pprint(ret)
+        #sys.exit()
+        out = ret.stdout
         if out != '':
             return json.loads(out)
-        else: raise Exception('QueryBadFormed') #return []
+        else:
+            err = ret.stderr
+            #print('##'+err+'##')
+            #pprint(self.reSyntaxError.search(err).group(0))
+            #pprint(self.reQueryNotSupported.search(err).group(0))
+            #sys.exit()
+            if self.reSyntaxError.search(err) != None: #ret.stderr.startswith('ERROR: Query execution could not start.\n\nSyntax error in query'):
+                raise Exception('QueryBadFormed : %s' % err)
+            elif self.reQueryNotSupported.search(err) != None: #ret.stderr.startswith('ERROR: Query execution could not start.\n\The query is not yet supported'):
+                print(err)
+                sys.exit()
+                raise Exception('QueryBadFormed : %s' % err) 
+            else:
+                raise Exception('TPF Client error : %s' % err)
+        
+        # out = subprocess.check_output(['ldf-client',self.service, qstr.encode('utf8')]) #, encoding='utf-8') # ,stderr=subprocess.DEVNULL : python3.3 # timeout... uniquement python 3.3
+        # #print('out=',out)
+        # if out != '':
+        #     return json.loads(out.decode('utf8'))
+        # else: raise Exception('QueryBadFormed') #return []
 
     def is_answering(self, qstr):
         try:
@@ -195,16 +212,17 @@ class TPFEP(Endpoint):
             return (nb > 0,EP_QueryWellFormed)
         except subprocess.CalledProcessError as e :
             logging.info('Erreur CalledProcessError : %s',e)
-            print('CalledProcessError',e,qstr)
+            print('CalledProcessError',e)
             raise EndpointException("TPF endpoint error (CalledProcessError)",e,qstr)
-        # except json.JSONDecodeError as e: #Fonctionne pas en python 3.2... que depuis 3.5 !!!!
-        #     logging.info('Erreur JSONDecodeError : %s',e)
-        #     #print('JSONDecodeError :',e)
-        #     raise EndpointException("TPF endpoint error (JSONDecodeError)",e,qstr)
+            #return (False,EP_QueryBadFormed)
+        except json.JSONDecodeError as e: #Fonctionne pas en python 3.2... que depuis 3.5 !!!!
+            logging.info('Erreur JSONDecodeError : %s',e)
+            print('JSONDecodeError :',e)
+            raise EndpointException("TPF endpoint error (JSONDecodeError)",e,qstr)
         except Exception as e:
             message = e.__str__()
             if message.startswith('QueryBadFormed'):
-                #print('QueryBadFormed',qstr)
+                print('QueryBadFormed',qstr)
                 return (False,EP_QueryBadFormed)
             else:
                 logging.info('Erreur TPF EP ??? : %s',e)
