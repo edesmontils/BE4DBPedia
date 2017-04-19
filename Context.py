@@ -42,8 +42,10 @@ class Context:
         self.baseDir = self.manageDirectories(self.args.baseDir)
         self.resourcesDir = './resources'
         self.resourceSet = {'log.dtd', 'bgp.dtd', 'ranking.dtd'}
-        self.QM = QueryManager()
+
         self.loadPrefixes()
+
+        self.QM = QueryManager(defaultPrefixes = self.default_prefixes)
 
         if self.args.doR:
             self.doRanking = True

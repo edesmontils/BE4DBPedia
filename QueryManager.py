@@ -14,6 +14,10 @@ import logging
 
 import multiprocessing as mp
 
+from rdflib.plugins.sparql.sparql import SPARQLError
+from rdflib.plugins.sparql.algebra import translateQuery
+from rdflib.plugins.sparql.parser import parseQuery
+
 from bgp import *
 
 #==================================================
@@ -61,7 +65,7 @@ class QueryManager:
     self.allowedQueryTypes = self.requestQueryTypes | self.modificationQueryTypes
 
     self.mp_manager = mp.Manager()
-    self.sem = mp.dict() #self.mp_manager.Semaphore()
+    self.sem = self.mp_manager.dict() #self.mp_manager.Semaphore()
     self.stat = self.mp_manager.dict()
     for t in self.allowedQueryTypes:
       self.stat[t] = 0
@@ -71,6 +75,17 @@ class QueryManager:
 
     if defaultPrefixes == None:
       self.defaultPrefixes = dict()
+      self.defaultPrefixes['ed'] = 'http://exemple.org/edamiral#'
+      self.defaultPrefixes['rdf'] = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+      self.defaultPrefixes['rdfs'] = 'http://www.w3.org/2000/01/rdf-schema#'
+      self.defaultPrefixes['owl'] = 'http://www.w3.org/2002/07/owl#'
+      self.defaultPrefixes['xsd'] = 'http://www.w3.org/2001/XMLSchema#'
+      self.defaultPrefixes['foaf'] = 'http://xmlns.com/foaf/0.1/'
+      self.defaultPrefixes['dc'] = 'http://purl.org/dc/elements/1.1/'
+      self.defaultPrefixes['skos'] = 'http://www.w3.org/2004/02/skos/core#'
+      self.defaultPrefixes['dbpedia'] = 'http://dbpedia.org/'
+      self.defaultPrefixes['dbpedia2'] = 'http://dbpedia.org/property/'
+      self.defaultPrefixes['dbpedia3'] = 'http://dbpedia.org/resource/'
     else:
       self.defaultPrefixes = defaultPrefixes
 
@@ -221,10 +236,10 @@ if __name__ == '__main__':
 
   q6 = """
   prefix : <http://www.example.org/lift2#>  #njvbjonbtrg
-
   #Q2
   select ?s ?o whre {
     ?s :p2 "toto" . #kjgfjgj
+    ?s edm:type <http://exemple.org/MonConcept> .
     # ?s ?p ?o .
     #?s <http://machin.org/toto#bidule> ?o ## jhjhj
   } limit 10 offset 1000
@@ -245,4 +260,10 @@ if __name__ == '__main__':
   #print('simplified',q)
   print('Select?',qe.queryType(q6) == SELECT)
 
-
+  try:
+    (bgp, query) = qe.extractBGP(q6)
+    print(query)
+    print(serializeBGP2str(bgp))
+  except Exception as e:
+    print(type(e))
+    print(e)
