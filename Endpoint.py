@@ -198,8 +198,8 @@ class TPFEP(Endpoint):
             if self.reSyntaxError.search(err) != None: #ret.stderr.startswith('ERROR: Query execution could not start.\n\nSyntax error in query'):
                 raise Exception('QueryBadFormed : %s' % err)
             elif self.reQueryNotSupported.search(err) != None: #ret.stderr.startswith('ERROR: Query execution could not start.\n\The query is not yet supported'):
-                print(err)
-                sys.exit()
+                #print(err)
+                #sys.exit()
                 raise Exception('QueryBadFormed : %s' % err) 
             else:
                 raise Exception('TPF Client error : %s' % err)
