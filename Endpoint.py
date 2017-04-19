@@ -215,6 +215,11 @@ class TPFEP(Endpoint):
             print('CalledProcessError',e)
             raise EndpointException("TPF endpoint error (CalledProcessError)",e,qstr)
             #return (False,EP_QueryBadFormed)
+        except subprocess.TimeoutExpired as e : # uniquement python 3.3 !!!
+            logging.info('Erreur TimeoutExpired : %s',e)
+            print('TimeoutExpired',e)
+            raise EndpointException("TPF endpoint error (TimeoutExpired)",e,qstr)
+            #return (False,EP_QueryBadFormed)       
         except json.JSONDecodeError as e: #Fonctionne pas en python 3.2... que depuis 3.5 !!!!
             logging.info('Erreur JSONDecodeError : %s',e)
             print('JSONDecodeError :',e)
