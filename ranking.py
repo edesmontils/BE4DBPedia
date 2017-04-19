@@ -62,10 +62,8 @@ def rankAnalysis(file):
     logging.debug('rankAnalysis for %s' % file)
     parser = etree.XMLParser(recover=True, strip_cdata=True)
     tree = etree.parse(file, parser)
-    dtd = etree.DTD('./resources/log.dtd')
-
     #---
-    assert dtd.validate(tree), '%s non valide au chargement : %s' % (
+    assert etree.DTD('./resources/log.dtd').validate(tree), '%s non valide au chargement : %s' % (
         file, dtd.error_log.filter_from_errors()[0])
     #---
     ranking = []
