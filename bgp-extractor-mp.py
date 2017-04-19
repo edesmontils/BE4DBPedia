@@ -27,11 +27,11 @@ from Counter import *
 
 #==================================================
 
-def compute(idp, tab_date, sem, in_queue, stat, ctx):
+def compute(idp, tab_date, in_queue, stat, ctx):
     logging.debug('(%d) Start compute worker "%s"' %(idp, os.getpid()) )
     while True:
         try:
-            mess = in_queue.get(timeout=5)
+            mess = in_queue.get(timeout=30)
             if mess is None:
                 break
             else:
@@ -45,7 +45,7 @@ def compute(idp, tab_date, sem, in_queue, stat, ctx):
                 if ok:
                     s = buildXMLBGP(nquery, param_list, bgp, host, date, line)
                     if s is not None:
-                        with sem:
+                        with ctx.sem:
                             saveEntry(file, s, host)
         except Empty as e:
             logging.info('%d - %s empty!' %(idp, os.getpid()) )
@@ -69,16 +69,15 @@ old_date = ''
 file_set = dict()
 
 logging.info('Lancement des %d processus de traitement', ctx.nb_processes)
-sem = Lock()
 stat = Stat()
 manager = mp.Manager()
 tab_date = manager.dict()
 for i in range(ctx.nb_processes) :
     tab_date[i]=''
-compute_queue = mp.Queue(ctx.nb_processes)
+compute_queue = mp.Queue(ctx.nb_processes * 6)
 process_list = [
     mp.Process(
-        target=compute, args=(i, tab_date, sem, compute_queue, stat, ctx))
+        target=compute, args=(i, tab_date, compute_queue, stat, ctx))
     for i in range(ctx.nb_processes)
 ]
 for process in process_list:

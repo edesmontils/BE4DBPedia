@@ -12,6 +12,8 @@ Basic query tools
 import re
 import logging
 
+import multiprocessing as mp
+
 #==================================================
 
 # Possible SPARQL/SPARUL query type
@@ -56,14 +58,16 @@ class QueryManager:
     self.modificationQueryTypes = {INSERT, DELETE, CREATE, CLEAR, DROP, LOAD, COPY, MOVE, ADD, INSERTDATA, DELETEDATA, DELETEWHERE}
     self.allowedQueryTypes = self.requestQueryTypes | self.modificationQueryTypes
 
-    self.stat = dict()
+    self.mp_manager = mp.Manager()
+    self.sem = self.mp_manager.Semaphore()
+    self.stat = self.mp_manager.dict()
     for t in self.allowedQueryTypes:
       self.stat[t] = 0
     self.stat['None'] = 0
 
   def printStats(self):
     print('Query Type Stats')
-    for t in self.stat:
+    for t in iter(self.stat.keys()):
       print('\t',t.ljust(12),'=',self.stat[t])
 
   def cleanCommentLines(self, query):
@@ -74,17 +78,16 @@ class QueryManager:
       query = self.cleanCommentLines(query)
       r_queryType =  self.typePattern.search(query).group("type").upper()
     except AttributeError:
-      logging.warning("not detected query type for query '%s'" % query.replace("\n", " "))
       r_queryType = None
 
     if r_queryType in self.allowedQueryTypes :
-        #print(r_queryType,'//',query.replace("\n", " "))
-        self.stat[r_queryType] += 1
+        with self.sem :
+            self.stat[r_queryType] += 1
         return r_queryType
     else :
-        logging.warning("unknown query type '%s'" % r_queryType)
-        print(None,'//',query.replace("\n", " "))
-        self.stat['None'] += 1
+        logging.warning("unknown query type (%s) for query '%s'" % (r_queryType,query.replace("\n", " ")))
+        with self.sem :
+          self.stat['None'] += 1
         return None # SELECT
 
   def isTPFCompatible(self, query):
@@ -116,7 +119,6 @@ class QueryManager:
 # ( , ( [^,()"'<]+ | "[^"]*" | '[^']*' | <[^>]*> | \w* \( [^)]* \) )+ ){2,}
 # \)
 # """
-
 
 #==================================================
 #==================================================

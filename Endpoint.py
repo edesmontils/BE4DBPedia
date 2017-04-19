@@ -17,6 +17,7 @@ import hashlib
 import csv
 import subprocess
 import os.path
+import multiprocessing as mp
 
 from SPARQLWrapper import SPARQLWrapper, JSON #, SPARQLWrapperException
 from SPARQLWrapper.Wrapper import QueryResult, QueryBadFormed, EndPointNotFound, EndPointInternalError
@@ -39,27 +40,34 @@ class Endpoint:
         self.service = service
         self.reLimit = re.compile(r'limit\s*\d+',re.IGNORECASE)
         self.setCacheDir(cacheDir)
-        self.cache = dict()
+        self.mp_manager = mp.Manager()
+        self.cache = self.mp_manager.dict()
         self.cacheType = cacheType
         self.do_cache = False
         self.reSupCom=re.compile(r'#[^>].*$',re.IGNORECASE | re.MULTILINE)
+        self.timeOut = None
+
+    def setTimeOut(self,to):
+    	self.timeOut = to
 
     def loadCache(self):
-        if os.path.isfile(self.cacheDir+"/be4dbp-"+self.cacheType+".csv") :
-            logging.info('Reading cache file')
-            with open(self.cacheDir+"/be4dbp-"+self.cacheType+".csv","r", encoding='utf-8') as f:
+        cacheName = self.cacheDir+"/be4dbp-"+self.cacheType+".csv"
+        if os.path.isfile(cacheName) :
+            logging.info('Reading cache file : %s' % cacheName)
+            with open(cacheName,"r", encoding='utf-8') as f:
                 reader = csv.DictReader(f)
                 for row in reader:
                     self.cache[row['qhash']] = (row['ok'] == "True", row['wf'] == "True")
 
     def saveCache(self):
         if self.do_cache:
-            logging.info('Writing cache file')
-            with open(self.cacheDir+"/be4dbp-"+self.cacheType+".csv","w", encoding='utf-8') as f:
+            cacheName = self.cacheDir+"/be4dbp-"+self.cacheType+".csv"
+            logging.info('Writing cache file : %s' % cacheName)
+            with open(cacheName,"w", encoding='utf-8') as f:
                 fn=['ok','wf', 'qhash']
                 writer = csv.DictWriter(f,fieldnames=fn)
                 writer.writeheader()
-                for x in self.cache:
+                for x in iter(self.cache.keys()):
                     (ok,wellFormed) = self.cache[x]
                     writer.writerow({'ok':ok, 'wf':wellFormed,'qhash':x}) 
 
@@ -68,6 +76,7 @@ class Endpoint:
 
     def caching(self, mode = True):
         if mode:
+            self.cache = self.mp_manager.dict()
             self.loadCache()
         else:
             self.saveCache()
@@ -95,7 +104,7 @@ class Endpoint:
     def notEmpty(self,query):
         #On cherche d'abord dans le cache
         qhash = self.hash(query) 
-        if qhash in self.cache:
+        if qhash in self.cache.keys():
             return self.cache[qhash]
         else:
             try:
@@ -113,10 +122,14 @@ class Endpoint:
 
 class SPARQLEP (Endpoint): # "http://dbpedia.org/sparql" "http://172.16.9.15:8890/sparql"
     def __init__(self, service = 'http://172.16.9.15:8890/sparql', cacheDir = '.'):
-        Endpoint.__init__(self, service, cacheType='SPARQL', cacheDir=cacheDir)
+        Endpoint.__init__(self, service = service, cacheType='SPARQL', cacheDir=cacheDir)
         self.engine = SPARQLWrapper(self.service)
         self.engine.setReturnFormat(JSON)
         # self.sparql.setRequestMethod(POST)
+
+    def setTimeOut(self,to):
+    	Endpoint.setTimeOut(self,to)
+    	self.engine.setTimeout(self.timeOut)
 
     def query(self, qstr):
         self.engine.setQuery(qstr)
@@ -124,7 +137,7 @@ class SPARQLEP (Endpoint): # "http://dbpedia.org/sparql" "http://172.16.9.15:889
 
     def is_answering(self, qstr):
         try:
-            print('Search in %s for %s'%(self.service,query.replace("\n", " ")))
+            #print('Search in %s for %s'%(self.service,qstr.replace("\n", " ")))
             results = self.query(qstr)
             nb = len(results["results"]["bindings"])
             return (nb > 0, EP_QueryWellFormed)
@@ -149,7 +162,7 @@ class SPARQLEP (Endpoint): # "http://dbpedia.org/sparql" "http://172.16.9.15:889
 
 class DBPediaEP (SPARQLEP):
     def __init__(self, service = "http://dbpedia.org/sparql", cacheDir = '.'):
-        SPARQLEP.__init__(self, service, cacheDir=cacheDir)
+        SPARQLEP.__init__(self, service = service, cacheDir=cacheDir)
 
 #==================================================
 
@@ -169,7 +182,7 @@ class TPFEP(Endpoint):
         #     else:
         #         raise Exception('TPF Client error : %s' % ret.stderr)
         # 'run' n'existe que depuis python 3.5 !!! donc pas en 3.2 !!!!
-        out = subprocess.check_output(['ldf-client',self.service, qstr]) #, encoding='utf-8') # ,stderr=subprocess.DEVNULL : python3.3
+        out = subprocess.check_output(['ldf-client',self.service, qstr]) #, encoding='utf-8') # ,stderr=subprocess.DEVNULL : python3.3 # timeout... uniquement python 3.3
         #print('out=',out)
         if out != '':
             return json.loads(out)
@@ -222,10 +235,11 @@ if __name__ == '__main__':
 	select DISTINCT ?zzzzzz where{  ?x ?y ?zzzzzz FILTER regex(?zzzzzz, <http://dbpedia.org/class/yago/PresidentsOfTheUnitedState>)} LIMIT 5 
 	"""
 	sp = DBPediaEP()
-	sp.caching(True)
+	sp.setTimeOut(0)
+	#sp.caching(True)
 	try:
 	  print(sp.notEmpty(ref))
-	  sp.caching(False)
+	  #sp.caching(False)
 	except Exception as e:
 	  print(e)
 

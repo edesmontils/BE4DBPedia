@@ -112,7 +112,7 @@ def existDBPEDIA(line,query,ctx):
     test if the query has at least one response
     """
     try:
-        (ok, wellFormed) = ctx.endpoint.notEmpty(ctx.qe.simplifyQuery(query))
+        (ok, wellFormed) = ctx.endpoint.notEmpty(ctx.QM.simplifyQuery(query))
         if wellFormed:
             return (ok, 'empty')
         else:
@@ -128,10 +128,9 @@ def existDBPEDIA(line,query,ctx):
             return (False, 'autre')
 
 def validate(cpt, line, ip, query, ctx):
-    #if (reSelect.search(query) is not None):
-    if ctx.qe.queryType(query) == SELECT:
+    if ctx.QM.queryType(query) == SELECT:
         cpt.select()
-        if not(ctx.qe.containsUnion(query)):
+        if not(ctx.QM.containsUnion(query)):
             try:
                 tree = parseQuery(query)
                 (ok, n_query, bgp) = translate(cpt, line, ip, query, tree, ctx)
@@ -140,7 +139,7 @@ def validate(cpt, line, ip, query, ctx):
                         cpt.bgp_not_valid()
                         return (False, None, None)
                     if ctx.doTPFC: 
-                        if not(ctx.qe.isTPFCompatible(n_query)):
+                        if not(ctx.QM.isTPFCompatible(n_query)):
                             logging.debug('PB TPF Client (%d) : %s', line, n_query)
                             cpt.err_tpf()
                             return (False, None, None)

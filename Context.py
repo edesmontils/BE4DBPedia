@@ -42,7 +42,7 @@ class Context:
         self.baseDir = self.manageDirectories(self.args.baseDir)
         self.resourcesDir = './resources'
         self.resourceSet = {'log.dtd', 'bgp.dtd', 'ranking.dtd'}
-        self.qe = QueryManager()
+        self.QM = QueryManager()
         self.loadPrefixes()
 
         if self.args.doR:
@@ -59,18 +59,20 @@ class Context:
 
         if self.args.doEmpty != 'None':
             self.emptyTest = self.args.doEmpty
+            current_dir = os.getcwd()
             if self.emptyTest == 'SPARQL':
                 if self.args.ep == '':
-                    self.endpoint = SPARQLEP(cacheDir = self.resourcesDir)
+                    self.endpoint = SPARQLEP(cacheDir = current_dir+'/'+self.resourcesDir)
                 else:
-                    self.endpoint = SPARQLEP(self.args.ep, cacheDir = self.resourcesDir)
+                    self.endpoint = SPARQLEP(self.args.ep, cacheDir = current_dir+'/'+self.resourcesDir)
             else:
                 if self.args.ep == '':
-                    self.endpoint = TPFEP(cacheDir = self.resourcesDir)
+                    self.endpoint = TPFEP(cacheDir = current_dir+'/'+self.resourcesDir)
                 else:
-                    self.endpoint = TPFEP(service = self.args.ep, cacheDir = self.resourcesDir)
+                    self.endpoint = TPFEP(service = self.args.ep, cacheDir = current_dir+'/'+self.resourcesDir)
             logging.info('Empty responses tests with %s' % self.endpoint)
             self.endpoint.caching(True)
+            self.endpoint.setTimeOut(10)
         else:
             self.emptyTest = None
 
@@ -98,7 +100,7 @@ class Context:
         print('Nb date(s) : ', self.nbDates())
         if self.emptyTest is not None:
             self.endpoint.saveCache()
-        self.qe.printStats()
+        self.QM.printStats()
         logging.info('End')
 
     def setArgs(self,exp):
@@ -200,6 +202,8 @@ class ParallelContext(Context):
     def __init__(self,description):
         Context.__init__(self,description)
         self.nb_processes = min(self.args.nb_processes,self.max_processes)
+        self.mp_manager = mp.Manager()
+        self.sem = self.mp_manager.Semaphore()
 
     def setArgs(self,exp):
         Context.setArgs(self,exp)
