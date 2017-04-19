@@ -19,6 +19,7 @@ import hashlib
 import csv
 import subprocess
 import os.path
+import socket
 import sys
 import multiprocessing as mp
 
@@ -156,6 +157,10 @@ class SPARQLEP (Endpoint): # "http://dbpedia.org/sparql" "http://172.16.9.15:889
             logging.info('Erreur EndPointInternalError : %s',e)
             #print('EndPointInternalError',qstr)
             raise EndpointException("SPARQL endpoint error (EndPointInternalError)",e,qstr)
+        except socket.timeout as e:
+            logging.info('Erreur timeout : %s',e)
+            #print('EndPointNotFound',qstr)
+            raise EndpointException("SPARQL timeout (socket.timeout)",e,qstr)
         except Exception as e:
             logging.info('Erreur SPARQL EP ??? : %s',e)
             print('Erreur SPARQL EP ??? :',e,qstr)
