@@ -157,26 +157,6 @@ def getBGP(n):
         nbgp.append((treat(s), treat(p), treat(o)))
     return nbgp
 
-
-def extractBGP(text):
-  try:
-    tree = parseQuery(text)
-    try:
-      q = translateQuery(tree)
-      try:
-        BGPSet = getBGP(q.algebra)
-        return BGPSet
-      except ValueError as e:
-          print('Pb de BGP', e)
-          return None      
-    except Exception as e:
-        print('Pb translateQuery:' + e.__str__())
-        return None
-  except Exception as e:
-      print('Pb parseQuery:' + e.__str__())
-      return None
-
-
 #==================================================
 
 

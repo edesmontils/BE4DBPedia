@@ -14,6 +14,8 @@ import logging
 
 import multiprocessing as mp
 
+from bgp import *
+
 #==================================================
 
 # Possible SPARQL/SPARUL query type
@@ -37,7 +39,7 @@ DELETEWHERE = "DELETEWHERE"
 #==================================================
 
 class QueryManager:
-  def __init__(self):
+  def __init__(self, defaultPrefixes = None):
     self.comments_pattern = re.compile(r"(^|\n)\s*#.*?\n")
 
     self.typePattern = re.compile(r"""
@@ -59,11 +61,18 @@ class QueryManager:
     self.allowedQueryTypes = self.requestQueryTypes | self.modificationQueryTypes
 
     self.mp_manager = mp.Manager()
-    self.sem = self.mp_manager.Semaphore()
+    self.sem = mp.dict() #self.mp_manager.Semaphore()
     self.stat = self.mp_manager.dict()
     for t in self.allowedQueryTypes:
       self.stat[t] = 0
+      self.sem[t] = self.mp_manager.Semaphore()
     self.stat['None'] = 0
+    self.sem['None'] = self.mp_manager.Semaphore()
+
+    if defaultPrefixes == None:
+      self.defaultPrefixes = dict()
+    else:
+      self.defaultPrefixes = defaultPrefixes
 
   def printStats(self):
     print('Query Type Stats')
@@ -81,12 +90,12 @@ class QueryManager:
       r_queryType = None
 
     if r_queryType in self.allowedQueryTypes :
-        with self.sem :
+        with self.sem[r_queryType] :
             self.stat[r_queryType] += 1
         return r_queryType
     else :
         logging.warning("unknown query type (%s) for query '%s'" % (r_queryType,query.replace("\n", " ")))
-        with self.sem :
+        with self.sem['None'] :
           self.stat['None'] += 1
         return None # SELECT
 
@@ -109,6 +118,66 @@ class QueryManager:
     #nquery = re.sub(self.reLimit, "" , nquery)
     #nquery = re.sub(self.reOffset, "" , nquery)
     return nquery
+
+  def extractBGP(self,query):
+    try:
+      tree = parseQuery(query)
+      try:
+        q = translateQuery(tree).algebra
+        #---
+        assert q is not None
+        #---
+        try:
+          BGPSet = getBGP(q)
+          if valid(BGPSet):
+            return (BGPSet, query)
+          else:
+            raise BGPUnvalidException('BGP Not Valid')
+        except ValueError as e:
+          raise BGPException(e.args)    
+      except SPARQLError as e:
+        raise SPARQLException(e.args)
+      except Exception as e:
+        m = e.__str__().split(':')
+        if (m[0] == 'Unknown namespace prefix '):
+          pr = m[1].strip()
+          if (pr in self.defaultPrefixes):
+            n_query = 'PREFIX ' + pr + ': <' + self.defaultPrefixes[pr] + '> #ADD by BE4DBPedia \n' + query
+            return self.extractBGP(n_query)
+          else:
+            raise NSException(e.args)
+        else:
+          raise TranslateQueryException(e.args)
+    except Exception as e:
+      raise ParseQueryException(e.args)
+
+class QueryManagerException(Exception):
+  def __init__(self, args):
+    Exception.__init__(self,args)
+
+class BGPException(QueryManagerException):
+  def __init__(self, args):
+    QueryManagerException.__init__(self,args)
+
+class BGPUnvalidException(BGPException):
+  def __init__(self, args):
+    BGPException.__init__(self,args)
+
+class TranslateQueryException(QueryManagerException):
+  def __init__(self, args):
+    QueryManagerException.__init__(self,args)
+
+class SPARQLException(TranslateQueryException):
+  def __init__(self, args):
+    TranslateQueryException.__init__(self,args)
+
+class NSException(TranslateQueryException):
+  def __init__(self, args):
+    TranslateQueryException.__init__(self,args)
+
+class ParseQueryException(QueryManagerException):
+  def __init__(self, args):
+    QueryManagerException.__init__(self,args)
 
 # reSelect = re.compile(r'(\W+)select(\s+)', re.IGNORECASE)
 

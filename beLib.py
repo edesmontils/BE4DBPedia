@@ -93,7 +93,7 @@ def translate(cpt, line, ip, query, tree, ctx):
             pr = m[1].strip()
             if (pr in ctx.default_prefixes):
                 n_query = 'PREFIX ' + pr + ': <' + \
-                    dp[pr] + '> #ADD by SCAN \n' + query
+                    ctx.default_prefixes[pr] + '> #ADD by SCAN \n' + query
                 return translate(cpt, line, ip, n_query, parseQuery(n_query), ctx)
             else:
                 logging.debug('PB NS (%d) : %s\n%s', line, e, query)
