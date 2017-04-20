@@ -147,7 +147,7 @@ for process in process_list:
 for process in process_list:
     process.join()
 
-stat.stop()
+stat.stop(True)
 
 logging.info('Terminaison des fichiers')
 for d in file_set:

@@ -18,8 +18,7 @@ import datetime as dt
 
 import logging
 import argparse
-
-import os.path
+from tools import *
 
 #==================================================
 
@@ -48,8 +47,7 @@ parser.add_argument("-l", "--log", dest="logLevel",
 parser.add_argument("-p", "--proc", type=int, default=mp.cpu_count(), dest="nb_processes",
                     help="Number of processes used (%d by default)" % mp.cpu_count())
 args = parser.parse_args()
-startDate = dt.datetime.now().__str__().replace(' ', 'T').replace(':', '-')[0:19]
-manageLogging(args.logLevel, 'be4dbp-ranking-'+startDate+'.log')
+manageLogging(args.logLevel, 'be4dbp-ranking-'+date2filename(now())+'.log')
 
 file_set = args.files
 
@@ -64,7 +62,7 @@ for process in process_list:
     process.start()
 
 for file in file_set:
-    if os.path.isfile(file): #existFile(file):
+    if existFile(file):
         logging.debug('Analyse de "%s"', file)
         compute_queue.put(file)
 

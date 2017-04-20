@@ -10,7 +10,6 @@ Basic query tools
 #    GPL v 2.0 license.
 
 import re
-import logging
 
 import multiprocessing as mp
 
@@ -19,6 +18,7 @@ from rdflib.plugins.sparql.algebra import translateQuery
 from rdflib.plugins.sparql.parser import parseQuery
 
 from bgp import *
+from Stat import *
 
 #==================================================
 
@@ -60,18 +60,13 @@ class QueryManager:
     self.reLimit = re.compile(r'limit\s*\d+',re.IGNORECASE)
     self.reOffset = re.compile(r'offset\s*\d+',re.IGNORECASE)
 
-    self.requestQueryTypes = {SELECT, CONSTRUCT, ASK, DESCRIBE}
-    self.modificationQueryTypes = {INSERT, DELETE, CREATE, CLEAR, DROP, LOAD, COPY, MOVE, ADD, INSERTDATA, DELETEDATA, DELETEWHERE}
-    self.allowedQueryTypes = self.requestQueryTypes | self.modificationQueryTypes
+    self.requestQueryTypes = [SELECT, CONSTRUCT, ASK, DESCRIBE]
+    self.modificationQueryTypes = [INSERT, DELETE, CREATE, CLEAR, DROP, LOAD, COPY, MOVE, ADD, INSERTDATA, DELETEDATA, DELETEWHERE]
+    self.allowedQueryTypes = self.requestQueryTypes + self.modificationQueryTypes
 
-    self.mp_manager = mp.Manager()
-    self.sem = self.mp_manager.dict() #self.mp_manager.Semaphore()
-    self.stat = self.mp_manager.dict()
-    for t in self.allowedQueryTypes:
-      self.stat[t] = 0
-      self.sem[t] = self.mp_manager.Semaphore()
-    self.stat['None'] = 0
-    self.sem['None'] = self.mp_manager.Semaphore()
+    self.typeStat = AbstractStat(AbstractCounter, list(self.allowedQueryTypes + ['None']) )
+    self.maxTP = 30
+    self.bgpStat = AbstractStat(AbstractCounter, [str(i) for i in range(self.maxTP+1)]+['more'] )
 
     if defaultPrefixes == None:
       self.defaultPrefixes = dict()
@@ -91,8 +86,9 @@ class QueryManager:
 
   def printStats(self):
     print('Query Type Stats')
-    for t in iter(self.stat.keys()):
-      print('\t',t.ljust(12),'=',self.stat[t])
+    self.typeStat.stop(True)
+    print('BGP Stats')
+    self.bgpStat.stop(True)
 
   def cleanCommentLines(self, query):
     return re.sub(self.comments_pattern, "\n" , query)
@@ -105,13 +101,11 @@ class QueryManager:
       r_queryType = None
 
     if r_queryType in self.allowedQueryTypes :
-        with self.sem[r_queryType] :
-            self.stat[r_queryType] += 1
+        self.typeStat.put ('',r_queryType)
         return r_queryType
     else :
         logging.warning("unknown query type (%s) for query '%s'" % (r_queryType,query.replace("\n", " ")))
-        with self.sem['None'] :
-          self.stat['None'] += 1
+        self.typeStat.put ('','None')
         return None # SELECT
 
   def isTPFCompatible(self, query):
@@ -137,19 +131,14 @@ class QueryManager:
   def extractBGP(self,query):
     try:
       tree = parseQuery(query)
+    except Exception as e:
+      raise ParseQueryException(e.args)
+    else:      
       try:
         q = translateQuery(tree).algebra
         #---
         assert q is not None
         #---
-        try:
-          BGPSet = getBGP(q)
-          if valid(BGPSet):
-            return (BGPSet, query)
-          else:
-            raise BGPUnvalidException('BGP Not Valid')
-        except ValueError as e:
-          raise BGPException(e.args)    
       except SPARQLError as e:
         raise SPARQLException(e.args)
       except Exception as e:
@@ -163,8 +152,20 @@ class QueryManager:
             raise NSException(e.args)
         else:
           raise TranslateQueryException(e.args)
-    except Exception as e:
-      raise ParseQueryException(e.args)
+      else:        
+        try:
+          BGPSet = getBGP(q)
+          if valid(BGPSet):
+            l = len(BGPSet)
+            if l>self.maxTP:
+              self.bgpStat.put ( '','more') 
+            else:
+              self.bgpStat.put ( '',str(l)) 
+            return (BGPSet, query)
+          else:
+            raise BGPUnvalidException('BGP Not Valid')
+        except ValueError as e:
+          raise BGPException(e.args)
 
 class QueryManagerException(Exception):
   def __init__(self, args):
@@ -209,12 +210,6 @@ class ParseQueryException(QueryManagerException):
 #==================================================
 
 if __name__ == '__main__':
-  logging.basicConfig(
-      format='%(levelname)s:%(asctime)s:%(message)s',
-      filename='scan.log',
-      filemode='w',
-      level=logging.DEBUG)
-
   print('main')
 
   ref = """
@@ -237,9 +232,9 @@ if __name__ == '__main__':
   q6 = """
   prefix : <http://www.example.org/lift2#>  #njvbjonbtrg
   #Q2
-  select ?s ?o whre {
+  select ?s ?o where {
     ?s :p2 "toto" . #kjgfjgj
-    ?s edm:type <http://exemple.org/MonConcept> .
+    ?s ed:type <http://exemple.org/MonConcept> .
     # ?s ?p ?o .
     #?s <http://machin.org/toto#bidule> ?o ## jhjhj
   } limit 10 offset 1000
@@ -254,16 +249,19 @@ if __name__ == '__main__':
   #     nquery = query
   #   return ' '.join(nquery.split())
 
-  qe = QueryManager()
-  #q = qe.simplifyQuery(q6)
+  qm = QueryManager()
+  #q = qm.simplifyQuery(q6)
   print('origin:',q6)
   #print('simplified',q)
-  print('Select?',qe.queryType(q6) == SELECT)
+  print('Select?',qm.queryType(q6) == SELECT)
 
   try:
-    (bgp, query) = qe.extractBGP(q6)
+    (bgp, query) = qm.extractBGP(q6)
     print(query)
     print(serializeBGP2str(bgp))
   except Exception as e:
     print(type(e))
     print(e)
+
+  qm.printStats()
+

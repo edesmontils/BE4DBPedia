@@ -16,7 +16,6 @@ import datetime as dt
 import csv
 import sys
 import os
-import os.path
 import shutil
 
 import logging
@@ -24,23 +23,21 @@ import argparse
 
 from QueryManager import *
 from Endpoint import *
+from tools import *
 
 #==================================================
-
-def existFile(f):
-    return os.path.isfile(f)
 
 class Context:
     def __init__(self,description):
         self.setArgs(description)
         self.args = self.parser.parse_args()
-        self.startDate = dt.datetime.now().__str__().replace(' ', 'T').replace(':', '-')[0:19]
-        self.manageLogging(self.args.logLevel, 'be4dbp-'+self.startDate+'.log')
+        self.startDate = date2str(now())
+        self.manageLogging(self.args.logLevel, 'be4dbp-'+date2filename(now())+'.log')
 
         self.refDate = self.manageDT(self.args.refdate)
-
+        self.current_dir = os.getcwd()
         self.baseDir = self.manageDirectories(self.args.baseDir)
-        self.resourcesDir = './resources'
+        self.resourcesDir = 'resources'
         self.resourceSet = {'log.dtd', 'bgp.dtd', 'ranking.dtd'}
 
         self.loadPrefixes()
@@ -61,17 +58,16 @@ class Context:
 
         if self.args.doEmpty != 'None':
             self.emptyTest = self.args.doEmpty
-            current_dir = os.getcwd()
-            if self.emptyTest == 'SPARQL':
+            if self.emptyTest == 'SPARQLEP':
                 if self.args.ep == '':
-                    self.endpoint = SPARQLEP(cacheDir = current_dir+'/'+self.resourcesDir)
+                    self.endpoint = SPARQLEP(cacheDir = self.current_dir+'/'+self.resourcesDir)
                 else:
-                    self.endpoint = SPARQLEP(self.args.ep, cacheDir = current_dir+'/'+self.resourcesDir)
+                    self.endpoint = SPARQLEP(self.args.ep, cacheDir = self.current_dir+'/'+self.resourcesDir)
             else:
                 if self.args.ep == '':
-                    self.endpoint = TPFEP(cacheDir = current_dir+'/'+self.resourcesDir)
+                    self.endpoint = TPFEP(cacheDir = self.current_dir+'/'+self.resourcesDir)
                 else:
-                    self.endpoint = TPFEP(service = self.args.ep, cacheDir = current_dir+'/'+self.resourcesDir)
+                    self.endpoint = TPFEP(service = self.args.ep, cacheDir = self.current_dir+'/'+self.resourcesDir)
             logging.info('Empty responses tests with %s' % self.endpoint)
             self.endpoint.caching(True)
             self.endpoint.setTimeOut(20)
@@ -126,14 +122,14 @@ class Context:
         # self.parser.add_argument("-e","--empty", help="Request a SPARQL or a TPF endpoint to verify the query and test it returns at least one triple",
         #                 action="store_true",dest="doEmpty")
         self.parser.add_argument("-e","--empty", help="Request a SPARQL or a TPF endpoint to verify the query and test it returns at least one triple",
-                        choices=['SPARQL','TPF', 'None'],dest="doEmpty",default='None')
+                        choices=['SPARQLEP','TPF', 'None'],dest="doEmpty",default='None')
         self.parser.add_argument("-ep","--endpoint", help="The endpoint requested for the '-e' ('--empty') option ( for exemple 'http://dbpedia.org/sparql' for SPARQL)",
                         dest="ep", default='')
 
     def loadPrefixes(self):
         logging.info('Reading of default prefixes')
         self.default_prefixes = dict()
-        with open(self.resourcesDir+'/PrefixDBPedia.txt', 'r') as f:
+        with open(self.current_dir+'/'+self.resourcesDir+'/PrefixDBPedia.txt', 'r') as f:
             reader = csv.DictReader(f, fieldnames=['prefix', 'uri'], delimiter='\t')
             try:
                 for row in reader:
@@ -142,12 +138,12 @@ class Context:
                 sys.exit('file %s, line %d: %s' % (f, reader.line_num, e))
 
     def newDir(self, date):
-        rep = self.baseDir + date.replace('-', '').replace(':', '').replace('+', '-')
+        rep = self.baseDir + date2filename(date) #date.replace('-', '').replace(':', '').replace('+', '-')
         if not (os.path.isdir(rep)):
             logging.info('Creation of "%s"', rep)
             os.makedirs(rep)
             for x in self.resourceSet:
-                shutil.copyfile(self.resourcesDir+'/'+x, rep + '/'+x)
+                shutil.copyfile(self.current_dir+'/'+self.resourcesDir+'/'+x, rep + '/'+x)
         rep = rep + '/'
         return rep
 

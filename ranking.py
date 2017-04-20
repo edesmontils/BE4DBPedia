@@ -10,9 +10,8 @@ Tools to manage log extraction
 #    GPL v 2.0 license.
 
 from pprint import pprint
-
+from queue import Empty
 import os
-import logging
 
 from bgp import *
 
@@ -117,3 +116,10 @@ def rankAnalysis(file):
             f.close()
     except etree.DocumentInvalid as e:
         logging.warning('PB Rank Analysis, %s not validated : %s' % (file, e))
+
+#==================================================
+#==================================================
+#==================================================
+
+if __name__ == '__main__':
+    print('main')

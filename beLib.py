@@ -13,14 +13,13 @@ from pprint import pprint
 
 import re
 import time
-import datetime as dt
 from urllib.parse import urlparse, parse_qsl
-import os
 
 from rdflib.plugins.sparql.parser import parseQuery
 from rdflib.plugins.sparql.algebra import translateQuery
 
 from bgp import *
+from tools import *
 from QueryManager import *
 
 from operator import itemgetter
@@ -45,7 +44,7 @@ def extract(res):
     tt = time.strptime(res["time"][:-6], "%d/%b/%Y %H:%M:%S")
     tt = list(tt[:6]) + [0, Timezone(res["time"][-5:])]
     # res["time"] = dt.datetime(*tt)
-    date = dt.datetime(*tt).__str__().replace(' ', 'T')
+    date = date2str(dt.datetime(*tt)) #.__str__().replace(' ', 'T')
 
     url = res['request'].split(' ')[1]
     # res['request'] = url
@@ -67,43 +66,58 @@ def extract(res):
 
 #==================================================
 
-
-def translate(cpt, line, ip, query, tree, ctx):
-    try:
-        q = translateQuery(tree).algebra
-
-        #---
-        assert q is not None
-        #---
-
-        try:
-        	bgp = getBGP(q)
-        	return (True, query, bgp)
-        except ValueError as e:
-	        logging.debug('PB URI in BGP (%d) : %s\n%s', line, e, query)
-	        cpt.err_qr()
-	        return (False, None, None)
-    except SPARQLError as e:
-        logging.debug('PB SPARQLError (%d) : %s\n%s', line, e, query)
-        cpt.err_qr()
-        return (False, None, None)
-    except Exception as e:
-        m = e.__str__().split(':')
-        if (m[0] == 'Unknown namespace prefix '):
-            pr = m[1].strip()
-            if (pr in ctx.default_prefixes):
-                n_query = 'PREFIX ' + pr + ': <' + \
-                    ctx.default_prefixes[pr] + '> #ADD by SCAN \n' + query
-                return translate(cpt, line, ip, n_query, parseQuery(n_query), ctx)
-            else:
+def validate(cpt, line, ip, query, ctx):
+    if ctx.QM.queryType(query) in [SELECT]:
+        if ctx.QM.containsUnion(query):
+            logging.debug('Union (%d) : %s', line, query)
+            cpt.union()
+            return (False, None, None)
+        else:
+            try:
+                (bgp, n_query) = ctx.QM.extractBGP(query)
+                if ctx.doTPFC: 
+                    if not(ctx.QM.isTPFCompatible(n_query)):
+                        logging.debug('PB TPF Client (%d) : %s', line, n_query)
+                        cpt.err_tpf()
+                        return (False, None, None)
+                if ctx.emptyTest is not None :
+                    (done, mss) = existDBPEDIA(line,n_query,ctx)
+                    if not(done):
+                        if mss=='empty':
+                            logging.debug('Empty Query (%d) : %s', line, query)
+                            cpt.emptyQuery()
+                        elif mss=='QBF':
+                            cpt.err_qr()
+                        else:
+                            cpt.err_endpoint()
+                        return (False, None, None)
+                cpt.ok()
+                return (True, n_query, bgp)
+            except BGPUnvalidException as e:
+                cpt.bgp_not_valid()
+                return (False, None, None)
+            except BGPException as e:
+                logging.debug('PB URI in BGP (%d) : %s\n%s', line, e, query)
+                cpt.err_qr()
+                return (False, None, None)
+            except SPARQLException as e:
+                logging.debug('PB SPARQLError (%d) : %s\n%s', line, e, query)
+                cpt.err_qr()
+                return (False, None, None)
+            except NSException as e:
                 logging.debug('PB NS (%d) : %s\n%s', line, e, query)
                 cpt.err_ns()
+                return (False, None, None) 
+            except TranslateQueryException as e:
+                logging.debug('PB translate (%d) : %s\n%s', line, e, query)
+                cpt.err_qr()
+                return (False, None, None)                
+            except ParseQueryException as e:
+                logging.debug('PB parseQuery (%d) : %s\n%s', line, e, query)
+                cpt.err_qr()
                 return (False, None, None)
-        else:
-            logging.debug('PB translate (%d) : %s\n%s', line, e, query)
-            cpt.err_qr()
-            return (False, None, None)
-
+    else:
+        return (False, None, None)
 
 #==================================================
 
@@ -126,49 +140,6 @@ def existDBPEDIA(line,query,ctx):
         else:
             #logging.warning('PB Endpoint (autre):%s',e)
             return (False, 'autre')
-
-def validate(cpt, line, ip, query, ctx):
-    if ctx.QM.queryType(query) == SELECT:
-        cpt.select()
-        if not(ctx.QM.containsUnion(query)):
-            try:
-                tree = parseQuery(query)
-                (ok, n_query, bgp) = translate(cpt, line, ip, query, tree, ctx)
-                if ok:
-                    if not(valid(bgp)):
-                        cpt.bgp_not_valid()
-                        return (False, None, None)
-                    if ctx.doTPFC: 
-                        if not(ctx.QM.isTPFCompatible(n_query)):
-                            logging.debug('PB TPF Client (%d) : %s', line, n_query)
-                            cpt.err_tpf()
-                            return (False, None, None)
-                    if ctx.emptyTest is not None :
-                        (done, mss) = existDBPEDIA(line,n_query,ctx)
-                        if not(done):
-                            if mss=='empty':
-                                logging.debug('Empty Query (%d) : %s', line, query)
-                                cpt.emptyQuery()
-                            elif mss=='QBF':
-                                cpt.err_qr()
-                            else:
-                                cpt.err_endpoint()
-                            return (False, None, None)
-                    cpt.ok()
-                    return (True, n_query, bgp)
-                else:
-                    return (False, None, None)
-            except Exception as e:
-                logging.debug('PB parseQuery (%d) : %s\n%s', line, e, query)
-                cpt.err_qr()
-                return (False, None, None)
-        else:
-            logging.debug('Union (%d) : %s', line, query)
-            cpt.union()
-            return (False, None, None)
-    else:
-        cpt.autre()
-        return (False, None, None)
 
 
 #==================================================
@@ -222,18 +193,13 @@ def buildXMLBGP(nquery, param_list, bgp, host, date, line):
 
 #==================================================
 
-
-def existFile(f):
-    return os.path.isfile(f)
-
-
 def saveEntry(file, s, host, test=existFile):
     #---
     assert s is not None
     #---
     try:
         xml_entry = etree.tostring(s,encoding="UTF-8",pretty_print=True)
-        if test(file):  # not(os.path.isfile(file)):
+        if test(file): 
             logging.debug('MàJ de "%s"', file)
             # tree = etree.parse(file)
             # log_node = tree.getroot()
@@ -258,7 +224,7 @@ def saveEntry(file, s, host, test=existFile):
             #     doctype='<!DOCTYPE log SYSTEM "log.dtd">')
             xml_str = '<?xml version="1.0" encoding="utf-8"?>\n'
             xml_str += '<!DOCTYPE log SYSTEM "log.dtd">\n'
-            xml_str += '<log ip="%s" date="%s">\n' % (host,dt.datetime.now())
+            xml_str += '<log ip="%s" date="%s">\n' % (host,now())
             f_out = open(file, 'w')
             f_out.write(xml_str)
         f_out.write(xml_entry.decode('utf-8'))
@@ -300,9 +266,4 @@ class Timezone(dt.tzinfo):
 #==================================================
 
 if __name__ == '__main__':
-    logging.basicConfig(
-        format='%(levelname)s:%(asctime)s:%(message)s',
-        filename='scan.log',
-        filemode='w',
-        level=logging.DEBUG)
     print('main')

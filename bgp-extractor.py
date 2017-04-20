@@ -23,7 +23,6 @@ from ranking import *
 
 #==================================================
 
-
 def compute(cpt, line, file, date, host, query, param_list, rep, ctx):
     (ok, nquery, bgp) = validate(cpt, line, host, query, ctx)
     if ok:
@@ -31,7 +30,6 @@ def compute(cpt, line, file, date, host, query, param_list, rep, ctx):
         entry = buildXMLBGP(nquery, param_list, bgp, host, date, line)
         if entry is not None:
             saveEntry(file, entry, host)
-
 
 #==================================================
 #==================================================

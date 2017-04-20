@@ -262,14 +262,14 @@ if __name__ == '__main__':
 	pb = """
 	select DISTINCT ?zzzzzz where{  ?x ?y ?zzzzzz FILTER regex(?zzzzzz, <http://dbpedia.org/class/yago/PresidentsOfTheUnitedState>)} LIMIT 5 
 	"""
-	sp = DBPediaEP()
-	sp.setTimeOut(0)
-	#sp.caching(True)
-	try:
-	  print(sp.notEmpty(ref))
-	  #sp.caching(False)
-	except Exception as e:
-	  print(e)
+	# sp = DBPediaEP()
+	# sp.setTimeOut(0)
+	# #sp.caching(True)
+	# try:
+	#   print(sp.notEmpty(ref))
+	#   #sp.caching(False)
+	# except Exception as e:
+	#   print(e)
 
 	q5 = """
 	prefix : <http://www.example.org/lift2#> select ?s ?o where {?s :p3 "titi" . ?s :p1 ?o . ?s :p4 "tata"}
@@ -279,19 +279,19 @@ if __name__ == '__main__':
 	prefix : <http://www.example.org/lift2#>  #njvbjonbtrg
 
 	#Q2
-	select ?s ?o whre {
+	select ?s ?o where {
 	  ?s :p2 "toto" . #kjgfjgj
 	  # ?s ?p ?o .
 	  #?s <http://machin.org/toto#bidule> ?o ## jhjhj
-	} limit 10 offset 1000
+	} limit 10 offset 0
 	"""
 	print('origin:',q6)
 
 	 # http://localhost:5000/lift : serveur TPF LIFT (exemple du papier)
-	sp = TPFEP(service = 'http://localhost:5000/lift')
+	sp = TPFEP(service = 'http://localhost:5001/dbpedia_3_9')
 	#sp.caching(True)
 	try:
-	  print('NotEmpty:',sp.notEmpty(q6))
+	  print('NotEmpty:',sp.notEmpty(ref))
 	  #sp.saveCache()
 	except Exception as e:
 	  #print(e)

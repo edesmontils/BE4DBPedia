@@ -4,7 +4,8 @@
 <!ELEMENT entry (request,bgp,param*) >
 <!ATTLIST entry 
     datetime CDATA #REQUIRED
-    logline CDATA #IMPLIED >
+    logline CDATA #IMPLIED
+    valid (TPF|SPARQL|EmptyTPF|EmptySPARQL|NotTested) "NotTested" >
     <!-- 
     datetime respects ISO8601 
     logline the line number in the dbpedia log
