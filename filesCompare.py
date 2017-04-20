@@ -36,7 +36,7 @@ else: # the directory exists
 
 for file1, file2 in zip(sorted(os.listdir(args.groundTruth)),sorted(os.listdir(args.deduction))):
 	if file1.endswith("ranking.xml") and file2.endswith("ranking.xml"):
-        #assert file1[:-vvv] == file2[:bbbb]
-		#print("Analyzing ",file1," with ", file2)
+		assert file1[:+32] == file2[:+32]
+		print("Comparing ",file1," with ", file2)
 		result = compare(os.path.join(args.groundTruth,file1),os.path.join(args.deduction,file2))
-		write_result_csv(result,path,file1[:-11])
+		write_result_csv(result,path,file1[:+33])

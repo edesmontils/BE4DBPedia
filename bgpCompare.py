@@ -19,9 +19,7 @@ import csv
 import os
 
 def write_result_csv(result,path,fileName):
-	print("===>",path)
 	absPath = os.path.abspath(os.path.join(path,fileName+"precisionRecall.csv"))
-	print("===>",absPath)
 	with open(absPath,"w") as f:
 		fn=['bgp_dbp','bgp_lift','nb_occurrences_dbp','nb_occurrences_lift','rank_dbp','rank_lift','precision','recall']
 		writer = csv.DictWriter(f,fieldnames=fn)
