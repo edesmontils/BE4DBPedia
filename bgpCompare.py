@@ -22,7 +22,7 @@ def write_result_csv(result,path,fileName):
 	absPath = os.path.abspath(os.path.join(path,fileName+"precisionRecall.csv"))
 	with open(absPath,"w") as f:
 		fn=['bgp_dbp','bgp_lift','nb_occurrences_dbp','nb_occurrences_lift','rank_dbp','rank_lift','precision','recall']
-		writer = csv.DictWriter(f,fieldnames=fn)
+		writer = csv.DictWriter(f,delimiter=';',quotechar='"',fieldnames=fn)
 		writer.writeheader()
 		for (bgp_dbp,bgp_lift,nb_occurrences_dbp,nb_occurrences_lift,rank_dbp,rank_lift,precision,recall) in result:
 			writer.writerow({'bgp_dbp':bgp_dbp,'bgp_lift':bgp_lift,'nb_occurrences_dbp':nb_occurrences_dbp,'nb_occurrences_lift':nb_occurrences_lift,'rank_dbp':rank_dbp,'rank_lift':rank_lift,'precision':precision,'recall':recall})

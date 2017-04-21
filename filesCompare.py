@@ -34,9 +34,12 @@ else: # the directory exists
         except Exception as e:
             print (e)
 
-for file1, file2 in zip(sorted(os.listdir(args.groundTruth)),sorted(os.listdir(args.deduction))):
-	if file1.endswith("ranking.xml") and file2.endswith("ranking.xml"):
-		assert file1[:+32] == file2[:+32]
+included_extensions=['ranking.xml']
+file_names1 = [fn for fn in sorted(os.listdir(args.groundTruth)) if any(fn.endswith(ext) for ext in included_extensions)]
+file_names2 = [fn for fn in sorted(os.listdir(args.deduction)) if any(fn.endswith(ext) for ext in included_extensions)]
+
+for file1, file2 in zip(sorted(file_names1),sorted(file_names2)):
+	if file1[:+32] == file2[:+32]:
 		print("Comparing ",file1," with ", file2)
 		result = compare(os.path.join(args.groundTruth,file1),os.path.join(args.deduction,file2))
 		write_result_csv(result,path,file1[:+33])
