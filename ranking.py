@@ -12,6 +12,7 @@ Tools to manage log extraction
 from pprint import pprint
 from queue import Empty
 import os
+import logging
 
 from bgp import *
 
@@ -61,8 +62,9 @@ def rankAnalysis(file):
     logging.debug('rankAnalysis for %s' % file)
     parser = etree.XMLParser(recover=True, strip_cdata=True)
     tree = etree.parse(file, parser)
+    dtd = etree.DTD('./resources/log.dtd')
     #---
-    assert etree.DTD('./resources/log.dtd').validate(tree), '%s non valide au chargement : %s' % (
+    assert dtd.validate(tree), '%s non valide au chargement : %s' % (
         file, dtd.error_log.filter_from_errors()[0])
     #---
     ranking = []

@@ -68,6 +68,7 @@ class Context:
                     self.endpoint = TPFEP(cacheDir = self.current_dir+'/'+self.resourcesDir)
                 else:
                     self.endpoint = TPFEP(service = self.args.ep, cacheDir = self.current_dir+'/'+self.resourcesDir)
+                self.endpoint.setEngine('/Users/desmontils-e/Programmation/TPF/Client.js-master/bin/ldf-client')
             logging.info('Empty responses tests with %s' % self.endpoint)
             self.endpoint.caching(True)
             self.endpoint.setTimeOut(20)

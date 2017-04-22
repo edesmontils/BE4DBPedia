@@ -179,10 +179,14 @@ class TPFEP(Endpoint):
         Endpoint.__init__(self,service, cacheType='TPF', cacheDir=cacheDir)
         self.reSyntaxError = re.compile(r'\A(ERROR\:).*?\n\n(Syntax\ error\ in\ query).*',re.IGNORECASE)
         self.reQueryNotSupported = re.compile(r'\A(ERROR\:).*?\n\n(The\ query\ is\ not\ yet\ supported).*',re.IGNORECASE)
+        self.appli = 'ldf-client'
+
+    def setEngine(self,en):
+        self.appli = en
 
     def query(self, qstr):
         # 'run' n'existe que depuis python 3.5 !!! donc pas en 3.2 !!!!
-        ret = subprocess.run(['ldf-client',self.service, qstr], 
+        ret = subprocess.run([self.appli,self.service, qstr], 
                              stdout=subprocess.PIPE, encoding='utf-8', stderr=subprocess.PIPE, check=True, timeout=self.timeOut)
         #pprint(ret)
         #sys.exit()
@@ -244,55 +248,56 @@ class TPFEP(Endpoint):
 #==================================================
 
 if __name__ == '__main__':
-	logging.basicConfig(
-	    format='%(levelname)s:%(asctime)s:%(message)s',
-	    filename='scan.log',
-	    filemode='w',
-	    level=logging.DEBUG)
+    logging.basicConfig(
+        format='%(levelname)s:%(asctime)s:%(message)s',
+        filename='scan.log',
+        filemode='w',
+        level=logging.DEBUG)
 
-	print('main')
+    print('main')
 
-	ref = """
-	    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-	    SELECT ?label
-	    WHERE { <http://dbpedia.org/resource/Asturias> rdfs:label ?label }
-	    LIMIT 10
-	"""
+    ref = """
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        SELECT ?label
+        WHERE { <http://dbpedia.org/resource/Asturias> rdfs:label ?label }
+        LIMIT 10
+    """
 
-	pb = """
-	select DISTINCT ?zzzzzz where{  ?x ?y ?zzzzzz FILTER regex(?zzzzzz, <http://dbpedia.org/class/yago/PresidentsOfTheUnitedState>)} LIMIT 5 
-	"""
-	# sp = DBPediaEP()
-	# sp.setTimeOut(0)
-	# #sp.caching(True)
-	# try:
-	#   print(sp.notEmpty(ref))
-	#   #sp.caching(False)
-	# except Exception as e:
-	#   print(e)
+    pb = """
+    select DISTINCT ?zzzzzz where{  ?x ?y ?zzzzzz FILTER regex(?zzzzzz, <http://dbpedia.org/class/yago/PresidentsOfTheUnitedState>)} LIMIT 5 
+    """
+    # sp = DBPediaEP()
+    # sp.setTimeOut(0)
+    # #sp.caching(True)
+    # try:
+    #   print(sp.notEmpty(ref))
+    #   #sp.caching(False)
+    # except Exception as e:
+    #   print(e)
 
-	q5 = """
-	prefix : <http://www.example.org/lift2#> select ?s ?o where {?s :p3 "titi" . ?s :p1 ?o . ?s :p4 "tata"}
-	"""
+    q5 = """
+    prefix : <http://www.example.org/lift2#> select ?s ?o where {?s :p3 "titi" . ?s :p1 ?o . ?s :p4 "tata"}
+    """
 
-	q6 = """
-	prefix : <http://www.example.org/lift2#>  #njvbjonbtrg
+    q6 = """
+    prefix : <http://www.example.org/lift2#>  #njvbjonbtrg
 
-	#Q2
-	select ?s ?o where {
-	  ?s :p2 "toto" . #kjgfjgj
-	  # ?s ?p ?o .
-	  #?s <http://machin.org/toto#bidule> ?o ## jhjhj
-	} limit 10 offset 0
-	"""
-	print('origin:',q6)
+    #Q2
+    select ?s ?o where {
+      ?s :p2 "toto" . #kjgfjgj
+      # ?s ?p ?o .
+      #?s <http://machin.org/toto#bidule> ?o ## jhjhj
+    } limit 10 offset 0
+    """
+    print('origin:',ref)
+    # http://localhost:5000/lift : serveur TPF LIFT (exemple du papier)
+    sp = TPFEP(service = 'http://localhost:5001/dbpedia_3_9')
+    sp.setEngine('/Users/desmontils-e/Programmation/TPF/Client.js-master/bin/ldf-client')
 
-	 # http://localhost:5000/lift : serveur TPF LIFT (exemple du papier)
-	sp = TPFEP(service = 'http://localhost:5001/dbpedia_3_9')
-	#sp.caching(True)
-	try:
-	  print('NotEmpty:',sp.notEmpty(ref))
-	  #sp.saveCache()
-	except Exception as e:
-	  #print(e)
-		pass
+    #sp.caching(True)
+    try:
+      print('NotEmpty:',sp.notEmpty(ref))
+      #sp.saveCache()
+    except Exception as e:
+      #print(e)
+    	pass

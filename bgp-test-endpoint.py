@@ -22,12 +22,19 @@ import argparse
 from tools import *
 
 from Endpoint import *
+from Stat import *
 
 from lxml import etree  # http://lxml.de/index.html#documentation
 
 #==================================================
 
-def analyse(in_queue, endpoint,emptyTest):
+MODE_SPARQL = 'SPARQL'
+MODE_TPF = 'TPF'
+DEFAULT_EP = 'http://localhost:5001/dbpedia_3_9'
+
+#==================================================
+
+def analyse(in_queue, endpoint,emptyTest, stat):
     logging.debug('Start analyse worker "%s"', os.getpid())
     while True:
         try:
@@ -36,7 +43,7 @@ def analyse(in_queue, endpoint,emptyTest):
                 break
             else:
                 logging.debug('Treat mess in %s %s', os.getpid(), mess)
-                TestAnalysis(mess, endpoint,emptyTest)
+                TestAnalysis(mess, endpoint,emptyTest, stat)
         except Empty as e:
             print('empty!')
         except Exception as e:
@@ -46,13 +53,41 @@ def analyse(in_queue, endpoint,emptyTest):
 
 #==================================================
 
+def test(endpoint, query, entry, stat,emptyTest):
+    try:
+        (ok, wf) = endpoint.notEmpty(query)
+        if ok:
+            entry.set('valid',emptyTest)
+            stat.put('','valid')
+            print('OK for',ide)
+        elif wf:
+            print('Empty for',ide)
+            entry.set('valid','Empty'+emptyTest)
+            stat.put('','empty')
+        else:
+            print('PB  wf for:',ide)
+            stat.put('','bfq')
+            entry.set('valid','QBF'+emptyTest)
+    except Exception as e:
+        print('PB error for:',ide)
+        stat.put('','other')
+    # return entry
+
+
 def TestAnalysis(file, endpoint,emptyTest):
     logging.debug('testAnalysis for %s' % file)
     print('testAnalysis for %s' % file)
-    parser = etree.XMLParser(recover=True, strip_cdata=True)
-    tree = etree.parse(file, parser)
+    file_tested = file[:-4]+'-tested.xml'
+    if existFile(file_tested):
+        print('%s already tested' % file_tested)
+        parser = etree.XMLParser(recover=True, strip_cdata=True)
+        tree = etree.parse(file_tested, parser)
+    else:
+        parser = etree.XMLParser(recover=True, strip_cdata=True)
+        tree = etree.parse(file, parser)
+    dtd = etree.DTD('./resources/log.dtd')
     #---
-    assert etree.DTD('./resources/log.dtd').validate(tree), '%s non valide au chargement : %s' % (
+    assert dtd.validate(tree), '%s non valide au chargement : %s' % (
         file, dtd.error_log.filter_from_errors()[0])
     #---
     nbe = 0
@@ -60,18 +95,22 @@ def TestAnalysis(file, endpoint,emptyTest):
         nbe += 1
         ide = entry.get('logline')
         query = entry.find('request').text
-        try:
-            (ok, wf) = endpoint.notEmpty(query)
-            if ok:
-                entry.set('valid',emptyTest)
-                print('OK for',ide)
-            elif wf:
-                print('Empty for',ide)
-                entry.set('valid','Empty'+emptyTest)
+        valid = entry.get("valid")
+        if  valid == None:
+            test(endpoint,query,entry,stat,emptyTest)
+        else:
+            if valid in [MODE_SPARQL, MODE_TPF]:
+                stat.put('','valid')
+                print('Always OK for',ide)
+            elif valid in ['Empty'+MODE_SPARQL, 'Empty'+MODE_TPF]:
+                stat.put('','empty')
+                print('Always Empty for',ide)
+            elif valid  in ['QBF'+MODE_SPARQL, 'QBF'+MODE_TPF]:
+                print('Always wf for:',ide)
+                stat.put('','bfq')
             else:
-            	print('PB  wf for:',ide)
-        except Exception as e:
-            print('PB error for:',ide)
+                test(endpoint,query,entry,stat,emptyTest)
+                # stat.put('','other')
     try:
         file_tested = file[:-4]+'-tested.xml'
         logging.debug('Ecriture de "%s"', file_tested)
@@ -108,10 +147,6 @@ def manageLogging(logLevel, logfile = 'be4dbp.log'):
 
 #==================================================
 
-MODE_SPARQL = 'SPARQL'
-MODE_TPF = 'TPF'
-DEFAULT_EP = 'http://localhost:5001/dbpedia_3_9'
-
 parser = argparse.ArgumentParser(description='Etude des requêtes')
 parser.add_argument('files', metavar='file', nargs='+',
                     help='files to analyse')
@@ -134,6 +169,8 @@ manageLogging(args.logLevel, 'be4dbp-tests-'+date2filename(now())+'.log')
 
 file_set = args.files
 
+stat = AbstractStat(AbstractCounter, ['valid', 'empty', 'bfq', 'other'] )
+
 current_dir = os.getcwd()
 resourcesDir = 'resources'
 emptyTest = args.doEmpty
@@ -147,21 +184,30 @@ else:
         endpoint = TPFEP(cacheDir = current_dir+'/'+resourcesDir)
     else:
         endpoint = TPFEP(service = args.ep, cacheDir = current_dir+'/'+resourcesDir)
+    endpoint.setEngine('/Users/desmontils-e/Programmation/TPF/Client.js-master/bin/ldf-client')
 logging.info('Empty responses tests with %s' % endpoint)
 endpoint.caching(True)
 endpoint.setTimeOut(60)
 
 nb_processes = args.nb_processes
 logging.info('Lancement des %d processus d\'analyse', nb_processes)
-compute_queue = mp.Queue(nb_processes)
+compute_queue = mp.Queue(ctx.nb_processes * 6)
 process_list = [
-    mp.Process(target=analyse, args=(compute_queue, endpoint, emptyTest))
+    mp.Process(target=analyse, args=(compute_queue, endpoint, emptyTest, stat))
     for _ in range(nb_processes)
 ]
 for process in process_list:
     process.start()
 
+nbf = len(file_set)
+dixpercent = int(nbf*0.1)
+print (dixpercent)
+no = 0
+sys.exit()
+
 for file in file_set:
+    no +=1
+    if no % dixpercent == 0: endpoint.saveCache()
     if existFile(file):
         logging.debug('Analyse de "%s"', file)
         compute_queue.put(file)
@@ -174,4 +220,5 @@ for process in process_list:
 
 logging.info('Fin')
 endpoint.saveCache()
+stat.stop(True)
 logging.info('End')
