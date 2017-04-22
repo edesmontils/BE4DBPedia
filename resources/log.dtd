@@ -5,7 +5,7 @@
 <!ATTLIST entry 
     datetime CDATA #REQUIRED
     logline CDATA #IMPLIED
-    valid (TPF|SPARQL|EmptyTPF|EmptySPARQL|QBFTPF|QBFSPARQL|NotTested) "NotTested" >
+    valid (TPF|SPARQL|EmptyTPF|EmptySPARQL|QBFTPF|QBFSPARQL|TOTPF|TOSPARQL|NotTested) "NotTested" >
     <!-- 
     datetime respects ISO8601 
     logline the line number in the dbpedia log
