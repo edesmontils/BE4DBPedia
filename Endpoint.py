@@ -130,6 +130,8 @@ class SPARQLEP (Endpoint): # "http://dbpedia.org/sparql" "http://172.16.9.15:889
         self.engine = SPARQLWrapper(self.service)
         self.engine.setReturnFormat(JSON)
         # self.sparql.setRequestMethod(POST)
+        self.reVirtuosoTimeout = re.compile(r'Virtuoso 42000 Error The estimated execution time \d+ (sec) exceeds the limit of \d+ (sec).')
+        self.reURLTimeout = re.compile(r"timed out")
 
     def setTimeOut(self,to):
     	Endpoint.setTimeOut(self,to)
@@ -154,17 +156,25 @@ class SPARQLEP (Endpoint): # "http://dbpedia.org/sparql" "http://172.16.9.15:889
             #print('EndPointNotFound',qstr)
             raise EndpointException("SPARQL endpoint error (EndPointNotFound)",e,qstr)
         except EndPointInternalError as e:
-            logging.info('Erreur EndPointInternalError : %s',e)
-            #print('EndPointInternalError',qstr)
-            raise EndpointException("SPARQL endpoint error (EndPointInternalError)",e,qstr)
+            if self.reVirtuosoTimeout.search(e.__str__()):
+                logging.info('Erreur timeout : %s',e)
+                raise EndpointException("SPARQL timeout (TimeoutExpired)",e,qstr)
+            else:
+                logging.info('Erreur EndPointInternalError : %s',e)
+                #print('EndPointInternalError',qstr)
+                raise EndpointException("SPARQL endpoint error (EndPointInternalError)",e,qstr)
         except socket.timeout as e:
             logging.info('Erreur timeout : %s',e)
             #print('EndPointNotFound',qstr)
-            raise EndpointException("SPARQL timeout (socket.timeout)",e,qstr)
+            raise EndpointException("socket.timeout (TimeoutExpired)",e,qstr)
         except Exception as e:
-            logging.info('Erreur SPARQL EP ??? : %s',e)
-            #print('Erreur SPARQL EP ??? :',e,qstr)
-            raise EndpointException("SPARQL endpoint error (???)",e,qstr)
+            if self.reURLTimeout.search(e.__str__()):
+                logging.info('Erreur timeout : %s',e)
+                raise EndpointException("URL timeout (TimeoutExpired)",e,qstr)
+            else:
+                logging.info('Erreur SPARQL EP ??? : %s',e)
+                #print('Erreur SPARQL EP ??? :',e,qstr)
+                raise EndpointException("SPARQL endpoint error (???)",e,qstr)
 
 #==================================================
 
@@ -227,7 +237,7 @@ class TPFEP(Endpoint):
         except subprocess.TimeoutExpired as e : # uniquement python 3.3 !!!
             logging.info('Erreur TimeoutExpired : %s',e)
             #print('TimeoutExpired',e)
-            raise EndpointException("TPF endpoint error (TimeoutExpired)",e,qstr)
+            raise EndpointException("TPF timeout (TimeoutExpired)",e,qstr)
             #return (False,EP_QueryBadFormed)       
         except json.JSONDecodeError as e: #Fonctionne pas en python 3.2... que depuis 3.5 !!!!
             logging.info('Erreur JSONDecodeError : %s',e)

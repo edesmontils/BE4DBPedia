@@ -28,7 +28,7 @@ MODE_RA_ALL = 'All'
 
 #==================================================
 
-def analyse(in_queue, mode):
+def analyse(in_queue, mode, stat):
     logging.debug('Start analyse worker "%s"', os.getpid())
     while True:
         try:
@@ -37,7 +37,7 @@ def analyse(in_queue, mode):
                 break
             else:
                 logging.debug('Treat mess in %s %s', os.getpid(), mess)
-                rankAnalysis(mess, mode)
+                rankAnalysis(mess, mode, stat)
         except Empty as e:
             print('empty!')
         except Exception as e:
@@ -89,12 +89,12 @@ def entryOk(entry, mode):
 
 #==================================================
 
-def rankAnalysis(file, mode):
+def rankAnalysis(file, mode, stat):
     logging.debug('rankAnalysis for %s' % file)
     #print('Traitement de %s' % file)
     parser = etree.XMLParser(recover=True, strip_cdata=True)
     tree = etree.parse(file, parser)
-
+    stat.put('','file')
     #---
     dtd = etree.DTD('./resources/log.dtd')
     assert dtd.validate(tree), '%s non valide au chargement : %s' % (
@@ -122,6 +122,8 @@ def rankAnalysis(file, mode):
             rank += 1
             old_freq = freq
         f = freq / nbe
+        stat.put('','rank')
+        for _ in range(freq): stat.put('','occurrences')
         node_r = etree.SubElement(
             node_tree_ranking,
             'entry-rank',

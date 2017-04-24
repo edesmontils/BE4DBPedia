@@ -18,6 +18,7 @@ import datetime as dt
 import logging
 import argparse
 from tools import *
+from Stat import *
 
 #==================================================
 
@@ -53,10 +54,12 @@ manageLogging(args.logLevel, 'be4dbp-ranking-'+date2filename(now())+'.log')
 file_set = args.files
 mode = args.mode
 nb_processes = args.nb_processes
+stat = AbstractStat(AbstractCounter, ['rank','file','occurrences'] )
+
 logging.info('Lancement des %d processus d\'analyse pour %s', nb_processes, mode)
 compute_queue = mp.Queue(nb_processes)
 process_list = [
-    mp.Process(target=analyse, args=(compute_queue, mode))
+    mp.Process(target=analyse, args=(compute_queue, mode, stat))
     for _ in range(nb_processes)
 ]
 for process in process_list:
@@ -72,5 +75,5 @@ for process in process_list:
     compute_queue.put(None)
 for process in process_list:
     process.join()
-
+stat.stop(True)
 logging.info('Fin')
