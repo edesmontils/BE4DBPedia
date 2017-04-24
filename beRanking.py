@@ -67,24 +67,31 @@ def addBGP2Rank(bgp, line, ranking):
 def entryOk(entry, mode):
     #ok = True
     valid = entry.get("valid")
+    #print('Vérif pour %s' % valid)
     if  valid == None:
         return mode == MODE_RA_ALL
     else:
         if valid.startswith('Empty'):
-            return valid == {MODE_RA_VALID,MODE_RA_WF,MODE_RA_ALL}
+            #print('is Empty')
+            return mode == {MODE_RA_VALID,MODE_RA_WF,MODE_RA_ALL}
         elif valid.startswith('QBF'):
-            return valid == MODE_RA_ALL
+            #print('is QBF')
+            return mode == MODE_RA_ALL
         elif valid.startswith('TO'):
-            return valid in {MODE_RA_ALL,MODE_RA_WF}
+            #print('is TO')
+            return mode in {MODE_RA_ALL,MODE_RA_WF}
         elif valid == 'NotTested':
-            return valid == MODE_RA_ALL
+            #print('Not tested')
+            return mode == MODE_RA_ALL
         else: # TPF ou SPARQL
-            return valid in {MODE_RA_NOTEMPTY,MODE_RA_VALID,MODE_RA_WF,MODE_RA_ALL}
+            #print('Other')
+            return mode in {MODE_RA_NOTEMPTY,MODE_RA_VALID,MODE_RA_WF,MODE_RA_ALL}
 
 #==================================================
 
 def rankAnalysis(file, mode):
     logging.debug('rankAnalysis for %s' % file)
+    #print('Traitement de %s' % file)
     parser = etree.XMLParser(recover=True, strip_cdata=True)
     tree = etree.parse(file, parser)
 
@@ -98,6 +105,7 @@ def rankAnalysis(file, mode):
     nbe = 0
     for entry in tree.getroot():
         if entryOk(entry,mode):
+            #print('entry ok')
             nbe += 1
             ide = entry.get('logline')
             bgp = unSerializeBGP(entry.find('bgp'))

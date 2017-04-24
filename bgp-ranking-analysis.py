@@ -53,7 +53,7 @@ manageLogging(args.logLevel, 'be4dbp-ranking-'+date2filename(now())+'.log')
 file_set = args.files
 mode = args.mode
 nb_processes = args.nb_processes
-logging.info('Lancement des %d processus d\'analyse', nb_processes)
+logging.info('Lancement des %d processus d\'analyse pour %s', nb_processes, mode)
 compute_queue = mp.Queue(nb_processes)
 process_list = [
     mp.Process(target=analyse, args=(compute_queue, mode))
