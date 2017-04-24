@@ -3,7 +3,7 @@
 <!ELEMENT ranking (entry-rank*) >
 <!ATTLIST ranking ip CDATA #REQUIRED >
 
-<!ELEMENT entry-rank (bgp) >
+<!ELEMENT entry-rank (bgp, request) >
 <!ATTLIST entry-rank 
     frequence CDATA #REQUIRED 
     nb-occurrences CDATA #REQUIRED
@@ -16,3 +16,4 @@
     -->
 <!ENTITY % bgp SYSTEM 'bgp.dtd' >
 %bgp;
+<!ELEMENT request (#PCDATA) >	

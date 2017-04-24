@@ -48,18 +48,18 @@ def analyse(in_queue, mode):
 #==================================================
 
 
-def addBGP2Rank(bgp, line, ranking):
+def addBGP2Rank(bgp, nquery, line, ranking):
     ok = False
-    for (i, (d, n, ll)) in enumerate(ranking):
+    for (i, (d, n, query, ll)) in enumerate(ranking):
         if bgp == d:
             # if equals(bgp,d) :
             ok = True
             break
     if ok:
         ll.add(line)
-        ranking[i] = (d, n+1, ll)
+        ranking[i] = (d, n+1, query, ll)
     else:
-        ranking.append( (bgp, 1 , {line}) )
+        ranking.append( (bgp, 1 , nquery, {line}) )
 
 
 #==================================================
@@ -110,13 +110,14 @@ def rankAnalysis(file, mode):
             ide = entry.get('logline')
             bgp = unSerializeBGP(entry.find('bgp'))
             cbgp = canonicalize_sparql_bgp(bgp)
-            addBGP2Rank(cbgp, ide, ranking)
+            query = entry.find('request').text
+            addBGP2Rank(cbgp, query, ide, ranking)
     ranking.sort(key=itemgetter(1), reverse=True)
     node_tree_ranking = etree.Element('ranking')
     node_tree_ranking.set('ip', tree.getroot().get('ip'))
     rank = 0
     old_freq = 0;
-    for (i, (bgp, freq, lines)) in enumerate(ranking):
+    for (i, (bgp, freq, query, lines)) in enumerate(ranking):
         if freq != old_freq:
             rank += 1
             old_freq = freq
@@ -133,6 +134,8 @@ def rankAnalysis(file, mode):
         )
         node_b = serializeBGP(bgp)
         node_r.append(node_b)
+        request_node = etree.SubElement(node_r, 'request')
+        request_node.text = query
     try:
         file_ranking = file[:-4]+'-ranking.xml'
         logging.debug('Ecriture de "%s"', file_ranking)
