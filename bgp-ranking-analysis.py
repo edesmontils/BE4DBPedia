@@ -9,10 +9,9 @@ Application to rank BGP according to frequency
 #    All rights reserved.
 #    GPL v 2.0 license.
 
-from ranking import *
+from beRanking import *
 
 import multiprocessing as mp
-import logging
 
 import datetime as dt
 
@@ -46,16 +45,18 @@ parser.add_argument("-l", "--log", dest="logLevel",
                         help="Set the logging level", default='INFO')
 parser.add_argument("-p", "--proc", type=int, default=mp.cpu_count(), dest="nb_processes",
                     help="Number of processes used (%d by default)" % mp.cpu_count())
+parser.add_argument("-t","--type", help="Request a SPARQL or a TPF endpoint to verify the query and test it returns at least one triple (%s by default)" % MODE_RA_NOTEMPTY,
+                choices=[MODE_RA_NOTEMPTY,MODE_RA_VALID,MODE_RA_WF, MODE_RA_ALL],dest="mode",default=MODE_RA_NOTEMPTY)
 args = parser.parse_args()
 manageLogging(args.logLevel, 'be4dbp-ranking-'+date2filename(now())+'.log')
 
 file_set = args.files
-
+mode = args.mode
 nb_processes = args.nb_processes
 logging.info('Lancement des %d processus d\'analyse', nb_processes)
 compute_queue = mp.Queue(nb_processes)
 process_list = [
-    mp.Process(target=analyse, args=(compute_queue, ))
+    mp.Process(target=analyse, args=(compute_queue, mode))
     for _ in range(nb_processes)
 ]
 for process in process_list:

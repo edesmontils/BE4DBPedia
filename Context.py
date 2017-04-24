@@ -71,7 +71,7 @@ class Context:
                 self.endpoint.setEngine('/Users/desmontils-e/Programmation/TPF/Client.js-master/bin/ldf-client')
             logging.info('Empty responses tests with %s' % self.endpoint)
             self.endpoint.caching(True)
-            self.endpoint.setTimeOut(20)
+            self.endpoint.setTimeOut(args.timeout)
         else:
             self.emptyTest = None
 
@@ -126,6 +126,8 @@ class Context:
                         choices=['SPARQLEP','TPF', 'None'],dest="doEmpty",default='None')
         self.parser.add_argument("-ep","--endpoint", help="The endpoint requested for the '-e' ('--empty') option ( for exemple 'http://dbpedia.org/sparql' for SPARQL)",
                         dest="ep", default='')
+        self.parser.add_argument("-to", "--timeout", type=int, default=60, dest="timeout",
+                    help="Endpoint Time Out (%d by default)" % 60)
 
     def loadPrefixes(self):
         logging.info('Reading of default prefixes')

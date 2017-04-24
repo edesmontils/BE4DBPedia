@@ -21,7 +21,14 @@ from lxml import etree  # http://lxml.de/index.html#documentation
 
 #==================================================
 
-def analyse(in_queue):
+MODE_RA_NOTEMPTY = 'NotEmpty'
+MODE_RA_VALID = 'Valid'
+MODE_RA_WF = 'WellFormed'
+MODE_RA_ALL = 'All'
+
+#==================================================
+
+def analyse(in_queue, mode):
     logging.debug('Start analyse worker "%s"', os.getpid())
     while True:
         try:
@@ -30,7 +37,7 @@ def analyse(in_queue):
                 break
             else:
                 logging.debug('Treat mess in %s %s', os.getpid(), mess)
-                rankAnalysis(mess)
+                rankAnalysis(mess, mode)
         except Empty as e:
             print('empty!')
         except Exception as e:
@@ -57,24 +64,45 @@ def addBGP2Rank(bgp, line, ranking):
 
 #==================================================
 
+def entryOk(entry, mode):
+    #ok = True
+    valid = entry.get("valid")
+    if  valid == None:
+        return mode == MODE_RA_ALL
+    else:
+        if valid.startswith('Empty'):
+            return valid == {MODE_RA_VALID,MODE_RA_WF,MODE_RA_ALL}
+        elif valid.startswith('QBF'):
+            return valid == MODE_RA_ALL
+        elif valid.startswith('TO'):
+            return valid in {MODE_RA_ALL,MODE_RA_WF}
+        elif valid == 'NotTested':
+            return valid == MODE_RA_ALL
+        else: # TPF ou SPARQL
+            return valid in {MODE_RA_NOTEMPTY,MODE_RA_VALID,MODE_RA_WF,MODE_RA_ALL}
 
-def rankAnalysis(file):
+#==================================================
+
+def rankAnalysis(file, mode):
     logging.debug('rankAnalysis for %s' % file)
     parser = etree.XMLParser(recover=True, strip_cdata=True)
     tree = etree.parse(file, parser)
-    dtd = etree.DTD('./resources/log.dtd')
+
     #---
+    dtd = etree.DTD('./resources/log.dtd')
     assert dtd.validate(tree), '%s non valide au chargement : %s' % (
         file, dtd.error_log.filter_from_errors()[0])
     #---
+
     ranking = []
     nbe = 0
     for entry in tree.getroot():
-        nbe += 1
-        ide = entry.get('logline')
-        bgp = unSerializeBGP(entry.find('bgp'))
-        cbgp = canonicalize_sparql_bgp(bgp)
-        addBGP2Rank(cbgp, ide, ranking)
+        if entryOk(entry,mode):
+            nbe += 1
+            ide = entry.get('logline')
+            bgp = unSerializeBGP(entry.find('bgp'))
+            cbgp = canonicalize_sparql_bgp(bgp)
+            addBGP2Rank(cbgp, ide, ranking)
     ranking.sort(key=itemgetter(1), reverse=True)
     node_tree_ranking = etree.Element('ranking')
     node_tree_ranking.set('ip', tree.getroot().get('ip'))

@@ -147,7 +147,7 @@ class SPARQLEP (Endpoint): # "http://dbpedia.org/sparql" "http://172.16.9.15:889
             return (nb > 0, EP_QueryWellFormed)
         except QueryBadFormed as e:
             #logging.info('Erreur QueryBadFormed : %s',e)
-            print('QueryBadFormed',qstr)
+            #print('QueryBadFormed',qstr)
             return (False, EP_QueryBadFormed)
         except EndPointNotFound as e:
             logging.info('Erreur EndPointNotFound : %s',e)
@@ -163,7 +163,7 @@ class SPARQLEP (Endpoint): # "http://dbpedia.org/sparql" "http://172.16.9.15:889
             raise EndpointException("SPARQL timeout (socket.timeout)",e,qstr)
         except Exception as e:
             logging.info('Erreur SPARQL EP ??? : %s',e)
-            print('Erreur SPARQL EP ??? :',e,qstr)
+            #print('Erreur SPARQL EP ??? :',e,qstr)
             raise EndpointException("SPARQL endpoint error (???)",e,qstr)
 
 #==================================================
@@ -221,26 +221,26 @@ class TPFEP(Endpoint):
             return (nb > 0,EP_QueryWellFormed)
         except subprocess.CalledProcessError as e :
             logging.info('Erreur CalledProcessError : %s',e)
-            print('CalledProcessError',e)
+            #print('CalledProcessError',e)
             raise EndpointException("TPF endpoint error (CalledProcessError)",e,qstr)
             #return (False,EP_QueryBadFormed)
         except subprocess.TimeoutExpired as e : # uniquement python 3.3 !!!
             logging.info('Erreur TimeoutExpired : %s',e)
-            print('TimeoutExpired',e)
+            #print('TimeoutExpired',e)
             raise EndpointException("TPF endpoint error (TimeoutExpired)",e,qstr)
             #return (False,EP_QueryBadFormed)       
         except json.JSONDecodeError as e: #Fonctionne pas en python 3.2... que depuis 3.5 !!!!
             logging.info('Erreur JSONDecodeError : %s',e)
-            print('JSONDecodeError :',e)
+            #print('JSONDecodeError :',e)
             raise EndpointException("TPF endpoint error (JSONDecodeError)",e,qstr)
         except Exception as e:
             message = e.__str__()
             if message.startswith('QueryBadFormed'):
-                print('QueryBadFormed',qstr)
+                #print('QueryBadFormed',qstr)
                 return (False,EP_QueryBadFormed)
             else:
                 logging.info('Erreur TPF EP ??? : %s',e)
-                print('Erreur TPF EP ??? :',e , qstr)
+                #print('Erreur TPF EP ??? :',e , qstr)
                 raise EndpointException("TPF endpoint error (???)",e,qstr)
 
 #==================================================
