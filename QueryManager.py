@@ -101,11 +101,11 @@ class QueryManager:
       r_queryType = None
 
     if r_queryType in self.allowedQueryTypes :
-        self.typeStat.put ('',r_queryType)
+        self.typeStat.stdput (r_queryType)
         return r_queryType
     else :
         logging.warning("unknown query type (%s) for query '%s'" % (r_queryType,query.replace("\n", " ")))
-        self.typeStat.put ('','None')
+        self.typeStat.stdput ('None')
         return None # SELECT
 
   def isTPFCompatible(self, query):

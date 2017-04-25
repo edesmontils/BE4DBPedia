@@ -94,7 +94,7 @@ def rankAnalysis(file, mode, stat):
     #print('Traitement de %s' % file)
     parser = etree.XMLParser(recover=True, strip_cdata=True)
     tree = etree.parse(file, parser)
-    stat.put('','file')
+    stat.stdput('file')
     #---
     dtd = etree.DTD('./resources/log.dtd')
     assert dtd.validate(tree), '%s non valide au chargement : %s' % (
@@ -119,11 +119,12 @@ def rankAnalysis(file, mode, stat):
     old_freq = 0;
     for (i, (bgp, freq, query, lines)) in enumerate(ranking):
         if freq != old_freq:
+            stat.stdput('rank')
             rank += 1
             old_freq = freq
         f = freq / nbe
-        stat.put('','rank')
-        for _ in range(freq): stat.put('','occurrences')
+        stat.stdput('entry-rank')
+        stat.stdmput('occurrences',freq)
         node_r = etree.SubElement(
             node_tree_ranking,
             'entry-rank',

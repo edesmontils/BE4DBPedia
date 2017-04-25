@@ -30,7 +30,6 @@ from lxml import etree  # http://lxml.de/index.html#documentation
 
 MODE_TE_SPARQL = 'SPARQL'
 MODE_TE_TPF = 'TPF'
-DEFAULT_TE_EP = 'http://localhost:5001/dbpedia_3_9'
 
 #==================================================
 
@@ -63,33 +62,33 @@ def test(endpoint, entry, stat,emptyTest, cacheTO):
     hq = endpoint.hash(query)
     try:
         if hq in cacheTO:
-            stat.put('','to')
+            stat.stdput('to')
             print('Another Timeout for',ide)
             entry.set('valid','TO'+emptyTest)
         else:            
             (ok, wf) = endpoint.notEmpty(query)
             if ok:
                 entry.set('valid',emptyTest)
-                stat.put('','valid')
+                stat.stdput('valid')
                 #print('OK for',ide)
             elif wf:
                 #print('Empty for',ide)
                 entry.set('valid','Empty'+emptyTest)
-                stat.put('','empty')
+                stat.stdput('empty')
             else:
                 #print('PB QBF for:',ide)
-                stat.put('','bfq')
+                stat.stdput('bfq')
                 entry.set('valid','QBF'+emptyTest)
     except Exception as e:
         if reTimeout.search(e.__str__()):
-            stat.put('','to')
+            stat.stdput('to')
             print('Timeout for',ide)
             entry.set('valid','TO'+emptyTest)
             cacheTO.add(hq)
         else:
             print('PB error for:',ide)
             print(e)
-            stat.put('','other')
+            stat.stdput('other')
 
 #==================================================
 
@@ -119,14 +118,14 @@ def TestAnalysis(file, endpoint,emptyTest,stat):
             test(endpoint,entry,stat,emptyTest, cacheTO)
         else:
             if valid == emptyTest: #in [MODE_TE_SPARQL, MODE_TE_TPF]:
-                stat.put('','valid')
+                stat.stdput('valid')
                 #print('Always OK for',ide)
             elif valid == 'Empty'+emptyTest: #in ['Empty'+MODE_TE_SPARQL, 'Empty'+MODE_TE_TPF]:
-                stat.put('','empty')
+                stat.stdput('empty')
                 #print('Always Empty for',ide)
             elif valid == 'QBF'+emptyTest: #in ['QBF'+MODE_TE_SPARQL, 'QBF'+MODE_TE_TPF]:
                 #print('Always QBF for:',ide)
-                stat.put('','bfq')
+                stat.stdput('bfq')
             elif valid == 'TO'+emptyTest: #in ['TO'+MODE_TE_SPARQL, 'TO'+MODE_TE_TPF]:
                 print('Old Timeout, redo:',ide)
                 test(endpoint,entry,stat,emptyTest,cacheTO)
