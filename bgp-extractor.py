@@ -18,7 +18,6 @@ from bgp import *
 from beLib import *
 from Context import *
 from Counter import *
-
 from beRanking import *
 
 #==================================================
@@ -63,12 +62,13 @@ for line in ctx.file():
         users[date] = dict()
         old_date = date
         rep = ctx.newDir(date)
-        cpt[date] = Counter(date)
+        #cpt[date] = Counter(date)
+        cpt[date] = Counter(STD_BE4DBP_REFTABLE)
         cur_cpt = cpt[date]
 
-    cur_cpt.line()
+    cur_cpt.inc('line')
     if ctx.lines() % 1000 == 0:
-        logging.info('%d line(s) viewed (%d for the current date)', ctx.lines(), cur_cpt.getLine())
+        logging.info('%d line(s) viewed (%d for the current date)', ctx.lines(), cur_cpt.get('line'))
         ctx.save()
 
     if dateOk:
@@ -85,9 +85,10 @@ for d in users:
             if ctx.doRanking: 
                 rankAnalysis(file) 
 
-total = Counter()
+total = Counter(STD_BE4DBP_REFTABLE)
 for d in cpt:
     total.join(cpt[d])
+    print('----------- %s -----------' % d)
     cpt[d].print()
 print('=========== total =============')
 total.print()

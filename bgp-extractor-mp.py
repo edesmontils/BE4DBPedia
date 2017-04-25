@@ -23,7 +23,6 @@ from bgp import *
 from beLib import *
 from Stat import *
 from Context import *
-from Counter import *
 from beRanking import *
 
 #==================================================
@@ -41,7 +40,8 @@ def compute(idp, tab_date, in_queue, stat, ctx):
                 if date != tab_date[idp]:
                     tab_date[idp] = date
                 (ok, nquery, bgp) = validate(
-                    ParallelCounter(stat, date), line, host, query, ctx)
+                    ParallelCounter(stat,STD_BE4DBP_REFTABLE,date),
+                    line, host, query, ctx)
                 logging.debug('Analyse "%s" pour %s', ok, host)
                 if ok:
                     s = buildXMLBGP(nquery, param_list, bgp, host, date, line)
@@ -70,7 +70,9 @@ old_date = ''
 file_set = dict()
 
 logging.info('Lancement des %d processus de traitement', ctx.nb_processes)
-stat = Stat()
+
+stat = Stat(Counter,STD_BE4DBP_REFTABLE)
+
 manager = mp.Manager()
 tab_date = manager.dict()
 for i in range(ctx.nb_processes) :
@@ -83,8 +85,6 @@ process_list = [
 ]
 for process in process_list:
     process.start()
-
-cpt = ParallelCounter(stat)
 
 if ctx.doRanking:
     logging.info('Lancement des %d processus d\'analyse', ctx.nb_processes)
@@ -113,7 +113,7 @@ for line in ctx.file():
         ctx.newDate(date)
         file_set[date] = set()
         rep = ctx.newDir(date)
-        cpt = ParallelCounter(stat, date)
+        cpt = ParallelCounter(stat,STD_BE4DBP_REFTABLE,date)
 
     if ctx.lines() % 1000 == 0:
         logging.info('%d line(s) viewed', ctx.lines())
@@ -134,7 +134,7 @@ for line in ctx.file():
                                 ranking_queue.put(file)
                     file_set[d].clear()                  
 
-    cpt.line()
+    cpt.inc('line')#line()
     if dateOk:  # and (ctx.lines() < 100):
         file = rep + ip + '-be4dbp.xml'
         compute_queue.put( (query, param_list, ip, file, date, ctx.lines()) )

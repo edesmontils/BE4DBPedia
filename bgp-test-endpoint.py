@@ -68,7 +68,7 @@ manageLogging(args.logLevel, 'be4dbp-tests-'+emptyTest+'-'+date2filename(now())+
 
 file_set = args.files
 
-stat = AbstractStat(AbstractCounter, ['valid', 'empty', 'bfq', 'to', 'other'] )
+stat = Stat(Counter, ['valid', 'empty', 'bfq', 'to', 'other'] )
 
 current_dir = os.getcwd()
 resourcesDir = 'resources'

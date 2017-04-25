@@ -13,6 +13,23 @@ import datetime as dt
 import os.path
 
 #==================================================
+
+class Timezone(dt.tzinfo):
+    def __init__(self, name="+0000"):
+        self.name = name
+        seconds = int(name[:-2]) * 3600 + int(name[-2:]) * 60
+        self.offset = dt.timedelta(seconds=seconds)
+
+    def utcoffset(self, dt):
+        return self.offset
+
+    def dst(self, dt):
+        return timedelta(0)
+
+    def tzname(self, dt):
+        return self.name
+
+#==================================================
 def existFile(f):
     return os.path.isfile(f)
 

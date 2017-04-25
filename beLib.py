@@ -21,9 +21,12 @@ from rdflib.plugins.sparql.algebra import translateQuery
 from bgp import *
 from tools import *
 from QueryManager import *
-
+from Stat import *
 from operator import itemgetter
 #from lxml import etree  # http://lxml.de/index.html#documentation
+
+#==================================================
+STD_BE4DBP_REFTABLE = ['line','ok','emptyQuery','union','bgp_not_valid','err_qr','err_ns','err_tpf','err_endpoint']
 
 #==================================================
 
@@ -70,7 +73,7 @@ def validate(cpt, line, ip, query, ctx):
     if ctx.QM.queryType(query) in [SELECT]:
         if ctx.QM.containsUnion(query):
             logging.debug('Union (%d) : %s', line, query)
-            cpt.union()
+            cpt.inc('union') #union()
             return (False, None, None)
         else:
             try:
@@ -78,43 +81,43 @@ def validate(cpt, line, ip, query, ctx):
                 if ctx.doTPFC: 
                     if not(ctx.QM.isTPFCompatible(n_query)):
                         logging.debug('PB TPF Client (%d) : %s', line, n_query)
-                        cpt.err_tpf()
+                        cpt.inc('err_tpf')#err_tpf()
                         return (False, None, None)
                 if ctx.emptyTest is not None :
                     (done, mss) = existDBPEDIA(line,n_query,ctx)
                     if not(done):
                         if mss=='empty':
                             logging.debug('Empty Query (%d) : %s', line, query)
-                            cpt.emptyQuery()
+                            cpt.inc('emptyQuery')#emptyQuery()
                         elif mss=='QBF':
-                            cpt.err_qr()
+                            cpt.inc('err_qr')#err_qr()
                         else:
-                            cpt.err_endpoint()
+                            cpt.inc('arr_endpoint')#err_endpoint()
                         return (False, None, None)
-                cpt.ok()
+                cpt.inc('ok')#.ok()
                 return (True, n_query, bgp)
             except BGPUnvalidException as e:
-                cpt.bgp_not_valid()
+                cpt.inc('bgp_not_valid')#.bgp_not_valid()
                 return (False, None, None)
             except BGPException as e:
                 logging.debug('PB URI in BGP (%d) : %s\n%s', line, e, query)
-                cpt.err_qr()
+                cpt.inc('err_qr')#.err_qr()
                 return (False, None, None)
             except SPARQLException as e:
                 logging.debug('PB SPARQLError (%d) : %s\n%s', line, e, query)
-                cpt.err_qr()
+                cpt.inc('err_qr')#.err_qr()
                 return (False, None, None)
             except NSException as e:
                 logging.debug('PB NS (%d) : %s\n%s', line, e, query)
-                cpt.err_ns()
+                cpt.inc('err_ns')#.err_ns()
                 return (False, None, None) 
             except TranslateQueryException as e:
                 logging.debug('PB translate (%d) : %s\n%s', line, e, query)
-                cpt.err_qr()
+                cpt.inc('err_qr')#.err_qr()
                 return (False, None, None)                
             except ParseQueryException as e:
                 logging.debug('PB parseQuery (%d) : %s\n%s', line, e, query)
-                cpt.err_qr()
+                cpt.inc('err_qr')#.err_qr()
                 return (False, None, None)
     else:
         return (False, None, None)
@@ -243,22 +246,7 @@ def closeLog(file, test=existFile):
             f_out.close()
 
 #==================================================
-#==================================================
 
-class Timezone(dt.tzinfo):
-    def __init__(self, name="+0000"):
-        self.name = name
-        seconds = int(name[:-2]) * 3600 + int(name[-2:]) * 60
-        self.offset = dt.timedelta(seconds=seconds)
-
-    def utcoffset(self, dt):
-        return self.offset
-
-    def dst(self, dt):
-        return timedelta(0)
-
-    def tzname(self, dt):
-        return self.name
 
 
 #==================================================
