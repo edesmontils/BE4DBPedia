@@ -13,7 +13,6 @@ import datetime as dt
 import os.path
 
 #==================================================
-
 class Timezone(dt.tzinfo):
     def __init__(self, name="+0000"):
         self.name = name
@@ -46,7 +45,6 @@ def date2filename(date):
 	return date.__str__().replace(' ', 'T').replace(':', '-').replace('+', '-')
 
 #==================================================
-
 def pprint_dict(d):
     length = max([len(str(i)) for i in d.keys()])
     for t in iter(d.keys()):
