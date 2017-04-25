@@ -63,7 +63,6 @@ def compute(idp, tab_date, in_queue, stat, ctx):
 ctx = ParallelContext('Parallel BGP Extractor for DBPedia log.')
 
 logging.info('Initialisations')
-pattern = makeLogPattern()
 old_date = ''
 file_set = dict()
 
@@ -95,11 +94,7 @@ if ctx.doRanking:
         process.start()
 
 logging.info('Lancement du traitement')
-for line in ctx.file():
-    ctx.newLine()
-    m = pattern.match(line)
-    (query, date, param_list, ip) = extract(m.groupdict())
-
+for (query, date, param_list, ip) in ctx.file():
     if (date != old_date):
         dateOk = date.startswith(ctx.refDate)
         if dateOk:

@@ -32,45 +32,6 @@ STD_BE4DBP_REFTABLE = ['line','ok','emptyQuery','union','bgp_not_valid','err_qr'
 
 #==================================================
 
-
-def extract(res):
-    # if res["user"] == "-": res["user"] = None
-
-    # res["status"] = int(res["status"])
-
-    # if res["size"] == "-":
-    #     res["size"] = 0
-    # else:
-    #     res["size"] = int(res["size"])
-
-    # if res["referer"] == "-":
-    #     res["referer"] = None
-
-    tt = time.strptime(res["time"][:-6], "%d/%b/%Y %H:%M:%S")
-    tt = list(tt[:6]) + [0, Timezone(res["time"][-5:])]
-    # res["time"] = dt.datetime(*tt)
-    date = date2str(dt.datetime(*tt)) #.__str__().replace(' ', 'T')
-
-    url = res['request'].split(' ')[1]
-    # res['request'] = url
-    param = url.split('?')[1]
-    # param_list = parse_qsl(param)
-
-    param_list = []
-    query = ''
-    for (p, q) in parse_qsl(param):
-        if p == 'query':
-            query = ' ' + q + ' '
-        elif p == 'qtxt':
-            query = ' ' + q + ' '
-        else:
-            # .replace('"', '\'').replace('<', '').replace('>', '')))
-            param_list.append((p, q))
-    #query = ' '.join(query.split())
-    return (query, date, param_list, res['host'])
-
-#==================================================
-
 def validate(cpt, line, ip, query, ctx):
     if ctx.QM.queryType(query) in [SELECT]:
         if ctx.QM.containsUnion(query):
@@ -135,24 +96,6 @@ def validate(cpt, line, ip, query, ctx):
     else:
         #cpt.inc('autre')
         return (False, None, None, None)
-
-#==================================================
-
-def makeLogPattern():
-    parts = [
-        r'(?P<host>\S+)',  # host %h
-        r'\S+',  # indent %l (unused)
-        r'(?P<user>\S+)',  # user %u
-        r'\[(?P<time>.+)\]',  # time %t
-        r'"(?P<request>.+)"',  # request "%r"
-        r'(?P<status>[0-9]+)',  # status %>s
-        r'(?P<size>\S+)',  # size %b (careful, can be '-')
-        r'"(?P<referer>.*)"',  # referer "%{Referer}i"
-        r'"(?P<code>.*)"',
-        r'"(?P<agent>.*)"',  # user agent "%{User-agent}i"
-    ]
-    pattern = re.compile(r'\s+'.join(parts) + r'\s*\Z')
-    return pattern
 
 #==================================================
 

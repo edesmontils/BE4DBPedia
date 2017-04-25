@@ -31,8 +31,6 @@ def compute(cpt, line, file, date, host, query, param_list, rep, ctx):
             saveEntry(file, entry, host)
 
 #==================================================
-#==================================================
-#==================================================
 
 # Traitement de la ligne de commande
 # https://docs.python.org/3/library/argparse.html
@@ -41,17 +39,12 @@ def compute(cpt, line, file, date, host, query, param_list, rep, ctx):
 ctx = Context('BGP Extractor for DBPedia log.')
 
 logging.info('Initialisations')
-pattern = makeLogPattern()
 users = dict()
 cpt = dict()
 old_date = ''
 
 logging.info('Lancement du traitement')
-for line in ctx.file():
-    ctx.newLine()
-    m = pattern.match(line)
-    (query, date, param_list, ip) = extract(m.groupdict())
-
+for (query, date, param_list, ip) in ctx.file():
     if (date != old_date):
         dateOk = date.startswith(ctx.refDate)
         if dateOk:
