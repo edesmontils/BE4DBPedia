@@ -14,14 +14,20 @@ from tools import *
 from collections import OrderedDict
 #==================================================
 
-class AbstractCounter:
+class Counter:
     def __init__(self, refTable):
         self.refTable = refTable
         self.cpt = OrderedDict()
         self.clear()
 
+    def get(self, mess):
+        return self.cpt[mess]
+
     def inc(self, mess):
         self.cpt[mess] += 1
+
+    def add(self, mess, v):
+        self.cpt[mess] += v
 
     def join(self, c):
         for x in c.cpt:
@@ -37,118 +43,32 @@ class AbstractCounter:
             self.cpt[x] = 0
 
     def build(refTable):
-        return AbstractCounter(refTable)
-
-class AbstractParallelCounter(AbstractCounter):
-    def __init__(self, stat, refTable, date=''):
-        AbstractCounter.__init__(self,refTable)
-        self.stat = stat
-        self.date = date #date2str(now())
-
-    def inc(self, mess):
-        self.stat.put( self.date, mess )
-        AbstractCounter.inc(self,mess)
-
-    def build(refTable):
-        return AbstractParallelCounter(refTable)
-
-    def print(self):
-        if (self.date != ''):
-            print('=========== ', self.date, '=============')
-        AbstractCounter.print(self)
-
-#==================================================
-#==================================================
-#==================================================
-STD_BE4DBP_REFTABLE = ['line','ok','emptyQuery','union','bgp_not_valid','err_qr','err_ns','err_tpf','err_endpoint']
-
-class Counter(AbstractCounter):
-    def __init__(self, date=''):
-        AbstractCounter.__init__(self,STD_BE4DBP_REFTABLE)
-        self.setDate(date)
-
-    def setDate(self, date):
-        self.date = date
-
-    def line(self):
-        self.inc('line')
-
-    def getLine(self):
-        return self.cpt['line']
-
-    def err_qr(self):
-       self.inc('err_qr')
-
-    def err_endpoint(self):
-        self.inc('err_endpoint')
-
-    def err_ns(self):
-        self.inc('err_ns')
-
-    def emptyQuery(self):
-        self.inc('emptyQuery')
-
-    def ok(self):
-        self.inc('ok')
-
-    def union(self):
-        self.inc('union')
-
-    def bgp_not_valid(self):
-        self.inc('bgp_not_valid')
-
-    def err_tpf(self):
-        self.inc('err_tpf')
-
-    def print(self):
-        if (self.date != ''):
-            print('=========== ', self.date, '=============')
-        # else:
-        #   print('=========== ','xxxxxxxx','=============')
-        AbstractCounter.print(self)
+        return Counter(refTable)
 
 #==================================================
 
 class ParallelCounter(Counter):
-    def __init__(self, stat, date=''):
-        Counter.__init__(self, date)
+
+    def build(refTable):
+        return ParallelCounter(refTable)
+
+    def __init__(self, stat, refTable, grp=''):
+        Counter.__init__(self,refTable)
         self.stat = stat
+        self.grp = grp 
 
-    def line(self):
-        self.stat.put(self.date, 'line')
-        Counter.line(self)
+    def inc(self, mess):
+        self.stat.put( self.grp, mess )
+        Counter.inc(self,mess)
 
-    def err_qr(self):
-        self.stat.put(self.date, 'err_qr')
-        Counter.err_qr(self)
+    def add(self, mess, qte):
+        self.stat.mput( self.grp, mess, qte)
+        Counter.add(self,mess, qte)
 
-    def err_ns(self):
-        self.stat.put(self.date, 'err_ns')
-        Counter.err_ns(self)
-
-    def ok(self):
-        self.stat.put(self.date, 'ok')
-        Counter.ok(self)
-
-    def emptyQuery(self):
-        self.stat.put(self.date, 'emptyQuery')
-        Counter.emptyQuery(self)
-
-    def err_endpoint(self):
-        self.stat.put(self.date, 'err_endpoint')
-        Counter.err_endpoint(self)
-
-    def union(self):
-        self.stat.put(self.date, 'union')
-        Counter.union(self)
-
-    def bgp_not_valid(self):
-        self.stat.put(self.date, 'bgp_not_valid')
-        Counter.bgp_not_valid(self)
-
-    def err_tpf(self):
-        self.stat.put(self.date, 'err_tpf')
-        Counter.err_tpf(self)
+    def print(self):
+        if (self.grp != ''):
+            print('=========== ', self.grp, '=============')
+        Counter.print(self)
 
 #==================================================
 #==================================================
@@ -156,7 +76,7 @@ class ParallelCounter(Counter):
 
 if __name__ == '__main__':
     print('main')
-    cpt = AbstractCounter.build(['ok', 'go'])
+    cpt = Counter.build(['ok', 'go'])
     cpt.inc('ok')
     cpt.print()
 

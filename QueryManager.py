@@ -64,9 +64,9 @@ class QueryManager:
     self.modificationQueryTypes = [INSERT, DELETE, CREATE, CLEAR, DROP, LOAD, COPY, MOVE, ADD, INSERTDATA, DELETEDATA, DELETEWHERE]
     self.allowedQueryTypes = self.requestQueryTypes + self.modificationQueryTypes
 
-    self.typeStat = AbstractStat(AbstractCounter, list(self.allowedQueryTypes + ['None']) )
+    self.typeStat = Stat(Counter, list(self.allowedQueryTypes + ['None']) )
     self.maxTP = 30
-    self.bgpStat = AbstractStat(AbstractCounter, [str(i) for i in range(self.maxTP+1)]+['more'] )
+    self.bgpStat = Stat(Counter, [str(i) for i in range(self.maxTP+1)]+['more'] )
 
     if defaultPrefixes == None:
       self.defaultPrefixes = dict()
@@ -101,11 +101,11 @@ class QueryManager:
       r_queryType = None
 
     if r_queryType in self.allowedQueryTypes :
-        self.typeStat.put ('',r_queryType)
+        self.typeStat.stdput (r_queryType)
         return r_queryType
     else :
         logging.warning("unknown query type (%s) for query '%s'" % (r_queryType,query.replace("\n", " ")))
-        self.typeStat.put ('','None')
+        self.typeStat.stdput ('None')
         return None # SELECT
 
   def isTPFCompatible(self, query):
@@ -158,9 +158,9 @@ class QueryManager:
           if valid(BGPSet):
             l = len(BGPSet)
             if l>self.maxTP:
-              self.bgpStat.put ( '','more') 
+              self.bgpStat.stdput('more') 
             else:
-              self.bgpStat.put ( '',str(l)) 
+              self.bgpStat.stdput(str(l)) 
             return (BGPSet, query)
           else:
             raise BGPUnvalidException('BGP Not Valid')

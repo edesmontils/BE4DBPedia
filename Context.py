@@ -24,6 +24,8 @@ import argparse
 from QueryManager import *
 from Endpoint import *
 from tools import *
+from beTestEPValid import *
+from Log import *
 
 #==================================================
 
@@ -58,7 +60,7 @@ class Context:
 
         if self.args.doEmpty != 'None':
             self.emptyTest = self.args.doEmpty
-            if self.emptyTest == 'SPARQLEP':
+            if self.emptyTest == MODE_TE_SPARQL:
                 if self.args.ep == '':
                     self.endpoint = SPARQLEP(cacheDir = self.current_dir+'/'+self.resourcesDir)
                 else:
@@ -68,23 +70,16 @@ class Context:
                     self.endpoint = TPFEP(cacheDir = self.current_dir+'/'+self.resourcesDir)
                 else:
                     self.endpoint = TPFEP(service = self.args.ep, cacheDir = self.current_dir+'/'+self.resourcesDir)
-                self.endpoint.setEngine('/Users/desmontils-e/Programmation/TPF/Client.js-master/bin/ldf-client')
             logging.info('Empty responses tests with %s' % self.endpoint)
             self.endpoint.caching(True)
-            self.endpoint.setTimeOut(args.timeout)
+            self.endpoint.setTimeOut(self.args.timeout)
+            self.cacheTO = set()
         else:
             self.emptyTest = None
 
         self.file_name = self.args.file
-        if existFile(self.file_name):
-            logging.info('Open "%s"' % self.file_name)
-            self.f_in = open(self.file_name, 'r')
-        else :
-            logging.info('"%s" does\'nt exist' % self.file_name)
-            print('Can\'t open file %s' % self.file_name )
-            sys.exit()
+        self.log = Log(self.file_name)
 
-        self.nb_lines = 0
         self.nb_dates = 0
         self.date_set= set()
 
@@ -94,7 +89,6 @@ class Context:
 
     def close(self):
         logging.info('Close "%s"' % self.file_name)
-        self.f_in.close()
         print('Nb line(s) : ', self.lines())
         print('Nb date(s) : ', self.nbDates())
         if self.emptyTest is not None:
@@ -178,11 +172,8 @@ class Context:
             os.makedirs(d)
         return d + '/'
 
-    def newLine(self):
-        self.nb_lines += 1
-
     def lines(self):
-        return self.nb_lines
+        return self.log.nb_lines
 
     def newDate(self,date):
         self.nb_dates += 1
@@ -195,7 +186,7 @@ class Context:
         return self.date_set
 
     def file(self):
-        return self.f_in
+        return self.log
 
 #==================================================
 

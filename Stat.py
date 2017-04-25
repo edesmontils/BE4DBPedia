@@ -15,7 +15,6 @@ import multiprocessing as mp
 from queue import Empty
 import logging
 import time
-from beLib import *
 from Counter import *
 
 #==================================================
@@ -24,7 +23,6 @@ from Counter import *
 
 def abs_count_stat(in_queue, out_queue, AbsCounterClass,refTable):
     logging.debug('Start stat worker "%s"', os.getpid())
-    nb = 0
     counter_list = dict()
     while True:
         try:
@@ -34,17 +32,21 @@ def abs_count_stat(in_queue, out_queue, AbsCounterClass,refTable):
             if mess is None:
                 break
             elif len(mess) == 1:
-                (date,) = mess
-                if date in counter_list:
-                    out_queue.put( (date, counter_list[date]) )
+                (grp,) = mess
+                if grp in counter_list:
+                    out_queue.put( (grp, counter_list[grp]) )
                 else:
                     out_queue.put(None)
+            elif len(mess) == 2:
+                (grp, c) = mess
+                if not (grp in counter_list):
+                    counter_list[grp] = AbsCounterClass.build(refTable)
+                counter_list[grp].inc(c)
             else:
-                nb += 1
-                (date, c) = mess
-                if not (date in counter_list):
-                    counter_list[date] = AbsCounterClass.build(refTable)
-                counter_list[date].cpt[c] += 1
+                (grp, c, qte) = mess
+                if not (grp in counter_list):
+                    counter_list[grp] = AbsCounterClass.build(refTable)
+                counter_list[grp].add(c,qte)
         except Empty as e:
             print('empty!')
         except Exception as e:
@@ -54,24 +56,36 @@ def abs_count_stat(in_queue, out_queue, AbsCounterClass,refTable):
     for d in counter_list:
         out_queue.put( (d, counter_list[d]) )
     out_queue.put(None)
-    logging.debug('Stop stat worker "%s" with %d messages', os.getpid(), nb)
+    logging.debug('Stop stat worker "%s"', os.getpid())
 
-class AbstractStat:
+#==================================================
+
+class Stat:
     def __init__(self, AbsCounterClass, refTable):
         self.total = AbsCounterClass.build(refTable)
         self.counters = dict()
-        self.dates = set()
+        self.groups = set()
         self.stat_queue = mp.Queue()
         self.res_queue = mp.Queue()
         self.stat_proc = mp.Process(target=abs_count_stat, args=(self.stat_queue, self.res_queue, AbsCounterClass,refTable))
         self.stat_proc.start()
 
-    def put(self, date, v):
-        self.dates.add(date)
-        self.stat_queue.put( (date,v) )
+    def put(self, grp, v):
+        self.groups.add(grp)
+        self.stat_queue.put( (grp,v) )
 
-    def get(self,date = ''):
-        self.stat_queue.put( (date,) )
+    def stdput(self, v):
+        self.put('',v)
+
+    def mput(self, grp, v, qte):
+        self.groups.add(grp)
+        self.stat_queue.put( (grp,v,qte) )
+
+    def stdmput(self, v, qte):
+        self.mput('',v,qte)
+
+    def get(self,grp = ''):
+        self.stat_queue.put( (grp,) )
         r = self.res_queue.get()
         if r is not None:
             (d,c) = r
@@ -79,7 +93,7 @@ class AbstractStat:
         else: return None
 
     def backup(self):
-        for d in self.dates:
+        for d in self.groups:
             c = self.get(d)
             if c is not None:
                 self.counters[d] = c
@@ -103,21 +117,15 @@ class AbstractStat:
         nb = len(self.counters.keys())
         for d in self.counters:
             counter = self.counters[d]
-            if nb>1: print('----------- %s -------------' % d)
+            if d != '' : print('----------- %s -------------' % d)
             counter.print()
         if nb > 1 :
-            print('=========== total (%d dates) =============' % nb)
+            print('=========== total (%d groups) =============' % nb)
             self.total.print()
         elif nb == 0:
             print('Nothing to print')
         else:
             pass
-
-#==================================================
-
-class Stat(AbstractStat):
-    def __init__(self):
-        AbstractStat.__init__(self, AbstractCounter, STD_BE4DBP_REFTABLE)
 
 #==================================================
 #==================================================
@@ -127,7 +135,8 @@ if __name__ == '__main__':
     print('main')
     print(mp.cpu_count(),' proccesses availables')
 
-    stat = Stat()
+    stat = Stat(Counter, ['ok','union'])
+
     date = date2str(now())
 
     stat.put( date,'ok') 

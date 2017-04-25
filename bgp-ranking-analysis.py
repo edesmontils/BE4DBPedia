@@ -54,7 +54,7 @@ manageLogging(args.logLevel, 'be4dbp-ranking-'+date2filename(now())+'.log')
 file_set = args.files
 mode = args.mode
 nb_processes = args.nb_processes
-stat = AbstractStat(AbstractCounter, ['rank','file','occurrences'] )
+stat = Stat(Counter, ['file','rank','entry-rank','occurrences'] )
 
 logging.info('Lancement des %d processus d\'analyse pour %s', nb_processes, mode)
 compute_queue = mp.Queue(nb_processes)
