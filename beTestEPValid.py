@@ -27,10 +27,6 @@ from Stat import *
 from lxml import etree  # http://lxml.de/index.html#documentation
 
 #==================================================
-
-MODE_TE_SPARQL = 'SPARQL'
-MODE_TE_TPF = 'TPF'
-
 #==================================================
 
 def analyse(in_queue, endpoint,emptyTest, stat):

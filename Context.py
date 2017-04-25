@@ -24,6 +24,7 @@ import argparse
 from QueryManager import *
 from Endpoint import *
 from tools import *
+from beTestEPValid import *
 
 #==================================================
 
@@ -58,7 +59,7 @@ class Context:
 
         if self.args.doEmpty != 'None':
             self.emptyTest = self.args.doEmpty
-            if self.emptyTest == 'SPARQLEP':
+            if self.emptyTest == MODE_TE_SPARQL:
                 if self.args.ep == '':
                     self.endpoint = SPARQLEP(cacheDir = self.current_dir+'/'+self.resourcesDir)
                 else:
@@ -68,10 +69,10 @@ class Context:
                     self.endpoint = TPFEP(cacheDir = self.current_dir+'/'+self.resourcesDir)
                 else:
                     self.endpoint = TPFEP(service = self.args.ep, cacheDir = self.current_dir+'/'+self.resourcesDir)
-                self.endpoint.setEngine('/Users/desmontils-e/Programmation/TPF/Client.js-master/bin/ldf-client')
             logging.info('Empty responses tests with %s' % self.endpoint)
             self.endpoint.caching(True)
-            self.endpoint.setTimeOut(args.timeout)
+            self.endpoint.setTimeOut(self.args.timeout)
+            self.cacheTO = set()
         else:
             self.emptyTest = None
 

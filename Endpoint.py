@@ -38,6 +38,15 @@ class EndpointException(Exception):
 EP_QueryBadFormed = False
 EP_QueryWellFormed = True
 
+DEFAULT_TPF_EP = 'http://localhost:5001/dbpedia_3_9' # http://172.16.9.3:5001/dbpedia_3_9   http://localhost:5001/dbpedia_3_9
+DEFAULT_SPARQL_EP = 'http://172.16.9.15:8890/sparql' # "http://dbpedia.org/sparql" "http://172.16.9.15:8890/sparql"
+
+MODE_TE_SPARQL = 'SPARQL'
+MODE_TE_TPF = 'TPF'
+
+#==================================================
+#==================================================
+
 class Endpoint:
     def __init__(self, service, cacheType = '', cacheDir = '.') :
         self.engine = None
@@ -124,9 +133,9 @@ class Endpoint:
 
 #==================================================
 
-class SPARQLEP (Endpoint): # "http://dbpedia.org/sparql" "http://172.16.9.15:8890/sparql"
-    def __init__(self, service = 'http://172.16.9.15:8890/sparql', cacheDir = '.'):
-        Endpoint.__init__(self, service = service, cacheType='SPARQL', cacheDir=cacheDir)
+class SPARQLEP (Endpoint): 
+    def __init__(self, service = DEFAULT_SPARQL_EP, cacheDir = '.'):
+        Endpoint.__init__(self, service = service, cacheType=MODE_TE_SPARQL, cacheDir=cacheDir)
         self.engine = SPARQLWrapper(self.service)
         self.engine.setReturnFormat(JSON)
         # self.sparql.setRequestMethod(POST)
@@ -185,8 +194,8 @@ class DBPediaEP (SPARQLEP):
 #==================================================
 
 class TPFEP(Endpoint):
-    def __init__(self,service = "http://172.16.9.3:5001/dbpedia_3_9", cacheDir = '.'):
-        Endpoint.__init__(self,service, cacheType='TPF', cacheDir=cacheDir)
+    def __init__(self,service = DEFAULT_TPF_EP, cacheDir = '.'):
+        Endpoint.__init__(self,service, cacheType=MODE_TE_TPF, cacheDir=cacheDir)
         self.reSyntaxError = re.compile(r'\A(ERROR\:).*?\n\n(Syntax\ error\ in\ query).*',re.IGNORECASE)
         self.reQueryNotSupported = re.compile(r'\A(ERROR\:).*?\n\n(The\ query\ is\ not\ yet\ supported).*',re.IGNORECASE)
         self.appli = 'ldf-client'

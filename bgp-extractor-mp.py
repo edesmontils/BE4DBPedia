@@ -39,12 +39,10 @@ def compute(idp, tab_date, in_queue, stat, ctx):
                 logging.debug('Treat mess in %s %s', os.getpid(), host)
                 if date != tab_date[idp]:
                     tab_date[idp] = date
-                (ok, nquery, bgp) = validate(
-                    ParallelCounter(stat,STD_BE4DBP_REFTABLE,date),
-                    line, host, query, ctx)
+                (ok, nquery, bgp, qlt) = validate(ParallelCounter(stat,STD_BE4DBP_REFTABLE,date),line, host, query, ctx)
                 logging.debug('Analyse "%s" pour %s', ok, host)
                 if ok:
-                    s = buildXMLBGP(nquery, param_list, bgp, host, date, line)
+                    s = buildXMLBGP(nquery, param_list, bgp, host, date, line, qlt)
                     if s is not None:
                         with ctx.sem:
                             saveEntry(file, s, host)

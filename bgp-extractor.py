@@ -23,10 +23,10 @@ from beRanking import *
 #==================================================
 
 def compute(cpt, line, file, date, host, query, param_list, rep, ctx):
-    (ok, nquery, bgp) = validate(cpt, line, host, query, ctx)
+    (ok, nquery, bgp, qlt) = validate(cpt, line, host, query, ctx)
     if ok:
         logging.debug('ok (%d) for %s' % (line, query))
-        entry = buildXMLBGP(nquery, param_list, bgp, host, date, line)
+        entry = buildXMLBGP(nquery, param_list, bgp, host, date, line, qlt)
         if entry is not None:
             saveEntry(file, entry, host)
 

@@ -28,8 +28,6 @@ from lxml import etree  # http://lxml.de/index.html#documentation
 
 #==================================================
 
-DEFAULT_TE_EP = 'http://localhost:5001/dbpedia_3_9'
-
 #==================================================
 
 def manageLogging(logLevel, logfile = 'be4dbp.log'):
@@ -58,8 +56,8 @@ parser.add_argument("-p", "--proc", type=int, default=mp.cpu_count(), dest="nb_p
                     help="Number of processes used (%d by default)" % mp.cpu_count())
 parser.add_argument("-e","--empty", help="Request a SPARQL or a TPF endpoint to verify the query and test it returns at least one triple (%s by default)" % MODE_TE_TPF,
                 choices=[MODE_TE_SPARQL,MODE_TE_TPF],dest="doEmpty",default=MODE_TE_TPF)
-parser.add_argument("-ep","--endpoint", help="The endpoint requested for the '-e' ('--empty') option (for exemple '%s' for %s by default)" % (DEFAULT_TE_EP,MODE_TE_TPF),
-                dest="ep", default=DEFAULT_TE_EP)
+parser.add_argument("-ep","--endpoint", help="The endpoint requested for the '-e' ('--empty') option (for exemple '%s' for %s by default)" % (DEFAULT_TPF_EP,MODE_TE_TPF),
+                dest="ep", default=DEFAULT_TPF_EP)
 parser.add_argument("-to", "--timeout", type=int, default=60, dest="timeout",
                     help="Endpoint Time Out (%d by default)" % 60)
 args = parser.parse_args()
@@ -82,7 +80,7 @@ else:
         endpoint = TPFEP(cacheDir = current_dir+'/'+resourcesDir)
     else:
         endpoint = TPFEP(service = args.ep, cacheDir = current_dir+'/'+resourcesDir)
-    endpoint.setEngine('/Users/desmontils-e/Programmation/TPF/Client.js-master/bin/ldf-client')
+
 logging.info('Empty responses tests with %s' % endpoint)
 endpoint.caching(True)
 logging.info('Setting time out %s second(s)' % args.timeout)
