@@ -45,7 +45,6 @@ class Log:
         if len(ligne)==0:
             self.f.close()
             raise StopIteration
-            #return None
         else:
             self.nb_lines += 1
             return self.extract(self.pattern.match(ligne).groupdict())
@@ -92,14 +91,12 @@ class Log:
 if __name__ == '__main__':
     print('main de Log.py')
 
-    parser = argparse.ArgumentParser(description='Etude du ranking')
-    parser.add_argument('files', metavar='file', nargs='+',help='files to analyse')
+    parser = argparse.ArgumentParser(description='DBPedia log reading')
+    parser.add_argument('file', metavar='file', help='log to analyse')
     args = parser.parse_args()
 
-    file_set = args.files
-
-    for file in file_set:
-        log = Log(file)
-        for (query, date, param_list, ip) in log:
-            print(ip,query)
+    file = args.file
+    log = Log(file)
+    for (query, date, param_list, ip) in log:
+        print(ip,query)
 
