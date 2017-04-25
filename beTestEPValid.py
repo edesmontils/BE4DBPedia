@@ -52,39 +52,87 @@ reTimeout = re.compile(r'TimeoutExpired')
 
 #==================================================
 
+def testQuery(qr,endpoint, cacheTO):
+    """
+    test if the query has at least one response
+    """
+    try:
+        hq = endpoint.hash(qr)
+        if hq in cacheTO:
+            return (False, 'TO')
+        else:
+            (ok, wellFormed) = endpoint.notEmpty(qr)
+            if ok:
+                return (ok, 'NotEmpty')
+            elif wellFormed:
+                return (False, 'Empty')
+            else:
+                return (False,'QBF')
+    except Exception as e:
+        message = e.__str__()
+        if message.startswith('QueryBadFormed'):
+            return (False, 'QBF')
+        elif reTimeout.search(e.__str__()):
+            cacheTO.add(hq)
+            return (False, 'TO')
+        else:
+            return (False, 'autre')
+
+
 def test(endpoint, entry, stat,emptyTest, cacheTO):
     ide = entry.get('logline')
     query = entry.find('request').text
-    hq = endpoint.hash(query)
-    try:
-        if hq in cacheTO:
-            stat.stdput('to')
-            print('Another Timeout for',ide)
-            entry.set('valid','TO'+emptyTest)
-        else:            
-            (ok, wf) = endpoint.notEmpty(query)
-            if ok:
-                entry.set('valid',emptyTest)
-                stat.stdput('valid')
-                #print('OK for',ide)
-            elif wf:
-                #print('Empty for',ide)
-                entry.set('valid','Empty'+emptyTest)
-                stat.stdput('empty')
-            else:
-                #print('PB QBF for:',ide)
-                stat.stdput('bfq')
-                entry.set('valid','QBF'+emptyTest)
-    except Exception as e:
-        if reTimeout.search(e.__str__()):
-            stat.stdput('to')
-            print('Timeout for',ide)
-            entry.set('valid','TO'+emptyTest)
-            cacheTO.add(hq)
-        else:
-            print('PB error for:',ide)
-            print(e)
-            stat.stdput('other')
+    (ok, mss) = testQuery(query,endpoint,cacheTO)
+    if ok:
+        entry.set('valid',emptyTest)
+        stat.stdput('valid')
+    elif mss == 'Empty':
+        entry.set('valid','Empty'+emptyTest)
+        stat.stdput('empty')
+    elif mss == 'QBF':
+        stat.stdput('bfq')
+        entry.set('valid','QBF'+emptyTest)
+    elif mss == 'TO':
+        stat.stdput('to')
+        entry.set('valid','TO'+emptyTest)
+    else:
+        print('PB error for:',ide)
+        stat.stdput('other')
+
+
+# def test(endpoint, entry, stat,emptyTest, cacheTO):
+#     ide = entry.get('logline')
+#     query = entry.find('request').text
+#     hq = endpoint.hash(query)
+#     try:
+#         if hq in cacheTO:
+#             stat.stdput('to')
+#             print('Another Timeout for',ide)
+#             entry.set('valid','TO'+emptyTest)
+#         else:            
+#             (ok, wf) = endpoint.notEmpty(query)
+#             if ok:
+#                 entry.set('valid',emptyTest)
+#                 stat.stdput('valid')
+#                 #print('OK for',ide)
+#             elif wf:
+#                 #print('Empty for',ide)
+#                 entry.set('valid','Empty'+emptyTest)
+#                 stat.stdput('empty')
+#             else:
+#                 #print('PB QBF for:',ide)
+#                 stat.stdput('bfq')
+#                 entry.set('valid','QBF'+emptyTest)
+#     except Exception as e:
+#         if reTimeout.search(e.__str__()):
+#             stat.stdput('to')
+#             print('Timeout for',ide)
+#             entry.set('valid','TO'+emptyTest)
+#             cacheTO.add(hq)
+#         else:
+#             print('PB error for:',ide)
+#             print(e)
+#             stat.stdput('other')
 
 #==================================================
 

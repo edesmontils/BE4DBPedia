@@ -24,6 +24,7 @@ from QueryManager import *
 from Endpoint import *
 from Stat import *
 from operator import itemgetter
+from beTestEPValid import testQuery
 #from lxml import etree  # http://lxml.de/index.html#documentation
 
 #==================================================
@@ -86,7 +87,7 @@ def validate(cpt, line, ip, query, ctx):
                         cpt.inc('err_tpf')#err_tpf()
                         return (False, None, None, None)
                 if ctx.emptyTest is not None :
-                    (done, mss) = existDBPEDIA(line,n_query,ctx)
+                    (done, mss) = testQuery(ctx.QM.simplifyQuery(n_query),ctx.endpoint, ctx.cacheTO)
                     if not(done):
                         if mss=='Empty':
                             logging.debug('Empty Query (%d) : %s', line, query)
@@ -134,38 +135,6 @@ def validate(cpt, line, ip, query, ctx):
     else:
         #cpt.inc('autre')
         return (False, None, None, None)
-
-#==================================================
-reTimeout = re.compile(r'TimeoutExpired')
-def existDBPEDIA(line,query,ctx):
-    """
-    test if the query has at least one response
-    """
-    try:
-        qr = ctx.QM.simplifyQuery(query)
-        hq = ctx.endpoint.hash(qr)
-        if hq in ctx.cacheTO:
-            return (False, 'TO')
-        else:
-            (ok, wellFormed) = ctx.endpoint.notEmpty(qr)
-            if ok:
-                return (ok, 'NotEmpty')
-            elif wellFormed:
-                return (ok, 'Empty')
-            else:
-                return (False,'QBF')
-    except Exception as e:
-        message = e.__str__()
-        #print('Erreur existDBPEDIA:',line, message, query)
-        if message.startswith('QueryBadFormed'):
-            #logging.warning('PB Endpoint (QueryBadFormed):%s',e)
-            return (False, 'QBF')
-        elif reTimeout.search(e.__str__()):
-            ctx.cacheTO.add(hq)
-            return (False, 'TO')
-        else:
-            #logging.warning('PB Endpoint (autre):%s',e)
-            return (False, 'autre')
 
 #==================================================
 
