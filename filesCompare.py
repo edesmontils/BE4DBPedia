@@ -21,7 +21,7 @@ args = parser.parse_args()
 path = "precisionRecall/"+args.groundTruth
 head,tail = os.path.split(path)
 path = os.path.join("precisionRecall",tail)
-
+print(tail)
 if not os.path.exists(path): # if the directory does not exist
     os.mkdir(path) # make the directory
 else: # the directory exists
@@ -42,4 +42,4 @@ for file1, file2 in zip(sorted(file_names1),sorted(file_names2)):
 	if file1[:+32] == file2[:+32]:
 		print("Comparing ",file1," with ", file2)
 		result = compare(os.path.join(args.groundTruth,file1),os.path.join(args.deduction,file2))
-		write_result_csv(result,path,file1[:+33])
+		write_result_csv(result,path,file1[:+33]) #result has the precision/recall, tail is the date by hour (name of the directory), file1 is the IP
