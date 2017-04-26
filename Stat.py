@@ -117,21 +117,27 @@ class Stat:
             self.print()
 
     def saveCSV(self, file, sep='\t'):
-        saveCounterDict2CSV(file, self.counters, self.refTable, sep)
+        if self.stopped or self.backuped:
+            saveCounterDict2CSV(file, self.counters, self.refTable, sep)
+        else:
+            print('No Data To Save')
 
     def print(self):
-        nb = len(self.counters.keys())
-        for d in self.counters:
-            counter = self.counters[d]
-            if d != '' : print('----------- %s -------------' % d)
-            counter.print()
-        if nb > 1 :
-            print('=========== total (%d groups) =============' % nb)
-            self.total.print()
-        elif nb == 0:
-            print('Nothing to print')
+        if self.stopped or self.backuped:
+            nb = len(self.counters.keys())
+            for d in self.counters:
+                counter = self.counters[d]
+                if d != '' : print('----------- %s -------------' % d)
+                counter.print()
+            if nb > 1 :
+                print('=========== total (%d groups) =============' % nb)
+                self.total.print()
+            elif nb == 0:
+                print('Nothing to print')
+            else:
+                pass
         else:
-            pass
+            print('No Data To Print')
 
 #==================================================
 #==================================================
