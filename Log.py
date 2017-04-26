@@ -62,8 +62,7 @@ class Log:
             r'"(?P<code>.*)"',
             r'"(?P<agent>.*)"',  # user agent "%{User-agent}i"
         ]
-        pattern = re.compile(r'\s+'.join(parts) + r'\s*\Z')
-        return pattern
+        return re.compile(r'\s+'.join(parts) + r'\s*\Z')
 
     def extract(self,res):
         tt = time.strptime(res["time"][:-6], "%d/%b/%Y %H:%M:%S")
