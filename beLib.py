@@ -28,9 +28,6 @@ from beTestEPValid import testQuery
 #from lxml import etree  # http://lxml.de/index.html#documentation
 
 #==================================================
-STD_BE4DBP_REFTABLE = ['line','ok','emptyQuery','union','bgp_not_valid','err_qr','err_ns','err_tpf','err_endpoint','timeout']
-
-#==================================================
 
 def validate(date, line, ip, query, ctx):
     if ctx.QM.queryType(query) in [SELECT]:
