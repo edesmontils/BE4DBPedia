@@ -27,7 +27,7 @@ from beRanking import *
 
 #==================================================
 
-def compute(idp, tab_date, in_queue, stat, ctx):
+def compute(idp, tab_date, in_queue, ctx):
     logging.debug('(%d) Start compute worker "%s"' %(idp, os.getpid()) )
     while True:
         try:
@@ -39,7 +39,7 @@ def compute(idp, tab_date, in_queue, stat, ctx):
                 logging.debug('Treat mess in %s %s', os.getpid(), host)
                 if date != tab_date[idp]:
                     tab_date[idp] = date
-                (ok, nquery, bgp, qlt) = validate(ParallelCounter(stat,STD_BE4DBP_REFTABLE,date),line, host, query, ctx)
+                (ok, nquery, bgp, qlt) = validate(date,line, host, query, ctx)
                 logging.debug('Analyse "%s" pour %s', ok, host)
                 if ok:
                     s = buildXMLBGP(nquery, param_list, bgp, host, date, line, qlt)
@@ -68,8 +68,6 @@ file_set = dict()
 
 logging.info('Lancement des %d processus de traitement', ctx.nb_processes)
 
-stat = Stat(Counter,STD_BE4DBP_REFTABLE)
-
 manager = mp.Manager()
 tab_date = manager.dict()
 for i in range(ctx.nb_processes) :
@@ -77,7 +75,7 @@ for i in range(ctx.nb_processes) :
 compute_queue = mp.Queue(ctx.nb_processes * 6)
 process_list = [
     mp.Process(
-        target=compute, args=(i, tab_date, compute_queue, stat, ctx))
+        target=compute, args=(i, tab_date, compute_queue, ctx))
     for i in range(ctx.nb_processes)
 ]
 for process in process_list:
@@ -106,7 +104,6 @@ for (query, date, param_list, ip) in ctx.file():
         ctx.newDate(date)
         file_set[date] = set()
         rep = ctx.newDir(date)
-        cpt = ParallelCounter(stat,STD_BE4DBP_REFTABLE,date)
 
     if ctx.lines() % 1000 == 0:
         logging.info('%d line(s) viewed', ctx.lines())
@@ -127,7 +124,7 @@ for (query, date, param_list, ip) in ctx.file():
                                 ranking_queue.put(file)
                     file_set[d].clear()                  
 
-    cpt.inc('line')#line()
+    ctx.stat.put(date,'line')#line()
     if dateOk:  # and (ctx.lines() < 100):
         file = rep + ip + '-be4dbp.xml'
         compute_queue.put( (query, param_list, ip, file, date, ctx.lines()) )
@@ -139,8 +136,6 @@ for process in process_list:
     compute_queue.put(None)
 for process in process_list:
     process.join()
-
-stat.stop(True)
 
 logging.info('Terminaison des fichiers')
 for d in file_set:

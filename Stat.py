@@ -16,7 +16,7 @@ from queue import Empty
 import logging
 import time
 from Counter import *
-
+import csv
 #==================================================
 #==================================================
 #==================================================
@@ -27,8 +27,6 @@ def abs_count_stat(in_queue, out_queue, AbsCounterClass,refTable):
     while True:
         try:
             mess = in_queue.get()
-            # if mess is None:print('recieve: None')
-            # else: print('recieve:',mess, len(mess))
             if mess is None:
                 break
             elif len(mess) == 1:
@@ -62,6 +60,7 @@ def abs_count_stat(in_queue, out_queue, AbsCounterClass,refTable):
 
 class Stat:
     def __init__(self, AbsCounterClass, refTable):
+        self.refTable = refTable
         self.total = AbsCounterClass.build(refTable)
         self.counters = dict()
         self.groups = set()
@@ -69,6 +68,8 @@ class Stat:
         self.res_queue = mp.Queue()
         self.stat_proc = mp.Process(target=abs_count_stat, args=(self.stat_queue, self.res_queue, AbsCounterClass,refTable))
         self.stat_proc.start()
+        self.stopped = False
+        self.backuped = False
 
     def put(self, grp, v):
         self.groups.add(grp)
@@ -97,10 +98,12 @@ class Stat:
             c = self.get(d)
             if c is not None:
                 self.counters[d] = c
+        self.backuped = True
 
     def stop(self, print = False):
         self.stat_queue.put(None)
         self.stat_proc.join()
+        self.stopped = True
         nb = 0
         r = self.res_queue.get()
         while r is not None:
@@ -112,6 +115,9 @@ class Stat:
 
         if print and nb>0: 
             self.print()
+
+    def saveCSV(self, file, sep='\t'):
+        saveCounterDict2CSV(file, self.counters, self.refTable, sep)
 
     def print(self):
         nb = len(self.counters.keys())
@@ -139,13 +145,15 @@ if __name__ == '__main__':
 
     date = date2str(now())
 
-    stat.put( date,'ok') 
+    stat.put( '2017-04-22','ok') 
     # time.sleep(2)
-    counter = stat.get(date)
+    counter = stat.get('2017-04-22')
     counter.print()
     stat.backup()
-    stat.put( date,'union') 
+    stat.put( '2017-04-23','union') 
+    stat.put( '2017-04-23','union')
+    stat.put( '2017-04-23','ok')
     print('end')
     stat.stop(True)
-
+    stat.saveCSV('test.csv')
 

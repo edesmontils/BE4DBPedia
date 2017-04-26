@@ -12,6 +12,8 @@ Tools to manage statistics on processes
 from pprint import pprint
 from tools import *
 from collections import OrderedDict
+import csv
+
 #==================================================
 
 class Counter:
@@ -47,28 +49,14 @@ class Counter:
 
 #==================================================
 
-class ParallelCounter(Counter):
-
-    def build(refTable):
-        return ParallelCounter(refTable)
-
-    def __init__(self, stat, refTable, grp=''):
-        Counter.__init__(self,refTable)
-        self.stat = stat
-        self.grp = grp 
-
-    def inc(self, mess):
-        self.stat.put( self.grp, mess )
-        Counter.inc(self,mess)
-
-    def add(self, mess, qte):
-        self.stat.mput( self.grp, mess, qte)
-        Counter.add(self,mess, qte)
-
-    def print(self):
-        if (self.grp != ''):
-            print('=========== ', self.grp, '=============')
-        Counter.print(self)
+def saveCounterDict2CSV(file, counter_dict, refTable, sep='\t', keyName = 'grp'):
+    with open(file,"w", encoding='utf-8') as f:
+        fn=[keyName]+[w for w in refTable]
+        writer = csv.DictWriter(f,fieldnames=fn,delimiter=sep)
+        writer.writeheader()
+        for x in iter(counter_dict.keys()):
+            s = dict({(keyName,x)} | {v for v in counter_dict[x].cpt.items()})
+            writer.writerow(s)
 
 #==================================================
 #==================================================

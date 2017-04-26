@@ -28,13 +28,18 @@ from beTestEPValid import *
 from Log import *
 
 #==================================================
+STD_BE4DBP_REFTABLE = ['line','ok','emptyQuery','union','bgp_not_valid','err_qr','err_ns','err_tpf','err_endpoint','timeout']
+
+#==================================================
 
 class Context:
     def __init__(self,description):
         self.setArgs(description)
         self.args = self.parser.parse_args()
         self.startDate = date2str(now())
-        self.manageLogging(self.args.logLevel, 'be4dbp-'+date2filename(now())+'.log')
+        self.logname = 'be4dbp-'+date2filename(now())+'.log'
+        self.csvname = 'be4dbp-'+date2filename(now())+'.csv'
+        self.manageLogging(self.args.logLevel, self.logname)
 
         self.refDate = self.manageDT(self.args.refdate)
         self.current_dir = os.getcwd()
@@ -79,7 +84,7 @@ class Context:
 
         self.file_name = self.args.file
         self.log = Log(self.file_name)
-
+        self.stat = Stat(Counter,STD_BE4DBP_REFTABLE)
         self.nb_dates = 0
         self.date_set= set()
 
@@ -93,7 +98,10 @@ class Context:
         print('Nb date(s) : ', self.nbDates())
         if self.emptyTest is not None:
             self.endpoint.saveCache()
+        self.stat.stop(True)
+        self.stat.saveCSV(self.csvname)
         self.QM.printStats()
+        self.QM.saveStats(self.csvname[:-4])
         logging.info('End')
 
     def setArgs(self,exp):

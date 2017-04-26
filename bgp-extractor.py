@@ -22,10 +22,10 @@ from beRanking import *
 
 #==================================================
 
-def compute(cpt, line, file, date, host, query, param_list, rep, ctx):
-    (ok, nquery, bgp, qlt) = validate(cpt, line, host, query, ctx)
+def compute(line, file, date, host, query, param_list, rep, ctx):
+    (ok, nquery, bgp, qlt) = validate(date, line, host, query, ctx)
     if ok:
-        logging.debug('ok (%d) for %s' % (line, query))
+        logging.debug('ok (%d) for %s' % (line, nquery))
         entry = buildXMLBGP(nquery, param_list, bgp, host, date, line, qlt)
         if entry is not None:
             saveEntry(file, entry, host)
@@ -40,7 +40,6 @@ ctx = Context('BGP Extractor for DBPedia log.')
 
 logging.info('Initialisations')
 users = dict()
-cpt = dict()
 old_date = ''
 
 logging.info('Lancement du traitement')
@@ -55,19 +54,16 @@ for (query, date, param_list, ip) in ctx.file():
         users[date] = dict()
         old_date = date
         rep = ctx.newDir(date)
-        #cpt[date] = Counter(date)
-        cpt[date] = Counter(STD_BE4DBP_REFTABLE)
-        cur_cpt = cpt[date]
 
-    cur_cpt.inc('line')
+    ctx.stat.put(date,'line')
     if ctx.lines() % 1000 == 0:
-        logging.info('%d line(s) viewed (%d for the current date)', ctx.lines(), cur_cpt.get('line'))
+        logging.info('%d line(s) viewed', ctx.lines())
         ctx.save()
 
     if dateOk:
         file = rep + ip + '-be4dbp.xml'
         users[date][ip] = file
-        compute(cur_cpt, ctx.lines(), file, date, ip, query, param_list, rep, ctx)
+        compute(ctx.lines(), file, date, ip, query, param_list, rep, ctx)
 
 logging.info('Fermeture des fichiers')
 for d in users:
@@ -76,14 +72,6 @@ for d in users:
         if existFile(file):
             closeLog(file)
             if ctx.doRanking: 
-                rankAnalysis(file) 
-
-total = Counter(STD_BE4DBP_REFTABLE)
-for d in cpt:
-    total.join(cpt[d])
-    print('----------- %s -----------' % d)
-    cpt[d].print()
-print('=========== total =============')
-total.print()
+                rankAnalysis(file)
 
 ctx.close()

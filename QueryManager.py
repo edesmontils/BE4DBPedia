@@ -90,6 +90,10 @@ class QueryManager:
     print('BGP Stats')
     self.bgpStat.stop(True)
 
+  def saveStats(self, baseName):
+    self.typeStat.saveCSV(baseName+'-type.csv')
+    self.bgpStat.saveCSV(baseName+'-bgp.csv')
+
   def cleanCommentLines(self, query):
     return re.sub(self.comments_pattern, "\n" , query)
 
@@ -104,7 +108,7 @@ class QueryManager:
         self.typeStat.stdput (r_queryType)
         return r_queryType
     else :
-        logging.warning("unknown query type (%s) for query '%s'" % (r_queryType,query.replace("\n", " ")))
+        #logging.warning("unknown query type (%s) for query '%s'" % (r_queryType,query.replace("\n", " ")))
         self.typeStat.stdput ('None')
         return None # SELECT
 
