@@ -64,7 +64,7 @@ class QueryManager:
     self.modificationQueryTypes = [INSERT, DELETE, CREATE, CLEAR, DROP, LOAD, COPY, MOVE, ADD, INSERTDATA, DELETEDATA, DELETEWHERE]
     self.allowedQueryTypes = self.requestQueryTypes + self.modificationQueryTypes
 
-    self.typeStat = Stat(Counter, list(self.allowedQueryTypes + ['None']) )
+    self.typeStat = Stat(Counter, list(self.requestQueryTypes + ['Others', 'None']) )
     self.maxTP = 30
     self.bgpStat = Stat(Counter, [str(i) for i in range(self.maxTP+1)]+['more'] )
 
@@ -104,13 +104,16 @@ class QueryManager:
     except AttributeError:
       r_queryType = None
 
-    if r_queryType in self.allowedQueryTypes :
-        self.typeStat.stdput (r_queryType)
-        return r_queryType
+    if r_queryType in self.requestQueryTypes :
+      self.typeStat.stdput (r_queryType)
+      return r_queryType
+    elif r_queryType in self.allowedQueryTypes :
+      self.typeStat.stdput ('Others')
+      return r_queryType
     else :
-        #logging.warning("unknown query type (%s) for query '%s'" % (r_queryType,query.replace("\n", " ")))
-        self.typeStat.stdput ('None')
-        return None # SELECT
+      #logging.warning("unknown query type (%s) for query '%s'" % (r_queryType,query.replace("\n", " ")))
+      self.typeStat.stdput ('None')
+      return None # SELECT
 
   def isTPFCompatible(self, query):
     ok = True
