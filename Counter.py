@@ -55,7 +55,11 @@ def saveCounterDict2CSV(file, counter_dict, refTable, sep='\t', keyName = 'grp')
         writer = csv.DictWriter(f,fieldnames=fn,delimiter=sep)
         writer.writeheader()
         for x in iter(counter_dict.keys()):
-            s = dict({(keyName,x)} | {v for v in counter_dict[x].cpt.items()})
+            if x == '':
+                linename = '?'
+            else:
+                linename = x
+            s = dict({(keyName,linename)} | {v for v in counter_dict[x].cpt.items()})
             writer.writerow(s)
 
 #==================================================
