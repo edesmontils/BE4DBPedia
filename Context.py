@@ -91,6 +91,7 @@ class Context:
     def save(self):
         if self.emptyTest is not None:
             self.endpoint.saveCache()
+        self.stat.backup(self.csvname)
 
     def close(self):
         logging.info('Close "%s"' % self.file_name)

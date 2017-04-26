@@ -50,7 +50,6 @@ def abs_count_stat(in_queue, out_queue, AbsCounterClass,refTable):
         except Exception as e:
             print(e)
             break
-
     for d in counter_list:
         out_queue.put( (d, counter_list[d]) )
     out_queue.put(None)
@@ -70,6 +69,7 @@ class Stat:
         self.stat_proc.start()
         self.stopped = False
         self.backuped = False
+        self.sem = mp.Semaphore()
 
     def put(self, grp, v):
         self.groups.add(grp)
@@ -93,25 +93,32 @@ class Stat:
             return c
         else: return None
 
-    def backup(self):
-        for d in self.groups:
-            c = self.get(d)
-            if c is not None:
-                self.counters[d] = c
-        self.backuped = True
+    def backup(self, file = ''):
+        with self.sem :
+            for d in self.groups:
+                self.stat_queue.put( (d,) )
+            for d in self.groups:
+                r = self.res_queue.get()
+                if r is not None:
+                    (d,c) = r
+                    self.counters[d] = c
+            self.backuped = True
+        if file != '':
+            self.saveCSV(file)
 
     def stop(self, print = False):
-        self.stat_queue.put(None)
-        self.stat_proc.join()
-        self.stopped = True
-        nb = 0
-        r = self.res_queue.get()
-        while r is not None:
-            (d, c) = r
-            nb +=1
-            self.total.join(c)
-            self.counters[d] = c
+        with self.sem :
+            self.stat_queue.put(None)
+            self.stat_proc.join()
+            self.stopped = True
+            nb = 0
             r = self.res_queue.get()
+            while r is not None:
+                (d, c) = r
+                nb +=1
+                self.total.join(c)
+                self.counters[d] = c
+                r = self.res_queue.get()
 
         if print and nb>0: 
             self.print()
