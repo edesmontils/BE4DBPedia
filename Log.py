@@ -33,12 +33,9 @@ class Log:
         self.file_name = file_name
         self.pattern = self.makeLogPattern()
         if existFile(self.file_name):
-            logging.info('Open "%s"' % self.file_name)
             self.f = open(self.file_name, 'r')
         else :
-            logging.info('"%s" does\'nt exist' % self.file_name)
-            print('Can\'t open file %s' % self.file_name )
-            sys.exit()
+            raise LogException('Class Log : "%s" does\'nt exist' % file_name)
 
     def __iter__(self):
         return self

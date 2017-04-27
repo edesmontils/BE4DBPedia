@@ -25,7 +25,7 @@ from QueryManager import *
 from Endpoint import *
 from tools import *
 from beTestEPValid import *
-from Log import *
+from DBPediaLog import *
 
 #==================================================
 STD_BE4DBP_REFTABLE = ['line','ok','emptyQuery','union','bgp_not_valid','err_qr','err_ns','err_tpf','err_endpoint','timeout']
