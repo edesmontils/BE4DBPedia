@@ -1,7 +1,7 @@
 #!/usr/bin/env python3.6
 # coding: utf8
 """
-Class to process statrictics in a parallel context
+Class to process statistics in a parallel context
 """
 #    Copyright (C) 2017 by
 #    Emmanuel Desmontils <emmanuel.desmontils@univ-nantes.fr>

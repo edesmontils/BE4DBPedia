@@ -83,7 +83,7 @@ class Context:
             self.emptyTest = None
 
         self.file_name = self.args.file
-        self.log = Log(self.file_name)
+        self.log = DBPediaLog(self.file_name)
         self.stat = Stat(Counter,STD_BE4DBP_REFTABLE)
         self.nb_dates = 0
         self.date_set= set()

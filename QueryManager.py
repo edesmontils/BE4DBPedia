@@ -174,10 +174,12 @@ class QueryManager:
         except ValueError as e:
           raise BGPException(e.args)
 
+#==================================================
 class QueryManagerException(Exception):
   def __init__(self, args):
     Exception.__init__(self,args)
 
+#==================================================
 class BGPException(QueryManagerException):
   def __init__(self, args):
     QueryManagerException.__init__(self,args)
@@ -186,6 +188,7 @@ class BGPUnvalidException(BGPException):
   def __init__(self, args):
     BGPException.__init__(self,args)
 
+#==================================================
 class TranslateQueryException(QueryManagerException):
   def __init__(self, args):
     QueryManagerException.__init__(self,args)
@@ -198,6 +201,7 @@ class NSException(TranslateQueryException):
   def __init__(self, args):
     TranslateQueryException.__init__(self,args)
 
+#==================================================
 class ParseQueryException(QueryManagerException):
   def __init__(self, args):
     QueryManagerException.__init__(self,args)
