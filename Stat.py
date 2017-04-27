@@ -9,11 +9,8 @@ Class to process statistics in a parallel context
 #    All rights reserved.
 #    GPL v 2.0 license.
 
-from pprint import pprint
-
 import multiprocessing as mp
 from queue import Empty
-import logging
 import time
 from Counter import *
 import csv
@@ -22,7 +19,6 @@ import csv
 #==================================================
 
 def abs_count_stat(in_queue, out_queue, AbsCounterClass,refTable):
-    logging.debug('Start stat worker "%s"', os.getpid())
     counter_list = dict()
     while True:
         try:
@@ -46,14 +42,13 @@ def abs_count_stat(in_queue, out_queue, AbsCounterClass,refTable):
                     counter_list[grp] = AbsCounterClass.build(refTable)
                 counter_list[grp].add(c,qte)
         except Empty as e:
-            print('empty!')
+            pass #print('empty!')
         except Exception as e:
             print(e)
             break
     for d in counter_list:
         out_queue.put( (d, counter_list[d]) )
     out_queue.put(None)
-    logging.debug('Stop stat worker "%s"', os.getpid())
 
 #==================================================
 

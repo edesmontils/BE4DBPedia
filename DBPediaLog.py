@@ -10,8 +10,6 @@ Tools to manage the DBPedia log file
 #    GPL v 2.0 license.
 
 import sys
-#import os
-#import shutil
 
 import re
 import time
