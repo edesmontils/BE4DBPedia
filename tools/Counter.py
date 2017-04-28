@@ -10,7 +10,7 @@ Tools to manage statistics on processes
 #    GPL v 2.0 license.
 
 from pprint import pprint
-from tools import *
+from tools.tools import *
 from collections import OrderedDict
 import csv
 

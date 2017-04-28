@@ -14,11 +14,11 @@ import datetime
 from pprint import pprint
 import logging
 
-from bgp import *
-from beLib import *
-from Context import *
-from Counter import *
-from beRanking import *
+from lib.bgp import *
+from lib.beLib import *
+from lib.Context import *
+from tools.Counter import *
+from lib.beRanking import *
 
 #==================================================
 

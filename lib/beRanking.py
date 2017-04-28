@@ -14,7 +14,7 @@ from queue import Empty
 import os
 import logging
 
-from bgp import *
+from lib.bgp import *
 
 from operator import itemgetter
 from lxml import etree  # http://lxml.de/index.html#documentation

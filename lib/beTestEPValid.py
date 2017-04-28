@@ -19,10 +19,10 @@ import datetime as dt
 import logging
 import argparse
 
-from tools import *
+from tools.tools import *
 
-from Endpoint import *
-from Stat import *
+from tools.Endpoint import *
+from tools.Stat import *
 
 from lxml import etree  # http://lxml.de/index.html#documentation
 

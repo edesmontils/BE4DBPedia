@@ -17,8 +17,8 @@ from rdflib.plugins.sparql.sparql import SPARQLError
 from rdflib.plugins.sparql.algebra import translateQuery
 from rdflib.plugins.sparql.parser import parseQuery
 
-from bgp import *
-from Stat import *
+from lib.bgp import *
+from tools.Stat import *
 
 #==================================================
 

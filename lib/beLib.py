@@ -15,16 +15,17 @@ import re
 import time
 from urllib.parse import urlparse, parse_qsl
 
+from operator import itemgetter
+
 from rdflib.plugins.sparql.parser import parseQuery
 from rdflib.plugins.sparql.algebra import translateQuery
 
-from bgp import *
-from tools import *
-from QueryManager import *
-from Endpoint import *
-from Stat import *
-from operator import itemgetter
-from beTestEPValid import testQuery
+from lib.bgp import *
+from tools.tools import *
+from lib.QueryManager import *
+from tools.Endpoint import *
+from tools.Stat import *
+from lib.beTestEPValid import testQuery
 #from lxml import etree  # http://lxml.de/index.html#documentation
 
 #==================================================

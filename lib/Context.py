@@ -21,11 +21,11 @@ import shutil
 import logging
 import argparse
 
-from QueryManager import *
-from Endpoint import *
+from lib.QueryManager import *
+from tools.Endpoint import *
 from tools import *
-from beTestEPValid import *
-from DBPediaLog import *
+from lib.beTestEPValid import *
+from lib.DBPediaLog import *
 
 #==================================================
 STD_BE4DBP_REFTABLE = ['line','ok','emptyQuery','union','bgp_not_valid','err_qr','err_ns','err_tpf','err_endpoint','timeout']

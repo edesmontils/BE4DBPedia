@@ -19,11 +19,11 @@ from queue import Empty
 
 import logging
 
-from bgp import *
-from beLib import *
-from Stat import *
-from Context import *
-from beRanking import *
+from lib.bgp import *
+from lib.beLib import *
+from tools.Stat import *
+from lib.Context import *
+from lib.beRanking import *
 
 #==================================================
 

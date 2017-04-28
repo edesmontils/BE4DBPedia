@@ -12,7 +12,7 @@ Class to process statistics in a parallel context
 import multiprocessing as mp
 from queue import Empty
 import time
-from Counter import *
+from tools.Counter import *
 import csv
 #==================================================
 #==================================================
