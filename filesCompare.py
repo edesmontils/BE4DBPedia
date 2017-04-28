@@ -11,7 +11,7 @@ Calls the function compare() from bgpCompare.py to calculate the precision and r
 
 import os
 import argparse
-from bgpCompare import *
+from lib.bgpCompare import *
 
 parser = argparse.ArgumentParser()
 parser.add_argument("groundTruth", help="the ground truth directory with xml files WITHOUT THE LAST SLASH /")

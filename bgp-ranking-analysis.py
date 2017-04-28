@@ -9,7 +9,7 @@ Application to rank BGP according to frequency
 #    All rights reserved.
 #    GPL v 2.0 license.
 
-from beRanking import *
+from lib.beRanking import *
 
 import multiprocessing as mp
 
@@ -17,8 +17,9 @@ import datetime as dt
 
 import logging
 import argparse
-from tools import *
-from Stat import *
+
+from tools.tools import *
+from tools.Stat import *
 
 #==================================================
 

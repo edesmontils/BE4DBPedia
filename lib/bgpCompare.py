@@ -13,8 +13,11 @@ Both XML files should be conform to ranking.dtd.
 import rdflib
 from rdflib import Graph, Literal, BNode, Namespace, RDF, URIRef, Variable
 from rdflib.compare import to_canonical_graph, graph_diff
+
 import xml.etree.ElementTree as ET
-from bgp import *
+
+from lib.bgp import *
+
 import csv
 import os
 
