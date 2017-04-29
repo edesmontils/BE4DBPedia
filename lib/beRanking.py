@@ -94,7 +94,6 @@ def rankAnalysis(file, mode, stat):
     #print('Traitement de %s' % file)
     parser = etree.XMLParser(recover=True, strip_cdata=True)
     tree = etree.parse(file, parser)
-    stat.stdput('file')
     #---
     dtd = etree.DTD('./resources/log.dtd')
     assert dtd.validate(tree), '%s non valide au chargement : %s' % (
@@ -103,10 +102,13 @@ def rankAnalysis(file, mode, stat):
 
     ranking = []
     nbe = 0
+    date = ''
     for entry in tree.getroot():
         if entryOk(entry,mode):
             #print('entry ok')
             nbe += 1
+            if nbe == 1:
+                date = entry.get('datetime')
             ide = entry.get('logline')
             bgp = unSerializeBGP(entry.find('bgp'))
             cbgp = canonicalize_sparql_bgp(bgp)
@@ -117,14 +119,16 @@ def rankAnalysis(file, mode, stat):
     node_tree_ranking.set('ip', tree.getroot().get('ip'))
     rank = 0
     old_freq = 0;
+    stat.put(date,'file')
+    nb = 0
     for (i, (bgp, freq, query, lines)) in enumerate(ranking):
+        nb +=1
         if freq != old_freq:
-            stat.stdput('rank')
+            stat.put(date,'rank')
             rank += 1
             old_freq = freq
         f = freq / nbe
-        stat.stdput('entry-rank')
-        stat.stdmput('occurrences',freq)
+        stat.mput(date,'occurrences',freq)
         node_r = etree.SubElement(
             node_tree_ranking,
             'entry-rank',
@@ -139,6 +143,9 @@ def rankAnalysis(file, mode, stat):
         node_r.append(node_b)
         request_node = etree.SubElement(node_r, 'request')
         request_node.text = query
+    if nb > 200:
+        stat.put(date,'cut200')
+    stat.mput(date,'entry-rank',nb)
     try:
         file_ranking = file[:-4]+'-ranking.xml'
         logging.debug('Ecriture de "%s"', file_ranking)

@@ -50,12 +50,15 @@ parser.add_argument("-p", "--proc", type=int, default=mp.cpu_count(), dest="nb_p
 parser.add_argument("-t","--type", help="Request a SPARQL or a TPF endpoint to verify the query and test it returns at least one triple (%s by default)" % MODE_RA_NOTEMPTY,
                 choices=[MODE_RA_NOTEMPTY,MODE_RA_VALID,MODE_RA_WF, MODE_RA_ALL],dest="mode",default=MODE_RA_NOTEMPTY)
 args = parser.parse_args()
-manageLogging(args.logLevel, 'be4dbp-ranking-'+date2filename(now())+'.log')
+now = date2filename(now())
+logname = 'be4dbp-ranking-'+now+'.log'
+csvname = 'be4dbp-ranking-'+now+'.csv'
+manageLogging(args.logLevel, logname)
 
 file_set = args.files
 mode = args.mode
 nb_processes = args.nb_processes
-stat = Stat(Counter, ['file','rank','entry-rank','occurrences'] )
+stat = Stat(Counter, ['file','cut200','rank','entry-rank','occurrences'] )
 
 logging.info('Lancement des %d processus d\'analyse pour %s', nb_processes, mode)
 compute_queue = mp.Queue(nb_processes)
@@ -77,4 +80,5 @@ for process in process_list:
 for process in process_list:
     process.join()
 stat.stop(True)
+stat.saveCSV(csvname)
 logging.info('Fin')
