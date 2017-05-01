@@ -39,6 +39,8 @@ def validate(date, line, ip, query, ctx):
         else:
             try:
                 (bgp, n_query) = ctx.QM.extractBGP(query)
+                if (len(bgp) == 0):
+                    print('BGP vide (%d # %s # %s) : ' % (line, date, ip), n_query)
                 quality = dict()
                 if ctx.doTPFC and not(ctx.emptyTest == MODE_TE_TPF): 
                     if not(ctx.QM.isTPFCompatible(n_query)):

@@ -99,9 +99,9 @@ class Context:
         print('Nb date(s) : ', self.nbDates())
         if self.emptyTest is not None:
             self.endpoint.saveCache()
-        self.stat.stop(True)
+        self.stat.stop(print=True)
         self.stat.saveCSV(self.csvname)
-        self.QM.printStats()
+        self.QM.stop(print=True)
         self.QM.saveStats(self.csvname[:-4])
         logging.info('End')
 

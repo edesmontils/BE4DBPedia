@@ -47,10 +47,13 @@ class Log:
             raise StopIteration
         else:
             self.nb_lines += 1
-            return self.extract(self.pattern.match(ligne).groupdict())
+            if self.pattern is None :
+                return self.extract(ligne)
+            else:
+                return self.extract(self.pattern.match(ligne).groupdict())
 
     def makeLogPattern(self):
-        raise LogException('Class Log : "makeLogPattern" is not defined')
+        return None
 
     def extract(self,res):
         raise LogException('Class Log : "extract" is not defined')

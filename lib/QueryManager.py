@@ -43,7 +43,7 @@ DELETEWHERE = "DELETEWHERE"
 #==================================================
 
 class QueryManager:
-  def __init__(self, defaultPrefixes = None):
+  def __init__(self, defaultPrefixes = None, modeStat = True):
     self.comments_pattern = re.compile(r"(^|\n)\s*#.*?\n")
 
     self.typePattern = re.compile(r"""
@@ -64,9 +64,11 @@ class QueryManager:
     self.modificationQueryTypes = [INSERT, DELETE, CREATE, CLEAR, DROP, LOAD, COPY, MOVE, ADD, INSERTDATA, DELETEDATA, DELETEWHERE]
     self.allowedQueryTypes = self.requestQueryTypes + self.modificationQueryTypes
 
-    self.typeStat = Stat(Counter, list(self.requestQueryTypes + ['Others', 'None']) )
-    self.maxTP = 30
-    self.bgpStat = Stat(Counter, [str(i) for i in range(self.maxTP+1)]+['more'] )
+    if modeStat: 
+      self.typeStat = Stat(Counter, list(self.requestQueryTypes + ['Others', 'None']) )
+      self.maxTP = 30
+      self.bgpStat = Stat(Counter, [str(i) for i in range(self.maxTP+1)]+['more'] )
+    self.modeStat = modeStat
 
     if defaultPrefixes == None:
       self.defaultPrefixes = dict()
@@ -84,11 +86,17 @@ class QueryManager:
     else:
       self.defaultPrefixes = defaultPrefixes
 
+  def stop(self, print = False, save = False):
+    self.typeStat.stop()
+    self.bgpStat.stop()
+    if print: self.printStats()
+    if save: self.saveStats('QueryManagerStats')
+
   def printStats(self):
     print('Query Type Stats')
-    self.typeStat.stop(True)
+    self.typeStat.print()
     print('BGP Stats')
-    self.bgpStat.stop(True)
+    self.bgpStat.print()
 
   def saveStats(self, baseName):
     self.typeStat.saveCSV(baseName+'-type.csv')
@@ -105,14 +113,14 @@ class QueryManager:
       r_queryType = None
 
     if r_queryType in self.requestQueryTypes :
-      self.typeStat.stdput (r_queryType)
+      if self.modeStat: self.typeStat.stdput (r_queryType)
       return r_queryType
     elif r_queryType in self.allowedQueryTypes :
-      self.typeStat.stdput ('Others')
+      if self.modeStat: self.typeStat.stdput ('Others')
       return r_queryType
     else :
       #logging.warning("unknown query type (%s) for query '%s'" % (r_queryType,query.replace("\n", " ")))
-      self.typeStat.stdput ('None')
+      if self.modeStat: self.typeStat.stdput ('None')
       return None # SELECT
 
   def isTPFCompatible(self, query):
@@ -163,11 +171,14 @@ class QueryManager:
         try:
           BGPSet = getBGP(q)
           if valid(BGPSet):
-            l = len(BGPSet)
-            if l>self.maxTP:
-              self.bgpStat.stdput('more') 
+            if self.modeStat: 
+              l = len(BGPSet)
+              if l>self.maxTP:
+                self.bgpStat.stdput('more') 
+              else:
+                self.bgpStat.stdput(str(l))
             else:
-              self.bgpStat.stdput(str(l)) 
+              if len(BGPSet) ==0: parse('',q)
             return (BGPSet, query)
           else:
             raise BGPUnvalidException('BGP Not Valid')

@@ -12,12 +12,14 @@ Tools to manage BGP
 from pprint import pprint
 
 import rdflib
-from rdflib import Graph, Literal, BNode, Namespace, RDF, URIRef, Variable
+from rdflib import Literal, BNode, Namespace, RDF, URIRef, Variable
 from rdflib.plugins.sparql.parser import parseQuery
 from rdflib.plugins.sparql.algebra import translateQuery, pprintAlgebra
 from rdflib.compare import to_canonical_graph
 
 import networkx as nx
+import networkx.algorithms.isomorphism as iso
+
 import sys
 import xml.etree.ElementTree as ET
 
@@ -68,7 +70,7 @@ def canonicalize_sparql_bgp(gp):
 
     """
     #assert isinstance(gp, Iterable)
-    g = Graph()
+    g = rdflib.Graph()
     for t in gp:
         triple_bnode = BNode()
         s, p, o = [BNode(i) if isinstance(i, Variable) else i for i in t]
@@ -128,6 +130,8 @@ def _getBGP(tt, n):
     elif tt == 'triples':
         return n
     elif (n.name == 'BGP'):
+        # if n.triples == []: raise ValueError('Empty BGP')
+        # else: return n.triples
         return n.triples
     else:
         s = []
@@ -141,19 +145,15 @@ def treat(i):
         if rdflib.term._is_valid_uri(i):
             return i
         else:
-            # print(i)
             raise ValueError(i)
     else:
         return i
 
 
 def getBGP(n):
-    # return _getBGP('root',n)
     bgp = _getBGP('root', n)
     nbgp = []
-    # pprint(bgp)
     for (s, p, o) in bgp:
-        # print(s,p,o)
         nbgp.append((treat(s), treat(p), treat(o)))
     return nbgp
 
@@ -272,7 +272,6 @@ def count(q, bgp):
 
 #==================================================
 
-
 def valid(bgp):
     #---
     assert bgp is not None
@@ -286,29 +285,19 @@ def valid(bgp):
             break
     return ok
 
-
 #==================================================
 
-
 def nm(n1, n2):
+    #print(n1) ; print(n2)
     t1 = n1['type']
     t2 = n2['type']
-    if (isinstance(t1, URIRef) and isinstance(t2, URIRef)):
-        ok = t1 == t2
-    elif (isinstance(t1, Variable) and isinstance(t2, Variable)):
-        ok = True
-    elif (isinstance(t1, Literal) and isinstance(t2, Literal)):
-        ok = t1 == t2
-    else:
-        ok = False
+    ok = t1 == t2
     #print ('nm:',ok,'(',t1,'%%',t2,')')
     return ok
 
-
 #==================================================
 
-
-def em2(e1, e2):
+def em(e1, e2):
     ok = False
     for i in e1:
         t1 = e1[i]['prop']
@@ -319,11 +308,8 @@ def em2(e1, e2):
                 break
         if ok:
             break
-    #print ('em2:', ok)
-    #print ('\t',e1)
-    #print ('\t',e2)
+    #print ('em2:', ok) ; print ('\t',e1) ; print ('\t',e2)
     return ok
-
 
 #==================================================
 
@@ -334,7 +320,7 @@ def toRDFLibGraph(bgp):
     #---
     assert bgp is not None
     #---
-    g = Graph()
+    g = rdflib.Graph()
     for (s, p, o) in bgp:
         g.add((s, p, o))
     return g 
@@ -351,17 +337,36 @@ def BGPtoGraph(bgp):
     assert bgp is not None
     #---
     g = nx.MultiDiGraph()
-    for (s, p, o) in bgp:
-        if not (s in g):
-            g.add_node(s, type=s)
-        if not (o in g):
-            g.add_node(o, type=o)
-        if isinstance(p, Variable):
-            g.add_edge(s, o, prop='?Var')
-        else:
-            g.add_edge(s, o, prop=p.__str__())
+    for tp in bgp:
+        addTP(g,tp)
     return g
 
+def addTP(g,tp):
+    (s,p,o) = tp
+    addNode(g,s)
+    addNode(g,o)
+    addEdge(g,s,p,o)
+
+def toStr(i):
+    if isinstance(i,Variable):
+        return '?'+i.__str__()
+    elif isinstance(i,URIRef):
+        return 'URIRef@'+i.__str__()
+    else: return 'Lit:'+i.__str__().replace(' ','_')
+
+def addNode(g,n):
+    s = toStr(n)
+    if not (s in g):
+        if isinstance(n, Variable):
+            g.add_node(s, type='?Var')
+        else:
+            g.add_node(s, type=toStr(n))
+
+def addEdge(g,s,p,o):
+    if isinstance(p, Variable):
+        g.add_edge(toStr(s), toStr(o), prop='?Var')
+    else:
+        g.add_edge(toStr(s), toStr(o), prop=toStr(p) )
 
 #==================================================
 
@@ -370,13 +375,162 @@ def equals(g1, g2):
     #---
     assert isinstance(g1, nx.Graph) and isinstance(g2, nx.Graph)
     #---
-    return nx.isomorphism.GraphMatcher(
-        g1, g2, node_match=nm, edge_match=em2).is_isomorphic()
+    return nx.isomorphism.GraphMatcher(g1, g2, 
+        #node_match=nm, 
+        node_match=iso.categorical_node_match('type', ''),
+        #edge_match=em
+        edge_match=iso.categorical_multiedge_match('prop','')
+        ).is_isomorphic()
+
+# Ne fonctionne pas. Déposé un ticket sur le projet NetworkX 
+# car j'ai des doutes sur le bon fonctionnement de "subgraph_is_isomorphic"
+# voir le code en bas.
+# A suivre...
+def isSubGraphOf(g1, g2):
+    #---
+    assert isinstance(g1, nx.Graph) and isinstance(g2, nx.Graph)
+    #---
+    GM = nx.isomorphism.GraphMatcher(g2, g1, 
+                                     #node_match=nm,
+                                     node_match=iso.categorical_node_match('type', ''), 
+                                     #edge_match=em
+                                     edge_match=iso.categorical_multiedge_match('prop','type')
+                                     )
+    if GM.subgraph_is_isomorphic(): return GM.mapping
+    else: return None
+
+
 
 
 #==================================================
 #==================================================
 #==================================================
+
+
+def inGraph(tpSet, Gref):
+    g = nx.MultiDiGraph()
+    for tp in tpSet: addTP(g,tp)
+    return isSubGraphOf(g,Gref)
+
+def max (un, deux):
+  (p1, r1, s1) = un
+  (p2, r2, s2) = deux
+  if p2*r2 > p1*r1: return deux
+  else: return un
+
+def calcPrecisionRecall(BGPref, BGPtst):
+  Gref = BGPtoGraph(BGPref)
+  ref = len(BGPref)
+  tst = len(BGPtst)  
+  s = dict()
+  m = (0,0,{})
+  s[0] = []
+  ltp = set()
+  for tp in BGPtst:
+    if inGraph({tp}, Gref) :
+      ltp.add(tp)
+      common = (1/tst, 1/ref, {tp})
+      m = max(m, common)
+      s[0].append( common )
+  pprint(s[0])
+  for l in range(1,len(ltp)):
+    s[l] = []
+    for tp in ltp:
+      for (p,r,x) in s[l-1] :
+        if tp not in x:
+          ns = x.copy()
+          ns.add(tp)
+          if inGraph(ns, Gref):
+            cm = len(ns)
+            common = (cm/tst, cm/ref,ns)
+            m = max(m, common)
+            if common not in s[l]: s[l].append( common )
+    print('pour ',l)
+    pprint(s[l])
+  return m
+
+def isSGO(g1, g2):
+    GM = nx.isomorphism.GraphMatcher(g2, g1 ,
+                                     #node_match=nm2,
+                                     #node_match=iso.categorical_node_match('type', ''), 
+                                     #edge_match=em2,
+                                     edge_match=iso.categorical_multiedge_match('prop','type')
+                                     )
+    if GM.subgraph_is_isomorphic(): return GM.mapping
+    else: return None
+
+#from lib.QueryManager import *
 
 if __name__ == "__main__":
     print("main")
+
+    g6 = nx.MultiDiGraph()
+    g6.add_edges_from([ (1,2,dict(prop='type')), 
+                        (1,3,dict(prop='manage')),
+                        #(1,4,dict(prop='manage')),
+                        (1,3,dict(prop='knows')),
+                        (3,2,dict(prop='type')),
+                        (4,2,dict(prop='type'))  
+                      ])
+    print('g6')
+    for e in g6.edges(data=True):
+        pprint(e)
+
+    g7 = nx.MultiDiGraph()
+    g7.add_edges_from([ (5,6,dict(prop='type')), 
+                        (5,7,dict(prop='knows')),
+                        (7,6,dict(prop='type')),
+                        (8,6,dict(prop='type')),
+                        (9,6,dict(prop='type')),
+                        (5,10,dict(prop='bP'))  
+                      ])
+    print('g7')
+    for e in g7.edges(data=True):
+        pprint(e)
+
+    map = isSGO(g6,g7)
+    if map is not None: print('g6 in g7 : ', map)
+    else: print('g6 not in g7') 
+    # ne répond pas bien avec : (1,3,dict(prop='manage')) -> g6 in g7 :  {5: 1, 6: 2, 7: 3, 8: 4}
+    # mais bonne réponse si remplacé par : (1,4,dict(prop='manage')) -> g6 not in g7
+
+    map = isSGO(g7,g6)
+    if map is not None: print('g7 in g6 : ', map)
+    else: print('g7 not in g6')
+
+    query4 = """
+    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+    PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+    PREFIX ex: <http://exemple.org/ex#>
+    select *
+    where {?p1 rdf:type foaf:Person .
+           ?p2 rdf:type foaf:Person .
+           ?p1 foaf:knows ?p2 .
+           ?p3 rdf:type foaf:Person .
+
+           ?p1 ex:manage ?p2 . 
+           #?p1 ex:manage ?p3 . 
+           }
+    """
+    query5 = """
+    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+    PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+    PREFIX dbp: <http://fr.dbpedia.org/resource/>
+    PREFIX dbo: <http://dbpedia.org/ontology/>
+    select *
+    where {?person1 rdf:type foaf:Person .
+           ?person2 rdf:type foaf:Person .
+           ?person1 foaf:knows ?person2 .
+           ?person3 rdf:type foaf:Person .
+
+           ?person4 rdf:type foaf:Person .
+           ?person1 dbo:birthPlace dbp:Paris
+           }
+    """
+    
+    # qm = QueryManager(modeStat = False)
+    # (BGPSet4, _) = qm.extractBGP(query4)
+    # (BGPSet5, _) = qm.extractBGP(query5)
+    # print(calcPrecisionRecall(BGPSet4,BGPSet5))
+
+
