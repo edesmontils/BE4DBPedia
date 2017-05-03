@@ -19,14 +19,14 @@ recall DECIMAL(6,5)
 );"
 
 # Precision table should be empty to avoid having duplicates.
-# /usr/local/mysql/bin/mysql -u root -porion mydb -e "delete from precisionRecall";
+# /usr/local/mysql/bin/mysql -u root -ptoto mydb -e "delete from precisionRecall";
 # echo "Table traces has been emptied"
 
 # All precisionRecall.csv files are loaded into the precision table.
-for file in *precisionRecall.csv
+for file in ../analysis/precisionRecall/*/*precisionRecall.csv
 do
 	echo "Loading file $file ..."
-	/usr/local/mysql/bin/mysql -u root -porion mydb -e "
+	/usr/local/mysql/bin/mysql -u root -ptoto mydb -e "
       LOAD DATA LOCAL INFILE '$file'
       INTO TABLE precisionRecall 
       FIELDS TERMINATED BY ';' 

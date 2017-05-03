@@ -18,10 +18,13 @@ parser.add_argument("groundTruth", help="the ground truth directory with xml fil
 parser.add_argument("deduction", help="the deduction directory with xml files WITHOUT THE LAST SLASH /")
 args = parser.parse_args()
 
-path = "precisionRecall/"+args.groundTruth
+# path = "precisionRecall/"+args.groundTruth
+path = args.groundTruth
 head,tail = os.path.split(path)
-path = os.path.join("precisionRecall",tail)
-print(tail)
+print('head :', head)
+print('tail :', tail)
+path = os.path.join("../","analysis","precisionRecall",tail)
+print('path :',path)
 if not os.path.exists(path): # if the directory does not exist
     os.mkdir(path) # make the directory
 else: # the directory exists
