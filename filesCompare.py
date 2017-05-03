@@ -38,8 +38,10 @@ included_extensions=['ranking.xml']
 file_names1 = [fn for fn in sorted(os.listdir(args.groundTruth)) if any(fn.endswith(ext) for ext in included_extensions)]
 file_names2 = [fn for fn in sorted(os.listdir(args.deduction)) if any(fn.endswith(ext) for ext in included_extensions)]
 
-for file1, file2 in zip(sorted(file_names1),sorted(file_names2)):
-	if file1[:+32] == file2[:+32]:
-		print("Comparing ",file1," with ", file2)
-		result = compare(os.path.join(args.groundTruth,file1),os.path.join(args.deduction,file2))
-		write_result_csv(result,path,file1[:+33]) #result has the precision/recall, tail is the date by hour (name of the directory), file1 is the IP
+for file1 in file_names1:
+	for file2 in file_names2:
+		if file1[:+33] == file2[:+33]:
+			print("Comparing ",file1," with ", file2)
+			result = compare(os.path.join(args.groundTruth,file1),os.path.join(args.deduction,file2))
+			write_result_csv(result,path,file1[:+33]) #result has the precision/recall, tail is the date by hour (name of the directory), file1 is the IP
+			exit
