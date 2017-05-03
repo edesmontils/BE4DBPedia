@@ -159,6 +159,15 @@ def getBGP(n):
 
 #==================================================
 
+def serialize2string(i):
+    if isinstance(i, Variable):
+        return i.__str__()
+    elif isinstance(i, URIRef):
+        return '<' + i.__str__() + '>'
+    elif isinstance(i, Literal):
+        return '"'+i.__str__() + '"'
+    else:
+        return i.__str__()
 
 def serialize2str(name, i):
     if isinstance(i, Variable):
@@ -194,7 +203,6 @@ def serialize(name, i):
 
 #==================================================
 
-
 def serializeBGP2str(bgp):
     """
     from rdflib -> string
@@ -204,10 +212,7 @@ def serializeBGP2str(bgp):
     #---
     ser = '<bgp>\n'
     for (s, p, o) in bgp:
-        ser += '<tp>' + serialize2str('s',
-                                      s) + serialize2str('p',
-                                                         p) + serialize2str('o',
-                                                                            o) + '</tp>\n'
+        ser += '<tp>' + serialize2str('s', s) + serialize2str('p', p) + serialize2str('o', o) + '</tp>\n'
     ser += '</bgp>\n'
     return ser
 
