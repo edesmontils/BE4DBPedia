@@ -51,6 +51,15 @@ def pprint_dict(d):
         print('\t',str(t).ljust(length),'=',d[t])
 
 #==================================================
+INVALID_URI_CHARS = '<>" {}|\\^`'
+# ispired from the _is_valid_uri(uri) function from rdflib.term lib : 
+# http://rdflib.readthedocs.io/en/stable/_modules/rdflib/term.html#URIRef
+def isValidURI(uri):
+    for c in INVALID_URI_CHARS:
+        if c in uri: return False
+    return True
+
+#==================================================
 #==================================================
 #==================================================
 

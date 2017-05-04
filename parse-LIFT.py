@@ -31,34 +31,34 @@ class LiftLog(Log):
 		s10 = State(10) ; s11 = State(11) ; s12 = State(12)
 		s13 = State(13) ; s14 = State(14) ; s15 = FinalState(15); s16 = State(16)
 		self.FSM = FSM(
-			{"Deduced BGPs", "Single LDFs", " ", "Deduced LDF_", "received @[dbpediaLDF]", "BGP", "#", "S"},
-			{s1, s2, s3, s4, s5, s6, s7,s8, s9, s10, s11, s12, s13, s14, s15,s16},
-			s1, 
-			{s15}, 
-			{Transition("Deduced BGPs",s1,s2), 
-			 Transition(" ",s2,s16), Transition("BGP",s16,s3), Transition(" ",s16,s16),
-			 Transition("Deduced BGPs",s16,s7), # pb source 2969
-			 Transition("Deduced LDF_",s3,s4), 
-			 Transition(" ",s3,s6), # PB source 2773...
-			 Transition("received @[dbpediaLDF]",s4,s5),
-			 Transition("Deduced LDF_",s5,s4),
-			 Transition("Deduced BGPs",s5,s7,action=LiftLog.finBGP), #PB source 2914
-			 Transition("BGP",s5,s3,action=LiftLog.finBGP), Transition(" ",s5,s6,action=LiftLog.finBGP),
-			 Transition("Deduced BGPs",s6,s7),Transition(" ",s6,s6),
-			 Transition(" ",s7,s8),
-			 Transition("#",s8,s9),Transition(" ",s8,s8),
-			 Transition("#",s9,s10),
-			 Transition(" ",s10,s11),
-			 Transition("Single LDFs",s11,s12), Transition(" ",s11,s11),
-			 Transition(" ",s12,s13),
-			 Transition("Deduced LDF_",s13,s14),#,action=LiftLog.newSingleTP), 
-			 Transition(" ",s13,s13),
-			 Transition("received @[dbpediaLDF]",s14,s13), Transition("Single LDFs", s13,s15),
-			 Transition("S",s15,s15),
-			 Transition(" ",s15,s15),
-			 Transition("Deduced BGPs",s15,s2)
-			  },
-			 self.ctx
+				{"Deduced BGPs", "Single LDFs", " ", "Deduced LDF_", "received @[dbpediaLDF]", "BGP", "#", "S"},
+				{s1, s2, s3, s4, s5, s6, s7,s8, s9, s10, s11, s12, s13, s14, s15,s16},
+				s1, 
+				{s15}, 
+				{Transition("Deduced BGPs",s1,s2), 
+				 Transition(" ",s2,s16), Transition("BGP",s16,s3), Transition(" ",s16,s16),
+				 Transition("Deduced BGPs",s16,s7), # pb source 2969
+				 Transition("Deduced LDF_",s3,s4), 
+				 Transition(" ",s3,s6), # PB source 2773...
+				 Transition("received @[dbpediaLDF]",s4,s5),
+				 Transition("Deduced LDF_",s5,s4),
+				 Transition("Deduced BGPs",s5,s7,action=LiftLog.finBGP), #PB source 2914
+				 Transition("BGP",s5,s3,action=LiftLog.finBGP), Transition(" ",s5,s6,action=LiftLog.finBGP),
+				 Transition("Deduced BGPs",s6,s7),Transition(" ",s6,s6),
+				 Transition(" ",s7,s8),
+				 Transition("#",s8,s9),Transition(" ",s8,s8),
+				 Transition("#",s9,s10),
+				 Transition(" ",s10,s11),
+				 Transition("Single LDFs",s11,s12), Transition(" ",s11,s11),
+				 Transition(" ",s12,s13),
+				 Transition("Deduced LDF_",s13,s14,action=LiftLog.newSingleTP), 
+				 Transition(" ",s13,s13),
+				 Transition("received @[dbpediaLDF]",s14,s13), Transition("Single LDFs", s13,s15),
+				 Transition("S",s15,s15), # gestion de PB dans une source
+				 Transition(" ",s15,s15),
+				 Transition("Deduced BGPs",s15,s2)
+				},
+				self.ctx
 			)
 
 	def end(self):
@@ -124,75 +124,124 @@ class LiftLog(Log):
 			ctx.saveBGP()
 		return True		
 
-	reTP = re.compile(r'\A(?P<s>\S+)\s+(?P<p>\S+)\s+(?P<o>.+)\Z')
 	reINJECTED = re.compile(r'\AINJECTED(?P<type>\w+)\(LDF_(?P<nm>\d+)\)\Z')
-	reLiteral = re.compile(r'\A(?P<str>".*"\^\^)(?P<iri>http.*)\Z')
+	reVariable = re.compile(r'\A\?\S+\Z')
+	reLiteral1 = re.compile(r'\A"(?P<str>.*)"\^\^\<?(?P<iri>http.*)\>?\s*\Z')
+	reLiteral2 = re.compile(r'\A"(?P<str>.*)"\@(?P<lang>\w+)\s*\Z')
+	reLiteral3 = re.compile(r'\A"(?P<str>.*)"\s*\Z')
+
+	def xxx(x,nm):
+		#re.sub('\x22','"',x)
+		#if r'\x22' in i: print('**********',i,'->',x)
+		if x.startswith('http://'): # An URI !
+			if isValidURI(x): return '<'+x+'>' 
+			else: return '<http://'+quote(x[7:])+'>' 
+		elif x.startswith('<') and x.endswith('>'): 
+			if isValidURI(x): return x
+			else: return '<'+quote(x[1:-1])+'>'
+
+		else: # variables ?
+			m = LiftLog.reINJECTED.search(x)
+			if m:
+				if m.group('type') == 'obj': return '?o_'+m.group('nm')
+				else: return '?s_'+m.group('nm')
+			else:
+				if x=='?s': return '?s_'+str(nm)
+				elif x=='?o': return '?o_'+str(nm)
+				elif x=='?p': return '?p_'+str(nm)
+				elif LiftLog.reVariable.search(x): return x
+
+				else: # Literals ?
+					if not(x.startswith('"')) : 
+						#print('rafistolage:',x)
+						x1 = '"'+x #A cause d'erreurs de typ 'null ..."@en'
+						#print(x)
+					else: x1 = x
+					m = LiftLog.reLiteral1.search(x1)
+					if m:
+						lit = m.group('str')
+						iri = m.group('iri')
+						return '"'+re.sub('"','\'',lit)+'"^^<'+iri+'>'
+					else:
+						m = LiftLog.reLiteral2.search(x1)
+						if m:
+							lit = m.group('str')
+							lang = m.group('lang')
+							return '"'+re.sub('"','\'',lit)+'"@'+lang
+						else:
+							m = LiftLog.reLiteral3.search(x1)
+							if m: 
+								lit = m.group('str')
+								return '"'+re.sub('"','\'',lit)+'"'
+							else:
+								if not(x1.endswith('"')):
+									try:
+										l = Literal(x1+'"')
+										x2 = x1+'"'
+									except Exception as e:
+										x2='"'+quote(x1[1:])+'"'
+								else: x2 = x1
+								x2 = re.sub('\A\s*("")','"', x2)
+								x2 = re.sub('("")\s*\Z','"', x2)
+								print("Erreur TP : %s -> %s" % (x,x2))
+								return x2
+
+	reTP = re.compile(r'\A(?P<s>\S+)\s+(?P<p>\S+)\s+(?P<o>.+)\Z')
+	reTPpo = re.compile(r'\A(?P<s>.+)\s+(?P<p>\?p)\s+(?P<o>\?o)\s*\Z')
+	reTPso = re.compile(r'\A(?P<s>\?s)\s+(?P<p>.+)\s+(?P<o>\?o)\s*\Z')
+	reTPsp = re.compile(r'\A(?P<s>\?s)\s+(?P<p>\?p)\s+(?P<o>.+)\s*\Z')
+	reTPs = re.compile(r'\A(?P<s>\?s)\s+(?P<p>\S+)\s+(?P<o>.+)\s*\Z')
+	reTPp = re.compile(r'\A(?P<s>.+)\s+(?P<p>\?p)\s+(?P<o>.+)\s*\Z')
+	reTPo = re.compile(r'\A(?P<s>.+)\s+(?P<p>\S+)\s+(?P<o>.+)\s*\Z')
 
 	def manageTP(tp,nm):
 		#if 'null' in tp: print(tp)
-		triplet = [] #tp.split(' ')
-		m = LiftLog.reTP.search(tp)
+		cdc = ''
+		if ' ?p ' in tp and ' ?o' in tp: 
+			m = LiftLog.reTPpo.search(tp)
+		elif '?s ' in tp and ' ?p ' in tp:
+			m = LiftLog.reTPsp.search(tp)
+		elif '?s ' in tp and ' ?o' in tp:
+			m = LiftLog.reTPso.search(tp)
+		elif '?s ' in tp :
+			m = LiftLog.reTPs.search(tp)
+		elif ' ?p ' in tp :
+			m = LiftLog.reTPp.search(tp)
+		elif ' ?o' in tp :
+			m = LiftLog.reTPo.search(tp)
+		else: m = LiftLog.reTP.search(tp)
 		try:
 			if m: 
-				triplet.append(m.group('s'))
-				triplet.append(m.group('p'))
-				triplet.append(m.group('o'))			# tout ce qui commence par http => IRI !!!
+				s = m.group('s')
+				p = m.group('p')
+				o = m.group('o')
 			else: 
+				print('pb:',tp)
 				if '?s ' in tp: # on gère les cas où seulement des couples et pas des triplets
-					tp += ' ?o'
+					tp2 = tp +' ?o'
 				elif ' ?o' in tp:
-					tp = '?s '+tp
+					tp2 = '?s '+tp
 				else: raise Exception("Erreur TP pas triplet")
-				m = LiftLog.reTP.search(tp)
+				m = LiftLog.reTP.search(tp2)
 				if m: 
-					triplet.append(m.group('s'))
-					triplet.append(m.group('p'))
-					triplet.append(m.group('o'))
+					s = m.group('s')
+					p = m.group('p')
+					o = m.group('o')
 				else: raise Exception("Erreur TP pas triplet")
-			#print('ok:',triplet)
-			s = ''
-			for x in triplet:
-				if x.startswith('http://'): s += ' <'+x+'> ' #'<http://'+quote(x[7:])+'> '
-				else:
-					m = LiftLog.reINJECTED.search(x)
-					if m: 
-						if m.group('type') == 'obj': s+= '?o_'+m.group('nm')+' '
-						else: s+= '?s_'+m.group('nm')+' '
-					else:
-						if x=='?s': s += '?s_'+str(nm)+' '
-						elif x=='?o': s += '?o_'+str(nm)+' '
-						elif x=='?p': s += '?p_'+str(nm)+' '
-						else: 
-							m = LiftLog.reLiteral.search(x)
-							if m: 
-								x = m.group('str')+'<'+m.group('iri')+'>'
-								s += x
-							else:
-								if x.startswith('?') or x.startswith('<') or x.startswith('"'):
-									s += x
-								else:
-									if x.startswith("null"):
-										print("Erreur TP : %s" % x)
-										x = '"TPError:'+quote(x)+'"'
-										print(x)
-										s += x
-										# raise Exception("Erreur TP : %s" % x)
-									else: 
-										x = '"'+x+'"'
-										s += x
-							
-			s += '.'
-			#print('au final:',s)
+			cdc = LiftLog.xxx(s,nm)+' '+LiftLog.xxx(p,nm)+' '+LiftLog.xxx(o,nm)+' .'
 			g = rl.Graph()
-			g.parse(data=s,format="turtle")
+			g.parse(data=cdc.encode('utf8'),format="turtle")
 			bgp = [ (s,p,o) for (s,p,o) in g]
 			newTP = bgp[0]
 			(s,p,o) = newTP
+			#print('tp:',tp) ; print('cdc:',cdc)
 			if isValidTP(s,p,o): return newTP
 			else: return None
 		except Exception as e:
-			print('Exception de syntaxe sur le triplet !', tp)
-			print(e)
+			print('Exception de syntaxe sur le triplet !')
+			print('tp:',tp)
+			print('cdc:',cdc)
+			print('error:',e)
 			#sys.exit()
 			return None
 

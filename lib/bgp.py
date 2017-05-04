@@ -257,7 +257,6 @@ def unSerialize(i):
     else:
         return BNode(i.attrib['val'])
 
-
 def unSerializeBGP(bgp):
     """
     from lxml -> rdflib
