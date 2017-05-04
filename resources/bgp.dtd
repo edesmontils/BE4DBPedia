@@ -4,8 +4,10 @@
 <!ELEMENT tp (s,p,o)>
 <!ELEMENT s (#PCDATA)>
 <!ATTLIST s 
-	type (iri|var|bnode) #REQUIRED
-	val CDATA #IMPLIED >
+	type (iri|lit|var|bnode) #REQUIRED
+	val CDATA #IMPLIED
+	datatype CDATA #IMPLIED 
+	language CDATA #IMPLIED  >
 <!ELEMENT p (#PCDATA)>
 <!ATTLIST p 
 	type (iri|var|bnode) #REQUIRED

@@ -58,7 +58,7 @@ manageLogging(args.logLevel, logname)
 file_set = args.files
 mode = args.mode
 nb_processes = args.nb_processes
-stat = Stat(Counter, ['file','cut200','rank','entry-rank','occurrences'] )
+stat = Stat(Counter, ['file','cut'+str(MODE_CUTE),'rank','entry-rank','occurrences'] )
 
 logging.info('Lancement des %d processus d\'analyse pour %s', nb_processes, mode)
 compute_queue = mp.Queue(nb_processes)

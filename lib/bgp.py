@@ -166,10 +166,10 @@ def serialize2string(i):
     elif isinstance(i, URIRef):
         return '<' + i.__str__() + '>'
     elif isinstance(i, Literal):
-        # if i._language: return '"'+i.__str__() + '"@'+i._language
-        # elif i._datatype: return '"'+i.__str__() + '"^^'+i._datatype
-        # else: 
-        return '"'+i.__str__() + '"'
+        if i._language: return '"'+i.__str__() + '"@'+i._language
+        elif i._datatype: return '"'+i.__str__() + '"^^'+i._datatype
+        else: 
+            return '"'+i.__str__() + '"'
     else:
         return i.__str__()
 
@@ -249,8 +249,10 @@ def unSerialize(i):
     elif i.attrib['type'] == 'iri':
         return URIRef(i.attrib['val'])  # quote(i.attrib['val']) )
     elif i.attrib['type'] == 'lit':
-        if i.get('language'): return Literal(i.text, language=i.get('language'))
-        elif i.get('datatype'): return Literal(i.text, language=i.get('datatype'))
+        if 'language' in i.attrib : 
+            lang = i.attrib['language']
+            return Literal(i.text, lang=lang)
+        elif 'datatype' in i.attrib : return Literal(i.text, datatype=i.attrib['datatype'])
         else: return Literal(i.text)
     else:
         return BNode(i.attrib['val'])
@@ -286,15 +288,29 @@ def count(q, bgp):
 
 #==================================================
 
+def isValidSubject(s):
+    return (isinstance(s,Variable) or isinstance(s,URIRef) or isinstance(s,BNode) or isinstance(s,Literal))
+
+def isValidPredicate(p):
+    return (isinstance(p,Variable) or isinstance(p,URIRef) or isinstance(p,BNode))
+
+def isValidObject(o) :
+    return (isinstance(o,Variable) or isinstance(o,URIRef) or isinstance(o,BNode) or isinstance(o,Literal))
+
+def isValidTP(s,p,o):
+    return isValidSubject(s) and isValidPredicate(p) and isValidObject(o)
+
 def valid(bgp):
     #---
     assert bgp is not None
     #---
     ok = True
     for (s, p, o) in bgp:
-        ok = (isinstance(s,Variable) or isinstance(s,URIRef) or isinstance(s,BNode)) \
-         and (isinstance(o,Variable) or isinstance(o,URIRef) or isinstance(o,BNode) or isinstance(o,Literal)) \
-         and ((isinstance(p,Variable) and (count(p,bgp) == 1)) or isinstance(p,URIRef) or isinstance(p,BNode))
+        ok = isValidTP(s,p,o)
+        if ok and isinstance(p,Variable) : ok = (count(p,bgp) == 1)
+        # ok = (isinstance(s,Variable) or isinstance(s,URIRef) or isinstance(s,BNode)) \
+        #  and (isinstance(o,Variable) or isinstance(o,URIRef) or isinstance(o,BNode) or isinstance(o,Literal)) \
+        #  and ((isinstance(p,Variable) and (count(p,bgp) == 1)) or isinstance(p,URIRef) or isinstance(p,BNode))
         if not (ok):
             break
     return ok

@@ -51,10 +51,13 @@ class LiftLog(Log):
 			 Transition(" ",s10,s11),
 			 Transition("Single LDFs",s11,s12), Transition(" ",s11,s11),
 			 Transition(" ",s12,s13),
-			 Transition("Deduced LDF_",s13,s14), Transition(" ",s13,s13),
+			 Transition("Deduced LDF_",s13,s14),#,action=LiftLog.newSingleTP), 
+			 Transition(" ",s13,s13),
 			 Transition("received @[dbpediaLDF]",s14,s13), Transition("Single LDFs", s13,s15),
 			 Transition("S",s15,s15),
-			 Transition(" ",s15,s15) },
+			 Transition(" ",s15,s15),
+			 Transition("Deduced BGPs",s15,s2)
+			  },
 			 self.ctx
 			)
 
@@ -109,12 +112,17 @@ class LiftLog(Log):
 	def newTP(ctx, symbol, msg):
 		(nm, tp) = msg
 		ntp = LiftLog.manageTP(tp,nm)
-		ctx.addTP(ntp)
+		if ntp is not None: ctx.addTP(ntp)
 		return True
 
-	def newTP2(ctx, symbol, msg):
+	def newSingleTP(ctx, symbol, msg):
 		(nm, tp) = msg
-		return LiftLog.manageTP(tp,nm)	
+		ctx.newBGP(nm)
+		ntp = LiftLog.manageTP(tp,nm)
+		if ntp is not None:
+			ctx.addTP(ntp)
+			ctx.saveBGP()
+		return True		
 
 	reTP = re.compile(r'\A(?P<s>\S+)\s+(?P<p>\S+)\s+(?P<o>.+)\Z')
 	reINJECTED = re.compile(r'\AINJECTED(?P<type>\w+)\(LDF_(?P<nm>\d+)\)\Z')
@@ -141,7 +149,7 @@ class LiftLog(Log):
 					triplet.append(m.group('p'))
 					triplet.append(m.group('o'))
 				else: raise Exception("Erreur TP pas triplet")
-			# print('ok')
+			#print('ok:',triplet)
 			s = ''
 			for x in triplet:
 				if x.startswith('http://'): s += ' <'+x+'> ' #'<http://'+quote(x[7:])+'> '
@@ -178,8 +186,10 @@ class LiftLog(Log):
 			g = rl.Graph()
 			g.parse(data=s,format="turtle")
 			bgp = [ (s,p,o) for (s,p,o) in g]
-			#if '@' in tp: print('a new TP',msg, bgp)
-			return bgp[0]
+			newTP = bgp[0]
+			(s,p,o) = newTP
+			if isValidTP(s,p,o): return newTP
+			else: return None
 		except Exception as e:
 			print('Exception de syntaxe sur le triplet !', tp)
 			print(e)
@@ -231,7 +241,7 @@ class CTX:
 	def saveBGP(self):
 		#print('saveBGP',self.bgp)
 		self.nb += 1
-		s = self.buildXMLBGP(self.bgp, "host", "date", self.nb)
+		s = self.buildXMLBGP(self.bgp, "%s" % self.no_bgp, "date", self.nb)
 		self.root_log.append(s)
 
 	def buildXMLBGP(self, bgp, host, date, line):

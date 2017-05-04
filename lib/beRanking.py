@@ -25,6 +25,7 @@ MODE_RA_NOTEMPTY = 'NotEmpty'
 MODE_RA_VALID = 'Valid'
 MODE_RA_WF = 'WellFormed'
 MODE_RA_ALL = 'All'
+MODE_CUTE = 200
 
 #==================================================
 
@@ -105,7 +106,6 @@ def rankAnalysis(file, mode, stat):
     date = ''
     for entry in tree.getroot():
         if entryOk(entry,mode):
-            #print('entry ok')
             nbe += 1
             if nbe == 1:
                 date = entry.get('datetime')
@@ -115,6 +115,8 @@ def rankAnalysis(file, mode, stat):
             query = entry.find('request').text
             addBGP2Rank(cbgp, query, ide, ranking)
     ranking.sort(key=itemgetter(1), reverse=True)
+
+    print('Ranking Generation')
     node_tree_ranking = etree.Element('ranking')
     node_tree_ranking.set('ip', tree.getroot().get('ip'))
     rank = 0
@@ -143,8 +145,8 @@ def rankAnalysis(file, mode, stat):
         node_r.append(node_b)
         request_node = etree.SubElement(node_r, 'request')
         request_node.text = query
-    if nb > 200:
-        stat.put(date,'cut200')
+    if nb > MODE_CUTE:
+        stat.put(date,'cut'+str(MODE_CUTE))
     stat.mput(date,'entry-rank',nb)
     try:
         file_ranking = file[:-4]+'-ranking.xml'
