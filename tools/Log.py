@@ -43,6 +43,7 @@ class Log:
     def __next__(self):
         ligne = self.f.readline()
         if len(ligne)==0:
+            self.end()
             self.f.close()
             raise StopIteration
         else:
@@ -57,6 +58,9 @@ class Log:
 
     def extract(self,res):
         raise LogException('Class Log : "extract" is not defined')
+
+    def end(self):
+        pass
 
 #==================================================
 #==================================================

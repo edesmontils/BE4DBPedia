@@ -16,6 +16,7 @@ from rdflib import Literal, BNode, Namespace, RDF, URIRef, Variable
 from rdflib.plugins.sparql.parser import parseQuery
 from rdflib.plugins.sparql.algebra import translateQuery, pprintAlgebra
 from rdflib.compare import to_canonical_graph
+from rdflib.namespace import XSD
 
 import networkx as nx
 import networkx.algorithms.isomorphism as iso
@@ -165,6 +166,9 @@ def serialize2string(i):
     elif isinstance(i, URIRef):
         return '<' + i.__str__() + '>'
     elif isinstance(i, Literal):
+        # if i._language: return '"'+i.__str__() + '"@'+i._language
+        # elif i._datatype: return '"'+i.__str__() + '"^^'+i._datatype
+        # else: 
         return '"'+i.__str__() + '"'
     else:
         return i.__str__()
@@ -173,13 +177,14 @@ def serialize2str(name, i):
     if isinstance(i, Variable):
         return '<' + name + ' type="var" val="' + i.__str__() + '"/>'
     elif isinstance(i, URIRef):
-        # return '<' + name + ' type="iri" val="' + i.__str__().replace(
-        #     '&', '&amp;') + '"/>'
-        return '<' + name + ' type="iri" val="' + i.__str__().replace(
-            '&', '&amp;') + '"/>'
+        # return '<' + name + ' type="iri" val="' + i.__str__().replace('&', '&amp;') + '"/>'
+        return '<' + name + ' type="iri" val="' + i.__str__().replace('&', '&amp;') + '"/>'
     elif isinstance(i, Literal):
-        return '<' + name + ' type="lit"><![CDATA[' + i.__str__(
-        ) + ']]></' + name + '>'
+        s = '<' + name + ' type="lit"'
+        if i._language: s += ' language="'+i._language+'"'
+        elif i._datatype: s += ' datatype="'+i._datatype+'"'
+        s += '><![CDATA[' + i.__str__() + ']]></' + name + '>'
+        return s
     else:
         return '<' + name + ' type="bnode" val="' + i.__str__() + '"/>'
 
@@ -196,6 +201,8 @@ def serialize(name, i):
     elif isinstance(i, Literal):
         node.set('type', 'lit')
         node.text = i.__str__()  # '<![CDATA[' + i.__str__() + ']]>'
+        if i._language: node.set('language',i._language)
+        elif i._datatype: node.set('datatype',i._datatype)
     else:
         node.set('type', 'bnode')
         node.set('val', i.__str__())
@@ -242,7 +249,9 @@ def unSerialize(i):
     elif i.attrib['type'] == 'iri':
         return URIRef(i.attrib['val'])  # quote(i.attrib['val']) )
     elif i.attrib['type'] == 'lit':
-        return Literal(i.text)
+        if i.get('language'): return Literal(i.text, language=i.get('language'))
+        elif i.get('datatype'): return Literal(i.text, language=i.get('datatype'))
+        else: return Literal(i.text)
     else:
         return BNode(i.attrib['val'])
 
