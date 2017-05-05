@@ -21,12 +21,10 @@ class ProcessSet:
 		self.func = func
 		self.args = args
 		self.compute_queue = mp.Queue(2*nb_processes)
-		self.process_list = [
-		    mp.Process(target=ProcessSet.compute2, args=(i, self.compute_queue, func, *args))
-		    for i in range(nb_processes)
-		]
 		self.isStarted = False
 		self.stat = None
+		self.process_list = []
+		self.setStat(None)
 
 	def setStat(self,stat):
 		if not(self.isStarted) and stat is not None:
@@ -90,22 +88,62 @@ class ProcessSet:
 		else: raise Exception("Processes are stoped !")
 
 
+class ProcessSetBack(ProcessSet):
+	def __init__(self, nb_processes, func, *args):
+		self.back_queue = mp.Queue()
+		ProcessSet.__init__(self, nb_processes, func, *args)
+
+	def setStat(self,stat):
+		if not(self.isStarted) and stat is not None:
+			self.stat = stat
+			self.process_list = [
+			    mp.Process(target=ProcessSetBack.compute3, args=(i, self.compute_queue, self.back_queue, stat, self.func, *self.args))
+			    for i in range(self.nb_processes)
+			]
+		elif stat is not None: 
+			raise Exception("(setStat function) Processes are started !")
+		else: 
+			self.stat = None
+			self.process_list = [
+			    mp.Process(target=ProcessSetBack.compute4, args=(i, self.compute_queue, self.back_queue, self.func, *self.args))
+			    for i in range(self.nb_processes)
+			]
+
+	def compute3(idp, in_queue, out_queue, stat, func, *args):
+	    while True:
+	        try:
+	            mess = in_queue.get()
+	            if mess is None: break
+	            else: 
+	            	v = func(idp, mess, stat, *args)
+	            	out_queue.put(v)
+	        except Empty as e:
+	            print('empty!')
+	        except Exception as e:
+	            print(mess, e)
+	            break
+	    out_queue.put(None)
+
+	def compute4(idp, in_queue, out_queue, func, *args):
+	    while True:
+	        try:
+	            mess = in_queue.get()
+	            if mess is None: break
+	            else: 
+	            	v = func(idp, mess, *args)
+	            	out_queue.put(v)
+	        except Empty as e:
+	            print('empty!')
+	        except Exception as e:
+	            print(mess, e)
+	            break
+	    out_queue.put(None)
+
+	def get(self):
+		if self.isStarted: return self.back_queue.get_nowait()
+		else: raise Exception("Processes are stoped !")
+
 if __name__ == "__main__":
 	print("main ProcessSet")
-	def f(idp, mess, i, j):
-		print("mess ", mess,i,j)
-		print(mess, 'treated')
-		print('by')
-
-	ps = ProcessSet(3, f, 2, 3)
-	ps.start()
-	for k in range(1,10): ps.put(k)
-	ps.stop()
-
-  
-
-
-
-
 
 
