@@ -32,5 +32,11 @@ do
 		show WARNINGS"
 done
 
-# This query gives the average of precision and recall by date_, user (ip), and by query.
-mysql -u <user_name> -p<password> database_name -e "SELECT AVG(precision_), AVG(recall) FROM (SELECT date_,ip,MAX(preci) precision_, MAX(recall) recall FROM precisionRecall GROUP BY date_,ip,bgp_dbp) x;"
+# This query gives the average of precision by date_, user (ip), and by query.
+mysql -u root -porion mydb -e "SELECT AVG(precision_) FROM (SELECT date_,ip,MAX(preci) precision_ FROM precisionRecall GROUP BY date_,ip,bgp_dbp) x;"
+
+# This query gives the average of recall by date_, user (ip), and by query.
+mysql -u root -porion mydb -e "SELECT AVG(recall) FROM (SELECT date_,ip, MAX(recall) recall FROM precisionRecall GROUP BY date_,ip,bgp_dbp) x;"
+
+# This query gives the average between the precision and recall by date_, user (ip), and by query.
+mysql -u root -porion mydb -e "SELECT AVG(quality) FROM (SELECT date_,ip, MAX((preci+recall)/2) quality FROM precisionRecall GROUP BY date_,ip,bgp_dbp) x;"
