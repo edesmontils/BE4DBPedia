@@ -20,6 +20,7 @@ import argparse
 
 from tools.tools import *
 from tools.Stat import *
+from tools.ProcessSet import *
 
 #==================================================
 
@@ -57,28 +58,34 @@ manageLogging(args.logLevel, logname)
 
 file_set = args.files
 mode = args.mode
-nb_processes = args.nb_processes
-stat = Stat(Counter, ['file','cut'+str(MODE_CUTE),'rank','entry-rank','occurrences'] )
 
-logging.info('Lancement des %d processus d\'analyse pour %s', nb_processes, mode)
-compute_queue = mp.Queue(nb_processes)
-process_list = [
-    mp.Process(target=analyse, args=(compute_queue, mode, stat))
-    for _ in range(nb_processes)
-]
-for process in process_list:
-    process.start()
+
+# nb_processes = args.nb_processes
+
+stat = Stat(Counter, ['file','cut'+str(MODE_CUTE),'rank','entry-rank','occurrences'] )
+ps = ProcessSet(args.nb_processes, stat, rankAnalysis ,mode)
+
+# logging.info('Lancement des %d processus d\'analyse pour %s', nb_processes, mode)
+# compute_queue = mp.Queue(nb_processes)
+# process_list = [
+#     mp.Process(target=analyse, args=(compute_queue, mode, stat))
+#     for _ in range(nb_processes)
+# ]
+# for process in process_list:
+#     process.start()
 
 for file in file_set:
     if existFile(file):
         logging.debug('Analyse de "%s"', file)
-        compute_queue.put(file)
+        ps.put(file)
+        #compute_queue.put(file)
 
 logging.info('Arrêt des processus d' 'analyse')
-for process in process_list:
-    compute_queue.put(None)
-for process in process_list:
-    process.join()
+ps.stop()
+# for process in process_list:
+#     compute_queue.put(None)
+# for process in process_list:
+#     process.join()
 stat.stop(True)
 stat.saveCSV(csvname)
 logging.info('Fin')

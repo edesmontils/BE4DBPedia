@@ -29,22 +29,22 @@ MODE_CUTE = 200
 
 #==================================================
 
-def analyse(in_queue, mode, stat):
-    logging.debug('Start analyse worker "%s"', os.getpid())
-    while True:
-        try:
-            mess = in_queue.get()
-            if mess is None:
-                break
-            else:
-                logging.debug('Treat mess in %s %s', os.getpid(), mess)
-                rankAnalysis(mess, mode, stat)
-        except Empty as e:
-            print('empty!')
-        except Exception as e:
-            print(mess, e)
-            break
-    logging.debug('Stop analyse worker "%s"', os.getpid())
+# def analyse(in_queue, mode, stat):
+#     logging.debug('Start analyse worker "%s"', os.getpid())
+#     while True:
+#         try:
+#             mess = in_queue.get()
+#             if mess is None:
+#                 break
+#             else:
+#                 logging.debug('Treat mess in %s %s', os.getpid(), mess)
+#                 rankAnalysis(mess, stat, mode)
+#         except Empty as e:
+#             print('empty!')
+#         except Exception as e:
+#             print(mess, e)
+#             break
+#     logging.debug('Stop analyse worker "%s"', os.getpid())
 
 #==================================================
 
@@ -90,7 +90,7 @@ def entryOk(entry, mode):
 
 #==================================================
 
-def rankAnalysis(file, mode, stat):
+def rankAnalysis(file, stat, mode):
     logging.debug('rankAnalysis for %s' % file)
     #print('Traitement de %s' % file)
     parser = etree.XMLParser(recover=True, strip_cdata=True)
