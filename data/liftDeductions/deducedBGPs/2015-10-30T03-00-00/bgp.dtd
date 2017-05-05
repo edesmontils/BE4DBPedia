@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT bgp (tp*)>
+<!ELEMENT tp (s,p,o)>
+<!ELEMENT s (#PCDATA)>
+<!ATTLIST s 
+	type (iri|lit|var|bnode) #REQUIRED
+	val CDATA #IMPLIED
+	datatype CDATA #IMPLIED 
+	language CDATA #IMPLIED  >
+<!ELEMENT p (#PCDATA)>
+<!ATTLIST p 
+	type (iri|var|bnode) #REQUIRED
+	val CDATA #IMPLIED >
+<!ELEMENT o (#PCDATA)>
+<!ATTLIST o 
+	type (iri|lit|var|bnode) #REQUIRED
+	val CDATA #IMPLIED
+	datatype CDATA #IMPLIED 
+	language CDATA #IMPLIED >

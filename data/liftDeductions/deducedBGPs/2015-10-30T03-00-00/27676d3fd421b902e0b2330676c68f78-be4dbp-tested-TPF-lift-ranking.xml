@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ranking SYSTEM "ranking.dtd">
+<ranking ip="27676d3fd421b902e0b2330676c68f78-be4dbp-tested-TPF-ranking">
+  <entry-rank frequence="0.500" lines="1" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="var" val="cb824e064b74b9af5fc4656df6af263c357066d63acb49cbec50f82612d3ee6bc8"/>
+        <p type="var" val="cbdcc785165c6e04760c5808e9dbff50098e1843e7b2bb8421032a0e40735d99d1"/>
+        <o type="var" val="cb3747e4a8cd6c1ecfaa5f3e4c7b3d2ac1751aa8b1e1fc0c2703a2dd0777b4ac1b"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ ?s1 ?p1 ?o1 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.500" lines="2" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Dead"/>
+        <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Dead&gt; &lt;http://www.w3.org/2000/01/rdf-schema#label&gt; ?o2 .}</request>
+  </entry-rank>
+</ranking>

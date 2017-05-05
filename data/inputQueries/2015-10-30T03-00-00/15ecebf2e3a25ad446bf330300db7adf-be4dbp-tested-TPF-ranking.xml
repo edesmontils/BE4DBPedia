@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ranking SYSTEM "ranking.dtd">
+<ranking ip="15ecebf2e3a25ad446bf330300db7adf">
+  <entry-rank frequence="1.000" lines="3282" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/DEAD"/>
+        <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request> 
+            PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+            PREFIX dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;
+            PREFIX dbpedia: &lt;http://dbpedia.org/resource/&gt;
+            SELECT ?s
+            WHERE { &lt;http://dbpedia.org/resource/DEAD&gt; rdfs:label ?s FILTER langMatches(lang(?s), 'en') } LIMIT 1
+         </request>
+  </entry-rank>
+</ranking>

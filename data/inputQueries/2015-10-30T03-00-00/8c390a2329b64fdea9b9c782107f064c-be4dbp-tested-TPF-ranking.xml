@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ranking SYSTEM "ranking.dtd">
+<ranking ip="8c390a2329b64fdea9b9c782107f064c">
+  <entry-rank frequence="0.273" lines="2528 4714 944" nb-occurrences="3" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Lithuania"/>
+        <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Lithuania&gt; &lt;http://www.w3.org/2000/01/rdf-schema#comment&gt; ?v . } </request>
+  </entry-rank>
+  <entry-rank frequence="0.182" lines="5302 2346" nb-occurrences="2" rank="2">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Gibraltar"/>
+        <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Gibraltar&gt; &lt;http://www.w3.org/2000/01/rdf-schema#comment&gt; ?v . } </request>
+  </entry-rank>
+  <entry-rank frequence="0.182" lines="6414 5686" nb-occurrences="2" rank="2">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Jamaica"/>
+        <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Jamaica&gt; &lt;http://www.w3.org/2000/01/rdf-schema#comment&gt; ?v . } </request>
+  </entry-rank>
+  <entry-rank frequence="0.091" lines="564" nb-occurrences="1" rank="3">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Connecticut"/>
+        <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Connecticut&gt; &lt;http://www.w3.org/2000/01/rdf-schema#comment&gt; ?v . } </request>
+  </entry-rank>
+  <entry-rank frequence="0.091" lines="1617" nb-occurrences="1" rank="3">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Mozambique"/>
+        <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Mozambique&gt; &lt;http://www.w3.org/2000/01/rdf-schema#comment&gt; ?v . } </request>
+  </entry-rank>
+  <entry-rank frequence="0.091" lines="3965" nb-occurrences="1" rank="3">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Namibia"/>
+        <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Namibia&gt; &lt;http://www.w3.org/2000/01/rdf-schema#comment&gt; ?v . } </request>
+  </entry-rank>
+  <entry-rank frequence="0.091" lines="6010" nb-occurrences="1" rank="3">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Nepal"/>
+        <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Nepal&gt; &lt;http://www.w3.org/2000/01/rdf-schema#comment&gt; ?v . } </request>
+  </entry-rank>
+</ranking>

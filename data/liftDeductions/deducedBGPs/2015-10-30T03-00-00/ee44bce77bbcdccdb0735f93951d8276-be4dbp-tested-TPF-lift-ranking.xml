@@ -1,0 +1,2404 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ranking SYSTEM "ranking.dtd">
+<ranking ip="ee44bce77bbcdccdb0735f93951d8276-be4dbp-tested-TPF-ranking">
+  <entry-rank frequence="0.004" lines="1" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="var" val="cb824e064b74b9af5fc4656df6af263c357066d63acb49cbec50f82612d3ee6bc8"/>
+        <p type="var" val="cbdcc785165c6e04760c5808e9dbff50098e1843e7b2bb8421032a0e40735d99d1"/>
+        <o type="var" val="cb3747e4a8cd6c1ecfaa5f3e4c7b3d2ac1751aa8b1e1fc0c2703a2dd0777b4ac1b"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ ?s1 ?p1 ?o1 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="2" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/The_Real_Slim_Shady"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/The_Real_Slim_Shady&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o2 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="3" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Maroon_5"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Maroon_5&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o3 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="4" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Manatsu_no_Sounds_Good!"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Manatsu_no_Sounds_Good!&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o4 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="5" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Bonamana_(song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Bonamana_(song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o5 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="6" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Bump_Bump!"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Bump_Bump!&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o6 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="7" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/50_Cent"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/50_Cent&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o7 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="8" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Furusato_(Morning_Musume_song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Furusato_(Morning_Musume_song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o8 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="9" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Elvis_Presley"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Elvis_Presley&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o9 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="10" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Winter_Love"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Winter_Love&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o10 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="11" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Tentai_Kansoku"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Tentai_Kansoku&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o11 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="12" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Lotus_(Arashi_song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Lotus_(Arashi_song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o12 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="13" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Bob_Dylan"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Bob_Dylan&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o13 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="14" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/F(x)_(band)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/F(x)_(band)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o14 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="15" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Katy_Perry"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Katy_Perry&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o15 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="16" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Gone_Too_Soon"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Gone_Too_Soon&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o16 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="17" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Midnight_Rambler"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Midnight_Rambler&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o17 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="18" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Bye_Bye_Happy_Days!"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Bye_Bye_Happy_Days!&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o18 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="19" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Will_You_Be_There"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Will_You_Be_There&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o19 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="20" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Human_Nature_(Michael_Jackson_song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Human_Nature_(Michael_Jackson_song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o20 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="21" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Namida_Surprise!"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Namida_Surprise!&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o21 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="22" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Bad_(Michael_Jackson_song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Bad_(Michael_Jackson_song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o22 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="23" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Mockingbird_(Eminem_song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Mockingbird_(Eminem_song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o23 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="24" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/9nine"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/9nine&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o24 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="25" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Icona_Pop"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Icona_Pop&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o25 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="26" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/My_Love_(Justin_Timberlake_song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/My_Love_(Justin_Timberlake_song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o26 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="27" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Linkin_Park"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Linkin_Park&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o27 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="28" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/How_Deep_Is_Your_Love"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/How_Deep_Is_Your_Love&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o28 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="29" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Aoi_Bench"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Aoi_Bench&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o29 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="30" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/One_More_Night_(Maroon_5_song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/One_More_Night_(Maroon_5_song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o30 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="31" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/You_Never_Give_Me_Your_Money"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/You_Never_Give_Me_Your_Money&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o31 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="32" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Back_When_I_Knew_It_All_(song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Back_When_I_Knew_It_All_(song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o32 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="33" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Justin_Timberlake"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Justin_Timberlake&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o33 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="34" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/When_I'm_Gone_(Eminem_song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/When_I'm_Gone_(Eminem_song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o34 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="35" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Fly_Me_to_the_Moon"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Fly_Me_to_the_Moon&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o35 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="36" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/So_What'cha_Want"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/So_What'cha_Want&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o36 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="37" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Futari_no_Rocket"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Futari_no_Rocket&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o37 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="38" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/I_Love_It_(Icona_Pop_song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/I_Love_It_(Icona_Pop_song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o38 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="39" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Dirty_Diana"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Dirty_Diana&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o39 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="40" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/I_Am_the_Best"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/I_Am_the_Best&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o40 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="41" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Mean_Mr._Mustard"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Mean_Mr._Mustard&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o41 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="42" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Stay_(Rihanna_song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Stay_(Rihanna_song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o42 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="43" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Sunday_Morning_(Maroon_5_song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Sunday_Morning_(Maroon_5_song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o43 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="44" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Maji_Desu_ka_Ska!"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Maji_Desu_ka_Ska!&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o44 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="45" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Speed_(Montgomery_Gentry_song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Speed_(Montgomery_Gentry_song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o45 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="46" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Firework_(song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Firework_(song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o46 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="47" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Daft_Punk"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Daft_Punk&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o47 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="48" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Radiohead"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Radiohead&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o48 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="49" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Kanye_West"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Kanye_West&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o49 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="50" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Ayo_Technology"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Ayo_Technology&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o50 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="51" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Body_Movin'"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Body_Movin'&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o51 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="52" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/She_Don't_Tell_Me_To"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/She_Don't_Tell_Me_To&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o52 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="53" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/I_Got_a_Boy_(song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/I_Got_a_Boy_(song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o53 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="54" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Michael_Jackson"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Michael_Jackson&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o54 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="55" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/I_Love_You_(2NE1_song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/I_Love_You_(2NE1_song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o55 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="56" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/The_Rolling_Stones"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/The_Rolling_Stones&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o56 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="57" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Outlaw_Man"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Outlaw_Man&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o57 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="58" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Teenage_Dream_(Katy_Perry_song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Teenage_Dream_(Katy_Perry_song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o58 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="59" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Gee_(Girls'_Generation_song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Gee_(Girls'_Generation_song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o59 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="60" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Heavy_Rotation_(song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Heavy_Rotation_(song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o60 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="61" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Seo_Taiji_and_Boys"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Seo_Taiji_and_Boys&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o61 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="62" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Harder,_Better,_Faster,_Stronger"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Harder,_Better,_Faster,_Stronger&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o62 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="63" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Bravo_Bravo_(song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Bravo_Bravo_(song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o63 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="64" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Oide_Shampoo"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Oide_Shampoo&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o64 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="65" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/As_Long_as_You_Love_Me_(Backstreet_Boys_song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/As_Long_as_You_Love_Me_(Backstreet_Boys_song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o65 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="66" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Ma_Boy"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Ma_Boy&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o66 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="67" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Won't_Go_Home_Without_You"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Won't_Go_Home_Without_You&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o67 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="68" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Kimi_no_Uchi_ni_Tsuku_made_Zutto_Hashitte_Yuku"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Kimi_no_Uchi_ni_Tsuku_made_Zutto_Hashitte_Yuku&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o68 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="69" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Chocolate_Love"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Chocolate_Love&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o69 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="70" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Rottara_Rottara"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Rottara_Rottara&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o70 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="71" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Wild_at_Heart_(Arashi_song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Wild_at_Heart_(Arashi_song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o71 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="72" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Eminem"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Eminem&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o72 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="73" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Be_the_One_(BoA_song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Be_the_One_(BoA_song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o73 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="74" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Lady_Luck/Dilly_Dally"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Lady_Luck/Dilly_Dally&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o74 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="75" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Bang!_(After_School_song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Bang!_(After_School_song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o75 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="76" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Cute_(Japanese_band)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Cute_(Japanese_band)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o76 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="77" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Never_Gonna_Leave_This_Bed"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Never_Gonna_Leave_This_Bed&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o77 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="78" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Aozora_Kataomoi"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Aozora_Kataomoi&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o78 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="79" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/What_I've_Done"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/What_I've_Done&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o79 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="80" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Koko_ni_Iruzee!"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Koko_ni_Iruzee!&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o80 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="81" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Berryz_Kobo"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Berryz_Kobo&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o81 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="82" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Daylight_(Maroon_5_song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Daylight_(Maroon_5_song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o82 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="83" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Roll_with_Me"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Roll_with_Me&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o83 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="84" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Westlife"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Westlife&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o84 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="85" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Sakura_Mankai"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Sakura_Mankai&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o85 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="86" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="var" val="cb824e064b74b9af5fc4656df6af263c357066d63acb49cbec50f82612d3ee6bc8"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb3747e4a8cd6c1ecfaa5f3e4c7b3d2ac1751aa8b1e1fc0c2703a2dd0777b4ac1b"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ ?s86 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o86 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="87" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Tequila_Sunrise_(song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Tequila_Sunrise_(song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o87 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="88" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Cleanin'_Out_My_Closet"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Cleanin'_Out_My_Closet&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o88 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="89" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Shinseiki_no_Love_Song"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Shinseiki_no_Love_Song&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o89 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="90" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Strawberry_Fields_Forever"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Strawberry_Fields_Forever&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o90 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="91" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Jimmy_James_(song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Jimmy_James_(song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o91 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="92" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Bump_of_Chicken"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Bump_of_Chicken&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o92 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="93" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Numb_(Linkin_Park_song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Numb_(Linkin_Park_song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o93 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="94" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Witchy_Woman"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Witchy_Woman&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o94 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="95" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/10nen_Sakura"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/10nen_Sakura&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o95 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="96" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/BoA"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/BoA&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o96 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="97" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/I_Just_Can't_Stop_Loving_You"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/I_Just_Can't_Stop_Loving_You&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o97 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="98" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Kaze_wa_Fuiteiru"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Kaze_wa_Fuiteiru&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o98 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="99" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Far_East_Movement"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Far_East_Movement&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o99 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="100" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/The_Meaning_of_Peace"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/The_Meaning_of_Peace&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o100 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="101" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Seifuku_ga_Jama_o_Suru"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Seifuku_ga_Jama_o_Suru&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o101 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="102" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Run_the_World_(Girls)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Run_the_World_(Girls)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o102 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="103" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Crawling_(song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Crawling_(song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o103 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="104" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/E.T._(song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/E.T._(song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o104 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="105" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Dream_Theater"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Dream_Theater&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o105 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="106" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/4Minute"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/4Minute&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o106 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="107" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Suit_&amp;_Tie"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Suit_&amp;_Tie&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o107 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="108" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Gingham_Check"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Gingham_Check&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o108 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="109" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Hey_Jude"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Hey_Jude&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o109 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="110" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/What_Makes_a_Man"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/What_Makes_a_Man&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o110 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="111" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Tegomass"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Tegomass&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o111 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="112" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Honto_no_Jibun"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Honto_no_Jibun&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o112 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="113" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Wanna_Be_Startin'_Somethin'"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Wanna_Be_Startin'_Somethin'&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o113 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="114" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/One_of_These_Nights_(song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/One_of_These_Nights_(song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o114 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="115" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Heal_the_World"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Heal_the_World&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o115 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="116" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Guruguru_Curtain"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Guruguru_Curtain&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o116 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="117" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Gold_Digger_(Kanye_West_song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Gold_Digger_(Kanye_West_song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o117 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="118" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Romance,_Irane"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Romance,_Irane&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o118 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="119" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Ichibu_to_Zenbu/Dive"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Ichibu_to_Zenbu/Dive&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o119 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="120" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Montgomery_Gentry"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Montgomery_Gentry&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o120 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="121" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/If_I_Never_See_Your_Face_Again"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/If_I_Never_See_Your_Face_Again&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o121 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="122" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Tenohira_ga_Kataru_Koto"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Tenohira_ga_Kataru_Koto&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o122 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="123" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Flying_Get"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Flying_Get&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o123 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="124" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/She_Loves_You"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/She_Loves_You&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o124 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="125" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Change_the_World_(V6_song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Change_the_World_(V6_song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o125 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="126" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Super_Junior"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Super_Junior&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o126 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="127" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/After_School_(band)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/After_School_(band)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o127 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="128" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Itoshiki_Tomo_e"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Itoshiki_Tomo_e&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o128 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="129" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Memory_Seishun_no_Hikari"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Memory_Seishun_no_Hikari&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o129 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="130" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Beautiful_Days_(song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Beautiful_Days_(song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o130 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="131" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Mamoritai_(White_Wishes)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Mamoritai_(White_Wishes)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o131 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="132" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/As_for_One_Day"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/As_for_One_Day&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o132 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="133" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/SMAP"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/SMAP&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o133 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="134" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Abracadabra_(Brown_Eyed_Girls_song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Abracadabra_(Brown_Eyed_Girls_song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o134 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="135" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/My_Lonely_Town"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/My_Lonely_Town&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o135 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="136" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Sakura_no_Hanabiratachi"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Sakura_no_Hanabiratachi&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o136 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="137" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Girls'_Generation"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Girls'_Generation&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o137 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="138" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Set_Fire_to_the_Rain"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Set_Fire_to_the_Rain&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o138 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="139" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Dancing_Queen_(Girls'_Generation_song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Dancing_Queen_(Girls'_Generation_song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o139 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="140" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Goodnight_Goodnight_(Maroon_5_song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Goodnight_Goodnight_(Maroon_5_song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o140 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="141" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Where_I_Come_From_(Montgomery_Gentry_song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Where_I_Come_From_(Montgomery_Gentry_song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o141 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="142" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Oh_My_God!_(NMB48_song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Oh_My_God!_(NMB48_song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o142 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="143" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Skirt,_Hirari"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Skirt,_Hirari&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o143 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="144" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Skyfall_(song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Skyfall_(song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o144 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="145" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Dani_California"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Dani_California&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o145 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="146" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Beat_It"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Beat_It&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o146 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="147" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Quruli"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Quruli&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o147 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="148" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Billie_Jean"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Billie_Jean&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o148 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="149" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/AKB48"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/AKB48&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o149 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="150" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Nogizaka46"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Nogizaka46&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o150 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="151" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Rihanna"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Rihanna&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o151 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="152" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Sweet_Impact"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Sweet_Impact&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o152 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="153" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Kitagawa_Kenji"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Kitagawa_Kenji&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o153 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="154" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Madonna_(entertainer)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Madonna_(entertainer)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o154 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="155" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Arashi"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Arashi&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o155 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="156" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Sistar"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Sistar&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o156 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="157" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Eien_Pressure"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Eien_Pressure&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o157 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="158" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Mikan_(song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Mikan_(song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o158 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="159" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/W-inds"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/W-inds&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o159 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="160" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Knockin'_on_Heaven's_Door"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Knockin'_on_Heaven's_Door&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o160 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="161" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Sakura_no_Shiori"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Sakura_no_Shiori&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o161 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="162" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Fin.K.L"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Fin.K.L&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o162 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="163" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Ue_kara_Mariko"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Ue_kara_Mariko&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o163 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="164" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Shabondama_(Morning_Musume_song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Shabondama_(Morning_Musume_song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o164 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="165" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Seifuku_no_Mannequin"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Seifuku_no_Mannequin&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o165 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="166" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Flashback_(After_School_song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Flashback_(After_School_song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o166 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="167" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Believe/Kumorinochi,_Kaisei"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Believe/Kumorinochi,_Kaisei&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o167 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="168" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Brown_Eyed_Girls"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Brown_Eyed_Girls&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o168 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="169" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Backstreet_Boys"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Backstreet_Boys&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o169 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="170" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Heartache_Tonight"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Heartache_Tonight&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o170 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="171" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/I_Did_It_for_Love"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/I_Did_It_for_Love&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o171 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="172" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Chance_no_Junban"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Chance_no_Junban&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o172 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="173" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Nude_(song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Nude_(song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o173 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="174" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Amazing_Kiss"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Amazing_Kiss&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o174 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="175" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Rambling_Girls/Because_of_You"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Rambling_Girls/Because_of_You&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o175 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="176" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Love_the_Way_You_Lie"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Love_the_Way_You_Lie&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o176 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="177" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Red_Hot_Chili_Peppers"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Red_Hot_Chili_Peppers&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o177 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="178" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Uza_(song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Uza_(song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o178 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="179" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Danny_Boy"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Danny_Boy&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o179 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="180" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Do_It!_Now"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Do_It!_Now&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o180 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="181" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/She_Will_Be_Loved"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/She_Will_Be_Loved&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o181 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="182" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Only_One_(BoA_song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Only_One_(BoA_song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o182 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="183" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/One_More_Chance_(Michael_Jackson_song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/One_More_Chance_(Michael_Jackson_song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o183 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="184" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/My_Boy_(Buono!_song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/My_Boy_(Buono!_song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o184 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="185" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Boyz_II_Men"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Boyz_II_Men&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o185 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="186" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/The_Way_You_Make_Me_Feel"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/The_Way_You_Make_Me_Feel&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o186 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="187" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Exile_(Japanese_band)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Exile_(Japanese_band)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o187 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="188" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/The_Beatles"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/The_Beatles&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o188 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="189" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Take_It_Easy"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Take_It_Easy&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o189 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="190" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/One_Step_Closer_(Linkin_Park_song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/One_Step_Closer_(Linkin_Park_song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o190 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="191" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Peaceful_Easy_Feeling"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Peaceful_Easy_Feeling&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o191 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="192" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Waking_Up_in_Vegas"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Waking_Up_in_Vegas&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o192 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="193" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Joshi_Kashimashi_Monogatari"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Joshi_Kashimashi_Monogatari&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o193 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="194" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/KinKi_Kids"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/KinKi_Kids&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o194 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="195" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Lucy_in_the_Sky_with_Diamonds"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Lucy_in_the_Sky_with_Diamonds&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o195 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="196" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Don't_Stop_'Til_You_Get_Enough"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Don't_Stop_'Til_You_Get_Enough&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o196 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="197" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Double_(BoA_song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Double_(BoA_song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o197 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="198" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Opera_(Super_Junior_song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Opera_(Super_Junior_song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o198 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="199" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Irreplaceable"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Irreplaceable&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o199 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="200" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Good_Day:_Season_2"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Good_Day:_Season_2&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o200 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="201" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Aqua_Timez"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Aqua_Timez&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o201 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="202" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Momoiro_Clover_Z"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Momoiro_Clover_Z&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o202 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="203" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Ai_no_Tane"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Ai_no_Tane&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o203 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="204" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/(I_Can't_Get_No)_Satisfaction"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/(I_Can't_Get_No)_Satisfaction&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o204 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="205" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Electric_Boy"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Electric_Boy&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o205 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="206" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Remember_the_Time"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Remember_the_Time&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o206 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="207" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/KAT-TUN"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/KAT-TUN&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o207 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="208" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Me_Against_the_Music"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Me_Against_the_Music&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o208 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="209" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/We_Made_You"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/We_Made_You&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o209 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="210" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Hotel_California"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Hotel_California&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o210 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="211" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Deep_Purple"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Deep_Purple&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o211 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="212" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Leave_Out_All_the_Rest"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Leave_Out_All_the_Rest&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o212 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="213" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Nirvana_(band)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Nirvana_(band)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o213 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="214" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/One_Direction"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/One_Direction&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o214 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="215" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Morning_Musume"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Morning_Musume&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o215 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="216" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Chu_(song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Chu_(song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o216 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="217" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Everyday,_Katyusha"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Everyday,_Katyusha&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o217 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="218" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Some_People_Change_(song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Some_People_Change_(song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o218 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="219" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/She_Couldn't_Change_Me"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/She_Couldn't_Change_Me&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o219 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="220" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Must_Get_Out"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Must_Get_Out&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o220 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="221" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Asian_Kung-Fu_Generation"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Asian_Kung-Fu_Generation&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o221 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="222" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Face_Down_(Arashi_song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Face_Down_(Arashi_song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o222 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="223" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Garnet_Crow"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Garnet_Crow&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o223 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="224" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Crack_a_Bottle"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Crack_a_Bottle&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o224 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="225" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Give_In_to_Me"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Give_In_to_Me&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o225 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="226" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Single_Ladies_(Put_a_Ring_on_It)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Single_Ladies_(Put_a_Ring_on_It)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o226 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="227" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Ren'ai_Hunter"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Ren'ai_Hunter&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o227 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="228" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Tell_Me_Your_Wish_(Genie)_(song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Tell_Me_Your_Wish_(Genie)_(song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o228 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="229" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Stan_(song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Stan_(song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o229 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="230" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Adele"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Adele&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o230 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="231" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Pass_the_Mic"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Pass_the_Mic&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o231 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="232" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/You_Rock_My_World"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/You_Rock_My_World&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o232 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="233" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Over_Drive_(Garnet_Crow_song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Over_Drive_(Garnet_Crow_song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o233 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="234" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Like_a_G6"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Like_a_G6&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o234 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="235" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Eagles_(band)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Eagles_(band)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o235 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="236" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/They_Don't_Care_About_Us"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/They_Don't_Care_About_Us&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o236 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="237" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Iroppoi_Jirettai"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Iroppoi_Jirettai&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o237 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="238" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Intergalactic_(song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Intergalactic_(song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o238 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="239" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Payphone_(song)"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Payphone_(song)&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o239 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.004" lines="240" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Desecration_Smile"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Desecration_Smile&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o240 .}</request>
+  </entry-rank>
+</ranking>

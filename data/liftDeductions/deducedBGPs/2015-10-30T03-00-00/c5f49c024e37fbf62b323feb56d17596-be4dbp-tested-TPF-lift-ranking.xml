@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ranking SYSTEM "ranking.dtd">
+<ranking ip="c5f49c024e37fbf62b323feb56d17596-be4dbp-tested-TPF-ranking">
+  <entry-rank frequence="0.091" lines="1" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="var" val="cb824e064b74b9af5fc4656df6af263c357066d63acb49cbec50f82612d3ee6bc8"/>
+        <p type="var" val="cbdcc785165c6e04760c5808e9dbff50098e1843e7b2bb8421032a0e40735d99d1"/>
+        <o type="var" val="cb3747e4a8cd6c1ecfaa5f3e4c7b3d2ac1751aa8b1e1fc0c2703a2dd0777b4ac1b"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ ?s1 ?p1 ?o1 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.091" lines="2" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/I-Threes"/>
+        <p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/I-Threes&gt; &lt;http://xmlns.com/foaf/0.1/isPrimaryTopicOf&gt; ?o2 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.091" lines="3" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/I-Threes"/>
+        <p type="iri" val="http://dbpedia.org/ontology/abstract"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/I-Threes&gt; &lt;http://dbpedia.org/ontology/abstract&gt; ?o3 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.091" lines="4" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Disincarnate"/>
+        <p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Disincarnate&gt; &lt;http://xmlns.com/foaf/0.1/isPrimaryTopicOf&gt; ?o4 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.091" lines="5" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Disincarnate"/>
+        <p type="iri" val="http://dbpedia.org/ontology/abstract"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Disincarnate&gt; &lt;http://dbpedia.org/ontology/abstract&gt; ?o5 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.091" lines="6" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Adrienne_Bailon"/>
+        <p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Adrienne_Bailon&gt; &lt;http://xmlns.com/foaf/0.1/isPrimaryTopicOf&gt; ?o6 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.091" lines="7" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Adrienne_Bailon"/>
+        <p type="iri" val="http://dbpedia.org/ontology/abstract"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Adrienne_Bailon&gt; &lt;http://dbpedia.org/ontology/abstract&gt; ?o7 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.091" lines="8" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Eddie_Hazel"/>
+        <p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Eddie_Hazel&gt; &lt;http://xmlns.com/foaf/0.1/isPrimaryTopicOf&gt; ?o8 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.091" lines="9" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Eddie_Hazel"/>
+        <p type="iri" val="http://dbpedia.org/ontology/abstract"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Eddie_Hazel&gt; &lt;http://dbpedia.org/ontology/abstract&gt; ?o9 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.091" lines="10" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Maria_Nayler"/>
+        <p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Maria_Nayler&gt; &lt;http://xmlns.com/foaf/0.1/isPrimaryTopicOf&gt; ?o10 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.091" lines="11" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Maria_Nayler"/>
+        <p type="iri" val="http://dbpedia.org/ontology/abstract"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Maria_Nayler&gt; &lt;http://dbpedia.org/ontology/abstract&gt; ?o11 .}</request>
+  </entry-rank>
+</ranking>

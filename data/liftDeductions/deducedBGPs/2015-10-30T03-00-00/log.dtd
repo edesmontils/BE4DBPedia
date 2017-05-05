@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT log (entry*) >
+<!ATTLIST log ip CDATA #REQUIRED date CDATA #IMPLIED>
+<!ELEMENT entry (request,bgp,param*) >
+<!ATTLIST entry 
+    datetime CDATA #REQUIRED
+    logline CDATA #IMPLIED
+    valid (TPF|SPARQL|EmptyTPF|EmptySPARQL|QBFTPF|QBFSPARQL|TOTPF|TOSPARQL|NotTested) "NotTested" >
+    <!-- 
+    datetime respects ISO8601 
+    logline the line number in the dbpedia log
+    -->
+    
+<!ENTITY % bgp SYSTEM 'bgp.dtd' >
+%bgp;
+
+<!ELEMENT request (#PCDATA) >	
+<!ELEMENT param EMPTY > <!-- other url parameters of the http request -->
+<!ATTLIST param name CDATA #REQUIRED val CDATA #REQUIRED >

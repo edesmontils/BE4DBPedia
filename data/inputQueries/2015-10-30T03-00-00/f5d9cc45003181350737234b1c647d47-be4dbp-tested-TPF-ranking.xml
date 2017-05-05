@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ranking SYSTEM "ranking.dtd">
+<ranking ip="f5d9cc45003181350737234b1c647d47">
+  <entry-rank frequence="1.000" lines="1219 1692 444" nb-occurrences="3" rank="1">
+    <bgp>
+      <tp>
+        <s type="var" val="cb0"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="iri" val="http://dbpedia.org/ontology/Company"/>
+      </tp>
+    </bgp>
+    <request>PREFIX dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt; #ADD by BE4DBPedia 
+ SELECT DISTINCT * WHERE {?company a dbpedia-owl:Company} </request>
+  </entry-rank>
+</ranking>

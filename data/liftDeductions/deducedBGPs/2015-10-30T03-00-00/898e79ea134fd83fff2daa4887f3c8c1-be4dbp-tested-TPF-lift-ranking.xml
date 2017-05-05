@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ranking SYSTEM "ranking.dtd">
+<ranking ip="898e79ea134fd83fff2daa4887f3c8c1-be4dbp-tested-TPF-ranking">
+  <entry-rank frequence="0.038" lines="1" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="var" val="cb824e064b74b9af5fc4656df6af263c357066d63acb49cbec50f82612d3ee6bc8"/>
+        <p type="var" val="cbdcc785165c6e04760c5808e9dbff50098e1843e7b2bb8421032a0e40735d99d1"/>
+        <o type="var" val="cb3747e4a8cd6c1ecfaa5f3e4c7b3d2ac1751aa8b1e1fc0c2703a2dd0777b4ac1b"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ ?s1 ?p1 ?o1 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.038" lines="2" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Susan_Sullivan"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Susan_Sullivan&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o2 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.038" lines="3" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Blake_Jenner"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Blake_Jenner&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o3 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.038" lines="4" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Madeline_Kahn"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Madeline_Kahn&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o4 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.038" lines="5" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Cody_Horn"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Cody_Horn&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o5 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.038" lines="6" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Francis_Capra"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Francis_Capra&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o6 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.038" lines="7" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Haley_Joel_Osment"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Haley_Joel_Osment&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o7 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.038" lines="8" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Nicole_Bilderback"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Nicole_Bilderback&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o8 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.038" lines="9" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Barrett_Foa"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Barrett_Foa&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o9 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.038" lines="10" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Richard_Masur"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Richard_Masur&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o10 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.038" lines="11" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Steve_Schirripa"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Steve_Schirripa&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o11 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.038" lines="12" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Joe_Viterelli"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Joe_Viterelli&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o12 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.038" lines="13" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Max_Brooks"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Max_Brooks&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o13 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.038" lines="14" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Christopher_Judge"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Christopher_Judge&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o14 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.038" lines="15" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Rachel_Bilson"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Rachel_Bilson&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o15 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.038" lines="16" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Carroll_O'Connor"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Carroll_O'Connor&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o16 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.038" lines="17" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Gregory_Michael"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Gregory_Michael&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o17 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.038" lines="18" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Rory_Culkin"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Rory_Culkin&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o18 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.038" lines="19" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Robert_Foxworth"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Robert_Foxworth&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o19 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.038" lines="20" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Marny_Kennedy"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Marny_Kennedy&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o20 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.038" lines="21" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Thora_Birch"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Thora_Birch&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o21 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.038" lines="22" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Megyn_Price"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Megyn_Price&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o22 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.038" lines="23" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Cicely_Tyson"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Cicely_Tyson&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o23 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.038" lines="24" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Meagan_Good"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Meagan_Good&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o24 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.038" lines="25" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Sylvester_Stallone"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/Sylvester_Stallone&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o25 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.038" lines="26" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/IronE_Singleton"/>
+        <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ &lt;http://dbpedia.org/resource/IronE_Singleton&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?o26 .}</request>
+  </entry-rank>
+</ranking>

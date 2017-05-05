@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ranking SYSTEM "ranking.dtd">
+<ranking ip="64d7679ceb0a0396c52c3098cf230b40-be4dbp-tested-TPF-ranking">
+  <entry-rank frequence="0.111" lines="1" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="var" val="cb824e064b74b9af5fc4656df6af263c357066d63acb49cbec50f82612d3ee6bc8"/>
+        <p type="var" val="cbdcc785165c6e04760c5808e9dbff50098e1843e7b2bb8421032a0e40735d99d1"/>
+        <o type="var" val="cb3747e4a8cd6c1ecfaa5f3e4c7b3d2ac1751aa8b1e1fc0c2703a2dd0777b4ac1b"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ ?s1 ?p1 ?o1 .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.111" lines="2" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="var" val="cb0"/>
+        <p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/>
+        <o type="iri" val="http://it.dbpedia.org/resource/Pi3_Orionis"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ ?s2 &lt;http://www.w3.org/2002/07/owl#sameAs&gt; &lt;http://it.dbpedia.org/resource/Pi3_Orionis&gt; .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.111" lines="3" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="var" val="cb0"/>
+        <p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/>
+        <o type="iri" val="http://it.dbpedia.org/resource/John_Beazley"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ ?s3 &lt;http://www.w3.org/2002/07/owl#sameAs&gt; &lt;http://it.dbpedia.org/resource/John_Beazley&gt; .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.111" lines="4" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="var" val="cb0"/>
+        <p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/>
+        <o type="iri" val="http://it.dbpedia.org/resource/Carla_Porta_Musa"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ ?s4 &lt;http://www.w3.org/2002/07/owl#sameAs&gt; &lt;http://it.dbpedia.org/resource/Carla_Porta_Musa&gt; .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.111" lines="5" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="var" val="cb0"/>
+        <p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/>
+        <o type="iri" val="http://it.dbpedia.org/resource/Diabete_mellito_di_tipo_1"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ ?s5 &lt;http://www.w3.org/2002/07/owl#sameAs&gt; &lt;http://it.dbpedia.org/resource/Diabete_mellito_di_tipo_1&gt; .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.111" lines="6" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="var" val="cb0"/>
+        <p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/>
+        <o type="iri" val="http://it.dbpedia.org/resource/Kaprain"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ ?s6 &lt;http://www.w3.org/2002/07/owl#sameAs&gt; &lt;http://it.dbpedia.org/resource/Kaprain&gt; .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.111" lines="7" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="var" val="cb0"/>
+        <p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/>
+        <o type="iri" val="http://it.dbpedia.org/resource/Circondario_di_Uelzen"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ ?s7 &lt;http://www.w3.org/2002/07/owl#sameAs&gt; &lt;http://it.dbpedia.org/resource/Circondario_di_Uelzen&gt; .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.111" lines="8" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="var" val="cb0"/>
+        <p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/>
+        <o type="iri" val="http://it.dbpedia.org/resource/Microsoft_Bob"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ ?s8 &lt;http://www.w3.org/2002/07/owl#sameAs&gt; &lt;http://it.dbpedia.org/resource/Microsoft_Bob&gt; .}</request>
+  </entry-rank>
+  <entry-rank frequence="0.111" lines="9" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="var" val="cb0"/>
+        <p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/>
+        <o type="iri" val="http://it.dbpedia.org/resource/Innocent_Eyes_(Graham_Nash)"/>
+      </tp>
+    </bgp>
+    <request>SELECT * WHERE{ ?s9 &lt;http://www.w3.org/2002/07/owl#sameAs&gt; &lt;http://it.dbpedia.org/resource/Innocent_Eyes_(Graham_Nash)&gt; .}</request>
+  </entry-rank>
+</ranking>
