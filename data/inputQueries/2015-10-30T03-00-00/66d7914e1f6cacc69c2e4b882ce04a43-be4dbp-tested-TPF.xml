@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE log SYSTEM "log.dtd">
+<log ip="66d7914e1f6cacc69c2e4b882ce04a43" date="2017-04-20 20:14:53.510202">
+<entry datetime="2015-10-30T03:00:00" logline="361" valid="EmptyTPF">
+  <request> PREFIX dbpedia: &lt;http://dbpedia.org/resource/&gt; PREFIX dbp-ont: &lt;http://dbpedia.org/ontology/&gt; select ?abstract {&lt;http://dbpedia.org/resource/Tamegroute&gt; &lt;http://dbpedia.org/ontology/abstract&gt; ?abstract. FILTER( lang(?abstract) = "it" ) } </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Tamegroute"/>
+      <p type="iri" val="http://dbpedia.org/ontology/abstract"/>
+      <o type="var" val="abstract"/>
+    </tp>
+  </bgp>
+  <param name="default-graph-uri" val="http://dbpedia.org"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="3665" valid="EmptyTPF">
+  <request> PREFIX dbpedia: &lt;http://dbpedia.org/resource/&gt; PREFIX dbp-ont: &lt;http://dbpedia.org/ontology/&gt; select ?abstract {&lt;http://dbpedia.org/resource/Uyuni&gt; &lt;http://dbpedia.org/ontology/abstract&gt; ?abstract. FILTER( lang(?abstract) = "it" ) } </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Uyuni"/>
+      <p type="iri" val="http://dbpedia.org/ontology/abstract"/>
+      <o type="var" val="abstract"/>
+    </tp>
+  </bgp>
+  <param name="default-graph-uri" val="http://dbpedia.org"/>
+</entry>
+</log>

@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE log SYSTEM "log.dtd">
+<log ip="15ecebf2e3a25ad446bf330300db7adf" date="2017-04-20 20:14:54.338804">
+<entry datetime="2015-10-30T03:00:00" logline="3141" valid="EmptyTPF">
+  <request> 
+            PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+            PREFIX dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;
+            PREFIX dbpedia: &lt;http://dbpedia.org/resource/&gt;
+            SELECT ?s
+            WHERE { &lt;http://dbpedia.org/resource/Grateful_Dead&gt; dbpedia-owl:abstract ?s FILTER langMatches(lang(?s), 'en') } LIMIT 1
+         </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Grateful_Dead"/>
+      <p type="iri" val="http://dbpedia.org/ontology/abstract"/>
+      <o type="var" val="s"/>
+    </tp>
+  </bgp>
+  <param name="output" val="json"/>
+  <param name="results" val="json"/>
+  <param name="format" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="3201" valid="EmptyTPF">
+  <request> 
+            PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+            PREFIX dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;
+            PREFIX dbpedia: &lt;http://dbpedia.org/resource/&gt;
+            SELECT ?s
+            WHERE { &lt;http://dbpedia.org/resource/Dead_(Young_Fathers_album)&gt; dbpedia-owl:abstract ?s FILTER langMatches(lang(?s), 'en') } LIMIT 1
+         </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Dead_(Young_Fathers_album)"/>
+      <p type="iri" val="http://dbpedia.org/ontology/abstract"/>
+      <o type="var" val="s"/>
+    </tp>
+  </bgp>
+  <param name="output" val="json"/>
+  <param name="results" val="json"/>
+  <param name="format" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="3282" valid="TPF">
+  <request> 
+            PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+            PREFIX dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;
+            PREFIX dbpedia: &lt;http://dbpedia.org/resource/&gt;
+            SELECT ?s
+            WHERE { &lt;http://dbpedia.org/resource/DEAD&gt; rdfs:label ?s FILTER langMatches(lang(?s), 'en') } LIMIT 1
+         </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/DEAD"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <o type="var" val="s"/>
+    </tp>
+  </bgp>
+  <param name="output" val="json"/>
+  <param name="results" val="json"/>
+  <param name="format" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4268" valid="EmptyTPF">
+  <request> 
+            PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+            PREFIX dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;
+            PREFIX dbpedia: &lt;http://dbpedia.org/resource/&gt;
+            SELECT ?s
+            WHERE { &lt;http://dbpedia.org/resource/Dead&gt; dbpedia-owl:abstract ?s FILTER langMatches(lang(?s), 'en') } LIMIT 1
+         </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Dead"/>
+      <p type="iri" val="http://dbpedia.org/ontology/abstract"/>
+      <o type="var" val="s"/>
+    </tp>
+  </bgp>
+  <param name="output" val="json"/>
+  <param name="results" val="json"/>
+  <param name="format" val="json"/>
+</entry>
+</log>

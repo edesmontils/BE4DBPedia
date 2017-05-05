@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE log SYSTEM "log.dtd">
+<log ip="809d80b3f000e878d4bb6c9b97418a17" date="2017-04-20 20:14:53.538694">
+<entry datetime="2015-10-30T03:00:00" logline="478">
+  <request> 
+&#13;
+  PREFIX dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;&#13;
+  PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;&#13;
+  PREFIX dbpedia: &lt;http://dbpedia.org/resource/&gt;&#13;
+  PREFIX dbpprop: &lt;http://dbpedia.org/property/&gt;&#13;
+&#13;
+  select ?abstract ?thumbnail where { &#13;
+            dbpedia:Gertrud_Elisabeth_Mara dbpedia-owl:abstract ?abstract ;&#13;
+                                     dbpedia-owl:thumbnail ?thumbnail .&#13;
+            filter(langMatches(lang(?abstract),"en"))} </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Gertrud_Elisabeth_Mara"/>
+      <p type="iri" val="http://dbpedia.org/ontology/abstract"/>
+      <o type="var" val="abstract"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Gertrud_Elisabeth_Mara"/>
+      <p type="iri" val="http://dbpedia.org/ontology/thumbnail"/>
+      <o type="var" val="thumbnail"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="1128">
+  <request> 
+&#13;
+  PREFIX dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;&#13;
+  PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;&#13;
+  PREFIX dbpedia: &lt;http://dbpedia.org/resource/&gt;&#13;
+  PREFIX dbpprop: &lt;http://dbpedia.org/property/&gt;&#13;
+&#13;
+  select ?abstract ?thumbnail where { &#13;
+            dbpedia:Friedrich_Ruge dbpedia-owl:abstract ?abstract ;&#13;
+                                     dbpedia-owl:thumbnail ?thumbnail .&#13;
+            filter(langMatches(lang(?abstract),"en"))} </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Friedrich_Ruge"/>
+      <p type="iri" val="http://dbpedia.org/ontology/abstract"/>
+      <o type="var" val="abstract"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Friedrich_Ruge"/>
+      <p type="iri" val="http://dbpedia.org/ontology/thumbnail"/>
+      <o type="var" val="thumbnail"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="1210">
+  <request> 
+&#13;
+  PREFIX dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;&#13;
+  PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;&#13;
+  PREFIX dbpedia: &lt;http://dbpedia.org/resource/&gt;&#13;
+  PREFIX dbpprop: &lt;http://dbpedia.org/property/&gt;&#13;
+&#13;
+  select ?abstract ?thumbnail where { &#13;
+            dbpedia:Jan_Just_Bos dbpedia-owl:abstract ?abstract ;&#13;
+                                     dbpedia-owl:thumbnail ?thumbnail .&#13;
+            filter(langMatches(lang(?abstract),"en"))} </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Jan_Just_Bos"/>
+      <p type="iri" val="http://dbpedia.org/ontology/abstract"/>
+      <o type="var" val="abstract"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Jan_Just_Bos"/>
+      <p type="iri" val="http://dbpedia.org/ontology/thumbnail"/>
+      <o type="var" val="thumbnail"/>
+    </tp>
+  </bgp>
+</entry>
+</log>

@@ -1,0 +1,654 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE log SYSTEM "log.dtd">
+<log ip="898e79ea134fd83fff2daa4887f3c8c1" date="2017-04-20 20:14:53.431681">
+<entry datetime="2015-10-30T03:00:00" logline="236" valid="TPF">
+  <request> PREFIX  :     &lt;http://dbpedia.org/resource/&gt;
+PREFIX  dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX  owl:  &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX  rdf:  &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX  xsd:  &lt;http://www.w3.org/2001/XMLSchema#&gt;
+PREFIX  skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;
+PREFIX  rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX  dbpedia: &lt;http://dbpedia.org/&gt;
+PREFIX  dbpedia2: &lt;http://dbpedia.org/property/&gt;
+PREFIX  foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX  dc:   &lt;http://purl.org/dc/elements/1.1/&gt;
+
+SELECT  ?t
+WHERE
+  { :Nicole_Bilderback rdf:type ?t }
+ </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Nicole_Bilderback"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="var" val="t"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="567" valid="TPF">
+  <request> PREFIX  :     &lt;http://dbpedia.org/resource/&gt;
+PREFIX  dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX  owl:  &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX  rdf:  &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX  xsd:  &lt;http://www.w3.org/2001/XMLSchema#&gt;
+PREFIX  skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;
+PREFIX  rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX  dbpedia: &lt;http://dbpedia.org/&gt;
+PREFIX  dbpedia2: &lt;http://dbpedia.org/property/&gt;
+PREFIX  foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX  dc:   &lt;http://purl.org/dc/elements/1.1/&gt;
+
+SELECT  ?t
+WHERE
+  { :Joe_Viterelli rdf:type ?t }
+ </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Joe_Viterelli"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="var" val="t"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="798" valid="TPF">
+  <request> PREFIX  :     &lt;http://dbpedia.org/resource/&gt;
+PREFIX  dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX  owl:  &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX  rdf:  &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX  xsd:  &lt;http://www.w3.org/2001/XMLSchema#&gt;
+PREFIX  skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;
+PREFIX  rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX  dbpedia: &lt;http://dbpedia.org/&gt;
+PREFIX  dbpedia2: &lt;http://dbpedia.org/property/&gt;
+PREFIX  foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX  dc:   &lt;http://purl.org/dc/elements/1.1/&gt;
+
+SELECT  ?t
+WHERE
+  { :Madeline_Kahn rdf:type ?t }
+ </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Madeline_Kahn"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="var" val="t"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="1081" valid="TPF">
+  <request> PREFIX  :     &lt;http://dbpedia.org/resource/&gt;
+PREFIX  dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX  owl:  &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX  rdf:  &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX  xsd:  &lt;http://www.w3.org/2001/XMLSchema#&gt;
+PREFIX  skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;
+PREFIX  rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX  dbpedia: &lt;http://dbpedia.org/&gt;
+PREFIX  dbpedia2: &lt;http://dbpedia.org/property/&gt;
+PREFIX  foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX  dc:   &lt;http://purl.org/dc/elements/1.1/&gt;
+
+SELECT  ?t
+WHERE
+  { :Rachel_Bilson rdf:type ?t }
+ </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Rachel_Bilson"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="var" val="t"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="1315" valid="TPF">
+  <request> PREFIX  :     &lt;http://dbpedia.org/resource/&gt;
+PREFIX  dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX  owl:  &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX  rdf:  &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX  xsd:  &lt;http://www.w3.org/2001/XMLSchema#&gt;
+PREFIX  skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;
+PREFIX  rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX  dbpedia: &lt;http://dbpedia.org/&gt;
+PREFIX  dbpedia2: &lt;http://dbpedia.org/property/&gt;
+PREFIX  foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX  dc:   &lt;http://purl.org/dc/elements/1.1/&gt;
+
+SELECT  ?t
+WHERE
+  { :Rory_Culkin rdf:type ?t }
+ </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Rory_Culkin"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="var" val="t"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="1568" valid="TPF">
+  <request> PREFIX  :     &lt;http://dbpedia.org/resource/&gt;
+PREFIX  dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX  owl:  &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX  rdf:  &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX  xsd:  &lt;http://www.w3.org/2001/XMLSchema#&gt;
+PREFIX  skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;
+PREFIX  rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX  dbpedia: &lt;http://dbpedia.org/&gt;
+PREFIX  dbpedia2: &lt;http://dbpedia.org/property/&gt;
+PREFIX  foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX  dc:   &lt;http://purl.org/dc/elements/1.1/&gt;
+
+SELECT  ?t
+WHERE
+  { :Richard_Masur rdf:type ?t }
+ </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Richard_Masur"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="var" val="t"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="1814" valid="TPF">
+  <request> PREFIX  :     &lt;http://dbpedia.org/resource/&gt;
+PREFIX  dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX  owl:  &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX  rdf:  &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX  xsd:  &lt;http://www.w3.org/2001/XMLSchema#&gt;
+PREFIX  skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;
+PREFIX  rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX  dbpedia: &lt;http://dbpedia.org/&gt;
+PREFIX  dbpedia2: &lt;http://dbpedia.org/property/&gt;
+PREFIX  foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX  dc:   &lt;http://purl.org/dc/elements/1.1/&gt;
+
+SELECT  ?t
+WHERE
+  { :Blake_Jenner rdf:type ?t }
+ </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Blake_Jenner"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="var" val="t"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2087" valid="TPF">
+  <request> PREFIX  :     &lt;http://dbpedia.org/resource/&gt;
+PREFIX  dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX  owl:  &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX  rdf:  &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX  xsd:  &lt;http://www.w3.org/2001/XMLSchema#&gt;
+PREFIX  skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;
+PREFIX  rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX  dbpedia: &lt;http://dbpedia.org/&gt;
+PREFIX  dbpedia2: &lt;http://dbpedia.org/property/&gt;
+PREFIX  foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX  dc:   &lt;http://purl.org/dc/elements/1.1/&gt;
+
+SELECT  ?t
+WHERE
+  { :Haley_Joel_Osment rdf:type ?t }
+ </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Haley_Joel_Osment"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="var" val="t"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2419" valid="TPF">
+  <request> PREFIX  :     &lt;http://dbpedia.org/resource/&gt;
+PREFIX  dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX  owl:  &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX  rdf:  &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX  xsd:  &lt;http://www.w3.org/2001/XMLSchema#&gt;
+PREFIX  skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;
+PREFIX  rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX  dbpedia: &lt;http://dbpedia.org/&gt;
+PREFIX  dbpedia2: &lt;http://dbpedia.org/property/&gt;
+PREFIX  foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX  dc:   &lt;http://purl.org/dc/elements/1.1/&gt;
+
+SELECT  ?t
+WHERE
+  { :Barrett_Foa rdf:type ?t }
+ </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Barrett_Foa"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="var" val="t"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2701" valid="TPF">
+  <request> PREFIX  :     &lt;http://dbpedia.org/resource/&gt;
+PREFIX  dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX  owl:  &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX  rdf:  &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX  xsd:  &lt;http://www.w3.org/2001/XMLSchema#&gt;
+PREFIX  skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;
+PREFIX  rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX  dbpedia: &lt;http://dbpedia.org/&gt;
+PREFIX  dbpedia2: &lt;http://dbpedia.org/property/&gt;
+PREFIX  foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX  dc:   &lt;http://purl.org/dc/elements/1.1/&gt;
+
+SELECT  ?t
+WHERE
+  { &lt;http://dbpedia.org/resource/Carroll_O'Connor&gt; rdf:type ?t }
+ </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Carroll_O'Connor"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="var" val="t"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="3048" valid="TPF">
+  <request> PREFIX  :     &lt;http://dbpedia.org/resource/&gt;
+PREFIX  dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX  owl:  &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX  rdf:  &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX  xsd:  &lt;http://www.w3.org/2001/XMLSchema#&gt;
+PREFIX  skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;
+PREFIX  rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX  dbpedia: &lt;http://dbpedia.org/&gt;
+PREFIX  dbpedia2: &lt;http://dbpedia.org/property/&gt;
+PREFIX  foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX  dc:   &lt;http://purl.org/dc/elements/1.1/&gt;
+
+SELECT  ?t
+WHERE
+  { :Robert_Foxworth rdf:type ?t }
+ </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Robert_Foxworth"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="var" val="t"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="3276" valid="TPF">
+  <request> PREFIX  :     &lt;http://dbpedia.org/resource/&gt;
+PREFIX  dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX  owl:  &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX  rdf:  &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX  xsd:  &lt;http://www.w3.org/2001/XMLSchema#&gt;
+PREFIX  skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;
+PREFIX  rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX  dbpedia: &lt;http://dbpedia.org/&gt;
+PREFIX  dbpedia2: &lt;http://dbpedia.org/property/&gt;
+PREFIX  foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX  dc:   &lt;http://purl.org/dc/elements/1.1/&gt;
+
+SELECT  ?t
+WHERE
+  { :Cicely_Tyson rdf:type ?t }
+ </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Cicely_Tyson"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="var" val="t"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="3466" valid="TPF">
+  <request> PREFIX  :     &lt;http://dbpedia.org/resource/&gt;
+PREFIX  dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX  owl:  &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX  rdf:  &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX  xsd:  &lt;http://www.w3.org/2001/XMLSchema#&gt;
+PREFIX  skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;
+PREFIX  rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX  dbpedia: &lt;http://dbpedia.org/&gt;
+PREFIX  dbpedia2: &lt;http://dbpedia.org/property/&gt;
+PREFIX  foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX  dc:   &lt;http://purl.org/dc/elements/1.1/&gt;
+
+SELECT  ?t
+WHERE
+  { :Meagan_Good rdf:type ?t }
+ </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Meagan_Good"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="var" val="t"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="3720" valid="TPF">
+  <request> PREFIX  :     &lt;http://dbpedia.org/resource/&gt;
+PREFIX  dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX  owl:  &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX  rdf:  &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX  xsd:  &lt;http://www.w3.org/2001/XMLSchema#&gt;
+PREFIX  skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;
+PREFIX  rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX  dbpedia: &lt;http://dbpedia.org/&gt;
+PREFIX  dbpedia2: &lt;http://dbpedia.org/property/&gt;
+PREFIX  foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX  dc:   &lt;http://purl.org/dc/elements/1.1/&gt;
+
+SELECT  ?t
+WHERE
+  { :Cody_Horn rdf:type ?t }
+ </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Cody_Horn"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="var" val="t"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="3971" valid="TPF">
+  <request> PREFIX  :     &lt;http://dbpedia.org/resource/&gt;
+PREFIX  dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX  owl:  &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX  rdf:  &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX  xsd:  &lt;http://www.w3.org/2001/XMLSchema#&gt;
+PREFIX  skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;
+PREFIX  rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX  dbpedia: &lt;http://dbpedia.org/&gt;
+PREFIX  dbpedia2: &lt;http://dbpedia.org/property/&gt;
+PREFIX  foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX  dc:   &lt;http://purl.org/dc/elements/1.1/&gt;
+
+SELECT  ?t
+WHERE
+  { :Francis_Capra rdf:type ?t }
+ </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Francis_Capra"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="var" val="t"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4223" valid="TPF">
+  <request> PREFIX  :     &lt;http://dbpedia.org/resource/&gt;
+PREFIX  dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX  owl:  &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX  rdf:  &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX  xsd:  &lt;http://www.w3.org/2001/XMLSchema#&gt;
+PREFIX  skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;
+PREFIX  rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX  dbpedia: &lt;http://dbpedia.org/&gt;
+PREFIX  dbpedia2: &lt;http://dbpedia.org/property/&gt;
+PREFIX  foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX  dc:   &lt;http://purl.org/dc/elements/1.1/&gt;
+
+SELECT  ?t
+WHERE
+  { :Marny_Kennedy rdf:type ?t }
+ </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Marny_Kennedy"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="var" val="t"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4399" valid="TPF">
+  <request> PREFIX  :     &lt;http://dbpedia.org/resource/&gt;
+PREFIX  dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX  owl:  &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX  rdf:  &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX  xsd:  &lt;http://www.w3.org/2001/XMLSchema#&gt;
+PREFIX  skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;
+PREFIX  rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX  dbpedia: &lt;http://dbpedia.org/&gt;
+PREFIX  dbpedia2: &lt;http://dbpedia.org/property/&gt;
+PREFIX  foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX  dc:   &lt;http://purl.org/dc/elements/1.1/&gt;
+
+SELECT  ?t
+WHERE
+  { :Steve_Schirripa rdf:type ?t }
+ </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Steve_Schirripa"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="var" val="t"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4689" valid="TPF">
+  <request> PREFIX  :     &lt;http://dbpedia.org/resource/&gt;
+PREFIX  dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX  owl:  &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX  rdf:  &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX  xsd:  &lt;http://www.w3.org/2001/XMLSchema#&gt;
+PREFIX  skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;
+PREFIX  rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX  dbpedia: &lt;http://dbpedia.org/&gt;
+PREFIX  dbpedia2: &lt;http://dbpedia.org/property/&gt;
+PREFIX  foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX  dc:   &lt;http://purl.org/dc/elements/1.1/&gt;
+
+SELECT  ?t
+WHERE
+  { :Christopher_Judge rdf:type ?t }
+ </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Christopher_Judge"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="var" val="t"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4934" valid="TPF">
+  <request> PREFIX  :     &lt;http://dbpedia.org/resource/&gt;
+PREFIX  dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX  owl:  &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX  rdf:  &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX  xsd:  &lt;http://www.w3.org/2001/XMLSchema#&gt;
+PREFIX  skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;
+PREFIX  rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX  dbpedia: &lt;http://dbpedia.org/&gt;
+PREFIX  dbpedia2: &lt;http://dbpedia.org/property/&gt;
+PREFIX  foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX  dc:   &lt;http://purl.org/dc/elements/1.1/&gt;
+
+SELECT  ?t
+WHERE
+  { :Gregory_Michael rdf:type ?t }
+ </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Gregory_Michael"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="var" val="t"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="5194" valid="TPF">
+  <request> PREFIX  :     &lt;http://dbpedia.org/resource/&gt;
+PREFIX  dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX  owl:  &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX  rdf:  &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX  xsd:  &lt;http://www.w3.org/2001/XMLSchema#&gt;
+PREFIX  skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;
+PREFIX  rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX  dbpedia: &lt;http://dbpedia.org/&gt;
+PREFIX  dbpedia2: &lt;http://dbpedia.org/property/&gt;
+PREFIX  foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX  dc:   &lt;http://purl.org/dc/elements/1.1/&gt;
+
+SELECT  ?t
+WHERE
+  { :Sylvester_Stallone rdf:type ?t }
+ </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Sylvester_Stallone"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="var" val="t"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="5450" valid="TPF">
+  <request> PREFIX  :     &lt;http://dbpedia.org/resource/&gt;
+PREFIX  dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX  owl:  &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX  rdf:  &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX  xsd:  &lt;http://www.w3.org/2001/XMLSchema#&gt;
+PREFIX  skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;
+PREFIX  rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX  dbpedia: &lt;http://dbpedia.org/&gt;
+PREFIX  dbpedia2: &lt;http://dbpedia.org/property/&gt;
+PREFIX  foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX  dc:   &lt;http://purl.org/dc/elements/1.1/&gt;
+
+SELECT  ?t
+WHERE
+  { :IronE_Singleton rdf:type ?t }
+ </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/IronE_Singleton"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="var" val="t"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="5659" valid="TPF">
+  <request> PREFIX  :     &lt;http://dbpedia.org/resource/&gt;
+PREFIX  dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX  owl:  &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX  rdf:  &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX  xsd:  &lt;http://www.w3.org/2001/XMLSchema#&gt;
+PREFIX  skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;
+PREFIX  rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX  dbpedia: &lt;http://dbpedia.org/&gt;
+PREFIX  dbpedia2: &lt;http://dbpedia.org/property/&gt;
+PREFIX  foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX  dc:   &lt;http://purl.org/dc/elements/1.1/&gt;
+
+SELECT  ?t
+WHERE
+  { :Susan_Sullivan rdf:type ?t }
+ </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Susan_Sullivan"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="var" val="t"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="5902" valid="TPF">
+  <request> PREFIX  :     &lt;http://dbpedia.org/resource/&gt;
+PREFIX  dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX  owl:  &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX  rdf:  &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX  xsd:  &lt;http://www.w3.org/2001/XMLSchema#&gt;
+PREFIX  skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;
+PREFIX  rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX  dbpedia: &lt;http://dbpedia.org/&gt;
+PREFIX  dbpedia2: &lt;http://dbpedia.org/property/&gt;
+PREFIX  foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX  dc:   &lt;http://purl.org/dc/elements/1.1/&gt;
+
+SELECT  ?t
+WHERE
+  { :Max_Brooks rdf:type ?t }
+ </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Max_Brooks"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="var" val="t"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="6156" valid="TPF">
+  <request> PREFIX  :     &lt;http://dbpedia.org/resource/&gt;
+PREFIX  dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX  owl:  &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX  rdf:  &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX  xsd:  &lt;http://www.w3.org/2001/XMLSchema#&gt;
+PREFIX  skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;
+PREFIX  rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX  dbpedia: &lt;http://dbpedia.org/&gt;
+PREFIX  dbpedia2: &lt;http://dbpedia.org/property/&gt;
+PREFIX  foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX  dc:   &lt;http://purl.org/dc/elements/1.1/&gt;
+
+SELECT  ?t
+WHERE
+  { :Thora_Birch rdf:type ?t }
+ </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Thora_Birch"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="var" val="t"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="6447" valid="TPF">
+  <request> PREFIX  :     &lt;http://dbpedia.org/resource/&gt;
+PREFIX  dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX  owl:  &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX  rdf:  &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX  xsd:  &lt;http://www.w3.org/2001/XMLSchema#&gt;
+PREFIX  skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;
+PREFIX  rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX  dbpedia: &lt;http://dbpedia.org/&gt;
+PREFIX  dbpedia2: &lt;http://dbpedia.org/property/&gt;
+PREFIX  foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX  dc:   &lt;http://purl.org/dc/elements/1.1/&gt;
+
+SELECT  ?t
+WHERE
+  { :Megyn_Price rdf:type ?t }
+ </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Megyn_Price"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="var" val="t"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="6751" valid="EmptyTPF">
+  <request> PREFIX  :     &lt;http://dbpedia.org/resource/&gt;
+PREFIX  dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX  owl:  &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX  rdf:  &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX  xsd:  &lt;http://www.w3.org/2001/XMLSchema#&gt;
+PREFIX  skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;
+PREFIX  rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX  dbpedia: &lt;http://dbpedia.org/&gt;
+PREFIX  dbpedia2: &lt;http://dbpedia.org/property/&gt;
+PREFIX  foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX  dc:   &lt;http://purl.org/dc/elements/1.1/&gt;
+
+SELECT  ?t
+WHERE
+  { :Tony_Oller rdf:type ?t }
+ </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Tony_Oller"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="var" val="t"/>
+    </tp>
+  </bgp>
+</entry>
+</log>

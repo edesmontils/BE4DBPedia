@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE log SYSTEM "log.dtd">
+<log ip="312798d8937f569c17b523faa79cb186" date="2017-04-20 20:14:56.282121">
+<entry datetime="2015-10-30T03:00:00" logline="6516" valid="TPF">
+  <request> 
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+SELECT DISTINCT ?anton_tchekov ?anton_tchekov_field_auteur
+WHERE {
+?anton_tchekov rdfs:label "Anton Tchekov"@en; rdfs:label ?anton_tchekov_field_auteur.
+  } 
+LIMIT 5 </request>
+  <bgp>
+    <tp>
+      <s type="var" val="anton_tchekov"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <o type="lit">Anton Tchekov</o>
+    </tp>
+    <tp>
+      <s type="var" val="anton_tchekov"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <o type="var" val="anton_tchekov_field_auteur"/>
+    </tp>
+  </bgp>
+</entry>
+</log>

@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE log SYSTEM "log.dtd">
+<log ip="ff0f5aecdcbd81f0f00f04587936b53c" date="2017-04-20 20:14:54.098107">
+<entry datetime="2015-10-30T03:00:00" logline="2504" valid="TPF">
+  <request> SELECT DISTINCT * WHERE {?object &lt;http://www.w3.org/2002/07/owl#sameAs&gt; &lt;http://it.dbpedia.org/resource/Andy_Souwer&gt; FILTER(REGEX(STR(?object),'//dbpedia.org'))} </request>
+  <bgp>
+    <tp>
+      <s type="var" val="object"/>
+      <p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/>
+      <o type="iri" val="http://it.dbpedia.org/resource/Andy_Souwer"/>
+    </tp>
+  </bgp>
+  <param name="output" val="json"/>
+  <param name="format" val="application/json"/>
+  <param name="timeout" val="0"/>
+  <param name="callback" val="lodlive"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2754" valid="EmptyTPF">
+  <request> SELECT DISTINCT * WHERE {?object &lt;http://www.w3.org/2002/07/owl#sameAs&gt; &lt;http://it.dbpedia.org/resource/Categoria:Elementi_architettonici_decorativi&gt; FILTER(REGEX(STR(?object),'//dbpedia.org'))} </request>
+  <bgp>
+    <tp>
+      <s type="var" val="object"/>
+      <p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/>
+      <o type="iri" val="http://it.dbpedia.org/resource/Categoria:Elementi_architettonici_decorativi"/>
+    </tp>
+  </bgp>
+  <param name="output" val="json"/>
+  <param name="format" val="application/json"/>
+  <param name="timeout" val="0"/>
+  <param name="callback" val="lodlive"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2774" valid="TPF">
+  <request> SELECT DISTINCT * WHERE {?object &lt;http://www.w3.org/2002/07/owl#sameAs&gt; &lt;http://it.dbpedia.org/resource/Sheila_Mello&gt; FILTER(REGEX(STR(?object),'//dbpedia.org'))} </request>
+  <bgp>
+    <tp>
+      <s type="var" val="object"/>
+      <p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/>
+      <o type="iri" val="http://it.dbpedia.org/resource/Sheila_Mello"/>
+    </tp>
+  </bgp>
+  <param name="output" val="json"/>
+  <param name="format" val="application/json"/>
+  <param name="timeout" val="0"/>
+  <param name="callback" val="lodlive"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2892" valid="TPF">
+  <request> SELECT DISTINCT * WHERE {?object &lt;http://www.w3.org/2002/07/owl#sameAs&gt; &lt;http://it.dbpedia.org/resource/Olympic_Airlines&gt; FILTER(REGEX(STR(?object),'//dbpedia.org'))} </request>
+  <bgp>
+    <tp>
+      <s type="var" val="object"/>
+      <p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/>
+      <o type="iri" val="http://it.dbpedia.org/resource/Olympic_Airlines"/>
+    </tp>
+  </bgp>
+  <param name="output" val="json"/>
+  <param name="format" val="application/json"/>
+  <param name="timeout" val="0"/>
+  <param name="callback" val="lodlive"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="3191" valid="TPF">
+  <request> SELECT DISTINCT * WHERE {?object &lt;http://www.w3.org/2002/07/owl#sameAs&gt; &lt;http://it.dbpedia.org/resource/Categoria:Nati_nel_384_a.C.&gt; FILTER(REGEX(STR(?object),'//dbpedia.org'))} </request>
+  <bgp>
+    <tp>
+      <s type="var" val="object"/>
+      <p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/>
+      <o type="iri" val="http://it.dbpedia.org/resource/Categoria:Nati_nel_384_a.C."/>
+    </tp>
+  </bgp>
+  <param name="output" val="json"/>
+  <param name="format" val="application/json"/>
+  <param name="timeout" val="0"/>
+  <param name="callback" val="lodlive"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="3258" valid="TPF">
+  <request> SELECT DISTINCT * WHERE {?object &lt;http://www.w3.org/2002/07/owl#sameAs&gt; &lt;http://it.dbpedia.org/resource/Categoria:Tour_musicali_del_1975&gt; FILTER(REGEX(STR(?object),'//dbpedia.org'))} </request>
+  <bgp>
+    <tp>
+      <s type="var" val="object"/>
+      <p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/>
+      <o type="iri" val="http://it.dbpedia.org/resource/Categoria:Tour_musicali_del_1975"/>
+    </tp>
+  </bgp>
+  <param name="output" val="json"/>
+  <param name="format" val="application/json"/>
+  <param name="timeout" val="0"/>
+  <param name="callback" val="lodlive"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="3568" valid="EmptyTPF">
+  <request> SELECT DISTINCT * WHERE {?object &lt;http://www.w3.org/2002/07/owl#sameAs&gt; &lt;http://it.dbpedia.org/resource/Martin_(Kentucky)&gt; FILTER(REGEX(STR(?object),'//dbpedia.org'))} </request>
+  <bgp>
+    <tp>
+      <s type="var" val="object"/>
+      <p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/>
+      <o type="iri" val="http://it.dbpedia.org/resource/Martin_(Kentucky)"/>
+    </tp>
+  </bgp>
+  <param name="output" val="json"/>
+  <param name="format" val="application/json"/>
+  <param name="timeout" val="0"/>
+  <param name="callback" val="lodlive"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="3670" valid="TPF">
+  <request> SELECT DISTINCT * WHERE {?object &lt;http://www.w3.org/2002/07/owl#sameAs&gt; &lt;http://it.dbpedia.org/resource/Paul_Mariner&gt; FILTER(REGEX(STR(?object),'//dbpedia.org'))} </request>
+  <bgp>
+    <tp>
+      <s type="var" val="object"/>
+      <p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/>
+      <o type="iri" val="http://it.dbpedia.org/resource/Paul_Mariner"/>
+    </tp>
+  </bgp>
+  <param name="output" val="json"/>
+  <param name="format" val="application/json"/>
+  <param name="timeout" val="0"/>
+  <param name="callback" val="lodlive"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4051" valid="TPF">
+  <request> SELECT DISTINCT * WHERE {?object &lt;http://www.w3.org/2002/07/owl#sameAs&gt; &lt;http://it.dbpedia.org/resource/Categoria:Riserve_della_biosfera_in_India&gt; FILTER(REGEX(STR(?object),'//dbpedia.org'))} </request>
+  <bgp>
+    <tp>
+      <s type="var" val="object"/>
+      <p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/>
+      <o type="iri" val="http://it.dbpedia.org/resource/Categoria:Riserve_della_biosfera_in_India"/>
+    </tp>
+  </bgp>
+  <param name="output" val="json"/>
+  <param name="format" val="application/json"/>
+  <param name="timeout" val="0"/>
+  <param name="callback" val="lodlive"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4153" valid="EmptyTPF">
+  <request> SELECT DISTINCT * WHERE {?object &lt;http://www.w3.org/2002/07/owl#sameAs&gt; &lt;http://it.dbpedia.org/resource/CDR_(formato_di_file)&gt; FILTER(REGEX(STR(?object),'//dbpedia.org'))} </request>
+  <bgp>
+    <tp>
+      <s type="var" val="object"/>
+      <p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/>
+      <o type="iri" val="http://it.dbpedia.org/resource/CDR_(formato_di_file)"/>
+    </tp>
+  </bgp>
+  <param name="output" val="json"/>
+  <param name="format" val="application/json"/>
+  <param name="timeout" val="0"/>
+  <param name="callback" val="lodlive"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4270" valid="TPF">
+  <request> SELECT DISTINCT * WHERE {?object &lt;http://www.w3.org/2002/07/owl#sameAs&gt; &lt;http://it.dbpedia.org/resource/Papilio_demoleus&gt; FILTER(REGEX(STR(?object),'//dbpedia.org'))} </request>
+  <bgp>
+    <tp>
+      <s type="var" val="object"/>
+      <p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/>
+      <o type="iri" val="http://it.dbpedia.org/resource/Papilio_demoleus"/>
+    </tp>
+  </bgp>
+  <param name="output" val="json"/>
+  <param name="format" val="application/json"/>
+  <param name="timeout" val="0"/>
+  <param name="callback" val="lodlive"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4999" valid="EmptyTPF">
+  <request> SELECT DISTINCT * WHERE {?object &lt;http://www.w3.org/2002/07/owl#sameAs&gt; &lt;http://dati.san.beniculturali.it/SAN/dateEsistenza_data_di_morte1921&gt; FILTER(REGEX(STR(?object),'//dbpedia.org'))} </request>
+  <bgp>
+    <tp>
+      <s type="var" val="object"/>
+      <p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/>
+      <o type="iri" val="http://dati.san.beniculturali.it/SAN/dateEsistenza_data_di_morte1921"/>
+    </tp>
+  </bgp>
+  <param name="output" val="json"/>
+  <param name="format" val="application/json"/>
+  <param name="timeout" val="0"/>
+  <param name="callback" val="lodlive"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="5114" valid="EmptyTPF">
+  <request> SELECT DISTINCT * WHERE {?object &lt;http://www.w3.org/2002/07/owl#sameAs&gt; &lt;http://it.dbpedia.org/resource/C17H19Cl1N2S1&gt; FILTER(REGEX(STR(?object),'//dbpedia.org'))} </request>
+  <bgp>
+    <tp>
+      <s type="var" val="object"/>
+      <p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/>
+      <o type="iri" val="http://it.dbpedia.org/resource/C17H19Cl1N2S1"/>
+    </tp>
+  </bgp>
+  <param name="output" val="json"/>
+  <param name="format" val="application/json"/>
+  <param name="timeout" val="0"/>
+  <param name="callback" val="lodlive"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="5177" valid="TPF">
+  <request> SELECT DISTINCT * WHERE {?object &lt;http://www.w3.org/2002/07/owl#sameAs&gt; &lt;http://it.dbpedia.org/resource/9nine&gt; FILTER(REGEX(STR(?object),'//dbpedia.org'))} </request>
+  <bgp>
+    <tp>
+      <s type="var" val="object"/>
+      <p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/>
+      <o type="iri" val="http://it.dbpedia.org/resource/9nine"/>
+    </tp>
+  </bgp>
+  <param name="output" val="json"/>
+  <param name="format" val="application/json"/>
+  <param name="timeout" val="0"/>
+  <param name="callback" val="lodlive"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="5783" valid="EmptyTPF">
+  <request> SELECT DISTINCT * WHERE {?object &lt;http://www.w3.org/2002/07/owl#sameAs&gt; &lt;http://it.dbpedia.org/resource/Eugene_O'Neill&gt; FILTER(REGEX(STR(?object),'//dbpedia.org'))} </request>
+  <bgp>
+    <tp>
+      <s type="var" val="object"/>
+      <p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/>
+      <o type="iri" val="http://it.dbpedia.org/resource/Eugene_O'Neill"/>
+    </tp>
+  </bgp>
+  <param name="output" val="json"/>
+  <param name="format" val="application/json"/>
+  <param name="timeout" val="0"/>
+  <param name="callback" val="lodlive"/>
+</entry>
+</log>

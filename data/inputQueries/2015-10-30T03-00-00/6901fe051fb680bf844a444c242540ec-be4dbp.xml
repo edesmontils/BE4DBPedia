@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE log SYSTEM "log.dtd">
+<log ip="6901fe051fb680bf844a444c242540ec" date="2017-04-20 20:14:53.894836">
+<entry datetime="2015-10-30T03:00:00" logline="1986">
+  <request> select * where { &lt;http://dbpedia.org/resource/Raccolta&gt; &lt;http://dbpedia.org/ontology/wikiPageRedirects&gt; ?redirectUrl  . } </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Raccolta"/>
+      <p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/>
+      <o type="var" val="redirectUrl"/>
+    </tp>
+  </bgp>
+  <param name="format" val="text/tab-separated-values"/>
+  <param name="debug" val="off"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="1980">
+  <request> prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; select * where { &lt;http://dbpedia.org/resource/Raccolta&gt; rdfs:label ?label FILTER (lang(?label) ="it") . optional{&lt;http://dbpedia.org/resource/Raccolta&gt; owl:sameAs ?freebaseMid FILTER (regex(?freebaseMid, "freebase","i"))} .   } </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Raccolta"/>
+      <p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/>
+      <o type="var" val="freebaseMid"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Raccolta"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <o type="var" val="label"/>
+    </tp>
+  </bgp>
+  <param name="format" val="text/tab-separated-values"/>
+  <param name="debug" val="off"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="3456">
+  <request> select * where { &lt;http://dbpedia.org/resource/Robert_Lustig&gt; &lt;http://dbpedia.org/ontology/wikiPageRedirects&gt; ?redirectUrl  . } </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Robert_Lustig"/>
+      <p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/>
+      <o type="var" val="redirectUrl"/>
+    </tp>
+  </bgp>
+  <param name="format" val="text/tab-separated-values"/>
+  <param name="debug" val="off"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="3450">
+  <request> prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; select * where { &lt;http://dbpedia.org/resource/Robert_Lustig&gt; rdfs:label ?label FILTER (lang(?label) ="it") . optional{&lt;http://dbpedia.org/resource/Robert_Lustig&gt; owl:sameAs ?freebaseMid FILTER (regex(?freebaseMid, "freebase","i"))} .   } </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Robert_Lustig"/>
+      <p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/>
+      <o type="var" val="freebaseMid"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Robert_Lustig"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <o type="var" val="label"/>
+    </tp>
+  </bgp>
+  <param name="format" val="text/tab-separated-values"/>
+  <param name="debug" val="off"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4709">
+  <request> select * where { &lt;http://dbpedia.org/resource/Dopo_%28clothing%29&gt; &lt;http://dbpedia.org/ontology/wikiPageRedirects&gt; ?redirectUrl  . } </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Dopo_%28clothing%29"/>
+      <p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/>
+      <o type="var" val="redirectUrl"/>
+    </tp>
+  </bgp>
+  <param name="format" val="text/tab-separated-values"/>
+  <param name="debug" val="off"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4701">
+  <request> prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; select * where { &lt;http://dbpedia.org/resource/Dopo_%28clothing%29&gt; rdfs:label ?label FILTER (lang(?label) ="it") . optional{&lt;http://dbpedia.org/resource/Dopo_%28clothing%29&gt; owl:sameAs ?freebaseMid FILTER (regex(?freebaseMid, "freebase","i"))} .   } </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Dopo_%28clothing%29"/>
+      <p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/>
+      <o type="var" val="freebaseMid"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Dopo_%28clothing%29"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <o type="var" val="label"/>
+    </tp>
+  </bgp>
+  <param name="format" val="text/tab-separated-values"/>
+  <param name="debug" val="off"/>
+</entry>
+</log>

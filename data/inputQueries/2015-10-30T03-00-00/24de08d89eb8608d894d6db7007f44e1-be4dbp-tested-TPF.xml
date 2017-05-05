@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE log SYSTEM "log.dtd">
+<log ip="24de08d89eb8608d894d6db7007f44e1" date="2017-04-20 20:14:53.468720">
+<entry datetime="2015-10-30T03:00:00" logline="302" valid="TOTPF">
+  <request> PREFIX db-owl: &lt;http://dbpedia.org/ontology/&gt;&#13;
+select * where {&#13;
+   ?ville rdf:type db-owl:Settlement .&#13;
+   ?ville db-owl:inseeCode ?code .&#13;
+?ville ?attribut ?valeur&#13;
+   FILTER (?code="70173"^^xsd:string)&#13;
+ } </request>
+  <bgp>
+    <tp>
+      <s type="var" val="ville"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/Settlement"/>
+    </tp>
+    <tp>
+      <s type="var" val="ville"/>
+      <p type="iri" val="http://dbpedia.org/ontology/inseeCode"/>
+      <o type="var" val="code"/>
+    </tp>
+    <tp>
+      <s type="var" val="ville"/>
+      <p type="var" val="attribut"/>
+      <o type="var" val="valeur"/>
+    </tp>
+  </bgp>
+  <param name="format" val="application/sparql-results+json"/>
+  <param name="timeout" val="30000"/>
+  <param name="debug" val="on"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="512" valid="TOTPF">
+  <request> PREFIX db-owl: &lt;http://dbpedia.org/ontology/&gt;&#13;
+select * where {&#13;
+   ?ville rdf:type db-owl:Settlement .&#13;
+   ?ville db-owl:inseeCode ?code .&#13;
+?ville ?attribut ?valeur&#13;
+   FILTER (?code="70191"^^xsd:string)&#13;
+ } </request>
+  <bgp>
+    <tp>
+      <s type="var" val="ville"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/Settlement"/>
+    </tp>
+    <tp>
+      <s type="var" val="ville"/>
+      <p type="iri" val="http://dbpedia.org/ontology/inseeCode"/>
+      <o type="var" val="code"/>
+    </tp>
+    <tp>
+      <s type="var" val="ville"/>
+      <p type="var" val="attribut"/>
+      <o type="var" val="valeur"/>
+    </tp>
+  </bgp>
+  <param name="format" val="application/sparql-results+json"/>
+  <param name="timeout" val="30000"/>
+  <param name="debug" val="on"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="569" valid="TOTPF">
+  <request> PREFIX db-owl: &lt;http://dbpedia.org/ontology/&gt;&#13;
+select * where {&#13;
+   ?ville rdf:type db-owl:Settlement .&#13;
+   ?ville db-owl:inseeCode ?code .&#13;
+?ville ?attribut ?valeur&#13;
+   FILTER (?code="70209"^^xsd:string)&#13;
+ } </request>
+  <bgp>
+    <tp>
+      <s type="var" val="ville"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/Settlement"/>
+    </tp>
+    <tp>
+      <s type="var" val="ville"/>
+      <p type="iri" val="http://dbpedia.org/ontology/inseeCode"/>
+      <o type="var" val="code"/>
+    </tp>
+    <tp>
+      <s type="var" val="ville"/>
+      <p type="var" val="attribut"/>
+      <o type="var" val="valeur"/>
+    </tp>
+  </bgp>
+  <param name="format" val="application/sparql-results+json"/>
+  <param name="timeout" val="30000"/>
+  <param name="debug" val="on"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="1303" valid="TOTPF">
+  <request> PREFIX db-owl: &lt;http://dbpedia.org/ontology/&gt;&#13;
+select * where {&#13;
+   ?ville rdf:type db-owl:Settlement .&#13;
+   ?ville db-owl:inseeCode ?code .&#13;
+?ville ?attribut ?valeur&#13;
+   FILTER (?code="70584"^^xsd:string)&#13;
+ } </request>
+  <bgp>
+    <tp>
+      <s type="var" val="ville"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/Settlement"/>
+    </tp>
+    <tp>
+      <s type="var" val="ville"/>
+      <p type="iri" val="http://dbpedia.org/ontology/inseeCode"/>
+      <o type="var" val="code"/>
+    </tp>
+    <tp>
+      <s type="var" val="ville"/>
+      <p type="var" val="attribut"/>
+      <o type="var" val="valeur"/>
+    </tp>
+  </bgp>
+  <param name="format" val="application/sparql-results+json"/>
+  <param name="timeout" val="30000"/>
+  <param name="debug" val="on"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="1531" valid="TOTPF">
+  <request> PREFIX db-owl: &lt;http://dbpedia.org/ontology/&gt;&#13;
+select * where {&#13;
+   ?ville rdf:type db-owl:Settlement .&#13;
+   ?ville db-owl:inseeCode ?code .&#13;
+?ville ?attribut ?valeur&#13;
+   FILTER (?code="70300"^^xsd:string)&#13;
+ } </request>
+  <bgp>
+    <tp>
+      <s type="var" val="ville"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/Settlement"/>
+    </tp>
+    <tp>
+      <s type="var" val="ville"/>
+      <p type="iri" val="http://dbpedia.org/ontology/inseeCode"/>
+      <o type="var" val="code"/>
+    </tp>
+    <tp>
+      <s type="var" val="ville"/>
+      <p type="var" val="attribut"/>
+      <o type="var" val="valeur"/>
+    </tp>
+  </bgp>
+  <param name="format" val="application/sparql-results+json"/>
+  <param name="timeout" val="30000"/>
+  <param name="debug" val="on"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="1879" valid="TOTPF">
+  <request> PREFIX db-owl: &lt;http://dbpedia.org/ontology/&gt;&#13;
+select * where {&#13;
+   ?ville rdf:type db-owl:Settlement .&#13;
+   ?ville db-owl:inseeCode ?code .&#13;
+?ville ?attribut ?valeur&#13;
+   FILTER (?code="70033"^^xsd:string)&#13;
+ } </request>
+  <bgp>
+    <tp>
+      <s type="var" val="ville"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/Settlement"/>
+    </tp>
+    <tp>
+      <s type="var" val="ville"/>
+      <p type="iri" val="http://dbpedia.org/ontology/inseeCode"/>
+      <o type="var" val="code"/>
+    </tp>
+    <tp>
+      <s type="var" val="ville"/>
+      <p type="var" val="attribut"/>
+      <o type="var" val="valeur"/>
+    </tp>
+  </bgp>
+  <param name="format" val="application/sparql-results+json"/>
+  <param name="timeout" val="30000"/>
+  <param name="debug" val="on"/>
+</entry>
+</log>

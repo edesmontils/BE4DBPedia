@@ -1,0 +1,640 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE log SYSTEM "log.dtd">
+<log ip="503e40051585b24a0ce21d8cee406cc0" date="2017-04-20 20:14:53.414648">
+<entry datetime="2015-10-30T03:00:00" logline="218" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Connecticut&gt; &lt;http://dbpedia.org/property/populationEstimate&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Connecticut"/>
+      <p type="iri" val="http://dbpedia.org/property/populationEstimate"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="9" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Lithuania&gt; &lt;http://dbpedia.org/property/gdpNominal&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Lithuania"/>
+      <p type="iri" val="http://dbpedia.org/property/gdpNominal"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="133" valid="TPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Lithuania&gt; &lt;http://www.w3.org/2000/01/rdf-schema#comment&gt; ?v . } </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Lithuania"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#comment"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="313" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Connecticut&gt; &lt;http://dbpedia.org/property/governor&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Connecticut"/>
+      <p type="iri" val="http://dbpedia.org/property/governor"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="138" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Connecticut&gt; &lt;http://dbpedia.org/property/populationCensus&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Connecticut"/>
+      <p type="iri" val="http://dbpedia.org/property/populationCensus"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="408" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Morocco&gt; &lt;http://dbpedia.org/property/gdpNominal&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Morocco"/>
+      <p type="iri" val="http://dbpedia.org/property/gdpNominal"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="557" valid="TPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Morocco&gt; &lt;http://www.w3.org/2000/01/rdf-schema#comment&gt; ?v . } </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Morocco"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#comment"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="560" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Gibraltar&gt; &lt;http://dbpedia.org/property/populationEstimate&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Gibraltar"/>
+      <p type="iri" val="http://dbpedia.org/property/populationEstimate"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="666" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Gibraltar&gt; &lt;http://dbpedia.org/property/gdpNominal&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Gibraltar"/>
+      <p type="iri" val="http://dbpedia.org/property/gdpNominal"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="692" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Lithuania&gt; &lt;http://dbpedia.org/property/populationCensus&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Lithuania"/>
+      <p type="iri" val="http://dbpedia.org/property/populationCensus"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="797" valid="TPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Gibraltar&gt; &lt;http://www.w3.org/2000/01/rdf-schema#comment&gt; ?v . } </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Gibraltar"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#comment"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="822" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Lithuania&gt; &lt;http://dbpedia.org/property/gdpNominal&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Lithuania"/>
+      <p type="iri" val="http://dbpedia.org/property/gdpNominal"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="1244" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Gibraltar&gt; &lt;http://dbpedia.org/property/populationCensus&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Gibraltar"/>
+      <p type="iri" val="http://dbpedia.org/property/populationCensus"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="1291" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Gibraltar&gt; &lt;http://dbpedia.org/property/populationEstimate&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Gibraltar"/>
+      <p type="iri" val="http://dbpedia.org/property/populationEstimate"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="1405" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Gibraltar&gt; &lt;http://dbpedia.org/property/gdpNominal&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Gibraltar"/>
+      <p type="iri" val="http://dbpedia.org/property/gdpNominal"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="1440" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Mozambique&gt; &lt;http://dbpedia.org/property/gdpNominalYear&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Mozambique"/>
+      <p type="iri" val="http://dbpedia.org/property/gdpNominalYear"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="1450" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Lithuania&gt; &lt;http://dbpedia.org/property/populationCensus&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Lithuania"/>
+      <p type="iri" val="http://dbpedia.org/property/populationCensus"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="1491" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Mozambique&gt; &lt;http://dbpedia.org/property/gdpNominal&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Mozambique"/>
+      <p type="iri" val="http://dbpedia.org/property/gdpNominal"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="1549" valid="TPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Gibraltar&gt; &lt;http://www.w3.org/2000/01/rdf-schema#comment&gt; ?v . } </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Gibraltar"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#comment"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="1566" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Lithuania&gt; &lt;http://dbpedia.org/property/gdpNominal&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Lithuania"/>
+      <p type="iri" val="http://dbpedia.org/property/gdpNominal"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="1700" valid="TPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Lithuania&gt; &lt;http://www.w3.org/2000/01/rdf-schema#comment&gt; ?v . } </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Lithuania"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#comment"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2045" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Gibraltar&gt; &lt;http://dbpedia.org/property/populationEstimate&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Gibraltar"/>
+      <p type="iri" val="http://dbpedia.org/property/populationEstimate"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2182" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Gibraltar&gt; &lt;http://dbpedia.org/property/gdpNominal&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Gibraltar"/>
+      <p type="iri" val="http://dbpedia.org/property/gdpNominal"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2372" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Lithuania&gt; &lt;http://dbpedia.org/property/gdpNominal&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Lithuania"/>
+      <p type="iri" val="http://dbpedia.org/property/gdpNominal"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2536" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Myanmar&gt; &lt;http://dbpedia.org/property/populationCensus&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Myanmar"/>
+      <p type="iri" val="http://dbpedia.org/property/populationCensus"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2620" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Myanmar&gt; &lt;http://dbpedia.org/property/populationEstimate&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Myanmar"/>
+      <p type="iri" val="http://dbpedia.org/property/populationEstimate"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2689" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Myanmar&gt; &lt;http://dbpedia.org/property/gdpNominalYear&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Myanmar"/>
+      <p type="iri" val="http://dbpedia.org/property/gdpNominalYear"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2766" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Myanmar&gt; &lt;http://dbpedia.org/property/gdpNominal&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Myanmar"/>
+      <p type="iri" val="http://dbpedia.org/property/gdpNominal"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="3097" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Gibraltar&gt; &lt;http://dbpedia.org/property/gdpNominal&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Gibraltar"/>
+      <p type="iri" val="http://dbpedia.org/property/gdpNominal"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="3129" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Lithuania&gt; &lt;http://dbpedia.org/property/populationCensus&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Lithuania"/>
+      <p type="iri" val="http://dbpedia.org/property/populationCensus"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="3182" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Lithuania&gt; &lt;http://dbpedia.org/property/gdpNominalYear&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Lithuania"/>
+      <p type="iri" val="http://dbpedia.org/property/gdpNominalYear"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="3210" valid="TPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Gibraltar&gt; &lt;http://www.w3.org/2000/01/rdf-schema#comment&gt; ?v . } </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Gibraltar"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#comment"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="3349" valid="TPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Lithuania&gt; &lt;http://www.w3.org/2000/01/rdf-schema#comment&gt; ?v . } </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Lithuania"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#comment"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="3743" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Gibraltar&gt; &lt;http://dbpedia.org/property/gdpNominal&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Gibraltar"/>
+      <p type="iri" val="http://dbpedia.org/property/gdpNominal"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="3773" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Lithuania&gt; &lt;http://dbpedia.org/property/populationCensus&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Lithuania"/>
+      <p type="iri" val="http://dbpedia.org/property/populationCensus"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="3830" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Namibia&gt; &lt;http://dbpedia.org/property/gdpNominal&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Namibia"/>
+      <p type="iri" val="http://dbpedia.org/property/gdpNominal"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="3883" valid="TPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Gibraltar&gt; &lt;http://www.w3.org/2000/01/rdf-schema#comment&gt; ?v . } </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Gibraltar"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#comment"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="3914" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Lithuania&gt; &lt;http://dbpedia.org/property/gdpNominal&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Lithuania"/>
+      <p type="iri" val="http://dbpedia.org/property/gdpNominal"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4038" valid="TPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Lithuania&gt; &lt;http://www.w3.org/2000/01/rdf-schema#comment&gt; ?v . } </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Lithuania"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#comment"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4326" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Gibraltar&gt; &lt;http://dbpedia.org/property/populationEstimate&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Gibraltar"/>
+      <p type="iri" val="http://dbpedia.org/property/populationEstimate"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4511" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Lithuania&gt; &lt;http://dbpedia.org/property/gdpNominalYear&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Lithuania"/>
+      <p type="iri" val="http://dbpedia.org/property/gdpNominalYear"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4555" valid="TPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Gibraltar&gt; &lt;http://www.w3.org/2000/01/rdf-schema#comment&gt; ?v . } </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Gibraltar"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#comment"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4726" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Nauru&gt; &lt;http://dbpedia.org/property/populationCensus&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Nauru"/>
+      <p type="iri" val="http://dbpedia.org/property/populationCensus"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4850" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Nauru&gt; &lt;http://dbpedia.org/property/gdpNominal&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Nauru"/>
+      <p type="iri" val="http://dbpedia.org/property/gdpNominal"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4994" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Gibraltar&gt; &lt;http://dbpedia.org/property/populationCensus&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Gibraltar"/>
+      <p type="iri" val="http://dbpedia.org/property/populationCensus"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4997" valid="TPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Nauru&gt; &lt;http://www.w3.org/2000/01/rdf-schema#comment&gt; ?v . } </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Nauru"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#comment"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="5135" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Gibraltar&gt; &lt;http://dbpedia.org/property/gdpNominalYear&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Gibraltar"/>
+      <p type="iri" val="http://dbpedia.org/property/gdpNominalYear"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="5382" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Jamaica&gt; &lt;http://dbpedia.org/property/populationCensus&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Jamaica"/>
+      <p type="iri" val="http://dbpedia.org/property/populationCensus"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="5453" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Jamaica&gt; &lt;http://dbpedia.org/property/populationEstimate&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Jamaica"/>
+      <p type="iri" val="http://dbpedia.org/property/populationEstimate"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="5573" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Jamaica&gt; &lt;http://dbpedia.org/property/gdpNominal&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Jamaica"/>
+      <p type="iri" val="http://dbpedia.org/property/gdpNominal"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="5832" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Nepal&gt; &lt;http://dbpedia.org/property/gdpNominalYear&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Nepal"/>
+      <p type="iri" val="http://dbpedia.org/property/gdpNominalYear"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="6072" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Jamaica&gt; &lt;http://dbpedia.org/property/populationCensus&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Jamaica"/>
+      <p type="iri" val="http://dbpedia.org/property/populationCensus"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="6277" valid="EmptyTPF">
+  <request>  SELECT ?v
+ WHERE {  &lt;http://dbpedia.org/resource/Jamaica&gt; &lt;http://dbpedia.org/property/gdpNominal&gt; ?v . } LIMIT 1 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Jamaica"/>
+      <p type="iri" val="http://dbpedia.org/property/gdpNominal"/>
+      <o type="var" val="v"/>
+    </tp>
+  </bgp>
+  <param name="maxrows" val="10000000"/>
+</entry>
+</log>

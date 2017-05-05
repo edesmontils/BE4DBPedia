@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ranking SYSTEM "ranking.dtd">
+<ranking ip="312798d8937f569c17b523faa79cb186">
+  <entry-rank frequence="1.000" lines="6516" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="var" val="cba7e097ee9a17451ca452d4c1c84b7cb9a7f95ef515edae19277f0bca1261def2"/>
+        <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <o type="var" val="cb0"/>
+      </tp>
+      <tp>
+        <s type="var" val="cba7e097ee9a17451ca452d4c1c84b7cb9a7f95ef515edae19277f0bca1261def2"/>
+        <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <o type="lit">Anton Tchekov</o>
+      </tp>
+    </bgp>
+    <request> 
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+SELECT DISTINCT ?anton_tchekov ?anton_tchekov_field_auteur
+WHERE {
+?anton_tchekov rdfs:label "Anton Tchekov"@en; rdfs:label ?anton_tchekov_field_auteur.
+  } 
+LIMIT 5 </request>
+  </entry-rank>
+</ranking>

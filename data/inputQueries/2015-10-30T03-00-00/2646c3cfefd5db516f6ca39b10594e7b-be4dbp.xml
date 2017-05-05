@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE log SYSTEM "log.dtd">
+<log ip="2646c3cfefd5db516f6ca39b10594e7b" date="2017-04-20 20:14:53.511725">
+<entry datetime="2015-10-30T03:00:00" logline="372">
+  <request> PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX wgs84_pos: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+SELECT ?label ?lat ?long
+FROM &lt;http://dbpedia.org&gt;
+WHERE { 
+        &lt;http://dbpedia.org/resource/2005_Primera_Divisi%C3%B3n_de_M%C3%A9xico_Apertura&gt; rdfs:label ?label .
+        OPTIONAL {
+            &lt;http://dbpedia.org/resource/2005_Primera_Divisi%C3%B3n_de_M%C3%A9xico_Apertura&gt; wgs84_pos:lat ?lat .
+            &lt;http://dbpedia.org/resource/2005_Primera_Divisi%C3%B3n_de_M%C3%A9xico_Apertura&gt; wgs84_pos:long ?long
+        }
+} </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/2005_Primera_Divisi%C3%B3n_de_M%C3%A9xico_Apertura"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+      <o type="var" val="lat"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/2005_Primera_Divisi%C3%B3n_de_M%C3%A9xico_Apertura"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+      <o type="var" val="long"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/2005_Primera_Divisi%C3%B3n_de_M%C3%A9xico_Apertura"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <o type="var" val="label"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="599">
+  <request> PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX wgs84_pos: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+SELECT ?label ?lat ?long
+FROM &lt;http://dbpedia.org&gt;
+WHERE { 
+        &lt;http://dbpedia.org/resource/Twist_and_Shout_%28album%29&gt; rdfs:label ?label .
+        OPTIONAL {
+            &lt;http://dbpedia.org/resource/Twist_and_Shout_%28album%29&gt; wgs84_pos:lat ?lat .
+            &lt;http://dbpedia.org/resource/Twist_and_Shout_%28album%29&gt; wgs84_pos:long ?long
+        }
+} </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Twist_and_Shout_%28album%29"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+      <o type="var" val="lat"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Twist_and_Shout_%28album%29"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+      <o type="var" val="long"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Twist_and_Shout_%28album%29"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <o type="var" val="label"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="1097">
+  <request> PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX wgs84_pos: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+SELECT ?label ?lat ?long
+FROM &lt;http://dbpedia.org&gt;
+WHERE { 
+        &lt;http://dbpedia.org/resource/Somkid_Chuenta&gt; rdfs:label ?label .
+        OPTIONAL {
+            &lt;http://dbpedia.org/resource/Somkid_Chuenta&gt; wgs84_pos:lat ?lat .
+            &lt;http://dbpedia.org/resource/Somkid_Chuenta&gt; wgs84_pos:long ?long
+        }
+} </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Somkid_Chuenta"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+      <o type="var" val="lat"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Somkid_Chuenta"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+      <o type="var" val="long"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Somkid_Chuenta"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <o type="var" val="label"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="1402">
+  <request> PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX wgs84_pos: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+SELECT ?label ?lat ?long
+FROM &lt;http://dbpedia.org&gt;
+WHERE { 
+        &lt;http://dbpedia.org/resource/Ivana_Kne%C5%BEevi%C4%87&gt; rdfs:label ?label .
+        OPTIONAL {
+            &lt;http://dbpedia.org/resource/Ivana_Kne%C5%BEevi%C4%87&gt; wgs84_pos:lat ?lat .
+            &lt;http://dbpedia.org/resource/Ivana_Kne%C5%BEevi%C4%87&gt; wgs84_pos:long ?long
+        }
+} </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Ivana_Kne%C5%BEevi%C4%87"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+      <o type="var" val="lat"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Ivana_Kne%C5%BEevi%C4%87"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+      <o type="var" val="long"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Ivana_Kne%C5%BEevi%C4%87"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <o type="var" val="label"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="1753">
+  <request> PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX wgs84_pos: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+SELECT ?label ?lat ?long
+FROM &lt;http://dbpedia.org&gt;
+WHERE { 
+        &lt;http://dbpedia.org/resource/Forever_%28Kool_&gt; rdfs:label ?label .
+        OPTIONAL {
+            &lt;http://dbpedia.org/resource/Forever_%28Kool_&gt; wgs84_pos:lat ?lat .
+            &lt;http://dbpedia.org/resource/Forever_%28Kool_&gt; wgs84_pos:long ?long
+        }
+} </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Forever_%28Kool_"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+      <o type="var" val="lat"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Forever_%28Kool_"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+      <o type="var" val="long"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Forever_%28Kool_"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <o type="var" val="label"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="1988">
+  <request> PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX wgs84_pos: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+SELECT ?label ?lat ?long
+FROM &lt;http://dbpedia.org&gt;
+WHERE { 
+        &lt;http://dbpedia.org/resource/Hamateur_Night&gt; rdfs:label ?label .
+        OPTIONAL {
+            &lt;http://dbpedia.org/resource/Hamateur_Night&gt; wgs84_pos:lat ?lat .
+            &lt;http://dbpedia.org/resource/Hamateur_Night&gt; wgs84_pos:long ?long
+        }
+} </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Hamateur_Night"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+      <o type="var" val="lat"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Hamateur_Night"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+      <o type="var" val="long"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Hamateur_Night"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <o type="var" val="label"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2120">
+  <request> PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX wgs84_pos: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+SELECT ?label ?lat ?long
+FROM &lt;http://dbpedia.org&gt;
+WHERE { 
+        &lt;http://dbpedia.org/resource/Miss_World_1978&gt; rdfs:label ?label .
+        OPTIONAL {
+            &lt;http://dbpedia.org/resource/Miss_World_1978&gt; wgs84_pos:lat ?lat .
+            &lt;http://dbpedia.org/resource/Miss_World_1978&gt; wgs84_pos:long ?long
+        }
+} </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Miss_World_1978"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+      <o type="var" val="lat"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Miss_World_1978"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+      <o type="var" val="long"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Miss_World_1978"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <o type="var" val="label"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2224">
+  <request> PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX wgs84_pos: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+SELECT ?label ?lat ?long
+FROM &lt;http://dbpedia.org&gt;
+WHERE { 
+        &lt;http://dbpedia.org/resource/Southorn_Playground&gt; rdfs:label ?label .
+        OPTIONAL {
+            &lt;http://dbpedia.org/resource/Southorn_Playground&gt; wgs84_pos:lat ?lat .
+            &lt;http://dbpedia.org/resource/Southorn_Playground&gt; wgs84_pos:long ?long
+        }
+} </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Southorn_Playground"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+      <o type="var" val="lat"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Southorn_Playground"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+      <o type="var" val="long"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Southorn_Playground"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <o type="var" val="label"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2529">
+  <request> PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX wgs84_pos: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+SELECT ?label ?lat ?long
+FROM &lt;http://dbpedia.org&gt;
+WHERE { 
+        &lt;http://dbpedia.org/resource/16_de_septiembre&gt; rdfs:label ?label .
+        OPTIONAL {
+            &lt;http://dbpedia.org/resource/16_de_septiembre&gt; wgs84_pos:lat ?lat .
+            &lt;http://dbpedia.org/resource/16_de_septiembre&gt; wgs84_pos:long ?long
+        }
+} </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/16_de_septiembre"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+      <o type="var" val="lat"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/16_de_septiembre"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+      <o type="var" val="long"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/16_de_septiembre"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <o type="var" val="label"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2988">
+  <request> PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX wgs84_pos: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+SELECT ?label ?lat ?long
+FROM &lt;http://dbpedia.org&gt;
+WHERE { 
+        &lt;http://dbpedia.org/resource/Paula_Kelly_%28actress/dancer%29&gt; rdfs:label ?label .
+        OPTIONAL {
+            &lt;http://dbpedia.org/resource/Paula_Kelly_%28actress/dancer%29&gt; wgs84_pos:lat ?lat .
+            &lt;http://dbpedia.org/resource/Paula_Kelly_%28actress/dancer%29&gt; wgs84_pos:long ?long
+        }
+} </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Paula_Kelly_%28actress/dancer%29"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+      <o type="var" val="lat"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Paula_Kelly_%28actress/dancer%29"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+      <o type="var" val="long"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Paula_Kelly_%28actress/dancer%29"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <o type="var" val="label"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="3304">
+  <request> PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX wgs84_pos: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+SELECT ?label ?lat ?long
+FROM &lt;http://dbpedia.org&gt;
+WHERE { 
+        &lt;http://dbpedia.org/resource/Camp_Colt%2C_Pennsylvania&gt; rdfs:label ?label .
+        OPTIONAL {
+            &lt;http://dbpedia.org/resource/Camp_Colt%2C_Pennsylvania&gt; wgs84_pos:lat ?lat .
+            &lt;http://dbpedia.org/resource/Camp_Colt%2C_Pennsylvania&gt; wgs84_pos:long ?long
+        }
+} </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Camp_Colt%2C_Pennsylvania"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+      <o type="var" val="lat"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Camp_Colt%2C_Pennsylvania"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+      <o type="var" val="long"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Camp_Colt%2C_Pennsylvania"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <o type="var" val="label"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="3590">
+  <request> PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX wgs84_pos: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+SELECT ?label ?lat ?long
+FROM &lt;http://dbpedia.org&gt;
+WHERE { 
+        &lt;http://dbpedia.org/resource/Charles_Josephus_Nourse&gt; rdfs:label ?label .
+        OPTIONAL {
+            &lt;http://dbpedia.org/resource/Charles_Josephus_Nourse&gt; wgs84_pos:lat ?lat .
+            &lt;http://dbpedia.org/resource/Charles_Josephus_Nourse&gt; wgs84_pos:long ?long
+        }
+} </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Charles_Josephus_Nourse"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+      <o type="var" val="lat"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Charles_Josephus_Nourse"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+      <o type="var" val="long"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Charles_Josephus_Nourse"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <o type="var" val="label"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="3940">
+  <request> PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX wgs84_pos: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+SELECT ?label ?lat ?long
+FROM &lt;http://dbpedia.org&gt;
+WHERE { 
+        &lt;http://dbpedia.org/resource/A%C3%AFn_Seba%C3%A2_%E2%80%93_Hay_Mohammadi&gt; rdfs:label ?label .
+        OPTIONAL {
+            &lt;http://dbpedia.org/resource/A%C3%AFn_Seba%C3%A2_%E2%80%93_Hay_Mohammadi&gt; wgs84_pos:lat ?lat .
+            &lt;http://dbpedia.org/resource/A%C3%AFn_Seba%C3%A2_%E2%80%93_Hay_Mohammadi&gt; wgs84_pos:long ?long
+        }
+} </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/A%C3%AFn_Seba%C3%A2_%E2%80%93_Hay_Mohammadi"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+      <o type="var" val="lat"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/A%C3%AFn_Seba%C3%A2_%E2%80%93_Hay_Mohammadi"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+      <o type="var" val="long"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/A%C3%AFn_Seba%C3%A2_%E2%80%93_Hay_Mohammadi"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <o type="var" val="label"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4044">
+  <request> PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX wgs84_pos: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+SELECT ?label ?lat ?long
+FROM &lt;http://dbpedia.org&gt;
+WHERE { 
+        &lt;http://dbpedia.org/resource/William_Chak&gt; rdfs:label ?label .
+        OPTIONAL {
+            &lt;http://dbpedia.org/resource/William_Chak&gt; wgs84_pos:lat ?lat .
+            &lt;http://dbpedia.org/resource/William_Chak&gt; wgs84_pos:long ?long
+        }
+} </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/William_Chak"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+      <o type="var" val="lat"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/William_Chak"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+      <o type="var" val="long"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/William_Chak"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <o type="var" val="label"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4242">
+  <request> PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX wgs84_pos: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+SELECT ?label ?lat ?long
+FROM &lt;http://dbpedia.org&gt;
+WHERE { 
+        &lt;http://dbpedia.org/resource/Nikodimos_Papavasiliou&gt; rdfs:label ?label .
+        OPTIONAL {
+            &lt;http://dbpedia.org/resource/Nikodimos_Papavasiliou&gt; wgs84_pos:lat ?lat .
+            &lt;http://dbpedia.org/resource/Nikodimos_Papavasiliou&gt; wgs84_pos:long ?long
+        }
+} </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Nikodimos_Papavasiliou"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+      <o type="var" val="lat"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Nikodimos_Papavasiliou"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+      <o type="var" val="long"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Nikodimos_Papavasiliou"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <o type="var" val="label"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4530">
+  <request> PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX wgs84_pos: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+SELECT ?label ?lat ?long
+FROM &lt;http://dbpedia.org&gt;
+WHERE { 
+        &lt;http://dbpedia.org/resource/Infante_Francisco%2C_Duke_of_Beja&gt; rdfs:label ?label .
+        OPTIONAL {
+            &lt;http://dbpedia.org/resource/Infante_Francisco%2C_Duke_of_Beja&gt; wgs84_pos:lat ?lat .
+            &lt;http://dbpedia.org/resource/Infante_Francisco%2C_Duke_of_Beja&gt; wgs84_pos:long ?long
+        }
+} </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Infante_Francisco%2C_Duke_of_Beja"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+      <o type="var" val="lat"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Infante_Francisco%2C_Duke_of_Beja"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+      <o type="var" val="long"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Infante_Francisco%2C_Duke_of_Beja"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <o type="var" val="label"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4882">
+  <request> PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX wgs84_pos: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+SELECT ?label ?lat ?long
+FROM &lt;http://dbpedia.org&gt;
+WHERE { 
+        &lt;http://dbpedia.org/resource/San_Pedro_Carch%C3%A1&gt; rdfs:label ?label .
+        OPTIONAL {
+            &lt;http://dbpedia.org/resource/San_Pedro_Carch%C3%A1&gt; wgs84_pos:lat ?lat .
+            &lt;http://dbpedia.org/resource/San_Pedro_Carch%C3%A1&gt; wgs84_pos:long ?long
+        }
+} </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/San_Pedro_Carch%C3%A1"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+      <o type="var" val="lat"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/San_Pedro_Carch%C3%A1"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+      <o type="var" val="long"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/San_Pedro_Carch%C3%A1"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <o type="var" val="label"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="5571">
+  <request> PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX wgs84_pos: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+SELECT ?label ?lat ?long
+FROM &lt;http://dbpedia.org&gt;
+WHERE { 
+        &lt;http://dbpedia.org/resource/Eleuterio_Quintanilla&gt; rdfs:label ?label .
+        OPTIONAL {
+            &lt;http://dbpedia.org/resource/Eleuterio_Quintanilla&gt; wgs84_pos:lat ?lat .
+            &lt;http://dbpedia.org/resource/Eleuterio_Quintanilla&gt; wgs84_pos:long ?long
+        }
+} </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Eleuterio_Quintanilla"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+      <o type="var" val="lat"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Eleuterio_Quintanilla"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+      <o type="var" val="long"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Eleuterio_Quintanilla"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <o type="var" val="label"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="5700">
+  <request> PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX wgs84_pos: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+SELECT ?label ?lat ?long
+FROM &lt;http://dbpedia.org&gt;
+WHERE { 
+        &lt;http://dbpedia.org/resource/Chan_Chong_Ming&gt; rdfs:label ?label .
+        OPTIONAL {
+            &lt;http://dbpedia.org/resource/Chan_Chong_Ming&gt; wgs84_pos:lat ?lat .
+            &lt;http://dbpedia.org/resource/Chan_Chong_Ming&gt; wgs84_pos:long ?long
+        }
+} </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Chan_Chong_Ming"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+      <o type="var" val="lat"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Chan_Chong_Ming"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+      <o type="var" val="long"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Chan_Chong_Ming"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <o type="var" val="label"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="5858">
+  <request> PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX wgs84_pos: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+SELECT ?label ?lat ?long
+FROM &lt;http://dbpedia.org&gt;
+WHERE { 
+        &lt;http://dbpedia.org/resource/Mar%C3%ADa_Jos%C3%A9_Maldonado&gt; rdfs:label ?label .
+        OPTIONAL {
+            &lt;http://dbpedia.org/resource/Mar%C3%ADa_Jos%C3%A9_Maldonado&gt; wgs84_pos:lat ?lat .
+            &lt;http://dbpedia.org/resource/Mar%C3%ADa_Jos%C3%A9_Maldonado&gt; wgs84_pos:long ?long
+        }
+} </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Mar%C3%ADa_Jos%C3%A9_Maldonado"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+      <o type="var" val="lat"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Mar%C3%ADa_Jos%C3%A9_Maldonado"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+      <o type="var" val="long"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Mar%C3%ADa_Jos%C3%A9_Maldonado"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <o type="var" val="label"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="6226">
+  <request> PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX wgs84_pos: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+SELECT ?label ?lat ?long
+FROM &lt;http://dbpedia.org&gt;
+WHERE { 
+        &lt;http://dbpedia.org/resource/H%C3%A9roes_Inmortales_%282012%29&gt; rdfs:label ?label .
+        OPTIONAL {
+            &lt;http://dbpedia.org/resource/H%C3%A9roes_Inmortales_%282012%29&gt; wgs84_pos:lat ?lat .
+            &lt;http://dbpedia.org/resource/H%C3%A9roes_Inmortales_%282012%29&gt; wgs84_pos:long ?long
+        }
+} </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/H%C3%A9roes_Inmortales_%282012%29"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+      <o type="var" val="lat"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/H%C3%A9roes_Inmortales_%282012%29"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+      <o type="var" val="long"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/H%C3%A9roes_Inmortales_%282012%29"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <o type="var" val="label"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="6386">
+  <request> PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX wgs84_pos: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+SELECT ?label ?lat ?long
+FROM &lt;http://dbpedia.org&gt;
+WHERE { 
+        &lt;http://dbpedia.org/resource/East_Malaysia&gt; rdfs:label ?label .
+        OPTIONAL {
+            &lt;http://dbpedia.org/resource/East_Malaysia&gt; wgs84_pos:lat ?lat .
+            &lt;http://dbpedia.org/resource/East_Malaysia&gt; wgs84_pos:long ?long
+        }
+} </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/East_Malaysia"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+      <o type="var" val="lat"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/East_Malaysia"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+      <o type="var" val="long"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/East_Malaysia"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <o type="var" val="label"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="6368">
+  <request> PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX wgs84_pos: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+SELECT ?label ?lat ?long
+FROM &lt;http://dbpedia.org&gt;
+WHERE { 
+        &lt;http://dbpedia.org/resource/Aristide_Bruant&gt; rdfs:label ?label .
+        OPTIONAL {
+            &lt;http://dbpedia.org/resource/Aristide_Bruant&gt; wgs84_pos:lat ?lat .
+            &lt;http://dbpedia.org/resource/Aristide_Bruant&gt; wgs84_pos:long ?long
+        }
+} </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Aristide_Bruant"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+      <o type="var" val="lat"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Aristide_Bruant"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+      <o type="var" val="long"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Aristide_Bruant"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <o type="var" val="label"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="6353">
+  <request> PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX wgs84_pos: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+SELECT ?label ?lat ?long
+FROM &lt;http://dbpedia.org&gt;
+WHERE { 
+        &lt;http://dbpedia.org/resource/Flight_spare&gt; rdfs:label ?label .
+        OPTIONAL {
+            &lt;http://dbpedia.org/resource/Flight_spare&gt; wgs84_pos:lat ?lat .
+            &lt;http://dbpedia.org/resource/Flight_spare&gt; wgs84_pos:long ?long
+        }
+} </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Flight_spare"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+      <o type="var" val="lat"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Flight_spare"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+      <o type="var" val="long"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Flight_spare"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <o type="var" val="label"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="6427">
+  <request> PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX wgs84_pos: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+SELECT ?label ?lat ?long
+FROM &lt;http://dbpedia.org&gt;
+WHERE { 
+        &lt;http://dbpedia.org/resource/Sweetbread&gt; rdfs:label ?label .
+        OPTIONAL {
+            &lt;http://dbpedia.org/resource/Sweetbread&gt; wgs84_pos:lat ?lat .
+            &lt;http://dbpedia.org/resource/Sweetbread&gt; wgs84_pos:long ?long
+        }
+} </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Sweetbread"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+      <o type="var" val="lat"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Sweetbread"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+      <o type="var" val="long"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Sweetbread"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <o type="var" val="label"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="6477">
+  <request> PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX wgs84_pos: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+SELECT ?label ?lat ?long
+FROM &lt;http://dbpedia.org&gt;
+WHERE { 
+        &lt;http://dbpedia.org/resource/Investiture_Controversy&gt; rdfs:label ?label .
+        OPTIONAL {
+            &lt;http://dbpedia.org/resource/Investiture_Controversy&gt; wgs84_pos:lat ?lat .
+            &lt;http://dbpedia.org/resource/Investiture_Controversy&gt; wgs84_pos:long ?long
+        }
+} </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Investiture_Controversy"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+      <o type="var" val="lat"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Investiture_Controversy"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+      <o type="var" val="long"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Investiture_Controversy"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <o type="var" val="label"/>
+    </tp>
+  </bgp>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="6632">
+  <request> PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX wgs84_pos: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+SELECT ?label ?lat ?long
+FROM &lt;http://dbpedia.org&gt;
+WHERE { 
+        &lt;http://dbpedia.org/resource/Jes%C3%BAs_Berrocal&gt; rdfs:label ?label .
+        OPTIONAL {
+            &lt;http://dbpedia.org/resource/Jes%C3%BAs_Berrocal&gt; wgs84_pos:lat ?lat .
+            &lt;http://dbpedia.org/resource/Jes%C3%BAs_Berrocal&gt; wgs84_pos:long ?long
+        }
+} </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Jes%C3%BAs_Berrocal"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+      <o type="var" val="lat"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Jes%C3%BAs_Berrocal"/>
+      <p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+      <o type="var" val="long"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Jes%C3%BAs_Berrocal"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <o type="var" val="label"/>
+    </tp>
+  </bgp>
+</entry>
+</log>

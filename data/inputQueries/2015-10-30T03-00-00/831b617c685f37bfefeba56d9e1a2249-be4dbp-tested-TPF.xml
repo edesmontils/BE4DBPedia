@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE log SYSTEM "log.dtd">
+<log ip="831b617c685f37bfefeba56d9e1a2249" date="2017-04-20 20:14:54.214996">
+<entry datetime="2015-10-30T03:00:00" logline="2814" valid="EmptyTPF">
+  <request> 
+            PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+            PREFIX dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;
+            PREFIX dbpedia: &lt;http://dbpedia.org/resource/&gt;
+            SELECT ?s
+            WHERE { &lt;http://dbpedia.org/resource/Dead_(Obituary_album)&gt; dbpedia-owl:abstract ?s FILTER langMatches(lang(?s), 'en') } LIMIT 1
+         </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Dead_(Obituary_album)"/>
+      <p type="iri" val="http://dbpedia.org/ontology/abstract"/>
+      <o type="var" val="s"/>
+    </tp>
+  </bgp>
+  <param name="output" val="json"/>
+  <param name="results" val="json"/>
+  <param name="format" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="3624" valid="EmptyTPF">
+  <request> 
+            PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+            PREFIX dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;
+            PREFIX dbpedia: &lt;http://dbpedia.org/resource/&gt;
+            SELECT ?s
+            WHERE { &lt;http://dbpedia.org/resource/The_Video_Dead&gt; dbpedia-owl:abstract ?s FILTER langMatches(lang(?s), 'en') } LIMIT 1
+         </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/The_Video_Dead"/>
+      <p type="iri" val="http://dbpedia.org/ontology/abstract"/>
+      <o type="var" val="s"/>
+    </tp>
+  </bgp>
+  <param name="output" val="json"/>
+  <param name="results" val="json"/>
+  <param name="format" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="3732" valid="TPF">
+  <request> 
+            PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+            PREFIX dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;
+            PREFIX dbpedia: &lt;http://dbpedia.org/resource/&gt;
+            SELECT ?s
+            WHERE { &lt;http://dbpedia.org/resource/The_Video_Dead&gt; rdfs:label ?s FILTER langMatches(lang(?s), 'en') } LIMIT 1
+         </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/The_Video_Dead"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <o type="var" val="s"/>
+    </tp>
+  </bgp>
+  <param name="output" val="json"/>
+  <param name="results" val="json"/>
+  <param name="format" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4147" valid="TPF">
+  <request> 
+            PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+            PREFIX dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;
+            PREFIX dbpedia: &lt;http://dbpedia.org/resource/&gt;
+            SELECT ?s
+            WHERE { &lt;http://dbpedia.org/resource/Video_Dead&gt; rdfs:label ?s FILTER langMatches(lang(?s), 'en') } LIMIT 1
+         </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Video_Dead"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <o type="var" val="s"/>
+    </tp>
+  </bgp>
+  <param name="output" val="json"/>
+  <param name="results" val="json"/>
+  <param name="format" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4340" valid="TPF">
+  <request> 
+            PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+            PREFIX dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;
+            PREFIX dbpedia: &lt;http://dbpedia.org/resource/&gt;
+            SELECT ?s
+            WHERE { &lt;http://dbpedia.org/resource/Live_Dead&gt; rdfs:label ?s FILTER langMatches(lang(?s), 'en') } LIMIT 1
+         </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Live_Dead"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <o type="var" val="s"/>
+    </tp>
+  </bgp>
+  <param name="output" val="json"/>
+  <param name="results" val="json"/>
+  <param name="format" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="6759" valid="EmptyTPF">
+  <request> 
+            PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+            PREFIX dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;
+            PREFIX dbpedia: &lt;http://dbpedia.org/resource/&gt;
+            SELECT ?s
+            WHERE { &lt;http://dbpedia.org/resource/Morning_Walk&gt; dbpedia-owl:abstract ?s FILTER langMatches(lang(?s), 'en') } LIMIT 1
+         </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Morning_Walk"/>
+      <p type="iri" val="http://dbpedia.org/ontology/abstract"/>
+      <o type="var" val="s"/>
+    </tp>
+  </bgp>
+  <param name="output" val="json"/>
+  <param name="results" val="json"/>
+  <param name="format" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="6851" valid="TPF">
+  <request> 
+            PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+            PREFIX dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;
+            PREFIX dbpedia: &lt;http://dbpedia.org/resource/&gt;
+            SELECT ?s
+            WHERE { &lt;http://dbpedia.org/resource/Morning_Walk&gt; rdfs:label ?s FILTER langMatches(lang(?s), 'en') } LIMIT 1
+         </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Morning_Walk"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <o type="var" val="s"/>
+    </tp>
+  </bgp>
+  <param name="output" val="json"/>
+  <param name="results" val="json"/>
+  <param name="format" val="json"/>
+</entry>
+</log>

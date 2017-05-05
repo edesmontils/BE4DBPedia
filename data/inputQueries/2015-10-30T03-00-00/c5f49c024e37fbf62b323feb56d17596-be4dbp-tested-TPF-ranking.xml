@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ranking SYSTEM "ranking.dtd">
+<ranking ip="c5f49c024e37fbf62b323feb56d17596">
+  <entry-rank frequence="0.200" lines="1172" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Eddie_Hazel"/>
+        <p type="iri" val="http://dbpedia.org/ontology/abstract"/>
+        <o type="var" val="cb615fe7a9fee8bc961de919a325cb5835dffa7ec592d0904960d7d6651d1e47b8"/>
+      </tp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Eddie_Hazel"/>
+        <p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request> SELECT DISTINCT ?abs ?about WHERE {
+ &lt;http://dbpedia.org/resource/Eddie_Hazel&gt; &lt;http://xmlns.com/foaf/0.1/isPrimaryTopicOf&gt; ?about .
+ OPTIONAL { &lt;http://dbpedia.org/resource/Eddie_Hazel&gt; &lt;http://dbpedia.org/ontology/abstract&gt; ?abs . }
+ FILTER( LANG(?abs)="en" || LANG(?abs)="") .
+ }
+ </request>
+  </entry-rank>
+  <entry-rank frequence="0.200" lines="2330" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Adrienne_Bailon"/>
+        <p type="iri" val="http://dbpedia.org/ontology/abstract"/>
+        <o type="var" val="cb615fe7a9fee8bc961de919a325cb5835dffa7ec592d0904960d7d6651d1e47b8"/>
+      </tp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Adrienne_Bailon"/>
+        <p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request> SELECT DISTINCT ?abs ?about WHERE {
+ &lt;http://dbpedia.org/resource/Adrienne_Bailon&gt; &lt;http://xmlns.com/foaf/0.1/isPrimaryTopicOf&gt; ?about .
+ OPTIONAL { &lt;http://dbpedia.org/resource/Adrienne_Bailon&gt; &lt;http://dbpedia.org/ontology/abstract&gt; ?abs . }
+ FILTER( LANG(?abs)="en" || LANG(?abs)="") .
+ }
+ </request>
+  </entry-rank>
+  <entry-rank frequence="0.200" lines="3700" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Maria_Nayler"/>
+        <p type="iri" val="http://dbpedia.org/ontology/abstract"/>
+        <o type="var" val="cb615fe7a9fee8bc961de919a325cb5835dffa7ec592d0904960d7d6651d1e47b8"/>
+      </tp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Maria_Nayler"/>
+        <p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request> SELECT DISTINCT ?abs ?about WHERE {
+ &lt;http://dbpedia.org/resource/Maria_Nayler&gt; &lt;http://xmlns.com/foaf/0.1/isPrimaryTopicOf&gt; ?about .
+ OPTIONAL { &lt;http://dbpedia.org/resource/Maria_Nayler&gt; &lt;http://dbpedia.org/ontology/abstract&gt; ?abs . }
+ FILTER( LANG(?abs)="en" || LANG(?abs)="") .
+ }
+ </request>
+  </entry-rank>
+  <entry-rank frequence="0.200" lines="4363" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/I-Threes"/>
+        <p type="iri" val="http://dbpedia.org/ontology/abstract"/>
+        <o type="var" val="cb615fe7a9fee8bc961de919a325cb5835dffa7ec592d0904960d7d6651d1e47b8"/>
+      </tp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/I-Threes"/>
+        <p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request> SELECT DISTINCT ?abs ?about WHERE {
+ &lt;http://dbpedia.org/resource/I-Threes&gt; &lt;http://xmlns.com/foaf/0.1/isPrimaryTopicOf&gt; ?about .
+ OPTIONAL { &lt;http://dbpedia.org/resource/I-Threes&gt; &lt;http://dbpedia.org/ontology/abstract&gt; ?abs . }
+ FILTER( LANG(?abs)="en" || LANG(?abs)="") .
+ }
+ </request>
+  </entry-rank>
+  <entry-rank frequence="0.200" lines="5634" nb-occurrences="1" rank="1">
+    <bgp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Disincarnate"/>
+        <p type="iri" val="http://dbpedia.org/ontology/abstract"/>
+        <o type="var" val="cb615fe7a9fee8bc961de919a325cb5835dffa7ec592d0904960d7d6651d1e47b8"/>
+      </tp>
+      <tp>
+        <s type="iri" val="http://dbpedia.org/resource/Disincarnate"/>
+        <p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/>
+        <o type="var" val="cb0"/>
+      </tp>
+    </bgp>
+    <request> SELECT DISTINCT ?abs ?about WHERE {
+ &lt;http://dbpedia.org/resource/Disincarnate&gt; &lt;http://xmlns.com/foaf/0.1/isPrimaryTopicOf&gt; ?about .
+ OPTIONAL { &lt;http://dbpedia.org/resource/Disincarnate&gt; &lt;http://dbpedia.org/ontology/abstract&gt; ?abs . }
+ FILTER( LANG(?abs)="en" || LANG(?abs)="") .
+ }
+ </request>
+  </entry-rank>
+</ranking>

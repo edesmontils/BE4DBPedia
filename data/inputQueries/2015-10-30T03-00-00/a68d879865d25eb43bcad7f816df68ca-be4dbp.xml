@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE log SYSTEM "log.dtd">
+<log ip="a68d879865d25eb43bcad7f816df68ca" date="2017-04-20 20:14:54.054940">
+<entry datetime="2015-10-30T03:00:00" logline="2255">
+  <request> 
+	PREFIX dbpedia: &lt;http://dbpedia.org/resource/&gt;
+    PREFIX dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;
+    PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+    PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+    SELECT  ?abstract ?comment ?image ?wikipedia
+    WHERE {
+        dbpedia:Intercalated_disc rdfs:comment ?comment .
+        dbpedia:Intercalated_disc dbpedia-owl:abstract ?abstract .
+        dbpedia:Intercalated_disc foaf:isPrimaryTopicOf ?wikipedia .
+        OPTIONAL {
+            dbpedia:Intercalated_disc foaf:depiction ?image .
+        }
+        FILTER (LANG(?abstract)='en' &amp;&amp; LANG(?comment)='en')        
+    }
+ </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Intercalated_disc"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/depiction"/>
+      <o type="var" val="image"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Intercalated_disc"/>
+      <p type="iri" val="http://dbpedia.org/ontology/abstract"/>
+      <o type="var" val="abstract"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Intercalated_disc"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#comment"/>
+      <o type="var" val="comment"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Intercalated_disc"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/>
+      <o type="var" val="wikipedia"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="5206">
+  <request> 
+	PREFIX dbpedia: &lt;http://dbpedia.org/resource/&gt;
+    PREFIX dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt;
+    PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+    PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+    SELECT  ?abstract ?comment ?image ?wikipedia
+    WHERE {
+        dbpedia:Intercalated_disc rdfs:comment ?comment .
+        dbpedia:Intercalated_disc dbpedia-owl:abstract ?abstract .
+        dbpedia:Intercalated_disc foaf:isPrimaryTopicOf ?wikipedia .
+        OPTIONAL {
+            dbpedia:Intercalated_disc foaf:depiction ?image .
+        }
+        FILTER (LANG(?abstract)='en' &amp;&amp; LANG(?comment)='en')        
+    }
+ </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Intercalated_disc"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/depiction"/>
+      <o type="var" val="image"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Intercalated_disc"/>
+      <p type="iri" val="http://dbpedia.org/ontology/abstract"/>
+      <o type="var" val="abstract"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Intercalated_disc"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#comment"/>
+      <o type="var" val="comment"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Intercalated_disc"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/>
+      <o type="var" val="wikipedia"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+</log>

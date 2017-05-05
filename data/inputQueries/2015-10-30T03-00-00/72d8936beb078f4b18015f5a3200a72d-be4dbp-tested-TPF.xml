@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE log SYSTEM "log.dtd">
+<log ip="72d8936beb078f4b18015f5a3200a72d" date="2017-04-20 20:14:54.176497">
+<entry datetime="2015-10-30T03:00:00" logline="2486" valid="EmptyTPF">
+  <request>PREFIX dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt; #ADD by BE4DBPedia 
+ PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; select ?label ?abstract ?thumbnail where {?resource rdfs:label ?label ; dbpedia-owl:abstract ?abstract . OPTIONAL { ?resource dbpedia-owl:thumbnail ?thumbnail } FILTER( ?resource = &lt;http://dbpedia.org/resource/History_of_cryptography&gt; || ?resource = &lt;http://dbpedia.org/resource/Cryptography&gt; || ?resource = &lt;http://dbpedia.org/resource/Block_size_(cryptography)&gt; || ?resource = &lt;http://dbpedia.org/resource/Cryptanalysis&gt; || ?resource = &lt;http://dbpedia.org/resource/Data_Encryption_Standard&gt; || ?resource = &lt;http://dbpedia.org/resource/HAVAL&gt; || ?resource = &lt;http://dbpedia.org/resource/George_Fabyan&gt; || ?resource = &lt;http://dbpedia.org/resource/Outline_of_cryptography&gt; || ?resource = &lt;http://dbpedia.org/resource/Books_on_cryptography&gt; || ?resource = &lt;http://dbpedia.org/resource/Substitution_cipher&gt; ) filter(langMatches(lang(?abstract),"en")) filter(langMatches(lang(?label),"en"))} </request>
+  <bgp>
+    <tp>
+      <s type="var" val="resource"/>
+      <p type="iri" val="http://dbpedia.org/ontology/thumbnail"/>
+      <o type="var" val="thumbnail"/>
+    </tp>
+    <tp>
+      <s type="var" val="resource"/>
+      <p type="iri" val="http://dbpedia.org/ontology/abstract"/>
+      <o type="var" val="abstract"/>
+    </tp>
+    <tp>
+      <s type="var" val="resource"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <o type="var" val="label"/>
+    </tp>
+  </bgp>
+  <param name="default-graph-uri" val="http://dbpedia.org"/>
+  <param name="timeout" val="30000"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2449" valid="EmptyTPF">
+  <request>PREFIX dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt; #ADD by BE4DBPedia 
+ select ?pageid ?abstract ?thumbnail where {?resource dbpedia-owl:wikiPageID ?pageid ; dbpedia-owl:abstract ?abstract . OPTIONAL { ?resource dbpedia-owl:thumbnail ?thumbnail } FILTER( ?pageid = 9966 || ?pageid = 11162 || ?pageid = 23535 || ?pageid = 24222 || ?pageid = 25009 || ?pageid = 26934 || ?pageid = 30746 || ?pageid = 32818 || ?pageid = 47515 || ?pageid = 53741 || ?pageid = 230424 || ?pageid = 231495 || ?pageid = 274229 || ?pageid = 375843 || ?pageid = 441935 || ?pageid = 1157832 || ?pageid = 2119394 || ?pageid = 2244483 || ?pageid = 3599006 || ?pageid = 7878457 || ?pageid = 18934432 || ?pageid = 28676005 ) filter(langMatches(lang(?abstract),"en"))} </request>
+  <bgp>
+    <tp>
+      <s type="var" val="resource"/>
+      <p type="iri" val="http://dbpedia.org/ontology/thumbnail"/>
+      <o type="var" val="thumbnail"/>
+    </tp>
+    <tp>
+      <s type="var" val="resource"/>
+      <p type="iri" val="http://dbpedia.org/ontology/abstract"/>
+      <o type="var" val="abstract"/>
+    </tp>
+    <tp>
+      <s type="var" val="resource"/>
+      <p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/>
+      <o type="var" val="pageid"/>
+    </tp>
+  </bgp>
+  <param name="default-graph-uri" val="http://dbpedia.org"/>
+  <param name="timeout" val="30000"/>
+</entry>
+</log>

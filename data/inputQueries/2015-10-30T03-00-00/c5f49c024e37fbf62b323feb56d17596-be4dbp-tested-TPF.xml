@@ -1,0 +1,3255 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE log SYSTEM "log.dtd">
+<log ip="c5f49c024e37fbf62b323feb56d17596" date="2017-04-20 20:14:53.704933">
+<entry datetime="2015-10-30T03:00:00" logline="1172" valid="TPF">
+  <request> SELECT DISTINCT ?abs ?about WHERE {
+ &lt;http://dbpedia.org/resource/Eddie_Hazel&gt; &lt;http://xmlns.com/foaf/0.1/isPrimaryTopicOf&gt; ?about .
+ OPTIONAL { &lt;http://dbpedia.org/resource/Eddie_Hazel&gt; &lt;http://dbpedia.org/ontology/abstract&gt; ?abs . }
+ FILTER( LANG(?abs)="en" || LANG(?abs)="") .
+ }
+ </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Eddie_Hazel"/>
+      <p type="iri" val="http://dbpedia.org/ontology/abstract"/>
+      <o type="var" val="abs"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Eddie_Hazel"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/>
+      <o type="var" val="about"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="1272" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/AmericanFunkGuitarists&gt; ;
+   a &lt;http://dbpedia.org/ontology/MusicalArtist&gt; ;
+   foaf:name ?name .
+ 
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Eddie_Hazel&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/AmericanFunkGuitarists"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/MusicalArtist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="1269" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/AmericanFunkGuitarists&gt; ;
+   &lt;http://dbpedia.org/property/wikiPageUsesTemplate&gt; &lt;http://dbpedia.org/resource/Template:Infobox_musical_artist&gt; ;
+   foaf:name ?name .
+
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Eddie_Hazel&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://dbpedia.org/property/wikiPageUsesTemplate"/>
+      <o type="iri" val="http://dbpedia.org/resource/Template:Infobox_musical_artist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/AmericanFunkGuitarists"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="1294" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/MusiciansFromNewYork&gt; ;
+   &lt;http://dbpedia.org/property/wikiPageUsesTemplate&gt; &lt;http://dbpedia.org/resource/Template:Infobox_musical_artist&gt; ;
+   foaf:name ?name .
+
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Eddie_Hazel&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://dbpedia.org/property/wikiPageUsesTemplate"/>
+      <o type="iri" val="http://dbpedia.org/resource/Template:Infobox_musical_artist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/MusiciansFromNewYork"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="1298" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/MusiciansFromNewYork&gt; ;
+   a &lt;http://dbpedia.org/ontology/MusicalArtist&gt; ;
+   foaf:name ?name .
+ 
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Eddie_Hazel&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/MusiciansFromNewYork"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/MusicalArtist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="1309" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/PeopleFromBrooklyn&gt; ;
+   &lt;http://dbpedia.org/property/wikiPageUsesTemplate&gt; &lt;http://dbpedia.org/resource/Template:Infobox_musical_artist&gt; ;
+   foaf:name ?name .
+
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Eddie_Hazel&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://dbpedia.org/property/wikiPageUsesTemplate"/>
+      <o type="iri" val="http://dbpedia.org/resource/Template:Infobox_musical_artist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/PeopleFromBrooklyn"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="1314" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/PeopleFromBrooklyn&gt; ;
+   a &lt;http://dbpedia.org/ontology/MusicalArtist&gt; ;
+   foaf:name ?name .
+ 
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Eddie_Hazel&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/PeopleFromBrooklyn"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/MusicalArtist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="1326" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/AfricanAmericanGuitarists&gt; ;
+   a &lt;http://dbpedia.org/ontology/MusicalArtist&gt; ;
+   foaf:name ?name .
+ 
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Eddie_Hazel&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/AfricanAmericanGuitarists"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/MusicalArtist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="1321" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/AfricanAmericanGuitarists&gt; ;
+   &lt;http://dbpedia.org/property/wikiPageUsesTemplate&gt; &lt;http://dbpedia.org/resource/Template:Infobox_musical_artist&gt; ;
+   foaf:name ?name .
+
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Eddie_Hazel&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://dbpedia.org/property/wikiPageUsesTemplate"/>
+      <o type="iri" val="http://dbpedia.org/resource/Template:Infobox_musical_artist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/AfricanAmericanGuitarists"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="1332" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/AfricanAmericanRockMusicians&gt; ;
+   &lt;http://dbpedia.org/property/wikiPageUsesTemplate&gt; &lt;http://dbpedia.org/resource/Template:Infobox_musical_artist&gt; ;
+   foaf:name ?name .
+
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Eddie_Hazel&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://dbpedia.org/property/wikiPageUsesTemplate"/>
+      <o type="iri" val="http://dbpedia.org/resource/Template:Infobox_musical_artist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/AfricanAmericanRockMusicians"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="1333" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/AfricanAmericanRockMusicians&gt; ;
+   a &lt;http://dbpedia.org/ontology/MusicalArtist&gt; ;
+   foaf:name ?name .
+ 
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Eddie_Hazel&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/AfricanAmericanRockMusicians"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/MusicalArtist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2330" valid="TPF">
+  <request> SELECT DISTINCT ?abs ?about WHERE {
+ &lt;http://dbpedia.org/resource/Adrienne_Bailon&gt; &lt;http://xmlns.com/foaf/0.1/isPrimaryTopicOf&gt; ?about .
+ OPTIONAL { &lt;http://dbpedia.org/resource/Adrienne_Bailon&gt; &lt;http://dbpedia.org/ontology/abstract&gt; ?abs . }
+ FILTER( LANG(?abs)="en" || LANG(?abs)="") .
+ }
+ </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Adrienne_Bailon"/>
+      <p type="iri" val="http://dbpedia.org/ontology/abstract"/>
+      <o type="var" val="abs"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Adrienne_Bailon"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/>
+      <o type="var" val="about"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2541" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/AmericanChildSingers&gt; ;
+   &lt;http://dbpedia.org/property/wikiPageUsesTemplate&gt; &lt;http://dbpedia.org/resource/Template:Infobox_musical_artist&gt; ;
+   foaf:name ?name .
+
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Adrienne_Bailon&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://dbpedia.org/property/wikiPageUsesTemplate"/>
+      <o type="iri" val="http://dbpedia.org/resource/Template:Infobox_musical_artist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/AmericanChildSingers"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2516" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/ActorsFromNewYorkCity&gt; ;
+   &lt;http://dbpedia.org/property/wikiPageUsesTemplate&gt; &lt;http://dbpedia.org/resource/Template:Infobox_musical_artist&gt; ;
+   foaf:name ?name .
+
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Adrienne_Bailon&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://dbpedia.org/property/wikiPageUsesTemplate"/>
+      <o type="iri" val="http://dbpedia.org/resource/Template:Infobox_musical_artist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/ActorsFromNewYorkCity"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2517" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/ActorsFromNewYorkCity&gt; ;
+   a &lt;http://dbpedia.org/ontology/MusicalArtist&gt; ;
+   foaf:name ?name .
+ 
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Adrienne_Bailon&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/ActorsFromNewYorkCity"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/MusicalArtist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2634" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/AmericanFemaleSingers&gt; ;
+   a &lt;http://dbpedia.org/ontology/MusicalArtist&gt; ;
+   foaf:name ?name .
+ 
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Adrienne_Bailon&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/AmericanFemaleSingers"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/MusicalArtist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2546" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/AmericanChildSingers&gt; ;
+   a &lt;http://dbpedia.org/ontology/MusicalArtist&gt; ;
+   foaf:name ?name .
+ 
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Adrienne_Bailon&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/AmericanChildSingers"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/MusicalArtist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2579" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/AmericanChildActors&gt; ;
+   a &lt;http://dbpedia.org/ontology/MusicalArtist&gt; ;
+   foaf:name ?name .
+ 
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Adrienne_Bailon&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/AmericanChildActors"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/MusicalArtist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2592" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/AmericanTelevisionActors&gt; ;
+   &lt;http://dbpedia.org/property/wikiPageUsesTemplate&gt; &lt;http://dbpedia.org/resource/Template:Infobox_musical_artist&gt; ;
+   foaf:name ?name .
+
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Adrienne_Bailon&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://dbpedia.org/property/wikiPageUsesTemplate"/>
+      <o type="iri" val="http://dbpedia.org/resource/Template:Infobox_musical_artist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/AmericanTelevisionActors"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2619" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/Spanish-languageSingersOfTheUnitedStates&gt; ;
+   a &lt;http://dbpedia.org/ontology/MusicalArtist&gt; ;
+   foaf:name ?name .
+ 
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Adrienne_Bailon&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/Spanish-languageSingersOfTheUnitedStates"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/MusicalArtist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2573" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/AmericanChildActors&gt; ;
+   &lt;http://dbpedia.org/property/wikiPageUsesTemplate&gt; &lt;http://dbpedia.org/resource/Template:Infobox_musical_artist&gt; ;
+   foaf:name ?name .
+
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Adrienne_Bailon&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://dbpedia.org/property/wikiPageUsesTemplate"/>
+      <o type="iri" val="http://dbpedia.org/resource/Template:Infobox_musical_artist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/AmericanChildActors"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2595" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/AmericanTelevisionActors&gt; ;
+   a &lt;http://dbpedia.org/ontology/MusicalArtist&gt; ;
+   foaf:name ?name .
+ 
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Adrienne_Bailon&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/AmericanTelevisionActors"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/MusicalArtist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2632" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/AmericanFemaleSingers&gt; ;
+   &lt;http://dbpedia.org/property/wikiPageUsesTemplate&gt; &lt;http://dbpedia.org/resource/Template:Infobox_musical_artist&gt; ;
+   foaf:name ?name .
+
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Adrienne_Bailon&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://dbpedia.org/property/wikiPageUsesTemplate"/>
+      <o type="iri" val="http://dbpedia.org/resource/Template:Infobox_musical_artist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/AmericanFemaleSingers"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2662" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/AmericanFilmActors&gt; ;
+   a &lt;http://dbpedia.org/ontology/MusicalArtist&gt; ;
+   foaf:name ?name .
+ 
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Adrienne_Bailon&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/AmericanFilmActors"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/MusicalArtist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2668" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/AmericanPopSingers&gt; ;
+   &lt;http://dbpedia.org/property/wikiPageUsesTemplate&gt; &lt;http://dbpedia.org/resource/Template:Infobox_musical_artist&gt; ;
+   foaf:name ?name .
+
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Adrienne_Bailon&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://dbpedia.org/property/wikiPageUsesTemplate"/>
+      <o type="iri" val="http://dbpedia.org/resource/Template:Infobox_musical_artist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/AmericanPopSingers"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2655" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/AmericanFilmActors&gt; ;
+   &lt;http://dbpedia.org/property/wikiPageUsesTemplate&gt; &lt;http://dbpedia.org/resource/Template:Infobox_musical_artist&gt; ;
+   foaf:name ?name .
+
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Adrienne_Bailon&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://dbpedia.org/property/wikiPageUsesTemplate"/>
+      <o type="iri" val="http://dbpedia.org/resource/Template:Infobox_musical_artist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/AmericanFilmActors"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2672" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/AmericanPopSingers&gt; ;
+   a &lt;http://dbpedia.org/ontology/MusicalArtist&gt; ;
+   foaf:name ?name .
+ 
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Adrienne_Bailon&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/AmericanPopSingers"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/MusicalArtist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2616" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/Spanish-languageSingersOfTheUnitedStates&gt; ;
+   &lt;http://dbpedia.org/property/wikiPageUsesTemplate&gt; &lt;http://dbpedia.org/resource/Template:Infobox_musical_artist&gt; ;
+   foaf:name ?name .
+
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Adrienne_Bailon&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://dbpedia.org/property/wikiPageUsesTemplate"/>
+      <o type="iri" val="http://dbpedia.org/resource/Template:Infobox_musical_artist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/Spanish-languageSingersOfTheUnitedStates"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2759" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/PeopleFromManhattan&gt; ;
+   &lt;http://dbpedia.org/property/wikiPageUsesTemplate&gt; &lt;http://dbpedia.org/resource/Template:Infobox_musical_artist&gt; ;
+   foaf:name ?name .
+
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Adrienne_Bailon&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://dbpedia.org/property/wikiPageUsesTemplate"/>
+      <o type="iri" val="http://dbpedia.org/resource/Template:Infobox_musical_artist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/PeopleFromManhattan"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2688" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/AmericanMusiciansOfPuertoRicanDescent&gt; ;
+   a &lt;http://dbpedia.org/ontology/MusicalArtist&gt; ;
+   foaf:name ?name .
+ 
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Adrienne_Bailon&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/AmericanMusiciansOfPuertoRicanDescent"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/MusicalArtist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2709" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/MusiciansFromNewYorkCity&gt; ;
+   &lt;http://dbpedia.org/property/wikiPageUsesTemplate&gt; &lt;http://dbpedia.org/resource/Template:Infobox_musical_artist&gt; ;
+   foaf:name ?name .
+
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Adrienne_Bailon&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://dbpedia.org/property/wikiPageUsesTemplate"/>
+      <o type="iri" val="http://dbpedia.org/resource/Template:Infobox_musical_artist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/MusiciansFromNewYorkCity"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2763" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/PeopleFromManhattan&gt; ;
+   a &lt;http://dbpedia.org/ontology/MusicalArtist&gt; ;
+   foaf:name ?name .
+ 
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Adrienne_Bailon&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/PeopleFromManhattan"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/MusicalArtist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2776" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/AmericanPeopleOfEcuadorianDescent&gt; ;
+   &lt;http://dbpedia.org/property/wikiPageUsesTemplate&gt; &lt;http://dbpedia.org/resource/Template:Infobox_musical_artist&gt; ;
+   foaf:name ?name .
+
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Adrienne_Bailon&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://dbpedia.org/property/wikiPageUsesTemplate"/>
+      <o type="iri" val="http://dbpedia.org/resource/Template:Infobox_musical_artist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/AmericanPeopleOfEcuadorianDescent"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2714" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/MusiciansFromNewYorkCity&gt; ;
+   a &lt;http://dbpedia.org/ontology/MusicalArtist&gt; ;
+   foaf:name ?name .
+ 
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Adrienne_Bailon&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/MusiciansFromNewYorkCity"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/MusicalArtist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2686" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/AmericanMusiciansOfPuertoRicanDescent&gt; ;
+   &lt;http://dbpedia.org/property/wikiPageUsesTemplate&gt; &lt;http://dbpedia.org/resource/Template:Infobox_musical_artist&gt; ;
+   foaf:name ?name .
+
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Adrienne_Bailon&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://dbpedia.org/property/wikiPageUsesTemplate"/>
+      <o type="iri" val="http://dbpedia.org/resource/Template:Infobox_musical_artist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/AmericanMusiciansOfPuertoRicanDescent"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2777" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/AmericanPeopleOfEcuadorianDescent&gt; ;
+   a &lt;http://dbpedia.org/ontology/MusicalArtist&gt; ;
+   foaf:name ?name .
+ 
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Adrienne_Bailon&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/AmericanPeopleOfEcuadorianDescent"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/MusicalArtist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="2752" valid="QBFTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?auri ?aname ?puri ?pname WHERE {
+&lt;http://dbpedia.org/resource/Adrienne_Bailon&gt; &lt;http://dbpedia.org/ontology/hometown&gt; ?puri .
+?auri &lt;http://dbpedia.org/ontology/hometown&gt; ?puri ;
+  a ?type ;
+  foaf:name ?aname .
+?puri rdfs:label ?pname .
+FILTER (LANG(?pname)="en")
+FILTER ( REGEX (STR(?type),"music","i") )
+FILTER (?puri != &lt;http://dbpedia.org/resource/United_States&gt;)
+}
+LIMIT 10 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Adrienne_Bailon"/>
+      <p type="iri" val="http://dbpedia.org/ontology/hometown"/>
+      <o type="var" val="puri"/>
+    </tp>
+    <tp>
+      <s type="var" val="auri"/>
+      <p type="iri" val="http://dbpedia.org/ontology/hometown"/>
+      <o type="var" val="puri"/>
+    </tp>
+    <tp>
+      <s type="var" val="puri"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <o type="var" val="pname"/>
+    </tp>
+    <tp>
+      <s type="var" val="auri"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="var" val="type"/>
+    </tp>
+    <tp>
+      <s type="var" val="auri"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="aname"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="3700" valid="TPF">
+  <request> SELECT DISTINCT ?abs ?about WHERE {
+ &lt;http://dbpedia.org/resource/Maria_Nayler&gt; &lt;http://xmlns.com/foaf/0.1/isPrimaryTopicOf&gt; ?about .
+ OPTIONAL { &lt;http://dbpedia.org/resource/Maria_Nayler&gt; &lt;http://dbpedia.org/ontology/abstract&gt; ?abs . }
+ FILTER( LANG(?abs)="en" || LANG(?abs)="") .
+ }
+ </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Maria_Nayler"/>
+      <p type="iri" val="http://dbpedia.org/ontology/abstract"/>
+      <o type="var" val="abs"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Maria_Nayler"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/>
+      <o type="var" val="about"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="3811" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/BritishFemaleSingers&gt; ;
+   &lt;http://dbpedia.org/property/wikiPageUsesTemplate&gt; &lt;http://dbpedia.org/resource/Template:Infobox_musical_artist&gt; ;
+   foaf:name ?name .
+
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Maria_Nayler&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://dbpedia.org/property/wikiPageUsesTemplate"/>
+      <o type="iri" val="http://dbpedia.org/resource/Template:Infobox_musical_artist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/BritishFemaleSingers"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="3817" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/BritishFemaleSingers&gt; ;
+   a &lt;http://dbpedia.org/ontology/MusicalArtist&gt; ;
+   foaf:name ?name .
+ 
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Maria_Nayler&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/BritishFemaleSingers"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/MusicalArtist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4391" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity&gt; ;
+   &lt;http://dbpedia.org/property/wikiPageUsesTemplate&gt; &lt;http://dbpedia.org/resource/Template:Infobox_musical_artist&gt; ;
+   foaf:name ?name .
+
+ FILTER(?artist != &lt;http://dbpedia.org/resource/I_Threes&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://dbpedia.org/property/wikiPageUsesTemplate"/>
+      <o type="iri" val="http://dbpedia.org/resource/Template:Infobox_musical_artist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4395" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity&gt; ;
+   a &lt;http://dbpedia.org/ontology/MusicalArtist&gt; ;
+   foaf:name ?name .
+ 
+ FILTER(?artist != &lt;http://dbpedia.org/resource/I_Threes&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/MusicalArtist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4363" valid="TPF">
+  <request> SELECT DISTINCT ?abs ?about WHERE {
+ &lt;http://dbpedia.org/resource/I-Threes&gt; &lt;http://xmlns.com/foaf/0.1/isPrimaryTopicOf&gt; ?about .
+ OPTIONAL { &lt;http://dbpedia.org/resource/I-Threes&gt; &lt;http://dbpedia.org/ontology/abstract&gt; ?abs . }
+ FILTER( LANG(?abs)="en" || LANG(?abs)="") .
+ }
+ </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/I-Threes"/>
+      <p type="iri" val="http://dbpedia.org/ontology/abstract"/>
+      <o type="var" val="abs"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/I-Threes"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/>
+      <o type="var" val="about"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4415" valid="QBFTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?auri ?aname ?puri ?pname WHERE {
+&lt;http://dbpedia.org/resource/I_Threes&gt; &lt;http://dbpedia.org/ontology/hometown&gt; ?puri .
+?auri &lt;http://dbpedia.org/ontology/hometown&gt; ?puri ;
+  a ?type ;
+  foaf:name ?aname .
+?puri rdfs:label ?pname .
+FILTER (LANG(?pname)="en")
+FILTER ( REGEX (STR(?type),"music","i") )
+FILTER (?puri != &lt;http://dbpedia.org/resource/United_States&gt;)
+}
+LIMIT 10 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/I_Threes"/>
+      <p type="iri" val="http://dbpedia.org/ontology/hometown"/>
+      <o type="var" val="puri"/>
+    </tp>
+    <tp>
+      <s type="var" val="auri"/>
+      <p type="iri" val="http://dbpedia.org/ontology/hometown"/>
+      <o type="var" val="puri"/>
+    </tp>
+    <tp>
+      <s type="var" val="puri"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <o type="var" val="pname"/>
+    </tp>
+    <tp>
+      <s type="var" val="auri"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="var" val="type"/>
+    </tp>
+    <tp>
+      <s type="var" val="auri"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="aname"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4446" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/JamaicanReggaeMusicalGroups&gt; ;
+   a &lt;http://dbpedia.org/ontology/MusicalArtist&gt; ;
+   foaf:name ?name .
+ 
+ FILTER(?artist != &lt;http://dbpedia.org/resource/I_Threes&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/JamaicanReggaeMusicalGroups"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/MusicalArtist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4451" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/MusicalGroupsEstablishedIn1974&gt; ;
+   &lt;http://dbpedia.org/property/wikiPageUsesTemplate&gt; &lt;http://dbpedia.org/resource/Template:Infobox_musical_artist&gt; ;
+   foaf:name ?name .
+
+ FILTER(?artist != &lt;http://dbpedia.org/resource/I_Threes&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://dbpedia.org/property/wikiPageUsesTemplate"/>
+      <o type="iri" val="http://dbpedia.org/resource/Template:Infobox_musical_artist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/MusicalGroupsEstablishedIn1974"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4453" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/MusicalGroupsEstablishedIn1974&gt; ;
+   a &lt;http://dbpedia.org/ontology/MusicalArtist&gt; ;
+   foaf:name ?name .
+ 
+ FILTER(?artist != &lt;http://dbpedia.org/resource/I_Threes&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/MusicalGroupsEstablishedIn1974"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/MusicalArtist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4443" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/JamaicanReggaeMusicalGroups&gt; ;
+   &lt;http://dbpedia.org/property/wikiPageUsesTemplate&gt; &lt;http://dbpedia.org/resource/Template:Infobox_musical_artist&gt; ;
+   foaf:name ?name .
+
+ FILTER(?artist != &lt;http://dbpedia.org/resource/I_Threes&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://dbpedia.org/property/wikiPageUsesTemplate"/>
+      <o type="iri" val="http://dbpedia.org/resource/Template:Infobox_musical_artist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/JamaicanReggaeMusicalGroups"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4470" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/MusicalGroupsDisestablishedIn1981&gt; ;
+   &lt;http://dbpedia.org/property/wikiPageUsesTemplate&gt; &lt;http://dbpedia.org/resource/Template:Infobox_musical_artist&gt; ;
+   foaf:name ?name .
+
+ FILTER(?artist != &lt;http://dbpedia.org/resource/I_Threes&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://dbpedia.org/property/wikiPageUsesTemplate"/>
+      <o type="iri" val="http://dbpedia.org/resource/Template:Infobox_musical_artist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/MusicalGroupsDisestablishedIn1981"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4473" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/MusicalGroupsDisestablishedIn1981&gt; ;
+   a &lt;http://dbpedia.org/ontology/MusicalArtist&gt; ;
+   foaf:name ?name .
+ 
+ FILTER(?artist != &lt;http://dbpedia.org/resource/I_Threes&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/MusicalGroupsDisestablishedIn1981"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/MusicalArtist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4647" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/MusiciansFromOntario&gt; ;
+   &lt;http://dbpedia.org/property/wikiPageUsesTemplate&gt; &lt;http://dbpedia.org/resource/Template:Infobox_musical_artist&gt; ;
+   foaf:name ?name .
+
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Dan_Bryk&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://dbpedia.org/property/wikiPageUsesTemplate"/>
+      <o type="iri" val="http://dbpedia.org/resource/Template:Infobox_musical_artist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/MusiciansFromOntario"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4642" valid="QBFTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?auri ?aname ?puri ?pname WHERE {
+&lt;http://dbpedia.org/resource/Dan_Bryk&gt; &lt;http://dbpedia.org/ontology/hometown&gt; ?puri .
+?auri &lt;http://dbpedia.org/ontology/hometown&gt; ?puri ;
+  a ?type ;
+  foaf:name ?aname .
+?puri rdfs:label ?pname .
+FILTER (LANG(?pname)="en")
+FILTER ( REGEX (STR(?type),"music","i") )
+FILTER (?puri != &lt;http://dbpedia.org/resource/United_States&gt;)
+}
+LIMIT 10 </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Dan_Bryk"/>
+      <p type="iri" val="http://dbpedia.org/ontology/hometown"/>
+      <o type="var" val="puri"/>
+    </tp>
+    <tp>
+      <s type="var" val="auri"/>
+      <p type="iri" val="http://dbpedia.org/ontology/hometown"/>
+      <o type="var" val="puri"/>
+    </tp>
+    <tp>
+      <s type="var" val="puri"/>
+      <p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <o type="var" val="pname"/>
+    </tp>
+    <tp>
+      <s type="var" val="auri"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="var" val="type"/>
+    </tp>
+    <tp>
+      <s type="var" val="auri"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="aname"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4659" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/CanadianIndieRockMusicians&gt; ;
+   &lt;http://dbpedia.org/property/wikiPageUsesTemplate&gt; &lt;http://dbpedia.org/resource/Template:Infobox_musical_artist&gt; ;
+   foaf:name ?name .
+
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Dan_Bryk&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://dbpedia.org/property/wikiPageUsesTemplate"/>
+      <o type="iri" val="http://dbpedia.org/resource/Template:Infobox_musical_artist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/CanadianIndieRockMusicians"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4687" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/CanadianMaleSingers&gt; ;
+   &lt;http://dbpedia.org/property/wikiPageUsesTemplate&gt; &lt;http://dbpedia.org/resource/Template:Infobox_musical_artist&gt; ;
+   foaf:name ?name .
+
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Dan_Bryk&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://dbpedia.org/property/wikiPageUsesTemplate"/>
+      <o type="iri" val="http://dbpedia.org/resource/Template:Infobox_musical_artist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/CanadianMaleSingers"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4690" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/CanadianMaleSingers&gt; ;
+   a &lt;http://dbpedia.org/ontology/MusicalArtist&gt; ;
+   foaf:name ?name .
+ 
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Dan_Bryk&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/CanadianMaleSingers"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/MusicalArtist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4717" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/CanadianExpatriatesInTheUnitedStates&gt; ;
+   &lt;http://dbpedia.org/property/wikiPageUsesTemplate&gt; &lt;http://dbpedia.org/resource/Template:Infobox_musical_artist&gt; ;
+   foaf:name ?name .
+
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Dan_Bryk&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://dbpedia.org/property/wikiPageUsesTemplate"/>
+      <o type="iri" val="http://dbpedia.org/resource/Template:Infobox_musical_artist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/CanadianExpatriatesInTheUnitedStates"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4665" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/CanadianIndieRockMusicians&gt; ;
+   a &lt;http://dbpedia.org/ontology/MusicalArtist&gt; ;
+   foaf:name ?name .
+ 
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Dan_Bryk&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/CanadianIndieRockMusicians"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/MusicalArtist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4698" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/PeopleFromMississauga&gt; ;
+   a &lt;http://dbpedia.org/ontology/MusicalArtist&gt; ;
+   foaf:name ?name .
+ 
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Dan_Bryk&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/PeopleFromMississauga"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/MusicalArtist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4681" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/CanadianPopSingers&gt; ;
+   a &lt;http://dbpedia.org/ontology/MusicalArtist&gt; ;
+   foaf:name ?name .
+ 
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Dan_Bryk&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/CanadianPopSingers"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/MusicalArtist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4719" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/CanadianExpatriatesInTheUnitedStates&gt; ;
+   a &lt;http://dbpedia.org/ontology/MusicalArtist&gt; ;
+   foaf:name ?name .
+ 
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Dan_Bryk&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/CanadianExpatriatesInTheUnitedStates"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/MusicalArtist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4678" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/CanadianPopSingers&gt; ;
+   &lt;http://dbpedia.org/property/wikiPageUsesTemplate&gt; &lt;http://dbpedia.org/resource/Template:Infobox_musical_artist&gt; ;
+   foaf:name ?name .
+
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Dan_Bryk&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://dbpedia.org/property/wikiPageUsesTemplate"/>
+      <o type="iri" val="http://dbpedia.org/resource/Template:Infobox_musical_artist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/CanadianPopSingers"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4695" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/PeopleFromMississauga&gt; ;
+   &lt;http://dbpedia.org/property/wikiPageUsesTemplate&gt; &lt;http://dbpedia.org/resource/Template:Infobox_musical_artist&gt; ;
+   foaf:name ?name .
+
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Dan_Bryk&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://dbpedia.org/property/wikiPageUsesTemplate"/>
+      <o type="iri" val="http://dbpedia.org/resource/Template:Infobox_musical_artist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/PeopleFromMississauga"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4706" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/CanadianRockSingers&gt; ;
+   a &lt;http://dbpedia.org/ontology/MusicalArtist&gt; ;
+   foaf:name ?name .
+ 
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Dan_Bryk&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/CanadianRockSingers"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/MusicalArtist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4711" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/CanadianPeopleOfPolishDescent&gt; ;
+   a &lt;http://dbpedia.org/ontology/MusicalArtist&gt; ;
+   foaf:name ?name .
+ 
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Dan_Bryk&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/CanadianPeopleOfPolishDescent"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/MusicalArtist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4710" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/CanadianPeopleOfPolishDescent&gt; ;
+   &lt;http://dbpedia.org/property/wikiPageUsesTemplate&gt; &lt;http://dbpedia.org/resource/Template:Infobox_musical_artist&gt; ;
+   foaf:name ?name .
+
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Dan_Bryk&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://dbpedia.org/property/wikiPageUsesTemplate"/>
+      <o type="iri" val="http://dbpedia.org/resource/Template:Infobox_musical_artist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/CanadianPeopleOfPolishDescent"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4654" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/MusiciansFromOntario&gt; ;
+   a &lt;http://dbpedia.org/ontology/MusicalArtist&gt; ;
+   foaf:name ?name .
+ 
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Dan_Bryk&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/MusiciansFromOntario"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/MusicalArtist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4727" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/CanadianPopPianists&gt; ;
+   &lt;http://dbpedia.org/property/wikiPageUsesTemplate&gt; &lt;http://dbpedia.org/resource/Template:Infobox_musical_artist&gt; ;
+   foaf:name ?name .
+
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Dan_Bryk&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://dbpedia.org/property/wikiPageUsesTemplate"/>
+      <o type="iri" val="http://dbpedia.org/resource/Template:Infobox_musical_artist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/CanadianPopPianists"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4732" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/CanadianPopPianists&gt; ;
+   a &lt;http://dbpedia.org/ontology/MusicalArtist&gt; ;
+   foaf:name ?name .
+ 
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Dan_Bryk&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/CanadianPopPianists"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/MusicalArtist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4702" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/CanadianRockSingers&gt; ;
+   &lt;http://dbpedia.org/property/wikiPageUsesTemplate&gt; &lt;http://dbpedia.org/resource/Template:Infobox_musical_artist&gt; ;
+   foaf:name ?name .
+
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Dan_Bryk&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://dbpedia.org/property/wikiPageUsesTemplate"/>
+      <o type="iri" val="http://dbpedia.org/resource/Template:Infobox_musical_artist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/CanadianRockSingers"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4754" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/WritersFromOntario&gt; ;
+   a &lt;http://dbpedia.org/ontology/MusicalArtist&gt; ;
+   foaf:name ?name .
+ 
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Dan_Bryk&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/WritersFromOntario"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/MusicalArtist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4763" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/CanadianExpatriateMusiciansInTheUnitedStates&gt; ;
+   a &lt;http://dbpedia.org/ontology/MusicalArtist&gt; ;
+   foaf:name ?name .
+ 
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Dan_Bryk&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/CanadianExpatriateMusiciansInTheUnitedStates"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/MusicalArtist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4752" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/WritersFromOntario&gt; ;
+   &lt;http://dbpedia.org/property/wikiPageUsesTemplate&gt; &lt;http://dbpedia.org/resource/Template:Infobox_musical_artist&gt; ;
+   foaf:name ?name .
+
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Dan_Bryk&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://dbpedia.org/property/wikiPageUsesTemplate"/>
+      <o type="iri" val="http://dbpedia.org/resource/Template:Infobox_musical_artist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/WritersFromOntario"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="4761" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/CanadianExpatriateMusiciansInTheUnitedStates&gt; ;
+   &lt;http://dbpedia.org/property/wikiPageUsesTemplate&gt; &lt;http://dbpedia.org/resource/Template:Infobox_musical_artist&gt; ;
+   foaf:name ?name .
+
+ FILTER(?artist != &lt;http://dbpedia.org/resource/Dan_Bryk&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://dbpedia.org/property/wikiPageUsesTemplate"/>
+      <o type="iri" val="http://dbpedia.org/resource/Template:Infobox_musical_artist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/CanadianExpatriateMusiciansInTheUnitedStates"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="5211" valid="EmptyTPF">
+  <request> SELECT DISTINCT ?abs ?about WHERE {
+ &lt;http://dbpedia.org/resource/Bruce_%26_Terry&gt; &lt;http://xmlns.com/foaf/0.1/isPrimaryTopicOf&gt; ?about .
+ OPTIONAL { &lt;http://dbpedia.org/resource/Bruce_%26_Terry&gt; &lt;http://dbpedia.org/ontology/abstract&gt; ?abs . }
+ FILTER( LANG(?abs)="en" || LANG(?abs)="") .
+ }
+ </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Bruce_%26_Terry"/>
+      <p type="iri" val="http://dbpedia.org/ontology/abstract"/>
+      <o type="var" val="abs"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Bruce_%26_Terry"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/>
+      <o type="var" val="about"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="5634" valid="TPF">
+  <request> SELECT DISTINCT ?abs ?about WHERE {
+ &lt;http://dbpedia.org/resource/Disincarnate&gt; &lt;http://xmlns.com/foaf/0.1/isPrimaryTopicOf&gt; ?about .
+ OPTIONAL { &lt;http://dbpedia.org/resource/Disincarnate&gt; &lt;http://dbpedia.org/ontology/abstract&gt; ?abs . }
+ FILTER( LANG(?abs)="en" || LANG(?abs)="") .
+ }
+ </request>
+  <bgp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Disincarnate"/>
+      <p type="iri" val="http://dbpedia.org/ontology/abstract"/>
+      <o type="var" val="abs"/>
+    </tp>
+    <tp>
+      <s type="iri" val="http://dbpedia.org/resource/Disincarnate"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/>
+      <o type="var" val="about"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="5820" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/LeadGuitarists&gt; ;
+   a &lt;http://dbpedia.org/ontology/MusicalArtist&gt; ;
+   foaf:name ?name .
+ 
+ FILTER(?artist != &lt;http://dbpedia.org/resource/James_Murphy_(guitarist)&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/LeadGuitarists"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/MusicalArtist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="5817" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/LeadGuitarists&gt; ;
+   &lt;http://dbpedia.org/property/wikiPageUsesTemplate&gt; &lt;http://dbpedia.org/resource/Template:Infobox_musical_artist&gt; ;
+   foaf:name ?name .
+
+ FILTER(?artist != &lt;http://dbpedia.org/resource/James_Murphy_(guitarist)&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://dbpedia.org/property/wikiPageUsesTemplate"/>
+      <o type="iri" val="http://dbpedia.org/resource/Template:Infobox_musical_artist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/LeadGuitarists"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="5849" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/AmericanHeavyMetalGuitarists&gt; ;
+   &lt;http://dbpedia.org/property/wikiPageUsesTemplate&gt; &lt;http://dbpedia.org/resource/Template:Infobox_musical_artist&gt; ;
+   foaf:name ?name .
+
+ FILTER(?artist != &lt;http://dbpedia.org/resource/James_Murphy_(guitarist)&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://dbpedia.org/property/wikiPageUsesTemplate"/>
+      <o type="iri" val="http://dbpedia.org/resource/Template:Infobox_musical_artist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/AmericanHeavyMetalGuitarists"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="5830" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/PeopleFromPortsmouth,Virginia&gt; ;
+   &lt;http://dbpedia.org/property/wikiPageUsesTemplate&gt; &lt;http://dbpedia.org/resource/Template:Infobox_musical_artist&gt; ;
+   foaf:name ?name .
+
+ FILTER(?artist != &lt;http://dbpedia.org/resource/James_Murphy_(guitarist)&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://dbpedia.org/property/wikiPageUsesTemplate"/>
+      <o type="iri" val="http://dbpedia.org/resource/Template:Infobox_musical_artist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/PeopleFromPortsmouth,Virginia"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="5855" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/AmericanHeavyMetalGuitarists&gt; ;
+   a &lt;http://dbpedia.org/ontology/MusicalArtist&gt; ;
+   foaf:name ?name .
+ 
+ FILTER(?artist != &lt;http://dbpedia.org/resource/James_Murphy_(guitarist)&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/AmericanHeavyMetalGuitarists"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/MusicalArtist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="5834" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/PeopleFromPortsmouth,Virginia&gt; ;
+   a &lt;http://dbpedia.org/ontology/MusicalArtist&gt; ;
+   foaf:name ?name .
+ 
+ FILTER(?artist != &lt;http://dbpedia.org/resource/James_Murphy_(guitarist)&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/PeopleFromPortsmouth,Virginia"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/MusicalArtist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="5887" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/MusiciansFromVirginia&gt; ;
+   a &lt;http://dbpedia.org/ontology/MusicalArtist&gt; ;
+   foaf:name ?name .
+ 
+ FILTER(?artist != &lt;http://dbpedia.org/resource/James_Murphy_(guitarist)&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/MusiciansFromVirginia"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/ontology/MusicalArtist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+<entry datetime="2015-10-30T03:00:00" logline="5884" valid="EmptyTPF">
+  <request> 
+PREFIX mo: &lt;http://purl.org/ontology/mo/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX sim: &lt;http://purl.org/ontology/similarity/&gt;
+
+PREFIX dbpo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbpp: &lt;http://dbpedia.org/property/&gt; 
+
+SELECT DISTINCT ?artist ?name WHERE {
+ ?artist a &lt;http://dbpedia.org/class/yago/MusiciansFromVirginia&gt; ;
+   &lt;http://dbpedia.org/property/wikiPageUsesTemplate&gt; &lt;http://dbpedia.org/resource/Template:Infobox_musical_artist&gt; ;
+   foaf:name ?name .
+
+ FILTER(?artist != &lt;http://dbpedia.org/resource/James_Murphy_(guitarist)&gt;) .
+}LIMIT 100
+ </request>
+  <bgp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://dbpedia.org/property/wikiPageUsesTemplate"/>
+      <o type="iri" val="http://dbpedia.org/resource/Template:Infobox_musical_artist"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+      <o type="iri" val="http://dbpedia.org/class/yago/MusiciansFromVirginia"/>
+    </tp>
+    <tp>
+      <s type="var" val="artist"/>
+      <p type="iri" val="http://xmlns.com/foaf/0.1/name"/>
+      <o type="var" val="name"/>
+    </tp>
+  </bgp>
+  <param name="results" val="json"/>
+  <param name="output" val="json"/>
+</entry>
+</log>

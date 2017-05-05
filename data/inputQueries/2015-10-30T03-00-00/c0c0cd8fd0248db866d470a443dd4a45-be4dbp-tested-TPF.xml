@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE log SYSTEM "log.dtd">
+<log ip="c0c0cd8fd0248db866d470a443dd4a45" date="2017-04-20 20:14:56.039089">
+<entry datetime="2015-10-30T03:00:00" logline="6076" valid="EmptyTPF">
+  <request> SELECT DISTINCT * WHERE {?object &lt;http://www.w3.org/2002/07/owl#sameAs&gt; &lt;http://data.asdc.tw/lod/Painting/AW0069&gt; FILTER(REGEX(STR(?object),'//dbpedia.org'))} </request>
+  <bgp>
+    <tp>
+      <s type="var" val="object"/>
+      <p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/>
+      <o type="iri" val="http://data.asdc.tw/lod/Painting/AW0069"/>
+    </tp>
+  </bgp>
+  <param name="output" val="json"/>
+  <param name="format" val="application/json"/>
+  <param name="timeout" val="30000"/>
+  <param name="callback" val="lodlive"/>
+</entry>
+</log>
