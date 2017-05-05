@@ -140,8 +140,7 @@ class ProcessSetBack(ProcessSet):
 	    out_queue.put(None)
 
 	def get(self):
-		if self.isStarted: return self.back_queue.get_nowait()
-		else: raise Exception("Processes are stoped !")
+		return self.back_queue.get_nowait()
 
 if __name__ == "__main__":
 	print("main ProcessSet")
