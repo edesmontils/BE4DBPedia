@@ -63,7 +63,9 @@ mode = args.mode
 # nb_processes = args.nb_processes
 
 stat = Stat(Counter, ['file','cut'+str(MODE_CUTE),'rank','entry-rank','occurrences'] )
-ps = ProcessSet(args.nb_processes, stat, rankAnalysis ,mode)
+ps = ProcessSet(args.nb_processes, rankAnalysis ,mode)
+ps.setStat(stat)
+ps.start()
 
 # logging.info('Lancement des %d processus d\'analyse pour %s', nb_processes, mode)
 # compute_queue = mp.Queue(nb_processes)

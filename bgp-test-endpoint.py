@@ -89,8 +89,9 @@ endpoint.setTimeOut(args.timeout)
 
 nb_processes = args.nb_processes
 logging.info('Lancement des %d processus d\'analyse', nb_processes)
-ps = ProcessSet(nb_processes, stat, TestAnalysis, endpoint, emptyTest)
-
+ps = ProcessSet(nb_processes, TestAnalysis, endpoint, emptyTest)
+ps.setStat(stat)
+ps.start()
 # compute_queue = mp.Queue(nb_processes)
 # process_list = [
 #     mp.Process(target=analyse, args=(compute_queue, endpoint, emptyTest, stat))

@@ -25,11 +25,11 @@ from tools.Stat import *
 from lib.Context import *
 from lib.beRanking import *
 
-from ProcessSet import *
+from tools.ProcessSet import *
 
 #==================================================
 
-def compute(mess, stat, idp, tab_date, ctx):
+def compute(mess, idp, tab_date, ctx):
     (query, param_list, host, file, date, line) = mess
     logging.debug('Treat mess in %s %s', os.getpid(), host)
     if date != tab_date[idp]:
@@ -61,11 +61,14 @@ tab_date = manager.dict()
 for i in range(ctx.nb_processes) :
     tab_date[i]=''
 
-psExtractor = ProcessSet(ctx.nb_processes, None, compute, i, tab_date, ctx)
+psExtractor = ProcessSet(ctx.nb_processes, compute, i, tab_date, ctx)
+psExtractor.start()
 
 if ctx.doRanking:
     logging.info('Lancement des %d processus d\'analyse', ctx.nb_processes)
-    psRanking = ProcessSet(ctx.nb_processes, None, rankAnalysis, MODE_RA_ALL)
+    psRanking = ProcessSet(ctx.nb_processes, rankAnalysis, MODE_RA_ALL)
+    ps.psRanking.start()
+
 
 logging.info('Lancement du traitement')
 for (query, date, param_list, ip) in ctx.file():
@@ -103,7 +106,6 @@ for (query, date, param_list, ip) in ctx.file():
     ctx.stat.put(date,'line')#line()
     if dateOk:  # and (ctx.lines() < 100):
         file = rep + ip + '-be4dbp.xml'
-        #compute_queue.put( (query, param_list, ip, file, date, ctx.lines()) )
         psExtractor.put( (query, param_list, ip, file, date, ctx.lines()) )
         file_set[date].add(file)
 
