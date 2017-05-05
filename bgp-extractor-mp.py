@@ -29,7 +29,7 @@ from tools.ProcessSet import *
 
 #==================================================
 
-def compute(mess, idp, tab_date, ctx):
+def compute(idp, mess, tab_date, ctx):
     (query, param_list, host, file, date, line) = mess
     logging.debug('Treat mess in %s %s', os.getpid(), host)
     if date != tab_date[idp]:
@@ -61,14 +61,13 @@ tab_date = manager.dict()
 for i in range(ctx.nb_processes) :
     tab_date[i]=''
 
-psExtractor = ProcessSet(ctx.nb_processes, compute, i, tab_date, ctx)
+psExtractor = ProcessSet(ctx.nb_processes, compute, tab_date, ctx)
 psExtractor.start()
 
 if ctx.doRanking:
     logging.info('Lancement des %d processus d\'analyse', ctx.nb_processes)
     psRanking = ProcessSet(ctx.nb_processes, rankAnalysis, MODE_RA_ALL)
     ps.psRanking.start()
-
 
 logging.info('Lancement du traitement')
 for (query, date, param_list, ip) in ctx.file():
@@ -122,7 +121,7 @@ for d in file_set:
                 psRanking.put(file)
 
 if ctx.doRanking:
-    logging.info('Arrêt des processus d' 'analyse')
+    logging.info('Arrêt des processus d\'analyse')
     psRanking.stop()
 
 ctx.close()

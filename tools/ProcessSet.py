@@ -20,10 +20,10 @@ class ProcessSet:
 		self.nb_processes = nb_processes
 		self.func = func
 		self.args = args
-		self.compute_queue = mp.Queue(nb_processes)
+		self.compute_queue = mp.Queue(2*nb_processes)
 		self.process_list = [
-		    mp.Process(target=ProcessSet.compute2, args=(self.compute_queue, func, *args))
-		    for _ in range(nb_processes)
+		    mp.Process(target=ProcessSet.compute2, args=(i, self.compute_queue, func, *args))
+		    for i in range(nb_processes)
 		]
 		self.isStarted = False
 		self.stat = None
@@ -32,16 +32,16 @@ class ProcessSet:
 		if not(self.isStarted) and stat is not None:
 			self.stat = stat
 			self.process_list = [
-			    mp.Process(target=ProcessSet.compute1, args=(self.compute_queue, stat, self.func, *self.args))
-			    for _ in range(self.nb_processes)
+			    mp.Process(target=ProcessSet.compute1, args=(i, self.compute_queue, stat, self.func, *self.args))
+			    for i in range(self.nb_processes)
 			]
 		elif stat is not None: 
 			raise Exception("(setStat function) Processes are started !")
 		else: 
 			self.stat = None
 			self.process_list = [
-			    mp.Process(target=ProcessSet.compute2, args=(self.compute_queue, self.func, *self.args))
-			    for _ in range(self.nb_processes)
+			    mp.Process(target=ProcessSet.compute2, args=(i, self.compute_queue, self.func, *self.args))
+			    for i in range(self.nb_processes)
 			]
 
 	def start(self):
@@ -49,26 +49,27 @@ class ProcessSet:
 			for process in self.process_list:
 			    process.start()
 			self.isStarted = True
+			#print(mp.active_children())
 		else: raise Exception("(start function) Processes are started !")
 
-	def compute1(in_queue, stat, func, *args):
+	def compute1(idp, in_queue, stat, func, *args):
 	    while True:
 	        try:
 	            mess = in_queue.get()
 	            if mess is None: break
-	            else: func(mess, stat, *args)
+	            else: func(idp, mess, stat, *args)
 	        except Empty as e:
 	            print('empty!')
 	        except Exception as e:
 	            print(mess, e)
 	            break
 
-	def compute2(in_queue, func, *args):
+	def compute2(idp, in_queue, func, *args):
 	    while True:
 	        try:
 	            mess = in_queue.get()
 	            if mess is None: break
-	            else: func(mess, *args)
+	            else: func(idp, mess, *args)
 	        except Empty as e:
 	            print('empty!')
 	        except Exception as e:
@@ -91,12 +92,13 @@ class ProcessSet:
 
 if __name__ == "__main__":
 	print("main ProcessSet")
-	def f(mess, stat, i, j):
-		print("mess ",None,i,j)
+	def f(idp, mess, i, j):
+		print("mess ", mess,i,j)
 		print(mess, 'treated')
 		print('by')
 
-	ps = ProcessSet(3,None, f, 2, 3)
+	ps = ProcessSet(3, f, 2, 3)
+	ps.start()
 	for k in range(1,10): ps.put(k)
 	ps.stop()
 

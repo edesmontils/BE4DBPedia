@@ -92,13 +92,6 @@ logging.info('Lancement des %d processus d\'analyse', nb_processes)
 ps = ProcessSet(nb_processes, TestAnalysis, endpoint, emptyTest)
 ps.setStat(stat)
 ps.start()
-# compute_queue = mp.Queue(nb_processes)
-# process_list = [
-#     mp.Process(target=analyse, args=(compute_queue, endpoint, emptyTest, stat))
-#     for _ in range(nb_processes)
-# ]
-# for process in process_list:
-#     process.start()
 
 nbf = len(file_set)
 tenpercent = max(int(nbf*0.1),2*nb_processes)
@@ -115,10 +108,6 @@ for file in file_set:
 
 logging.info('Arrêt des processus d' 'analyse')
 ps.stop()
-# for process in process_list:
-#     compute_queue.put(None)
-# for process in process_list:
-#     process.join()
 
 logging.info('Fin')
 endpoint.saveCache()
