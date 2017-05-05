@@ -25,34 +25,22 @@ from tools.Stat import *
 from lib.Context import *
 from lib.beRanking import *
 
+from ProcessSet import *
+
 #==================================================
 
-def compute(idp, tab_date, in_queue, ctx):
-    logging.debug('(%d) Start compute worker "%s"' %(idp, os.getpid()) )
-    while True:
-        try:
-            mess = in_queue.get(timeout=30)
-            if mess is None:
-                break
-            else:
-                (query, param_list, host, file, date, line) = mess
-                logging.debug('Treat mess in %s %s', os.getpid(), host)
-                if date != tab_date[idp]:
-                    tab_date[idp] = date
-                (ok, nquery, bgp, qlt) = validate(date,line, host, query, ctx)
-                logging.debug('Analyse "%s" pour %s', ok, host)
-                if ok:
-                    s = buildXMLBGP(nquery, param_list, bgp, host, date, line, qlt)
-                    if s is not None:
-                        with ctx.sem:
-                            saveEntry(file, s, host)
-        except Empty as e:
-            logging.info('%d - %s empty!' %(idp, os.getpid()) )
-        except Exception as e:
-            print(e)
-            break
-    logging.debug('Stop compute worker "%s"', os.getpid())
-
+def compute(mess, stat, idp, tab_date, ctx):
+    (query, param_list, host, file, date, line) = mess
+    logging.debug('Treat mess in %s %s', os.getpid(), host)
+    if date != tab_date[idp]:
+        tab_date[idp] = date
+    (ok, nquery, bgp, qlt) = validate(date,line, host, query, ctx)
+    logging.debug('Analyse "%s" pour %s', ok, host)
+    if ok:
+        s = buildXMLBGP(nquery, param_list, bgp, host, date, line, qlt)
+        if s is not None:
+            with ctx.sem:
+                saveEntry(file, s, host)
 
 #==================================================
 #==================================================
@@ -72,24 +60,12 @@ manager = mp.Manager()
 tab_date = manager.dict()
 for i in range(ctx.nb_processes) :
     tab_date[i]=''
-compute_queue = mp.Queue(ctx.nb_processes * 6)
-process_list = [
-    mp.Process(
-        target=compute, args=(i, tab_date, compute_queue, ctx))
-    for i in range(ctx.nb_processes)
-]
-for process in process_list:
-    process.start()
+
+psExtractor = ProcessSet(ctx.nb_processes, None, compute, i, tab_date, ctx)
 
 if ctx.doRanking:
     logging.info('Lancement des %d processus d\'analyse', ctx.nb_processes)
-    ranking_queue = mp.Queue()
-    ranking_list = [
-        mp.Process(target=analyse, args=(ranking_queue, ))
-        for _ in range(ctx.nb_processes)
-    ]
-    for process in ranking_list:
-        process.start()
+    psRanking = ProcessSet(ctx.nb_processes, None, rankAnalysis, MODE_RA_ALL)
 
 logging.info('Lancement du traitement')
 for (query, date, param_list, ip) in ctx.file():
@@ -121,21 +97,18 @@ for (query, date, param_list, ip) in ctx.file():
                             closeLog(file)
                             if ctx.doRanking:
                                 logging.info('Study of "%s"', file)
-                                ranking_queue.put(file)
+                                psRanking.put(file)
                     file_set[d].clear()                  
 
     ctx.stat.put(date,'line')#line()
     if dateOk:  # and (ctx.lines() < 100):
         file = rep + ip + '-be4dbp.xml'
-        compute_queue.put( (query, param_list, ip, file, date, ctx.lines()) )
+        #compute_queue.put( (query, param_list, ip, file, date, ctx.lines()) )
+        psExtractor.put( (query, param_list, ip, file, date, ctx.lines()) )
         file_set[date].add(file)
 
-
 logging.info('Arrêt des processus de traitement')
-for process in process_list:
-    compute_queue.put(None)
-for process in process_list:
-    process.join()
+psExtractor.stop()
 
 logging.info('Terminaison des fichiers')
 for d in file_set:
@@ -144,13 +117,10 @@ for d in file_set:
             closeLog(file)
             if ctx.doRanking:
                 logging.info('Analyse de "%s"', file)
-                ranking_queue.put(file)
+                psRanking.put(file)
 
 if ctx.doRanking:
     logging.info('Arrêt des processus d' 'analyse')
-    for process in ranking_list:
-        ranking_queue.put(None)
-    for process in ranking_list:
-        process.join()
+    psRanking.stop()
 
 ctx.close()

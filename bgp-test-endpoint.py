@@ -20,7 +20,7 @@ import logging
 import argparse
 
 from tools.tools import *
-
+from tools.ProcessSet import *
 from tools.Endpoint import *
 from tools.Stat import *
 from lib.beTestEPValid import *
@@ -89,13 +89,15 @@ endpoint.setTimeOut(args.timeout)
 
 nb_processes = args.nb_processes
 logging.info('Lancement des %d processus d\'analyse', nb_processes)
-compute_queue = mp.Queue(nb_processes)
-process_list = [
-    mp.Process(target=analyse, args=(compute_queue, endpoint, emptyTest, stat))
-    for _ in range(nb_processes)
-]
-for process in process_list:
-    process.start()
+ps = ProcessSet(nb_processes, stat, TestAnalysis, endpoint, emptyTest)
+
+# compute_queue = mp.Queue(nb_processes)
+# process_list = [
+#     mp.Process(target=analyse, args=(compute_queue, endpoint, emptyTest, stat))
+#     for _ in range(nb_processes)
+# ]
+# for process in process_list:
+#     process.start()
 
 nbf = len(file_set)
 tenpercent = max(int(nbf*0.1),2*nb_processes)
@@ -108,13 +110,14 @@ for file in file_set:
         endpoint.saveCache()
     if existFile(file):
         logging.debug('Analyse de "%s"', file)
-        compute_queue.put(file)
+        ps.put(file)
 
 logging.info('Arrêt des processus d' 'analyse')
-for process in process_list:
-    compute_queue.put(None)
-for process in process_list:
-    process.join()
+ps.stop()
+# for process in process_list:
+#     compute_queue.put(None)
+# for process in process_list:
+#     process.join()
 
 logging.info('Fin')
 endpoint.saveCache()

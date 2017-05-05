@@ -29,22 +29,22 @@ from lxml import etree  # http://lxml.de/index.html#documentation
 #==================================================
 #==================================================
 
-def analyse(in_queue, endpoint,emptyTest, stat):
-    logging.debug('Start analyse worker "%s"', os.getpid())
-    while True:
-        try:
-            mess = in_queue.get()
-            if mess is None:
-                break
-            else:
-                logging.debug('Treat mess in %s %s', os.getpid(), mess)
-                TestAnalysis(mess, endpoint,emptyTest, stat)
-        except Empty as e:
-            print('empty!')
-        except Exception as e:
-            print(mess, e)
-            break
-    logging.debug('Stop analyse worker "%s"', os.getpid())
+# def analyse(in_queue, endpoint,emptyTest, stat):
+#     logging.debug('Start analyse worker "%s"', os.getpid())
+#     while True:
+#         try:
+#             mess = in_queue.get()
+#             if mess is None:
+#                 break
+#             else:
+#                 logging.debug('Treat mess in %s %s', os.getpid(), mess)
+#                 TestAnalysis(mess, stat, endpoint,emptyTest)
+#         except Empty as e:
+#             print('empty!')
+#         except Exception as e:
+#             print(mess, e)
+#             break
+#     logging.debug('Stop analyse worker "%s"', os.getpid())
 
 #==================================================
 
@@ -136,7 +136,7 @@ def test(endpoint, entry, stat,emptyTest, cacheTO):
 
 #==================================================
 
-def TestAnalysis(file, endpoint,emptyTest,stat):
+def TestAnalysis(file, stat, endpoint,emptyTest):
     logging.debug('testAnalysis for %s' % file)
     print('testAnalysis for %s' % file)
     file_tested = file[:-4]+'-tested-'+emptyTest+'.xml'
