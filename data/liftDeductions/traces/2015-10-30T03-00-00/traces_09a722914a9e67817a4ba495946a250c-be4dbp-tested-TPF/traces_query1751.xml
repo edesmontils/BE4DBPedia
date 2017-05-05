@@ -1,0 +1,635 @@
+<?xml version="1.0"?><!DOCTYPE trace SYSTEM "logTPF.dtd">
+<trace>
+<msg>Master 21226 running on http://localhost:5000/.</msg>
+<msg>Worker 21232 running on http://localhost:5000/.</msg>
+<entry id="e21232-1" client="::ffff:127.0.0.1" worker="21232" time="2017-04-25T20:13:40.014Z">
+<s type="var"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5878274"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["489132637"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!?oldid=489132637"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3632887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["545017937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Doppeltes_Ausrufezeichen"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q353153"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!!?oldid=545017937"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chkchkchk.jpg/200px-Chkchkchk.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://auralstates.com/2007/10/interview-aka-chk-chk-chk-w-nic-offer.html"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://punkcast.com/423/"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://supersweet.org/main.aspx?atype=1&amp;aname=Music_Chk_Chk_Chk&amp;con=1&amp;sc1=0&amp;sc2=0"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.chkchkchk.net/"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.npr.org/templates/story/story.php?storyId=10236467"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600744"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548612260"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Billboard_200"/></data-triple-N3>
+
+<end id="e21232-1"/>
+<entry id="e21232-2" client="::ffff:127.0.0.1" worker="21232" time="2017-04-25T20:13:40.085Z">
+<s type="var"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1656497"^^http://www.w3.org/2001/XMLSchema#integer]]></o>
+</entry>
+<data-triple-N3 id="e21232-2"><s type="iri" val="http://dbpedia.org/resource/POSSLQ"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1656497"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e21232-2"/>
+<entry id="e21232-3" client="::ffff:127.0.0.1" worker="21232" time="2017-04-25T20:13:40.092Z">
+<s type="var"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5878274"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["489132637"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!?oldid=489132637"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3632887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["545017937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Doppeltes_Ausrufezeichen"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q353153"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!!?oldid=545017937"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chkchkchk.jpg/200px-Chkchkchk.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://auralstates.com/2007/10/interview-aka-chk-chk-chk-w-nic-offer.html"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://punkcast.com/423/"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://supersweet.org/main.aspx?atype=1&amp;aname=Music_Chk_Chk_Chk&amp;con=1&amp;sc1=0&amp;sc2=0"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.chkchkchk.net/"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.npr.org/templates/story/story.php?storyId=10236467"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600744"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548612260"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Billboard_200"/></data-triple-N3>
+
+<end id="e21232-3"/>
+<entry id="e21232-4" client="::ffff:127.0.0.1" worker="21232" time="2017-04-25T20:13:40.128Z">
+<s type="iri" val="http://dbpedia.org/resource/POSSLQ"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e21232-4"><s type="iri" val="http://dbpedia.org/resource/POSSLQ"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.census.gov/population/www/documentation/twps0036/twps0036.html"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-4"><s type="iri" val="http://dbpedia.org/resource/POSSLQ"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1656497"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e21232-4"><s type="iri" val="http://dbpedia.org/resource/POSSLQ"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["543277033"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e21232-4"><s type="iri" val="http://dbpedia.org/resource/POSSLQ"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/1980_United_States_Census"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-4"><s type="iri" val="http://dbpedia.org/resource/POSSLQ"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/1990_Census"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-4"><s type="iri" val="http://dbpedia.org/resource/POSSLQ"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/1990_United_States_Census"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-4"><s type="iri" val="http://dbpedia.org/resource/POSSLQ"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Acronym"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-4"><s type="iri" val="http://dbpedia.org/resource/POSSLQ"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/CBS"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-4"><s type="iri" val="http://dbpedia.org/resource/POSSLQ"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Acronyms"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-4"><s type="iri" val="http://dbpedia.org/resource/POSSLQ"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Interpersonal_relationships"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-4"><s type="iri" val="http://dbpedia.org/resource/POSSLQ"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Charles_Osgood"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-4"><s type="iri" val="http://dbpedia.org/resource/POSSLQ"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Cohabitation"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-4"><s type="iri" val="http://dbpedia.org/resource/POSSLQ"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Cohabitation_in_the_United_States"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-4"><s type="iri" val="http://dbpedia.org/resource/POSSLQ"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Common-law_marriage"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-4"><s type="iri" val="http://dbpedia.org/resource/POSSLQ"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Cryptogram"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-4"><s type="iri" val="http://dbpedia.org/resource/POSSLQ"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Current_Population_Survey"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-4"><s type="iri" val="http://dbpedia.org/resource/POSSLQ"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Demography"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-4"><s type="iri" val="http://dbpedia.org/resource/POSSLQ"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Family_(U.S._Census)"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-4"><s type="iri" val="http://dbpedia.org/resource/POSSLQ"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Hartford_Courant"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-4"><s type="iri" val="http://dbpedia.org/resource/POSSLQ"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Significant_other"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-4"><s type="iri" val="http://dbpedia.org/resource/POSSLQ"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/The_Hartford_Courant"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-4"><s type="iri" val="http://dbpedia.org/resource/POSSLQ"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USA"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-4"><s type="iri" val="http://dbpedia.org/resource/POSSLQ"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-4"><s type="iri" val="http://dbpedia.org/resource/POSSLQ"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_Census,_1980"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-4"><s type="iri" val="http://dbpedia.org/resource/POSSLQ"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_Census_Bureau"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-4"><s type="iri" val="http://dbpedia.org/resource/POSSLQ"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Acronyms"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-4"><s type="iri" val="http://dbpedia.org/resource/POSSLQ"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Interpersonal_relationships"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-4"><s type="iri" val="http://dbpedia.org/resource/POSSLQ"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#comment"/><o type="lit"><![CDATA["POSSLQ is an abbreviation for "Persons of Opposite Sex Sharing Living Quarters," a term coined in the late 1970s by the United States Census Bureau as part of an effort to more accurately gauge the prevalence of cohabitation in American households. After the 1980 Census, the term gained currency in the wider culture for a time."@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e21232-4"><s type="iri" val="http://dbpedia.org/resource/POSSLQ"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["POSSLQ"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e21232-4"><s type="iri" val="http://dbpedia.org/resource/POSSLQ"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q7120037"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-4"><s type="iri" val="http://dbpedia.org/resource/POSSLQ"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/POSSLQ?oldid=543277033"/></data-triple-N3>
+
+<data-triple-N3 id="e21232-4"><s type="iri" val="http://dbpedia.org/resource/POSSLQ"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/POSSLQ"/></data-triple-N3>
+
+<end id="e21232-4"/>
+<entry id="e21232-5" client="::ffff:127.0.0.1" worker="21232" time="2017-04-25T20:13:40.141Z">
+<s type="iri" val="http://www.census.gov/population/www/documentation/twps0036/twps0036.html"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e21232-5"/>
+<entry id="e21232-6" client="::ffff:127.0.0.1" worker="21232" time="2017-04-25T20:13:40.144Z">
+<s type="iri" val="http://dbpedia.org/resource/1980_United_States_Census"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e21232-6"><s type="iri" val="http://dbpedia.org/resource/1980_United_States_Census"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3748248"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e21232-6"/>
+<entry id="e21232-7" client="::ffff:127.0.0.1" worker="21232" time="2017-04-25T20:13:40.188Z">
+<s type="iri" val="http://dbpedia.org/resource/1990_Census"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e21232-8" client="::ffff:127.0.0.1" worker="21232" time="2017-04-25T20:13:40.190Z">
+<s type="iri" val="http://dbpedia.org/resource/1990_United_States_Census"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e21232-9" client="::ffff:127.0.0.1" worker="21232" time="2017-04-25T20:13:40.192Z">
+<s type="iri" val="http://dbpedia.org/resource/Acronym"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e21232-7"><s type="iri" val="http://dbpedia.org/resource/1990_Census"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["6675991"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e21232-8"><s type="iri" val="http://dbpedia.org/resource/1990_United_States_Census"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3536675"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e21232-9"><s type="iri" val="http://dbpedia.org/resource/Acronym"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1052571"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e21232-7"/>
+<end id="e21232-8"/>
+<end id="e21232-9"/>
+<entry id="e21232-10" client="::ffff:127.0.0.1" worker="21232" time="2017-04-25T20:13:40.200Z">
+<s type="iri" val="http://dbpedia.org/resource/CBS"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e21232-11" client="::ffff:127.0.0.1" worker="21232" time="2017-04-25T20:13:40.204Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Acronyms"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e21232-10"><s type="iri" val="http://dbpedia.org/resource/CBS"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["37653"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e21232-11"><s type="iri" val="http://dbpedia.org/resource/Category:Acronyms"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["700213"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e21232-10"/>
+<end id="e21232-11"/>
+<entry id="e21232-12" client="::ffff:127.0.0.1" worker="21232" time="2017-04-25T20:13:40.237Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Interpersonal_relationships"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e21232-13" client="::ffff:127.0.0.1" worker="21232" time="2017-04-25T20:13:40.239Z">
+<s type="iri" val="http://dbpedia.org/resource/Charles_Osgood"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e21232-12"><s type="iri" val="http://dbpedia.org/resource/Category:Interpersonal_relationships"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1055603"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e21232-13"><s type="iri" val="http://dbpedia.org/resource/Charles_Osgood"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["821177"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e21232-14" client="::ffff:127.0.0.1" worker="21232" time="2017-04-25T20:13:40.242Z">
+<s type="iri" val="http://dbpedia.org/resource/Cohabitation"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e21232-12"/>
+<end id="e21232-13"/>
+<data-triple-N3 id="e21232-14"><s type="iri" val="http://dbpedia.org/resource/Cohabitation"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["36527"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e21232-14"/>
+<entry id="e21232-15" client="::ffff:127.0.0.1" worker="21232" time="2017-04-25T20:13:40.250Z">
+<s type="iri" val="http://dbpedia.org/resource/Cohabitation_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e21232-15"><s type="iri" val="http://dbpedia.org/resource/Cohabitation_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["23448740"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e21232-15"/>
+<entry id="e21232-16" client="::ffff:127.0.0.1" worker="21232" time="2017-04-25T20:13:40.285Z">
+<s type="iri" val="http://dbpedia.org/resource/Common-law_marriage"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e21232-17" client="::ffff:127.0.0.1" worker="21232" time="2017-04-25T20:13:40.289Z">
+<s type="iri" val="http://dbpedia.org/resource/Cryptogram"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e21232-16"><s type="iri" val="http://dbpedia.org/resource/Common-law_marriage"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["194261"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e21232-17"><s type="iri" val="http://dbpedia.org/resource/Cryptogram"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["69794"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e21232-18" client="::ffff:127.0.0.1" worker="21232" time="2017-04-25T20:13:40.292Z">
+<s type="iri" val="http://dbpedia.org/resource/Current_Population_Survey"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e21232-16"/>
+<end id="e21232-17"/>
+<data-triple-N3 id="e21232-18"><s type="iri" val="http://dbpedia.org/resource/Current_Population_Survey"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["592469"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e21232-19" client="::ffff:127.0.0.1" worker="21232" time="2017-04-25T20:13:40.297Z">
+<s type="iri" val="http://dbpedia.org/resource/Demography"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e21232-18"/>
+<data-triple-N3 id="e21232-19"><s type="iri" val="http://dbpedia.org/resource/Demography"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["45642"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e21232-19"/>
+<entry id="e21232-20" client="::ffff:127.0.0.1" worker="21232" time="2017-04-25T20:13:40.337Z">
+<s type="iri" val="http://dbpedia.org/resource/Family_(U.S._Census)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e21232-21" client="::ffff:127.0.0.1" worker="21232" time="2017-04-25T20:13:40.338Z">
+<s type="iri" val="http://dbpedia.org/resource/Hartford_Courant"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e21232-20"><s type="iri" val="http://dbpedia.org/resource/Family_(U.S._Census)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["32400568"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e21232-21"><s type="iri" val="http://dbpedia.org/resource/Hartford_Courant"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["308650"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e21232-20"/>
+<end id="e21232-21"/>
+<entry id="e21232-22" client="::ffff:127.0.0.1" worker="21232" time="2017-04-25T20:13:40.343Z">
+<s type="iri" val="http://dbpedia.org/resource/Significant_other"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e21232-23" client="::ffff:127.0.0.1" worker="21232" time="2017-04-25T20:13:40.345Z">
+<s type="iri" val="http://dbpedia.org/resource/The_Hartford_Courant"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e21232-22"><s type="iri" val="http://dbpedia.org/resource/Significant_other"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["232643"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e21232-23"><s type="iri" val="http://dbpedia.org/resource/The_Hartford_Courant"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["30517657"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e21232-22"/>
+<end id="e21232-23"/>
+<entry id="e21232-24" client="::ffff:127.0.0.1" worker="21232" time="2017-04-25T20:13:40.382Z">
+<s type="iri" val="http://dbpedia.org/resource/USA"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e21232-25" client="::ffff:127.0.0.1" worker="21232" time="2017-04-25T20:13:40.385Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e21232-24"><s type="iri" val="http://dbpedia.org/resource/USA"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["31873"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e21232-25"><s type="iri" val="http://dbpedia.org/resource/United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3434750"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e21232-24"/>
+<end id="e21232-25"/>
+<entry id="e21232-26" client="::ffff:127.0.0.1" worker="21232" time="2017-04-25T20:13:40.389Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_Census,_1980"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e21232-26"><s type="iri" val="http://dbpedia.org/resource/United_States_Census,_1980"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["17950364"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e21232-27" client="::ffff:127.0.0.1" worker="21232" time="2017-04-25T20:13:40.391Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_Census_Bureau"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e21232-26"/>
+<data-triple-N3 id="e21232-27"><s type="iri" val="http://dbpedia.org/resource/United_States_Census_Bureau"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["57070"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e21232-27"/>
+<entry id="e21232-28" client="::ffff:127.0.0.1" worker="21232" time="2017-04-25T20:13:40.436Z">
+<s type="iri" val="http://www.wikidata.org/entity/Q7120037"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e21232-29" client="::ffff:127.0.0.1" worker="21232" time="2017-04-25T20:13:40.438Z">
+<s type="iri" val="http://en.wikipedia.org/wiki/POSSLQ?oldid=543277033"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e21232-30" client="::ffff:127.0.0.1" worker="21232" time="2017-04-25T20:13:40.439Z">
+<s type="iri" val="http://en.wikipedia.org/wiki/POSSLQ"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e21232-28"/>
+<end id="e21232-29"/>
+<end id="e21232-30"/>
+ </trace>

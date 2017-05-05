@@ -1,0 +1,933 @@
+<?xml version="1.0"?><!DOCTYPE trace SYSTEM "logTPF.dtd">
+<trace>
+<msg>Master 27351 running on http://localhost:5000/.</msg>
+<msg>Worker 27357 running on http://localhost:5000/.</msg>
+<entry id="e27357-1" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:34.630Z">
+<s type="var"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5878274"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["489132637"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!?oldid=489132637"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3632887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["545017937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Doppeltes_Ausrufezeichen"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q353153"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!!?oldid=545017937"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chkchkchk.jpg/200px-Chkchkchk.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://auralstates.com/2007/10/interview-aka-chk-chk-chk-w-nic-offer.html"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://punkcast.com/423/"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://supersweet.org/main.aspx?atype=1&amp;aname=Music_Chk_Chk_Chk&amp;con=1&amp;sc1=0&amp;sc2=0"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.chkchkchk.net/"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.npr.org/templates/story/story.php?storyId=10236467"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600744"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548612260"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Billboard_200"/></data-triple-N3>
+
+<end id="e27357-1"/>
+<entry id="e27357-2" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:34.686Z">
+<s type="var"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["350712"^^http://www.w3.org/2001/XMLSchema#integer]]></o>
+</entry>
+<data-triple-N3 id="e27357-2"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["350712"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27357-2"/>
+<entry id="e27357-3" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:34.696Z">
+<s type="var"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5878274"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["489132637"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!?oldid=489132637"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3632887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["545017937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Doppeltes_Ausrufezeichen"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q353153"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!!?oldid=545017937"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chkchkchk.jpg/200px-Chkchkchk.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://auralstates.com/2007/10/interview-aka-chk-chk-chk-w-nic-offer.html"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://punkcast.com/423/"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://supersweet.org/main.aspx?atype=1&amp;aname=Music_Chk_Chk_Chk&amp;con=1&amp;sc1=0&amp;sc2=0"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.chkchkchk.net/"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.npr.org/templates/story/story.php?storyId=10236467"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600744"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548612260"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Billboard_200"/></data-triple-N3>
+
+<end id="e27357-3"/>
+<entry id="e27357-4" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:34.731Z">
+<s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.museum.tv/archives/etv/M/htmlM/miniseries/miniseries.htm"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["350712"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["546017727"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/52_(comic_book)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/52_(comics)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Alex_Haley"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/America:_The_Story_of_Us"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/American_Broadcasting_Company"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Anthony_Hopkins"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Big_Three_television_networks"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Blockbuster_(entertainment)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/British_television"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Canadian_Broadcasting_Corporation"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Comics_terminology"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Television_miniseries"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Television_terminology"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Cerebus_the_Aardvark"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Civil_War_(comics)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Comic_book"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/DC_Comics"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Dave_Sim"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Episode"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Francis_Wheen"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Hatfield%E2%80%93McCoy_feud"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Hatfields_&amp;_McCoys"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/History_(TV_channel)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Irwin_Shaw"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Jesus_of_Nazareth_(miniseries)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Leslie_Halliwell"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Limited_series"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Media_franchise"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Metaseries"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Nielsen_Ratings"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Nielsen_ratings"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/One-shot_(comics)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ongoing_series"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Philip_Purser"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pierre_Berton"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/QB_VII"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Rich_Man,_Poor_Man_(TV_miniseries)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Roots_(TV_miniseries)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Roots_(mini-series)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Serial_(radio_and_television)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/TV_Guide"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Television_in_the_United_Kingdom"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Television_program"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Television_show"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/The_Bible_(TV_series)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/The_National_Dream_(TV_miniseries)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/The_Quatermass_Experiment"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/The_Sandman_(Vertigo)"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Watchmen"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Comics_terminology"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Television_miniseries"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Television_terminology"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#comment"/><o type="lit"><![CDATA["A miniseries (also mini-series) is a television show production which tells a single story in a limited number of episodes. The number of episodes is variable; however, they are usually limited to fewer than a whole season (13 weeks). Before the invention of this term in the USA, such a production was always known as a "serial". The use of the term "miniseries" is still generally limited to North America."@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["Miniseries"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Miniserie"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/Miniserie"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/Mini-serie"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://gl.dbpedia.org/resource/Miniserie"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://he.dbpedia.org/resource/מיני-סדרה"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://nl.dbpedia.org/resource/Miniserie"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://pl.dbpedia.org/resource/Miniserial"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://pt.dbpedia.org/resource/Minisserie"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ru.dbpedia.org/resource/Мини-сериал"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://sh.dbpedia.org/resource/Miniserija"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://simple.dbpedia.org/resource/Miniseries"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://sv.dbpedia.org/resource/Miniserie"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q1259759"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/Miniseries?oldid=546017727"/></data-triple-N3>
+
+<data-triple-N3 id="e27357-4"><s type="iri" val="http://dbpedia.org/resource/Miniseries"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/Miniseries"/></data-triple-N3>
+
+<end id="e27357-4"/>
+<entry id="e27357-5" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:34.748Z">
+<s type="iri" val="http://www.museum.tv/archives/etv/M/htmlM/miniseries/miniseries.htm"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e27357-5"/>
+<entry id="e27357-6" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:34.751Z">
+<s type="iri" val="http://dbpedia.org/resource/52_(comic_book)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27357-6"><s type="iri" val="http://dbpedia.org/resource/52_(comic_book)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["18397384"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27357-6"/>
+<entry id="e27357-7" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:34.800Z">
+<s type="iri" val="http://dbpedia.org/resource/52_(comics)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e27357-8" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:34.803Z">
+<s type="iri" val="http://dbpedia.org/resource/Alex_Haley"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e27357-9" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:34.805Z">
+<s type="iri" val="http://dbpedia.org/resource/America:_The_Story_of_Us"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27357-7"><s type="iri" val="http://dbpedia.org/resource/52_(comics)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3008225"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27357-8"><s type="iri" val="http://dbpedia.org/resource/Alex_Haley"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["96904"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27357-9"><s type="iri" val="http://dbpedia.org/resource/America:_The_Story_of_Us"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["27124276"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27357-7"/>
+<end id="e27357-8"/>
+<end id="e27357-9"/>
+<entry id="e27357-10" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:34.812Z">
+<s type="iri" val="http://dbpedia.org/resource/American_Broadcasting_Company"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27357-10"><s type="iri" val="http://dbpedia.org/resource/American_Broadcasting_Company"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["62027"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e27357-11" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:34.814Z">
+<s type="iri" val="http://dbpedia.org/resource/Anthony_Hopkins"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e27357-10"/>
+<data-triple-N3 id="e27357-11"><s type="iri" val="http://dbpedia.org/resource/Anthony_Hopkins"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2397"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27357-11"/>
+<entry id="e27357-12" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:34.852Z">
+<s type="iri" val="http://dbpedia.org/resource/Big_Three_television_networks"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27357-12"><s type="iri" val="http://dbpedia.org/resource/Big_Three_television_networks"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1533841"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e27357-13" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:34.859Z">
+<s type="iri" val="http://dbpedia.org/resource/Blockbuster_(entertainment)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e27357-14" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:34.861Z">
+<s type="iri" val="http://dbpedia.org/resource/British_television"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e27357-12"/>
+<data-triple-N3 id="e27357-13"><s type="iri" val="http://dbpedia.org/resource/Blockbuster_(entertainment)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["408230"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27357-14"><s type="iri" val="http://dbpedia.org/resource/British_television"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["32575157"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e27357-15" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:34.865Z">
+<s type="iri" val="http://dbpedia.org/resource/Canadian_Broadcasting_Corporation"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e27357-13"/>
+<end id="e27357-14"/>
+<data-triple-N3 id="e27357-15"><s type="iri" val="http://dbpedia.org/resource/Canadian_Broadcasting_Corporation"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["66730"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27357-15"/>
+<entry id="e27357-16" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:34.912Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Comics_terminology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27357-16"><s type="iri" val="http://dbpedia.org/resource/Category:Comics_terminology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5236337"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e27357-17" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:34.917Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Television_miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e27357-16"/>
+<data-triple-N3 id="e27357-17"><s type="iri" val="http://dbpedia.org/resource/Category:Television_miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1200013"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e27357-18" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:34.923Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Television_terminology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e27357-19" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:34.926Z">
+<s type="iri" val="http://dbpedia.org/resource/Cerebus_the_Aardvark"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e27357-17"/>
+<data-triple-N3 id="e27357-18"><s type="iri" val="http://dbpedia.org/resource/Category:Television_terminology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1671668"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27357-19"><s type="iri" val="http://dbpedia.org/resource/Cerebus_the_Aardvark"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["256003"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27357-18"/>
+<end id="e27357-19"/>
+<entry id="e27357-20" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:34.964Z">
+<s type="iri" val="http://dbpedia.org/resource/Civil_War_(comics)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27357-20"><s type="iri" val="http://dbpedia.org/resource/Civil_War_(comics)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3500202"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e27357-21" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:34.969Z">
+<s type="iri" val="http://dbpedia.org/resource/Comic_book"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e27357-20"/>
+<data-triple-N3 id="e27357-21"><s type="iri" val="http://dbpedia.org/resource/Comic_book"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["6231"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e27357-22" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:34.977Z">
+<s type="iri" val="http://dbpedia.org/resource/DC_Comics"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e27357-21"/>
+<data-triple-N3 id="e27357-22"><s type="iri" val="http://dbpedia.org/resource/DC_Comics"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["9105"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e27357-23" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:34.983Z">
+<s type="iri" val="http://dbpedia.org/resource/Dave_Sim"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e27357-22"/>
+<data-triple-N3 id="e27357-23"><s type="iri" val="http://dbpedia.org/resource/Dave_Sim"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["257219"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27357-23"/>
+<entry id="e27357-24" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.015Z">
+<s type="iri" val="http://dbpedia.org/resource/Episode"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27357-24"><s type="iri" val="http://dbpedia.org/resource/Episode"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["464273"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27357-24"/>
+<entry id="e27357-25" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.022Z">
+<s type="iri" val="http://dbpedia.org/resource/Francis_Wheen"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27357-25"><s type="iri" val="http://dbpedia.org/resource/Francis_Wheen"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["407314"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e27357-26" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.026Z">
+<s type="iri" val="http://dbpedia.org/resource/Hatfield%E2%80%93McCoy_feud"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e27357-25"/>
+<data-triple-N3 id="e27357-26"><s type="iri" val="http://dbpedia.org/resource/Hatfield%E2%80%93McCoy_feud"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["362917"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e27357-27" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.030Z">
+<s type="iri" val="http://dbpedia.org/resource/Hatfields_&amp;_McCoys"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e27357-26"/>
+<data-triple-N3 id="e27357-27"><s type="iri" val="http://dbpedia.org/resource/Hatfields_&amp;_McCoys"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["33544876"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27357-27"/>
+<entry id="e27357-28" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.062Z">
+<s type="iri" val="http://dbpedia.org/resource/History_(TV_channel)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27357-28"><s type="iri" val="http://dbpedia.org/resource/History_(TV_channel)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["748853"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27357-28"/>
+<entry id="e27357-29" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.074Z">
+<s type="iri" val="http://dbpedia.org/resource/Irwin_Shaw"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27357-29"><s type="iri" val="http://dbpedia.org/resource/Irwin_Shaw"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1029100"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e27357-30" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.077Z">
+<s type="iri" val="http://dbpedia.org/resource/Jesus_of_Nazareth_(miniseries)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e27357-31" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.080Z">
+<s type="iri" val="http://dbpedia.org/resource/Leslie_Halliwell"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e27357-29"/>
+<data-triple-N3 id="e27357-30"><s type="iri" val="http://dbpedia.org/resource/Jesus_of_Nazareth_(miniseries)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["488496"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27357-31"><s type="iri" val="http://dbpedia.org/resource/Leslie_Halliwell"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2006667"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27357-30"/>
+<end id="e27357-31"/>
+<entry id="e27357-32" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.112Z">
+<s type="iri" val="http://dbpedia.org/resource/Limited_series"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27357-32"><s type="iri" val="http://dbpedia.org/resource/Limited_series"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3731608"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27357-32"/>
+<entry id="e27357-33" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.125Z">
+<s type="iri" val="http://dbpedia.org/resource/Media_franchise"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e27357-34" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.127Z">
+<s type="iri" val="http://dbpedia.org/resource/Metaseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27357-33"><s type="iri" val="http://dbpedia.org/resource/Media_franchise"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3592846"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27357-34"><s type="iri" val="http://dbpedia.org/resource/Metaseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["703027"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e27357-35" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.128Z">
+<s type="iri" val="http://dbpedia.org/resource/Nielsen_Ratings"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e27357-33"/>
+<end id="e27357-34"/>
+<data-triple-N3 id="e27357-35"><s type="iri" val="http://dbpedia.org/resource/Nielsen_Ratings"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["24467165"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27357-35"/>
+<entry id="e27357-36" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.158Z">
+<s type="iri" val="http://dbpedia.org/resource/Nielsen_ratings"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27357-36"><s type="iri" val="http://dbpedia.org/resource/Nielsen_ratings"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["236591"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27357-36"/>
+<entry id="e27357-37" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.173Z">
+<s type="iri" val="http://dbpedia.org/resource/One-shot_(comics)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27357-37"><s type="iri" val="http://dbpedia.org/resource/One-shot_(comics)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1023907"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e27357-38" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.177Z">
+<s type="iri" val="http://dbpedia.org/resource/Ongoing_series"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e27357-39" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.181Z">
+<s type="iri" val="http://dbpedia.org/resource/Philip_Purser"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e27357-37"/>
+<data-triple-N3 id="e27357-38"><s type="iri" val="http://dbpedia.org/resource/Ongoing_series"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["6070947"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27357-39"><s type="iri" val="http://dbpedia.org/resource/Philip_Purser"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["17857246"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27357-38"/>
+<end id="e27357-39"/>
+<entry id="e27357-40" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.201Z">
+<s type="iri" val="http://dbpedia.org/resource/Pierre_Berton"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27357-40"><s type="iri" val="http://dbpedia.org/resource/Pierre_Berton"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["62133"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27357-40"/>
+<entry id="e27357-41" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.229Z">
+<s type="iri" val="http://dbpedia.org/resource/QB_VII"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27357-41"><s type="iri" val="http://dbpedia.org/resource/QB_VII"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["338307"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e27357-42" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.234Z">
+<s type="iri" val="http://dbpedia.org/resource/Rich_Man,_Poor_Man_(TV_miniseries)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e27357-43" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.236Z">
+<s type="iri" val="http://dbpedia.org/resource/Roots_(TV_miniseries)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e27357-41"/>
+<data-triple-N3 id="e27357-42"><s type="iri" val="http://dbpedia.org/resource/Rich_Man,_Poor_Man_(TV_miniseries)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["13035267"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27357-43"><s type="iri" val="http://dbpedia.org/resource/Roots_(TV_miniseries)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["874877"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27357-42"/>
+<end id="e27357-43"/>
+<entry id="e27357-44" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.245Z">
+<s type="iri" val="http://dbpedia.org/resource/Roots_(mini-series)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27357-44"><s type="iri" val="http://dbpedia.org/resource/Roots_(mini-series)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["913776"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27357-44"/>
+<entry id="e27357-45" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.281Z">
+<s type="iri" val="http://dbpedia.org/resource/Serial_(radio_and_television)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27357-45"><s type="iri" val="http://dbpedia.org/resource/Serial_(radio_and_television)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["12749659"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e27357-46" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.291Z">
+<s type="iri" val="http://dbpedia.org/resource/TV_Guide"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e27357-47" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.292Z">
+<s type="iri" val="http://dbpedia.org/resource/Television_in_the_United_Kingdom"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e27357-45"/>
+<data-triple-N3 id="e27357-46"><s type="iri" val="http://dbpedia.org/resource/TV_Guide"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["188834"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27357-47"><s type="iri" val="http://dbpedia.org/resource/Television_in_the_United_Kingdom"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["182410"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e27357-48" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.295Z">
+<s type="iri" val="http://dbpedia.org/resource/Television_program"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e27357-46"/>
+<end id="e27357-47"/>
+<data-triple-N3 id="e27357-48"><s type="iri" val="http://dbpedia.org/resource/Television_program"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["19508643"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27357-48"/>
+<entry id="e27357-49" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.334Z">
+<s type="iri" val="http://dbpedia.org/resource/Television_show"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27357-49"><s type="iri" val="http://dbpedia.org/resource/Television_show"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["20536302"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e27357-50" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.339Z">
+<s type="iri" val="http://dbpedia.org/resource/The_Bible_(TV_series)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e27357-51" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.342Z">
+<s type="iri" val="http://dbpedia.org/resource/The_National_Dream_(TV_miniseries)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e27357-49"/>
+<data-triple-N3 id="e27357-50"><s type="iri" val="http://dbpedia.org/resource/The_Bible_(TV_series)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["32893956"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27357-51"><s type="iri" val="http://dbpedia.org/resource/The_National_Dream_(TV_miniseries)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["6937775"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e27357-52" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.347Z">
+<s type="iri" val="http://dbpedia.org/resource/The_Quatermass_Experiment"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e27357-50"/>
+<end id="e27357-51"/>
+<data-triple-N3 id="e27357-52"><s type="iri" val="http://dbpedia.org/resource/The_Quatermass_Experiment"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["865416"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27357-52"/>
+<entry id="e27357-53" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.387Z">
+<s type="iri" val="http://dbpedia.org/resource/The_Sandman_(Vertigo)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27357-53"><s type="iri" val="http://dbpedia.org/resource/The_Sandman_(Vertigo)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["79677"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27357-53"/>
+<entry id="e27357-54" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.397Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e27357-55" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.400Z">
+<s type="iri" val="http://dbpedia.org/resource/Watchmen"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27357-54"><s type="iri" val="http://dbpedia.org/resource/United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3434750"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27357-55"><s type="iri" val="http://dbpedia.org/resource/Watchmen"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["33816"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27357-54"/>
+<end id="e27357-55"/>
+<entry id="e27357-56" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.448Z">
+<s type="iri" val="http://de.dbpedia.org/resource/Miniserie"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e27357-57" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.451Z">
+<s type="iri" val="http://es.dbpedia.org/resource/Miniserie"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e27357-58" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.454Z">
+<s type="iri" val="http://fr.dbpedia.org/resource/Mini-serie"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e27357-59" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.457Z">
+<s type="iri" val="http://gl.dbpedia.org/resource/Miniserie"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e27357-56"/>
+<end id="e27357-57"/>
+<end id="e27357-58"/>
+<end id="e27357-59"/>
+<entry id="e27357-60" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.465Z">
+<s type="iri" val="http://he.dbpedia.org/resource/מיני-סדרה"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e27357-60"/>
+<entry id="e27357-61" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.507Z">
+<s type="iri" val="http://nl.dbpedia.org/resource/Miniserie"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e27357-62" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.509Z">
+<s type="iri" val="http://pl.dbpedia.org/resource/Miniserial"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e27357-63" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.510Z">
+<s type="iri" val="http://pt.dbpedia.org/resource/Minisserie"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e27357-64" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.512Z">
+<s type="iri" val="http://ru.dbpedia.org/resource/Мини-сериал"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e27357-61"/>
+<end id="e27357-62"/>
+<end id="e27357-63"/>
+<end id="e27357-64"/>
+<entry id="e27357-65" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.558Z">
+<s type="iri" val="http://sh.dbpedia.org/resource/Miniserija"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e27357-66" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.563Z">
+<s type="iri" val="http://simple.dbpedia.org/resource/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e27357-67" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.567Z">
+<s type="iri" val="http://sv.dbpedia.org/resource/Miniserie"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e27357-68" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.570Z">
+<s type="iri" val="http://www.wikidata.org/entity/Q1259759"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e27357-65"/>
+<end id="e27357-66"/>
+<end id="e27357-67"/>
+<end id="e27357-68"/>
+<entry id="e27357-69" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.616Z">
+<s type="iri" val="http://en.wikipedia.org/wiki/Miniseries?oldid=546017727"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e27357-70" client="::ffff:127.0.0.1" worker="27357" time="2017-04-25T18:16:35.618Z">
+<s type="iri" val="http://en.wikipedia.org/wiki/Miniseries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e27357-69"/>
+<end id="e27357-70"/>
+ </trace>

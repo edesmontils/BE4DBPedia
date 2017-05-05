@@ -1,0 +1,1463 @@
+<?xml version="1.0"?><!DOCTYPE trace SYSTEM "logTPF.dtd">
+<trace>
+<msg>Master 25625 running on http://localhost:5000/.</msg>
+<msg>Worker 25631 running on http://localhost:5000/.</msg>
+<entry id="e25631-1" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.121Z">
+<s type="var"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5878274"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["489132637"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!?oldid=489132637"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3632887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["545017937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Doppeltes_Ausrufezeichen"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q353153"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!!?oldid=545017937"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chkchkchk.jpg/200px-Chkchkchk.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://auralstates.com/2007/10/interview-aka-chk-chk-chk-w-nic-offer.html"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://punkcast.com/423/"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://supersweet.org/main.aspx?atype=1&amp;aname=Music_Chk_Chk_Chk&amp;con=1&amp;sc1=0&amp;sc2=0"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.chkchkchk.net/"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.npr.org/templates/story/story.php?storyId=10236467"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600744"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548612260"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Billboard_200"/></data-triple-N3>
+
+<end id="e25631-1"/>
+<entry id="e25631-2" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.182Z">
+<s type="var"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["229179"^^http://www.w3.org/2001/XMLSchema#integer]]></o>
+</entry>
+<data-triple-N3 id="e25631-2"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["229179"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-2"/>
+<entry id="e25631-3" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.191Z">
+<s type="var"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5878274"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["489132637"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!?oldid=489132637"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3632887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["545017937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Doppeltes_Ausrufezeichen"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q353153"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!!?oldid=545017937"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chkchkchk.jpg/200px-Chkchkchk.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://auralstates.com/2007/10/interview-aka-chk-chk-chk-w-nic-offer.html"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://punkcast.com/423/"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://supersweet.org/main.aspx?atype=1&amp;aname=Music_Chk_Chk_Chk&amp;con=1&amp;sc1=0&amp;sc2=0"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.chkchkchk.net/"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.npr.org/templates/story/story.php?storyId=10236467"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600744"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548612260"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Billboard_200"/></data-triple-N3>
+
+<end id="e25631-3"/>
+<entry id="e25631-4" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.231Z">
+<s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["229179"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["540608643"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/%C3%85boland"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/%C3%85land"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/%C3%85land_Islands"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Administrative_court"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ammattikorkeakoulu"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Askola"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Country_subdivisions_of_Europe"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Finland_geography-related_lists"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Lists_of_country_subdivisions"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Lists_of_municipalities"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Municipalities_of_Finland"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Subdivisions_of_Finland"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Third-level_administrative_country_subdivisions"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/City"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Civil_servant"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Civil_service"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Coat_of_arms"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Commuter_belt"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Conurbation"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Corporation"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Council%E2%80%93manager_government"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Council-manager_government"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Denmark"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Education_in_Finland"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Eken%C3%A4s,_Finland"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Eken%C3%A4s_(Finland)"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Enonteki%C3%B6"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Espoo"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Finland"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Finland-Swedish"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Finland_Swedish"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Finnish_language"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Flat_tax"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Folk_high_school"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Greater_Helsinki"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Gustaf_von_Numers"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/H%C3%A4meenlinna"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Hamina"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Hannes_Manninen"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Helsinki"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Helsinki_Regional_Transport_Authority"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Hetta"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Inari,_Finland"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Income_tax"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Jyrki_Katainen's_cabinet"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Jyv%C3%A4skyl%C3%A4"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Kaskinen"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Kauhava"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Kauniainen"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Kouvola"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Legal_person"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Legal_personality"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/List_of_Finnish_municipalities"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/List_of_Finnish_municipalities_by_area"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/List_of_Finnish_municipalities_by_population"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/List_of_cities_and_towns_in_Finland"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/List_of_former_municipalities_of_Finland"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Logo"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Lohja"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Loviisa"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Maalaiskunta"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Matti_Vanhanen's_second_cabinet"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Metropolitan_area"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Municipalities_of_%C3%85land"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Municipalities_of_Central_Finland"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Municipalities_of_Central_Ostrobothnia"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Municipalities_of_Denmark"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Municipalities_of_Eastern_Uusimaa"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland_Proper"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Municipalities_of_Kainuu"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Municipalities_of_Kymenlaakso"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Municipalities_of_Lapland"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Municipalities_of_Lapland_(Finland)"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Municipalities_of_North_Karelia"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Municipalities_of_Northern_Ostrobothnia"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Municipalities_of_Northern_Savonia"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Municipalities_of_Ostrobothnia"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Municipalities_of_P%C3%A4ij%C3%A4nne_Tavastia"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Municipalities_of_Pirkanmaa"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Municipalities_of_Satakunta"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Municipalities_of_South_Karelia"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Municipalities_of_Southern_Ostrobothnia"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Municipalities_of_Southern_Savonia"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Municipalities_of_Tavastia_Proper"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Municipalities_of_Uusimaa"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Naantali"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ostrobothnia_(region)"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Oulu"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Parish"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Progressive_tax"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Public_service"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Public_services"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Regions_of_Finland"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Royal_Charter"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Royal_charter"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Salo,_Finland"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Sein%C3%A4joki"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-4"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Sipoo"/></data-triple-N3>
+
+<end id="e25631-4"/>
+<entry id="e25631-5" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.262Z">
+<s type="iri" val="http://dbpedia.org/resource/%C3%85boland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-5"><s type="iri" val="http://dbpedia.org/resource/%C3%85boland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2377351"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-5"/>
+<entry id="e25631-6" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.265Z">
+<s type="iri" val="http://dbpedia.org/resource/%C3%85land"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-6"><s type="iri" val="http://dbpedia.org/resource/%C3%85land"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["14402064"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e25631-7" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.268Z">
+<s type="iri" val="http://dbpedia.org/resource/%C3%85land_Islands"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25631-6"/>
+<data-triple-N3 id="e25631-7"><s type="iri" val="http://dbpedia.org/resource/%C3%85land_Islands"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["24296405"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e25631-8" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.271Z">
+<s type="iri" val="http://dbpedia.org/resource/Administrative_court"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25631-7"/>
+<data-triple-N3 id="e25631-8"><s type="iri" val="http://dbpedia.org/resource/Administrative_court"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["13714476"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-8"/>
+<entry id="e25631-9" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.305Z">
+<s type="iri" val="http://dbpedia.org/resource/Ammattikorkeakoulu"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25631-10" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.311Z">
+<s type="iri" val="http://dbpedia.org/resource/Askola"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-9"><s type="iri" val="http://dbpedia.org/resource/Ammattikorkeakoulu"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["34977689"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-10"><s type="iri" val="http://dbpedia.org/resource/Askola"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["373239"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e25631-11" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.315Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Country_subdivisions_of_Europe"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25631-9"/>
+<end id="e25631-10"/>
+<data-triple-N3 id="e25631-11"><s type="iri" val="http://dbpedia.org/resource/Category:Country_subdivisions_of_Europe"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["7582698"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e25631-12" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.320Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Finland_geography-related_lists"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25631-11"/>
+<data-triple-N3 id="e25631-12"><s type="iri" val="http://dbpedia.org/resource/Category:Finland_geography-related_lists"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["37264095"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-12"/>
+<entry id="e25631-13" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.357Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Lists_of_country_subdivisions"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-13"><s type="iri" val="http://dbpedia.org/resource/Category:Lists_of_country_subdivisions"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["7582582"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-13"/>
+<entry id="e25631-14" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.361Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Lists_of_municipalities"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-14"><s type="iri" val="http://dbpedia.org/resource/Category:Lists_of_municipalities"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["773827"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-14"/>
+<entry id="e25631-15" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.370Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25631-16" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.372Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Subdivisions_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25631-17" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.374Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Third-level_administrative_country_subdivisions"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-15"><s type="iri" val="http://dbpedia.org/resource/Category:Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["779681"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-16"><s type="iri" val="http://dbpedia.org/resource/Category:Subdivisions_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["998224"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-17"><s type="iri" val="http://dbpedia.org/resource/Category:Third-level_administrative_country_subdivisions"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["8420362"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-15"/>
+<end id="e25631-16"/>
+<end id="e25631-17"/>
+<entry id="e25631-18" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.405Z">
+<s type="iri" val="http://dbpedia.org/resource/City"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-18"><s type="iri" val="http://dbpedia.org/resource/City"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5391"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-18"/>
+<entry id="e25631-19" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.417Z">
+<s type="iri" val="http://dbpedia.org/resource/Civil_servant"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25631-20" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.418Z">
+<s type="iri" val="http://dbpedia.org/resource/Civil_service"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-19"><s type="iri" val="http://dbpedia.org/resource/Civil_servant"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["296932"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-20"><s type="iri" val="http://dbpedia.org/resource/Civil_service"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["160793"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-19"/>
+<end id="e25631-20"/>
+<entry id="e25631-21" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.423Z">
+<s type="iri" val="http://dbpedia.org/resource/Coat_of_arms"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25631-22" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.425Z">
+<s type="iri" val="http://dbpedia.org/resource/Commuter_belt"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-21"><s type="iri" val="http://dbpedia.org/resource/Coat_of_arms"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["55284"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-22"><s type="iri" val="http://dbpedia.org/resource/Commuter_belt"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["466208"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-21"/>
+<end id="e25631-22"/>
+<entry id="e25631-23" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.463Z">
+<s type="iri" val="http://dbpedia.org/resource/Conurbation"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25631-24" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.465Z">
+<s type="iri" val="http://dbpedia.org/resource/Corporation"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-23"><s type="iri" val="http://dbpedia.org/resource/Conurbation"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["265943"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-24"><s type="iri" val="http://dbpedia.org/resource/Corporation"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["7485"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-23"/>
+<end id="e25631-24"/>
+<entry id="e25631-25" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.473Z">
+<s type="iri" val="http://dbpedia.org/resource/Council%E2%80%93manager_government"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-25"><s type="iri" val="http://dbpedia.org/resource/Council%E2%80%93manager_government"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["159517"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e25631-26" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.476Z">
+<s type="iri" val="http://dbpedia.org/resource/Council-manager_government"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25631-27" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.480Z">
+<s type="iri" val="http://dbpedia.org/resource/Denmark"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25631-25"/>
+<data-triple-N3 id="e25631-26"><s type="iri" val="http://dbpedia.org/resource/Council-manager_government"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["25131414"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-27"><s type="iri" val="http://dbpedia.org/resource/Denmark"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["76972"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-26"/>
+<end id="e25631-27"/>
+<entry id="e25631-28" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.509Z">
+<s type="iri" val="http://dbpedia.org/resource/Education_in_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-28"><s type="iri" val="http://dbpedia.org/resource/Education_in_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["375170"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-28"/>
+<entry id="e25631-29" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.524Z">
+<s type="iri" val="http://dbpedia.org/resource/Eken%C3%A4s,_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-29"><s type="iri" val="http://dbpedia.org/resource/Eken%C3%A4s,_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["784659"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-29"/>
+<entry id="e25631-30" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.529Z">
+<s type="iri" val="http://dbpedia.org/resource/Eken%C3%A4s_(Finland)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-30"><s type="iri" val="http://dbpedia.org/resource/Eken%C3%A4s_(Finland)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["30060078"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-30"/>
+<entry id="e25631-31" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.533Z">
+<s type="iri" val="http://dbpedia.org/resource/Enonteki%C3%B6"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-31"><s type="iri" val="http://dbpedia.org/resource/Enonteki%C3%B6"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["374489"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-31"/>
+<entry id="e25631-32" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.552Z">
+<s type="iri" val="http://dbpedia.org/resource/Espoo"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-32"><s type="iri" val="http://dbpedia.org/resource/Espoo"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["44899"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-32"/>
+<entry id="e25631-33" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.569Z">
+<s type="iri" val="http://dbpedia.org/resource/Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-33"><s type="iri" val="http://dbpedia.org/resource/Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["10577"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-33"/>
+<entry id="e25631-34" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.573Z">
+<s type="iri" val="http://dbpedia.org/resource/Finland-Swedish"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-34"><s type="iri" val="http://dbpedia.org/resource/Finland-Swedish"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["7611130"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-34"/>
+<entry id="e25631-35" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.576Z">
+<s type="iri" val="http://dbpedia.org/resource/Finland_Swedish"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-35"><s type="iri" val="http://dbpedia.org/resource/Finland_Swedish"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["162977"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-35"/>
+<entry id="e25631-36" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.598Z">
+<s type="iri" val="http://dbpedia.org/resource/Finnish_language"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-36"><s type="iri" val="http://dbpedia.org/resource/Finnish_language"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["19984080"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-36"/>
+<entry id="e25631-37" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.613Z">
+<s type="iri" val="http://dbpedia.org/resource/Flat_tax"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-37"><s type="iri" val="http://dbpedia.org/resource/Flat_tax"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["46334"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-37"/>
+<entry id="e25631-38" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.617Z">
+<s type="iri" val="http://dbpedia.org/resource/Folk_high_school"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-38"><s type="iri" val="http://dbpedia.org/resource/Folk_high_school"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1711219"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-38"/>
+<entry id="e25631-39" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.621Z">
+<s type="iri" val="http://dbpedia.org/resource/Greater_Helsinki"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-39"><s type="iri" val="http://dbpedia.org/resource/Greater_Helsinki"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["871024"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-39"/>
+<entry id="e25631-40" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.643Z">
+<s type="iri" val="http://dbpedia.org/resource/Gustaf_von_Numers"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-40"><s type="iri" val="http://dbpedia.org/resource/Gustaf_von_Numers"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["13113880"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-40"/>
+<entry id="e25631-41" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.657Z">
+<s type="iri" val="http://dbpedia.org/resource/H%C3%A4meenlinna"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-41"><s type="iri" val="http://dbpedia.org/resource/H%C3%A4meenlinna"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["266119"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-41"/>
+<entry id="e25631-42" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.661Z">
+<s type="iri" val="http://dbpedia.org/resource/Hamina"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-42"><s type="iri" val="http://dbpedia.org/resource/Hamina"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["254295"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-42"/>
+<entry id="e25631-43" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.664Z">
+<s type="iri" val="http://dbpedia.org/resource/Hannes_Manninen"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-43"><s type="iri" val="http://dbpedia.org/resource/Hannes_Manninen"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3446201"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-43"/>
+<entry id="e25631-44" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.688Z">
+<s type="iri" val="http://dbpedia.org/resource/Helsinki"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-44"><s type="iri" val="http://dbpedia.org/resource/Helsinki"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["13696"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-44"/>
+<entry id="e25631-45" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.701Z">
+<s type="iri" val="http://dbpedia.org/resource/Helsinki_Regional_Transport_Authority"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-45"><s type="iri" val="http://dbpedia.org/resource/Helsinki_Regional_Transport_Authority"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["26520301"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-45"/>
+<entry id="e25631-46" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.705Z">
+<s type="iri" val="http://dbpedia.org/resource/Hetta"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-46"><s type="iri" val="http://dbpedia.org/resource/Hetta"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["19838391"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-46"/>
+<entry id="e25631-47" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.709Z">
+<s type="iri" val="http://dbpedia.org/resource/Inari,_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-47"><s type="iri" val="http://dbpedia.org/resource/Inari,_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["609667"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-47"/>
+<entry id="e25631-48" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.729Z">
+<s type="iri" val="http://dbpedia.org/resource/Income_tax"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-48"><s type="iri" val="http://dbpedia.org/resource/Income_tax"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["50845"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-48"/>
+<entry id="e25631-49" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.741Z">
+<s type="iri" val="http://dbpedia.org/resource/Jyrki_Katainen's_cabinet"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-49"><s type="iri" val="http://dbpedia.org/resource/Jyrki_Katainen's_cabinet"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["32117382"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-49"/>
+<entry id="e25631-50" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.748Z">
+<s type="iri" val="http://dbpedia.org/resource/Jyv%C3%A4skyl%C3%A4"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-50"><s type="iri" val="http://dbpedia.org/resource/Jyv%C3%A4skyl%C3%A4"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["258746"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-50"/>
+<entry id="e25631-51" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.752Z">
+<s type="iri" val="http://dbpedia.org/resource/Kaskinen"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-51"><s type="iri" val="http://dbpedia.org/resource/Kaskinen"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["779575"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-51"/>
+<entry id="e25631-52" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.772Z">
+<s type="iri" val="http://dbpedia.org/resource/Kauhava"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-52"><s type="iri" val="http://dbpedia.org/resource/Kauhava"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["779584"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-52"/>
+<entry id="e25631-53" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.784Z">
+<s type="iri" val="http://dbpedia.org/resource/Kauniainen"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-53"><s type="iri" val="http://dbpedia.org/resource/Kauniainen"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["44900"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-53"/>
+<entry id="e25631-54" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.793Z">
+<s type="iri" val="http://dbpedia.org/resource/Kouvola"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25631-55" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.794Z">
+<s type="iri" val="http://dbpedia.org/resource/Legal_person"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-54"><s type="iri" val="http://dbpedia.org/resource/Kouvola"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["382715"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-55"><s type="iri" val="http://dbpedia.org/resource/Legal_person"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["27457835"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-54"/>
+<end id="e25631-55"/>
+<entry id="e25631-56" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.812Z">
+<s type="iri" val="http://dbpedia.org/resource/Legal_personality"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-56"><s type="iri" val="http://dbpedia.org/resource/Legal_personality"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["219287"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-56"/>
+<entry id="e25631-57" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.824Z">
+<s type="iri" val="http://dbpedia.org/resource/List_of_Finnish_municipalities"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-57"><s type="iri" val="http://dbpedia.org/resource/List_of_Finnish_municipalities"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["229185"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-57"/>
+<entry id="e25631-58" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.837Z">
+<s type="iri" val="http://dbpedia.org/resource/List_of_Finnish_municipalities_by_area"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25631-59" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.838Z">
+<s type="iri" val="http://dbpedia.org/resource/List_of_Finnish_municipalities_by_population"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-58"><s type="iri" val="http://dbpedia.org/resource/List_of_Finnish_municipalities_by_area"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["229190"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-59"><s type="iri" val="http://dbpedia.org/resource/List_of_Finnish_municipalities_by_population"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["229186"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-58"/>
+<end id="e25631-59"/>
+<entry id="e25631-60" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.856Z">
+<s type="iri" val="http://dbpedia.org/resource/List_of_cities_and_towns_in_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-60"><s type="iri" val="http://dbpedia.org/resource/List_of_cities_and_towns_in_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["198108"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-60"/>
+<entry id="e25631-61" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.869Z">
+<s type="iri" val="http://dbpedia.org/resource/List_of_former_municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-61"><s type="iri" val="http://dbpedia.org/resource/List_of_former_municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5562184"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-61"/>
+<entry id="e25631-62" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.882Z">
+<s type="iri" val="http://dbpedia.org/resource/Logo"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25631-63" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.885Z">
+<s type="iri" val="http://dbpedia.org/resource/Lohja"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-62"><s type="iri" val="http://dbpedia.org/resource/Logo"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["52888"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-63"><s type="iri" val="http://dbpedia.org/resource/Lohja"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["782627"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-62"/>
+<end id="e25631-63"/>
+<entry id="e25631-64" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.898Z">
+<s type="iri" val="http://dbpedia.org/resource/Loviisa"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-64"><s type="iri" val="http://dbpedia.org/resource/Loviisa"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["267945"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-64"/>
+<entry id="e25631-65" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.913Z">
+<s type="iri" val="http://dbpedia.org/resource/Maalaiskunta"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-65"><s type="iri" val="http://dbpedia.org/resource/Maalaiskunta"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["20752992"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-65"/>
+<entry id="e25631-66" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.929Z">
+<s type="iri" val="http://dbpedia.org/resource/Matti_Vanhanen's_second_cabinet"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-66"><s type="iri" val="http://dbpedia.org/resource/Matti_Vanhanen's_second_cabinet"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["10705388"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e25631-67" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.933Z">
+<s type="iri" val="http://dbpedia.org/resource/Metropolitan_area"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25631-66"/>
+<data-triple-N3 id="e25631-67"><s type="iri" val="http://dbpedia.org/resource/Metropolitan_area"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["75253"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-67"/>
+<entry id="e25631-68" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.940Z">
+<s type="iri" val="http://dbpedia.org/resource/Municipalities_of_%C3%85land"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-68"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_%C3%85land"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["373334"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-68"/>
+<entry id="e25631-69" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.958Z">
+<s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Central_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-69"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Central_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600913"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-69"/>
+<entry id="e25631-70" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.980Z">
+<s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Central_Ostrobothnia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-70"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Central_Ostrobothnia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600895"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e25631-71" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.984Z">
+<s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Denmark"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25631-70"/>
+<data-triple-N3 id="e25631-71"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Denmark"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["23030114"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e25631-72" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:57.987Z">
+<s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Eastern_Uusimaa"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25631-71"/>
+<data-triple-N3 id="e25631-72"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Eastern_Uusimaa"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600971"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-72"/>
+<entry id="e25631-73" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.000Z">
+<s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland_Proper"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-73"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland_Proper"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600708"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-73"/>
+<entry id="e25631-74" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.029Z">
+<s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Kainuu"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25631-75" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.031Z">
+<s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Kymenlaakso"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-74"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Kainuu"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600815"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-75"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Kymenlaakso"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600980"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e25631-76" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.032Z">
+<s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Lapland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25631-74"/>
+<end id="e25631-75"/>
+<data-triple-N3 id="e25631-76"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Lapland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3527640"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-76"/>
+<entry id="e25631-77" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.045Z">
+<s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Lapland_(Finland)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-77"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Lapland_(Finland)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["211432"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-77"/>
+<entry id="e25631-78" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.073Z">
+<s type="iri" val="http://dbpedia.org/resource/Municipalities_of_North_Karelia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-78"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_North_Karelia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600547"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-78"/>
+<entry id="e25631-79" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.078Z">
+<s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Northern_Ostrobothnia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-79"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Northern_Ostrobothnia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600812"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e25631-80" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.081Z">
+<s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Northern_Savonia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25631-79"/>
+<data-triple-N3 id="e25631-80"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Northern_Savonia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600787"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-80"/>
+<entry id="e25631-81" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.088Z">
+<s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Ostrobothnia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-81"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Ostrobothnia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600874"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-81"/>
+<entry id="e25631-82" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.116Z">
+<s type="iri" val="http://dbpedia.org/resource/Municipalities_of_P%C3%A4ij%C3%A4nne_Tavastia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-82"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_P%C3%A4ij%C3%A4nne_Tavastia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600932"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e25631-83" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.118Z">
+<s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="var"/><o type="var"/>
+</entry>
+<end id="e25631-82"/>
+<data-triple-N3 id="e25631-83"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Sottunga"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-83"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Speaker_(politics)"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-83"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Statistics_Finland"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-83"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Suburb"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-83"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Suburbs"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-83"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Tampere"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-83"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/University_of_applied_sciences_(Finland)"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-83"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Uusimaa_(historical_province)"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-83"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Welfare_state"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-83"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:Suomi.kunnat.2009.template.thick.svg"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-83"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:Vantaa_vaakuna.png"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-83"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Country_subdivisions_of_Europe"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-83"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Finland_geography-related_lists"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-83"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Lists_of_country_subdivisions"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-83"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Lists_of_municipalities"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-83"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Municipalities_of_Finland"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-83"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Subdivisions_of_Finland"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-83"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Third-level_administrative_country_subdivisions"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-83"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/><o type="iri" val="http://www.w3.org/2004/02/skos/core#Concept"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-83"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/><o type="iri" val="http://www.w3.org/2004/02/skos/core#Concept"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-83"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#comment"/><o type="lit"><![CDATA["The municipalities represent the local level of administration in Finland and act as the fundamental, self-governing administrative units of the country. The entire country is incorporated into municipalities and legally, all municipalities are equal, although certain municipalities are called cities. Municipalities have the right to levy a flat percentual income tax, which is between 16 and 22 percent, and they provide two thirds of public services."@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-83"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["Municipalities of Finland"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-83"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://cs.dbpedia.org/resource/Obce_Finska"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-83"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Gemeinde_(Finnland)"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-83"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/Komunumo_(Finnlando)"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-83"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/Soome_vallad"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-83"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eu.dbpedia.org/resource/Finlandiako_udalerriak"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-83"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fi.dbpedia.org/resource/Suomen_kunnat"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-83"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/Municipalites_de_Finlande"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-83"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/Comuni_della_Finlandia"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-83"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://la.dbpedia.org/resource/Communia_Finniae"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-83"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://nn.dbpedia.org/resource/Kommunar_i_Finland"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-83"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ru.dbpedia.org/resource/Общины_Финляндии"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-83"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://sco.dbpedia.org/resource/Municipalities_o_Finland"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-83"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://sv.dbpedia.org/resource/Finlands_kommuner"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-83"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q856076"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-83"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/Municipalities_of_Finland?oldid=540608643"/></data-triple-N3>
+
+<data-triple-N3 id="e25631-83"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Finland"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/Municipalities_of_Finland"/></data-triple-N3>
+
+<entry id="e25631-84" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.126Z">
+<s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Pirkanmaa"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25631-83"/>
+<data-triple-N3 id="e25631-84"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Pirkanmaa"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600668"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e25631-85" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.129Z">
+<s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Satakunta"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25631-86" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.131Z">
+<s type="iri" val="http://dbpedia.org/resource/Municipalities_of_South_Karelia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25631-84"/>
+<data-triple-N3 id="e25631-85"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Satakunta"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600889"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-86"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_South_Karelia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600682"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-85"/>
+<end id="e25631-86"/>
+<entry id="e25631-87" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.160Z">
+<s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Southern_Ostrobothnia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-87"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Southern_Ostrobothnia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600847"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-87"/>
+<entry id="e25631-88" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.173Z">
+<s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Southern_Savonia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-88"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Southern_Savonia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600795"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e25631-89" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.175Z">
+<s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Tavastia_Proper"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25631-90" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.176Z">
+<s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Uusimaa"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25631-88"/>
+<data-triple-N3 id="e25631-89"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Tavastia_Proper"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600941"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-90"><s type="iri" val="http://dbpedia.org/resource/Municipalities_of_Uusimaa"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600957"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-89"/>
+<end id="e25631-90"/>
+<entry id="e25631-91" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.201Z">
+<s type="iri" val="http://dbpedia.org/resource/Naantali"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-91"><s type="iri" val="http://dbpedia.org/resource/Naantali"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["783118"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-91"/>
+<entry id="e25631-92" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.217Z">
+<s type="iri" val="http://dbpedia.org/resource/Ostrobothnia_(region)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-92"><s type="iri" val="http://dbpedia.org/resource/Ostrobothnia_(region)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["782670"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-92"/>
+<entry id="e25631-93" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.222Z">
+<s type="iri" val="http://dbpedia.org/resource/Oulu"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25631-94" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.225Z">
+<s type="iri" val="http://dbpedia.org/resource/Parish"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-93"><s type="iri" val="http://dbpedia.org/resource/Oulu"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["208798"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25631-94"><s type="iri" val="http://dbpedia.org/resource/Parish"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["23623"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-93"/>
+<end id="e25631-94"/>
+<entry id="e25631-95" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.244Z">
+<s type="iri" val="http://dbpedia.org/resource/Progressive_tax"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-95"><s type="iri" val="http://dbpedia.org/resource/Progressive_tax"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["301892"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-95"/>
+<entry id="e25631-96" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.260Z">
+<s type="iri" val="http://dbpedia.org/resource/Public_service"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-96"><s type="iri" val="http://dbpedia.org/resource/Public_service"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1291782"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-96"/>
+<entry id="e25631-97" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.273Z">
+<s type="iri" val="http://dbpedia.org/resource/Public_services"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-97"><s type="iri" val="http://dbpedia.org/resource/Public_services"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["34741468"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e25631-98" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.275Z">
+<s type="iri" val="http://dbpedia.org/resource/Regions_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25631-97"/>
+<data-triple-N3 id="e25631-98"><s type="iri" val="http://dbpedia.org/resource/Regions_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["211865"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-98"/>
+<entry id="e25631-99" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.286Z">
+<s type="iri" val="http://dbpedia.org/resource/Royal_Charter"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-99"><s type="iri" val="http://dbpedia.org/resource/Royal_Charter"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["23107467"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-99"/>
+<entry id="e25631-100" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.301Z">
+<s type="iri" val="http://dbpedia.org/resource/Royal_charter"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-100"><s type="iri" val="http://dbpedia.org/resource/Royal_charter"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["100943"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-100"/>
+<entry id="e25631-101" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.316Z">
+<s type="iri" val="http://dbpedia.org/resource/Salo,_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-101"><s type="iri" val="http://dbpedia.org/resource/Salo,_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["784186"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-101"/>
+<entry id="e25631-102" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.321Z">
+<s type="iri" val="http://dbpedia.org/resource/Sein%C3%A4joki"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-102"><s type="iri" val="http://dbpedia.org/resource/Sein%C3%A4joki"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["514883"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-102"/>
+<entry id="e25631-103" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.328Z">
+<s type="iri" val="http://dbpedia.org/resource/Sipoo"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-103"><s type="iri" val="http://dbpedia.org/resource/Sipoo"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["345385"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-103"/>
+<entry id="e25631-104" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.344Z">
+<s type="iri" val="http://dbpedia.org/resource/Sottunga"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-104"><s type="iri" val="http://dbpedia.org/resource/Sottunga"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["784503"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-104"/>
+<entry id="e25631-105" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.356Z">
+<s type="iri" val="http://dbpedia.org/resource/Speaker_(politics)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-105"><s type="iri" val="http://dbpedia.org/resource/Speaker_(politics)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["368586"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-105"/>
+<entry id="e25631-106" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.360Z">
+<s type="iri" val="http://dbpedia.org/resource/Statistics_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-106"><s type="iri" val="http://dbpedia.org/resource/Statistics_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["13127764"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-106"/>
+<entry id="e25631-107" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.368Z">
+<s type="iri" val="http://dbpedia.org/resource/Suburb"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-107"><s type="iri" val="http://dbpedia.org/resource/Suburb"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["28908"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-107"/>
+<entry id="e25631-108" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.392Z">
+<s type="iri" val="http://dbpedia.org/resource/Suburbs"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-108"><s type="iri" val="http://dbpedia.org/resource/Suburbs"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["199233"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-108"/>
+<entry id="e25631-109" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.406Z">
+<s type="iri" val="http://dbpedia.org/resource/Tampere"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-109"><s type="iri" val="http://dbpedia.org/resource/Tampere"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["68836"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e25631-110" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.408Z">
+<s type="iri" val="http://dbpedia.org/resource/University_of_applied_sciences_(Finland)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25631-109"/>
+<data-triple-N3 id="e25631-110"><s type="iri" val="http://dbpedia.org/resource/University_of_applied_sciences_(Finland)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1641657"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e25631-111" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.410Z">
+<s type="iri" val="http://dbpedia.org/resource/Uusimaa_(historical_province)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25631-110"/>
+<data-triple-N3 id="e25631-111"><s type="iri" val="http://dbpedia.org/resource/Uusimaa_(historical_province)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["199230"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-111"/>
+<entry id="e25631-112" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.440Z">
+<s type="iri" val="http://dbpedia.org/resource/Welfare_state"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-112"><s type="iri" val="http://dbpedia.org/resource/Welfare_state"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["222839"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-112"/>
+<entry id="e25631-113" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.448Z">
+<s type="iri" val="http://dbpedia.org/resource/File:Suomi.kunnat.2009.template.thick.svg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25631-113"/>
+<entry id="e25631-114" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.453Z">
+<s type="iri" val="http://dbpedia.org/resource/File:Vantaa_vaakuna.png"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25631-115" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.455Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Country_subdivisions_of_Europe"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-115"><s type="iri" val="http://dbpedia.org/resource/Category:Country_subdivisions_of_Europe"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["7582698"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-114"/>
+<end id="e25631-115"/>
+<entry id="e25631-116" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.485Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Finland_geography-related_lists"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-116"><s type="iri" val="http://dbpedia.org/resource/Category:Finland_geography-related_lists"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["37264095"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e25631-117" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.489Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Lists_of_country_subdivisions"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25631-116"/>
+<data-triple-N3 id="e25631-117"><s type="iri" val="http://dbpedia.org/resource/Category:Lists_of_country_subdivisions"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["7582582"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-117"/>
+<entry id="e25631-118" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.496Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Lists_of_municipalities"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-118"><s type="iri" val="http://dbpedia.org/resource/Category:Lists_of_municipalities"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["773827"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e25631-119" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.498Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25631-118"/>
+<data-triple-N3 id="e25631-119"><s type="iri" val="http://dbpedia.org/resource/Category:Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["779681"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-119"/>
+<entry id="e25631-120" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.533Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Subdivisions_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-120"><s type="iri" val="http://dbpedia.org/resource/Category:Subdivisions_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["998224"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-120"/>
+<entry id="e25631-121" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.536Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Third-level_administrative_country_subdivisions"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25631-121"><s type="iri" val="http://dbpedia.org/resource/Category:Third-level_administrative_country_subdivisions"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["8420362"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25631-121"/>
+<entry id="e25631-122" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.540Z">
+<s type="iri" val="http://www.w3.org/2004/02/skos/core#Concept"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25631-122"/>
+<entry id="e25631-123" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.582Z">
+<s type="iri" val="http://cs.dbpedia.org/resource/Obce_Finska"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25631-124" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.584Z">
+<s type="iri" val="http://de.dbpedia.org/resource/Gemeinde_(Finnland)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25631-125" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.586Z">
+<s type="iri" val="http://eo.dbpedia.org/resource/Komunumo_(Finnlando)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25631-126" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.587Z">
+<s type="iri" val="http://et.dbpedia.org/resource/Soome_vallad"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25631-123"/>
+<end id="e25631-124"/>
+<end id="e25631-125"/>
+<end id="e25631-126"/>
+<entry id="e25631-127" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.595Z">
+<s type="iri" val="http://eu.dbpedia.org/resource/Finlandiako_udalerriak"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25631-128" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.597Z">
+<s type="iri" val="http://fi.dbpedia.org/resource/Suomen_kunnat"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25631-127"/>
+<end id="e25631-128"/>
+<entry id="e25631-129" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.635Z">
+<s type="iri" val="http://fr.dbpedia.org/resource/Municipalites_de_Finlande"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25631-130" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.637Z">
+<s type="iri" val="http://it.dbpedia.org/resource/Comuni_della_Finlandia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25631-129"/>
+<end id="e25631-130"/>
+<entry id="e25631-131" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.643Z">
+<s type="iri" val="http://la.dbpedia.org/resource/Communia_Finniae"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25631-131"/>
+<entry id="e25631-132" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.649Z">
+<s type="iri" val="http://nn.dbpedia.org/resource/Kommunar_i_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25631-133" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.651Z">
+<s type="iri" val="http://ru.dbpedia.org/resource/Общины_Финляндии"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25631-132"/>
+<end id="e25631-133"/>
+<entry id="e25631-134" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.681Z">
+<s type="iri" val="http://sco.dbpedia.org/resource/Municipalities_o_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25631-134"/>
+<entry id="e25631-135" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.689Z">
+<s type="iri" val="http://sv.dbpedia.org/resource/Finlands_kommuner"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25631-135"/>
+<entry id="e25631-136" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.695Z">
+<s type="iri" val="http://www.wikidata.org/entity/Q856076"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25631-137" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.698Z">
+<s type="iri" val="http://en.wikipedia.org/wiki/Municipalities_of_Finland?oldid=540608643"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25631-136"/>
+<end id="e25631-137"/>
+<entry id="e25631-138" client="::ffff:127.0.0.1" worker="25631" time="2017-04-25T21:13:58.725Z">
+<s type="iri" val="http://en.wikipedia.org/wiki/Municipalities_of_Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25631-138"/>
+ </trace>

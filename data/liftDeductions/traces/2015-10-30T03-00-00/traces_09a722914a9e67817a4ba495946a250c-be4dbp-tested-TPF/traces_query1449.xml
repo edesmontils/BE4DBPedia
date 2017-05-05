@@ -1,0 +1,1883 @@
+<?xml version="1.0"?><!DOCTYPE trace SYSTEM "logTPF.dtd">
+<trace>
+<msg>Master 779 running on http://localhost:5000/.</msg>
+<msg>Worker 785 running on http://localhost:5000/.</msg>
+<entry id="e785-1" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.121Z">
+<s type="var"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5878274"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["489132637"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!?oldid=489132637"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3632887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["545017937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Doppeltes_Ausrufezeichen"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q353153"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!!?oldid=545017937"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chkchkchk.jpg/200px-Chkchkchk.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://auralstates.com/2007/10/interview-aka-chk-chk-chk-w-nic-offer.html"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://punkcast.com/423/"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://supersweet.org/main.aspx?atype=1&amp;aname=Music_Chk_Chk_Chk&amp;con=1&amp;sc1=0&amp;sc2=0"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.chkchkchk.net/"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.npr.org/templates/story/story.php?storyId=10236467"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600744"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548612260"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e785-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Billboard_200"/></data-triple-N3>
+
+<end id="e785-1"/>
+<entry id="e785-2" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.181Z">
+<s type="var"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["53667"^^http://www.w3.org/2001/XMLSchema#integer]]></o>
+</entry>
+<data-triple-N3 id="e785-2"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["53667"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-2"/>
+<entry id="e785-3" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.188Z">
+<s type="var"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5878274"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["489132637"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!?oldid=489132637"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3632887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["545017937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Doppeltes_Ausrufezeichen"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q353153"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!!?oldid=545017937"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chkchkchk.jpg/200px-Chkchkchk.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://auralstates.com/2007/10/interview-aka-chk-chk-chk-w-nic-offer.html"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://punkcast.com/423/"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://supersweet.org/main.aspx?atype=1&amp;aname=Music_Chk_Chk_Chk&amp;con=1&amp;sc1=0&amp;sc2=0"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.chkchkchk.net/"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.npr.org/templates/story/story.php?storyId=10236467"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600744"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548612260"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e785-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Billboard_200"/></data-triple-N3>
+
+<end id="e785-3"/>
+<entry id="e785-4" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.226Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/childOrganisation"/><o type="iri" val="http://dbpedia.org/resource/Bureau_of_Engraving_and_Printing"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/childOrganisation"/><o type="iri" val="http://dbpedia.org/resource/Bureau_of_Engraving_and_Printing"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/childOrganisation"/><o type="iri" val="http://dbpedia.org/resource/Internal_Revenue_Service"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/childOrganisation"/><o type="iri" val="http://dbpedia.org/resource/Internal_Revenue_Service"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/childOrganisation"/><o type="iri" val="http://dbpedia.org/resource/United_States_Mint"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/childOrganisation"/><o type="iri" val="http://dbpedia.org/resource/United_States_Mint"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/headquarter"/><o type="iri" val="http://dbpedia.org/resource/Northwest,_Washington,_D.C."/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/headquarter"/><o type="iri" val="http://dbpedia.org/resource/Northwest,_Washington,_D.C."/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/headquarter"/><o type="iri" val="http://dbpedia.org/resource/Pennsylvania_Avenue"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/headquarter"/><o type="iri" val="http://dbpedia.org/resource/Pennsylvania_Avenue"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/headquarter"/><o type="iri" val="http://dbpedia.org/resource/Treasury_Building_(Washington,_D.C.)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/headquarter"/><o type="iri" val="http://dbpedia.org/resource/Treasury_Building_(Washington,_D.C.)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/jurisdiction"/><o type="iri" val="http://dbpedia.org/resource/Federal_government_of_the_United_States"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/jurisdiction"/><o type="iri" val="http://dbpedia.org/resource/Federal_government_of_the_United_States"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/leader"/><o type="iri" val="http://dbpedia.org/resource/Jack_Lew"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/leader"/><o type="iri" val="http://dbpedia.org/resource/Jacob_Lew"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/location"/><o type="iri" val="http://dbpedia.org/resource/Northwest,_Washington,_D.C."/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/location"/><o type="iri" val="http://dbpedia.org/resource/Northwest,_Washington,_D.C."/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/location"/><o type="iri" val="http://dbpedia.org/resource/Pennsylvania_Avenue"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/location"/><o type="iri" val="http://dbpedia.org/resource/Pennsylvania_Avenue"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/location"/><o type="iri" val="http://dbpedia.org/resource/Treasury_Building_(Washington,_D.C.)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/location"/><o type="iri" val="http://dbpedia.org/resource/Treasury_Building_(Washington,_D.C.)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/numberOfEmployees"/><o type="lit"><![CDATA["115897"^^http://www.w3.org/2001/XMLSchema#nonNegativeInteger]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/numberOfEmployees"/><o type="lit"><![CDATA["115897"^^http://www.w3.org/2001/XMLSchema#nonNegativeInteger]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/US-DeptOfTheTreasury-Seal.svg/200px-US-DeptOfTheTreasury-Seal.svg.png"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://fraser.stlouisfed.org/publications/treasar/"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://openregs.com/agencies/view/6/"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.treas.gov/"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.treas.gov/tigta/"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.treasury.gov/"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.up2maps.net/maps/TSoprano/World/major_foreign_holders_of_treasury_securities.html"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.whitehouse.gov/sites/default/files/omb/budget/fy2013/assets/treasury.pdf"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["53667"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["541852731"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Act_of_Congress"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Alcohol_and_Tobacco_Tax_and_Trade_Bureau"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Alexander_Hamilton"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Assistant_Secretary_for_Financial_Markets"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Assistant_Secretary_for_Financial_Stability"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Assistant_Secretary_of_the_Treasury_for_Economic_Policy"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Assistant_Secretary_of_the_Treasury_for_Financial_Institutions"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Assistant_Secretary_of_the_Treasury_for_Financial_Markets"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Assistant_Secretary_of_the_Treasury_for_Financial_Stability"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Assistant_Secretary_of_the_Treasury_for_Legislative_Affairs"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Banknote"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bureau_of_Alcohol,_Tobacco,_Firearms_and_Explosives"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bureau_of_Alcohol,_Tobacco_and_Firearms"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bureau_of_Engraving_and_Printing"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bureau_of_Public_Debt"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bureau_of_the_Public_Debt"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Cabinet_of_the_United_States"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:1789_establishments_in_the_United_States"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Finance_ministries"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Ministries_established_in_1789"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Robert_Mills_buildings"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:United_States_Department_of_the_Treasury"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:United_States_Department_of_the_Treasury_agencies"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:United_States_federal_executive_departments"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Coins_of_the_United_States_dollar"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Commissioner_of_Internal_Revenue"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Comptroller_of_the_Treasury"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Congressional_Budget_Office"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Economic_policy"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Executive_(government)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Explosive_material"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Explosives"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Federal_Law_Enforcement_Training_Center"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Federal_Reserve_System"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Federal_government_of_the_United_States"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Financial_Crimes_Enforcement_Network"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Financial_Management_Service"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Firearm"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Firearms"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/First_Comptroller_of_the_Treasury"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/First_Report_on_the_Public_Credit"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Fiscal_Assistant_Secretary"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Fiscal_Assistant_Secretary_of_the_Treasury"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Fiscal_policy"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/George_Washington"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Homeland_Security_Act"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Industrial_policy"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Internal_Revenue_Code"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Internal_Revenue_Service"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Jack_Lew"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Jacob_Lew"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Law_enforcement_agency"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/MicroLoan_Program"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mint_(coin)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mint_(coinage)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Monetary_policy"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/National_Institute_of_Standards_and_Technology"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/National_debt_of_the_United_States"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Neal_S._Wolin"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Northwest,_Washington,_D.C."/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Obverse_and_reverse"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Office_of_Financial_Institutions"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Office_of_Financial_Markets_(U.S.)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Office_of_Financial_Stability"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Office_of_Fiscal_Service"/></data-triple-N3>
+
+<data-triple-N3 id="e785-4"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Office_of_Foreign_Assets_Control"/></data-triple-N3>
+
+<end id="e785-4"/>
+<entry id="e785-5" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.252Z">
+<s type="iri" val="http://dbpedia.org/resource/Bureau_of_Engraving_and_Printing"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-5"><s type="iri" val="http://dbpedia.org/resource/Bureau_of_Engraving_and_Printing"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["226532"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-5"/>
+<entry id="e785-6" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.257Z">
+<s type="iri" val="http://dbpedia.org/resource/Internal_Revenue_Service"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-6"><s type="iri" val="http://dbpedia.org/resource/Internal_Revenue_Service"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["23430752"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-6"/>
+<entry id="e785-7" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.298Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_Mint"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-8" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.301Z">
+<s type="iri" val="http://dbpedia.org/resource/Northwest,_Washington,_D.C."/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-7"><s type="iri" val="http://dbpedia.org/resource/United_States_Mint"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["358818"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-8"><s type="iri" val="http://dbpedia.org/resource/Northwest,_Washington,_D.C."/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["924607"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-7"/>
+<end id="e785-8"/>
+<entry id="e785-9" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.345Z">
+<s type="iri" val="http://dbpedia.org/resource/Pennsylvania_Avenue"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-10" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.348Z">
+<s type="iri" val="http://dbpedia.org/resource/Treasury_Building_(Washington,_D.C.)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-9"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_Avenue"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["48535"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-10"><s type="iri" val="http://dbpedia.org/resource/Treasury_Building_(Washington,_D.C.)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["17369751"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-9"/>
+<end id="e785-10"/>
+<entry id="e785-11" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.357Z">
+<s type="iri" val="http://dbpedia.org/resource/Federal_government_of_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-11"><s type="iri" val="http://dbpedia.org/resource/Federal_government_of_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["195149"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-11"/>
+<entry id="e785-12" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.393Z">
+<s type="iri" val="http://dbpedia.org/resource/Jack_Lew"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-13" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.395Z">
+<s type="iri" val="http://dbpedia.org/resource/Jacob_Lew"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-12"><s type="iri" val="http://dbpedia.org/resource/Jack_Lew"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5194296"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-13"><s type="iri" val="http://dbpedia.org/resource/Jacob_Lew"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["38182024"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-12"/>
+<end id="e785-13"/>
+<entry id="e785-14" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.438Z">
+<s type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/US-DeptOfTheTreasury-Seal.svg/200px-US-DeptOfTheTreasury-Seal.svg.png"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-15" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.441Z">
+<s type="iri" val="http://fraser.stlouisfed.org/publications/treasar/"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-16" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.444Z">
+<s type="iri" val="http://openregs.com/agencies/view/6/"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-14"/>
+<entry id="e785-17" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.447Z">
+<s type="iri" val="http://www.treas.gov/"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-15"/>
+<end id="e785-16"/>
+<entry id="e785-18" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.452Z">
+<s type="iri" val="http://www.treas.gov/tigta/"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-17"/>
+<end id="e785-18"/>
+<entry id="e785-19" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.489Z">
+<s type="iri" val="http://www.treasury.gov/"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-19"/>
+<entry id="e785-20" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.493Z">
+<s type="iri" val="http://www.up2maps.net/maps/TSoprano/World/major_foreign_holders_of_treasury_securities.html"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-21" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.496Z">
+<s type="iri" val="http://www.whitehouse.gov/sites/default/files/omb/budget/fy2013/assets/treasury.pdf"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-20"/>
+<end id="e785-21"/>
+<entry id="e785-22" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.545Z">
+<s type="iri" val="http://dbpedia.org/resource/Act_of_Congress"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-23" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.548Z">
+<s type="iri" val="http://dbpedia.org/resource/Alcohol_and_Tobacco_Tax_and_Trade_Bureau"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-24" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.550Z">
+<s type="iri" val="http://dbpedia.org/resource/Alexander_Hamilton"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-25" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.552Z">
+<s type="iri" val="http://dbpedia.org/resource/Assistant_Secretary_for_Financial_Markets"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-22"><s type="iri" val="http://dbpedia.org/resource/Act_of_Congress"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["74746"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-23"><s type="iri" val="http://dbpedia.org/resource/Alcohol_and_Tobacco_Tax_and_Trade_Bureau"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["373067"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-24"><s type="iri" val="http://dbpedia.org/resource/Alexander_Hamilton"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["40597"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-25"><s type="iri" val="http://dbpedia.org/resource/Assistant_Secretary_for_Financial_Markets"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["31462091"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-22"/>
+<end id="e785-23"/>
+<end id="e785-24"/>
+<end id="e785-25"/>
+<entry id="e785-26" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.558Z">
+<s type="iri" val="http://dbpedia.org/resource/Assistant_Secretary_for_Financial_Stability"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-26"><s type="iri" val="http://dbpedia.org/resource/Assistant_Secretary_for_Financial_Stability"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["31577833"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-26"/>
+<entry id="e785-27" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.601Z">
+<s type="iri" val="http://dbpedia.org/resource/Assistant_Secretary_of_the_Treasury_for_Economic_Policy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-27"><s type="iri" val="http://dbpedia.org/resource/Assistant_Secretary_of_the_Treasury_for_Economic_Policy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["32395632"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e785-28" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.604Z">
+<s type="iri" val="http://dbpedia.org/resource/Assistant_Secretary_of_the_Treasury_for_Financial_Institutions"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-29" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.606Z">
+<s type="iri" val="http://dbpedia.org/resource/Assistant_Secretary_of_the_Treasury_for_Financial_Markets"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-27"/>
+<data-triple-N3 id="e785-28"><s type="iri" val="http://dbpedia.org/resource/Assistant_Secretary_of_the_Treasury_for_Financial_Institutions"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["31433717"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-29"><s type="iri" val="http://dbpedia.org/resource/Assistant_Secretary_of_the_Treasury_for_Financial_Markets"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["31449371"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e785-30" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.609Z">
+<s type="iri" val="http://dbpedia.org/resource/Assistant_Secretary_of_the_Treasury_for_Financial_Stability"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-28"/>
+<end id="e785-29"/>
+<data-triple-N3 id="e785-30"><s type="iri" val="http://dbpedia.org/resource/Assistant_Secretary_of_the_Treasury_for_Financial_Stability"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["31577824"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-30"/>
+<entry id="e785-31" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.649Z">
+<s type="iri" val="http://dbpedia.org/resource/Assistant_Secretary_of_the_Treasury_for_Legislative_Affairs"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-31"><s type="iri" val="http://dbpedia.org/resource/Assistant_Secretary_of_the_Treasury_for_Legislative_Affairs"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["32848513"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-31"/>
+<entry id="e785-32" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.653Z">
+<s type="iri" val="http://dbpedia.org/resource/Banknote"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-33" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.657Z">
+<s type="iri" val="http://dbpedia.org/resource/Bureau_of_Alcohol,_Tobacco,_Firearms_and_Explosives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-32"><s type="iri" val="http://dbpedia.org/resource/Banknote"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["208286"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-33"><s type="iri" val="http://dbpedia.org/resource/Bureau_of_Alcohol,_Tobacco,_Firearms_and_Explosives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["345261"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e785-34" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.661Z">
+<s type="iri" val="http://dbpedia.org/resource/Bureau_of_Alcohol,_Tobacco_and_Firearms"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-32"/>
+<end id="e785-33"/>
+<data-triple-N3 id="e785-34"><s type="iri" val="http://dbpedia.org/resource/Bureau_of_Alcohol,_Tobacco_and_Firearms"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["40169"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-34"/>
+<entry id="e785-35" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.707Z">
+<s type="iri" val="http://dbpedia.org/resource/Bureau_of_Public_Debt"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-36" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.712Z">
+<s type="iri" val="http://dbpedia.org/resource/Bureau_of_the_Public_Debt"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-35"><s type="iri" val="http://dbpedia.org/resource/Bureau_of_Public_Debt"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2628865"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-36"><s type="iri" val="http://dbpedia.org/resource/Bureau_of_the_Public_Debt"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2189576"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e785-37" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.717Z">
+<s type="iri" val="http://dbpedia.org/resource/Cabinet_of_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-35"/>
+<end id="e785-36"/>
+<data-triple-N3 id="e785-37"><s type="iri" val="http://dbpedia.org/resource/Cabinet_of_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["32290"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e785-38" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.721Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:1789_establishments_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-37"/>
+<data-triple-N3 id="e785-38"><s type="iri" val="http://dbpedia.org/resource/Category:1789_establishments_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["28372912"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-38"/>
+<entry id="e785-39" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.764Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Finance_ministries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-39"><s type="iri" val="http://dbpedia.org/resource/Category:Finance_ministries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["8850231"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e785-40" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.768Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Ministries_established_in_1789"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-41" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.771Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Robert_Mills_buildings"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-39"/>
+<data-triple-N3 id="e785-40"><s type="iri" val="http://dbpedia.org/resource/Category:Ministries_established_in_1789"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["24211906"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-41"><s type="iri" val="http://dbpedia.org/resource/Category:Robert_Mills_buildings"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["21313259"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e785-42" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.774Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-40"/>
+<end id="e785-41"/>
+<data-triple-N3 id="e785-42"><s type="iri" val="http://dbpedia.org/resource/Category:United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2099227"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-42"/>
+<entry id="e785-43" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.815Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:United_States_Department_of_the_Treasury_agencies"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-43"><s type="iri" val="http://dbpedia.org/resource/Category:United_States_Department_of_the_Treasury_agencies"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["20938858"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e785-44" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.821Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:United_States_federal_executive_departments"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-43"/>
+<data-triple-N3 id="e785-44"><s type="iri" val="http://dbpedia.org/resource/Category:United_States_federal_executive_departments"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["16510043"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e785-45" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.827Z">
+<s type="iri" val="http://dbpedia.org/resource/Coins_of_the_United_States_dollar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-46" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.831Z">
+<s type="iri" val="http://dbpedia.org/resource/Commissioner_of_Internal_Revenue"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-44"/>
+<data-triple-N3 id="e785-45"><s type="iri" val="http://dbpedia.org/resource/Coins_of_the_United_States_dollar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["32333"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-46"><s type="iri" val="http://dbpedia.org/resource/Commissioner_of_Internal_Revenue"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2532787"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-45"/>
+<end id="e785-46"/>
+<entry id="e785-47" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.864Z">
+<s type="iri" val="http://dbpedia.org/resource/Comptroller_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-47"><s type="iri" val="http://dbpedia.org/resource/Comptroller_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["767759"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-47"/>
+<entry id="e785-48" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.873Z">
+<s type="iri" val="http://dbpedia.org/resource/Congressional_Budget_Office"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-49" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.874Z">
+<s type="iri" val="http://dbpedia.org/resource/Economic_policy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-48"><s type="iri" val="http://dbpedia.org/resource/Congressional_Budget_Office"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1053718"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-49"><s type="iri" val="http://dbpedia.org/resource/Economic_policy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["210522"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-48"/>
+<end id="e785-49"/>
+<entry id="e785-50" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.879Z">
+<s type="iri" val="http://dbpedia.org/resource/Executive_(government)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-50"><s type="iri" val="http://dbpedia.org/resource/Executive_(government)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["10263"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-50"/>
+<entry id="e785-51" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.904Z">
+<s type="iri" val="http://dbpedia.org/resource/Explosive_material"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-51"><s type="iri" val="http://dbpedia.org/resource/Explosive_material"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["10192"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-51"/>
+<entry id="e785-52" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.917Z">
+<s type="iri" val="http://dbpedia.org/resource/Explosives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-53" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.918Z">
+<s type="iri" val="http://dbpedia.org/resource/Federal_Law_Enforcement_Training_Center"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-52"><s type="iri" val="http://dbpedia.org/resource/Explosives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["10523"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-53"><s type="iri" val="http://dbpedia.org/resource/Federal_Law_Enforcement_Training_Center"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1711994"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-52"/>
+<end id="e785-53"/>
+<entry id="e785-54" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.922Z">
+<s type="iri" val="http://dbpedia.org/resource/Federal_Reserve_System"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-54"><s type="iri" val="http://dbpedia.org/resource/Federal_Reserve_System"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["10819"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-54"/>
+<entry id="e785-55" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.961Z">
+<s type="iri" val="http://dbpedia.org/resource/Financial_Crimes_Enforcement_Network"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-56" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.963Z">
+<s type="iri" val="http://dbpedia.org/resource/Financial_Management_Service"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-55"><s type="iri" val="http://dbpedia.org/resource/Financial_Crimes_Enforcement_Network"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["192628"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-56"><s type="iri" val="http://dbpedia.org/resource/Financial_Management_Service"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3546617"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-55"/>
+<end id="e785-56"/>
+<entry id="e785-57" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.969Z">
+<s type="iri" val="http://dbpedia.org/resource/Firearm"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-58" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:23.971Z">
+<s type="iri" val="http://dbpedia.org/resource/Firearms"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-57"><s type="iri" val="http://dbpedia.org/resource/Firearm"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["11966"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-58"><s type="iri" val="http://dbpedia.org/resource/Firearms"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["98760"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-57"/>
+<end id="e785-58"/>
+<entry id="e785-59" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.004Z">
+<s type="iri" val="http://dbpedia.org/resource/First_Comptroller_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-59"><s type="iri" val="http://dbpedia.org/resource/First_Comptroller_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["767778"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-59"/>
+<entry id="e785-60" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.009Z">
+<s type="iri" val="http://dbpedia.org/resource/First_Report_on_the_Public_Credit"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-60"><s type="iri" val="http://dbpedia.org/resource/First_Report_on_the_Public_Credit"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["8008805"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-60"/>
+<entry id="e785-61" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.013Z">
+<s type="iri" val="http://dbpedia.org/resource/Fiscal_Assistant_Secretary"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-61"><s type="iri" val="http://dbpedia.org/resource/Fiscal_Assistant_Secretary"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["31483563"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e785-62" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.015Z">
+<s type="iri" val="http://dbpedia.org/resource/Fiscal_Assistant_Secretary_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-61"/>
+<data-triple-N3 id="e785-62"><s type="iri" val="http://dbpedia.org/resource/Fiscal_Assistant_Secretary_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["31483561"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-62"/>
+<entry id="e785-63" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.049Z">
+<s type="iri" val="http://dbpedia.org/resource/Fiscal_policy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-63"><s type="iri" val="http://dbpedia.org/resource/Fiscal_policy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["132645"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-63"/>
+<entry id="e785-64" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.053Z">
+<s type="iri" val="http://dbpedia.org/resource/George_Washington"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-64"><s type="iri" val="http://dbpedia.org/resource/George_Washington"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["11968"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-64"/>
+<entry id="e785-65" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.057Z">
+<s type="iri" val="http://dbpedia.org/resource/Homeland_Security_Act"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-65"><s type="iri" val="http://dbpedia.org/resource/Homeland_Security_Act"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1504605"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e785-66" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.060Z">
+<s type="iri" val="http://dbpedia.org/resource/Industrial_policy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-65"/>
+<data-triple-N3 id="e785-66"><s type="iri" val="http://dbpedia.org/resource/Industrial_policy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["171855"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e785-67" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.063Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="var"/><o type="var"/>
+</entry>
+<end id="e785-66"/>
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Office_of_Intelligence_and_Analysis_(Treasury_Department)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Office_of_Management_and_Budget"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Office_of_Terrorism_and_Financial_Intelligence"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Office_of_Terrorist_Financing_and_Financial_Crimes"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Office_of_the_Comptroller_of_the_Currency"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Operations_of_the_Act_Laying_Duties_on_Imports"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Paper_currency"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pennsylvania_Avenue"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/President_of_the_United_States"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Private_letter_ruling"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Report_on_Manufactures"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Revenue"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Revenue_Procedures"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Revenue_ruling"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Robert_Morris_(financier)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Rosa_Gumataotao_Rios"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Seal_of_the_United_States_Department_of_the_Treasury"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Second_Report_on_Public_Credit"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Secretary_of_the_Treasury"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/September_11,_2001_terrorist_attacks"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/September_11_attacks"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Solicitor_of_the_United_States_Treasury"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Tariff_of_1790"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Tax"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Tax,_tariff_and_trade"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Tax_evasion"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Taxation_in_the_United_States"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Thrift_institution"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Treasurer_of_the_United_States"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Treasury"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Treasury_Building_(Washington,_D.C.)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Treasury_Enterprise_Architecture_Framework"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Treasury_Executive_Office_for_Asset_Forfeiture"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Treasury_Information_System_Architecture_Framework"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Treasury_Inspector_General_for_Tax_Administration"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Treasury_regulations"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/U.S._Treasury_Department"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Under_Secretary_of_the_Treasury_for_Domestic_Finance"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Under_Secretary_of_the_Treasury_for_International_Affairs"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Under_Secretary_of_the_Treasury_for_Terrorism_and_Financial_Intelligence"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_Cabinet"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_Congress_Joint_Committee_on_Taxation"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_Customs_Service"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_Department_of_Homeland_Security"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_Department_of_Justice"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_Deputy_Secretary_of_the_Treasury"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_Mint"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_Secret_Service"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_Secretary_of_the_Treasury"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_coinage"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_federal_executive_departments"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_public_debt"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_ten-dollar_bill"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Agent_of_the_Treasury"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Assistant_Secretary_of_the_Treasury_for_Management"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Assistant_Secretary_of_the_Treasury_for_Public_Affairs"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Assistant_Secretary_of_the_Treasury_for_Tax_Policy"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Distress_warrant"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:Organization_of_US_Dept_of_the_Treasury.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:Seal_on_United_States_Department_of_the_Treasury_on_the_Building.JPG"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:Treasury_Annex.JPG"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:Treasury_Department_rear_view.JPG"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:Treasury_departement.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:Treasury_department_official_1907.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Internal_revenue_bulletin"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Office_of_the_General_Counsel_for_the_Department_of_the_Treasury"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:1789_establishments_in_the_United_States"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Finance_ministries"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Ministries_established_in_1789"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Robert_Mills_buildings"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:United_States_Department_of_the_Treasury"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:United_States_federal_executive_departments"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.georss.org/georss/point"/><o type="lit"><![CDATA["38.89833333333333 -77.03416666666666"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.georss.org/georss/point"/><o type="lit"><![CDATA["38.89833333333333 -77.03416666666666"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/><o type="iri" val="http://dbpedia.org/ontology/Agent"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/><o type="iri" val="http://dbpedia.org/ontology/GovernmentAgency"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/><o type="iri" val="http://dbpedia.org/ontology/Organisation"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/><o type="iri" val="http://schema.org/GovernmentOrganization"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/><o type="iri" val="http://schema.org/Organization"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/><o type="iri" val="http://www.opengis.net/gml/_Feature"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/><o type="iri" val="http://www.opengis.net/gml/_Feature"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/><o type="iri" val="http://www.w3.org/2002/07/owl#Thing"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/><o type="iri" val="http://www.w3.org/2004/02/skos/core#Concept"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#comment"/><o type="lit"><![CDATA["The Department of the Treasury is an executive department and the treasury of the United States federal government. It was established by an Act of Congress in 1789 to manage government revenue. The Department is administered by the Secretary of the Treasury, who is a member of the Cabinet. Jack Lew is the current Secretary of the Treasury; he was sworn in on February 28, 2013. The first Secretary of the Treasury was Alexander Hamilton, who was sworn into office on September 11, 1789."@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["United States Department of the Treasury"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://bg.dbpedia.org/resource/Министерство_на_финансите_на_САЩ"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Finanzministerium_der_Vereinigten_Staaten"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/Usona_Ministerio_pri_la_Kaso"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/Departamento_del_Tesoro_de_los_Estados_Unidos"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/Ameerika_Uhendriikide_Rahandusministeerium"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eu.dbpedia.org/resource/Ameriketako_Estatu_Batuetako_Ogasun_Saila"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fa.dbpedia.org/resource/وزارت_خزانه‌داری_ایالات_متحده_آمریکا"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fi.dbpedia.org/resource/Yhdysvaltain_valtiovarainministerio"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/Departement_du_Tresor_des_Etats-Unis"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://he.dbpedia.org/resource/מחלקת_האוצר_של_ארצות_הברית"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://hr.dbpedia.org/resource/Ministarstvo_financija_SAD"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://id.dbpedia.org/resource/Departemen_Keuangan_Amerika_Serikat"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/Dipartimento_del_Tesoro_degli_Stati_Uniti_d'America"/></data-triple-N3>
+
+<data-triple-N3 id="e785-67"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ja.dbpedia.org/resource/アメリカ合衆国財務省"/></data-triple-N3>
+
+<end id="e785-67"/>
+<entry id="e785-68" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.093Z">
+<s type="iri" val="http://dbpedia.org/resource/Internal_Revenue_Code"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-68"><s type="iri" val="http://dbpedia.org/resource/Internal_Revenue_Code"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1836327"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-68"/>
+<entry id="e785-69" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.138Z">
+<s type="iri" val="http://dbpedia.org/resource/Law_enforcement_agency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-69"><s type="iri" val="http://dbpedia.org/resource/Law_enforcement_agency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["30871819"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e785-70" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.140Z">
+<s type="iri" val="http://dbpedia.org/resource/MicroLoan_Program"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-69"/>
+<data-triple-N3 id="e785-70"><s type="iri" val="http://dbpedia.org/resource/MicroLoan_Program"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["23647295"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e785-71" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.144Z">
+<s type="iri" val="http://dbpedia.org/resource/Mint_(coin)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-72" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.146Z">
+<s type="iri" val="http://dbpedia.org/resource/Mint_(coinage)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-70"/>
+<data-triple-N3 id="e785-71"><s type="iri" val="http://dbpedia.org/resource/Mint_(coin)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["391329"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-72"><s type="iri" val="http://dbpedia.org/resource/Mint_(coinage)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2409150"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e785-73" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.149Z">
+<s type="iri" val="http://dbpedia.org/resource/Monetary_policy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-71"/>
+<end id="e785-72"/>
+<data-triple-N3 id="e785-73"><s type="iri" val="http://dbpedia.org/resource/Monetary_policy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["297032"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e785-74" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.152Z">
+<s type="iri" val="http://dbpedia.org/resource/National_Institute_of_Standards_and_Technology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-73"/>
+<data-triple-N3 id="e785-74"><s type="iri" val="http://dbpedia.org/resource/National_Institute_of_Standards_and_Technology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["21888"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e785-75" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.156Z">
+<s type="iri" val="http://dbpedia.org/resource/National_debt_of_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-74"/>
+<data-triple-N3 id="e785-75"><s type="iri" val="http://dbpedia.org/resource/National_debt_of_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["322221"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-75"/>
+<entry id="e785-76" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.195Z">
+<s type="iri" val="http://dbpedia.org/resource/Neal_S._Wolin"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-76"><s type="iri" val="http://dbpedia.org/resource/Neal_S._Wolin"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["22854614"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-76"/>
+<entry id="e785-77" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.204Z">
+<s type="iri" val="http://dbpedia.org/resource/Obverse_and_reverse"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-78" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.205Z">
+<s type="iri" val="http://dbpedia.org/resource/Office_of_Financial_Institutions"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-77"><s type="iri" val="http://dbpedia.org/resource/Obverse_and_reverse"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["378212"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-78"><s type="iri" val="http://dbpedia.org/resource/Office_of_Financial_Institutions"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["14831288"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e785-79" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.207Z">
+<s type="iri" val="http://dbpedia.org/resource/Office_of_Financial_Markets_(U.S.)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-80" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.210Z">
+<s type="iri" val="http://dbpedia.org/resource/Office_of_Financial_Stability"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-77"/>
+<end id="e785-78"/>
+<data-triple-N3 id="e785-79"><s type="iri" val="http://dbpedia.org/resource/Office_of_Financial_Markets_(U.S.)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["14831432"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-80"><s type="iri" val="http://dbpedia.org/resource/Office_of_Financial_Stability"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["19630726"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-79"/>
+<end id="e785-80"/>
+<entry id="e785-81" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.253Z">
+<s type="iri" val="http://dbpedia.org/resource/Office_of_Fiscal_Service"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-81"><s type="iri" val="http://dbpedia.org/resource/Office_of_Fiscal_Service"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["14831580"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e785-82" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.256Z">
+<s type="iri" val="http://dbpedia.org/resource/Office_of_Foreign_Assets_Control"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-83" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.258Z">
+<s type="iri" val="http://dbpedia.org/resource/Office_of_Intelligence_and_Analysis_(Treasury_Department)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-81"/>
+<data-triple-N3 id="e785-82"><s type="iri" val="http://dbpedia.org/resource/Office_of_Foreign_Assets_Control"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["231045"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-83"><s type="iri" val="http://dbpedia.org/resource/Office_of_Intelligence_and_Analysis_(Treasury_Department)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3956484"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e785-84" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.260Z">
+<s type="iri" val="http://dbpedia.org/resource/Office_of_Management_and_Budget"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-82"/>
+<end id="e785-83"/>
+<data-triple-N3 id="e785-84"><s type="iri" val="http://dbpedia.org/resource/Office_of_Management_and_Budget"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["44030"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e785-85" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.264Z">
+<s type="iri" val="http://dbpedia.org/resource/Office_of_Terrorism_and_Financial_Intelligence"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-84"/>
+<data-triple-N3 id="e785-85"><s type="iri" val="http://dbpedia.org/resource/Office_of_Terrorism_and_Financial_Intelligence"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["15979700"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-85"/>
+<entry id="e785-86" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.306Z">
+<s type="iri" val="http://dbpedia.org/resource/Office_of_Terrorist_Financing_and_Financial_Crimes"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-86"><s type="iri" val="http://dbpedia.org/resource/Office_of_Terrorist_Financing_and_Financial_Crimes"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["14831141"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e785-87" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.307Z">
+<s type="iri" val="http://dbpedia.org/resource/Office_of_the_Comptroller_of_the_Currency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-88" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.309Z">
+<s type="iri" val="http://dbpedia.org/resource/Operations_of_the_Act_Laying_Duties_on_Imports"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-86"/>
+<data-triple-N3 id="e785-87"><s type="iri" val="http://dbpedia.org/resource/Office_of_the_Comptroller_of_the_Currency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1184385"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-88"><s type="iri" val="http://dbpedia.org/resource/Operations_of_the_Act_Laying_Duties_on_Imports"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["14113058"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e785-89" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.312Z">
+<s type="iri" val="http://dbpedia.org/resource/Paper_currency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-87"/>
+<end id="e785-88"/>
+<data-triple-N3 id="e785-89"><s type="iri" val="http://dbpedia.org/resource/Paper_currency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1091749"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-89"/>
+<entry id="e785-90" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.353Z">
+<s type="iri" val="http://dbpedia.org/resource/President_of_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-91" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.354Z">
+<s type="iri" val="http://dbpedia.org/resource/Private_letter_ruling"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-90"><s type="iri" val="http://dbpedia.org/resource/President_of_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["24113"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-91"><s type="iri" val="http://dbpedia.org/resource/Private_letter_ruling"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["4704553"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-90"/>
+<end id="e785-91"/>
+<entry id="e785-92" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.358Z">
+<s type="iri" val="http://dbpedia.org/resource/Report_on_Manufactures"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-93" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.360Z">
+<s type="iri" val="http://dbpedia.org/resource/Revenue"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-92"><s type="iri" val="http://dbpedia.org/resource/Report_on_Manufactures"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1038174"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-93"><s type="iri" val="http://dbpedia.org/resource/Revenue"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["247120"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-92"/>
+<end id="e785-93"/>
+<entry id="e785-94" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.364Z">
+<s type="iri" val="http://dbpedia.org/resource/Revenue_Procedures"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-94"><s type="iri" val="http://dbpedia.org/resource/Revenue_Procedures"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["7684864"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e785-95" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.365Z">
+<s type="iri" val="http://dbpedia.org/resource/Revenue_ruling"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-94"/>
+<data-triple-N3 id="e785-95"><s type="iri" val="http://dbpedia.org/resource/Revenue_ruling"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["7684735"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-95"/>
+<entry id="e785-96" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.404Z">
+<s type="iri" val="http://dbpedia.org/resource/Robert_Morris_(financier)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-96"><s type="iri" val="http://dbpedia.org/resource/Robert_Morris_(financier)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["230337"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e785-97" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.410Z">
+<s type="iri" val="http://dbpedia.org/resource/Rosa_Gumataotao_Rios"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-96"/>
+<data-triple-N3 id="e785-97"><s type="iri" val="http://dbpedia.org/resource/Rosa_Gumataotao_Rios"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["22825898"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e785-98" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.414Z">
+<s type="iri" val="http://dbpedia.org/resource/Seal_of_the_United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-99" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.415Z">
+<s type="iri" val="http://dbpedia.org/resource/Second_Report_on_Public_Credit"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-97"/>
+<data-triple-N3 id="e785-98"><s type="iri" val="http://dbpedia.org/resource/Seal_of_the_United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1806646"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-99"><s type="iri" val="http://dbpedia.org/resource/Second_Report_on_Public_Credit"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["11010410"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e785-100" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.418Z">
+<s type="iri" val="http://dbpedia.org/resource/Secretary_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-98"/>
+<end id="e785-99"/>
+<data-triple-N3 id="e785-100"><s type="iri" val="http://dbpedia.org/resource/Secretary_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["338468"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-100"/>
+<entry id="e785-101" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.457Z">
+<s type="iri" val="http://dbpedia.org/resource/September_11,_2001_terrorist_attacks"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-101"><s type="iri" val="http://dbpedia.org/resource/September_11,_2001_terrorist_attacks"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["60829"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-101"/>
+<entry id="e785-102" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.461Z">
+<s type="iri" val="http://dbpedia.org/resource/September_11_attacks"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-102"><s type="iri" val="http://dbpedia.org/resource/September_11_attacks"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5058690"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e785-103" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.464Z">
+<s type="iri" val="http://dbpedia.org/resource/Solicitor_of_the_United_States_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-102"/>
+<data-triple-N3 id="e785-103"><s type="iri" val="http://dbpedia.org/resource/Solicitor_of_the_United_States_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["31984422"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e785-104" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.467Z">
+<s type="iri" val="http://dbpedia.org/resource/Tariff_of_1790"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-105" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.469Z">
+<s type="iri" val="http://dbpedia.org/resource/Tax"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-103"/>
+<data-triple-N3 id="e785-104"><s type="iri" val="http://dbpedia.org/resource/Tariff_of_1790"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["15212693"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-105"><s type="iri" val="http://dbpedia.org/resource/Tax"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["30297"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-104"/>
+<end id="e785-105"/>
+<entry id="e785-106" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.504Z">
+<s type="iri" val="http://dbpedia.org/resource/Tax,_tariff_and_trade"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-106"><s type="iri" val="http://dbpedia.org/resource/Tax,_tariff_and_trade"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["171845"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-106"/>
+<entry id="e785-107" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.508Z">
+<s type="iri" val="http://dbpedia.org/resource/Tax_evasion"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-107"><s type="iri" val="http://dbpedia.org/resource/Tax_evasion"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2256795"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-107"/>
+<entry id="e785-108" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.514Z">
+<s type="iri" val="http://dbpedia.org/resource/Taxation_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-108"><s type="iri" val="http://dbpedia.org/resource/Taxation_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["30552"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e785-109" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.516Z">
+<s type="iri" val="http://dbpedia.org/resource/Thrift_institution"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-110" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.519Z">
+<s type="iri" val="http://dbpedia.org/resource/Treasurer_of_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-108"/>
+<data-triple-N3 id="e785-109"><s type="iri" val="http://dbpedia.org/resource/Thrift_institution"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["599121"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-110"><s type="iri" val="http://dbpedia.org/resource/Treasurer_of_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["226296"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-109"/>
+<end id="e785-110"/>
+<entry id="e785-111" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.549Z">
+<s type="iri" val="http://dbpedia.org/resource/Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-111"><s type="iri" val="http://dbpedia.org/resource/Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["247095"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-111"/>
+<entry id="e785-112" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.561Z">
+<s type="iri" val="http://dbpedia.org/resource/Treasury_Building_(Washington,_D.C.)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-112"><s type="iri" val="http://dbpedia.org/resource/Treasury_Building_(Washington,_D.C.)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["17369751"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e785-113" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.565Z">
+<s type="iri" val="http://dbpedia.org/resource/Treasury_Enterprise_Architecture_Framework"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-112"/>
+<data-triple-N3 id="e785-113"><s type="iri" val="http://dbpedia.org/resource/Treasury_Enterprise_Architecture_Framework"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["20584571"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e785-114" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.573Z">
+<s type="iri" val="http://dbpedia.org/resource/Treasury_Executive_Office_for_Asset_Forfeiture"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-113"/>
+<data-triple-N3 id="e785-114"><s type="iri" val="http://dbpedia.org/resource/Treasury_Executive_Office_for_Asset_Forfeiture"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["14831242"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-114"/>
+<entry id="e785-115" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.592Z">
+<s type="iri" val="http://dbpedia.org/resource/Treasury_Information_System_Architecture_Framework"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-115"><s type="iri" val="http://dbpedia.org/resource/Treasury_Information_System_Architecture_Framework"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["20699108"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-115"/>
+<entry id="e785-116" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.613Z">
+<s type="iri" val="http://dbpedia.org/resource/Treasury_Inspector_General_for_Tax_Administration"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-116"><s type="iri" val="http://dbpedia.org/resource/Treasury_Inspector_General_for_Tax_Administration"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["28269636"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-116"/>
+<entry id="e785-117" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.616Z">
+<s type="iri" val="http://dbpedia.org/resource/Treasury_regulations"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-117"><s type="iri" val="http://dbpedia.org/resource/Treasury_regulations"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["14595487"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-117"/>
+<entry id="e785-118" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.620Z">
+<s type="iri" val="http://dbpedia.org/resource/U.S._Treasury_Department"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-118"><s type="iri" val="http://dbpedia.org/resource/U.S._Treasury_Department"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["801970"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-118"/>
+<entry id="e785-119" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.633Z">
+<s type="iri" val="http://dbpedia.org/resource/Under_Secretary_of_the_Treasury_for_Domestic_Finance"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-119"><s type="iri" val="http://dbpedia.org/resource/Under_Secretary_of_the_Treasury_for_Domestic_Finance"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["4243338"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-119"/>
+<entry id="e785-120" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.656Z">
+<s type="iri" val="http://dbpedia.org/resource/Under_Secretary_of_the_Treasury_for_International_Affairs"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-120"><s type="iri" val="http://dbpedia.org/resource/Under_Secretary_of_the_Treasury_for_International_Affairs"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5297428"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-120"/>
+<entry id="e785-121" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.661Z">
+<s type="iri" val="http://dbpedia.org/resource/Under_Secretary_of_the_Treasury_for_Terrorism_and_Financial_Intelligence"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-122" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.664Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_Cabinet"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-121"><s type="iri" val="http://dbpedia.org/resource/Under_Secretary_of_the_Treasury_for_Terrorism_and_Financial_Intelligence"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5370224"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-122"><s type="iri" val="http://dbpedia.org/resource/United_States_Cabinet"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["31909479"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-121"/>
+<end id="e785-122"/>
+<entry id="e785-123" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.676Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_Congress_Joint_Committee_on_Taxation"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-123"><s type="iri" val="http://dbpedia.org/resource/United_States_Congress_Joint_Committee_on_Taxation"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2907810"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-123"/>
+<entry id="e785-124" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.701Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_Customs_Service"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-124"><s type="iri" val="http://dbpedia.org/resource/United_States_Customs_Service"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["636847"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-124"/>
+<entry id="e785-125" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.713Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_Homeland_Security"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-126" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.715Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_Justice"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-125"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_Homeland_Security"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["58236"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-126"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_Justice"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["52563"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-125"/>
+<end id="e785-126"/>
+<entry id="e785-127" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.724Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-127"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["53667"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-127"/>
+<entry id="e785-128" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.744Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_Deputy_Secretary_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-128"><s type="iri" val="http://dbpedia.org/resource/United_States_Deputy_Secretary_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["4125647"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-128"/>
+<entry id="e785-129" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.758Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_Mint"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-130" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.760Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_Secret_Service"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-129"><s type="iri" val="http://dbpedia.org/resource/United_States_Mint"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["358818"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-130"><s type="iri" val="http://dbpedia.org/resource/United_States_Secret_Service"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["58221"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-129"/>
+<end id="e785-130"/>
+<entry id="e785-131" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.770Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_Secretary_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-131"><s type="iri" val="http://dbpedia.org/resource/United_States_Secretary_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["43338"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-131"/>
+<entry id="e785-132" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.795Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_coinage"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-132"><s type="iri" val="http://dbpedia.org/resource/United_States_coinage"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["10102400"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-132"/>
+<entry id="e785-133" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.812Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_federal_executive_departments"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-134" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.817Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_public_debt"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-133"><s type="iri" val="http://dbpedia.org/resource/United_States_federal_executive_departments"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["274238"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-134"><s type="iri" val="http://dbpedia.org/resource/United_States_public_debt"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["38767416"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e785-135" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.819Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_ten-dollar_bill"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-133"/>
+<end id="e785-134"/>
+<data-triple-N3 id="e785-135"><s type="iri" val="http://dbpedia.org/resource/United_States_ten-dollar_bill"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["477331"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-135"/>
+<entry id="e785-136" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.844Z">
+<s type="iri" val="http://dbpedia.org/resource/Agent_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-136"/>
+<entry id="e785-137" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.861Z">
+<s type="iri" val="http://dbpedia.org/resource/Assistant_Secretary_of_the_Treasury_for_Management"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-137"/>
+<entry id="e785-138" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.869Z">
+<s type="iri" val="http://dbpedia.org/resource/Assistant_Secretary_of_the_Treasury_for_Public_Affairs"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-139" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.875Z">
+<s type="iri" val="http://dbpedia.org/resource/Assistant_Secretary_of_the_Treasury_for_Tax_Policy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-138"/>
+<end id="e785-139"/>
+<entry id="e785-140" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.893Z">
+<s type="iri" val="http://dbpedia.org/resource/Distress_warrant"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-140"/>
+<entry id="e785-141" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.908Z">
+<s type="iri" val="http://dbpedia.org/resource/File:Organization_of_US_Dept_of_the_Treasury.jpg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-141"/>
+<entry id="e785-142" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.916Z">
+<s type="iri" val="http://dbpedia.org/resource/File:Seal_on_United_States_Department_of_the_Treasury_on_the_Building.JPG"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-142"/>
+<entry id="e785-143" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.920Z">
+<s type="iri" val="http://dbpedia.org/resource/File:Treasury_Annex.JPG"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-143"/>
+<entry id="e785-144" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.936Z">
+<s type="iri" val="http://dbpedia.org/resource/File:Treasury_Department_rear_view.JPG"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-144"/>
+<entry id="e785-145" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.952Z">
+<s type="iri" val="http://dbpedia.org/resource/File:Treasury_departement.jpg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-145"/>
+<entry id="e785-146" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.956Z">
+<s type="iri" val="http://dbpedia.org/resource/File:Treasury_department_official_1907.jpg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-146"/>
+<entry id="e785-147" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.964Z">
+<s type="iri" val="http://dbpedia.org/resource/Internal_revenue_bulletin"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-147"/>
+<entry id="e785-148" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.976Z">
+<s type="iri" val="http://dbpedia.org/resource/Office_of_the_General_Counsel_for_the_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-148"/>
+<entry id="e785-149" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:24.992Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:1789_establishments_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-149"><s type="iri" val="http://dbpedia.org/resource/Category:1789_establishments_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["28372912"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-149"/>
+<entry id="e785-150" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.000Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Finance_ministries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-150"><s type="iri" val="http://dbpedia.org/resource/Category:Finance_ministries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["8850231"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-150"/>
+<entry id="e785-151" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.009Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Ministries_established_in_1789"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-151"><s type="iri" val="http://dbpedia.org/resource/Category:Ministries_established_in_1789"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["24211906"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-151"/>
+<entry id="e785-152" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.021Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Robert_Mills_buildings"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-152"><s type="iri" val="http://dbpedia.org/resource/Category:Robert_Mills_buildings"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["21313259"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-152"/>
+<entry id="e785-153" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.036Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-153"><s type="iri" val="http://dbpedia.org/resource/Category:United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2099227"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-153"/>
+<entry id="e785-154" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.044Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:United_States_federal_executive_departments"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e785-154"><s type="iri" val="http://dbpedia.org/resource/Category:United_States_federal_executive_departments"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["16510043"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e785-154"/>
+<entry id="e785-155" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.084Z">
+<s type="iri" val="http://dbpedia.org/ontology/Agent"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-155"/>
+<entry id="e785-156" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.089Z">
+<s type="iri" val="http://dbpedia.org/ontology/GovernmentAgency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-157" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.091Z">
+<s type="iri" val="http://dbpedia.org/ontology/Organisation"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-158" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.092Z">
+<s type="iri" val="http://schema.org/GovernmentOrganization"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-159" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.094Z">
+<s type="iri" val="http://schema.org/Organization"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-156"/>
+<end id="e785-157"/>
+<end id="e785-158"/>
+<end id="e785-159"/>
+<entry id="e785-160" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.137Z">
+<s type="iri" val="http://www.opengis.net/gml/_Feature"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-161" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.138Z">
+<s type="iri" val="http://www.w3.org/2002/07/owl#Thing"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-162" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.139Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="var"/><o type="var"/>
+</entry>
+<end id="e785-160"/>
+<end id="e785-161"/>
+<data-triple-N3 id="e785-162"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/미국_재무부"/></data-triple-N3>
+
+<data-triple-N3 id="e785-162"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://nl.dbpedia.org/resource/United_States_Department_of_the_Treasury"/></data-triple-N3>
+
+<data-triple-N3 id="e785-162"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://no.dbpedia.org/resource/Finansdepartementet_(USA)"/></data-triple-N3>
+
+<data-triple-N3 id="e785-162"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://pl.dbpedia.org/resource/Departament_Skarbu_Stanow_Zjednoczonych"/></data-triple-N3>
+
+<data-triple-N3 id="e785-162"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://pt.dbpedia.org/resource/Departamento_do_Tesouro_dos_Estados_Unidos"/></data-triple-N3>
+
+<data-triple-N3 id="e785-162"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ru.dbpedia.org/resource/Министерство_финансов_США"/></data-triple-N3>
+
+<data-triple-N3 id="e785-162"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://sh.dbpedia.org/resource/Ministarstvo_financija_SAD"/></data-triple-N3>
+
+<data-triple-N3 id="e785-162"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://simple.dbpedia.org/resource/United_States_Department_of_the_Treasury"/></data-triple-N3>
+
+<data-triple-N3 id="e785-162"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://sv.dbpedia.org/resource/USA:s_finansdepartement"/></data-triple-N3>
+
+<data-triple-N3 id="e785-162"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://vi.dbpedia.org/resource/Bo_Ngan_kho_Hoa_Ky"/></data-triple-N3>
+
+<data-triple-N3 id="e785-162"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q648666"/></data-triple-N3>
+
+<data-triple-N3 id="e785-162"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/美国财政部"/></data-triple-N3>
+
+<data-triple-N3 id="e785-162"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/><o type="lit"><![CDATA["38.89833333333333"^^http://www.w3.org/2001/XMLSchema#float]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-162"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/><o type="lit"><![CDATA["38.89833333333333"^^http://www.w3.org/2001/XMLSchema#float]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-162"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#long"/><o type="lit"><![CDATA["-77.03416666666666"^^http://www.w3.org/2001/XMLSchema#float]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-162"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#long"/><o type="lit"><![CDATA["-77.03416666666666"^^http://www.w3.org/2001/XMLSchema#float]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-162"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/United_States_Department_of_the_Treasury?oldid=541852731"/></data-triple-N3>
+
+<data-triple-N3 id="e785-162"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://xmlns.com/foaf/0.1/depiction"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/e/e8/US-DeptOfTheTreasury-Seal.svg"/></data-triple-N3>
+
+<data-triple-N3 id="e785-162"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://xmlns.com/foaf/0.1/homepage"/><o type="iri" val="http://www.treasury.gov/"/></data-triple-N3>
+
+<data-triple-N3 id="e785-162"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://xmlns.com/foaf/0.1/homepage"/><o type="iri" val="http://www.treasury.gov/"/></data-triple-N3>
+
+<data-triple-N3 id="e785-162"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://xmlns.com/foaf/0.1/homepage"/><o type="iri" val="http://www.treasury.gov/"/></data-triple-N3>
+
+<data-triple-N3 id="e785-162"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/United_States_Department_of_the_Treasury"/></data-triple-N3>
+
+<data-triple-N3 id="e785-162"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://xmlns.com/foaf/0.1/name"/><o type="lit"><![CDATA["Department of the Treasury"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e785-162"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://xmlns.com/foaf/0.1/name"/><o type="lit"><![CDATA["Department of the Treasury"@en]]></o></data-triple-N3>
+
+<entry id="e785-163" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.145Z">
+<s type="iri" val="http://www.w3.org/2004/02/skos/core#Concept"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-162"/>
+<end id="e785-163"/>
+<entry id="e785-164" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.181Z">
+<s type="iri" val="http://bg.dbpedia.org/resource/Министерство_на_финансите_на_САЩ"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-164"/>
+<entry id="e785-165" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.188Z">
+<s type="iri" val="http://de.dbpedia.org/resource/Finanzministerium_der_Vereinigten_Staaten"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-166" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.190Z">
+<s type="iri" val="http://eo.dbpedia.org/resource/Usona_Ministerio_pri_la_Kaso"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-167" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.192Z">
+<s type="iri" val="http://es.dbpedia.org/resource/Departamento_del_Tesoro_de_los_Estados_Unidos"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-165"/>
+<end id="e785-166"/>
+<end id="e785-167"/>
+<entry id="e785-168" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.226Z">
+<s type="iri" val="http://et.dbpedia.org/resource/Ameerika_Uhendriikide_Rahandusministeerium"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-169" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.231Z">
+<s type="iri" val="http://eu.dbpedia.org/resource/Ameriketako_Estatu_Batuetako_Ogasun_Saila"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-168"/>
+<end id="e785-169"/>
+<entry id="e785-170" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.239Z">
+<s type="iri" val="http://fa.dbpedia.org/resource/وزارت_خزانه‌داری_ایالات_متحده_آمریکا"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-171" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.241Z">
+<s type="iri" val="http://fi.dbpedia.org/resource/Yhdysvaltain_valtiovarainministerio"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-170"/>
+<end id="e785-171"/>
+<entry id="e785-172" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.279Z">
+<s type="iri" val="http://fr.dbpedia.org/resource/Departement_du_Tresor_des_Etats-Unis"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-173" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.284Z">
+<s type="iri" val="http://he.dbpedia.org/resource/מחלקת_האוצר_של_ארצות_הברית"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-172"/>
+<end id="e785-173"/>
+<entry id="e785-174" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.288Z">
+<s type="iri" val="http://hr.dbpedia.org/resource/Ministarstvo_financija_SAD"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-175" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.290Z">
+<s type="iri" val="http://id.dbpedia.org/resource/Departemen_Keuangan_Amerika_Serikat"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-176" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.292Z">
+<s type="iri" val="http://it.dbpedia.org/resource/Dipartimento_del_Tesoro_degli_Stati_Uniti_d'America"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-174"/>
+<end id="e785-175"/>
+<end id="e785-176"/>
+<entry id="e785-177" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.328Z">
+<s type="iri" val="http://ja.dbpedia.org/resource/アメリカ合衆国財務省"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-177"/>
+<entry id="e785-178" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.333Z">
+<s type="iri" val="http://ko.dbpedia.org/resource/미국_재무부"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-178"/>
+<entry id="e785-179" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.337Z">
+<s type="iri" val="http://nl.dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-179"/>
+<entry id="e785-180" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.340Z">
+<s type="iri" val="http://no.dbpedia.org/resource/Finansdepartementet_(USA)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-181" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.341Z">
+<s type="iri" val="http://pl.dbpedia.org/resource/Departament_Skarbu_Stanow_Zjednoczonych"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-180"/>
+<end id="e785-181"/>
+<entry id="e785-182" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.377Z">
+<s type="iri" val="http://pt.dbpedia.org/resource/Departamento_do_Tesouro_dos_Estados_Unidos"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-182"/>
+<entry id="e785-183" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.380Z">
+<s type="iri" val="http://ru.dbpedia.org/resource/Министерство_финансов_США"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-183"/>
+<entry id="e785-184" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.385Z">
+<s type="iri" val="http://sh.dbpedia.org/resource/Ministarstvo_financija_SAD"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-185" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.386Z">
+<s type="iri" val="http://simple.dbpedia.org/resource/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-186" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.388Z">
+<s type="iri" val="http://sv.dbpedia.org/resource/USA:s_finansdepartement"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-184"/>
+<end id="e785-185"/>
+<end id="e785-186"/>
+<entry id="e785-187" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.424Z">
+<s type="iri" val="http://vi.dbpedia.org/resource/Bo_Ngan_kho_Hoa_Ky"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-187"/>
+<entry id="e785-188" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.428Z">
+<s type="iri" val="http://www.wikidata.org/entity/Q648666"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-189" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.430Z">
+<s type="iri" val="http://zh.dbpedia.org/resource/美国财政部"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-188"/>
+<end id="e785-189"/>
+<entry id="e785-190" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.473Z">
+<s type="iri" val="http://en.wikipedia.org/wiki/United_States_Department_of_the_Treasury?oldid=541852731"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-191" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.474Z">
+<s type="iri" val="http://upload.wikimedia.org/wikipedia/commons/e/e8/US-DeptOfTheTreasury-Seal.svg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e785-192" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.476Z">
+<s type="iri" val="http://www.treasury.gov/"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-190"/>
+<end id="e785-191"/>
+<end id="e785-192"/>
+<entry id="e785-193" client="::ffff:127.0.0.1" worker="785" time="2017-04-25T19:24:25.483Z">
+<s type="iri" val="http://en.wikipedia.org/wiki/United_States_Department_of_the_Treasury"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e785-193"/>
+ </trace>

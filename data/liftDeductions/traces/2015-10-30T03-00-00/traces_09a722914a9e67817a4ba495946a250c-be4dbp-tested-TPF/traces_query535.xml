@@ -1,0 +1,955 @@
+<?xml version="1.0"?><!DOCTYPE trace SYSTEM "logTPF.dtd">
+<trace>
+<msg>Master 1805 running on http://localhost:5000/.</msg>
+<msg>Worker 1811 running on http://localhost:5000/.</msg>
+<entry id="e1811-1" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:28.330Z">
+<s type="var"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5878274"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["489132637"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!?oldid=489132637"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3632887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["545017937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Doppeltes_Ausrufezeichen"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q353153"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!!?oldid=545017937"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chkchkchk.jpg/200px-Chkchkchk.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://auralstates.com/2007/10/interview-aka-chk-chk-chk-w-nic-offer.html"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://punkcast.com/423/"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://supersweet.org/main.aspx?atype=1&amp;aname=Music_Chk_Chk_Chk&amp;con=1&amp;sc1=0&amp;sc2=0"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.chkchkchk.net/"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.npr.org/templates/story/story.php?storyId=10236467"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600744"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548612260"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Billboard_200"/></data-triple-N3>
+
+<end id="e1811-1"/>
+<entry id="e1811-2" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:28.394Z">
+<s type="var"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["14552"^^http://www.w3.org/2001/XMLSchema#integer]]></o>
+</entry>
+<data-triple-N3 id="e1811-2"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["14552"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e1811-2"/>
+<entry id="e1811-3" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:28.403Z">
+<s type="var"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5878274"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["489132637"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!?oldid=489132637"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3632887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["545017937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Doppeltes_Ausrufezeichen"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q353153"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!!?oldid=545017937"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chkchkchk.jpg/200px-Chkchkchk.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://auralstates.com/2007/10/interview-aka-chk-chk-chk-w-nic-offer.html"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://punkcast.com/423/"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://supersweet.org/main.aspx?atype=1&amp;aname=Music_Chk_Chk_Chk&amp;con=1&amp;sc1=0&amp;sc2=0"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.chkchkchk.net/"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.npr.org/templates/story/story.php?storyId=10236467"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600744"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548612260"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Billboard_200"/></data-triple-N3>
+
+<end id="e1811-3"/>
+<entry id="e1811-4" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:28.445Z">
+<s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Product’s_lifecycle.jpg/200px-Product’s_lifecycle.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.economy101.net/"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["14552"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["546821345"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Africa"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Africa"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Agricultural_subsidy"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Agricultural_subsidy"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Animal_husbandry"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Animal_husbandry"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Canada"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Canada"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Agricultural_economics"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Agricultural_economics"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Economics_of_primary_sector_industries"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Economics_of_primary_sector_industries"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Industry"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Industry"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:National_accounts"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:National_accounts"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Resource_economics"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Resource_economics"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Combine_harvester"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Combine_harvester"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Corn_Belt"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Corn_belt"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Developed_country"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Developed_country"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Developing_country"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Developing_country"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Economic_sector"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Economic_sector"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Fungicide"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Fungicide"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Gross_world_product"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Gross_world_product"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Herbicide"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Herbicide"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Insecticide"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Insecticide"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Japan"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Japan"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Logging"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Logging"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Natural_resource"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Natural_resources"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Petroleum"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Petroleum"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Quaternary_sector_of_the_economy"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Quaternary_sector_of_the_economy"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Resource_curse"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Resource_curse"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Secondary_sector_of_the_economy"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Secondary_sector_of_the_economy"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/South_Wales"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/South_Wales"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Tertiary_sector_of_the_economy"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Tertiary_sector_of_the_economy"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Three-sector_hypothesis"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Three-sector_hypothesis"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/US$"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_dollar"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:Agricultural_value_map_1970-2008.gif"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:Agricultural_value_map_1970-2008.gif"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:Product%E2%80%99s_lifecycle.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:Product%E2%80%99s_lifecycle.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Agricultural_economics"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Economics_of_primary_sector_industries"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Industry"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:National_accounts"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Resource_economics"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#comment"/><o type="lit"><![CDATA["The primary sector of the economy is the sector of an economy making direct use of natural resources. This includes agriculture, forestry and fishing, mining, and extraction of oil and gas. This is contrasted with the secondary sector, producing manufactured and other processed goods, and the tertiary sector, producing services. The primary sector is usually most important in less developed countries, and typically less important in industrial countries."@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["Primary sector of the economy"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ar.dbpedia.org/resource/قطاع_أولي"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://bg.dbpedia.org/resource/Първичен_икономически_сектор"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ca.dbpedia.org/resource/Sector_primari"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://cy.dbpedia.org/resource/Diwydiant_cynradd"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://da.dbpedia.org/resource/Primaererhverv"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://el.dbpedia.org/resource/Πρωτογενής_παραγωγή"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/Unuaranga_sektoro"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/Sector_primario"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/Primaarne_sektor"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eu.dbpedia.org/resource/Lehen_sektore"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/Secteur_primaire"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://hr.dbpedia.org/resource/Primarne_djelatnosti"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/Settore_primario"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ja.dbpedia.org/resource/第一次産業"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/제1차_산업"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://lt.dbpedia.org/resource/Pirminis_ukio_sektorius"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://nl.dbpedia.org/resource/Primaire_sector"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://nn.dbpedia.org/resource/Primaernaeringar"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://no.dbpedia.org/resource/Primaernaeringer"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://pt.dbpedia.org/resource/Setor_primario"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ru.dbpedia.org/resource/Первичный_сектор_экономики"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://sv.dbpedia.org/resource/Primara_sektorn"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://uk.dbpedia.org/resource/Первинний_сектор_економіки"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://vi.dbpedia.org/resource/Khu_vuc_mot_cua_nen_kinh_te"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q55640"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/第一产业"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-4"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/Primary_sector_of_the_economy?oldid=546821345"/></data-triple-N3>
+
+<end id="e1811-4"/>
+<entry id="e1811-5" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:28.468Z">
+<s type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Product’s_lifecycle.jpg/200px-Product’s_lifecycle.jpg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e1811-5"/>
+<entry id="e1811-6" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:28.474Z">
+<s type="iri" val="http://www.economy101.net/"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e1811-6"/>
+<entry id="e1811-7" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:28.518Z">
+<s type="iri" val="http://dbpedia.org/resource/Africa"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e1811-8" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:28.525Z">
+<s type="iri" val="http://dbpedia.org/resource/Agricultural_subsidy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e1811-7"><s type="iri" val="http://dbpedia.org/resource/Africa"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5334607"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e1811-8"><s type="iri" val="http://dbpedia.org/resource/Agricultural_subsidy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["171866"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e1811-7"/>
+<end id="e1811-8"/>
+<entry id="e1811-9" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:28.538Z">
+<s type="iri" val="http://dbpedia.org/resource/Animal_husbandry"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e1811-9"><s type="iri" val="http://dbpedia.org/resource/Animal_husbandry"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["219640"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e1811-9"/>
+<entry id="e1811-10" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:28.577Z">
+<s type="iri" val="http://dbpedia.org/resource/Canada"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e1811-10"><s type="iri" val="http://dbpedia.org/resource/Canada"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5042916"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e1811-10"/>
+<entry id="e1811-11" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:28.586Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Agricultural_economics"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e1811-11"><s type="iri" val="http://dbpedia.org/resource/Category:Agricultural_economics"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["4820513"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e1811-11"/>
+<entry id="e1811-12" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:28.591Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Economics_of_primary_sector_industries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e1811-12"><s type="iri" val="http://dbpedia.org/resource/Category:Economics_of_primary_sector_industries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["23507543"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e1811-12"/>
+<entry id="e1811-13" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:28.633Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Industry"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e1811-13"><s type="iri" val="http://dbpedia.org/resource/Category:Industry"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["871525"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e1811-13"/>
+<entry id="e1811-14" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:28.639Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:National_accounts"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e1811-14"><s type="iri" val="http://dbpedia.org/resource/Category:National_accounts"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["6780238"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e1811-15" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:28.642Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Resource_economics"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e1811-14"/>
+<data-triple-N3 id="e1811-15"><s type="iri" val="http://dbpedia.org/resource/Category:Resource_economics"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["6544062"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e1811-15"/>
+<entry id="e1811-16" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:28.686Z">
+<s type="iri" val="http://dbpedia.org/resource/Combine_harvester"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e1811-16"><s type="iri" val="http://dbpedia.org/resource/Combine_harvester"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["247388"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e1811-17" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:28.691Z">
+<s type="iri" val="http://dbpedia.org/resource/Corn_Belt"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e1811-18" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:28.694Z">
+<s type="iri" val="http://dbpedia.org/resource/Corn_belt"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e1811-16"/>
+<data-triple-N3 id="e1811-17"><s type="iri" val="http://dbpedia.org/resource/Corn_Belt"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["478009"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e1811-18"><s type="iri" val="http://dbpedia.org/resource/Corn_belt"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["939695"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e1811-17"/>
+<end id="e1811-18"/>
+<entry id="e1811-19" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:28.705Z">
+<s type="iri" val="http://dbpedia.org/resource/Developed_country"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e1811-19"><s type="iri" val="http://dbpedia.org/resource/Developed_country"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["78255"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e1811-19"/>
+<entry id="e1811-20" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:28.741Z">
+<s type="iri" val="http://dbpedia.org/resource/Developing_country"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e1811-20"><s type="iri" val="http://dbpedia.org/resource/Developing_country"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["78449"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e1811-20"/>
+<entry id="e1811-21" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:28.751Z">
+<s type="iri" val="http://dbpedia.org/resource/Economic_sector"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e1811-21"><s type="iri" val="http://dbpedia.org/resource/Economic_sector"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["12255159"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e1811-21"/>
+<entry id="e1811-22" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:28.785Z">
+<s type="iri" val="http://dbpedia.org/resource/Fungicide"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e1811-22"><s type="iri" val="http://dbpedia.org/resource/Fungicide"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["515758"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e1811-22"/>
+<entry id="e1811-23" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:28.797Z">
+<s type="iri" val="http://dbpedia.org/resource/Gross_world_product"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e1811-23"><s type="iri" val="http://dbpedia.org/resource/Gross_world_product"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["49819"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e1811-23"/>
+<entry id="e1811-24" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:28.829Z">
+<s type="iri" val="http://dbpedia.org/resource/Herbicide"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e1811-24"><s type="iri" val="http://dbpedia.org/resource/Herbicide"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["53916"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e1811-24"/>
+<entry id="e1811-25" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:28.841Z">
+<s type="iri" val="http://dbpedia.org/resource/Insecticide"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e1811-25"><s type="iri" val="http://dbpedia.org/resource/Insecticide"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["149463"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e1811-25"/>
+<entry id="e1811-26" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:28.872Z">
+<s type="iri" val="http://dbpedia.org/resource/Japan"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e1811-26"><s type="iri" val="http://dbpedia.org/resource/Japan"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["15573"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e1811-26"/>
+<entry id="e1811-27" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:28.886Z">
+<s type="iri" val="http://dbpedia.org/resource/Logging"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e1811-27"><s type="iri" val="http://dbpedia.org/resource/Logging"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["68110"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e1811-27"/>
+<entry id="e1811-28" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:28.918Z">
+<s type="iri" val="http://dbpedia.org/resource/Natural_resource"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e1811-29" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:28.920Z">
+<s type="iri" val="http://dbpedia.org/resource/Natural_resources"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e1811-28"><s type="iri" val="http://dbpedia.org/resource/Natural_resource"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["21675"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e1811-29"><s type="iri" val="http://dbpedia.org/resource/Natural_resources"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["45808"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e1811-28"/>
+<end id="e1811-29"/>
+<entry id="e1811-30" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:28.928Z">
+<s type="iri" val="http://dbpedia.org/resource/Petroleum"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e1811-30"><s type="iri" val="http://dbpedia.org/resource/Petroleum"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["23195"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e1811-30"/>
+<entry id="e1811-31" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:28.960Z">
+<s type="iri" val="http://dbpedia.org/resource/Quaternary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e1811-31"><s type="iri" val="http://dbpedia.org/resource/Quaternary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["602616"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e1811-31"/>
+<entry id="e1811-32" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:28.970Z">
+<s type="iri" val="http://dbpedia.org/resource/Resource_curse"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e1811-32"><s type="iri" val="http://dbpedia.org/resource/Resource_curse"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1531457"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e1811-32"/>
+<entry id="e1811-33" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:29.005Z">
+<s type="iri" val="http://dbpedia.org/resource/Secondary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e1811-33"><s type="iri" val="http://dbpedia.org/resource/Secondary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["14553"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e1811-33"/>
+<entry id="e1811-34" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:29.013Z">
+<s type="iri" val="http://dbpedia.org/resource/South_Wales"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e1811-34"><s type="iri" val="http://dbpedia.org/resource/South_Wales"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["832809"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e1811-34"/>
+<entry id="e1811-35" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:29.049Z">
+<s type="iri" val="http://dbpedia.org/resource/Tertiary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e1811-35"><s type="iri" val="http://dbpedia.org/resource/Tertiary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["14551"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e1811-35"/>
+<entry id="e1811-36" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:29.056Z">
+<s type="iri" val="http://dbpedia.org/resource/Three-sector_hypothesis"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e1811-36"><s type="iri" val="http://dbpedia.org/resource/Three-sector_hypothesis"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["11108915"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e1811-36"/>
+<entry id="e1811-37" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:29.094Z">
+<s type="iri" val="http://dbpedia.org/resource/US$"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e1811-38" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:29.096Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_dollar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e1811-37"><s type="iri" val="http://dbpedia.org/resource/US$"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["906614"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e1811-38"><s type="iri" val="http://dbpedia.org/resource/United_States_dollar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["18717338"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e1811-37"/>
+<end id="e1811-38"/>
+<entry id="e1811-39" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:29.102Z">
+<s type="iri" val="http://dbpedia.org/resource/File:Agricultural_value_map_1970-2008.gif"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e1811-39"/>
+<entry id="e1811-40" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:29.137Z">
+<s type="iri" val="http://dbpedia.org/resource/File:Product%E2%80%99s_lifecycle.jpg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e1811-40"/>
+<entry id="e1811-41" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:29.178Z">
+<s type="iri" val="http://ar.dbpedia.org/resource/قطاع_أولي"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e1811-42" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:29.180Z">
+<s type="iri" val="http://bg.dbpedia.org/resource/Първичен_икономически_сектор"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e1811-43" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:29.182Z">
+<s type="iri" val="http://ca.dbpedia.org/resource/Sector_primari"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e1811-41"/>
+<end id="e1811-42"/>
+<end id="e1811-43"/>
+<entry id="e1811-44" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:29.189Z">
+<s type="iri" val="http://cy.dbpedia.org/resource/Diwydiant_cynradd"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e1811-44"/>
+<entry id="e1811-45" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:29.225Z">
+<s type="iri" val="http://da.dbpedia.org/resource/Primaererhverv"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e1811-45"/>
+<entry id="e1811-46" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:29.234Z">
+<s type="iri" val="http://el.dbpedia.org/resource/Πρωτογενής_παραγωγή"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e1811-47" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:29.237Z">
+<s type="iri" val="http://eo.dbpedia.org/resource/Unuaranga_sektoro"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e1811-48" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:29.240Z">
+<s type="iri" val="http://es.dbpedia.org/resource/Sector_primario"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e1811-46"/>
+<entry id="e1811-49" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:29.247Z">
+<s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="var"/><o type="var"/>
+</entry>
+<end id="e1811-47"/>
+<end id="e1811-48"/>
+<data-triple-N3 id="e1811-49"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://xmlns.com/foaf/0.1/depiction"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/d/d7/Product’s_lifecycle.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e1811-49"><s type="iri" val="http://dbpedia.org/resource/Primary_sector_of_the_economy"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/Primary_sector_of_the_economy"/></data-triple-N3>
+
+<end id="e1811-49"/>
+<entry id="e1811-50" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:29.271Z">
+<s type="iri" val="http://et.dbpedia.org/resource/Primaarne_sektor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e1811-50"/>
+<entry id="e1811-51" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:29.285Z">
+<s type="iri" val="http://eu.dbpedia.org/resource/Lehen_sektore"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e1811-51"/>
+<entry id="e1811-52" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:29.294Z">
+<s type="iri" val="http://fr.dbpedia.org/resource/Secteur_primaire"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e1811-53" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:29.297Z">
+<s type="iri" val="http://hr.dbpedia.org/resource/Primarne_djelatnosti"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e1811-52"/>
+<end id="e1811-53"/>
+<entry id="e1811-54" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:29.313Z">
+<s type="iri" val="http://it.dbpedia.org/resource/Settore_primario"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e1811-54"/>
+<entry id="e1811-55" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:29.329Z">
+<s type="iri" val="http://ja.dbpedia.org/resource/第一次産業"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e1811-55"/>
+<entry id="e1811-56" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:29.341Z">
+<s type="iri" val="http://ko.dbpedia.org/resource/제1차_산업"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e1811-57" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:29.343Z">
+<s type="iri" val="http://lt.dbpedia.org/resource/Pirminis_ukio_sektorius"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e1811-56"/>
+<end id="e1811-57"/>
+<entry id="e1811-58" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:29.357Z">
+<s type="iri" val="http://nl.dbpedia.org/resource/Primaire_sector"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e1811-58"/>
+<entry id="e1811-59" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:29.372Z">
+<s type="iri" val="http://nn.dbpedia.org/resource/Primaernaeringar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e1811-59"/>
+<entry id="e1811-60" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:29.389Z">
+<s type="iri" val="http://no.dbpedia.org/resource/Primaernaeringer"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e1811-61" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:29.390Z">
+<s type="iri" val="http://pt.dbpedia.org/resource/Setor_primario"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e1811-60"/>
+<end id="e1811-61"/>
+<entry id="e1811-62" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:29.400Z">
+<s type="iri" val="http://ru.dbpedia.org/resource/Первичный_сектор_экономики"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e1811-62"/>
+<entry id="e1811-63" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:29.417Z">
+<s type="iri" val="http://sv.dbpedia.org/resource/Primara_sektorn"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e1811-63"/>
+<entry id="e1811-64" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:29.437Z">
+<s type="iri" val="http://uk.dbpedia.org/resource/Первинний_сектор_економіки"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e1811-65" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:29.447Z">
+<s type="iri" val="http://vi.dbpedia.org/resource/Khu_vuc_mot_cua_nen_kinh_te"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e1811-64"/>
+<end id="e1811-65"/>
+<entry id="e1811-66" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:29.452Z">
+<s type="iri" val="http://www.wikidata.org/entity/Q55640"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e1811-66"/>
+<entry id="e1811-67" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:29.460Z">
+<s type="iri" val="http://zh.dbpedia.org/resource/第一产业"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e1811-67"/>
+<entry id="e1811-68" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:29.488Z">
+<s type="iri" val="http://en.wikipedia.org/wiki/Primary_sector_of_the_economy?oldid=546821345"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e1811-68"/>
+<entry id="e1811-69" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:29.494Z">
+<s type="iri" val="http://upload.wikimedia.org/wikipedia/commons/d/d7/Product’s_lifecycle.jpg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e1811-70" client="::ffff:127.0.0.1" worker="1811" time="2017-04-25T21:54:29.495Z">
+<s type="iri" val="http://en.wikipedia.org/wiki/Primary_sector_of_the_economy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e1811-69"/>
+<end id="e1811-70"/>
+ </trace>

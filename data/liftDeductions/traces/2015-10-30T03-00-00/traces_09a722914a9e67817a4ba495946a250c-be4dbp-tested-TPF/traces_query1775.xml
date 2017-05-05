@@ -1,0 +1,1355 @@
+<?xml version="1.0"?><!DOCTYPE trace SYSTEM "logTPF.dtd">
+<trace>
+<msg>Master 25329 running on http://localhost:5000/.</msg>
+<msg>Worker 25335 running on http://localhost:5000/.</msg>
+<entry id="e25335-1" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.225Z">
+<s type="var"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5878274"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["489132637"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!?oldid=489132637"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3632887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["545017937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Doppeltes_Ausrufezeichen"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q353153"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!!?oldid=545017937"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chkchkchk.jpg/200px-Chkchkchk.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://auralstates.com/2007/10/interview-aka-chk-chk-chk-w-nic-offer.html"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://punkcast.com/423/"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://supersweet.org/main.aspx?atype=1&amp;aname=Music_Chk_Chk_Chk&amp;con=1&amp;sc1=0&amp;sc2=0"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.chkchkchk.net/"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.npr.org/templates/story/story.php?storyId=10236467"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600744"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548612260"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Billboard_200"/></data-triple-N3>
+
+<end id="e25335-1"/>
+<entry id="e25335-2" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.287Z">
+<s type="var"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["31185"^^http://www.w3.org/2001/XMLSchema#integer]]></o>
+</entry>
+<data-triple-N3 id="e25335-2"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["31185"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-2"/>
+<entry id="e25335-3" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.293Z">
+<s type="var"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5878274"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["489132637"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!?oldid=489132637"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3632887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["545017937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Doppeltes_Ausrufezeichen"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q353153"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!!?oldid=545017937"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chkchkchk.jpg/200px-Chkchkchk.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://auralstates.com/2007/10/interview-aka-chk-chk-chk-w-nic-offer.html"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://punkcast.com/423/"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://supersweet.org/main.aspx?atype=1&amp;aname=Music_Chk_Chk_Chk&amp;con=1&amp;sc1=0&amp;sc2=0"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.chkchkchk.net/"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.npr.org/templates/story/story.php?storyId=10236467"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600744"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548612260"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Billboard_200"/></data-triple-N3>
+
+<end id="e25335-3"/>
+<entry id="e25335-4" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.336Z">
+<s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://physics.nist.gov/Pubs/SP811/"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["31185"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["546269307"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Calorie"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Carbon_dioxide_equivalent"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Non-SI_metric_units"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Units_of_mass"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Crude_oil"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Energy_density"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/English_language"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/English_wine_cask_units"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Explosive_material"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/French_language"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Fuel_value"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/German_language"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Germanic_languages"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Global_warming"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Gram"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Guinness_Book_of_World_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Guinness_World_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/High_explosive"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/IPCC"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Imperial_unit"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Imperial_units"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Intergovernmental_Panel_on_Climate_Change"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/International_System_of_Units"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Joule"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Kilogram"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Kiloton"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Knot_(unit)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Long_ton"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mass"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Medieval_Latin"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Megajoule"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Metre%E2%80%93tonne%E2%80%93second_system_of_units"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Metre-tonne-second_system_of_units"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Metric_system"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Metrication"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Metrication_in_the_United_Kingdom"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Middle_Ages"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Milligram"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/National_Institute_of_Standards_and_Technology"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Newton_(unit)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Non-SI_units_mentioned_in_the_SI"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/North_Sea"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Nuclear_weapon_yield"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Old_English"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Old_Frisian"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Old_High_German"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Orders_of_magnitude_(mass)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Petajoule"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Petroleum"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Petroleum_industry"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pound_(mass)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pound_avoirdupois"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/SI"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Short_ton"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/TNT_equivalent"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Terajoule"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Tesla_(unit)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ton"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ton_(volume)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Tonnage"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Tonne_of_oil_equivalent"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Trinitrotoluene"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Tun_(unit)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_customary_units"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Units_of_energy"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Uranium"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Weights_and_Measures_Act"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Non-SI_metric_units"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Units_of_mass"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#comment"/><o type="lit"><![CDATA["The tonne is a metric system unit of mass equal to 1,000 kilograms or 1 megagram (1 Mg). It is a non-SI unit accepted for use with SI. To avoid confusion with short ton, it is also known as metric ton in the United States."@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["Tonne"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ar.dbpedia.org/resource/طن"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ast.dbpedia.org/resource/Tonelada"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://bg.dbpedia.org/resource/Тон_(единица)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://bn.dbpedia.org/resource/টন"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://br.dbpedia.org/resource/Tonenn_(mas)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://bs.dbpedia.org/resource/Tona"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ca.dbpedia.org/resource/Tona_(unitat)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://da.dbpedia.org/resource/Ton"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Tonne_(Einheit)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://el.dbpedia.org/resource/Τόνος_(μονάδα_μέτρησης)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/Tuno"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/Tonelada"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/Tonn"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eu.dbpedia.org/resource/Tona"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fa.dbpedia.org/resource/تن_(یکا)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fi.dbpedia.org/resource/Tonni"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/Tonne_(unite)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://gd.dbpedia.org/resource/Tunna"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://gl.dbpedia.org/resource/Tonelada"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://hr.dbpedia.org/resource/Tona"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://hu.dbpedia.org/resource/Tonna"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://id.dbpedia.org/resource/Ton"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://is.dbpedia.org/resource/Tonn"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/Ton_(unita_di_misura)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-4"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ja.dbpedia.org/resource/トン"/></data-triple-N3>
+
+<end id="e25335-4"/>
+<entry id="e25335-5" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.358Z">
+<s type="iri" val="http://physics.nist.gov/Pubs/SP811/"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25335-5"/>
+<entry id="e25335-6" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.362Z">
+<s type="iri" val="http://dbpedia.org/resource/Calorie"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-6"><s type="iri" val="http://dbpedia.org/resource/Calorie"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["6423"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-6"/>
+<entry id="e25335-7" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.402Z">
+<s type="iri" val="http://dbpedia.org/resource/Carbon_dioxide_equivalent"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-8" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.405Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Non-SI_metric_units"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-9" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.407Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Units_of_mass"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-7"><s type="iri" val="http://dbpedia.org/resource/Carbon_dioxide_equivalent"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["8391417"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-8"><s type="iri" val="http://dbpedia.org/resource/Category:Non-SI_metric_units"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["7149731"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-9"><s type="iri" val="http://dbpedia.org/resource/Category:Units_of_mass"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["744605"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-7"/>
+<end id="e25335-8"/>
+<end id="e25335-9"/>
+<entry id="e25335-10" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.418Z">
+<s type="iri" val="http://dbpedia.org/resource/Crude_oil"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-10"><s type="iri" val="http://dbpedia.org/resource/Crude_oil"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["38456"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-10"/>
+<entry id="e25335-11" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.454Z">
+<s type="iri" val="http://dbpedia.org/resource/Energy_density"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-11"><s type="iri" val="http://dbpedia.org/resource/Energy_density"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1610231"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e25335-12" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.458Z">
+<s type="iri" val="http://dbpedia.org/resource/English_language"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-13" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.459Z">
+<s type="iri" val="http://dbpedia.org/resource/English_wine_cask_units"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-14" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.461Z">
+<s type="iri" val="http://dbpedia.org/resource/Explosive_material"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25335-11"/>
+<data-triple-N3 id="e25335-12"><s type="iri" val="http://dbpedia.org/resource/English_language"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["8569916"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-13"><s type="iri" val="http://dbpedia.org/resource/English_wine_cask_units"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["24451813"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-14"><s type="iri" val="http://dbpedia.org/resource/Explosive_material"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["10192"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-12"/>
+<end id="e25335-13"/>
+<end id="e25335-14"/>
+<entry id="e25335-15" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.506Z">
+<s type="iri" val="http://dbpedia.org/resource/French_language"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-16" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.510Z">
+<s type="iri" val="http://dbpedia.org/resource/Fuel_value"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-15"><s type="iri" val="http://dbpedia.org/resource/French_language"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["10597"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-16"><s type="iri" val="http://dbpedia.org/resource/Fuel_value"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1234339"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e25335-17" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.513Z">
+<s type="iri" val="http://dbpedia.org/resource/German_language"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-18" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.515Z">
+<s type="iri" val="http://dbpedia.org/resource/Germanic_languages"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25335-15"/>
+<end id="e25335-16"/>
+<data-triple-N3 id="e25335-17"><s type="iri" val="http://dbpedia.org/resource/German_language"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["11884"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-18"><s type="iri" val="http://dbpedia.org/resource/Germanic_languages"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["11883"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-17"/>
+<end id="e25335-18"/>
+<entry id="e25335-19" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.557Z">
+<s type="iri" val="http://dbpedia.org/resource/Global_warming"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-20" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.559Z">
+<s type="iri" val="http://dbpedia.org/resource/Gram"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-19"><s type="iri" val="http://dbpedia.org/resource/Global_warming"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5042951"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-20"><s type="iri" val="http://dbpedia.org/resource/Gram"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["146839"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-19"/>
+<end id="e25335-20"/>
+<entry id="e25335-21" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.562Z">
+<s type="iri" val="http://dbpedia.org/resource/Guinness_Book_of_World_Records"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-22" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.564Z">
+<s type="iri" val="http://dbpedia.org/resource/Guinness_World_Records"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-21"><s type="iri" val="http://dbpedia.org/resource/Guinness_Book_of_World_Records"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["291999"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-22"><s type="iri" val="http://dbpedia.org/resource/Guinness_World_Records"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["100796"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-21"/>
+<end id="e25335-22"/>
+<entry id="e25335-23" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.603Z">
+<s type="iri" val="http://dbpedia.org/resource/High_explosive"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-24" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.605Z">
+<s type="iri" val="http://dbpedia.org/resource/IPCC"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-23"><s type="iri" val="http://dbpedia.org/resource/High_explosive"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["203788"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-24"><s type="iri" val="http://dbpedia.org/resource/IPCC"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["28713985"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-23"/>
+<end id="e25335-24"/>
+<entry id="e25335-25" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.610Z">
+<s type="iri" val="http://dbpedia.org/resource/Imperial_unit"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-26" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.613Z">
+<s type="iri" val="http://dbpedia.org/resource/Imperial_units"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-25"><s type="iri" val="http://dbpedia.org/resource/Imperial_unit"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["17473112"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-26"><s type="iri" val="http://dbpedia.org/resource/Imperial_units"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["15492"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-25"/>
+<end id="e25335-26"/>
+<entry id="e25335-27" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.650Z">
+<s type="iri" val="http://dbpedia.org/resource/Intergovernmental_Panel_on_Climate_Change"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-28" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.652Z">
+<s type="iri" val="http://dbpedia.org/resource/International_System_of_Units"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-27"><s type="iri" val="http://dbpedia.org/resource/Intergovernmental_Panel_on_Climate_Change"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["15030"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-28"><s type="iri" val="http://dbpedia.org/resource/International_System_of_Units"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["26764"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-27"/>
+<end id="e25335-28"/>
+<entry id="e25335-29" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.658Z">
+<s type="iri" val="http://dbpedia.org/resource/Joule"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-29"><s type="iri" val="http://dbpedia.org/resource/Joule"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["16327"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e25335-30" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.664Z">
+<s type="iri" val="http://dbpedia.org/resource/Kilogram"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25335-29"/>
+<data-triple-N3 id="e25335-30"><s type="iri" val="http://dbpedia.org/resource/Kilogram"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["16619"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-30"/>
+<entry id="e25335-31" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.697Z">
+<s type="iri" val="http://dbpedia.org/resource/Kiloton"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-31"><s type="iri" val="http://dbpedia.org/resource/Kiloton"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["17460"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e25335-32" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.699Z">
+<s type="iri" val="http://dbpedia.org/resource/Knot_(unit)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25335-31"/>
+<data-triple-N3 id="e25335-32"><s type="iri" val="http://dbpedia.org/resource/Knot_(unit)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["366810"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-32"/>
+<entry id="e25335-33" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.705Z">
+<s type="iri" val="http://dbpedia.org/resource/Long_ton"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-33"><s type="iri" val="http://dbpedia.org/resource/Long_ton"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["363218"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e25335-34" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.710Z">
+<s type="iri" val="http://dbpedia.org/resource/Mass"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25335-33"/>
+<data-triple-N3 id="e25335-34"><s type="iri" val="http://dbpedia.org/resource/Mass"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["19048"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-34"/>
+<entry id="e25335-35" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.742Z">
+<s type="iri" val="http://dbpedia.org/resource/Medieval_Latin"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-35"><s type="iri" val="http://dbpedia.org/resource/Medieval_Latin"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["898044"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e25335-36" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.748Z">
+<s type="iri" val="http://dbpedia.org/resource/Megajoule"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25335-35"/>
+<data-triple-N3 id="e25335-36"><s type="iri" val="http://dbpedia.org/resource/Megajoule"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["201837"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-36"/>
+<entry id="e25335-37" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.754Z">
+<s type="iri" val="http://dbpedia.org/resource/Metre%E2%80%93tonne%E2%80%93second_system_of_units"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-37"><s type="iri" val="http://dbpedia.org/resource/Metre%E2%80%93tonne%E2%80%93second_system_of_units"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["524122"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-37"/>
+<entry id="e25335-38" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.757Z">
+<s type="iri" val="http://dbpedia.org/resource/Metre-tonne-second_system_of_units"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-38"><s type="iri" val="http://dbpedia.org/resource/Metre-tonne-second_system_of_units"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["36501149"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-38"/>
+<entry id="e25335-39" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.793Z">
+<s type="iri" val="http://dbpedia.org/resource/Metric_system"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-40" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.795Z">
+<s type="iri" val="http://dbpedia.org/resource/Metrication"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-39"><s type="iri" val="http://dbpedia.org/resource/Metric_system"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["44142"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-40"><s type="iri" val="http://dbpedia.org/resource/Metrication"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["20353"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-39"/>
+<end id="e25335-40"/>
+<entry id="e25335-41" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.800Z">
+<s type="iri" val="http://dbpedia.org/resource/Metrication_in_the_United_Kingdom"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-42" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.803Z">
+<s type="iri" val="http://dbpedia.org/resource/Middle_Ages"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-41"><s type="iri" val="http://dbpedia.org/resource/Metrication_in_the_United_Kingdom"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2732151"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-42"><s type="iri" val="http://dbpedia.org/resource/Middle_Ages"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["18836"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-41"/>
+<end id="e25335-42"/>
+<entry id="e25335-43" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.836Z">
+<s type="iri" val="http://dbpedia.org/resource/Milligram"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-43"><s type="iri" val="http://dbpedia.org/resource/Milligram"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["157785"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-43"/>
+<entry id="e25335-44" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.844Z">
+<s type="iri" val="http://dbpedia.org/resource/National_Institute_of_Standards_and_Technology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-44"><s type="iri" val="http://dbpedia.org/resource/National_Institute_of_Standards_and_Technology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["21888"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-44"/>
+<entry id="e25335-45" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.853Z">
+<s type="iri" val="http://dbpedia.org/resource/Newton_(unit)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-46" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.855Z">
+<s type="iri" val="http://dbpedia.org/resource/Non-SI_units_mentioned_in_the_SI"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-45"><s type="iri" val="http://dbpedia.org/resource/Newton_(unit)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["72540"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-46"><s type="iri" val="http://dbpedia.org/resource/Non-SI_units_mentioned_in_the_SI"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2942877"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-45"/>
+<end id="e25335-46"/>
+<entry id="e25335-47" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.880Z">
+<s type="iri" val="http://dbpedia.org/resource/North_Sea"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-47"><s type="iri" val="http://dbpedia.org/resource/North_Sea"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["21179"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-47"/>
+<entry id="e25335-48" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.885Z">
+<s type="iri" val="http://dbpedia.org/resource/Nuclear_weapon_yield"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-48"><s type="iri" val="http://dbpedia.org/resource/Nuclear_weapon_yield"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3145631"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-48"/>
+<entry id="e25335-49" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.897Z">
+<s type="iri" val="http://dbpedia.org/resource/Old_English"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-49"><s type="iri" val="http://dbpedia.org/resource/Old_English"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["22667"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e25335-50" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.900Z">
+<s type="iri" val="http://dbpedia.org/resource/Old_Frisian"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25335-49"/>
+<data-triple-N3 id="e25335-50"><s type="iri" val="http://dbpedia.org/resource/Old_Frisian"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["305659"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-50"/>
+<entry id="e25335-51" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.925Z">
+<s type="iri" val="http://dbpedia.org/resource/Old_High_German"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-51"><s type="iri" val="http://dbpedia.org/resource/Old_High_German"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["429487"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-51"/>
+<entry id="e25335-52" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.930Z">
+<s type="iri" val="http://dbpedia.org/resource/Orders_of_magnitude_(mass)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-52"><s type="iri" val="http://dbpedia.org/resource/Orders_of_magnitude_(mass)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["203875"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-52"/>
+<entry id="e25335-53" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.946Z">
+<s type="iri" val="http://dbpedia.org/resource/Petajoule"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-54" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.952Z">
+<s type="iri" val="http://dbpedia.org/resource/Petroleum"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-53"><s type="iri" val="http://dbpedia.org/resource/Petajoule"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1370488"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-54"><s type="iri" val="http://dbpedia.org/resource/Petroleum"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["23195"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-53"/>
+<end id="e25335-54"/>
+<entry id="e25335-55" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.969Z">
+<s type="iri" val="http://dbpedia.org/resource/Petroleum_industry"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-55"><s type="iri" val="http://dbpedia.org/resource/Petroleum_industry"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["994887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-55"/>
+<entry id="e25335-56" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.973Z">
+<s type="iri" val="http://dbpedia.org/resource/Pound_(mass)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-56"><s type="iri" val="http://dbpedia.org/resource/Pound_(mass)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["23316"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-56"/>
+<entry id="e25335-57" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.993Z">
+<s type="iri" val="http://dbpedia.org/resource/Pound_avoirdupois"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-57"><s type="iri" val="http://dbpedia.org/resource/Pound_avoirdupois"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["73801"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-57"/>
+<entry id="e25335-58" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:41.998Z">
+<s type="iri" val="http://dbpedia.org/resource/SI"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-58"><s type="iri" val="http://dbpedia.org/resource/SI"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5280799"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-58"/>
+<entry id="e25335-59" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.012Z">
+<s type="iri" val="http://dbpedia.org/resource/Short_ton"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-59"><s type="iri" val="http://dbpedia.org/resource/Short_ton"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["533150"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-59"/>
+<entry id="e25335-60" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.016Z">
+<s type="iri" val="http://dbpedia.org/resource/TNT_equivalent"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-60"><s type="iri" val="http://dbpedia.org/resource/TNT_equivalent"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["4689328"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-60"/>
+<entry id="e25335-61" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.037Z">
+<s type="iri" val="http://dbpedia.org/resource/Terajoule"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-61"><s type="iri" val="http://dbpedia.org/resource/Terajoule"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1137985"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-61"/>
+<entry id="e25335-62" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.040Z">
+<s type="iri" val="http://dbpedia.org/resource/Tesla_(unit)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-62"><s type="iri" val="http://dbpedia.org/resource/Tesla_(unit)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["935979"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-62"/>
+<entry id="e25335-63" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.056Z">
+<s type="iri" val="http://dbpedia.org/resource/Ton"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-63"><s type="iri" val="http://dbpedia.org/resource/Ton"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["30318"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-63"/>
+<entry id="e25335-64" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.061Z">
+<s type="iri" val="http://dbpedia.org/resource/Ton_(volume)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-64"><s type="iri" val="http://dbpedia.org/resource/Ton_(volume)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["747691"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-64"/>
+<entry id="e25335-65" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.082Z">
+<s type="iri" val="http://dbpedia.org/resource/Tonnage"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-66" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.088Z">
+<s type="iri" val="http://dbpedia.org/resource/Tonne_of_oil_equivalent"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-65"><s type="iri" val="http://dbpedia.org/resource/Tonnage"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["308683"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e25335-66"><s type="iri" val="http://dbpedia.org/resource/Tonne_of_oil_equivalent"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["933398"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-65"/>
+<end id="e25335-66"/>
+<entry id="e25335-67" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.096Z">
+<s type="iri" val="http://dbpedia.org/resource/Trinitrotoluene"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-67"><s type="iri" val="http://dbpedia.org/resource/Trinitrotoluene"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["30698"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-67"/>
+<entry id="e25335-68" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.104Z">
+<s type="iri" val="http://dbpedia.org/resource/Tun_(unit)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-68"><s type="iri" val="http://dbpedia.org/resource/Tun_(unit)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1557738"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-68"/>
+<entry id="e25335-69" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.133Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-69"><s type="iri" val="http://dbpedia.org/resource/United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3434750"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e25335-70" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.137Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_customary_units"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25335-69"/>
+<data-triple-N3 id="e25335-70"><s type="iri" val="http://dbpedia.org/resource/United_States_customary_units"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["32308"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e25335-71" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.143Z">
+<s type="iri" val="http://dbpedia.org/resource/Units_of_energy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25335-70"/>
+<data-triple-N3 id="e25335-71"><s type="iri" val="http://dbpedia.org/resource/Units_of_energy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["4782123"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e25335-72" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.146Z">
+<s type="iri" val="http://dbpedia.org/resource/Uranium"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25335-71"/>
+<data-triple-N3 id="e25335-72"><s type="iri" val="http://dbpedia.org/resource/Uranium"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["31743"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-72"/>
+<entry id="e25335-73" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.181Z">
+<s type="iri" val="http://dbpedia.org/resource/Weights_and_Measures_Act"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e25335-73"><s type="iri" val="http://dbpedia.org/resource/Weights_and_Measures_Act"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["9556158"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e25335-73"/>
+<entry id="e25335-74" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.227Z">
+<s type="iri" val="http://ar.dbpedia.org/resource/طن"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-75" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.230Z">
+<s type="iri" val="http://ast.dbpedia.org/resource/Tonelada"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-76" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.233Z">
+<s type="iri" val="http://bg.dbpedia.org/resource/Тон_(единица)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-77" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.236Z">
+<s type="iri" val="http://bn.dbpedia.org/resource/টন"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25335-74"/>
+<end id="e25335-75"/>
+<end id="e25335-76"/>
+<end id="e25335-77"/>
+<entry id="e25335-78" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.244Z">
+<s type="iri" val="http://br.dbpedia.org/resource/Tonenn_(mas)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-79" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.246Z">
+<s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="var"/><o type="var"/>
+</entry>
+<end id="e25335-78"/>
+<data-triple-N3 id="e25335-79"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://kk.dbpedia.org/resource/Тонна_(Германия)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-79"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/톤"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-79"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ku.dbpedia.org/resource/Ton"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-79"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://la.dbpedia.org/resource/Tonna"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-79"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://lt.dbpedia.org/resource/Tona"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-79"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://lv.dbpedia.org/resource/Tonna"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-79"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://mk.dbpedia.org/resource/Тон_(мерка)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-79"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ml.dbpedia.org/resource/ടൺ"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-79"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ms.dbpedia.org/resource/Tan_metrik"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-79"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://nl.dbpedia.org/resource/Ton_(massa)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-79"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://nn.dbpedia.org/resource/Tonn"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-79"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://no.dbpedia.org/resource/Tonn"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-79"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://oc.dbpedia.org/resource/Tona"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-79"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://pl.dbpedia.org/resource/Tona"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-79"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://pt.dbpedia.org/resource/Tonelada"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-79"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ro.dbpedia.org/resource/Tona"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-79"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ru.dbpedia.org/resource/Тонна"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-79"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://sh.dbpedia.org/resource/Tona"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-79"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://simple.dbpedia.org/resource/Ton"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-79"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://sk.dbpedia.org/resource/Tona"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-79"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://sl.dbpedia.org/resource/Tona"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-79"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://sr.dbpedia.org/resource/Тона"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-79"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://sv.dbpedia.org/resource/Ton_(enhet)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-79"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://sw.dbpedia.org/resource/Tani"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-79"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ta.dbpedia.org/resource/டன்"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-79"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://th.dbpedia.org/resource/ตัน"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-79"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://tr.dbpedia.org/resource/Ton_(birim)"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-79"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://uk.dbpedia.org/resource/Тонна"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-79"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://vi.dbpedia.org/resource/Tan"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-79"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://war.dbpedia.org/resource/Tonelada"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-79"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q191118"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-79"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://yi.dbpedia.org/resource/טאן"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-79"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh-yue.dbpedia.org/resource/噸"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-79"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/公頓"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-79"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/Tonne?oldid=546269307"/></data-triple-N3>
+
+<data-triple-N3 id="e25335-79"><s type="iri" val="http://dbpedia.org/resource/Tonne"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/Tonne"/></data-triple-N3>
+
+<entry id="e25335-80" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.259Z">
+<s type="iri" val="http://bs.dbpedia.org/resource/Tona"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25335-79"/>
+<end id="e25335-80"/>
+<entry id="e25335-81" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.282Z">
+<s type="iri" val="http://ca.dbpedia.org/resource/Tona_(unitat)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-82" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.287Z">
+<s type="iri" val="http://da.dbpedia.org/resource/Ton"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25335-81"/>
+<end id="e25335-82"/>
+<entry id="e25335-83" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.293Z">
+<s type="iri" val="http://de.dbpedia.org/resource/Tonne_(Einheit)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-84" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.295Z">
+<s type="iri" val="http://el.dbpedia.org/resource/Τόνος_(μονάδα_μέτρησης)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25335-83"/>
+<end id="e25335-84"/>
+<entry id="e25335-85" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.330Z">
+<s type="iri" val="http://eo.dbpedia.org/resource/Tuno"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-86" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.332Z">
+<s type="iri" val="http://es.dbpedia.org/resource/Tonelada"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25335-85"/>
+<end id="e25335-86"/>
+<entry id="e25335-87" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.342Z">
+<s type="iri" val="http://et.dbpedia.org/resource/Tonn"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-88" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.344Z">
+<s type="iri" val="http://eu.dbpedia.org/resource/Tona"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25335-87"/>
+<end id="e25335-88"/>
+<entry id="e25335-89" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.379Z">
+<s type="iri" val="http://fa.dbpedia.org/resource/تن_(یکا)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-90" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.385Z">
+<s type="iri" val="http://fi.dbpedia.org/resource/Tonni"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25335-89"/>
+<entry id="e25335-91" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.395Z">
+<s type="iri" val="http://fr.dbpedia.org/resource/Tonne_(unite)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-92" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.399Z">
+<s type="iri" val="http://gd.dbpedia.org/resource/Tunna"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25335-90"/>
+<end id="e25335-91"/>
+<end id="e25335-92"/>
+<entry id="e25335-93" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.433Z">
+<s type="iri" val="http://gl.dbpedia.org/resource/Tonelada"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25335-93"/>
+<entry id="e25335-94" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.450Z">
+<s type="iri" val="http://hr.dbpedia.org/resource/Tona"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-95" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.456Z">
+<s type="iri" val="http://hu.dbpedia.org/resource/Tonna"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-96" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.458Z">
+<s type="iri" val="http://id.dbpedia.org/resource/Ton"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-97" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.460Z">
+<s type="iri" val="http://is.dbpedia.org/resource/Tonn"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25335-94"/>
+<end id="e25335-95"/>
+<end id="e25335-96"/>
+<end id="e25335-97"/>
+<entry id="e25335-98" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.501Z">
+<s type="iri" val="http://it.dbpedia.org/resource/Ton_(unita_di_misura)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-99" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.503Z">
+<s type="iri" val="http://ja.dbpedia.org/resource/トン"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25335-98"/>
+<end id="e25335-99"/>
+<entry id="e25335-100" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.509Z">
+<s type="iri" val="http://kk.dbpedia.org/resource/Тонна_(Германия)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-101" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.511Z">
+<s type="iri" val="http://ko.dbpedia.org/resource/톤"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-102" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.512Z">
+<s type="iri" val="http://ku.dbpedia.org/resource/Ton"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25335-100"/>
+<end id="e25335-101"/>
+<end id="e25335-102"/>
+<entry id="e25335-103" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.557Z">
+<s type="iri" val="http://la.dbpedia.org/resource/Tonna"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-104" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.562Z">
+<s type="iri" val="http://lt.dbpedia.org/resource/Tona"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-105" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.565Z">
+<s type="iri" val="http://lv.dbpedia.org/resource/Tonna"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-106" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.568Z">
+<s type="iri" val="http://mk.dbpedia.org/resource/Тон_(мерка)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25335-103"/>
+<end id="e25335-104"/>
+<end id="e25335-105"/>
+<end id="e25335-106"/>
+<entry id="e25335-107" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.579Z">
+<s type="iri" val="http://ml.dbpedia.org/resource/ടൺ"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25335-107"/>
+<entry id="e25335-108" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.612Z">
+<s type="iri" val="http://ms.dbpedia.org/resource/Tan_metrik"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25335-108"/>
+<entry id="e25335-109" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.617Z">
+<s type="iri" val="http://nl.dbpedia.org/resource/Ton_(massa)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-110" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.619Z">
+<s type="iri" val="http://nn.dbpedia.org/resource/Tonn"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25335-109"/>
+<end id="e25335-110"/>
+<entry id="e25335-111" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.624Z">
+<s type="iri" val="http://no.dbpedia.org/resource/Tonn"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-112" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.625Z">
+<s type="iri" val="http://oc.dbpedia.org/resource/Tona"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25335-111"/>
+<end id="e25335-112"/>
+<entry id="e25335-113" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.661Z">
+<s type="iri" val="http://pl.dbpedia.org/resource/Tona"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-114" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.667Z">
+<s type="iri" val="http://pt.dbpedia.org/resource/Tonelada"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25335-113"/>
+<end id="e25335-114"/>
+<entry id="e25335-115" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.673Z">
+<s type="iri" val="http://ro.dbpedia.org/resource/Tona"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-116" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.675Z">
+<s type="iri" val="http://ru.dbpedia.org/resource/Тонна"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25335-115"/>
+<end id="e25335-116"/>
+<entry id="e25335-117" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.714Z">
+<s type="iri" val="http://sh.dbpedia.org/resource/Tona"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-118" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.717Z">
+<s type="iri" val="http://simple.dbpedia.org/resource/Ton"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-119" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.720Z">
+<s type="iri" val="http://sk.dbpedia.org/resource/Tona"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25335-117"/>
+<end id="e25335-118"/>
+<entry id="e25335-120" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.724Z">
+<s type="iri" val="http://sl.dbpedia.org/resource/Tona"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25335-119"/>
+<entry id="e25335-121" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.726Z">
+<s type="iri" val="http://sr.dbpedia.org/resource/Тона"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25335-120"/>
+<end id="e25335-121"/>
+<entry id="e25335-122" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.768Z">
+<s type="iri" val="http://sv.dbpedia.org/resource/Ton_(enhet)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-123" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.772Z">
+<s type="iri" val="http://sw.dbpedia.org/resource/Tani"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-124" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.777Z">
+<s type="iri" val="http://ta.dbpedia.org/resource/டன்"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-125" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.780Z">
+<s type="iri" val="http://th.dbpedia.org/resource/ตัน"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25335-122"/>
+<end id="e25335-123"/>
+<end id="e25335-124"/>
+<end id="e25335-125"/>
+<entry id="e25335-126" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.787Z">
+<s type="iri" val="http://tr.dbpedia.org/resource/Ton_(birim)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25335-126"/>
+<entry id="e25335-127" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.827Z">
+<s type="iri" val="http://uk.dbpedia.org/resource/Тонна"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-128" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.829Z">
+<s type="iri" val="http://vi.dbpedia.org/resource/Tan"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-129" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.833Z">
+<s type="iri" val="http://war.dbpedia.org/resource/Tonelada"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25335-127"/>
+<entry id="e25335-130" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.837Z">
+<s type="iri" val="http://www.wikidata.org/entity/Q191118"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25335-128"/>
+<end id="e25335-129"/>
+<entry id="e25335-131" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.841Z">
+<s type="iri" val="http://yi.dbpedia.org/resource/טאן"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25335-130"/>
+<end id="e25335-131"/>
+<entry id="e25335-132" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.885Z">
+<s type="iri" val="http://zh-yue.dbpedia.org/resource/噸"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-133" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.888Z">
+<s type="iri" val="http://zh.dbpedia.org/resource/公頓"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-134" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.892Z">
+<s type="iri" val="http://en.wikipedia.org/wiki/Tonne?oldid=546269307"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e25335-135" client="::ffff:127.0.0.1" worker="25335" time="2017-04-25T20:17:42.895Z">
+<s type="iri" val="http://en.wikipedia.org/wiki/Tonne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e25335-132"/>
+<end id="e25335-133"/>
+<end id="e25335-134"/>
+<end id="e25335-135"/>
+ </trace>

@@ -1,0 +1,1779 @@
+<?xml version="1.0"?><!DOCTYPE trace SYSTEM "logTPF.dtd">
+<trace>
+<msg>Master 23111 running on http://localhost:5000/.</msg>
+<msg>Worker 23123 running on http://localhost:5000/.</msg>
+<entry id="e23123-1" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:30.950Z">
+<s type="var"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5878274"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["489132637"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!?oldid=489132637"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3632887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["545017937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Doppeltes_Ausrufezeichen"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q353153"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!!?oldid=545017937"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chkchkchk.jpg/200px-Chkchkchk.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://auralstates.com/2007/10/interview-aka-chk-chk-chk-w-nic-offer.html"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://punkcast.com/423/"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://supersweet.org/main.aspx?atype=1&amp;aname=Music_Chk_Chk_Chk&amp;con=1&amp;sc1=0&amp;sc2=0"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.chkchkchk.net/"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.npr.org/templates/story/story.php?storyId=10236467"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600744"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548612260"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Billboard_200"/></data-triple-N3>
+
+<end id="e23123-1"/>
+<entry id="e23123-2" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.006Z">
+<s type="var"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["184579"^^http://www.w3.org/2001/XMLSchema#integer]]></o>
+</entry>
+<data-triple-N3 id="e23123-2"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["184579"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-2"/>
+<entry id="e23123-3" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.014Z">
+<s type="var"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5878274"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["489132637"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!?oldid=489132637"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3632887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["545017937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Doppeltes_Ausrufezeichen"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q353153"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!!?oldid=545017937"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chkchkchk.jpg/200px-Chkchkchk.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://auralstates.com/2007/10/interview-aka-chk-chk-chk-w-nic-offer.html"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://punkcast.com/423/"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://supersweet.org/main.aspx?atype=1&amp;aname=Music_Chk_Chk_Chk&amp;con=1&amp;sc1=0&amp;sc2=0"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.chkchkchk.net/"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.npr.org/templates/story/story.php?storyId=10236467"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600744"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548612260"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Billboard_200"/></data-triple-N3>
+
+<end id="e23123-3"/>
+<entry id="e23123-4" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.052Z">
+<s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Cartoonist.jpg/200px-Cartoonist.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://books.google.com/books?id=04VY36Q_OxAC"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://editorialcartoonists.com/"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://illustrateur.org/"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://mojizu.com/"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.aais.org.uk/"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.aiiq.qc.ca/index.do"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.allianceofillustrators.org/"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.conceptart.org/"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.deviantart.com/"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.gnsi.org/"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.gnsinw.org/"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.hollywood-popart.com/"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.illustratorsaustralia.com/"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.illustratorspartnership.org/"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.loc.gov/exhibits/cartoonamerica/cartoon-punch.html"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.newsart.com/"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.procartoonists.org/"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.reuben.org/"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.sanfranciscosocietyofillustrators.com/"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.scbwi.org/"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.si-la.org/"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.societyillustrators.org/"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.theaoi.com/"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.toonsup.com/"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.webcomics.com/"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["184579"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["541704536"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Abstraction"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Acrylic_paint"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Adhesive"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Adhesive_tape"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Alternative_media"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Animation"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Animator"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Archie_Comics"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Benjamin_Franklin"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bill_Watterson"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Billy_Ireland_Cartoon_Library_&amp;_Museum"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Booklet"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Brian_Bolland"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bristol_board"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Brush"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Buddha_(manga)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Carl_Barks"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Cartoon"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Cartoonists"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Comic_strip_cartoonists"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Comics_creators"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Charles_Addams"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chon_Day"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Cliff_Sterrett"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Clyde_Lamb"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Collier's"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Collier's_Weekly"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Colorist"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Comic_book"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Comic_book_creator"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Comic_strip"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Cultural_icon"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/DC_Comics"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Dave_Breger"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Digital_media"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Dip_pen"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Drawing_board"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Editorial_cartoon"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Editorial_cartoonist"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Editorial_cartoons"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Eldon_Dedini"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Eraser"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Feature_film"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:Benjamin_Franklin_-_Join_or_Die.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Fountain_pen"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Frank_King_(cartoonist)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Fred_Neher"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Gag_cartoon"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/George_Lichty"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Gouache"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Graphic_novel"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Gus_Arriola"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Hank_Ketcham"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Harvey_Award"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Herg%C3%A9"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Iconic"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Illustration"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Illustrations"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/India_ink"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ink"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Inker"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Internet"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Irving_Phillips"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Irwin_Caplan"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/J._R._Williams"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/J._R._Williams_(cartoonist)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Jack_Cole_(artist)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Jeff_Smith_(cartoonist)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Siegel"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Joe_Shuster"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/John_Norment"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-4"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Knife"/></data-triple-N3>
+
+<end id="e23123-4"/>
+<entry id="e23123-5" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.079Z">
+<s type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Cartoonist.jpg/200px-Cartoonist.jpg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23123-5"/>
+<entry id="e23123-6" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.085Z">
+<s type="iri" val="http://books.google.com/books?id=04VY36Q_OxAC"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-7" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.089Z">
+<s type="iri" val="http://editorialcartoonists.com/"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23123-6"/>
+<entry id="e23123-8" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.095Z">
+<s type="iri" val="http://illustrateur.org/"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23123-7"/>
+<end id="e23123-8"/>
+<entry id="e23123-9" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.136Z">
+<s type="iri" val="http://mojizu.com/"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-10" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.142Z">
+<s type="iri" val="http://www.aais.org.uk/"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-11" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.144Z">
+<s type="iri" val="http://www.aiiq.qc.ca/index.do"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-12" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.146Z">
+<s type="iri" val="http://www.allianceofillustrators.org/"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23123-9"/>
+<end id="e23123-10"/>
+<end id="e23123-11"/>
+<end id="e23123-12"/>
+<entry id="e23123-13" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.155Z">
+<s type="iri" val="http://www.conceptart.org/"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23123-13"/>
+<entry id="e23123-14" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.189Z">
+<s type="iri" val="http://www.deviantart.com/"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-15" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.191Z">
+<s type="iri" val="http://www.gnsi.org/"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23123-14"/>
+<end id="e23123-15"/>
+<entry id="e23123-16" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.196Z">
+<s type="iri" val="http://www.gnsinw.org/"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-17" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.198Z">
+<s type="iri" val="http://www.hollywood-popart.com/"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-18" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.200Z">
+<s type="iri" val="http://www.illustratorsaustralia.com/"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23123-16"/>
+<end id="e23123-17"/>
+<end id="e23123-18"/>
+<entry id="e23123-19" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.237Z">
+<s type="iri" val="http://www.illustratorspartnership.org/"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23123-19"/>
+<entry id="e23123-20" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.240Z">
+<s type="iri" val="http://www.loc.gov/exhibits/cartoonamerica/cartoon-punch.html"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23123-20"/>
+<entry id="e23123-21" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.244Z">
+<s type="iri" val="http://www.newsart.com/"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-22" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.248Z">
+<s type="iri" val="http://www.procartoonists.org/"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-23" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.250Z">
+<s type="iri" val="http://www.reuben.org/"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23123-21"/>
+<end id="e23123-22"/>
+<end id="e23123-23"/>
+<entry id="e23123-24" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.287Z">
+<s type="iri" val="http://www.sanfranciscosocietyofillustrators.com/"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23123-24"/>
+<entry id="e23123-25" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.301Z">
+<s type="iri" val="http://www.scbwi.org/"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-26" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.307Z">
+<s type="iri" val="http://www.si-la.org/"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-27" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.309Z">
+<s type="iri" val="http://www.societyillustrators.org/"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23123-25"/>
+<end id="e23123-26"/>
+<end id="e23123-27"/>
+<entry id="e23123-28" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.333Z">
+<s type="iri" val="http://www.theaoi.com/"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23123-28"/>
+<entry id="e23123-29" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.355Z">
+<s type="iri" val="http://www.toonsup.com/"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-30" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.357Z">
+<s type="iri" val="http://www.webcomics.com/"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23123-29"/>
+<end id="e23123-30"/>
+<entry id="e23123-31" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.401Z">
+<s type="iri" val="http://dbpedia.org/resource/Abstraction"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-31"><s type="iri" val="http://dbpedia.org/resource/Abstraction"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2972"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-31"/>
+<entry id="e23123-32" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.405Z">
+<s type="iri" val="http://dbpedia.org/resource/Acrylic_paint"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-33" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.407Z">
+<s type="iri" val="http://dbpedia.org/resource/Adhesive"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-34" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.409Z">
+<s type="iri" val="http://dbpedia.org/resource/Adhesive_tape"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-32"><s type="iri" val="http://dbpedia.org/resource/Acrylic_paint"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2838"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-33"><s type="iri" val="http://dbpedia.org/resource/Adhesive"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2396"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-34"><s type="iri" val="http://dbpedia.org/resource/Adhesive_tape"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["12404450"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-32"/>
+<end id="e23123-33"/>
+<end id="e23123-34"/>
+<entry id="e23123-35" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.447Z">
+<s type="iri" val="http://dbpedia.org/resource/Alternative_media"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-36" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.451Z">
+<s type="iri" val="http://dbpedia.org/resource/Animation"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-35"><s type="iri" val="http://dbpedia.org/resource/Alternative_media"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["673184"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-36"><s type="iri" val="http://dbpedia.org/resource/Animation"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["593"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-35"/>
+<end id="e23123-36"/>
+<entry id="e23123-37" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.456Z">
+<s type="iri" val="http://dbpedia.org/resource/Animator"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-38" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.457Z">
+<s type="iri" val="http://dbpedia.org/resource/Archie_Comics"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-37"><s type="iri" val="http://dbpedia.org/resource/Animator"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["161935"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-38"><s type="iri" val="http://dbpedia.org/resource/Archie_Comics"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["60430"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-37"/>
+<end id="e23123-38"/>
+<entry id="e23123-39" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.493Z">
+<s type="iri" val="http://dbpedia.org/resource/Benjamin_Franklin"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-39"><s type="iri" val="http://dbpedia.org/resource/Benjamin_Franklin"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3986"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-39"/>
+<entry id="e23123-40" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.497Z">
+<s type="iri" val="http://dbpedia.org/resource/Bill_Watterson"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-40"><s type="iri" val="http://dbpedia.org/resource/Bill_Watterson"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["4032"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-40"/>
+<entry id="e23123-41" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.501Z">
+<s type="iri" val="http://dbpedia.org/resource/Billy_Ireland_Cartoon_Library_&amp;_Museum"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-41"><s type="iri" val="http://dbpedia.org/resource/Billy_Ireland_Cartoon_Library_&amp;_Museum"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["22082846"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e23123-42" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.505Z">
+<s type="iri" val="http://dbpedia.org/resource/Booklet"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23123-41"/>
+<data-triple-N3 id="e23123-42"><s type="iri" val="http://dbpedia.org/resource/Booklet"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["415048"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-42"/>
+<entry id="e23123-43" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.537Z">
+<s type="iri" val="http://dbpedia.org/resource/Brian_Bolland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-43"><s type="iri" val="http://dbpedia.org/resource/Brian_Bolland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["582166"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-43"/>
+<entry id="e23123-44" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.541Z">
+<s type="iri" val="http://dbpedia.org/resource/Bristol_board"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-44"><s type="iri" val="http://dbpedia.org/resource/Bristol_board"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2370625"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-44"/>
+<entry id="e23123-45" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.548Z">
+<s type="iri" val="http://dbpedia.org/resource/Brush"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-45"><s type="iri" val="http://dbpedia.org/resource/Brush"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["462707"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-45"/>
+<entry id="e23123-46" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.555Z">
+<s type="iri" val="http://dbpedia.org/resource/Buddha_(manga)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-46"><s type="iri" val="http://dbpedia.org/resource/Buddha_(manga)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2856934"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-46"/>
+<entry id="e23123-47" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.580Z">
+<s type="iri" val="http://dbpedia.org/resource/Carl_Barks"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-47"><s type="iri" val="http://dbpedia.org/resource/Carl_Barks"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["7345"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-47"/>
+<entry id="e23123-48" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.586Z">
+<s type="iri" val="http://dbpedia.org/resource/Cartoon"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-48"><s type="iri" val="http://dbpedia.org/resource/Cartoon"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["7165"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-48"/>
+<entry id="e23123-49" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.588Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Cartoonists"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-49"><s type="iri" val="http://dbpedia.org/resource/Category:Cartoonists"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["693819"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-49"/>
+<entry id="e23123-50" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.596Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Comic_strip_cartoonists"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-50"><s type="iri" val="http://dbpedia.org/resource/Category:Comic_strip_cartoonists"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2058403"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-50"/>
+<entry id="e23123-51" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.626Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Comics_creators"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-51"><s type="iri" val="http://dbpedia.org/resource/Category:Comics_creators"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2057634"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-51"/>
+<entry id="e23123-52" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.633Z">
+<s type="iri" val="http://dbpedia.org/resource/Charles_Addams"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-52"><s type="iri" val="http://dbpedia.org/resource/Charles_Addams"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["55492"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e23123-53" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.636Z">
+<s type="iri" val="http://dbpedia.org/resource/Chon_Day"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23123-52"/>
+<data-triple-N3 id="e23123-53"><s type="iri" val="http://dbpedia.org/resource/Chon_Day"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3616927"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e23123-54" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.640Z">
+<s type="iri" val="http://dbpedia.org/resource/Cliff_Sterrett"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23123-53"/>
+<data-triple-N3 id="e23123-54"><s type="iri" val="http://dbpedia.org/resource/Cliff_Sterrett"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["15658583"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-54"/>
+<entry id="e23123-55" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.672Z">
+<s type="iri" val="http://dbpedia.org/resource/Clyde_Lamb"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-55"><s type="iri" val="http://dbpedia.org/resource/Clyde_Lamb"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["30545579"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-55"/>
+<entry id="e23123-56" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.682Z">
+<s type="iri" val="http://dbpedia.org/resource/Collier's"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-56"><s type="iri" val="http://dbpedia.org/resource/Collier's"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["401663"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e23123-57" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.687Z">
+<s type="iri" val="http://dbpedia.org/resource/Collier's_Weekly"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-58" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.690Z">
+<s type="iri" val="http://dbpedia.org/resource/Colorist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23123-56"/>
+<data-triple-N3 id="e23123-57"><s type="iri" val="http://dbpedia.org/resource/Collier's_Weekly"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["34988836"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-58"><s type="iri" val="http://dbpedia.org/resource/Colorist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1261522"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-57"/>
+<end id="e23123-58"/>
+<entry id="e23123-59" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.712Z">
+<s type="iri" val="http://dbpedia.org/resource/Comic_book"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-59"><s type="iri" val="http://dbpedia.org/resource/Comic_book"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["6231"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-59"/>
+<entry id="e23123-60" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.732Z">
+<s type="iri" val="http://dbpedia.org/resource/Comic_book_creator"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-61" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.734Z">
+<s type="iri" val="http://dbpedia.org/resource/Comic_strip"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-60"><s type="iri" val="http://dbpedia.org/resource/Comic_book_creator"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1738843"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-61"><s type="iri" val="http://dbpedia.org/resource/Comic_strip"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5704"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-60"/>
+<end id="e23123-61"/>
+<entry id="e23123-62" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.740Z">
+<s type="iri" val="http://dbpedia.org/resource/Cultural_icon"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-62"><s type="iri" val="http://dbpedia.org/resource/Cultural_icon"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5974844"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-62"/>
+<entry id="e23123-63" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.755Z">
+<s type="iri" val="http://dbpedia.org/resource/DC_Comics"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-63"><s type="iri" val="http://dbpedia.org/resource/DC_Comics"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["9105"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-63"/>
+<entry id="e23123-64" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.777Z">
+<s type="iri" val="http://dbpedia.org/resource/Dave_Breger"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-64"><s type="iri" val="http://dbpedia.org/resource/Dave_Breger"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3678575"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-64"/>
+<entry id="e23123-65" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.783Z">
+<s type="iri" val="http://dbpedia.org/resource/Digital_media"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-66" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.785Z">
+<s type="iri" val="http://dbpedia.org/resource/Dip_pen"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-65"><s type="iri" val="http://dbpedia.org/resource/Digital_media"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["53723"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-66"><s type="iri" val="http://dbpedia.org/resource/Dip_pen"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["238972"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-65"/>
+<end id="e23123-66"/>
+<entry id="e23123-67" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.805Z">
+<s type="iri" val="http://dbpedia.org/resource/Drawing_board"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-67"><s type="iri" val="http://dbpedia.org/resource/Drawing_board"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["51742"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-67"/>
+<entry id="e23123-68" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.821Z">
+<s type="iri" val="http://dbpedia.org/resource/Editorial_cartoon"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-68"><s type="iri" val="http://dbpedia.org/resource/Editorial_cartoon"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["205534"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-68"/>
+<entry id="e23123-69" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.829Z">
+<s type="iri" val="http://dbpedia.org/resource/Editorial_cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-70" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.831Z">
+<s type="iri" val="http://dbpedia.org/resource/Editorial_cartoons"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-69"><s type="iri" val="http://dbpedia.org/resource/Editorial_cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["205531"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-70"><s type="iri" val="http://dbpedia.org/resource/Editorial_cartoons"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["206684"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-69"/>
+<end id="e23123-70"/>
+<entry id="e23123-71" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.849Z">
+<s type="iri" val="http://dbpedia.org/resource/Eldon_Dedini"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-71"><s type="iri" val="http://dbpedia.org/resource/Eldon_Dedini"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3616984"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-71"/>
+<entry id="e23123-72" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.865Z">
+<s type="iri" val="http://dbpedia.org/resource/Eraser"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-72"><s type="iri" val="http://dbpedia.org/resource/Eraser"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["479373"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-72"/>
+<entry id="e23123-73" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.873Z">
+<s type="iri" val="http://dbpedia.org/resource/Feature_film"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-74" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.877Z">
+<s type="iri" val="http://dbpedia.org/resource/File:Benjamin_Franklin_-_Join_or_Die.jpg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-73"><s type="iri" val="http://dbpedia.org/resource/Feature_film"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["232963"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-74"><s type="iri" val="http://dbpedia.org/resource/File:Benjamin_Franklin_-_Join_or_Die.jpg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["27774363"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-73"/>
+<end id="e23123-74"/>
+<entry id="e23123-75" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.888Z">
+<s type="iri" val="http://dbpedia.org/resource/Fountain_pen"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-75"><s type="iri" val="http://dbpedia.org/resource/Fountain_pen"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["60284"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-75"/>
+<entry id="e23123-76" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.910Z">
+<s type="iri" val="http://dbpedia.org/resource/Frank_King_(cartoonist)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-76"><s type="iri" val="http://dbpedia.org/resource/Frank_King_(cartoonist)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1716460"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-76"/>
+<entry id="e23123-77" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.921Z">
+<s type="iri" val="http://dbpedia.org/resource/Fred_Neher"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-77"><s type="iri" val="http://dbpedia.org/resource/Fred_Neher"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["24563120"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-77"/>
+<entry id="e23123-78" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.928Z">
+<s type="iri" val="http://dbpedia.org/resource/Gag_cartoon"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-78"><s type="iri" val="http://dbpedia.org/resource/Gag_cartoon"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1871594"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e23123-79" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.930Z">
+<s type="iri" val="http://dbpedia.org/resource/George_Lichty"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23123-78"/>
+<data-triple-N3 id="e23123-79"><s type="iri" val="http://dbpedia.org/resource/George_Lichty"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3296192"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-79"/>
+<entry id="e23123-80" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.956Z">
+<s type="iri" val="http://dbpedia.org/resource/Gouache"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-80"><s type="iri" val="http://dbpedia.org/resource/Gouache"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["69217"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-80"/>
+<entry id="e23123-81" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.965Z">
+<s type="iri" val="http://dbpedia.org/resource/Graphic_novel"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-81"><s type="iri" val="http://dbpedia.org/resource/Graphic_novel"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["102445"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-81"/>
+<entry id="e23123-82" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.979Z">
+<s type="iri" val="http://dbpedia.org/resource/Gus_Arriola"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-83" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.982Z">
+<s type="iri" val="http://dbpedia.org/resource/Hank_Ketcham"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-82"><s type="iri" val="http://dbpedia.org/resource/Gus_Arriola"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3607676"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-83"><s type="iri" val="http://dbpedia.org/resource/Hank_Ketcham"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["875258"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e23123-84" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:31.986Z">
+<s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="var"/><o type="var"/>
+</entry>
+<end id="e23123-82"/>
+<end id="e23123-83"/>
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Knives"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Letterer"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Light_box"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Lightbox"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ligne_claire"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/List_of_cartoonists"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/List_of_newspaper_comic_strips"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mangaka"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Manual"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mark_Trail"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Marker_pen"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Marvel_Comics"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mobile_comic"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Model_sheet"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mort_Walker"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ohio_State_University"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Osamu_Tezuka"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Penciller"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Playboy"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Plot_(narrative)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Portrayal_of_women_in_comics"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Poster_paint"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Print_syndication"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pulp_magazine"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pulp_magazines"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Realism_(arts)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Realism_(visual_arts)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Republican_Party_(United_States)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Roger_Price_(comedy)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ruler"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Satire"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Scalpel"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Script_breakdown"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Self-publishing"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Sequential_art"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Set_square"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Spirit_(comics)"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Studio"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Sunday_comics"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Sunday_strip"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Superman"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/T-square"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Technical_pen"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/The_Adventures_of_Tintin"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/The_Someday_Funnies"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Thomas_Nast"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Tints_and_shades"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Triangulation"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_Media"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Universal_Press_Syndicate"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Video_game_packaging"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Watercolor_painting"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Webcomic"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Will_Eisner"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/William_Hogarth"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Women_in_comics"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Writer"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:Charles_Dana_Gibson_02.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:ScottMcCloud_Angouleme2000.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:Winsor_McCay_-_Little_Nemo_film_still_-_drawing.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Robert_Fiore"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Cartoonists"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Comic_strip_cartoonists"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Comics_creators"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#comment"/><o type="lit"><![CDATA["A cartoonist is a visual artist who specializes in drawing cartoons. This work is often created for entertainment, political commentary or advertising. Cartoonists may work in many formats, such as animation, booklets, comic strips, comic books, editorial cartoons, graphic novels, manuals, gag cartoons or video game packaging."@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["Cartoonist"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ar.dbpedia.org/resource/رسام_كارتون"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://da.dbpedia.org/resource/Tegner"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/Humorista_grafico"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/Dessinateur"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fy.dbpedia.org/resource/Striptekener"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/Cartoonist"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://mr.dbpedia.org/resource/व्यंगचित्रकार"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://nl.dbpedia.org/resource/Tekenaar"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://no.dbpedia.org/resource/Tegner"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://pt.dbpedia.org/resource/Cartunista"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ru.dbpedia.org/resource/Рисовальщик"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://simple.dbpedia.org/resource/Cartoonist"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://sq.dbpedia.org/resource/Disenjatori"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://th.dbpedia.org/resource/นักเขียนการ์ตูน"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q2489362"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/Cartoonist?oldid=541704536"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://xmlns.com/foaf/0.1/depiction"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/c/c2/Cartoonist.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e23123-84"><s type="iri" val="http://dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/Cartoonist"/></data-triple-N3>
+
+<end id="e23123-84"/>
+<entry id="e23123-85" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.005Z">
+<s type="iri" val="http://dbpedia.org/resource/Harvey_Award"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-85"><s type="iri" val="http://dbpedia.org/resource/Harvey_Award"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["573215"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-85"/>
+<entry id="e23123-86" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.009Z">
+<s type="iri" val="http://dbpedia.org/resource/Herg%C3%A9"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-86"><s type="iri" val="http://dbpedia.org/resource/Herg%C3%A9"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["14317"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-86"/>
+<entry id="e23123-87" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.037Z">
+<s type="iri" val="http://dbpedia.org/resource/Iconic"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-88" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.039Z">
+<s type="iri" val="http://dbpedia.org/resource/Illustration"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-87"><s type="iri" val="http://dbpedia.org/resource/Iconic"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["869034"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-88"><s type="iri" val="http://dbpedia.org/resource/Illustration"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["247107"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-87"/>
+<end id="e23123-88"/>
+<entry id="e23123-89" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.052Z">
+<s type="iri" val="http://dbpedia.org/resource/Illustrations"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-90" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.054Z">
+<s type="iri" val="http://dbpedia.org/resource/India_ink"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-89"><s type="iri" val="http://dbpedia.org/resource/Illustrations"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1283345"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-90"><s type="iri" val="http://dbpedia.org/resource/India_ink"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["17020384"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-89"/>
+<end id="e23123-90"/>
+<entry id="e23123-91" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.087Z">
+<s type="iri" val="http://dbpedia.org/resource/Ink"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-92" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.089Z">
+<s type="iri" val="http://dbpedia.org/resource/Inker"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-91"><s type="iri" val="http://dbpedia.org/resource/Ink"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["15292"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-92"><s type="iri" val="http://dbpedia.org/resource/Inker"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["575960"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-91"/>
+<end id="e23123-92"/>
+<entry id="e23123-93" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.098Z">
+<s type="iri" val="http://dbpedia.org/resource/Internet"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-94" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.100Z">
+<s type="iri" val="http://dbpedia.org/resource/Irving_Phillips"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-93"><s type="iri" val="http://dbpedia.org/resource/Internet"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["14539"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-94"><s type="iri" val="http://dbpedia.org/resource/Irving_Phillips"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["22629963"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-93"/>
+<end id="e23123-94"/>
+<entry id="e23123-95" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.132Z">
+<s type="iri" val="http://dbpedia.org/resource/Irwin_Caplan"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-95"><s type="iri" val="http://dbpedia.org/resource/Irwin_Caplan"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3618491"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-95"/>
+<entry id="e23123-96" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.137Z">
+<s type="iri" val="http://dbpedia.org/resource/J._R._Williams"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-96"><s type="iri" val="http://dbpedia.org/resource/J._R._Williams"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["20122956"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-96"/>
+<entry id="e23123-97" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.145Z">
+<s type="iri" val="http://dbpedia.org/resource/J._R._Williams_(cartoonist)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-98" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.146Z">
+<s type="iri" val="http://dbpedia.org/resource/Jack_Cole_(artist)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-97"><s type="iri" val="http://dbpedia.org/resource/J._R._Williams_(cartoonist)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["34575633"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-98"><s type="iri" val="http://dbpedia.org/resource/Jack_Cole_(artist)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["78039"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-97"/>
+<end id="e23123-98"/>
+<entry id="e23123-99" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.177Z">
+<s type="iri" val="http://dbpedia.org/resource/Jeff_Smith_(cartoonist)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-99"><s type="iri" val="http://dbpedia.org/resource/Jeff_Smith_(cartoonist)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["804261"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-99"/>
+<entry id="e23123-100" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.180Z">
+<s type="iri" val="http://dbpedia.org/resource/Jerry_Siegel"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-100"><s type="iri" val="http://dbpedia.org/resource/Jerry_Siegel"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["342376"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-100"/>
+<entry id="e23123-101" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.190Z">
+<s type="iri" val="http://dbpedia.org/resource/Joe_Shuster"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-102" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.193Z">
+<s type="iri" val="http://dbpedia.org/resource/John_Norment"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-101"><s type="iri" val="http://dbpedia.org/resource/Joe_Shuster"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["141557"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-102"><s type="iri" val="http://dbpedia.org/resource/John_Norment"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["28646345"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-101"/>
+<end id="e23123-102"/>
+<entry id="e23123-103" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.221Z">
+<s type="iri" val="http://dbpedia.org/resource/Knife"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-104" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.222Z">
+<s type="iri" val="http://dbpedia.org/resource/Knives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-103"><s type="iri" val="http://dbpedia.org/resource/Knife"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["17160"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-104"><s type="iri" val="http://dbpedia.org/resource/Knives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["146701"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-103"/>
+<end id="e23123-104"/>
+<entry id="e23123-105" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.237Z">
+<s type="iri" val="http://dbpedia.org/resource/Letterer"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-106" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.240Z">
+<s type="iri" val="http://dbpedia.org/resource/Light_box"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-105"><s type="iri" val="http://dbpedia.org/resource/Letterer"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["566016"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-106"><s type="iri" val="http://dbpedia.org/resource/Light_box"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1019712"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-105"/>
+<end id="e23123-106"/>
+<entry id="e23123-107" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.265Z">
+<s type="iri" val="http://dbpedia.org/resource/Lightbox"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-108" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.267Z">
+<s type="iri" val="http://dbpedia.org/resource/Ligne_claire"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-107"><s type="iri" val="http://dbpedia.org/resource/Lightbox"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["6911203"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-108"><s type="iri" val="http://dbpedia.org/resource/Ligne_claire"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["252919"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-107"/>
+<end id="e23123-108"/>
+<entry id="e23123-109" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.284Z">
+<s type="iri" val="http://dbpedia.org/resource/List_of_cartoonists"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-110" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.286Z">
+<s type="iri" val="http://dbpedia.org/resource/List_of_newspaper_comic_strips"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-109"><s type="iri" val="http://dbpedia.org/resource/List_of_cartoonists"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["6256"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-110"><s type="iri" val="http://dbpedia.org/resource/List_of_newspaper_comic_strips"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["65918"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-109"/>
+<end id="e23123-110"/>
+<entry id="e23123-111" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.308Z">
+<s type="iri" val="http://dbpedia.org/resource/Mangaka"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-112" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.310Z">
+<s type="iri" val="http://dbpedia.org/resource/Manual"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-111"><s type="iri" val="http://dbpedia.org/resource/Mangaka"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["271601"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-112"><s type="iri" val="http://dbpedia.org/resource/Manual"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1436659"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-111"/>
+<end id="e23123-112"/>
+<entry id="e23123-113" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.328Z">
+<s type="iri" val="http://dbpedia.org/resource/Mark_Trail"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-114" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.331Z">
+<s type="iri" val="http://dbpedia.org/resource/Marker_pen"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-113"><s type="iri" val="http://dbpedia.org/resource/Mark_Trail"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1382146"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-114"><s type="iri" val="http://dbpedia.org/resource/Marker_pen"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["478313"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-113"/>
+<end id="e23123-114"/>
+<entry id="e23123-115" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.353Z">
+<s type="iri" val="http://dbpedia.org/resource/Marvel_Comics"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-116" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.357Z">
+<s type="iri" val="http://dbpedia.org/resource/Mobile_comic"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-115"><s type="iri" val="http://dbpedia.org/resource/Marvel_Comics"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["20966"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-116"><s type="iri" val="http://dbpedia.org/resource/Mobile_comic"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["8297639"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-115"/>
+<end id="e23123-116"/>
+<entry id="e23123-117" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.372Z">
+<s type="iri" val="http://dbpedia.org/resource/Model_sheet"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-118" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.374Z">
+<s type="iri" val="http://dbpedia.org/resource/Mort_Walker"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-117"><s type="iri" val="http://dbpedia.org/resource/Model_sheet"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1163829"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-118"><s type="iri" val="http://dbpedia.org/resource/Mort_Walker"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["164076"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-117"/>
+<end id="e23123-118"/>
+<entry id="e23123-119" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.404Z">
+<s type="iri" val="http://dbpedia.org/resource/Ohio_State_University"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-119"><s type="iri" val="http://dbpedia.org/resource/Ohio_State_University"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["22217"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-119"/>
+<entry id="e23123-120" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.408Z">
+<s type="iri" val="http://dbpedia.org/resource/Osamu_Tezuka"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-120"><s type="iri" val="http://dbpedia.org/resource/Osamu_Tezuka"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["321560"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-120"/>
+<entry id="e23123-121" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.416Z">
+<s type="iri" val="http://dbpedia.org/resource/Penciller"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-122" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.418Z">
+<s type="iri" val="http://dbpedia.org/resource/Playboy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-121"><s type="iri" val="http://dbpedia.org/resource/Penciller"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["575953"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-122"><s type="iri" val="http://dbpedia.org/resource/Playboy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["23221"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-121"/>
+<end id="e23123-122"/>
+<entry id="e23123-123" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.448Z">
+<s type="iri" val="http://dbpedia.org/resource/Plot_(narrative)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-124" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.450Z">
+<s type="iri" val="http://dbpedia.org/resource/Portrayal_of_women_in_comics"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-123"><s type="iri" val="http://dbpedia.org/resource/Plot_(narrative)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["74973"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-124"><s type="iri" val="http://dbpedia.org/resource/Portrayal_of_women_in_comics"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["8831275"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-123"/>
+<end id="e23123-124"/>
+<entry id="e23123-125" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.462Z">
+<s type="iri" val="http://dbpedia.org/resource/Poster_paint"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-126" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.463Z">
+<s type="iri" val="http://dbpedia.org/resource/Print_syndication"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-125"><s type="iri" val="http://dbpedia.org/resource/Poster_paint"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2210527"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-126"><s type="iri" val="http://dbpedia.org/resource/Print_syndication"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["327788"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-125"/>
+<end id="e23123-126"/>
+<entry id="e23123-127" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.493Z">
+<s type="iri" val="http://dbpedia.org/resource/Pulp_magazine"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-128" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.497Z">
+<s type="iri" val="http://dbpedia.org/resource/Pulp_magazines"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-127"><s type="iri" val="http://dbpedia.org/resource/Pulp_magazine"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["22977"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-128"><s type="iri" val="http://dbpedia.org/resource/Pulp_magazines"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["154754"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-127"/>
+<end id="e23123-128"/>
+<entry id="e23123-129" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.506Z">
+<s type="iri" val="http://dbpedia.org/resource/Realism_(arts)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-130" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.508Z">
+<s type="iri" val="http://dbpedia.org/resource/Realism_(visual_arts)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-129"><s type="iri" val="http://dbpedia.org/resource/Realism_(arts)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["21244047"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-130"><s type="iri" val="http://dbpedia.org/resource/Realism_(visual_arts)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["27637554"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-129"/>
+<end id="e23123-130"/>
+<entry id="e23123-131" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.543Z">
+<s type="iri" val="http://dbpedia.org/resource/Republican_Party_(United_States)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-131"><s type="iri" val="http://dbpedia.org/resource/Republican_Party_(United_States)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["32070"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-131"/>
+<entry id="e23123-132" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.548Z">
+<s type="iri" val="http://dbpedia.org/resource/Roger_Price_(comedy)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-132"><s type="iri" val="http://dbpedia.org/resource/Roger_Price_(comedy)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2003021"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e23123-133" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.551Z">
+<s type="iri" val="http://dbpedia.org/resource/Ruler"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23123-132"/>
+<data-triple-N3 id="e23123-133"><s type="iri" val="http://dbpedia.org/resource/Ruler"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["65593"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e23123-134" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.555Z">
+<s type="iri" val="http://dbpedia.org/resource/Satire"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23123-133"/>
+<data-triple-N3 id="e23123-134"><s type="iri" val="http://dbpedia.org/resource/Satire"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["26791"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-134"/>
+<entry id="e23123-135" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.587Z">
+<s type="iri" val="http://dbpedia.org/resource/Scalpel"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-135"><s type="iri" val="http://dbpedia.org/resource/Scalpel"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["263748"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-135"/>
+<entry id="e23123-136" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.598Z">
+<s type="iri" val="http://dbpedia.org/resource/Script_breakdown"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-136"><s type="iri" val="http://dbpedia.org/resource/Script_breakdown"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["852862"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e23123-137" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.602Z">
+<s type="iri" val="http://dbpedia.org/resource/Self-publishing"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-138" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.606Z">
+<s type="iri" val="http://dbpedia.org/resource/Sequential_art"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23123-136"/>
+<data-triple-N3 id="e23123-137"><s type="iri" val="http://dbpedia.org/resource/Self-publishing"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["23873702"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-138"><s type="iri" val="http://dbpedia.org/resource/Sequential_art"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["104990"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-137"/>
+<end id="e23123-138"/>
+<entry id="e23123-139" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.635Z">
+<s type="iri" val="http://dbpedia.org/resource/Set_square"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-139"><s type="iri" val="http://dbpedia.org/resource/Set_square"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2075882"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-139"/>
+<entry id="e23123-140" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.653Z">
+<s type="iri" val="http://dbpedia.org/resource/Spirit_(comics)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-141" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.654Z">
+<s type="iri" val="http://dbpedia.org/resource/Studio"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-140"><s type="iri" val="http://dbpedia.org/resource/Spirit_(comics)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["594277"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-141"><s type="iri" val="http://dbpedia.org/resource/Studio"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["725885"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-140"/>
+<end id="e23123-141"/>
+<entry id="e23123-142" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.660Z">
+<s type="iri" val="http://dbpedia.org/resource/Sunday_comics"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-142"><s type="iri" val="http://dbpedia.org/resource/Sunday_comics"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2838581"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-142"/>
+<entry id="e23123-143" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.681Z">
+<s type="iri" val="http://dbpedia.org/resource/Sunday_strip"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-143"><s type="iri" val="http://dbpedia.org/resource/Sunday_strip"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1979839"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-143"/>
+<entry id="e23123-144" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.697Z">
+<s type="iri" val="http://dbpedia.org/resource/Superman"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-144"><s type="iri" val="http://dbpedia.org/resource/Superman"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["28381"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-144"/>
+<entry id="e23123-145" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.700Z">
+<s type="iri" val="http://dbpedia.org/resource/T-square"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-145"><s type="iri" val="http://dbpedia.org/resource/T-square"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["387924"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-145"/>
+<entry id="e23123-146" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.704Z">
+<s type="iri" val="http://dbpedia.org/resource/Technical_pen"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-146"><s type="iri" val="http://dbpedia.org/resource/Technical_pen"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3579133"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-146"/>
+<entry id="e23123-147" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.728Z">
+<s type="iri" val="http://dbpedia.org/resource/The_Adventures_of_Tintin"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-147"><s type="iri" val="http://dbpedia.org/resource/The_Adventures_of_Tintin"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["31338"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-147"/>
+<entry id="e23123-148" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.741Z">
+<s type="iri" val="http://dbpedia.org/resource/The_Someday_Funnies"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-149" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.742Z">
+<s type="iri" val="http://dbpedia.org/resource/Thomas_Nast"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-148"><s type="iri" val="http://dbpedia.org/resource/The_Someday_Funnies"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["32495900"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-149"><s type="iri" val="http://dbpedia.org/resource/Thomas_Nast"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["30775"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-148"/>
+<end id="e23123-149"/>
+<entry id="e23123-150" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.746Z">
+<s type="iri" val="http://dbpedia.org/resource/Tints_and_shades"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-150"><s type="iri" val="http://dbpedia.org/resource/Tints_and_shades"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["11079974"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-150"/>
+<entry id="e23123-151" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.768Z">
+<s type="iri" val="http://dbpedia.org/resource/Triangulation"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-151"><s type="iri" val="http://dbpedia.org/resource/Triangulation"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["207174"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-151"/>
+<entry id="e23123-152" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.784Z">
+<s type="iri" val="http://dbpedia.org/resource/United_Media"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-152"><s type="iri" val="http://dbpedia.org/resource/United_Media"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1918246"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e23123-153" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.786Z">
+<s type="iri" val="http://dbpedia.org/resource/Universal_Press_Syndicate"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23123-152"/>
+<data-triple-N3 id="e23123-153"><s type="iri" val="http://dbpedia.org/resource/Universal_Press_Syndicate"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3106359"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e23123-154" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.788Z">
+<s type="iri" val="http://dbpedia.org/resource/Video_game_packaging"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23123-153"/>
+<data-triple-N3 id="e23123-154"><s type="iri" val="http://dbpedia.org/resource/Video_game_packaging"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1890023"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-154"/>
+<entry id="e23123-155" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.808Z">
+<s type="iri" val="http://dbpedia.org/resource/Watercolor_painting"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-155"><s type="iri" val="http://dbpedia.org/resource/Watercolor_painting"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["180046"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-155"/>
+<entry id="e23123-156" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.828Z">
+<s type="iri" val="http://dbpedia.org/resource/Webcomic"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-157" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.830Z">
+<s type="iri" val="http://dbpedia.org/resource/Will_Eisner"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-156"><s type="iri" val="http://dbpedia.org/resource/Webcomic"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["161176"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-157"><s type="iri" val="http://dbpedia.org/resource/Will_Eisner"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["33974"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-156"/>
+<end id="e23123-157"/>
+<entry id="e23123-158" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.833Z">
+<s type="iri" val="http://dbpedia.org/resource/William_Hogarth"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-158"><s type="iri" val="http://dbpedia.org/resource/William_Hogarth"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["103020"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-158"/>
+<entry id="e23123-159" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.852Z">
+<s type="iri" val="http://dbpedia.org/resource/Women_in_comics"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-159"><s type="iri" val="http://dbpedia.org/resource/Women_in_comics"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["7710786"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-159"/>
+<entry id="e23123-160" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.872Z">
+<s type="iri" val="http://dbpedia.org/resource/Writer"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-161" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.874Z">
+<s type="iri" val="http://dbpedia.org/resource/File:Charles_Dana_Gibson_02.jpg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-160"><s type="iri" val="http://dbpedia.org/resource/Writer"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["45353"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-160"/>
+<end id="e23123-161"/>
+<entry id="e23123-162" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.880Z">
+<s type="iri" val="http://dbpedia.org/resource/File:ScottMcCloud_Angouleme2000.jpg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23123-162"/>
+<entry id="e23123-163" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.899Z">
+<s type="iri" val="http://dbpedia.org/resource/File:Winsor_McCay_-_Little_Nemo_film_still_-_drawing.jpg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23123-163"/>
+<entry id="e23123-164" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.921Z">
+<s type="iri" val="http://dbpedia.org/resource/Robert_Fiore"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-165" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.922Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Cartoonists"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-166" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.924Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Comic_strip_cartoonists"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-165"><s type="iri" val="http://dbpedia.org/resource/Category:Cartoonists"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["693819"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23123-166"><s type="iri" val="http://dbpedia.org/resource/Category:Comic_strip_cartoonists"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2058403"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-164"/>
+<end id="e23123-165"/>
+<end id="e23123-166"/>
+<entry id="e23123-167" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.951Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Comics_creators"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23123-167"><s type="iri" val="http://dbpedia.org/resource/Category:Comics_creators"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2057634"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23123-167"/>
+<entry id="e23123-168" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.974Z">
+<s type="iri" val="http://ar.dbpedia.org/resource/رسام_كارتون"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23123-168"/>
+<entry id="e23123-169" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.993Z">
+<s type="iri" val="http://da.dbpedia.org/resource/Tegner"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-170" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.994Z">
+<s type="iri" val="http://es.dbpedia.org/resource/Humorista_grafico"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-171" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:32.997Z">
+<s type="iri" val="http://fr.dbpedia.org/resource/Dessinateur"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23123-169"/>
+<end id="e23123-170"/>
+<end id="e23123-171"/>
+<entry id="e23123-172" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:33.016Z">
+<s type="iri" val="http://fy.dbpedia.org/resource/Striptekener"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23123-172"/>
+<entry id="e23123-173" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:33.041Z">
+<s type="iri" val="http://it.dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-174" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:33.044Z">
+<s type="iri" val="http://mr.dbpedia.org/resource/व्यंगचित्रकार"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23123-173"/>
+<end id="e23123-174"/>
+<entry id="e23123-175" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:33.049Z">
+<s type="iri" val="http://nl.dbpedia.org/resource/Tekenaar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23123-175"/>
+<entry id="e23123-176" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:33.056Z">
+<s type="iri" val="http://no.dbpedia.org/resource/Tegner"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23123-176"/>
+<entry id="e23123-177" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:33.085Z">
+<s type="iri" val="http://pt.dbpedia.org/resource/Cartunista"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23123-177"/>
+<entry id="e23123-178" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:33.088Z">
+<s type="iri" val="http://ru.dbpedia.org/resource/Рисовальщик"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23123-178"/>
+<entry id="e23123-179" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:33.093Z">
+<s type="iri" val="http://simple.dbpedia.org/resource/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23123-179"/>
+<entry id="e23123-180" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:33.101Z">
+<s type="iri" val="http://sq.dbpedia.org/resource/Disenjatori"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23123-180"/>
+<entry id="e23123-181" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:33.128Z">
+<s type="iri" val="http://th.dbpedia.org/resource/นักเขียนการ์ตูน"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23123-182" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:33.130Z">
+<s type="iri" val="http://www.wikidata.org/entity/Q2489362"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23123-181"/>
+<end id="e23123-182"/>
+<entry id="e23123-183" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:33.136Z">
+<s type="iri" val="http://en.wikipedia.org/wiki/Cartoonist?oldid=541704536"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23123-183"/>
+<entry id="e23123-184" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:33.148Z">
+<s type="iri" val="http://upload.wikimedia.org/wikipedia/commons/c/c2/Cartoonist.jpg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23123-184"/>
+<entry id="e23123-185" client="::ffff:127.0.0.1" worker="23123" time="2017-04-25T20:15:33.173Z">
+<s type="iri" val="http://en.wikipedia.org/wiki/Cartoonist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23123-185"/>
+ </trace>

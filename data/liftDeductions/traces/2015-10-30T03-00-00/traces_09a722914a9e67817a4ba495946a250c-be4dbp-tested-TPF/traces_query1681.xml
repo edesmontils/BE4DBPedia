@@ -1,0 +1,975 @@
+<?xml version="1.0"?><!DOCTYPE trace SYSTEM "logTPF.dtd">
+<trace>
+<msg>Master 11112 running on http://localhost:5000/.</msg>
+<msg>Worker 11118 running on http://localhost:5000/.</msg>
+<entry id="e11118-1" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:02.425Z">
+<s type="var"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5878274"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["489132637"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!?oldid=489132637"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3632887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["545017937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Doppeltes_Ausrufezeichen"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q353153"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!!?oldid=545017937"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chkchkchk.jpg/200px-Chkchkchk.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://auralstates.com/2007/10/interview-aka-chk-chk-chk-w-nic-offer.html"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://punkcast.com/423/"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://supersweet.org/main.aspx?atype=1&amp;aname=Music_Chk_Chk_Chk&amp;con=1&amp;sc1=0&amp;sc2=0"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.chkchkchk.net/"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.npr.org/templates/story/story.php?storyId=10236467"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600744"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548612260"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Billboard_200"/></data-triple-N3>
+
+<end id="e11118-1"/>
+<entry id="e11118-2" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:02.481Z">
+<s type="var"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3055517"^^http://www.w3.org/2001/XMLSchema#integer]]></o>
+</entry>
+<data-triple-N3 id="e11118-2"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3055517"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e11118-2"/>
+<entry id="e11118-3" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:02.491Z">
+<s type="var"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5878274"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["489132637"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!?oldid=489132637"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3632887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["545017937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Doppeltes_Ausrufezeichen"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q353153"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!!?oldid=545017937"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chkchkchk.jpg/200px-Chkchkchk.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://auralstates.com/2007/10/interview-aka-chk-chk-chk-w-nic-offer.html"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://punkcast.com/423/"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://supersweet.org/main.aspx?atype=1&amp;aname=Music_Chk_Chk_Chk&amp;con=1&amp;sc1=0&amp;sc2=0"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.chkchkchk.net/"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.npr.org/templates/story/story.php?storyId=10236467"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600744"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548612260"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Billboard_200"/></data-triple-N3>
+
+<end id="e11118-3"/>
+<entry id="e11118-4" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:02.526Z">
+<s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/electionDateLeader"/><o type="lit"><![CDATA["2011-01-04"^^http://www.w3.org/2001/XMLSchema#date]]></o></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/lastElectionDate"/><o type="lit"><![CDATA["2012-11-06"^^http://www.w3.org/2001/XMLSchema#date]]></o></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/leader"/><o type="iri" val="http://dbpedia.org/resource/Samuel_H._Smith_(politician)"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/legislativePeriodName"/><o type="lit"><![CDATA["Pennsylvania General Assembly"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/location"/><o type="iri" val="http://dbpedia.org/resource/Harrisburg,_Pennsylvania"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/location"/><o type="iri" val="http://dbpedia.org/resource/Pennsylvania"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/location"/><o type="iri" val="http://dbpedia.org/resource/Pennsylvania_State_Capitol"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/numberOfMembers"/><o type="lit"><![CDATA["203"^^http://www.w3.org/2001/XMLSchema#nonNegativeInteger]]></o></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/politicalPartyInLegislature"/><o type="iri" val="http://dbpedia.org/resource/Democratic_Party_(United_States)"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/politicalPartyInLegislature"/><o type="iri" val="http://dbpedia.org/resource/Republican_Party_(United_States)"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/politicalPartyOfLeader"/><o type="iri" val="http://dbpedia.org/resource/Pennsylvania_Republican_Party"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/politicalPartyOfLeader"/><o type="iri" val="http://dbpedia.org/resource/Republican_State_Committee_of_Pennsylvania"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Seal_of_the_Pennsylvania_House_of_Representatives.svg/200px-Seal_of_the_Pennsylvania_House_of_Representatives.svg.png"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.house.state.pa.us/index.cfm"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.votesmart.org/officials/PA/L/pennsylvania-state-legislative"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3055517"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["542449099"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bill_Adolph"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bill_Adolph"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Pennsylvania_General_Assembly"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Pennsylvania_General_Assembly"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:State_lower_houses_in_the_United_States"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:State_lower_houses_in_the_United_States"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Dan_Frankel"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Dan_Frankel"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Dave_L._Reed"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Dave_L._Reed"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Democratic_Party_(United_States)"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Democratic_Party_(United_States)"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Dennis_M._O'Brien"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Dennis_M._O'Brien"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Dick_Stevenson"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Dick_Stevenson"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Edwin_Austin_Abbey"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Edwin_Austin_Abbey"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Frank_Dermody"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Frank_Dermody"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Harrisburg,_Pennsylvania"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Harrisburg,_Pennsylvania"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Joe_Markosek"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Joe_Markosek"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Joseph_Huston"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Joseph_Miller_Huston"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/K._Leroy_Irvis"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/K._Leroy_Irvis"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Legislature"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Legislature"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mike_Hanna"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mike_Hanna"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mike_Sturla"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mike_Sturla"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mike_Turzai"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mike_Turzai"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mike_Vereb"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mike_Vereb"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Neal_Goodman"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Neal_Goodman"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/New_Hampshire_House_of_Representatives"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/New_Hampshire_House_of_Representatives"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pennsylvania"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pennsylvania"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pennsylvania_Constitution"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pennsylvania_Constitution"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pennsylvania_Democratic_Party"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pennsylvania_Democratic_Party"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pennsylvania_Department_of_General_Services"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pennsylvania_Department_of_General_Services"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pennsylvania_General_Assembly"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pennsylvania_General_Assembly"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives_elections,_2012"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives_elections,_2012"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pennsylvania_Manual"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pennsylvania_Republican_Party"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pennsylvania_State_Capitol"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pennsylvania_State_Capitol"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pennsylvania_State_Senate"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pennsylvania_State_Senate"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Project_Vote_Smart"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Project_Vote_Smart"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Republican_Party_(United_States)"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Republican_Party_(United_States)"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Republican_State_Committee_of_Pennsylvania"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ronald_Waters"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ronald_Waters"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Samuel_H._Smith_(politician)"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Samuel_H._Smith_(politician)"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Sandra_Major"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Sandra_Major"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Stan_Saylor"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Stan_Saylor"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/The_Pennsylvania_Manual"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/U.S._state"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/U.S._state"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/William_Penn"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/William_Penn"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives_elections,_2014"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives_elections,_2014"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Pennsylvania_General_Assembly"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:State_lower_houses_in_the_United_States"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-4"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/><o type="iri" val="http://dbpedia.org/ontology/Agent"/></data-triple-N3>
+
+<end id="e11118-4"/>
+<entry id="e11118-5" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:02.553Z">
+<s type="iri" val="http://dbpedia.org/resource/Samuel_H._Smith_(politician)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e11118-5"><s type="iri" val="http://dbpedia.org/resource/Samuel_H._Smith_(politician)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["4064002"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e11118-5"/>
+<entry id="e11118-6" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:02.559Z">
+<s type="iri" val="http://dbpedia.org/resource/Harrisburg,_Pennsylvania"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e11118-6"><s type="iri" val="http://dbpedia.org/resource/Harrisburg,_Pennsylvania"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["57849"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e11118-7" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:02.561Z">
+<s type="iri" val="http://dbpedia.org/resource/Pennsylvania"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e11118-6"/>
+<data-triple-N3 id="e11118-7"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["23332"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e11118-7"/>
+<entry id="e11118-8" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:02.601Z">
+<s type="iri" val="http://dbpedia.org/resource/Pennsylvania_State_Capitol"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e11118-9" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:02.606Z">
+<s type="iri" val="http://dbpedia.org/resource/Democratic_Party_(United_States)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e11118-8"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_State_Capitol"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3562929"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e11118-9"><s type="iri" val="http://dbpedia.org/resource/Democratic_Party_(United_States)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5043544"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e11118-10" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:02.612Z">
+<s type="iri" val="http://dbpedia.org/resource/Republican_Party_(United_States)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e11118-8"/>
+<end id="e11118-9"/>
+<data-triple-N3 id="e11118-10"><s type="iri" val="http://dbpedia.org/resource/Republican_Party_(United_States)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["32070"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e11118-10"/>
+<entry id="e11118-11" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:02.667Z">
+<s type="iri" val="http://dbpedia.org/resource/Pennsylvania_Republican_Party"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e11118-12" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:02.670Z">
+<s type="iri" val="http://dbpedia.org/resource/Republican_State_Committee_of_Pennsylvania"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e11118-11"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_Republican_Party"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["19889537"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e11118-12"><s type="iri" val="http://dbpedia.org/resource/Republican_State_Committee_of_Pennsylvania"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5262364"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e11118-13" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:02.673Z">
+<s type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Seal_of_the_Pennsylvania_House_of_Representatives.svg/200px-Seal_of_the_Pennsylvania_House_of_Representatives.svg.png"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e11118-14" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:02.674Z">
+<s type="iri" val="http://www.house.state.pa.us/index.cfm"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e11118-11"/>
+<end id="e11118-12"/>
+<end id="e11118-13"/>
+<end id="e11118-14"/>
+<entry id="e11118-15" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:02.682Z">
+<s type="iri" val="http://www.votesmart.org/officials/PA/L/pennsylvania-state-legislative"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e11118-15"/>
+<entry id="e11118-16" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:02.726Z">
+<s type="iri" val="http://dbpedia.org/resource/Bill_Adolph"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e11118-16"><s type="iri" val="http://dbpedia.org/resource/Bill_Adolph"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["19876603"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e11118-17" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:02.729Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Pennsylvania_General_Assembly"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e11118-16"/>
+<data-triple-N3 id="e11118-17"><s type="iri" val="http://dbpedia.org/resource/Category:Pennsylvania_General_Assembly"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1235451"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e11118-17"/>
+<entry id="e11118-18" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:02.779Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:State_lower_houses_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e11118-18"><s type="iri" val="http://dbpedia.org/resource/Category:State_lower_houses_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["13972942"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e11118-19" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:02.786Z">
+<s type="iri" val="http://dbpedia.org/resource/Dan_Frankel"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e11118-18"/>
+<data-triple-N3 id="e11118-19"><s type="iri" val="http://dbpedia.org/resource/Dan_Frankel"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["19282358"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e11118-19"/>
+<entry id="e11118-20" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:02.791Z">
+<s type="iri" val="http://dbpedia.org/resource/Dave_L._Reed"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e11118-20"><s type="iri" val="http://dbpedia.org/resource/Dave_L._Reed"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["10471138"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e11118-20"/>
+<entry id="e11118-21" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:02.836Z">
+<s type="iri" val="http://dbpedia.org/resource/Dennis_M._O'Brien"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e11118-21"><s type="iri" val="http://dbpedia.org/resource/Dennis_M._O'Brien"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["8722146"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e11118-22" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:02.843Z">
+<s type="iri" val="http://dbpedia.org/resource/Dick_Stevenson"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e11118-21"/>
+<data-triple-N3 id="e11118-22"><s type="iri" val="http://dbpedia.org/resource/Dick_Stevenson"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["19263561"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e11118-22"/>
+<entry id="e11118-23" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:02.851Z">
+<s type="iri" val="http://dbpedia.org/resource/Edwin_Austin_Abbey"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e11118-23"><s type="iri" val="http://dbpedia.org/resource/Edwin_Austin_Abbey"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["9700"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e11118-23"/>
+<entry id="e11118-24" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:02.854Z">
+<s type="iri" val="http://dbpedia.org/resource/Frank_Dermody"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e11118-24"><s type="iri" val="http://dbpedia.org/resource/Frank_Dermody"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["16487114"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e11118-24"/>
+<entry id="e11118-25" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:02.897Z">
+<s type="iri" val="http://dbpedia.org/resource/Joe_Markosek"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e11118-25"><s type="iri" val="http://dbpedia.org/resource/Joe_Markosek"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["16633930"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e11118-26" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:02.898Z">
+<s type="iri" val="http://dbpedia.org/resource/Joseph_Huston"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e11118-27" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:02.900Z">
+<s type="iri" val="http://dbpedia.org/resource/Joseph_Miller_Huston"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e11118-25"/>
+<data-triple-N3 id="e11118-26"><s type="iri" val="http://dbpedia.org/resource/Joseph_Huston"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["24393976"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e11118-27"><s type="iri" val="http://dbpedia.org/resource/Joseph_Miller_Huston"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["24393932"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e11118-26"/>
+<end id="e11118-27"/>
+<entry id="e11118-28" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:02.905Z">
+<s type="iri" val="http://dbpedia.org/resource/K._Leroy_Irvis"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e11118-28"><s type="iri" val="http://dbpedia.org/resource/K._Leroy_Irvis"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["4414823"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e11118-28"/>
+<entry id="e11118-29" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:02.908Z">
+<s type="iri" val="http://dbpedia.org/resource/Legislature"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e11118-29"><s type="iri" val="http://dbpedia.org/resource/Legislature"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["44421"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e11118-29"/>
+<entry id="e11118-30" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:02.952Z">
+<s type="iri" val="http://dbpedia.org/resource/Mike_Hanna"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e11118-30"><s type="iri" val="http://dbpedia.org/resource/Mike_Hanna"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["22340120"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e11118-31" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:02.957Z">
+<s type="iri" val="http://dbpedia.org/resource/Mike_Sturla"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e11118-30"/>
+<data-triple-N3 id="e11118-31"><s type="iri" val="http://dbpedia.org/resource/Mike_Sturla"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["20681756"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e11118-31"/>
+<entry id="e11118-32" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:02.964Z">
+<s type="iri" val="http://dbpedia.org/resource/Mike_Turzai"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e11118-32"><s type="iri" val="http://dbpedia.org/resource/Mike_Turzai"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["19263253"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e11118-32"/>
+<entry id="e11118-33" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:02.968Z">
+<s type="iri" val="http://dbpedia.org/resource/Mike_Vereb"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e11118-33"><s type="iri" val="http://dbpedia.org/resource/Mike_Vereb"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["19873856"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e11118-33"/>
+<entry id="e11118-34" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:03.016Z">
+<s type="iri" val="http://dbpedia.org/resource/Neal_Goodman"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e11118-34"><s type="iri" val="http://dbpedia.org/resource/Neal_Goodman"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["22340280"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e11118-35" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:03.018Z">
+<s type="iri" val="http://dbpedia.org/resource/New_Hampshire_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e11118-34"/>
+<data-triple-N3 id="e11118-35"><s type="iri" val="http://dbpedia.org/resource/New_Hampshire_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2167686"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e11118-35"/>
+<entry id="e11118-36" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:03.025Z">
+<s type="iri" val="http://dbpedia.org/resource/Pennsylvania_Constitution"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e11118-36"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_Constitution"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["4954214"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e11118-37" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:03.027Z">
+<s type="iri" val="http://dbpedia.org/resource/Pennsylvania_Democratic_Party"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e11118-36"/>
+<data-triple-N3 id="e11118-37"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_Democratic_Party"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["9427563"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e11118-37"/>
+<entry id="e11118-38" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:03.069Z">
+<s type="iri" val="http://dbpedia.org/resource/Pennsylvania_Department_of_General_Services"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e11118-38"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_Department_of_General_Services"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["23594532"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e11118-39" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:03.070Z">
+<s type="iri" val="http://dbpedia.org/resource/Pennsylvania_General_Assembly"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e11118-38"/>
+<data-triple-N3 id="e11118-39"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_General_Assembly"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1952299"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e11118-39"/>
+<entry id="e11118-40" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:03.076Z">
+<s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives_elections,_2012"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e11118-40"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives_elections,_2012"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["37494394"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e11118-41" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:03.078Z">
+<s type="iri" val="http://dbpedia.org/resource/Pennsylvania_Manual"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e11118-40"/>
+<data-triple-N3 id="e11118-41"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_Manual"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["24000580"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e11118-41"/>
+<entry id="e11118-42" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:03.121Z">
+<s type="iri" val="http://dbpedia.org/resource/Pennsylvania_State_Senate"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e11118-43" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:03.123Z">
+<s type="iri" val="http://dbpedia.org/resource/Project_Vote_Smart"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e11118-42"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_State_Senate"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1979619"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e11118-43"><s type="iri" val="http://dbpedia.org/resource/Project_Vote_Smart"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["795042"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e11118-42"/>
+<end id="e11118-43"/>
+<entry id="e11118-44" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:03.130Z">
+<s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="var"/><o type="var"/>
+</entry>
+<entry id="e11118-45" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:03.132Z">
+<s type="iri" val="http://dbpedia.org/resource/Ronald_Waters"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e11118-44"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/><o type="iri" val="http://dbpedia.org/ontology/Legislature"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-44"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/><o type="iri" val="http://dbpedia.org/ontology/Organisation"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-44"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/><o type="iri" val="http://schema.org/Organization"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-44"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/><o type="iri" val="http://www.w3.org/2002/07/owl#Thing"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-44"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#comment"/><o type="lit"><![CDATA["The Pennsylvania House of Representatives is the lower house of the bicameral Pennsylvania General Assembly, the legislature of the U.S. state of Pennsylvania. There are 203 members, elected for two year terms from single member districts. Following the 2012 elections, the house consisted of 109 Republicans, 93 Democrats. Republican Sam Smith was elected Speaker of the House on January 4, 2011. In 2012, a State Representative district had an average population of 60,498 residents."@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e11118-44"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["Pennsylvania House of Representatives"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e11118-44"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Reprasentantenhaus_von_Pennsylvania"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-44"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/Chambre_des_representants_de_la_Pennsylvanie"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-44"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q2145217"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-44"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/宾夕法尼亚州众议院"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-44"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/Pennsylvania_House_of_Representatives?oldid=542449099"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-44"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://xmlns.com/foaf/0.1/depiction"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/e/e9/Seal_of_the_Pennsylvania_House_of_Representatives.svg"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-44"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://xmlns.com/foaf/0.1/homepage"/><o type="iri" val="http://www.house.state.pa.us/index.cfm"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-44"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://xmlns.com/foaf/0.1/homepage"/><o type="iri" val="http://www.house.state.pa.us/index.cfm"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-44"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/Pennsylvania_House_of_Representatives"/></data-triple-N3>
+
+<data-triple-N3 id="e11118-44"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://xmlns.com/foaf/0.1/name"/><o type="lit"><![CDATA["Pennsylvania House of Representatives"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e11118-45"><s type="iri" val="http://dbpedia.org/resource/Ronald_Waters"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["22340439"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e11118-44"/>
+<end id="e11118-45"/>
+<entry id="e11118-46" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:03.177Z">
+<s type="iri" val="http://dbpedia.org/resource/Sandra_Major"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e11118-46"><s type="iri" val="http://dbpedia.org/resource/Sandra_Major"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["19188849"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e11118-47" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:03.179Z">
+<s type="iri" val="http://dbpedia.org/resource/Stan_Saylor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e11118-46"/>
+<data-triple-N3 id="e11118-47"><s type="iri" val="http://dbpedia.org/resource/Stan_Saylor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["19560529"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e11118-47"/>
+<entry id="e11118-48" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:03.183Z">
+<s type="iri" val="http://dbpedia.org/resource/The_Pennsylvania_Manual"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e11118-48"><s type="iri" val="http://dbpedia.org/resource/The_Pennsylvania_Manual"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["24000581"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e11118-49" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:03.184Z">
+<s type="iri" val="http://dbpedia.org/resource/U.S._state"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e11118-50" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:03.186Z">
+<s type="iri" val="http://dbpedia.org/resource/William_Penn"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e11118-48"/>
+<data-triple-N3 id="e11118-49"><s type="iri" val="http://dbpedia.org/resource/U.S._state"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["18618239"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e11118-50"><s type="iri" val="http://dbpedia.org/resource/William_Penn"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["19723957"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e11118-49"/>
+<end id="e11118-50"/>
+<entry id="e11118-51" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:03.229Z">
+<s type="iri" val="http://dbpedia.org/resource/Pennsylvania_House_of_Representatives_elections,_2014"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e11118-51"/>
+<entry id="e11118-52" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:03.233Z">
+<s type="iri" val="http://dbpedia.org/ontology/Agent"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e11118-53" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:03.236Z">
+<s type="iri" val="http://dbpedia.org/ontology/Legislature"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e11118-52"/>
+<entry id="e11118-54" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:03.241Z">
+<s type="iri" val="http://dbpedia.org/ontology/Organisation"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e11118-55" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:03.244Z">
+<s type="iri" val="http://schema.org/Organization"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e11118-53"/>
+<end id="e11118-54"/>
+<end id="e11118-55"/>
+<entry id="e11118-56" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:03.281Z">
+<s type="iri" val="http://www.w3.org/2002/07/owl#Thing"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e11118-56"/>
+<entry id="e11118-57" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:03.289Z">
+<s type="iri" val="http://de.dbpedia.org/resource/Reprasentantenhaus_von_Pennsylvania"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e11118-57"/>
+<entry id="e11118-58" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:03.325Z">
+<s type="iri" val="http://fr.dbpedia.org/resource/Chambre_des_representants_de_la_Pennsylvanie"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e11118-59" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:03.327Z">
+<s type="iri" val="http://www.wikidata.org/entity/Q2145217"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e11118-60" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:03.328Z">
+<s type="iri" val="http://zh.dbpedia.org/resource/宾夕法尼亚州众议院"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e11118-58"/>
+<end id="e11118-59"/>
+<end id="e11118-60"/>
+<entry id="e11118-61" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:03.333Z">
+<s type="iri" val="http://en.wikipedia.org/wiki/Pennsylvania_House_of_Representatives?oldid=542449099"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e11118-61"/>
+<entry id="e11118-62" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:03.369Z">
+<s type="iri" val="http://upload.wikimedia.org/wikipedia/commons/e/e9/Seal_of_the_Pennsylvania_House_of_Representatives.svg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e11118-62"/>
+<entry id="e11118-63" client="::ffff:127.0.0.1" worker="11118" time="2017-04-26T11:19:03.377Z">
+<s type="iri" val="http://en.wikipedia.org/wiki/Pennsylvania_House_of_Representatives"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e11118-63"/>
+ </trace>

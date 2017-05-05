@@ -1,0 +1,1413 @@
+<?xml version="1.0"?><!DOCTYPE trace SYSTEM "logTPF.dtd">
+<trace>
+<msg>Master 20719 running on http://localhost:5000/.</msg>
+<msg>Worker 20725 running on http://localhost:5000/.</msg>
+<entry id="e20725-1" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.124Z">
+<s type="var"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5878274"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["489132637"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!?oldid=489132637"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3632887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["545017937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Doppeltes_Ausrufezeichen"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q353153"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!!?oldid=545017937"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chkchkchk.jpg/200px-Chkchkchk.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://auralstates.com/2007/10/interview-aka-chk-chk-chk-w-nic-offer.html"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://punkcast.com/423/"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://supersweet.org/main.aspx?atype=1&amp;aname=Music_Chk_Chk_Chk&amp;con=1&amp;sc1=0&amp;sc2=0"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.chkchkchk.net/"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.npr.org/templates/story/story.php?storyId=10236467"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600744"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548612260"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Billboard_200"/></data-triple-N3>
+
+<end id="e20725-1"/>
+<entry id="e20725-2" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.182Z">
+<s type="var"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["21171418"^^http://www.w3.org/2001/XMLSchema#integer]]></o>
+</entry>
+<data-triple-N3 id="e20725-2"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["21171418"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-2"/>
+<entry id="e20725-3" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.190Z">
+<s type="var"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5878274"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["489132637"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!?oldid=489132637"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3632887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["545017937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Doppeltes_Ausrufezeichen"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q353153"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!!?oldid=545017937"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chkchkchk.jpg/200px-Chkchkchk.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://auralstates.com/2007/10/interview-aka-chk-chk-chk-w-nic-offer.html"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://punkcast.com/423/"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://supersweet.org/main.aspx?atype=1&amp;aname=Music_Chk_Chk_Chk&amp;con=1&amp;sc1=0&amp;sc2=0"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.chkchkchk.net/"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.npr.org/templates/story/story.php?storyId=10236467"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600744"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548612260"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Billboard_200"/></data-triple-N3>
+
+<end id="e20725-3"/>
+<entry id="e20725-4" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.227Z">
+<s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Carl_Spitzweg_025.jpg/200px-Carl_Spitzweg_025.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://education-portal.com/articles/Geologist_Educational_Requirements_for_Entering_the_Field_of_Geology.html"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.minigeology.com/"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["21171418"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["547802252"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Biology"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bre-X"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Carl_Spitzweg"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Geologists"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Science_occupations"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chemistry"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Climate_change"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Dendrochronology"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Earth"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Earthquake"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Economic_geology"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Engineering"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Engineering_geologist"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Engineering_geology"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Environmental_impact_analysis"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Environmental_impact_assessment"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Environmental_studies"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Eustasy"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Fault_(geology)"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:Tephrochronology_iceland.JPG"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Fold_(geology)"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Foliation_(geology)"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Forensic"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Forensic_science"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Fractional_crystallization_(geology)"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Geochemistry"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Geochronology"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Geographic_information_system"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Geography"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Geologic_hazards"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Geology"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Geomorphology"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Geophysics"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Geostatistics"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Hydrocarbon"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Hydrocarbon_exploration"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Hydrocarbons"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Hydrogeology"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Igneous_differentiation"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Impact_event"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Isotope_geochemistry"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Isotope_geology"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Karst"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Lava"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/List_of_Russian_earth_scientists"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/List_of_Russian_geologists"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/List_of_geologists"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Magma"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Map"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Marine_geology"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mathematics"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Metamorphic_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Metamorphism"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Meteorite_impact"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mineralogy"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mining"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mud_logging"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/National_Instrument_43-101"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Oil_exploration"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ore_genesis"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Palaeoclimatology"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Palaeontology"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Paleoclimatology"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Paleontology"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pedology_(soil_study)"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Petroleum"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Petroleum_geologist"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Petroleum_geology"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Petroleum_industry"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Petrology"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Physical_geography"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Physics"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Profession"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Regolith"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Rock_microstructure"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Salting_(confidence_trick)"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Scientist"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Sea_level"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Sedimentary_basin"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Sedimentary_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Sedimentary_rocks"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Sedimentology"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Seismologist"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Seismology"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Stratigraphy"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Stratum"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Structural_geology"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Tsunami"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USGS"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_Geological_Survey"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Urban_planning"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Volcano"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Volcanologist"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Volcanology"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-4"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:Carl_Spitzweg_025.jpg"/></data-triple-N3>
+
+<end id="e20725-4"/>
+<entry id="e20725-5" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.252Z">
+<s type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Carl_Spitzweg_025.jpg/200px-Carl_Spitzweg_025.jpg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e20725-5"/>
+<entry id="e20725-6" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.256Z">
+<s type="iri" val="http://education-portal.com/articles/Geologist_Educational_Requirements_for_Entering_the_Field_of_Geology.html"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e20725-7" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.259Z">
+<s type="iri" val="http://www.minigeology.com/"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e20725-6"/>
+<end id="e20725-7"/>
+<entry id="e20725-8" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.300Z">
+<s type="iri" val="http://dbpedia.org/resource/Biology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e20725-9" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.304Z">
+<s type="iri" val="http://dbpedia.org/resource/Bre-X"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e20725-10" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.307Z">
+<s type="iri" val="http://dbpedia.org/resource/Carl_Spitzweg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-8"><s type="iri" val="http://dbpedia.org/resource/Biology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["9127632"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e20725-9"><s type="iri" val="http://dbpedia.org/resource/Bre-X"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["475296"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e20725-10"><s type="iri" val="http://dbpedia.org/resource/Carl_Spitzweg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["240523"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e20725-11" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.310Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Geologists"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e20725-8"/>
+<end id="e20725-9"/>
+<end id="e20725-10"/>
+<data-triple-N3 id="e20725-11"><s type="iri" val="http://dbpedia.org/resource/Category:Geologists"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["763224"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-11"/>
+<entry id="e20725-12" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.320Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Science_occupations"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e20725-13" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.322Z">
+<s type="iri" val="http://dbpedia.org/resource/Chemistry"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-12"><s type="iri" val="http://dbpedia.org/resource/Category:Science_occupations"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1003632"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e20725-13"><s type="iri" val="http://dbpedia.org/resource/Chemistry"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5180"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-12"/>
+<end id="e20725-13"/>
+<entry id="e20725-14" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.354Z">
+<s type="iri" val="http://dbpedia.org/resource/Climate_change"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-14"><s type="iri" val="http://dbpedia.org/resource/Climate_change"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["47512"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-14"/>
+<entry id="e20725-15" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.360Z">
+<s type="iri" val="http://dbpedia.org/resource/Dendrochronology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-15"><s type="iri" val="http://dbpedia.org/resource/Dendrochronology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["37800"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-15"/>
+<entry id="e20725-16" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.365Z">
+<s type="iri" val="http://dbpedia.org/resource/Earth"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-16"><s type="iri" val="http://dbpedia.org/resource/Earth"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["9228"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e20725-17" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.367Z">
+<s type="iri" val="http://dbpedia.org/resource/Earthquake"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e20725-16"/>
+<data-triple-N3 id="e20725-17"><s type="iri" val="http://dbpedia.org/resource/Earthquake"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["10106"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-17"/>
+<entry id="e20725-18" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.397Z">
+<s type="iri" val="http://dbpedia.org/resource/Economic_geology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-18"><s type="iri" val="http://dbpedia.org/resource/Economic_geology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["277532"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-18"/>
+<entry id="e20725-19" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.404Z">
+<s type="iri" val="http://dbpedia.org/resource/Engineering"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-19"><s type="iri" val="http://dbpedia.org/resource/Engineering"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["9251"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-19"/>
+<entry id="e20725-20" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.409Z">
+<s type="iri" val="http://dbpedia.org/resource/Engineering_geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-20"><s type="iri" val="http://dbpedia.org/resource/Engineering_geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["30874826"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e20725-21" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.414Z">
+<s type="iri" val="http://dbpedia.org/resource/Engineering_geology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e20725-20"/>
+<data-triple-N3 id="e20725-21"><s type="iri" val="http://dbpedia.org/resource/Engineering_geology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["777471"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-21"/>
+<entry id="e20725-22" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.442Z">
+<s type="iri" val="http://dbpedia.org/resource/Environmental_impact_analysis"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-22"><s type="iri" val="http://dbpedia.org/resource/Environmental_impact_analysis"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["371766"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-22"/>
+<entry id="e20725-23" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.449Z">
+<s type="iri" val="http://dbpedia.org/resource/Environmental_impact_assessment"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-23"><s type="iri" val="http://dbpedia.org/resource/Environmental_impact_assessment"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2364800"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-23"/>
+<entry id="e20725-24" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.465Z">
+<s type="iri" val="http://dbpedia.org/resource/Environmental_studies"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-24"><s type="iri" val="http://dbpedia.org/resource/Environmental_studies"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1195462"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e20725-25" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.467Z">
+<s type="iri" val="http://dbpedia.org/resource/Eustasy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e20725-24"/>
+<data-triple-N3 id="e20725-25"><s type="iri" val="http://dbpedia.org/resource/Eustasy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1209933"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-25"/>
+<entry id="e20725-26" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.489Z">
+<s type="iri" val="http://dbpedia.org/resource/Fault_(geology)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-26"><s type="iri" val="http://dbpedia.org/resource/Fault_(geology)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["182787"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-26"/>
+<entry id="e20725-27" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.493Z">
+<s type="iri" val="http://dbpedia.org/resource/File:Tephrochronology_iceland.JPG"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-27"><s type="iri" val="http://dbpedia.org/resource/File:Tephrochronology_iceland.JPG"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["24264206"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-27"/>
+<entry id="e20725-28" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.509Z">
+<s type="iri" val="http://dbpedia.org/resource/Fold_(geology)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-28"><s type="iri" val="http://dbpedia.org/resource/Fold_(geology)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["763490"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-28"/>
+<entry id="e20725-29" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.513Z">
+<s type="iri" val="http://dbpedia.org/resource/Foliation_(geology)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-29"><s type="iri" val="http://dbpedia.org/resource/Foliation_(geology)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3506480"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-29"/>
+<entry id="e20725-30" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.533Z">
+<s type="iri" val="http://dbpedia.org/resource/Forensic"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-30"><s type="iri" val="http://dbpedia.org/resource/Forensic"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["69985"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-30"/>
+<entry id="e20725-31" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.537Z">
+<s type="iri" val="http://dbpedia.org/resource/Forensic_science"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-31"><s type="iri" val="http://dbpedia.org/resource/Forensic_science"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["45710"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-31"/>
+<entry id="e20725-32" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.553Z">
+<s type="iri" val="http://dbpedia.org/resource/Fractional_crystallization_(geology)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-32"><s type="iri" val="http://dbpedia.org/resource/Fractional_crystallization_(geology)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5782810"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-32"/>
+<entry id="e20725-33" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.559Z">
+<s type="iri" val="http://dbpedia.org/resource/Geochemistry"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-33"><s type="iri" val="http://dbpedia.org/resource/Geochemistry"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["39562"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-33"/>
+<entry id="e20725-34" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.577Z">
+<s type="iri" val="http://dbpedia.org/resource/Geochronology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-34"><s type="iri" val="http://dbpedia.org/resource/Geochronology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["208215"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-34"/>
+<entry id="e20725-35" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.586Z">
+<s type="iri" val="http://dbpedia.org/resource/Geographic_information_system"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-35"><s type="iri" val="http://dbpedia.org/resource/Geographic_information_system"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["12398"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-35"/>
+<entry id="e20725-36" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.598Z">
+<s type="iri" val="http://dbpedia.org/resource/Geography"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-36"><s type="iri" val="http://dbpedia.org/resource/Geography"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["18963910"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-36"/>
+<entry id="e20725-37" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.605Z">
+<s type="iri" val="http://dbpedia.org/resource/Geologic_hazards"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-37"><s type="iri" val="http://dbpedia.org/resource/Geologic_hazards"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["782310"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-37"/>
+<entry id="e20725-38" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.624Z">
+<s type="iri" val="http://dbpedia.org/resource/Geology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-38"><s type="iri" val="http://dbpedia.org/resource/Geology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["12207"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-38"/>
+<entry id="e20725-39" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.632Z">
+<s type="iri" val="http://dbpedia.org/resource/Geomorphology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-39"><s type="iri" val="http://dbpedia.org/resource/Geomorphology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["78534"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-39"/>
+<entry id="e20725-40" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.640Z">
+<s type="iri" val="http://dbpedia.org/resource/Geophysics"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-40"><s type="iri" val="http://dbpedia.org/resource/Geophysics"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["54962"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-40"/>
+<entry id="e20725-41" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.646Z">
+<s type="iri" val="http://dbpedia.org/resource/Geostatistics"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-41"><s type="iri" val="http://dbpedia.org/resource/Geostatistics"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["51531"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-41"/>
+<entry id="e20725-42" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.665Z">
+<s type="iri" val="http://dbpedia.org/resource/Hydrocarbon"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-42"><s type="iri" val="http://dbpedia.org/resource/Hydrocarbon"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["13257"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-42"/>
+<entry id="e20725-43" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.676Z">
+<s type="iri" val="http://dbpedia.org/resource/Hydrocarbon_exploration"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-43"><s type="iri" val="http://dbpedia.org/resource/Hydrocarbon_exploration"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["614302"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-43"/>
+<entry id="e20725-44" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.681Z">
+<s type="iri" val="http://dbpedia.org/resource/Hydrocarbons"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-44"><s type="iri" val="http://dbpedia.org/resource/Hydrocarbons"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["175157"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-44"/>
+<entry id="e20725-45" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.689Z">
+<s type="iri" val="http://dbpedia.org/resource/Hydrogeology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-45"><s type="iri" val="http://dbpedia.org/resource/Hydrogeology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["434326"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-45"/>
+<entry id="e20725-46" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.709Z">
+<s type="iri" val="http://dbpedia.org/resource/Igneous_differentiation"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-46"><s type="iri" val="http://dbpedia.org/resource/Igneous_differentiation"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3864143"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-46"/>
+<entry id="e20725-47" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.721Z">
+<s type="iri" val="http://dbpedia.org/resource/Impact_event"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-47"><s type="iri" val="http://dbpedia.org/resource/Impact_event"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["63794"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-47"/>
+<entry id="e20725-48" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.726Z">
+<s type="iri" val="http://dbpedia.org/resource/Isotope_geochemistry"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-48"><s type="iri" val="http://dbpedia.org/resource/Isotope_geochemistry"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1440511"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-48"/>
+<entry id="e20725-49" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.734Z">
+<s type="iri" val="http://dbpedia.org/resource/Isotope_geology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-49"><s type="iri" val="http://dbpedia.org/resource/Isotope_geology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["4842739"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-49"/>
+<entry id="e20725-50" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.753Z">
+<s type="iri" val="http://dbpedia.org/resource/Karst"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-50"><s type="iri" val="http://dbpedia.org/resource/Karst"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["17022"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-50"/>
+<entry id="e20725-51" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.764Z">
+<s type="iri" val="http://dbpedia.org/resource/Lava"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-51"><s type="iri" val="http://dbpedia.org/resource/Lava"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["21438242"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-51"/>
+<entry id="e20725-52" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.772Z">
+<s type="iri" val="http://dbpedia.org/resource/List_of_Russian_earth_scientists"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-52"><s type="iri" val="http://dbpedia.org/resource/List_of_Russian_earth_scientists"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["29235465"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-52"/>
+<entry id="e20725-53" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.777Z">
+<s type="iri" val="http://dbpedia.org/resource/List_of_Russian_geologists"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-53"><s type="iri" val="http://dbpedia.org/resource/List_of_Russian_geologists"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["29252739"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-53"/>
+<entry id="e20725-54" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.796Z">
+<s type="iri" val="http://dbpedia.org/resource/List_of_geologists"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-54"><s type="iri" val="http://dbpedia.org/resource/List_of_geologists"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["80157"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-54"/>
+<entry id="e20725-55" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.804Z">
+<s type="iri" val="http://dbpedia.org/resource/Magma"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-55"><s type="iri" val="http://dbpedia.org/resource/Magma"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["37508"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-55"/>
+<entry id="e20725-56" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.812Z">
+<s type="iri" val="http://dbpedia.org/resource/Map"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-56"><s type="iri" val="http://dbpedia.org/resource/Map"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["19877"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-56"/>
+<entry id="e20725-57" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.821Z">
+<s type="iri" val="http://dbpedia.org/resource/Marine_geology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-57"><s type="iri" val="http://dbpedia.org/resource/Marine_geology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1819715"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-57"/>
+<entry id="e20725-58" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.837Z">
+<s type="iri" val="http://dbpedia.org/resource/Mathematics"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-58"><s type="iri" val="http://dbpedia.org/resource/Mathematics"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["18831"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-58"/>
+<entry id="e20725-59" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.844Z">
+<s type="iri" val="http://dbpedia.org/resource/Metamorphic_rock"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-59"><s type="iri" val="http://dbpedia.org/resource/Metamorphic_rock"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["44424"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-59"/>
+<entry id="e20725-60" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.852Z">
+<s type="iri" val="http://dbpedia.org/resource/Metamorphism"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-60"><s type="iri" val="http://dbpedia.org/resource/Metamorphism"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["202831"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-60"/>
+<entry id="e20725-61" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.865Z">
+<s type="iri" val="http://dbpedia.org/resource/Meteorite_impact"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-61"><s type="iri" val="http://dbpedia.org/resource/Meteorite_impact"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1467735"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-61"/>
+<entry id="e20725-62" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.881Z">
+<s type="iri" val="http://dbpedia.org/resource/Mineralogy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-62"><s type="iri" val="http://dbpedia.org/resource/Mineralogy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["19883"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-62"/>
+<entry id="e20725-63" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.889Z">
+<s type="iri" val="http://dbpedia.org/resource/Mining"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-63"><s type="iri" val="http://dbpedia.org/resource/Mining"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["20381"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-63"/>
+<entry id="e20725-64" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.897Z">
+<s type="iri" val="http://dbpedia.org/resource/Mud_logging"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-64"><s type="iri" val="http://dbpedia.org/resource/Mud_logging"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["4435023"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-64"/>
+<entry id="e20725-65" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.909Z">
+<s type="iri" val="http://dbpedia.org/resource/National_Instrument_43-101"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-65"><s type="iri" val="http://dbpedia.org/resource/National_Instrument_43-101"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["8089419"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-65"/>
+<entry id="e20725-66" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.925Z">
+<s type="iri" val="http://dbpedia.org/resource/Oil_exploration"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-66"><s type="iri" val="http://dbpedia.org/resource/Oil_exploration"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["15087955"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-66"/>
+<entry id="e20725-67" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.932Z">
+<s type="iri" val="http://dbpedia.org/resource/Ore_genesis"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-67"><s type="iri" val="http://dbpedia.org/resource/Ore_genesis"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3425287"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-67"/>
+<entry id="e20725-68" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.940Z">
+<s type="iri" val="http://dbpedia.org/resource/Palaeoclimatology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-68"><s type="iri" val="http://dbpedia.org/resource/Palaeoclimatology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["949265"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-68"/>
+<entry id="e20725-69" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.953Z">
+<s type="iri" val="http://dbpedia.org/resource/Palaeontology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-69"><s type="iri" val="http://dbpedia.org/resource/Palaeontology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["167015"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-69"/>
+<entry id="e20725-70" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.968Z">
+<s type="iri" val="http://dbpedia.org/resource/Paleoclimatology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-70"><s type="iri" val="http://dbpedia.org/resource/Paleoclimatology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["51042"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-70"/>
+<entry id="e20725-71" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.977Z">
+<s type="iri" val="http://dbpedia.org/resource/Paleontology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-71"><s type="iri" val="http://dbpedia.org/resource/Paleontology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["23084"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-71"/>
+<entry id="e20725-72" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.984Z">
+<s type="iri" val="http://dbpedia.org/resource/Pedology_(soil_study)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-72"><s type="iri" val="http://dbpedia.org/resource/Pedology_(soil_study)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["59408"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-72"/>
+<entry id="e20725-73" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:36.997Z">
+<s type="iri" val="http://dbpedia.org/resource/Petroleum"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-73"><s type="iri" val="http://dbpedia.org/resource/Petroleum"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["23195"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-73"/>
+<entry id="e20725-74" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.012Z">
+<s type="iri" val="http://dbpedia.org/resource/Petroleum_geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-74"><s type="iri" val="http://dbpedia.org/resource/Petroleum_geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["7070643"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-74"/>
+<entry id="e20725-75" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.021Z">
+<s type="iri" val="http://dbpedia.org/resource/Petroleum_geology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-75"><s type="iri" val="http://dbpedia.org/resource/Petroleum_geology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["182705"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-75"/>
+<entry id="e20725-76" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.029Z">
+<s type="iri" val="http://dbpedia.org/resource/Petroleum_industry"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-76"><s type="iri" val="http://dbpedia.org/resource/Petroleum_industry"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["994887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-76"/>
+<entry id="e20725-77" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.041Z">
+<s type="iri" val="http://dbpedia.org/resource/Petrology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-77"><s type="iri" val="http://dbpedia.org/resource/Petrology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["340982"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-77"/>
+<entry id="e20725-78" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.057Z">
+<s type="iri" val="http://dbpedia.org/resource/Physical_geography"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-78"><s type="iri" val="http://dbpedia.org/resource/Physical_geography"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["23263"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-78"/>
+<entry id="e20725-79" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.067Z">
+<s type="iri" val="http://dbpedia.org/resource/Physics"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-79"><s type="iri" val="http://dbpedia.org/resource/Physics"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["22939"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-79"/>
+<entry id="e20725-80" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.075Z">
+<s type="iri" val="http://dbpedia.org/resource/Profession"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-80"><s type="iri" val="http://dbpedia.org/resource/Profession"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["24460"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-80"/>
+<entry id="e20725-81" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.084Z">
+<s type="iri" val="http://dbpedia.org/resource/Regolith"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-81"><s type="iri" val="http://dbpedia.org/resource/Regolith"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["204967"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-81"/>
+<entry id="e20725-82" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.101Z">
+<s type="iri" val="http://dbpedia.org/resource/Rock_microstructure"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-82"><s type="iri" val="http://dbpedia.org/resource/Rock_microstructure"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3495205"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-82"/>
+<entry id="e20725-83" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.104Z">
+<s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-83"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:CratersOfTheMoonFordTent.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-83"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:Geologists-tools_hg.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-83"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:MakhteshGadolJurassicRidge.JPG"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-83"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:Mudlogging.JPG"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-83"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:Uz_geology_fieldschool2002.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-83"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Geologists"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-83"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Science_occupations"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-83"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#comment"/><o type="lit"><![CDATA["A geologist is a scientist who studies the solid and liquid matter that constitutes the Earth as well as the processes and history that has shaped it. Geologists usually engage in studying geology. Geologists, studying more of an applied science than a theoretical one, must approach Geology using physics, chemistry and biology as well as other sciences."@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e20725-83"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["Geologist"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e20725-83"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://br.dbpedia.org/resource/Douarour"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-83"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://cs.dbpedia.org/resource/Geolog"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-83"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://da.dbpedia.org/resource/Geolog"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-83"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Geologe"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-83"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/Geologo"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-83"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/Geoloog"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-83"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eu.dbpedia.org/resource/Geologo"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-83"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/Geologue"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-83"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://gu.dbpedia.org/resource/ભૂસ્તરશાસ્ત્રી"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-83"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://he.dbpedia.org/resource/גאולוג"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-83"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://hu.dbpedia.org/resource/Geologus"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-83"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://id.dbpedia.org/resource/Geolog"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-83"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/Geologo"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-83"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://lv.dbpedia.org/resource/Geologs"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-83"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://nn.dbpedia.org/resource/Geolog"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-83"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://no.dbpedia.org/resource/Geolog"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-83"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://pl.dbpedia.org/resource/Geolog_(zawod)"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-83"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://pt.dbpedia.org/resource/Geologo"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-83"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://sh.dbpedia.org/resource/Geolog"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-83"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://sk.dbpedia.org/resource/Geolog"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-83"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://sl.dbpedia.org/resource/Geolog"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-83"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://sr.dbpedia.org/resource/Геолог"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-83"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://sv.dbpedia.org/resource/Geolog"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-83"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://vi.dbpedia.org/resource/Nha_dia_chat_hoc"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-83"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q520549"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-83"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/Geologist?oldid=547802252"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-83"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://xmlns.com/foaf/0.1/depiction"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/a/a3/Carl_Spitzweg_025.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e20725-83"><s type="iri" val="http://dbpedia.org/resource/Geologist"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/Geologist"/></data-triple-N3>
+
+<end id="e20725-83"/>
+<entry id="e20725-84" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.112Z">
+<s type="iri" val="http://dbpedia.org/resource/Salting_(confidence_trick)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-84"><s type="iri" val="http://dbpedia.org/resource/Salting_(confidence_trick)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["19715803"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-84"/>
+<entry id="e20725-85" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.120Z">
+<s type="iri" val="http://dbpedia.org/resource/Scientist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-85"><s type="iri" val="http://dbpedia.org/resource/Scientist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["26997"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-85"/>
+<entry id="e20725-86" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.129Z">
+<s type="iri" val="http://dbpedia.org/resource/Sea_level"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-86"><s type="iri" val="http://dbpedia.org/resource/Sea_level"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["62529"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-86"/>
+<entry id="e20725-87" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.144Z">
+<s type="iri" val="http://dbpedia.org/resource/Sedimentary_basin"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-87"><s type="iri" val="http://dbpedia.org/resource/Sedimentary_basin"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["182732"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-87"/>
+<entry id="e20725-88" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.157Z">
+<s type="iri" val="http://dbpedia.org/resource/Sedimentary_rock"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-88"><s type="iri" val="http://dbpedia.org/resource/Sedimentary_rock"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["44412"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-88"/>
+<entry id="e20725-89" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.164Z">
+<s type="iri" val="http://dbpedia.org/resource/Sedimentary_rocks"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-89"><s type="iri" val="http://dbpedia.org/resource/Sedimentary_rocks"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1244990"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-89"/>
+<entry id="e20725-90" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.172Z">
+<s type="iri" val="http://dbpedia.org/resource/Sedimentology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-90"><s type="iri" val="http://dbpedia.org/resource/Sedimentology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["182779"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-90"/>
+<entry id="e20725-91" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.189Z">
+<s type="iri" val="http://dbpedia.org/resource/Seismologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-91"><s type="iri" val="http://dbpedia.org/resource/Seismologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["604139"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-91"/>
+<entry id="e20725-92" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.201Z">
+<s type="iri" val="http://dbpedia.org/resource/Seismology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-92"><s type="iri" val="http://dbpedia.org/resource/Seismology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["28935"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-92"/>
+<entry id="e20725-93" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.216Z">
+<s type="iri" val="http://dbpedia.org/resource/Stratigraphy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-93"><s type="iri" val="http://dbpedia.org/resource/Stratigraphy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["182783"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e20725-94" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.220Z">
+<s type="iri" val="http://dbpedia.org/resource/Stratum"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e20725-93"/>
+<data-triple-N3 id="e20725-94"><s type="iri" val="http://dbpedia.org/resource/Stratum"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["554469"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-94"/>
+<entry id="e20725-95" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.232Z">
+<s type="iri" val="http://dbpedia.org/resource/Structural_geology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-95"><s type="iri" val="http://dbpedia.org/resource/Structural_geology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["27637"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-95"/>
+<entry id="e20725-96" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.244Z">
+<s type="iri" val="http://dbpedia.org/resource/Tsunami"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-96"><s type="iri" val="http://dbpedia.org/resource/Tsunami"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["31161"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-96"/>
+<entry id="e20725-97" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.264Z">
+<s type="iri" val="http://dbpedia.org/resource/USGS"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e20725-98" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.267Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_Geological_Survey"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-97"><s type="iri" val="http://dbpedia.org/resource/USGS"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["176584"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e20725-98"><s type="iri" val="http://dbpedia.org/resource/United_States_Geological_Survey"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["23814944"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-97"/>
+<end id="e20725-98"/>
+<entry id="e20725-99" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.277Z">
+<s type="iri" val="http://dbpedia.org/resource/Urban_planning"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-99"><s type="iri" val="http://dbpedia.org/resource/Urban_planning"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["45346"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-99"/>
+<entry id="e20725-100" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.289Z">
+<s type="iri" val="http://dbpedia.org/resource/Volcano"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-100"><s type="iri" val="http://dbpedia.org/resource/Volcano"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["32571"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-100"/>
+<entry id="e20725-101" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.312Z">
+<s type="iri" val="http://dbpedia.org/resource/Volcanologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-101"><s type="iri" val="http://dbpedia.org/resource/Volcanologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["256572"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-101"/>
+<entry id="e20725-102" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.316Z">
+<s type="iri" val="http://dbpedia.org/resource/Volcanology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e20725-102"><s type="iri" val="http://dbpedia.org/resource/Volcanology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["238112"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e20725-102"/>
+<entry id="e20725-103" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.324Z">
+<s type="iri" val="http://dbpedia.org/resource/File:Carl_Spitzweg_025.jpg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e20725-103"/>
+<entry id="e20725-104" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.333Z">
+<s type="iri" val="http://dbpedia.org/resource/File:CratersOfTheMoonFordTent.jpg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e20725-104"/>
+<entry id="e20725-105" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.352Z">
+<s type="iri" val="http://dbpedia.org/resource/File:Geologists-tools_hg.jpg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e20725-105"/>
+<entry id="e20725-106" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.356Z">
+<s type="iri" val="http://dbpedia.org/resource/File:MakhteshGadolJurassicRidge.JPG"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e20725-106"/>
+<entry id="e20725-107" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.364Z">
+<s type="iri" val="http://dbpedia.org/resource/File:Mudlogging.JPG"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e20725-107"/>
+<entry id="e20725-108" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.377Z">
+<s type="iri" val="http://dbpedia.org/resource/File:Uz_geology_fieldschool2002.jpg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e20725-108"/>
+<entry id="e20725-109" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.420Z">
+<s type="iri" val="http://br.dbpedia.org/resource/Douarour"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e20725-110" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.422Z">
+<s type="iri" val="http://cs.dbpedia.org/resource/Geolog"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e20725-111" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.423Z">
+<s type="iri" val="http://da.dbpedia.org/resource/Geolog"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e20725-112" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.425Z">
+<s type="iri" val="http://de.dbpedia.org/resource/Geologe"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e20725-109"/>
+<end id="e20725-110"/>
+<end id="e20725-111"/>
+<end id="e20725-112"/>
+<entry id="e20725-113" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.431Z">
+<s type="iri" val="http://eo.dbpedia.org/resource/Geologo"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e20725-113"/>
+<entry id="e20725-114" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.469Z">
+<s type="iri" val="http://et.dbpedia.org/resource/Geoloog"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e20725-115" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.471Z">
+<s type="iri" val="http://eu.dbpedia.org/resource/Geologo"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e20725-114"/>
+<end id="e20725-115"/>
+<entry id="e20725-116" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.475Z">
+<s type="iri" val="http://fr.dbpedia.org/resource/Geologue"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e20725-117" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.476Z">
+<s type="iri" val="http://gu.dbpedia.org/resource/ભૂસ્તરશાસ્ત્રી"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e20725-116"/>
+<entry id="e20725-118" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.481Z">
+<s type="iri" val="http://he.dbpedia.org/resource/גאולוג"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e20725-117"/>
+<end id="e20725-118"/>
+<entry id="e20725-119" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.512Z">
+<s type="iri" val="http://hu.dbpedia.org/resource/Geologus"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e20725-119"/>
+<entry id="e20725-120" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.520Z">
+<s type="iri" val="http://id.dbpedia.org/resource/Geolog"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e20725-120"/>
+<entry id="e20725-121" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.524Z">
+<s type="iri" val="http://it.dbpedia.org/resource/Geologo"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e20725-121"/>
+<entry id="e20725-122" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.528Z">
+<s type="iri" val="http://lv.dbpedia.org/resource/Geologs"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e20725-122"/>
+<entry id="e20725-123" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.557Z">
+<s type="iri" val="http://nn.dbpedia.org/resource/Geolog"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e20725-123"/>
+<entry id="e20725-124" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.566Z">
+<s type="iri" val="http://no.dbpedia.org/resource/Geolog"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e20725-124"/>
+<entry id="e20725-125" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.569Z">
+<s type="iri" val="http://pl.dbpedia.org/resource/Geolog_(zawod)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e20725-125"/>
+<entry id="e20725-126" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.573Z">
+<s type="iri" val="http://pt.dbpedia.org/resource/Geologo"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e20725-126"/>
+<entry id="e20725-127" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.603Z">
+<s type="iri" val="http://sh.dbpedia.org/resource/Geolog"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e20725-127"/>
+<entry id="e20725-128" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.614Z">
+<s type="iri" val="http://sk.dbpedia.org/resource/Geolog"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e20725-129" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.616Z">
+<s type="iri" val="http://sl.dbpedia.org/resource/Geolog"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e20725-128"/>
+<end id="e20725-129"/>
+<entry id="e20725-130" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.621Z">
+<s type="iri" val="http://sr.dbpedia.org/resource/Геолог"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e20725-130"/>
+<entry id="e20725-131" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.645Z">
+<s type="iri" val="http://sv.dbpedia.org/resource/Geolog"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e20725-131"/>
+<entry id="e20725-132" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.666Z">
+<s type="iri" val="http://vi.dbpedia.org/resource/Nha_dia_chat_hoc"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e20725-133" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.669Z">
+<s type="iri" val="http://www.wikidata.org/entity/Q520549"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e20725-134" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.672Z">
+<s type="iri" val="http://en.wikipedia.org/wiki/Geologist?oldid=547802252"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e20725-132"/>
+<end id="e20725-133"/>
+<end id="e20725-134"/>
+<entry id="e20725-135" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.689Z">
+<s type="iri" val="http://upload.wikimedia.org/wikipedia/commons/a/a3/Carl_Spitzweg_025.jpg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e20725-135"/>
+<entry id="e20725-136" client="::ffff:127.0.0.1" worker="20725" time="2017-04-25T19:42:37.720Z">
+<s type="iri" val="http://en.wikipedia.org/wiki/Geologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e20725-136"/>
+ </trace>

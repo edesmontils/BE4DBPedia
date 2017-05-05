@@ -1,0 +1,1787 @@
+<?xml version="1.0"?><!DOCTYPE trace SYSTEM "logTPF.dtd">
+<trace>
+<msg>Master 12092 running on http://localhost:5000/.</msg>
+<msg>Worker 12098 running on http://localhost:5000/.</msg>
+<entry id="e12098-1" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:45.631Z">
+<s type="var"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5878274"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["489132637"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!?oldid=489132637"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3632887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["545017937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Doppeltes_Ausrufezeichen"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q353153"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!!?oldid=545017937"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chkchkchk.jpg/200px-Chkchkchk.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://auralstates.com/2007/10/interview-aka-chk-chk-chk-w-nic-offer.html"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://punkcast.com/423/"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://supersweet.org/main.aspx?atype=1&amp;aname=Music_Chk_Chk_Chk&amp;con=1&amp;sc1=0&amp;sc2=0"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.chkchkchk.net/"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.npr.org/templates/story/story.php?storyId=10236467"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600744"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548612260"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Billboard_200"/></data-triple-N3>
+
+<end id="e12098-1"/>
+<entry id="e12098-2" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:45.688Z">
+<s type="var"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["60930"^^http://www.w3.org/2001/XMLSchema#integer]]></o>
+</entry>
+<data-triple-N3 id="e12098-2"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["60930"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-2"/>
+<entry id="e12098-3" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:45.695Z">
+<s type="var"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5878274"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["489132637"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!?oldid=489132637"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3632887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["545017937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Doppeltes_Ausrufezeichen"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q353153"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!!?oldid=545017937"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chkchkchk.jpg/200px-Chkchkchk.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://auralstates.com/2007/10/interview-aka-chk-chk-chk-w-nic-offer.html"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://punkcast.com/423/"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://supersweet.org/main.aspx?atype=1&amp;aname=Music_Chk_Chk_Chk&amp;con=1&amp;sc1=0&amp;sc2=0"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.chkchkchk.net/"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.npr.org/templates/story/story.php?storyId=10236467"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600744"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548612260"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Billboard_200"/></data-triple-N3>
+
+<end id="e12098-3"/>
+<entry id="e12098-4" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:45.735Z">
+<s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Mack_Launch_172.jpg/200px-Mack_Launch_172.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.navybook.com/nohigherhonor/pic-ffg58launch.shtml"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.phillyseaport.org/web_exhibits/ladies_who_launch/"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.sciencedump.com/content/putting-massive-ships-water"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["60930"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548043295"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/3rd_millennium_BC"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/3rd_millennium_BC"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Airship"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Airship"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Alexandra_of_Denmark"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Alexandra_of_Denmark"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Allah"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Allah"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/American_Civil_War"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/American_Civil_War"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/American_Revolutionary_War"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/American_Revolutionary_War"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Andrew_Doria_(1775_brig)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Babylon"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Babylon"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Benjamin_F._Tracy"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Benjamin_F._Tracy"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bow_(ship)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bow_(ship)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bowsprit"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bowsprit"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Brandy"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Brandy"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Brooklyn_Navy_Yard"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Brooklyn_Navy_Yard"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/CSS_Virginia"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/CSS_Virginia"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Naval_ceremonies"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Naval_ceremonies"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Catholic_Church"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Catholic_Church"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Champagne"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Champagne_(wine)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Christianity"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Christianity"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Coconut"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Coconut"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Confederate_States_of_America"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Confederate_States_of_America"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Connecticut_River"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Connecticut_River"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Cruiser"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Cruiser"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/David_Farragut"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/David_Farragut"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Dry_dock"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Drydock"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Edward_VII"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Edward_VII_of_the_United_Kingdom"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Elizabeth_II"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Elizabeth_II_of_the_United_Kingdom"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/First_Lady_of_the_United_States"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/First_Lady_of_the_United_States"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Flagship"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Flagship"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Float-out"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Float-out"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/French_ship_Friedland_(1840)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/French_ship_Friedland_(1840)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Grace_Coolidge"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Grace_Coolidge"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Greek_mythology"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Greek_mythology"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/HMS_Alexandra_(1875)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/HMS_Alexandra_(1875)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/HMS_Prince_Royal_(1610)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/HMS_Prince_Royal_(1610)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Hartford,_Connecticut"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Hartford,_Connecticut"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Hindu"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Hindu"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Hull_classification_symbol"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Hull_classification_symbol"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/India"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/India"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Japanese_ship-naming_conventions"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Japanese_ship_naming_conventions"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Jew"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Jews"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Knights_Hospitaller"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Knights_Hospitaller"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Lou_Henry_Hoover"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Lou_Henry_Hoover"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Madeira_wine"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Madeira_wine"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Merrimack_River"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Merrimack_River"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Naval_Historical_Center"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Naval_History_&amp;_Heritage_Command"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Naval_Vessel_Register"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Naval_Vessel_Register"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Neptune_(mythology)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Neptune_(mythology)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-4"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ottoman_Empire"/></data-triple-N3>
+
+<end id="e12098-4"/>
+<entry id="e12098-5" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:45.758Z">
+<s type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Mack_Launch_172.jpg/200px-Mack_Launch_172.jpg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-5"/>
+<entry id="e12098-6" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:45.765Z">
+<s type="iri" val="http://www.navybook.com/nohigherhonor/pic-ffg58launch.shtml"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e12098-7" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:45.769Z">
+<s type="iri" val="http://www.phillyseaport.org/web_exhibits/ladies_who_launch/"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-6"/>
+<entry id="e12098-8" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:45.774Z">
+<s type="iri" val="http://www.sciencedump.com/content/putting-massive-ships-water"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-7"/>
+<end id="e12098-8"/>
+<entry id="e12098-9" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:45.812Z">
+<s type="iri" val="http://dbpedia.org/resource/3rd_millennium_BC"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-9"><s type="iri" val="http://dbpedia.org/resource/3rd_millennium_BC"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["35942"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12098-10" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:45.817Z">
+<s type="iri" val="http://dbpedia.org/resource/Airship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-9"/>
+<data-triple-N3 id="e12098-10"><s type="iri" val="http://dbpedia.org/resource/Airship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["58005"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-10"/>
+<entry id="e12098-11" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:45.868Z">
+<s type="iri" val="http://dbpedia.org/resource/Alexandra_of_Denmark"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-11"><s type="iri" val="http://dbpedia.org/resource/Alexandra_of_Denmark"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["48918"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12098-12" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:45.873Z">
+<s type="iri" val="http://dbpedia.org/resource/Allah"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-11"/>
+<data-triple-N3 id="e12098-12"><s type="iri" val="http://dbpedia.org/resource/Allah"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["740"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-12"/>
+<entry id="e12098-13" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:45.881Z">
+<s type="iri" val="http://dbpedia.org/resource/American_Civil_War"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-13"><s type="iri" val="http://dbpedia.org/resource/American_Civil_War"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["863"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12098-14" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:45.884Z">
+<s type="iri" val="http://dbpedia.org/resource/American_Revolutionary_War"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-13"/>
+<data-triple-N3 id="e12098-14"><s type="iri" val="http://dbpedia.org/resource/American_Revolutionary_War"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["771"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-14"/>
+<entry id="e12098-15" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:45.891Z">
+<s type="iri" val="http://dbpedia.org/resource/Andrew_Doria_(1775_brig)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e12098-16" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:45.896Z">
+<s type="iri" val="http://dbpedia.org/resource/Babylon"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-15"><s type="iri" val="http://dbpedia.org/resource/Andrew_Doria_(1775_brig)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["958984"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12098-16"><s type="iri" val="http://dbpedia.org/resource/Babylon"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["20609622"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-15"/>
+<end id="e12098-16"/>
+<entry id="e12098-17" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:45.932Z">
+<s type="iri" val="http://dbpedia.org/resource/Benjamin_F._Tracy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-17"><s type="iri" val="http://dbpedia.org/resource/Benjamin_F._Tracy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1008953"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-17"/>
+<entry id="e12098-18" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:45.944Z">
+<s type="iri" val="http://dbpedia.org/resource/Bow_(ship)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-18"><s type="iri" val="http://dbpedia.org/resource/Bow_(ship)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1989771"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12098-19" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:45.947Z">
+<s type="iri" val="http://dbpedia.org/resource/Bowsprit"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-18"/>
+<data-triple-N3 id="e12098-19"><s type="iri" val="http://dbpedia.org/resource/Bowsprit"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["919955"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-19"/>
+<entry id="e12098-20" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:45.960Z">
+<s type="iri" val="http://dbpedia.org/resource/Brandy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-20"><s type="iri" val="http://dbpedia.org/resource/Brandy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["45189"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-20"/>
+<entry id="e12098-21" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.002Z">
+<s type="iri" val="http://dbpedia.org/resource/Brooklyn_Navy_Yard"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-21"><s type="iri" val="http://dbpedia.org/resource/Brooklyn_Navy_Yard"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["23737998"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-21"/>
+<entry id="e12098-22" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.012Z">
+<s type="iri" val="http://dbpedia.org/resource/CSS_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-22"><s type="iri" val="http://dbpedia.org/resource/CSS_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5933"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12098-23" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.015Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Naval_ceremonies"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-22"/>
+<data-triple-N3 id="e12098-23"><s type="iri" val="http://dbpedia.org/resource/Category:Naval_ceremonies"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2342534"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-23"/>
+<entry id="e12098-24" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.022Z">
+<s type="iri" val="http://dbpedia.org/resource/Catholic_Church"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-24"><s type="iri" val="http://dbpedia.org/resource/Catholic_Church"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["606848"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12098-25" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.024Z">
+<s type="iri" val="http://dbpedia.org/resource/Champagne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e12098-26" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.026Z">
+<s type="iri" val="http://dbpedia.org/resource/Champagne_(wine)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-24"/>
+<data-triple-N3 id="e12098-25"><s type="iri" val="http://dbpedia.org/resource/Champagne"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["53754"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12098-26"><s type="iri" val="http://dbpedia.org/resource/Champagne_(wine)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["35125964"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-25"/>
+<end id="e12098-26"/>
+<entry id="e12098-27" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.075Z">
+<s type="iri" val="http://dbpedia.org/resource/Christianity"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-27"><s type="iri" val="http://dbpedia.org/resource/Christianity"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5211"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12098-28" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.079Z">
+<s type="iri" val="http://dbpedia.org/resource/Coconut"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-27"/>
+<data-triple-N3 id="e12098-28"><s type="iri" val="http://dbpedia.org/resource/Coconut"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["51346"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-28"/>
+<entry id="e12098-29" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.086Z">
+<s type="iri" val="http://dbpedia.org/resource/Confederate_States_of_America"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-29"><s type="iri" val="http://dbpedia.org/resource/Confederate_States_of_America"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["7023"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12098-30" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.090Z">
+<s type="iri" val="http://dbpedia.org/resource/Connecticut_River"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-29"/>
+<data-triple-N3 id="e12098-30"><s type="iri" val="http://dbpedia.org/resource/Connecticut_River"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["252145"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-30"/>
+<entry id="e12098-31" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.135Z">
+<s type="iri" val="http://dbpedia.org/resource/Cruiser"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-31"><s type="iri" val="http://dbpedia.org/resource/Cruiser"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["7034"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12098-32" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.139Z">
+<s type="iri" val="http://dbpedia.org/resource/David_Farragut"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-31"/>
+<data-triple-N3 id="e12098-32"><s type="iri" val="http://dbpedia.org/resource/David_Farragut"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["102728"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-32"/>
+<entry id="e12098-33" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.150Z">
+<s type="iri" val="http://dbpedia.org/resource/Dry_dock"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e12098-34" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.153Z">
+<s type="iri" val="http://dbpedia.org/resource/Drydock"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-33"><s type="iri" val="http://dbpedia.org/resource/Dry_dock"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["8806101"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12098-34"><s type="iri" val="http://dbpedia.org/resource/Drydock"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["213739"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-33"/>
+<end id="e12098-34"/>
+<entry id="e12098-35" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.158Z">
+<s type="iri" val="http://dbpedia.org/resource/Edward_VII"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e12098-36" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.159Z">
+<s type="iri" val="http://dbpedia.org/resource/Edward_VII_of_the_United_Kingdom"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-35"><s type="iri" val="http://dbpedia.org/resource/Edward_VII"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["46721"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12098-36"><s type="iri" val="http://dbpedia.org/resource/Edward_VII_of_the_United_Kingdom"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["33505922"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12098-37" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.161Z">
+<s type="iri" val="http://dbpedia.org/resource/Elizabeth_II"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-35"/>
+<end id="e12098-36"/>
+<data-triple-N3 id="e12098-37"><s type="iri" val="http://dbpedia.org/resource/Elizabeth_II"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["12153654"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-37"/>
+<entry id="e12098-38" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.196Z">
+<s type="iri" val="http://dbpedia.org/resource/Elizabeth_II_of_the_United_Kingdom"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-38"><s type="iri" val="http://dbpedia.org/resource/Elizabeth_II_of_the_United_Kingdom"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["26988991"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-38"/>
+<entry id="e12098-39" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.205Z">
+<s type="iri" val="http://dbpedia.org/resource/First_Lady_of_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-39"><s type="iri" val="http://dbpedia.org/resource/First_Lady_of_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["10847"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-39"/>
+<entry id="e12098-40" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.209Z">
+<s type="iri" val="http://dbpedia.org/resource/Flagship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-40"><s type="iri" val="http://dbpedia.org/resource/Flagship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["188719"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-40"/>
+<entry id="e12098-41" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.250Z">
+<s type="iri" val="http://dbpedia.org/resource/Float-out"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-41"><s type="iri" val="http://dbpedia.org/resource/Float-out"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["7312048"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-41"/>
+<entry id="e12098-42" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.252Z">
+<s type="iri" val="http://dbpedia.org/resource/French_ship_Friedland_(1840)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-42"><s type="iri" val="http://dbpedia.org/resource/French_ship_Friedland_(1840)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["14358723"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-42"/>
+<entry id="e12098-43" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.255Z">
+<s type="iri" val="http://dbpedia.org/resource/Grace_Coolidge"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-43"><s type="iri" val="http://dbpedia.org/resource/Grace_Coolidge"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["415562"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-43"/>
+<entry id="e12098-44" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.293Z">
+<s type="iri" val="http://dbpedia.org/resource/Greek_mythology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-44"><s type="iri" val="http://dbpedia.org/resource/Greek_mythology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["23416994"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12098-45" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.296Z">
+<s type="iri" val="http://dbpedia.org/resource/HMS_Alexandra_(1875)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-44"/>
+<data-triple-N3 id="e12098-45"><s type="iri" val="http://dbpedia.org/resource/HMS_Alexandra_(1875)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5629674"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-45"/>
+<entry id="e12098-46" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.307Z">
+<s type="iri" val="http://dbpedia.org/resource/HMS_Prince_Royal_(1610)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-46"><s type="iri" val="http://dbpedia.org/resource/HMS_Prince_Royal_(1610)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["14646278"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12098-47" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.311Z">
+<s type="iri" val="http://dbpedia.org/resource/Hartford,_Connecticut"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-46"/>
+<data-triple-N3 id="e12098-47"><s type="iri" val="http://dbpedia.org/resource/Hartford,_Connecticut"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["53678"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-47"/>
+<entry id="e12098-48" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.319Z">
+<s type="iri" val="http://dbpedia.org/resource/Hindu"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-48"><s type="iri" val="http://dbpedia.org/resource/Hindu"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["13677"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-48"/>
+<entry id="e12098-49" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.357Z">
+<s type="iri" val="http://dbpedia.org/resource/Hull_classification_symbol"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-49"><s type="iri" val="http://dbpedia.org/resource/Hull_classification_symbol"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["14090"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-49"/>
+<entry id="e12098-50" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.360Z">
+<s type="iri" val="http://dbpedia.org/resource/India"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-50"><s type="iri" val="http://dbpedia.org/resource/India"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["14533"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12098-51" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.364Z">
+<s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="var"/><o type="var"/>
+</entry>
+<entry id="e12098-52" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.366Z">
+<s type="iri" val="http://dbpedia.org/resource/Japanese_ship-naming_conventions"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-50"/>
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ottoman_Empire"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pennsylvania"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pennsylvania"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Philadelphia"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Philadelphia"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Philadelphia_Naval_Shipyard"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Philadelphia_Naval_Shipyard"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Phineas_Pett"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Phineas_Pett"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Poop_deck"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Poop_deck"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Portsmouth,_New_Hampshire"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Portsmouth,_New_Hampshire"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Poseidon"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Poseidon"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Prince_of_Wales"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Prince_of_Wales"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Prohibition"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Prohibition"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Protestant_Reformation"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Protestant_Reformation"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Protestantism"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Protestantism"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Psalm_107"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Psalm_107"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Puja_(Hinduism)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Puja_(Hinduism)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Quarterdeck"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Quarterdeck"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Queen_Elizabeth_2"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/RMS_Queen_Elizabeth"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/RMS_Queen_Elizabeth"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/RMS_Queen_Elizabeth_2"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Rhode_Island"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Rhode_Island"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Roman_mythology"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Roman_mythology"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Royal_Navy"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Royal_Navy"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Russian_ship_naming_conventions"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Russian_ship_naming_conventions"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ship_class"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ship_class"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ship_commissioning"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ship_commissioning"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Slipway"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Slipway"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Sloop-of-war"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Sloop-of-war"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Stern"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Stern"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Submarine"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Submarine"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Akron_(ZRS-4)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Akron_(ZRS-4)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Alfred_(1774)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Alfred_(1774)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Andrew_Doria_(1775)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Cabot_(1775)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Cabot_(1775)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_California_(BB-44)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_California_(BB-44)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Columbus_(1774)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Columbus_(1774)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Constitution"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Constitution"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Delaware_(1776)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Delaware_(1776)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Germantown_(1846)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Germantown_(1846)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Hartford_(1858)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Hartford_(1858)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Houston_(CA-30)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Houston_(CA-30)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Los_Angeles_(ZR-3)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Los_Angeles_(ZR-3)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_MacKenzie_(TB-17)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_MacKenzie_(TB-17)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Macon_(ZRS-5)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Macon_(ZRS-5)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Maine_(ACR-1)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Maine_(ACR-1)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Merrimack_(1855)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Merrimack_(1855)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Nautilus_(SS-168)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Nautilus_(SS-168)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Pensacola_(CA-24)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Pensacola_(CA-24)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Plymouth_(1844)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Plymouth_(1844)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Portsmouth_(1798)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Portsmouth_(1798)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_President_(1800)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_President_(1800)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Princeton_(1843)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Princeton_(1843)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Providence_(1776_frigate)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Providence_(1776_frigate)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Raleigh_(1776)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-51"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Raleigh_(1776)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-52"><s type="iri" val="http://dbpedia.org/resource/Japanese_ship-naming_conventions"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["336003"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12098-53" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.381Z">
+<s type="iri" val="http://dbpedia.org/resource/Japanese_ship_naming_conventions"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-51"/>
+<end id="e12098-52"/>
+<data-triple-N3 id="e12098-53"><s type="iri" val="http://dbpedia.org/resource/Japanese_ship_naming_conventions"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["31258723"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12098-54" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.385Z">
+<s type="iri" val="http://dbpedia.org/resource/Jew"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e12098-55" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.387Z">
+<s type="iri" val="http://dbpedia.org/resource/Jews"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-53"/>
+<data-triple-N3 id="e12098-54"><s type="iri" val="http://dbpedia.org/resource/Jew"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["25961611"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12098-55"><s type="iri" val="http://dbpedia.org/resource/Jews"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["25955086"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-54"/>
+<end id="e12098-55"/>
+<entry id="e12098-56" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.426Z">
+<s type="iri" val="http://dbpedia.org/resource/Knights_Hospitaller"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-56"><s type="iri" val="http://dbpedia.org/resource/Knights_Hospitaller"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["8055956"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-56"/>
+<entry id="e12098-57" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.433Z">
+<s type="iri" val="http://dbpedia.org/resource/Lou_Henry_Hoover"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-57"><s type="iri" val="http://dbpedia.org/resource/Lou_Henry_Hoover"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["357581"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-57"/>
+<entry id="e12098-58" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.473Z">
+<s type="iri" val="http://dbpedia.org/resource/Madeira_wine"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-58"><s type="iri" val="http://dbpedia.org/resource/Madeira_wine"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["45107"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-58"/>
+<entry id="e12098-59" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.477Z">
+<s type="iri" val="http://dbpedia.org/resource/Merrimack_River"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-59"><s type="iri" val="http://dbpedia.org/resource/Merrimack_River"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["176781"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12098-60" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.478Z">
+<s type="iri" val="http://dbpedia.org/resource/Naval_Historical_Center"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e12098-61" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.480Z">
+<s type="iri" val="http://dbpedia.org/resource/Naval_History_&amp;_Heritage_Command"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-59"/>
+<data-triple-N3 id="e12098-60"><s type="iri" val="http://dbpedia.org/resource/Naval_Historical_Center"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["20562533"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12098-61"><s type="iri" val="http://dbpedia.org/resource/Naval_History_&amp;_Heritage_Command"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["690243"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-60"/>
+<end id="e12098-61"/>
+<entry id="e12098-62" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.485Z">
+<s type="iri" val="http://dbpedia.org/resource/Naval_Vessel_Register"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-62"><s type="iri" val="http://dbpedia.org/resource/Naval_Vessel_Register"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["198479"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-62"/>
+<entry id="e12098-63" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.488Z">
+<s type="iri" val="http://dbpedia.org/resource/Neptune_(mythology)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-63"><s type="iri" val="http://dbpedia.org/resource/Neptune_(mythology)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["146091"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-63"/>
+<entry id="e12098-64" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.529Z">
+<s type="iri" val="http://dbpedia.org/resource/Ottoman_Empire"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-64"><s type="iri" val="http://dbpedia.org/resource/Ottoman_Empire"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["22278"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-64"/>
+<entry id="e12098-65" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.533Z">
+<s type="iri" val="http://dbpedia.org/resource/Pennsylvania"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-65"><s type="iri" val="http://dbpedia.org/resource/Pennsylvania"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["23332"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12098-66" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.536Z">
+<s type="iri" val="http://dbpedia.org/resource/Philadelphia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-65"/>
+<data-triple-N3 id="e12098-66"><s type="iri" val="http://dbpedia.org/resource/Philadelphia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["50585"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-66"/>
+<entry id="e12098-67" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.544Z">
+<s type="iri" val="http://dbpedia.org/resource/Philadelphia_Naval_Shipyard"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-67"><s type="iri" val="http://dbpedia.org/resource/Philadelphia_Naval_Shipyard"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["196260"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-67"/>
+<entry id="e12098-68" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.580Z">
+<s type="iri" val="http://dbpedia.org/resource/Phineas_Pett"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-68"><s type="iri" val="http://dbpedia.org/resource/Phineas_Pett"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["702529"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-68"/>
+<entry id="e12098-69" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.585Z">
+<s type="iri" val="http://dbpedia.org/resource/Poop_deck"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-69"><s type="iri" val="http://dbpedia.org/resource/Poop_deck"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["153968"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-69"/>
+<entry id="e12098-70" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.587Z">
+<s type="iri" val="http://dbpedia.org/resource/Portsmouth,_New_Hampshire"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-70"><s type="iri" val="http://dbpedia.org/resource/Portsmouth,_New_Hampshire"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["94251"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-70"/>
+<entry id="e12098-71" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.590Z">
+<s type="iri" val="http://dbpedia.org/resource/Poseidon"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-71"><s type="iri" val="http://dbpedia.org/resource/Poseidon"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["22948"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-71"/>
+<entry id="e12098-72" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.593Z">
+<s type="iri" val="http://dbpedia.org/resource/Prince_of_Wales"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-72"><s type="iri" val="http://dbpedia.org/resource/Prince_of_Wales"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["46204"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-72"/>
+<entry id="e12098-73" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.633Z">
+<s type="iri" val="http://dbpedia.org/resource/Prohibition"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-73"><s type="iri" val="http://dbpedia.org/resource/Prohibition"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["24856"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12098-74" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.634Z">
+<s type="iri" val="http://dbpedia.org/resource/Protestant_Reformation"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-73"/>
+<data-triple-N3 id="e12098-74"><s type="iri" val="http://dbpedia.org/resource/Protestant_Reformation"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["37857"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-74"/>
+<entry id="e12098-75" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.639Z">
+<s type="iri" val="http://dbpedia.org/resource/Protestantism"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-75"><s type="iri" val="http://dbpedia.org/resource/Protestantism"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["25814008"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12098-76" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.642Z">
+<s type="iri" val="http://dbpedia.org/resource/Psalm_107"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-75"/>
+<data-triple-N3 id="e12098-76"><s type="iri" val="http://dbpedia.org/resource/Psalm_107"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["26824077"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-76"/>
+<entry id="e12098-77" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.647Z">
+<s type="iri" val="http://dbpedia.org/resource/Puja_(Hinduism)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-77"><s type="iri" val="http://dbpedia.org/resource/Puja_(Hinduism)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["189008"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-77"/>
+<entry id="e12098-78" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.685Z">
+<s type="iri" val="http://dbpedia.org/resource/Quarterdeck"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-78"><s type="iri" val="http://dbpedia.org/resource/Quarterdeck"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1389213"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-78"/>
+<entry id="e12098-79" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.690Z">
+<s type="iri" val="http://dbpedia.org/resource/Queen_Elizabeth_2"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e12098-80" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.692Z">
+<s type="iri" val="http://dbpedia.org/resource/RMS_Queen_Elizabeth"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-79"><s type="iri" val="http://dbpedia.org/resource/Queen_Elizabeth_2"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["49200"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12098-80"><s type="iri" val="http://dbpedia.org/resource/RMS_Queen_Elizabeth"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["165376"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-79"/>
+<end id="e12098-80"/>
+<entry id="e12098-81" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.695Z">
+<s type="iri" val="http://dbpedia.org/resource/RMS_Queen_Elizabeth_2"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-81"><s type="iri" val="http://dbpedia.org/resource/RMS_Queen_Elizabeth_2"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["37570768"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12098-82" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.698Z">
+<s type="iri" val="http://dbpedia.org/resource/Rhode_Island"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-81"/>
+<data-triple-N3 id="e12098-82"><s type="iri" val="http://dbpedia.org/resource/Rhode_Island"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["25410"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12098-83" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.702Z">
+<s type="iri" val="http://dbpedia.org/resource/Roman_mythology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-82"/>
+<data-triple-N3 id="e12098-83"><s type="iri" val="http://dbpedia.org/resource/Roman_mythology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["28957716"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-83"/>
+<entry id="e12098-84" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.745Z">
+<s type="iri" val="http://dbpedia.org/resource/Royal_Navy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-84"><s type="iri" val="http://dbpedia.org/resource/Royal_Navy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["26061"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12098-85" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.746Z">
+<s type="iri" val="http://dbpedia.org/resource/Russian_ship_naming_conventions"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-84"/>
+<data-triple-N3 id="e12098-85"><s type="iri" val="http://dbpedia.org/resource/Russian_ship_naming_conventions"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5009806"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-85"/>
+<entry id="e12098-86" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.755Z">
+<s type="iri" val="http://dbpedia.org/resource/Ship_class"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-86"><s type="iri" val="http://dbpedia.org/resource/Ship_class"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["186987"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12098-87" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.757Z">
+<s type="iri" val="http://dbpedia.org/resource/Ship_commissioning"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-86"/>
+<data-triple-N3 id="e12098-87"><s type="iri" val="http://dbpedia.org/resource/Ship_commissioning"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["60925"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-87"/>
+<entry id="e12098-88" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.802Z">
+<s type="iri" val="http://dbpedia.org/resource/Slipway"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-88"><s type="iri" val="http://dbpedia.org/resource/Slipway"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["984528"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12098-89" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.805Z">
+<s type="iri" val="http://dbpedia.org/resource/Sloop-of-war"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-88"/>
+<data-triple-N3 id="e12098-89"><s type="iri" val="http://dbpedia.org/resource/Sloop-of-war"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["318237"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-89"/>
+<entry id="e12098-90" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.813Z">
+<s type="iri" val="http://dbpedia.org/resource/Stern"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-90"><s type="iri" val="http://dbpedia.org/resource/Stern"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["17333662"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12098-91" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.816Z">
+<s type="iri" val="http://dbpedia.org/resource/Submarine"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-90"/>
+<data-triple-N3 id="e12098-91"><s type="iri" val="http://dbpedia.org/resource/Submarine"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["28825"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-91"/>
+<entry id="e12098-92" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.822Z">
+<s type="iri" val="http://dbpedia.org/resource/USS_Akron_(ZRS-4)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-92"><s type="iri" val="http://dbpedia.org/resource/USS_Akron_(ZRS-4)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["60944"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-92"/>
+<entry id="e12098-93" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.861Z">
+<s type="iri" val="http://dbpedia.org/resource/USS_Alfred_(1774)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-93"><s type="iri" val="http://dbpedia.org/resource/USS_Alfred_(1774)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["956586"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-93"/>
+<entry id="e12098-94" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.865Z">
+<s type="iri" val="http://dbpedia.org/resource/USS_Andrew_Doria_(1775)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e12098-95" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.867Z">
+<s type="iri" val="http://dbpedia.org/resource/USS_Cabot_(1775)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-94"><s type="iri" val="http://dbpedia.org/resource/USS_Andrew_Doria_(1775)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["30679247"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12098-95"><s type="iri" val="http://dbpedia.org/resource/USS_Cabot_(1775)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["425207"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12098-96" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.869Z">
+<s type="iri" val="http://dbpedia.org/resource/USS_California_(BB-44)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-94"/>
+<end id="e12098-95"/>
+<data-triple-N3 id="e12098-96"><s type="iri" val="http://dbpedia.org/resource/USS_California_(BB-44)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["196870"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-96"/>
+<entry id="e12098-97" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.909Z">
+<s type="iri" val="http://dbpedia.org/resource/USS_Columbus_(1774)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-97"><s type="iri" val="http://dbpedia.org/resource/USS_Columbus_(1774)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["227442"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-97"/>
+<entry id="e12098-98" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.916Z">
+<s type="iri" val="http://dbpedia.org/resource/USS_Constitution"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-98"><s type="iri" val="http://dbpedia.org/resource/USS_Constitution"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["32298"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-98"/>
+<entry id="e12098-99" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.953Z">
+<s type="iri" val="http://dbpedia.org/resource/USS_Delaware_(1776)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e12098-100" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.956Z">
+<s type="iri" val="http://dbpedia.org/resource/USS_Germantown_(1846)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-99"><s type="iri" val="http://dbpedia.org/resource/USS_Delaware_(1776)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["503825"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12098-100"><s type="iri" val="http://dbpedia.org/resource/USS_Germantown_(1846)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1405065"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-99"/>
+<end id="e12098-100"/>
+<entry id="e12098-101" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:46.962Z">
+<s type="iri" val="http://dbpedia.org/resource/USS_Hartford_(1858)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-101"><s type="iri" val="http://dbpedia.org/resource/USS_Hartford_(1858)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1174146"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-101"/>
+<entry id="e12098-102" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.003Z">
+<s type="iri" val="http://dbpedia.org/resource/USS_Houston_(CA-30)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-102"><s type="iri" val="http://dbpedia.org/resource/USS_Houston_(CA-30)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["203551"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12098-103" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.005Z">
+<s type="iri" val="http://dbpedia.org/resource/USS_Los_Angeles_(ZR-3)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-102"/>
+<data-triple-N3 id="e12098-103"><s type="iri" val="http://dbpedia.org/resource/USS_Los_Angeles_(ZR-3)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["443932"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-103"/>
+<entry id="e12098-104" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.010Z">
+<s type="iri" val="http://dbpedia.org/resource/USS_MacKenzie_(TB-17)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-104"><s type="iri" val="http://dbpedia.org/resource/USS_MacKenzie_(TB-17)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["11413680"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-104"/>
+<entry id="e12098-105" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.049Z">
+<s type="iri" val="http://dbpedia.org/resource/USS_Macon_(ZRS-5)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e12098-106" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.050Z">
+<s type="iri" val="http://dbpedia.org/resource/USS_Maine_(ACR-1)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-105"><s type="iri" val="http://dbpedia.org/resource/USS_Macon_(ZRS-5)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["644348"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12098-106"><s type="iri" val="http://dbpedia.org/resource/USS_Maine_(ACR-1)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["189610"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12098-107" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.052Z">
+<s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="var"/><o type="var"/>
+</entry>
+<end id="e12098-105"/>
+<end id="e12098-106"/>
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Raritan_(1843)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Raritan_(1843)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_San_Jacinto_(1850)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_San_Jacinto_(1850)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Shenandoah_(ZR-1)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Shenandoah_(ZR-1)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Trenton_(CL-11)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Trenton_(CL-11)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Warren_(1776)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USS_Warren_(1776)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_Congress"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_Congress"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Navy"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Navy"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_Secretary_of_the_Navy"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_Secretary_of_the_Navy"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_ship_naming_conventions"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_ship_naming_conventions"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Washington,_D.C."/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Washington,_D.C."/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Whisky"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Whisky"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/World_War_II"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/World_War_II"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:Duc_de_Bourgogne_launch_1751.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:Duc_de_Bourgogne_launch_1751.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:Mack_Launch_172.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:Mack_Launch_172.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:NRCHRISTEN.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:NRCHRISTEN.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:PivotLaunching3S.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:PivotLaunching3S.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:Steamer_Frank_J._Hecker.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:Steamer_Frank_J._Hecker.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:US_Navy_111203-N-UM744-003_Ship_sponsor_Allison_Stiller_christens_the_Virginia-class_attack_submarine_Pre-Commissioning_Unit_(PCU)_Mississippi_(SSN.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:US_Navy_111203-N-UM744-003_Ship_sponsor_Allison_Stiller_christens_the_Virginia-class_attack_submarine_Pre-Commissioning_Unit_(PCU)_Mississippi_(SSN.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Naval_ceremonies"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#comment"/><o type="lit"><![CDATA["The ceremonies involved in naming and launching naval ships are based in traditions thousands of years old. The related ship's christening involves breaking a bottle of liquid, normally wine or champagne, over the bow."@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["Ship naming and launching"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ca.dbpedia.org/resource/Avarament"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Stapellauf"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://el.dbpedia.org/resource/Καθέλκυση"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/Botadura"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/Lancement_d'un_navire"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://hu.dbpedia.org/resource/Vizre_bocsatas"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/Varo_(nautica)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ja.dbpedia.org/resource/進水式"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/진수_(선박)"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://nl.dbpedia.org/resource/Scheepsdoop"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://no.dbpedia.org/resource/Stabelavlopning"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://pl.dbpedia.org/resource/Wodowanie"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://pt.dbpedia.org/resource/Botadura"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ru.dbpedia.org/resource/Спуск_судов"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://sv.dbpedia.org/resource/Sjosattning"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q596643"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/Ship_naming_and_launching?oldid=548043295"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://xmlns.com/foaf/0.1/depiction"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/b/be/Mack_Launch_172.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e12098-107"><s type="iri" val="http://dbpedia.org/resource/Ship_naming_and_launching"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/Ship_naming_and_launching"/></data-triple-N3>
+
+<end id="e12098-107"/>
+<entry id="e12098-108" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.062Z">
+<s type="iri" val="http://dbpedia.org/resource/USS_Merrimack_(1855)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e12098-109" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.064Z">
+<s type="iri" val="http://dbpedia.org/resource/USS_Nautilus_(SS-168)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-108"><s type="iri" val="http://dbpedia.org/resource/USS_Merrimack_(1855)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1190281"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12098-109"><s type="iri" val="http://dbpedia.org/resource/USS_Nautilus_(SS-168)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["421915"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-108"/>
+<end id="e12098-109"/>
+<entry id="e12098-110" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.068Z">
+<s type="iri" val="http://dbpedia.org/resource/USS_Pensacola_(CA-24)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-110"><s type="iri" val="http://dbpedia.org/resource/USS_Pensacola_(CA-24)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["435306"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-110"/>
+<entry id="e12098-111" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.108Z">
+<s type="iri" val="http://dbpedia.org/resource/USS_Plymouth_(1844)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e12098-112" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.110Z">
+<s type="iri" val="http://dbpedia.org/resource/USS_Portsmouth_(1798)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-111"><s type="iri" val="http://dbpedia.org/resource/USS_Plymouth_(1844)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1329454"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12098-112"><s type="iri" val="http://dbpedia.org/resource/USS_Portsmouth_(1798)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["18354493"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-111"/>
+<end id="e12098-112"/>
+<entry id="e12098-113" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.119Z">
+<s type="iri" val="http://dbpedia.org/resource/USS_President_(1800)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-113"><s type="iri" val="http://dbpedia.org/resource/USS_President_(1800)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["484793"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12098-114" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.123Z">
+<s type="iri" val="http://dbpedia.org/resource/USS_Princeton_(1843)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-113"/>
+<data-triple-N3 id="e12098-114"><s type="iri" val="http://dbpedia.org/resource/USS_Princeton_(1843)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1456650"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-114"/>
+<entry id="e12098-115" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.164Z">
+<s type="iri" val="http://dbpedia.org/resource/USS_Providence_(1776_frigate)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-115"><s type="iri" val="http://dbpedia.org/resource/USS_Providence_(1776_frigate)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["16739766"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12098-116" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.166Z">
+<s type="iri" val="http://dbpedia.org/resource/USS_Raleigh_(1776)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-115"/>
+<data-triple-N3 id="e12098-116"><s type="iri" val="http://dbpedia.org/resource/USS_Raleigh_(1776)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["972957"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-116"/>
+<entry id="e12098-117" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.171Z">
+<s type="iri" val="http://dbpedia.org/resource/USS_Raritan_(1843)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-117"><s type="iri" val="http://dbpedia.org/resource/USS_Raritan_(1843)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["213767"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12098-118" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.173Z">
+<s type="iri" val="http://dbpedia.org/resource/USS_San_Jacinto_(1850)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-117"/>
+<data-triple-N3 id="e12098-118"><s type="iri" val="http://dbpedia.org/resource/USS_San_Jacinto_(1850)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1683220"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-118"/>
+<entry id="e12098-119" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.177Z">
+<s type="iri" val="http://dbpedia.org/resource/USS_Shenandoah_(ZR-1)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-119"><s type="iri" val="http://dbpedia.org/resource/USS_Shenandoah_(ZR-1)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["157333"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-119"/>
+<entry id="e12098-120" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.216Z">
+<s type="iri" val="http://dbpedia.org/resource/USS_Trenton_(CL-11)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-120"><s type="iri" val="http://dbpedia.org/resource/USS_Trenton_(CL-11)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1098698"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-120"/>
+<entry id="e12098-121" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.220Z">
+<s type="iri" val="http://dbpedia.org/resource/USS_Warren_(1776)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-121"><s type="iri" val="http://dbpedia.org/resource/USS_Warren_(1776)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["17828269"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12098-122" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.223Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-121"/>
+<data-triple-N3 id="e12098-122"><s type="iri" val="http://dbpedia.org/resource/United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3434750"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-122"/>
+<entry id="e12098-123" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.231Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_Congress"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-123"><s type="iri" val="http://dbpedia.org/resource/United_States_Congress"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["31756"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12098-124" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.233Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Navy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-123"/>
+<data-triple-N3 id="e12098-124"><s type="iri" val="http://dbpedia.org/resource/United_States_Department_of_the_Navy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["797334"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-124"/>
+<entry id="e12098-125" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.273Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_Secretary_of_the_Navy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-125"><s type="iri" val="http://dbpedia.org/resource/United_States_Secretary_of_the_Navy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["44001"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-125"/>
+<entry id="e12098-126" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.276Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_ship_naming_conventions"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-126"><s type="iri" val="http://dbpedia.org/resource/United_States_ship_naming_conventions"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["10804232"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12098-127" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.279Z">
+<s type="iri" val="http://dbpedia.org/resource/Washington,_D.C."/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-126"/>
+<data-triple-N3 id="e12098-127"><s type="iri" val="http://dbpedia.org/resource/Washington,_D.C."/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["108956"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-127"/>
+<entry id="e12098-128" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.284Z">
+<s type="iri" val="http://dbpedia.org/resource/Whisky"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-128"><s type="iri" val="http://dbpedia.org/resource/Whisky"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["33153"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12098-129" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.286Z">
+<s type="iri" val="http://dbpedia.org/resource/World_War_II"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-128"/>
+<data-triple-N3 id="e12098-129"><s type="iri" val="http://dbpedia.org/resource/World_War_II"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["32927"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-129"/>
+<entry id="e12098-130" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.331Z">
+<s type="iri" val="http://dbpedia.org/resource/File:Duc_de_Bourgogne_launch_1751.jpg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e12098-131" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.336Z">
+<s type="iri" val="http://dbpedia.org/resource/File:Mack_Launch_172.jpg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-130"/>
+<end id="e12098-131"/>
+<entry id="e12098-132" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.348Z">
+<s type="iri" val="http://dbpedia.org/resource/File:NRCHRISTEN.jpg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e12098-133" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.352Z">
+<s type="iri" val="http://dbpedia.org/resource/File:PivotLaunching3S.jpg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-132"/>
+<end id="e12098-133"/>
+<entry id="e12098-134" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.367Z">
+<s type="iri" val="http://dbpedia.org/resource/File:Steamer_Frank_J._Hecker.jpg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-134"/>
+<entry id="e12098-135" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.400Z">
+<s type="iri" val="http://dbpedia.org/resource/File:US_Navy_111203-N-UM744-003_Ship_sponsor_Allison_Stiller_christens_the_Virginia-class_attack_submarine_Pre-Commissioning_Unit_(PCU)_Mississippi_(SSN.jpg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e12098-136" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.402Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Naval_ceremonies"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12098-136"><s type="iri" val="http://dbpedia.org/resource/Category:Naval_ceremonies"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2342534"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12098-135"/>
+<end id="e12098-136"/>
+<entry id="e12098-137" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.408Z">
+<s type="iri" val="http://ca.dbpedia.org/resource/Avarament"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-137"/>
+<entry id="e12098-138" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.412Z">
+<s type="iri" val="http://de.dbpedia.org/resource/Stapellauf"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e12098-139" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.414Z">
+<s type="iri" val="http://el.dbpedia.org/resource/Καθέλκυση"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e12098-140" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.416Z">
+<s type="iri" val="http://es.dbpedia.org/resource/Botadura"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e12098-141" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.418Z">
+<s type="iri" val="http://fr.dbpedia.org/resource/Lancement_d'un_navire"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-138"/>
+<end id="e12098-139"/>
+<end id="e12098-140"/>
+<entry id="e12098-142" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.426Z">
+<s type="iri" val="http://hu.dbpedia.org/resource/Vizre_bocsatas"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-141"/>
+<end id="e12098-142"/>
+<entry id="e12098-143" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.466Z">
+<s type="iri" val="http://it.dbpedia.org/resource/Varo_(nautica)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e12098-144" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.469Z">
+<s type="iri" val="http://ja.dbpedia.org/resource/進水式"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e12098-145" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.471Z">
+<s type="iri" val="http://ko.dbpedia.org/resource/진수_(선박)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e12098-146" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.473Z">
+<s type="iri" val="http://nl.dbpedia.org/resource/Scheepsdoop"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-143"/>
+<end id="e12098-144"/>
+<end id="e12098-145"/>
+<end id="e12098-146"/>
+<entry id="e12098-147" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.480Z">
+<s type="iri" val="http://no.dbpedia.org/resource/Stabelavlopning"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-147"/>
+<entry id="e12098-148" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.517Z">
+<s type="iri" val="http://pl.dbpedia.org/resource/Wodowanie"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e12098-149" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.518Z">
+<s type="iri" val="http://pt.dbpedia.org/resource/Botadura"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-148"/>
+<end id="e12098-149"/>
+<entry id="e12098-150" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.523Z">
+<s type="iri" val="http://ru.dbpedia.org/resource/Спуск_судов"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e12098-151" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.526Z">
+<s type="iri" val="http://sv.dbpedia.org/resource/Sjosattning"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e12098-152" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.528Z">
+<s type="iri" val="http://www.wikidata.org/entity/Q596643"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-150"/>
+<end id="e12098-151"/>
+<end id="e12098-152"/>
+<entry id="e12098-153" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.560Z">
+<s type="iri" val="http://en.wikipedia.org/wiki/Ship_naming_and_launching?oldid=548043295"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-153"/>
+<entry id="e12098-154" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.572Z">
+<s type="iri" val="http://upload.wikimedia.org/wikipedia/commons/b/be/Mack_Launch_172.jpg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e12098-155" client="::ffff:127.0.0.1" worker="12098" time="2017-04-25T22:34:47.574Z">
+<s type="iri" val="http://en.wikipedia.org/wiki/Ship_naming_and_launching"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12098-154"/>
+<end id="e12098-155"/>
+ </trace>

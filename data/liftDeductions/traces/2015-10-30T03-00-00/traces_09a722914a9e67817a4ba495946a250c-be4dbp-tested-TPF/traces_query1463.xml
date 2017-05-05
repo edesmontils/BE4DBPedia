@@ -1,0 +1,1433 @@
+<?xml version="1.0"?><!DOCTYPE trace SYSTEM "logTPF.dtd">
+<trace>
+<msg>Master 3562 running on http://localhost:5000/.</msg>
+<msg>Worker 3583 running on http://localhost:5000/.</msg>
+<entry id="e3583-1" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.268Z">
+<s type="var"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5878274"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["489132637"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!?oldid=489132637"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3632887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["545017937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Doppeltes_Ausrufezeichen"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q353153"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!!?oldid=545017937"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chkchkchk.jpg/200px-Chkchkchk.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://auralstates.com/2007/10/interview-aka-chk-chk-chk-w-nic-offer.html"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://punkcast.com/423/"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://supersweet.org/main.aspx?atype=1&amp;aname=Music_Chk_Chk_Chk&amp;con=1&amp;sc1=0&amp;sc2=0"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.chkchkchk.net/"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.npr.org/templates/story/story.php?storyId=10236467"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600744"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548612260"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Billboard_200"/></data-triple-N3>
+
+<end id="e3583-1"/>
+<entry id="e3583-2" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.336Z">
+<s type="var"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["72132"^^http://www.w3.org/2001/XMLSchema#integer]]></o>
+</entry>
+<data-triple-N3 id="e3583-2"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["72132"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e3583-2"/>
+<entry id="e3583-3" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.344Z">
+<s type="var"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5878274"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["489132637"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!?oldid=489132637"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3632887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["545017937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Doppeltes_Ausrufezeichen"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q353153"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!!?oldid=545017937"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chkchkchk.jpg/200px-Chkchkchk.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://auralstates.com/2007/10/interview-aka-chk-chk-chk-w-nic-offer.html"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://punkcast.com/423/"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://supersweet.org/main.aspx?atype=1&amp;aname=Music_Chk_Chk_Chk&amp;con=1&amp;sc1=0&amp;sc2=0"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.chkchkchk.net/"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.npr.org/templates/story/story.php?storyId=10236467"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600744"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548612260"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Billboard_200"/></data-triple-N3>
+
+<end id="e3583-3"/>
+<entry id="e3583-4" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.385Z">
+<s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://dictionary-psychology.com"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://psychologycareersblog.com"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.ahpra.gov.au/"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.apa.org/index.aspx"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.apac.psychology.org.au/"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.efpa.eu"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.nationalpsychologist.com/"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.thepsychologist.com/professionals.htm"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["72132"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["547988459"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Academia"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Academic"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/American_Psychological_Association"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/American_Psychological_Association"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Australian_Psychological_Society"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Australian_Psychological_Society"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Australian_Psychology_Accreditation_Council"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Australian_Psychology_Accreditation_Council"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bachelor's_degree"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bachelor's_degree"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bachelor_of_Arts"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bachelor_of_Arts"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bachelor_of_Commerce"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bachelor_of_Commerce"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bachelor_of_Science"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bachelor_of_Science"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/British_Psychological_Society"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/British_Psychological_Society"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Canada"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Canada"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Mental_health_professionals"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Mental_health_professionals"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Psychologists"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Psychologists"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Psychology"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Psychology"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Clinical_neuropsychology"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Clinical_neuropsychology"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Clinical_psychologist"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Clinical_psychologists"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Clinical_psychology"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Clinical_psychology"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Community_service"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Community_service"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Continuing_Professional_Development"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Continuing_professional_development"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Counseling"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Counseling_psychology"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Counseling_psychology"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Counselling_psychology"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Coursework"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Coursework"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Dissertation"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Doctoral_degree"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Doctorate"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Educational_Psychology"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Educational_psychologist"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Educational_psychologist"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Educational_psychology"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Finland"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Finland"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Forensic_psychologist"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Forensic_psychology"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Forensic_psychology"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Germany"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Germany"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Hawaii"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Hawaii"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Health_Psychology"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Health_and_Care_Professions_Council"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Health_professions_council"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Health_psychology"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Index_of_psychology_articles"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Industrial_and_organizational_psychology"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Internship"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Internship"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/List_of_counseling_topics"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/List_of_psychological_topics"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/List_of_psychologists"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/List_of_psychologists"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/List_of_psychologists_on_postage_stamps"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/List_of_psychologists_on_postage_stamps"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/List_of_universities_in_South_Africa"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/List_of_universities_in_South_Africa"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Louisiana"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Louisiana"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Master's_degree"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Masters_degree"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Medical_model"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Medical_model"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Medical_prescription"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Medical_prescription"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mental_health_professional"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mental_health_professional"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/National_Supervisory_Authority_for_Welfare_and_Health_(Finland)"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/National_Supervisory_Authority_for_Welfare_and_Health_(Finland)"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Neuropsychological_test"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Neuropsychological_test"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/New_Mexico"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-4"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/New_Mexico"/></data-triple-N3>
+
+<end id="e3583-4"/>
+<entry id="e3583-5" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.409Z">
+<s type="iri" val="http://dictionary-psychology.com"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-5"/>
+<entry id="e3583-6" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.415Z">
+<s type="iri" val="http://psychologycareersblog.com"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e3583-7" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.417Z">
+<s type="iri" val="http://www.ahpra.gov.au/"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-6"/>
+<entry id="e3583-8" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.422Z">
+<s type="iri" val="http://www.apa.org/index.aspx"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-7"/>
+<end id="e3583-8"/>
+<entry id="e3583-9" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.457Z">
+<s type="iri" val="http://www.apac.psychology.org.au/"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e3583-10" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.461Z">
+<s type="iri" val="http://www.efpa.eu"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e3583-11" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.464Z">
+<s type="iri" val="http://www.nationalpsychologist.com/"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e3583-12" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.467Z">
+<s type="iri" val="http://www.thepsychologist.com/professionals.htm"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-9"/>
+<end id="e3583-10"/>
+<end id="e3583-11"/>
+<end id="e3583-12"/>
+<entry id="e3583-13" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.513Z">
+<s type="iri" val="http://dbpedia.org/resource/Academia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e3583-13"><s type="iri" val="http://dbpedia.org/resource/Academia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["351220"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e3583-13"/>
+<entry id="e3583-14" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.517Z">
+<s type="iri" val="http://dbpedia.org/resource/Academic"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e3583-15" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.520Z">
+<s type="iri" val="http://dbpedia.org/resource/American_Psychological_Association"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e3583-14"><s type="iri" val="http://dbpedia.org/resource/Academic"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["4167417"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e3583-15"><s type="iri" val="http://dbpedia.org/resource/American_Psychological_Association"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["42042"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e3583-16" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.522Z">
+<s type="iri" val="http://dbpedia.org/resource/Australian_Psychological_Society"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-14"/>
+<end id="e3583-15"/>
+<data-triple-N3 id="e3583-16"><s type="iri" val="http://dbpedia.org/resource/Australian_Psychological_Society"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2772352"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e3583-16"/>
+<entry id="e3583-17" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.569Z">
+<s type="iri" val="http://dbpedia.org/resource/Australian_Psychology_Accreditation_Council"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e3583-17"><s type="iri" val="http://dbpedia.org/resource/Australian_Psychology_Accreditation_Council"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["33329779"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e3583-18" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.575Z">
+<s type="iri" val="http://dbpedia.org/resource/Bachelor's_degree"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-17"/>
+<data-triple-N3 id="e3583-18"><s type="iri" val="http://dbpedia.org/resource/Bachelor's_degree"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["188874"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e3583-18"/>
+<entry id="e3583-19" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.583Z">
+<s type="iri" val="http://dbpedia.org/resource/Bachelor_of_Arts"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e3583-19"><s type="iri" val="http://dbpedia.org/resource/Bachelor_of_Arts"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["156992"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e3583-20" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.585Z">
+<s type="iri" val="http://dbpedia.org/resource/Bachelor_of_Commerce"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-19"/>
+<data-triple-N3 id="e3583-20"><s type="iri" val="http://dbpedia.org/resource/Bachelor_of_Commerce"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["248388"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e3583-20"/>
+<entry id="e3583-21" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.629Z">
+<s type="iri" val="http://dbpedia.org/resource/Bachelor_of_Science"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e3583-21"><s type="iri" val="http://dbpedia.org/resource/Bachelor_of_Science"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["21068988"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e3583-22" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.632Z">
+<s type="iri" val="http://dbpedia.org/resource/British_Psychological_Society"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-21"/>
+<data-triple-N3 id="e3583-22"><s type="iri" val="http://dbpedia.org/resource/British_Psychological_Society"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["623477"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e3583-22"/>
+<entry id="e3583-23" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.643Z">
+<s type="iri" val="http://dbpedia.org/resource/Canada"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e3583-23"><s type="iri" val="http://dbpedia.org/resource/Canada"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5042916"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e3583-24" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.645Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Mental_health_professionals"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-23"/>
+<data-triple-N3 id="e3583-24"><s type="iri" val="http://dbpedia.org/resource/Category:Mental_health_professionals"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["10406353"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e3583-24"/>
+<entry id="e3583-25" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.652Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Psychologists"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e3583-25"><s type="iri" val="http://dbpedia.org/resource/Category:Psychologists"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["695886"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e3583-25"/>
+<entry id="e3583-26" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.693Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Psychology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e3583-26"><s type="iri" val="http://dbpedia.org/resource/Category:Psychology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["695868"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e3583-26"/>
+<entry id="e3583-27" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.700Z">
+<s type="iri" val="http://dbpedia.org/resource/Clinical_neuropsychology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e3583-27"><s type="iri" val="http://dbpedia.org/resource/Clinical_neuropsychology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["605564"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e3583-28" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.705Z">
+<s type="iri" val="http://dbpedia.org/resource/Clinical_psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-27"/>
+<data-triple-N3 id="e3583-28"><s type="iri" val="http://dbpedia.org/resource/Clinical_psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1563409"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e3583-29" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.709Z">
+<s type="iri" val="http://dbpedia.org/resource/Clinical_psychologists"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-28"/>
+<data-triple-N3 id="e3583-29"><s type="iri" val="http://dbpedia.org/resource/Clinical_psychologists"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["8405288"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e3583-30" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.713Z">
+<s type="iri" val="http://dbpedia.org/resource/Clinical_psychology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-29"/>
+<data-triple-N3 id="e3583-30"><s type="iri" val="http://dbpedia.org/resource/Clinical_psychology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["492271"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e3583-31" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.716Z">
+<s type="iri" val="http://dbpedia.org/resource/Community_service"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-30"/>
+<data-triple-N3 id="e3583-31"><s type="iri" val="http://dbpedia.org/resource/Community_service"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["586834"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e3583-31"/>
+<entry id="e3583-32" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.757Z">
+<s type="iri" val="http://dbpedia.org/resource/Continuing_Professional_Development"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e3583-33" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.758Z">
+<s type="iri" val="http://dbpedia.org/resource/Continuing_professional_development"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e3583-32"><s type="iri" val="http://dbpedia.org/resource/Continuing_Professional_Development"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["17253712"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e3583-33"><s type="iri" val="http://dbpedia.org/resource/Continuing_professional_development"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1749680"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e3583-32"/>
+<end id="e3583-33"/>
+<entry id="e3583-34" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.762Z">
+<s type="iri" val="http://dbpedia.org/resource/Counseling"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e3583-35" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.765Z">
+<s type="iri" val="http://dbpedia.org/resource/Counseling_psychology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e3583-34"><s type="iri" val="http://dbpedia.org/resource/Counseling"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["143553"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e3583-35"><s type="iri" val="http://dbpedia.org/resource/Counseling_psychology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["505326"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e3583-36" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.770Z">
+<s type="iri" val="http://dbpedia.org/resource/Counselling_psychology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-34"/>
+<end id="e3583-35"/>
+<data-triple-N3 id="e3583-36"><s type="iri" val="http://dbpedia.org/resource/Counselling_psychology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["594376"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e3583-36"/>
+<entry id="e3583-37" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.816Z">
+<s type="iri" val="http://dbpedia.org/resource/Coursework"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e3583-37"><s type="iri" val="http://dbpedia.org/resource/Coursework"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["441142"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e3583-37"/>
+<entry id="e3583-38" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.823Z">
+<s type="iri" val="http://dbpedia.org/resource/Dissertation"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e3583-38"><s type="iri" val="http://dbpedia.org/resource/Dissertation"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["24954669"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e3583-39" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.827Z">
+<s type="iri" val="http://dbpedia.org/resource/Doctoral_degree"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-38"/>
+<data-triple-N3 id="e3583-39"><s type="iri" val="http://dbpedia.org/resource/Doctoral_degree"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["250892"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e3583-40" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.830Z">
+<s type="iri" val="http://dbpedia.org/resource/Doctorate"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e3583-41" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.832Z">
+<s type="iri" val="http://dbpedia.org/resource/Educational_Psychology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-39"/>
+<data-triple-N3 id="e3583-40"><s type="iri" val="http://dbpedia.org/resource/Doctorate"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["188886"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e3583-41"><s type="iri" val="http://dbpedia.org/resource/Educational_Psychology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["724814"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e3583-42" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.835Z">
+<s type="iri" val="http://dbpedia.org/resource/Educational_psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-40"/>
+<end id="e3583-41"/>
+<data-triple-N3 id="e3583-42"><s type="iri" val="http://dbpedia.org/resource/Educational_psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5325141"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e3583-42"/>
+<entry id="e3583-43" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.877Z">
+<s type="iri" val="http://dbpedia.org/resource/Educational_psychology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e3583-43"><s type="iri" val="http://dbpedia.org/resource/Educational_psychology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["10332"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e3583-44" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.881Z">
+<s type="iri" val="http://dbpedia.org/resource/Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-43"/>
+<data-triple-N3 id="e3583-44"><s type="iri" val="http://dbpedia.org/resource/Finland"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["10577"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e3583-45" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.884Z">
+<s type="iri" val="http://dbpedia.org/resource/Forensic_psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-44"/>
+<data-triple-N3 id="e3583-45"><s type="iri" val="http://dbpedia.org/resource/Forensic_psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["10371446"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e3583-46" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.886Z">
+<s type="iri" val="http://dbpedia.org/resource/Forensic_psychology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-45"/>
+<data-triple-N3 id="e3583-46"><s type="iri" val="http://dbpedia.org/resource/Forensic_psychology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["475037"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e3583-46"/>
+<entry id="e3583-47" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.925Z">
+<s type="iri" val="http://dbpedia.org/resource/Germany"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e3583-47"><s type="iri" val="http://dbpedia.org/resource/Germany"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["11867"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e3583-47"/>
+<entry id="e3583-48" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.928Z">
+<s type="iri" val="http://dbpedia.org/resource/Hawaii"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e3583-48"><s type="iri" val="http://dbpedia.org/resource/Hawaii"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["13270"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e3583-48"/>
+<entry id="e3583-49" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.931Z">
+<s type="iri" val="http://dbpedia.org/resource/Health_Psychology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e3583-50" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.932Z">
+<s type="iri" val="http://dbpedia.org/resource/Health_and_Care_Professions_Council"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e3583-49"><s type="iri" val="http://dbpedia.org/resource/Health_Psychology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1466059"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e3583-50"><s type="iri" val="http://dbpedia.org/resource/Health_and_Care_Professions_Council"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1804194"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e3583-51" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.934Z">
+<s type="iri" val="http://dbpedia.org/resource/Health_professions_council"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e3583-52" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.936Z">
+<s type="iri" val="http://dbpedia.org/resource/Health_psychology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-49"/>
+<end id="e3583-50"/>
+<data-triple-N3 id="e3583-51"><s type="iri" val="http://dbpedia.org/resource/Health_professions_council"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["4004504"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e3583-52"><s type="iri" val="http://dbpedia.org/resource/Health_psychology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1465997"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e3583-51"/>
+<end id="e3583-52"/>
+<entry id="e3583-53" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.977Z">
+<s type="iri" val="http://dbpedia.org/resource/Index_of_psychology_articles"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e3583-54" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.979Z">
+<s type="iri" val="http://dbpedia.org/resource/Industrial_and_organizational_psychology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e3583-53"><s type="iri" val="http://dbpedia.org/resource/Index_of_psychology_articles"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["221797"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e3583-54"><s type="iri" val="http://dbpedia.org/resource/Industrial_and_organizational_psychology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["15450"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e3583-53"/>
+<end id="e3583-54"/>
+<entry id="e3583-55" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.982Z">
+<s type="iri" val="http://dbpedia.org/resource/Internship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e3583-55"><s type="iri" val="http://dbpedia.org/resource/Internship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["298221"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e3583-56" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:30.984Z">
+<s type="iri" val="http://dbpedia.org/resource/List_of_counseling_topics"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-55"/>
+<data-triple-N3 id="e3583-56"><s type="iri" val="http://dbpedia.org/resource/List_of_counseling_topics"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["13139134"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e3583-56"/>
+<entry id="e3583-57" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.025Z">
+<s type="iri" val="http://dbpedia.org/resource/List_of_psychological_topics"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e3583-58" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.027Z">
+<s type="iri" val="http://dbpedia.org/resource/List_of_psychologists"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e3583-57"><s type="iri" val="http://dbpedia.org/resource/List_of_psychological_topics"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2947556"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e3583-58"><s type="iri" val="http://dbpedia.org/resource/List_of_psychologists"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["199877"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e3583-59" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.029Z">
+<s type="iri" val="http://dbpedia.org/resource/List_of_psychologists_on_postage_stamps"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e3583-60" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.031Z">
+<s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="var"/><o type="var"/>
+</entry>
+<end id="e3583-57"/>
+<end id="e3583-58"/>
+<data-triple-N3 id="e3583-59"><s type="iri" val="http://dbpedia.org/resource/List_of_psychologists_on_postage_stamps"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["22364366"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Occupational_psychology"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Oregon"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Oregon"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Organisational_psychology"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Organizational_psychology"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Postgraduate"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Postgraduate_education"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Practicum"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Practicum"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Prescriptive_authority_for_psychologists_movement"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Prescriptive_authority_for_psychologists_movement"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Psychiatrist"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Psychiatrist"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Psychiatrists"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Psychiatry"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Psychiatry"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Psychoactive_drug"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Psychoactive_drug"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Psychological_testing"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Psychological_testing"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Psychology"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Psychology"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Psychotherapy"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Psychotherapy"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/RxP"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/School_psychology"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/School_psychology"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Seminar"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Seminar"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/South_Africa"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/South_Africa"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Thesis"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Training"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Training"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Licensed_physicians"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Licensed_physicians"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Practitioner_psychologist"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Practitioner_psychologist"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Sport_and_exercise_psychologist"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Sport_and_exercise_psychologist"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Mental_health_professionals"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Psychologists"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Psychology"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#comment"/><o type="lit"><![CDATA["A psychologist evaluates, diagnoses, treats, and studies behavior and mental processes. Some psychologists, such as clinical and counseling psychologists, provide mental health care, and some psychologists, such as social or organizational psychologists conduct research, usually in university or other academic settings."@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["Psychologist"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://af.dbpedia.org/resource/Sielkundige"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ar.dbpedia.org/resource/نفساني"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://cs.dbpedia.org/resource/Psycholog"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://da.dbpedia.org/resource/Psykolog"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Psychologe"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/Psikologo"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/Psicologo"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/Psuhholoog"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fa.dbpedia.org/resource/روان‌شناس"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fi.dbpedia.org/resource/Psykologi"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/Psychologue"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://he.dbpedia.org/resource/פסיכולוג"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://hu.dbpedia.org/resource/Pszichologus"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://hy.dbpedia.org/resource/Հոգեբան"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://id.dbpedia.org/resource/Psikolog"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://io.dbpedia.org/resource/Psikologo"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ja.dbpedia.org/resource/心理学者"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://nl.dbpedia.org/resource/Psycholoog"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://nn.dbpedia.org/resource/Psykolog"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://no.dbpedia.org/resource/Psykolog"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://pl.dbpedia.org/resource/Psycholog"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ro.dbpedia.org/resource/Psiholog"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ru.dbpedia.org/resource/Психолог"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://simple.dbpedia.org/resource/Psychologist"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://sk.dbpedia.org/resource/Psycholog"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://sl.dbpedia.org/resource/Psiholog"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://sv.dbpedia.org/resource/Psykolog"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://te.dbpedia.org/resource/మనస్తత్వవేత్త"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://tg.dbpedia.org/resource/Равоншинос"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://th.dbpedia.org/resource/นักจิตวิทยา"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q212980"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/心理学家"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/Psychologist?oldid=547988459"/></data-triple-N3>
+
+<data-triple-N3 id="e3583-60"><s type="iri" val="http://dbpedia.org/resource/Psychologist"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/Psychologist"/></data-triple-N3>
+
+<end id="e3583-59"/>
+<end id="e3583-60"/>
+<entry id="e3583-61" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.049Z">
+<s type="iri" val="http://dbpedia.org/resource/List_of_universities_in_South_Africa"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e3583-61"><s type="iri" val="http://dbpedia.org/resource/List_of_universities_in_South_Africa"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["322806"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e3583-61"/>
+<entry id="e3583-62" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.085Z">
+<s type="iri" val="http://dbpedia.org/resource/Louisiana"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e3583-62"><s type="iri" val="http://dbpedia.org/resource/Louisiana"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["18130"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e3583-62"/>
+<entry id="e3583-63" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.093Z">
+<s type="iri" val="http://dbpedia.org/resource/Master's_degree"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e3583-63"><s type="iri" val="http://dbpedia.org/resource/Master's_degree"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["170346"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e3583-64" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.097Z">
+<s type="iri" val="http://dbpedia.org/resource/Masters_degree"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e3583-65" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.101Z">
+<s type="iri" val="http://dbpedia.org/resource/Medical_model"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-63"/>
+<data-triple-N3 id="e3583-64"><s type="iri" val="http://dbpedia.org/resource/Masters_degree"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["990287"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e3583-65"><s type="iri" val="http://dbpedia.org/resource/Medical_model"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5574392"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e3583-64"/>
+<end id="e3583-65"/>
+<entry id="e3583-66" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.108Z">
+<s type="iri" val="http://dbpedia.org/resource/Medical_prescription"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e3583-66"><s type="iri" val="http://dbpedia.org/resource/Medical_prescription"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["304263"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e3583-66"/>
+<entry id="e3583-67" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.145Z">
+<s type="iri" val="http://dbpedia.org/resource/Mental_health_professional"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e3583-67"><s type="iri" val="http://dbpedia.org/resource/Mental_health_professional"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["6134342"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e3583-67"/>
+<entry id="e3583-68" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.150Z">
+<s type="iri" val="http://dbpedia.org/resource/National_Supervisory_Authority_for_Welfare_and_Health_(Finland)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e3583-68"><s type="iri" val="http://dbpedia.org/resource/National_Supervisory_Authority_for_Welfare_and_Health_(Finland)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["31683220"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e3583-69" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.152Z">
+<s type="iri" val="http://dbpedia.org/resource/Neuropsychological_test"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-68"/>
+<data-triple-N3 id="e3583-69"><s type="iri" val="http://dbpedia.org/resource/Neuropsychological_test"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["387283"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e3583-69"/>
+<entry id="e3583-70" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.157Z">
+<s type="iri" val="http://dbpedia.org/resource/New_Mexico"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e3583-70"><s type="iri" val="http://dbpedia.org/resource/New_Mexico"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["21649"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e3583-70"/>
+<entry id="e3583-71" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.197Z">
+<s type="iri" val="http://dbpedia.org/resource/Occupational_psychology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e3583-71"><s type="iri" val="http://dbpedia.org/resource/Occupational_psychology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["12307937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e3583-72" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.199Z">
+<s type="iri" val="http://dbpedia.org/resource/Oregon"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-71"/>
+<data-triple-N3 id="e3583-72"><s type="iri" val="http://dbpedia.org/resource/Oregon"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["26811621"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e3583-73" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.202Z">
+<s type="iri" val="http://dbpedia.org/resource/Organisational_psychology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-72"/>
+<data-triple-N3 id="e3583-73"><s type="iri" val="http://dbpedia.org/resource/Organisational_psychology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1726748"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e3583-74" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.207Z">
+<s type="iri" val="http://dbpedia.org/resource/Organizational_psychology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-73"/>
+<data-triple-N3 id="e3583-74"><s type="iri" val="http://dbpedia.org/resource/Organizational_psychology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1726745"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e3583-75" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.213Z">
+<s type="iri" val="http://dbpedia.org/resource/Postgraduate"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e3583-76" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.214Z">
+<s type="iri" val="http://dbpedia.org/resource/Postgraduate_education"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-74"/>
+<data-triple-N3 id="e3583-75"><s type="iri" val="http://dbpedia.org/resource/Postgraduate"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["362455"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e3583-76"><s type="iri" val="http://dbpedia.org/resource/Postgraduate_education"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["153981"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e3583-77" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.219Z">
+<s type="iri" val="http://dbpedia.org/resource/Practicum"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-75"/>
+<end id="e3583-76"/>
+<data-triple-N3 id="e3583-77"><s type="iri" val="http://dbpedia.org/resource/Practicum"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["4482937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e3583-77"/>
+<entry id="e3583-78" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.265Z">
+<s type="iri" val="http://dbpedia.org/resource/Prescriptive_authority_for_psychologists_movement"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e3583-78"><s type="iri" val="http://dbpedia.org/resource/Prescriptive_authority_for_psychologists_movement"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["10562714"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e3583-78"/>
+<entry id="e3583-79" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.268Z">
+<s type="iri" val="http://dbpedia.org/resource/Psychiatrist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e3583-79"><s type="iri" val="http://dbpedia.org/resource/Psychiatrist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["25004"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e3583-80" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.270Z">
+<s type="iri" val="http://dbpedia.org/resource/Psychiatrists"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-79"/>
+<data-triple-N3 id="e3583-80"><s type="iri" val="http://dbpedia.org/resource/Psychiatrists"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["176629"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e3583-81" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.272Z">
+<s type="iri" val="http://dbpedia.org/resource/Psychiatry"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-80"/>
+<data-triple-N3 id="e3583-81"><s type="iri" val="http://dbpedia.org/resource/Psychiatry"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["18973869"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e3583-81"/>
+<entry id="e3583-82" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.313Z">
+<s type="iri" val="http://dbpedia.org/resource/Psychoactive_drug"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e3583-82"><s type="iri" val="http://dbpedia.org/resource/Psychoactive_drug"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["33632441"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e3583-82"/>
+<entry id="e3583-83" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.316Z">
+<s type="iri" val="http://dbpedia.org/resource/Psychological_testing"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e3583-83"><s type="iri" val="http://dbpedia.org/resource/Psychological_testing"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["176855"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e3583-84" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.319Z">
+<s type="iri" val="http://dbpedia.org/resource/Psychology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-83"/>
+<data-triple-N3 id="e3583-84"><s type="iri" val="http://dbpedia.org/resource/Psychology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["22921"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e3583-84"/>
+<entry id="e3583-85" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.329Z">
+<s type="iri" val="http://dbpedia.org/resource/Psychotherapy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e3583-85"><s type="iri" val="http://dbpedia.org/resource/Psychotherapy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["24931"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e3583-85"/>
+<entry id="e3583-86" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.361Z">
+<s type="iri" val="http://dbpedia.org/resource/RxP"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e3583-87" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.363Z">
+<s type="iri" val="http://dbpedia.org/resource/School_psychology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e3583-86"><s type="iri" val="http://dbpedia.org/resource/RxP"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["10564209"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e3583-87"><s type="iri" val="http://dbpedia.org/resource/School_psychology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["466785"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e3583-86"/>
+<end id="e3583-87"/>
+<entry id="e3583-88" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.374Z">
+<s type="iri" val="http://dbpedia.org/resource/Seminar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e3583-88"><s type="iri" val="http://dbpedia.org/resource/Seminar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["677000"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e3583-89" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.377Z">
+<s type="iri" val="http://dbpedia.org/resource/South_Africa"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-88"/>
+<data-triple-N3 id="e3583-89"><s type="iri" val="http://dbpedia.org/resource/South_Africa"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["17416221"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e3583-89"/>
+<entry id="e3583-90" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.383Z">
+<s type="iri" val="http://dbpedia.org/resource/Thesis"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e3583-91" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.386Z">
+<s type="iri" val="http://dbpedia.org/resource/Training"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e3583-90"><s type="iri" val="http://dbpedia.org/resource/Thesis"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["300215"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e3583-91"><s type="iri" val="http://dbpedia.org/resource/Training"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["156423"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e3583-90"/>
+<end id="e3583-91"/>
+<entry id="e3583-92" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.421Z">
+<s type="iri" val="http://dbpedia.org/resource/Licensed_physicians"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-92"/>
+<entry id="e3583-93" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.429Z">
+<s type="iri" val="http://dbpedia.org/resource/Practitioner_psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e3583-94" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.431Z">
+<s type="iri" val="http://dbpedia.org/resource/Sport_and_exercise_psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-93"/>
+<end id="e3583-94"/>
+<entry id="e3583-95" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.477Z">
+<s type="iri" val="http://af.dbpedia.org/resource/Sielkundige"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e3583-96" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.479Z">
+<s type="iri" val="http://ar.dbpedia.org/resource/نفساني"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e3583-97" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.482Z">
+<s type="iri" val="http://cs.dbpedia.org/resource/Psycholog"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-95"/>
+<entry id="e3583-98" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.485Z">
+<s type="iri" val="http://da.dbpedia.org/resource/Psykolog"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-96"/>
+<end id="e3583-97"/>
+<entry id="e3583-99" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.492Z">
+<s type="iri" val="http://de.dbpedia.org/resource/Psychologe"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-98"/>
+<entry id="e3583-100" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.498Z">
+<s type="iri" val="http://eo.dbpedia.org/resource/Psikologo"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e3583-101" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.501Z">
+<s type="iri" val="http://es.dbpedia.org/resource/Psicologo"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-99"/>
+<entry id="e3583-102" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.504Z">
+<s type="iri" val="http://et.dbpedia.org/resource/Psuhholoog"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-100"/>
+<end id="e3583-101"/>
+<end id="e3583-102"/>
+<entry id="e3583-103" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.545Z">
+<s type="iri" val="http://fa.dbpedia.org/resource/روان‌شناس"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-103"/>
+<entry id="e3583-104" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.549Z">
+<s type="iri" val="http://fi.dbpedia.org/resource/Psykologi"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e3583-105" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.551Z">
+<s type="iri" val="http://fr.dbpedia.org/resource/Psychologue"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e3583-106" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.554Z">
+<s type="iri" val="http://he.dbpedia.org/resource/פסיכולוג"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-104"/>
+<entry id="e3583-107" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.558Z">
+<s type="iri" val="http://hu.dbpedia.org/resource/Pszichologus"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-105"/>
+<end id="e3583-106"/>
+<end id="e3583-107"/>
+<entry id="e3583-108" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.596Z">
+<s type="iri" val="http://hy.dbpedia.org/resource/Հոգեբան"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-108"/>
+<entry id="e3583-109" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.600Z">
+<s type="iri" val="http://id.dbpedia.org/resource/Psikolog"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e3583-110" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.602Z">
+<s type="iri" val="http://io.dbpedia.org/resource/Psikologo"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-109"/>
+<entry id="e3583-111" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.607Z">
+<s type="iri" val="http://ja.dbpedia.org/resource/心理学者"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e3583-112" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.609Z">
+<s type="iri" val="http://nl.dbpedia.org/resource/Psycholoog"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-110"/>
+<end id="e3583-111"/>
+<end id="e3583-112"/>
+<entry id="e3583-113" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.645Z">
+<s type="iri" val="http://nn.dbpedia.org/resource/Psykolog"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-113"/>
+<entry id="e3583-114" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.652Z">
+<s type="iri" val="http://no.dbpedia.org/resource/Psykolog"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-114"/>
+<entry id="e3583-115" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.656Z">
+<s type="iri" val="http://pl.dbpedia.org/resource/Psycholog"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e3583-116" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.658Z">
+<s type="iri" val="http://ro.dbpedia.org/resource/Psiholog"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e3583-117" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.659Z">
+<s type="iri" val="http://ru.dbpedia.org/resource/Психолог"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-115"/>
+<end id="e3583-116"/>
+<end id="e3583-117"/>
+<entry id="e3583-118" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.692Z">
+<s type="iri" val="http://simple.dbpedia.org/resource/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-118"/>
+<entry id="e3583-119" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.700Z">
+<s type="iri" val="http://sk.dbpedia.org/resource/Psycholog"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-119"/>
+<entry id="e3583-120" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.705Z">
+<s type="iri" val="http://sl.dbpedia.org/resource/Psiholog"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e3583-121" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.707Z">
+<s type="iri" val="http://sv.dbpedia.org/resource/Psykolog"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-120"/>
+<end id="e3583-121"/>
+<entry id="e3583-122" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.732Z">
+<s type="iri" val="http://te.dbpedia.org/resource/మనస్తత్వవేత్త"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-122"/>
+<entry id="e3583-123" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.745Z">
+<s type="iri" val="http://tg.dbpedia.org/resource/Равоншинос"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-123"/>
+<entry id="e3583-124" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.754Z">
+<s type="iri" val="http://th.dbpedia.org/resource/นักจิตวิทยา"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e3583-125" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.757Z">
+<s type="iri" val="http://www.wikidata.org/entity/Q212980"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-124"/>
+<end id="e3583-125"/>
+<entry id="e3583-126" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.776Z">
+<s type="iri" val="http://zh.dbpedia.org/resource/心理学家"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-126"/>
+<entry id="e3583-127" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.789Z">
+<s type="iri" val="http://en.wikipedia.org/wiki/Psychologist?oldid=547988459"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-127"/>
+<entry id="e3583-128" client="::ffff:127.0.0.1" worker="3583" time="2017-04-25T19:26:31.800Z">
+<s type="iri" val="http://en.wikipedia.org/wiki/Psychologist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e3583-128"/>
+ </trace>

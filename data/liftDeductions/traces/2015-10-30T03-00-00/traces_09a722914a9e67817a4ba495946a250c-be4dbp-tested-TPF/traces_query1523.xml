@@ -1,0 +1,1883 @@
+<?xml version="1.0"?><!DOCTYPE trace SYSTEM "logTPF.dtd">
+<trace>
+<msg>Master 13631 running on http://localhost:5000/.</msg>
+<msg>Worker 13637 running on http://localhost:5000/.</msg>
+<entry id="e13637-1" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.080Z">
+<s type="var"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5878274"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["489132637"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!?oldid=489132637"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3632887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["545017937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Doppeltes_Ausrufezeichen"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q353153"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!!?oldid=545017937"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chkchkchk.jpg/200px-Chkchkchk.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://auralstates.com/2007/10/interview-aka-chk-chk-chk-w-nic-offer.html"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://punkcast.com/423/"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://supersweet.org/main.aspx?atype=1&amp;aname=Music_Chk_Chk_Chk&amp;con=1&amp;sc1=0&amp;sc2=0"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.chkchkchk.net/"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.npr.org/templates/story/story.php?storyId=10236467"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600744"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548612260"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Billboard_200"/></data-triple-N3>
+
+<end id="e13637-1"/>
+<entry id="e13637-2" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.141Z">
+<s type="var"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["16518765"^^http://www.w3.org/2001/XMLSchema#integer]]></o>
+</entry>
+<data-triple-N3 id="e13637-2"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["16518765"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-2"/>
+<entry id="e13637-3" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.150Z">
+<s type="var"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5878274"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["489132637"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!?oldid=489132637"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3632887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["545017937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Doppeltes_Ausrufezeichen"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q353153"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!!?oldid=545017937"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chkchkchk.jpg/200px-Chkchkchk.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://auralstates.com/2007/10/interview-aka-chk-chk-chk-w-nic-offer.html"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://punkcast.com/423/"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://supersweet.org/main.aspx?atype=1&amp;aname=Music_Chk_Chk_Chk&amp;con=1&amp;sc1=0&amp;sc2=0"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.chkchkchk.net/"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.npr.org/templates/story/story.php?storyId=10236467"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600744"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548612260"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Billboard_200"/></data-triple-N3>
+
+<end id="e13637-3"/>
+<entry id="e13637-4" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.198Z">
+<s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Districts_of_Madagascar.png/200px-Districts_of_Madagascar.png"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["16518765"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["543371608"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Administrative_division"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Administrative_division"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Alaotra-Mangoro"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Alaotra-Mangoro"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ambalavao_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ambalavao_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ambanja_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ambanja_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ambatofinandrahana_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ambatofinandrahana_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ambatolampy_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ambatolampy_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ambatondrazaka_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ambatondrazaka_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ambohimahasoa_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ambohimahasoa_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ambositra_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ambositra_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Amoron'i_Mania"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Amoron'i_Mania"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Amparafaravola_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Amparafaravola_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Analalava_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Analalava_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Analamanga"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Analamanga"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Analanjirofo"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Analanjirofo"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Andapa_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Andapa_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Andilamena_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Andilamena_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Androy"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Androy"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Anosy"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Anosy_Region"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Antalaha_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Antalaha_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Antanifotsy_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Antanifotsy_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Antsalova_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Antsalova_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Antsirabe"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Antsirabe"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Antsirabe_II_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Antsirabe_II_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Antsiranana"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Antsiranana"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Atsimo-Andrefana"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Atsimo-Andrefana"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Atsimo-Atsinanana"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Atsimo-Atsinanana"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Atsinanana"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Atsinanana"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bealanana_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bealanana_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Befandriana-Nord_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Befandriana-Nord_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Besalampy_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Besalampy_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Betafo_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Betafo_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Betsiboka"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Betsiboka"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boeny"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boeny"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bongolava"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bongolava"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Country_subdivisions_of_Africa"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Country_subdivisions_of_Africa"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Districts_of_Madagascar"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Districts_of_Madagascar"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Lists_of_country_subdivisions"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Lists_of_country_subdivisions"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Madagascar_geography-related_lists"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Madagascar_geography-related_lists"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Second-level_administrative_country_subdivisions"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Second-level_administrative_country_subdivisions"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Subdivisions_of_Madagascar"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Subdivisions_of_Madagascar"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Diana,_Madagascar"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Diana_Region"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Fandriana_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Fandriana_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Faratsiho_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Faratsiho_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Fianarantsoa"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Fianarantsoa"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haute_Matsiatra"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haute_Matsiatra"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Iakora_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Iakora_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ihorombe"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ihorombe"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ihosy_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ihosy_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-4"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Itasy"/></data-triple-N3>
+
+<end id="e13637-4"/>
+<entry id="e13637-5" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.227Z">
+<s type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Districts_of_Madagascar.png/200px-Districts_of_Madagascar.png"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-5"/>
+<entry id="e13637-6" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.231Z">
+<s type="iri" val="http://dbpedia.org/resource/Administrative_division"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-6"><s type="iri" val="http://dbpedia.org/resource/Administrative_division"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["27052"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-6"/>
+<entry id="e13637-7" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.274Z">
+<s type="iri" val="http://dbpedia.org/resource/Alaotra-Mangoro"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-7"><s type="iri" val="http://dbpedia.org/resource/Alaotra-Mangoro"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["15930743"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e13637-8" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.277Z">
+<s type="iri" val="http://dbpedia.org/resource/Ambalavao_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-7"/>
+<data-triple-N3 id="e13637-8"><s type="iri" val="http://dbpedia.org/resource/Ambalavao_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["39002378"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-8"/>
+<entry id="e13637-9" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.283Z">
+<s type="iri" val="http://dbpedia.org/resource/Ambanja_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-9"><s type="iri" val="http://dbpedia.org/resource/Ambanja_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["15687444"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-9"/>
+<entry id="e13637-10" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.321Z">
+<s type="iri" val="http://dbpedia.org/resource/Ambatofinandrahana_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-10"><s type="iri" val="http://dbpedia.org/resource/Ambatofinandrahana_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["39002467"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-10"/>
+<entry id="e13637-11" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.326Z">
+<s type="iri" val="http://dbpedia.org/resource/Ambatolampy_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-11"><s type="iri" val="http://dbpedia.org/resource/Ambatolampy_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["36438084"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e13637-12" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.328Z">
+<s type="iri" val="http://dbpedia.org/resource/Ambatondrazaka_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-11"/>
+<data-triple-N3 id="e13637-12"><s type="iri" val="http://dbpedia.org/resource/Ambatondrazaka_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["24893976"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-12"/>
+<entry id="e13637-13" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.373Z">
+<s type="iri" val="http://dbpedia.org/resource/Ambohimahasoa_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e13637-14" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.377Z">
+<s type="iri" val="http://dbpedia.org/resource/Ambositra_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-13"><s type="iri" val="http://dbpedia.org/resource/Ambohimahasoa_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["39008527"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e13637-14"><s type="iri" val="http://dbpedia.org/resource/Ambositra_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["39002217"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-13"/>
+<end id="e13637-14"/>
+<entry id="e13637-15" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.391Z">
+<s type="iri" val="http://dbpedia.org/resource/Amoron'i_Mania"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-15"><s type="iri" val="http://dbpedia.org/resource/Amoron'i_Mania"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["15932170"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-15"/>
+<entry id="e13637-16" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.430Z">
+<s type="iri" val="http://dbpedia.org/resource/Amparafaravola_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-16"><s type="iri" val="http://dbpedia.org/resource/Amparafaravola_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["24910769"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-16"/>
+<entry id="e13637-17" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.436Z">
+<s type="iri" val="http://dbpedia.org/resource/Analalava_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e13637-18" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.438Z">
+<s type="iri" val="http://dbpedia.org/resource/Analamanga"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-17"><s type="iri" val="http://dbpedia.org/resource/Analalava_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["16022680"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e13637-18"><s type="iri" val="http://dbpedia.org/resource/Analamanga"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["9837203"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-17"/>
+<end id="e13637-18"/>
+<entry id="e13637-19" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.481Z">
+<s type="iri" val="http://dbpedia.org/resource/Analanjirofo"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-19"><s type="iri" val="http://dbpedia.org/resource/Analanjirofo"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["15928079"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e13637-20" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.483Z">
+<s type="iri" val="http://dbpedia.org/resource/Andapa_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-19"/>
+<data-triple-N3 id="e13637-20"><s type="iri" val="http://dbpedia.org/resource/Andapa_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["15985981"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-20"/>
+<entry id="e13637-21" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.487Z">
+<s type="iri" val="http://dbpedia.org/resource/Andilamena_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-21"><s type="iri" val="http://dbpedia.org/resource/Andilamena_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["24910771"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-21"/>
+<entry id="e13637-22" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.534Z">
+<s type="iri" val="http://dbpedia.org/resource/Androy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e13637-23" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.536Z">
+<s type="iri" val="http://dbpedia.org/resource/Anosy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e13637-24" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.538Z">
+<s type="iri" val="http://dbpedia.org/resource/Anosy_Region"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-22"><s type="iri" val="http://dbpedia.org/resource/Androy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["9956881"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e13637-23"><s type="iri" val="http://dbpedia.org/resource/Anosy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["37990505"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e13637-24"><s type="iri" val="http://dbpedia.org/resource/Anosy_Region"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["16041969"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-22"/>
+<end id="e13637-23"/>
+<end id="e13637-24"/>
+<entry id="e13637-25" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.544Z">
+<s type="iri" val="http://dbpedia.org/resource/Antalaha_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-25"><s type="iri" val="http://dbpedia.org/resource/Antalaha_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["15986256"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-25"/>
+<entry id="e13637-26" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.581Z">
+<s type="iri" val="http://dbpedia.org/resource/Antanifotsy_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-26"><s type="iri" val="http://dbpedia.org/resource/Antanifotsy_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["36438139"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-26"/>
+<entry id="e13637-27" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.586Z">
+<s type="iri" val="http://dbpedia.org/resource/Antsalova_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-27"><s type="iri" val="http://dbpedia.org/resource/Antsalova_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["16092364"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-27"/>
+<entry id="e13637-28" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.625Z">
+<s type="iri" val="http://dbpedia.org/resource/Antsirabe"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-28"><s type="iri" val="http://dbpedia.org/resource/Antsirabe"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3547624"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-28"/>
+<entry id="e13637-29" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.629Z">
+<s type="iri" val="http://dbpedia.org/resource/Antsirabe_II_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-29"><s type="iri" val="http://dbpedia.org/resource/Antsirabe_II_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["36437814"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e13637-30" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.632Z">
+<s type="iri" val="http://dbpedia.org/resource/Antsiranana"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-29"/>
+<data-triple-N3 id="e13637-30"><s type="iri" val="http://dbpedia.org/resource/Antsiranana"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["271365"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-30"/>
+<entry id="e13637-31" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.680Z">
+<s type="iri" val="http://dbpedia.org/resource/Atsimo-Andrefana"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-31"><s type="iri" val="http://dbpedia.org/resource/Atsimo-Andrefana"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["16041819"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e13637-32" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.685Z">
+<s type="iri" val="http://dbpedia.org/resource/Atsimo-Atsinanana"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-31"/>
+<data-triple-N3 id="e13637-32"><s type="iri" val="http://dbpedia.org/resource/Atsimo-Atsinanana"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["9957046"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-32"/>
+<entry id="e13637-33" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.693Z">
+<s type="iri" val="http://dbpedia.org/resource/Atsinanana"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-33"><s type="iri" val="http://dbpedia.org/resource/Atsinanana"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["16041013"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-33"/>
+<entry id="e13637-34" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.732Z">
+<s type="iri" val="http://dbpedia.org/resource/Bealanana_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-34"><s type="iri" val="http://dbpedia.org/resource/Bealanana_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["16022682"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-34"/>
+<entry id="e13637-35" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.738Z">
+<s type="iri" val="http://dbpedia.org/resource/Befandriana-Nord_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-35"><s type="iri" val="http://dbpedia.org/resource/Befandriana-Nord_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["16005130"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e13637-36" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.740Z">
+<s type="iri" val="http://dbpedia.org/resource/Besalampy_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-35"/>
+<data-triple-N3 id="e13637-36"><s type="iri" val="http://dbpedia.org/resource/Besalampy_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["16092365"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-36"/>
+<entry id="e13637-37" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.782Z">
+<s type="iri" val="http://dbpedia.org/resource/Betafo_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-37"><s type="iri" val="http://dbpedia.org/resource/Betafo_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["34161165"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-37"/>
+<entry id="e13637-38" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.784Z">
+<s type="iri" val="http://dbpedia.org/resource/Betsiboka"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-38"><s type="iri" val="http://dbpedia.org/resource/Betsiboka"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["16040509"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e13637-39" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.786Z">
+<s type="iri" val="http://dbpedia.org/resource/Boeny"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-38"/>
+<data-triple-N3 id="e13637-39"><s type="iri" val="http://dbpedia.org/resource/Boeny"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["16040002"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-39"/>
+<entry id="e13637-40" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.829Z">
+<s type="iri" val="http://dbpedia.org/resource/Bongolava"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-40"><s type="iri" val="http://dbpedia.org/resource/Bongolava"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["9839805"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e13637-41" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.831Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Country_subdivisions_of_Africa"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-40"/>
+<data-triple-N3 id="e13637-41"><s type="iri" val="http://dbpedia.org/resource/Category:Country_subdivisions_of_Africa"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["7818480"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-41"/>
+<entry id="e13637-42" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.839Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-42"><s type="iri" val="http://dbpedia.org/resource/Category:Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["15930068"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-42"/>
+<entry id="e13637-43" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.877Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Lists_of_country_subdivisions"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-43"><s type="iri" val="http://dbpedia.org/resource/Category:Lists_of_country_subdivisions"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["7582582"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-43"/>
+<entry id="e13637-44" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.885Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Madagascar_geography-related_lists"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-44"><s type="iri" val="http://dbpedia.org/resource/Category:Madagascar_geography-related_lists"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["37432723"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e13637-45" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.888Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Second-level_administrative_country_subdivisions"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e13637-46" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.891Z">
+<s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="var"/><o type="var"/>
+</entry>
+<end id="e13637-44"/>
+<data-triple-N3 id="e13637-45"><s type="iri" val="http://dbpedia.org/resource/Category:Second-level_administrative_country_subdivisions"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["8420352"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Itasy_Region"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ivohibe_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ivohibe_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/List_of_cities_in_Madagascar"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/List_of_cities_in_Madagascar"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Madagascar"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Madagascar"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mahajanga"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mahajanga"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Maintirano_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Maintirano_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mampikony_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mampikony_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Manandriana_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Manandriana_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mandritsara_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mandritsara_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Manjakandriana_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Manjakandriana_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Marovoay_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Marovoay_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Melaky"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Melaky"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Menabe"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Menabe"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mitsinjo_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mitsinjo_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Morafenobe_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Morafenobe_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Moramanga_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Moramanga_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Morondava_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Morondava_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Nosy_Be"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Nosy_Be"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Provinces_of_Madagascar"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Provinces_of_Madagascar"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Regions_of_Madagascar"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Regions_of_Madagascar"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Sambava_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Sambava_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Sava_Region"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Sava_Region"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Soalala_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Soalala_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Sofia_Region"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Sofia_Region"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Subdivisions_of_Madagascar"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Subdivisions_of_Madagascar"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Toamasina"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Toamasina"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Toliara"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Toliara"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Vakinankaratra"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Vakinankaratra"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Vatovavy-Fitovinany"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Vatovavy-Fitovinany"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Vavatenina_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Vavatenina_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Vohemar_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Vohemar_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ambato-Boina_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ambato-Boina_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ambatomainty_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ambatomainty_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ambilobe_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ambilobe_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Amboasary-Atsimo_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Amboasary-Atsimo_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ambohidratrimo_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ambohidratrimo_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ambovombe-Androy_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ambovombe-Androy_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ampanihy_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ampanihy_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Andramasina_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Andramasina_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Anjozorobe_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Anjozorobe_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ankazoabo-Atsimo_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ankazoabo-Atsimo_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ankazobe_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ankazobe_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Anosibe_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Anosibe_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Antanambao-Manampotsy_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Antanambao-Manampotsy_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Antananarivo-Atsimondrano_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Antananarivo-Atsimondrano_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Antananarivo-Avaradrano_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Antananarivo-Avaradrano_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Antananarivo-Renivohitra_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Antananarivo-Renivohitra_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Antsiranana_II_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Antsiranana_II_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Antsohihy_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Antsohihy_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Arivonimamo_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Arivonimamo_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-46"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Befotaka_District"/></data-triple-N3>
+
+<end id="e13637-45"/>
+<end id="e13637-46"/>
+<entry id="e13637-47" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.934Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Subdivisions_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-47"><s type="iri" val="http://dbpedia.org/resource/Category:Subdivisions_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5495055"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-47"/>
+<entry id="e13637-48" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.945Z">
+<s type="iri" val="http://dbpedia.org/resource/Diana,_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e13637-49" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.946Z">
+<s type="iri" val="http://dbpedia.org/resource/Diana_Region"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-48"><s type="iri" val="http://dbpedia.org/resource/Diana,_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["34052206"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e13637-49"><s type="iri" val="http://dbpedia.org/resource/Diana_Region"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["10499076"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-48"/>
+<end id="e13637-49"/>
+<entry id="e13637-50" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.976Z">
+<s type="iri" val="http://dbpedia.org/resource/Fandriana_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-50"><s type="iri" val="http://dbpedia.org/resource/Fandriana_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["39002549"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-50"/>
+<entry id="e13637-51" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:45.989Z">
+<s type="iri" val="http://dbpedia.org/resource/Faratsiho_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-51"><s type="iri" val="http://dbpedia.org/resource/Faratsiho_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["36438160"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-51"/>
+<entry id="e13637-52" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.016Z">
+<s type="iri" val="http://dbpedia.org/resource/Fianarantsoa"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-52"><s type="iri" val="http://dbpedia.org/resource/Fianarantsoa"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2667652"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-52"/>
+<entry id="e13637-53" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.033Z">
+<s type="iri" val="http://dbpedia.org/resource/Haute_Matsiatra"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-53"><s type="iri" val="http://dbpedia.org/resource/Haute_Matsiatra"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["16041354"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-53"/>
+<entry id="e13637-54" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.057Z">
+<s type="iri" val="http://dbpedia.org/resource/Iakora_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-54"><s type="iri" val="http://dbpedia.org/resource/Iakora_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["17164582"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-54"/>
+<entry id="e13637-55" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.076Z">
+<s type="iri" val="http://dbpedia.org/resource/Ihorombe"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-55"><s type="iri" val="http://dbpedia.org/resource/Ihorombe"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["16041584"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-55"/>
+<entry id="e13637-56" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.101Z">
+<s type="iri" val="http://dbpedia.org/resource/Ihosy_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-56"><s type="iri" val="http://dbpedia.org/resource/Ihosy_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["17164585"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-56"/>
+<entry id="e13637-57" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.121Z">
+<s type="iri" val="http://dbpedia.org/resource/Itasy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e13637-58" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.122Z">
+<s type="iri" val="http://dbpedia.org/resource/Itasy_Region"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-57"><s type="iri" val="http://dbpedia.org/resource/Itasy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["37990483"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e13637-58"><s type="iri" val="http://dbpedia.org/resource/Itasy_Region"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["16040777"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-57"/>
+<end id="e13637-58"/>
+<entry id="e13637-59" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.144Z">
+<s type="iri" val="http://dbpedia.org/resource/Ivohibe_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-59"><s type="iri" val="http://dbpedia.org/resource/Ivohibe_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["17164586"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-59"/>
+<entry id="e13637-60" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.165Z">
+<s type="iri" val="http://dbpedia.org/resource/List_of_cities_in_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-60"><s type="iri" val="http://dbpedia.org/resource/List_of_cities_in_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["343377"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-60"/>
+<entry id="e13637-61" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.184Z">
+<s type="iri" val="http://dbpedia.org/resource/Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-61"><s type="iri" val="http://dbpedia.org/resource/Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["18964"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-61"/>
+<entry id="e13637-62" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.208Z">
+<s type="iri" val="http://dbpedia.org/resource/Mahajanga"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-62"><s type="iri" val="http://dbpedia.org/resource/Mahajanga"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["377891"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-62"/>
+<entry id="e13637-63" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.229Z">
+<s type="iri" val="http://dbpedia.org/resource/Maintirano_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-63"><s type="iri" val="http://dbpedia.org/resource/Maintirano_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["16092367"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-63"/>
+<entry id="e13637-64" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.254Z">
+<s type="iri" val="http://dbpedia.org/resource/Mampikony_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-64"><s type="iri" val="http://dbpedia.org/resource/Mampikony_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["16049503"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-64"/>
+<entry id="e13637-65" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.274Z">
+<s type="iri" val="http://dbpedia.org/resource/Manandriana_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-65"><s type="iri" val="http://dbpedia.org/resource/Manandriana_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["39002627"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-65"/>
+<entry id="e13637-66" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.297Z">
+<s type="iri" val="http://dbpedia.org/resource/Mandritsara_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-66"><s type="iri" val="http://dbpedia.org/resource/Mandritsara_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["16004634"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-66"/>
+<entry id="e13637-67" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.317Z">
+<s type="iri" val="http://dbpedia.org/resource/Manjakandriana_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-67"/>
+<entry id="e13637-68" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.340Z">
+<s type="iri" val="http://dbpedia.org/resource/Marovoay_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-68"><s type="iri" val="http://dbpedia.org/resource/Marovoay_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["16073721"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-68"/>
+<entry id="e13637-69" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.361Z">
+<s type="iri" val="http://dbpedia.org/resource/Melaky"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-69"><s type="iri" val="http://dbpedia.org/resource/Melaky"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["16040221"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-69"/>
+<entry id="e13637-70" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.385Z">
+<s type="iri" val="http://dbpedia.org/resource/Menabe"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-70"><s type="iri" val="http://dbpedia.org/resource/Menabe"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["10640301"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-70"/>
+<entry id="e13637-71" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.405Z">
+<s type="iri" val="http://dbpedia.org/resource/Mitsinjo_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-71"><s type="iri" val="http://dbpedia.org/resource/Mitsinjo_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["16073723"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-71"/>
+<entry id="e13637-72" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.431Z">
+<s type="iri" val="http://dbpedia.org/resource/Morafenobe_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-72"><s type="iri" val="http://dbpedia.org/resource/Morafenobe_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["16092368"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-72"/>
+<entry id="e13637-73" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.449Z">
+<s type="iri" val="http://dbpedia.org/resource/Moramanga_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-73"><s type="iri" val="http://dbpedia.org/resource/Moramanga_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["24910794"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-73"/>
+<entry id="e13637-74" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.473Z">
+<s type="iri" val="http://dbpedia.org/resource/Morondava_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-74"><s type="iri" val="http://dbpedia.org/resource/Morondava_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["36207673"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-74"/>
+<entry id="e13637-75" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.493Z">
+<s type="iri" val="http://dbpedia.org/resource/Nosy_Be"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-75"><s type="iri" val="http://dbpedia.org/resource/Nosy_Be"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2089385"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-75"/>
+<entry id="e13637-76" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.517Z">
+<s type="iri" val="http://dbpedia.org/resource/Provinces_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-76"><s type="iri" val="http://dbpedia.org/resource/Provinces_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["448268"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-76"/>
+<entry id="e13637-77" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.537Z">
+<s type="iri" val="http://dbpedia.org/resource/Regions_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-77"><s type="iri" val="http://dbpedia.org/resource/Regions_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["9855699"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-77"/>
+<entry id="e13637-78" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.561Z">
+<s type="iri" val="http://dbpedia.org/resource/Sambava_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-78"><s type="iri" val="http://dbpedia.org/resource/Sambava_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["15986601"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-78"/>
+<entry id="e13637-79" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.582Z">
+<s type="iri" val="http://dbpedia.org/resource/Sava_Region"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-79"><s type="iri" val="http://dbpedia.org/resource/Sava_Region"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5495039"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-79"/>
+<entry id="e13637-80" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.605Z">
+<s type="iri" val="http://dbpedia.org/resource/Soalala_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-80"><s type="iri" val="http://dbpedia.org/resource/Soalala_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["16073725"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-80"/>
+<entry id="e13637-81" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.624Z">
+<s type="iri" val="http://dbpedia.org/resource/Sofia_Region"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-81"><s type="iri" val="http://dbpedia.org/resource/Sofia_Region"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["590932"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-81"/>
+<entry id="e13637-82" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.648Z">
+<s type="iri" val="http://dbpedia.org/resource/Subdivisions_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-82"><s type="iri" val="http://dbpedia.org/resource/Subdivisions_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5495191"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-82"/>
+<entry id="e13637-83" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.668Z">
+<s type="iri" val="http://dbpedia.org/resource/Toamasina"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-83"><s type="iri" val="http://dbpedia.org/resource/Toamasina"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1497539"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-83"/>
+<entry id="e13637-84" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.693Z">
+<s type="iri" val="http://dbpedia.org/resource/Toliara"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-84"><s type="iri" val="http://dbpedia.org/resource/Toliara"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2077275"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-84"/>
+<entry id="e13637-85" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.708Z">
+<s type="iri" val="http://dbpedia.org/resource/Vakinankaratra"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-85"><s type="iri" val="http://dbpedia.org/resource/Vakinankaratra"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5830458"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-85"/>
+<entry id="e13637-86" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.736Z">
+<s type="iri" val="http://dbpedia.org/resource/Vatovavy-Fitovinany"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-86"><s type="iri" val="http://dbpedia.org/resource/Vatovavy-Fitovinany"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["9957133"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-86"/>
+<entry id="e13637-87" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.752Z">
+<s type="iri" val="http://dbpedia.org/resource/Vavatenina_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-87"><s type="iri" val="http://dbpedia.org/resource/Vavatenina_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["18385045"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-87"/>
+<entry id="e13637-88" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.776Z">
+<s type="iri" val="http://dbpedia.org/resource/Vohemar_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-88"><s type="iri" val="http://dbpedia.org/resource/Vohemar_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["15986831"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-88"/>
+<entry id="e13637-89" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.792Z">
+<s type="iri" val="http://dbpedia.org/resource/Ambato-Boina_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-89"/>
+<entry id="e13637-90" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.820Z">
+<s type="iri" val="http://dbpedia.org/resource/Ambatomainty_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-90"/>
+<entry id="e13637-91" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.837Z">
+<s type="iri" val="http://dbpedia.org/resource/Ambilobe_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-91"/>
+<entry id="e13637-92" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.864Z">
+<s type="iri" val="http://dbpedia.org/resource/Amboasary-Atsimo_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-92"/>
+<entry id="e13637-93" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.880Z">
+<s type="iri" val="http://dbpedia.org/resource/Ambohidratrimo_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-93"/>
+<entry id="e13637-94" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.908Z">
+<s type="iri" val="http://dbpedia.org/resource/Ambovombe-Androy_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-94"/>
+<entry id="e13637-95" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.925Z">
+<s type="iri" val="http://dbpedia.org/resource/Ampanihy_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-95"/>
+<entry id="e13637-96" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.952Z">
+<s type="iri" val="http://dbpedia.org/resource/Andramasina_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-96"/>
+<entry id="e13637-97" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.968Z">
+<s type="iri" val="http://dbpedia.org/resource/Anjozorobe_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-97"/>
+<entry id="e13637-98" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.996Z">
+<s type="iri" val="http://dbpedia.org/resource/Ankazoabo-Atsimo_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e13637-99" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:46.998Z">
+<s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="var"/><o type="var"/>
+</entry>
+<end id="e13637-98"/>
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Befotaka_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bekily_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bekily_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Beloha_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Beloha_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Belon'i_Tsiribihina_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Belon'i_Tsiribihina_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Benenitra_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Benenitra_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Beroroha_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Beroroha_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Betioky-Atsimo_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Betioky-Atsimo_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Betroka_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Betroka_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boriziny_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boriziny_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Farafangana_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Farafangana_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Fenoarivo-Afovoany_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Fenoarivo-Afovoany_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Fenoarivo-Atsinanana_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Fenoarivo-Atsinanana_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Fianarantsoa_II_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Fianarantsoa_II_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:Districts_of_Madagascar.png"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:Districts_of_Madagascar.png"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ifanadiana_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ifanadiana_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ikalamavony_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ikalamavony_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ikongo_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ikongo_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Kandreho_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Kandreho_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Maevatanana_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Maevatanana_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mahabo_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mahabo_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mahajanga_II_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mahajanga_II_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mahanoro_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mahanoro_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Manakara-Atsimo_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Manakara-Atsimo_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mananara_Avaratra_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mananara_Avaratra_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mananjary_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mananjary_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Manja_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Manja_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Maroantsetra_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Maroantsetra_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Marolambo_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Marolambo_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Miandrivazo_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Miandrivazo_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Miarinarivo_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Miarinarivo_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Midongy-Atsimo_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Midongy-Atsimo_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Morombe_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Morombe_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Nosy-Boraha_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Nosy-Boraha_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Nosy-Varika_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Nosy-Varika_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Sakaraha_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Sakaraha_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Soanierana-Ivongo_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Soanierana-Ivongo_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Soavinandriana_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Soavinandriana_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Taolanaro_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Taolanaro_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Toamasina_II_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Toamasina_II_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Toliara_II_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Toliara_II_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Tsaratanana_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Tsaratanana_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Tsihombe_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Tsihombe_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Tsiroanomandidy_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Tsiroanomandidy_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Vangaindrano_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Vangaindrano_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Vatomandry_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Vatomandry_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Vohibinany_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Vohibinany_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Vohipeno_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Vohipeno_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Vondrozo_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Vondrozo_District"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Country_subdivisions_of_Africa"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Districts_of_Madagascar"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Lists_of_country_subdivisions"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Madagascar_geography-related_lists"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-99"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Second-level_administrative_country_subdivisions"/></data-triple-N3>
+
+<end id="e13637-99"/>
+<entry id="e13637-100" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.013Z">
+<s type="iri" val="http://dbpedia.org/resource/Ankazobe_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-100"/>
+<entry id="e13637-101" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.041Z">
+<s type="iri" val="http://dbpedia.org/resource/Anosibe_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-101"/>
+<entry id="e13637-102" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.056Z">
+<s type="iri" val="http://dbpedia.org/resource/Antanambao-Manampotsy_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-102"/>
+<entry id="e13637-103" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.084Z">
+<s type="iri" val="http://dbpedia.org/resource/Antananarivo-Atsimondrano_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-103"/>
+<entry id="e13637-104" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.096Z">
+<s type="iri" val="http://dbpedia.org/resource/Antananarivo-Avaradrano_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-104"/>
+<entry id="e13637-105" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.124Z">
+<s type="iri" val="http://dbpedia.org/resource/Antananarivo-Renivohitra_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-105"/>
+<entry id="e13637-106" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.136Z">
+<s type="iri" val="http://dbpedia.org/resource/Antsiranana_II_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-106"/>
+<entry id="e13637-107" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.164Z">
+<s type="iri" val="http://dbpedia.org/resource/Antsohihy_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-107"/>
+<entry id="e13637-108" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.182Z">
+<s type="iri" val="http://dbpedia.org/resource/Arivonimamo_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-108"/>
+<entry id="e13637-109" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.209Z">
+<s type="iri" val="http://dbpedia.org/resource/Befotaka_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-109"/>
+<entry id="e13637-110" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.224Z">
+<s type="iri" val="http://dbpedia.org/resource/Bekily_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-110"/>
+<entry id="e13637-111" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.252Z">
+<s type="iri" val="http://dbpedia.org/resource/Beloha_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-111"/>
+<entry id="e13637-112" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.265Z">
+<s type="iri" val="http://dbpedia.org/resource/Belon'i_Tsiribihina_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-112"/>
+<entry id="e13637-113" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.293Z">
+<s type="iri" val="http://dbpedia.org/resource/Benenitra_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-113"/>
+<entry id="e13637-114" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.309Z">
+<s type="iri" val="http://dbpedia.org/resource/Beroroha_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-114"/>
+<entry id="e13637-115" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.337Z">
+<s type="iri" val="http://dbpedia.org/resource/Betioky-Atsimo_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-115"/>
+<entry id="e13637-116" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.352Z">
+<s type="iri" val="http://dbpedia.org/resource/Betroka_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-116"/>
+<entry id="e13637-117" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.380Z">
+<s type="iri" val="http://dbpedia.org/resource/Boriziny_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-117"/>
+<entry id="e13637-118" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.392Z">
+<s type="iri" val="http://dbpedia.org/resource/Farafangana_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-118"/>
+<entry id="e13637-119" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.428Z">
+<s type="iri" val="http://dbpedia.org/resource/Fenoarivo-Afovoany_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-119"/>
+<entry id="e13637-120" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.434Z">
+<s type="iri" val="http://dbpedia.org/resource/Fenoarivo-Atsinanana_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-120"/>
+<entry id="e13637-121" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.473Z">
+<s type="iri" val="http://dbpedia.org/resource/Fianarantsoa_II_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-121"/>
+<entry id="e13637-122" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.480Z">
+<s type="iri" val="http://dbpedia.org/resource/File:Districts_of_Madagascar.png"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e13637-123" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.484Z">
+<s type="iri" val="http://dbpedia.org/resource/Ifanadiana_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-122"/>
+<end id="e13637-123"/>
+<entry id="e13637-124" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.525Z">
+<s type="iri" val="http://dbpedia.org/resource/Ikalamavony_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e13637-125" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.531Z">
+<s type="iri" val="http://dbpedia.org/resource/Ikongo_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-124"/>
+<end id="e13637-125"/>
+<entry id="e13637-126" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.537Z">
+<s type="iri" val="http://dbpedia.org/resource/Kandreho_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-126"/>
+<entry id="e13637-127" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.580Z">
+<s type="iri" val="http://dbpedia.org/resource/Maevatanana_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e13637-128" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.584Z">
+<s type="iri" val="http://dbpedia.org/resource/Mahabo_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-127"/>
+<end id="e13637-128"/>
+<entry id="e13637-129" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.593Z">
+<s type="iri" val="http://dbpedia.org/resource/Mahajanga_II_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-129"/>
+<entry id="e13637-130" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.632Z">
+<s type="iri" val="http://dbpedia.org/resource/Mahanoro_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-130"/>
+<entry id="e13637-131" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.637Z">
+<s type="iri" val="http://dbpedia.org/resource/Manakara-Atsimo_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-131"/>
+<entry id="e13637-132" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.642Z">
+<s type="iri" val="http://dbpedia.org/resource/Mananara_Avaratra_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-132"/>
+<entry id="e13637-133" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.683Z">
+<s type="iri" val="http://dbpedia.org/resource/Mananjary_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-133"/>
+<entry id="e13637-134" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.686Z">
+<s type="iri" val="http://dbpedia.org/resource/Manja_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e13637-135" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.689Z">
+<s type="iri" val="http://dbpedia.org/resource/Maroantsetra_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-134"/>
+<end id="e13637-135"/>
+<entry id="e13637-136" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.732Z">
+<s type="iri" val="http://dbpedia.org/resource/Marolambo_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e13637-137" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.734Z">
+<s type="iri" val="http://dbpedia.org/resource/Miandrivazo_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-136"/>
+<end id="e13637-137"/>
+<entry id="e13637-138" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.742Z">
+<s type="iri" val="http://dbpedia.org/resource/Miarinarivo_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-138"/>
+<entry id="e13637-139" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.781Z">
+<s type="iri" val="http://dbpedia.org/resource/Midongy-Atsimo_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-139"/>
+<entry id="e13637-140" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.786Z">
+<s type="iri" val="http://dbpedia.org/resource/Morombe_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e13637-141" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.789Z">
+<s type="iri" val="http://dbpedia.org/resource/Nosy-Boraha_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-140"/>
+<end id="e13637-141"/>
+<entry id="e13637-142" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.837Z">
+<s type="iri" val="http://dbpedia.org/resource/Nosy-Varika_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e13637-143" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.838Z">
+<s type="iri" val="http://dbpedia.org/resource/Sakaraha_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-142"/>
+<end id="e13637-143"/>
+<entry id="e13637-144" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.843Z">
+<s type="iri" val="http://dbpedia.org/resource/Soanierana-Ivongo_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-144"/>
+<entry id="e13637-145" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.883Z">
+<s type="iri" val="http://dbpedia.org/resource/Soavinandriana_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e13637-146" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.888Z">
+<s type="iri" val="http://dbpedia.org/resource/Taolanaro_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-145"/>
+<end id="e13637-146"/>
+<entry id="e13637-147" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.894Z">
+<s type="iri" val="http://dbpedia.org/resource/Toamasina_II_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-147"/>
+<entry id="e13637-148" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.932Z">
+<s type="iri" val="http://dbpedia.org/resource/Toliara_II_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-148"/>
+<entry id="e13637-149" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.937Z">
+<s type="iri" val="http://dbpedia.org/resource/Tsaratanana_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e13637-150" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.938Z">
+<s type="iri" val="http://dbpedia.org/resource/Tsihombe_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e13637-151" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.940Z">
+<s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="var"/><o type="var"/>
+</entry>
+<end id="e13637-149"/>
+<data-triple-N3 id="e13637-151"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Subdivisions_of_Madagascar"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-151"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/><o type="iri" val="http://www.w3.org/2004/02/skos/core#Concept"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-151"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/><o type="iri" val="http://www.w3.org/2004/02/skos/core#Concept"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-151"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#comment"/><o type="lit"><![CDATA["Districts are second-level administrative divisions of Madagascar below the regions. There are 111 districts in Madagascar. Districts are in their turn divided into communes; while some of the districts on urban areas such as the district of Toliara I consists of only one commune, most of the districts are divided typically into 5–20 communes."@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e13637-151"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["Districts of Madagascar"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e13637-151"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://el.dbpedia.org/resource/Δήμοι_της_Μαδαγασκάρης"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-151"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/Distretti_del_Madagascar"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-151"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q3556789"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-151"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/Districts_of_Madagascar?oldid=543371608"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-151"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://xmlns.com/foaf/0.1/depiction"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/e/e1/Districts_of_Madagascar.png"/></data-triple-N3>
+
+<data-triple-N3 id="e13637-151"><s type="iri" val="http://dbpedia.org/resource/Districts_of_Madagascar"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/Districts_of_Madagascar"/></data-triple-N3>
+
+<end id="e13637-150"/>
+<end id="e13637-151"/>
+<entry id="e13637-152" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.981Z">
+<s type="iri" val="http://dbpedia.org/resource/Tsiroanomandidy_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-152"/>
+<entry id="e13637-153" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:47.989Z">
+<s type="iri" val="http://dbpedia.org/resource/Vangaindrano_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-153"/>
+<entry id="e13637-154" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:48.025Z">
+<s type="iri" val="http://dbpedia.org/resource/Vatomandry_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-154"/>
+<entry id="e13637-155" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:48.033Z">
+<s type="iri" val="http://dbpedia.org/resource/Vohibinany_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-155"/>
+<entry id="e13637-156" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:48.069Z">
+<s type="iri" val="http://dbpedia.org/resource/Vohipeno_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-156"/>
+<entry id="e13637-157" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:48.076Z">
+<s type="iri" val="http://dbpedia.org/resource/Vondrozo_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-157"/>
+<entry id="e13637-158" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:48.113Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Country_subdivisions_of_Africa"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e13637-159" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:48.115Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-158"><s type="iri" val="http://dbpedia.org/resource/Category:Country_subdivisions_of_Africa"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["7818480"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e13637-159"><s type="iri" val="http://dbpedia.org/resource/Category:Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["15930068"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-158"/>
+<end id="e13637-159"/>
+<entry id="e13637-160" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:48.120Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Lists_of_country_subdivisions"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-160"><s type="iri" val="http://dbpedia.org/resource/Category:Lists_of_country_subdivisions"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["7582582"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e13637-161" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:48.123Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Madagascar_geography-related_lists"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-160"/>
+<data-triple-N3 id="e13637-161"><s type="iri" val="http://dbpedia.org/resource/Category:Madagascar_geography-related_lists"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["37432723"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-161"/>
+<entry id="e13637-162" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:48.156Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Second-level_administrative_country_subdivisions"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-162"><s type="iri" val="http://dbpedia.org/resource/Category:Second-level_administrative_country_subdivisions"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["8420352"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-162"/>
+<entry id="e13637-163" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:48.161Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Subdivisions_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e13637-163"><s type="iri" val="http://dbpedia.org/resource/Category:Subdivisions_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5495055"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e13637-163"/>
+<entry id="e13637-164" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:48.165Z">
+<s type="iri" val="http://www.w3.org/2004/02/skos/core#Concept"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-164"/>
+<entry id="e13637-165" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:48.210Z">
+<s type="iri" val="http://el.dbpedia.org/resource/Δήμοι_της_Μαδαγασκάρης"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e13637-166" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:48.212Z">
+<s type="iri" val="http://it.dbpedia.org/resource/Distretti_del_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e13637-167" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:48.214Z">
+<s type="iri" val="http://www.wikidata.org/entity/Q3556789"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e13637-168" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:48.216Z">
+<s type="iri" val="http://en.wikipedia.org/wiki/Districts_of_Madagascar?oldid=543371608"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-165"/>
+<end id="e13637-166"/>
+<end id="e13637-167"/>
+<end id="e13637-168"/>
+<entry id="e13637-169" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:48.222Z">
+<s type="iri" val="http://upload.wikimedia.org/wikipedia/commons/e/e1/Districts_of_Madagascar.png"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-169"/>
+<entry id="e13637-170" client="::ffff:127.0.0.1" worker="13637" time="2017-04-25T19:35:48.264Z">
+<s type="iri" val="http://en.wikipedia.org/wiki/Districts_of_Madagascar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e13637-170"/>
+ </trace>

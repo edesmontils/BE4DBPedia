@@ -1,0 +1,1999 @@
+<?xml version="1.0"?><!DOCTYPE trace SYSTEM "logTPF.dtd">
+<trace>
+<msg>Master 373 running on http://localhost:5000/.</msg>
+<msg>Worker 379 running on http://localhost:5000/.</msg>
+<entry id="e379-1" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.111Z">
+<s type="var"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5878274"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["489132637"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!?oldid=489132637"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3632887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["545017937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Doppeltes_Ausrufezeichen"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q353153"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!!?oldid=545017937"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chkchkchk.jpg/200px-Chkchkchk.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://auralstates.com/2007/10/interview-aka-chk-chk-chk-w-nic-offer.html"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://punkcast.com/423/"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://supersweet.org/main.aspx?atype=1&amp;aname=Music_Chk_Chk_Chk&amp;con=1&amp;sc1=0&amp;sc2=0"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.chkchkchk.net/"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.npr.org/templates/story/story.php?storyId=10236467"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600744"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548612260"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Billboard_200"/></data-triple-N3>
+
+<end id="e379-1"/>
+<entry id="e379-2" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.182Z">
+<s type="var"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["245107"^^http://www.w3.org/2001/XMLSchema#integer]]></o>
+</entry>
+<data-triple-N3 id="e379-2"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["245107"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-2"/>
+<entry id="e379-3" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.194Z">
+<s type="var"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5878274"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["489132637"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!?oldid=489132637"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3632887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["545017937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Doppeltes_Ausrufezeichen"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q353153"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!!?oldid=545017937"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chkchkchk.jpg/200px-Chkchkchk.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://auralstates.com/2007/10/interview-aka-chk-chk-chk-w-nic-offer.html"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://punkcast.com/423/"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://supersweet.org/main.aspx?atype=1&amp;aname=Music_Chk_Chk_Chk&amp;con=1&amp;sc1=0&amp;sc2=0"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.chkchkchk.net/"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.npr.org/templates/story/story.php?storyId=10236467"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600744"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548612260"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Billboard_200"/></data-triple-N3>
+
+<end id="e379-3"/>
+<entry id="e379-4" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.239Z">
+<s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/circulation"/><o type="lit"><![CDATA["277300"^^http://www.w3.org/2001/XMLSchema#nonNegativeInteger]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/circulation"/><o type="lit"><![CDATA["277300"^^http://www.w3.org/2001/XMLSchema#nonNegativeInteger]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/circulation"/><o type="lit"><![CDATA["422335"^^http://www.w3.org/2001/XMLSchema#nonNegativeInteger]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/circulation"/><o type="lit"><![CDATA["422335"^^http://www.w3.org/2001/XMLSchema#nonNegativeInteger]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/circulation"/><o type="lit"><![CDATA["434861"^^http://www.w3.org/2001/XMLSchema#nonNegativeInteger]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/circulation"/><o type="lit"><![CDATA["434861"^^http://www.w3.org/2001/XMLSchema#nonNegativeInteger]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/format"/><o type="iri" val="http://dbpedia.org/resource/Tabloid_(newspaper_format)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/format"/><o type="iri" val="http://dbpedia.org/resource/Tabloid_(newspaper_format)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/headquarter"/><o type="iri" val="http://dbpedia.org/resource/Chicago"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/headquarter"/><o type="iri" val="http://dbpedia.org/resource/Chicago,_Illinois"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/owner"/><o type="iri" val="http://dbpedia.org/resource/Sun-Times_Media_Group"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/owner"/><o type="iri" val="http://dbpedia.org/resource/Sun-Times_Media_Group"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Chicago_Sun-Times_Logo.svg/200px-Chicago_Sun-Times_Logo.svg.png"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.newberry.org/collections/FindingAids/fieldenterprises/FieldEnterprises.html"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.suntimes.com"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["245107"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["544665329"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/330_North_Wabash"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Alliance_for_Audited_Media"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Alzheimer's_disease"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Andy_Ihnatko"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ann_Landers"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ask_Ann_Landers"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Audit_Bureau_of_Circulations_(North_America)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Baltimore_Sun"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Beetle_Bailey"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bill_Adee"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bob_Greene"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Canadian_Broadcasting_Corporation"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Carol_Marin"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Newspapers_published_in_Chicago,_Illinois"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Publications_established_in_1948"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Pulitzer_Prize_winning_newspapers"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Sun-Times_Media_Group_publications"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Worth_Bingham_Prize_recipients"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Catherine_O'Leary"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chicago"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chicago,_Illinois"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chicago_'L'"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chicago_Daily_News"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chicago_Defender"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chicago_Innovation_Awards"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chicago_Reader"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chicago_Tribune"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chicago_innovation_awards"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chuck_Neubauer"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Columbia_College_Chicago"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Conrad_Black"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Dan_Rostenkowski"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/David_Radler"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Democratic_Party_(United_States)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Doug_Moench"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Drabble_(comic_strip)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/ESPN"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Early_Edition"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Eppie_Lederer"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/FedEx"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Federal_Express"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Field_Enterprises"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:Chicago_Sun-Times_Logo.svg"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:Chisuntimeshead.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Fox_Broadcasting_Company"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Frank_Main"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/George_W._Bush"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Gerald_Ford"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Glee_Live!_In_Concert!"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Great_Chicago_Fire"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Hinsdale,_Illinois"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Hired_Truck_Program"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Hollinger_International"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Irv_Kupcinet"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Jack_Higgins"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/James_C._Tyree"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/James_Warren_(journalist)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Jay_Mariotti"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Jeffrey_Zaslow"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Jim_DeRogatis"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/John_Grochowski"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/John_Hancock_Center"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Kuczmarski_&amp;_Associates"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Lacy_Banks"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Lacy_J._Banks"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Lewis_Grizzard"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Los_Angeles_Times"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Lynn_Sweet"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/M.W._Newman"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mark_Konkol"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Marshall_Field"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Marshall_Field_III"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Marshall_Field_family"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Merchandise_Mart"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Michael_Sneed"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Michigan_Avenue_(Chicago)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Michigan_Avenue_Bridge"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mike_Royko"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mirage_Tavern"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Neil_Steinberg"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/New_York_Post"/></data-triple-N3>
+
+<data-triple-N3 id="e379-4"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Newberry_Library"/></data-triple-N3>
+
+<end id="e379-4"/>
+<entry id="e379-5" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.270Z">
+<s type="iri" val="http://dbpedia.org/resource/Tabloid_(newspaper_format)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-5"><s type="iri" val="http://dbpedia.org/resource/Tabloid_(newspaper_format)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["30985"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-5"/>
+<entry id="e379-6" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.274Z">
+<s type="iri" val="http://dbpedia.org/resource/Chicago"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-6"><s type="iri" val="http://dbpedia.org/resource/Chicago"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["6886"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e379-7" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.278Z">
+<s type="iri" val="http://dbpedia.org/resource/Chicago,_Illinois"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-6"/>
+<data-triple-N3 id="e379-7"><s type="iri" val="http://dbpedia.org/resource/Chicago,_Illinois"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["16209502"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-7"/>
+<entry id="e379-8" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.318Z">
+<s type="iri" val="http://dbpedia.org/resource/Sun-Times_Media_Group"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-9" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.323Z">
+<s type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Chicago_Sun-Times_Logo.svg/200px-Chicago_Sun-Times_Logo.svg.png"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-8"><s type="iri" val="http://dbpedia.org/resource/Sun-Times_Media_Group"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["434806"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e379-10" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.329Z">
+<s type="iri" val="http://www.newberry.org/collections/FindingAids/fieldenterprises/FieldEnterprises.html"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-8"/>
+<end id="e379-9"/>
+<end id="e379-10"/>
+<entry id="e379-11" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.381Z">
+<s type="iri" val="http://www.suntimes.com"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-12" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.386Z">
+<s type="iri" val="http://dbpedia.org/resource/330_North_Wabash"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-11"/>
+<data-triple-N3 id="e379-12"><s type="iri" val="http://dbpedia.org/resource/330_North_Wabash"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2321365"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-12"/>
+<entry id="e379-13" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.396Z">
+<s type="iri" val="http://dbpedia.org/resource/Alliance_for_Audited_Media"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-14" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.398Z">
+<s type="iri" val="http://dbpedia.org/resource/Alzheimer's_disease"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-15" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.404Z">
+<s type="iri" val="http://dbpedia.org/resource/Andy_Ihnatko"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-13"><s type="iri" val="http://dbpedia.org/resource/Alliance_for_Audited_Media"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["357050"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-14"><s type="iri" val="http://dbpedia.org/resource/Alzheimer's_disease"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["18914017"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-15"><s type="iri" val="http://dbpedia.org/resource/Andy_Ihnatko"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["12369240"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-13"/>
+<end id="e379-14"/>
+<end id="e379-15"/>
+<entry id="e379-16" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.434Z">
+<s type="iri" val="http://dbpedia.org/resource/Ann_Landers"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-16"><s type="iri" val="http://dbpedia.org/resource/Ann_Landers"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["23537946"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-16"/>
+<entry id="e379-17" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.449Z">
+<s type="iri" val="http://dbpedia.org/resource/Ask_Ann_Landers"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-17"><s type="iri" val="http://dbpedia.org/resource/Ask_Ann_Landers"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["23522873"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-17"/>
+<entry id="e379-18" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.453Z">
+<s type="iri" val="http://dbpedia.org/resource/Audit_Bureau_of_Circulations_(North_America)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-19" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.456Z">
+<s type="iri" val="http://dbpedia.org/resource/Baltimore_Sun"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-18"><s type="iri" val="http://dbpedia.org/resource/Audit_Bureau_of_Circulations_(North_America)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["37774594"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-19"><s type="iri" val="http://dbpedia.org/resource/Baltimore_Sun"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1634020"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-18"/>
+<end id="e379-19"/>
+<entry id="e379-20" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.482Z">
+<s type="iri" val="http://dbpedia.org/resource/Beetle_Bailey"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-20"><s type="iri" val="http://dbpedia.org/resource/Beetle_Bailey"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["185306"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-20"/>
+<entry id="e379-21" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.493Z">
+<s type="iri" val="http://dbpedia.org/resource/Bill_Adee"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-21"><s type="iri" val="http://dbpedia.org/resource/Bill_Adee"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["34866396"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-21"/>
+<entry id="e379-22" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.502Z">
+<s type="iri" val="http://dbpedia.org/resource/Bob_Greene"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-22"><s type="iri" val="http://dbpedia.org/resource/Bob_Greene"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["348627"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e379-23" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.504Z">
+<s type="iri" val="http://dbpedia.org/resource/Canadian_Broadcasting_Corporation"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-22"/>
+<data-triple-N3 id="e379-23"><s type="iri" val="http://dbpedia.org/resource/Canadian_Broadcasting_Corporation"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["66730"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-23"/>
+<entry id="e379-24" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.525Z">
+<s type="iri" val="http://dbpedia.org/resource/Carol_Marin"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-24"><s type="iri" val="http://dbpedia.org/resource/Carol_Marin"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5485045"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-24"/>
+<entry id="e379-25" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.537Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Newspapers_published_in_Chicago,_Illinois"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-25"><s type="iri" val="http://dbpedia.org/resource/Category:Newspapers_published_in_Chicago,_Illinois"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["21831424"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-25"/>
+<entry id="e379-26" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.549Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Publications_established_in_1948"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-26"><s type="iri" val="http://dbpedia.org/resource/Category:Publications_established_in_1948"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["10864472"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e379-27" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.552Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Pulitzer_Prize_winning_newspapers"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-26"/>
+<data-triple-N3 id="e379-27"><s type="iri" val="http://dbpedia.org/resource/Category:Pulitzer_Prize_winning_newspapers"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["4676088"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-27"/>
+<entry id="e379-28" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.568Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Sun-Times_Media_Group_publications"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-28"><s type="iri" val="http://dbpedia.org/resource/Category:Sun-Times_Media_Group_publications"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["34260461"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-28"/>
+<entry id="e379-29" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.581Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Worth_Bingham_Prize_recipients"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-29"><s type="iri" val="http://dbpedia.org/resource/Category:Worth_Bingham_Prize_recipients"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["10208906"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-29"/>
+<entry id="e379-30" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.593Z">
+<s type="iri" val="http://dbpedia.org/resource/Catherine_O'Leary"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-30"><s type="iri" val="http://dbpedia.org/resource/Catherine_O'Leary"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["623464"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-30"/>
+<entry id="e379-31" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.625Z">
+<s type="iri" val="http://dbpedia.org/resource/Chicago_'L'"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-31"><s type="iri" val="http://dbpedia.org/resource/Chicago_'L'"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["412649"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-31"/>
+<entry id="e379-32" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.636Z">
+<s type="iri" val="http://dbpedia.org/resource/Chicago_Daily_News"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-32"><s type="iri" val="http://dbpedia.org/resource/Chicago_Daily_News"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1122562"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e379-33" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.639Z">
+<s type="iri" val="http://dbpedia.org/resource/Chicago_Defender"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-34" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.641Z">
+<s type="iri" val="http://dbpedia.org/resource/Chicago_Innovation_Awards"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-32"/>
+<data-triple-N3 id="e379-33"><s type="iri" val="http://dbpedia.org/resource/Chicago_Defender"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["70746"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-34"><s type="iri" val="http://dbpedia.org/resource/Chicago_Innovation_Awards"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["8774909"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-33"/>
+<end id="e379-34"/>
+<entry id="e379-35" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.669Z">
+<s type="iri" val="http://dbpedia.org/resource/Chicago_Reader"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-35"><s type="iri" val="http://dbpedia.org/resource/Chicago_Reader"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1071623"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-35"/>
+<entry id="e379-36" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.685Z">
+<s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-36"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["245107"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-36"/>
+<entry id="e379-37" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.689Z">
+<s type="iri" val="http://dbpedia.org/resource/Chicago_Tribune"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-37"><s type="iri" val="http://dbpedia.org/resource/Chicago_Tribune"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["60961"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e379-38" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.692Z">
+<s type="iri" val="http://dbpedia.org/resource/Chicago_innovation_awards"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-37"/>
+<data-triple-N3 id="e379-38"><s type="iri" val="http://dbpedia.org/resource/Chicago_innovation_awards"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["14687632"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-38"/>
+<entry id="e379-39" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.713Z">
+<s type="iri" val="http://dbpedia.org/resource/Chuck_Neubauer"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-39"><s type="iri" val="http://dbpedia.org/resource/Chuck_Neubauer"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["28448935"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-39"/>
+<entry id="e379-40" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.729Z">
+<s type="iri" val="http://dbpedia.org/resource/Columbia_College_Chicago"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-40"><s type="iri" val="http://dbpedia.org/resource/Columbia_College_Chicago"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1914203"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-40"/>
+<entry id="e379-41" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.733Z">
+<s type="iri" val="http://dbpedia.org/resource/Conrad_Black"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-41"><s type="iri" val="http://dbpedia.org/resource/Conrad_Black"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["226085"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-41"/>
+<entry id="e379-42" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.737Z">
+<s type="iri" val="http://dbpedia.org/resource/Dan_Rostenkowski"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-42"><s type="iri" val="http://dbpedia.org/resource/Dan_Rostenkowski"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["663922"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-42"/>
+<entry id="e379-43" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.757Z">
+<s type="iri" val="http://dbpedia.org/resource/David_Radler"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-43"><s type="iri" val="http://dbpedia.org/resource/David_Radler"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2488212"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-43"/>
+<entry id="e379-44" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.773Z">
+<s type="iri" val="http://dbpedia.org/resource/Democratic_Party_(United_States)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-44"><s type="iri" val="http://dbpedia.org/resource/Democratic_Party_(United_States)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5043544"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-44"/>
+<entry id="e379-45" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.782Z">
+<s type="iri" val="http://dbpedia.org/resource/Doug_Moench"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-46" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.784Z">
+<s type="iri" val="http://dbpedia.org/resource/Drabble_(comic_strip)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-45"><s type="iri" val="http://dbpedia.org/resource/Doug_Moench"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["817441"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-46"><s type="iri" val="http://dbpedia.org/resource/Drabble_(comic_strip)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2209661"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-45"/>
+<end id="e379-46"/>
+<entry id="e379-47" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.801Z">
+<s type="iri" val="http://dbpedia.org/resource/ESPN"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-47"><s type="iri" val="http://dbpedia.org/resource/ESPN"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["77795"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-47"/>
+<entry id="e379-48" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.817Z">
+<s type="iri" val="http://dbpedia.org/resource/Early_Edition"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-48"><s type="iri" val="http://dbpedia.org/resource/Early_Edition"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["486122"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-48"/>
+<entry id="e379-49" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.832Z">
+<s type="iri" val="http://dbpedia.org/resource/Eppie_Lederer"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-49"><s type="iri" val="http://dbpedia.org/resource/Eppie_Lederer"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["23535126"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e379-50" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.834Z">
+<s type="iri" val="http://dbpedia.org/resource/FedEx"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-49"/>
+<data-triple-N3 id="e379-50"><s type="iri" val="http://dbpedia.org/resource/FedEx"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["77543"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-50"/>
+<entry id="e379-51" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.844Z">
+<s type="iri" val="http://dbpedia.org/resource/Federal_Express"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-51"><s type="iri" val="http://dbpedia.org/resource/Federal_Express"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["103053"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-51"/>
+<entry id="e379-52" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.860Z">
+<s type="iri" val="http://dbpedia.org/resource/Field_Enterprises"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-52"><s type="iri" val="http://dbpedia.org/resource/Field_Enterprises"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2814176"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-52"/>
+<entry id="e379-53" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.877Z">
+<s type="iri" val="http://dbpedia.org/resource/File:Chicago_Sun-Times_Logo.svg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-54" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.879Z">
+<s type="iri" val="http://dbpedia.org/resource/File:Chisuntimeshead.jpg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-53"><s type="iri" val="http://dbpedia.org/resource/File:Chicago_Sun-Times_Logo.svg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5846160"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-54"><s type="iri" val="http://dbpedia.org/resource/File:Chisuntimeshead.jpg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["20312338"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-53"/>
+<end id="e379-54"/>
+<entry id="e379-55" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.888Z">
+<s type="iri" val="http://dbpedia.org/resource/Fox_Broadcasting_Company"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-55"><s type="iri" val="http://dbpedia.org/resource/Fox_Broadcasting_Company"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["46252"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-55"/>
+<entry id="e379-56" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.905Z">
+<s type="iri" val="http://dbpedia.org/resource/Frank_Main"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-56"><s type="iri" val="http://dbpedia.org/resource/Frank_Main"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["31536552"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-56"/>
+<entry id="e379-57" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.921Z">
+<s type="iri" val="http://dbpedia.org/resource/George_W._Bush"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-57"><s type="iri" val="http://dbpedia.org/resource/George_W._Bush"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3414021"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-57"/>
+<entry id="e379-58" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.925Z">
+<s type="iri" val="http://dbpedia.org/resource/Gerald_Ford"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-58"><s type="iri" val="http://dbpedia.org/resource/Gerald_Ford"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5030380"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-58"/>
+<entry id="e379-59" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.933Z">
+<s type="iri" val="http://dbpedia.org/resource/Glee_Live!_In_Concert!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-59"><s type="iri" val="http://dbpedia.org/resource/Glee_Live!_In_Concert!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["26678113"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-59"/>
+<entry id="e379-60" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.949Z">
+<s type="iri" val="http://dbpedia.org/resource/Great_Chicago_Fire"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-60"><s type="iri" val="http://dbpedia.org/resource/Great_Chicago_Fire"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["40311"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-60"/>
+<entry id="e379-61" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.967Z">
+<s type="iri" val="http://dbpedia.org/resource/Hinsdale,_Illinois"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-61"><s type="iri" val="http://dbpedia.org/resource/Hinsdale,_Illinois"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["110993"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e379-62" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.970Z">
+<s type="iri" val="http://dbpedia.org/resource/Hired_Truck_Program"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-61"/>
+<data-triple-N3 id="e379-62"><s type="iri" val="http://dbpedia.org/resource/Hired_Truck_Program"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5841390"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-62"/>
+<entry id="e379-63" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.977Z">
+<s type="iri" val="http://dbpedia.org/resource/Hollinger_International"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-63"><s type="iri" val="http://dbpedia.org/resource/Hollinger_International"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["6003561"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-63"/>
+<entry id="e379-64" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:05.997Z">
+<s type="iri" val="http://dbpedia.org/resource/Irv_Kupcinet"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-64"><s type="iri" val="http://dbpedia.org/resource/Irv_Kupcinet"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["364882"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-64"/>
+<entry id="e379-65" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.014Z">
+<s type="iri" val="http://dbpedia.org/resource/Jack_Higgins"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-65"><s type="iri" val="http://dbpedia.org/resource/Jack_Higgins"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["353462"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e379-66" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.020Z">
+<s type="iri" val="http://dbpedia.org/resource/James_C._Tyree"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-65"/>
+<data-triple-N3 id="e379-66"><s type="iri" val="http://dbpedia.org/resource/James_C._Tyree"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["24434371"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e379-67" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.025Z">
+<s type="iri" val="http://dbpedia.org/resource/James_Warren_(journalist)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-66"/>
+<data-triple-N3 id="e379-67"><s type="iri" val="http://dbpedia.org/resource/James_Warren_(journalist)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["23586927"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-67"/>
+<entry id="e379-68" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.040Z">
+<s type="iri" val="http://dbpedia.org/resource/Jay_Mariotti"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-68"><s type="iri" val="http://dbpedia.org/resource/Jay_Mariotti"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["7254674"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-68"/>
+<entry id="e379-69" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.069Z">
+<s type="iri" val="http://dbpedia.org/resource/Jeffrey_Zaslow"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-69"><s type="iri" val="http://dbpedia.org/resource/Jeffrey_Zaslow"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["12688131"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-69"/>
+<entry id="e379-70" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.075Z">
+<s type="iri" val="http://dbpedia.org/resource/Jim_DeRogatis"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-71" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.077Z">
+<s type="iri" val="http://dbpedia.org/resource/John_Grochowski"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-70"><s type="iri" val="http://dbpedia.org/resource/Jim_DeRogatis"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2013230"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-71"><s type="iri" val="http://dbpedia.org/resource/John_Grochowski"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["6979585"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-70"/>
+<end id="e379-71"/>
+<entry id="e379-72" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.085Z">
+<s type="iri" val="http://dbpedia.org/resource/John_Hancock_Center"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-72"><s type="iri" val="http://dbpedia.org/resource/John_Hancock_Center"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["40420"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-72"/>
+<entry id="e379-73" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.088Z">
+<s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/News_Corp"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/News_Corporation"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Newspaper"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Northbrook,_Illinois"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pam_Zekman"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Paywall"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pulitzer_Prize"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pulitzer_Prizes"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Republican_Party_(United_States)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Richard_M._Daley"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Richard_Roeper"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Rick_Telander"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Robert_Feder"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Robert_J._Parrillo"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Robert_Novak"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Rocky_Wirtz"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Roger_Ebert"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Roger_Simon_(journalist)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ronald_Reagan"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Rupert_Murdoch"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Sports_Illustrated"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Steve_Neal_(historian)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Stream_of_consciousness_(narrative_mode)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Sun-Times_Media"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Sun-Times_Media_Group"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Tabloid_(newspaper_format)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/The_Baltimore_Sun"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/The_Newberry_Library"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/The_Wall_Street_Journal"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/The_Washington_Post"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Tribune_Tower"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Trump_International_Hotel_and_Tower_(Chicago)"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/University_of_Illinois_at_Chicago"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Virginia_Tech_massacre"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/WBBM-TV"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/WBEW"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/WFLD"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/WLS-TV"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Wall_Street_Journal"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Washington,_D.C."/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Washington_D.C."/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Washington_Post"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Wrapports"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Wrapports_LLC"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Wrigley_Building"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Zay_N._Smith"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Art_Petacque"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bill_Zwecker"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Carol_Slezak"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Celeste_Busk"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Dan_Jedlicka"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Debra_Pickett"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Dennis_Britton"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Diane_Crowley"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Doug_Elfman"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Esther_Cepeda"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Gary_Deeb"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Gary_Wisby"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Greg_Couch"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Henry_Kisor"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Howard_Wolinsky"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Janet_Rausa_Fuller"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Joycelyn_Winnecke"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Kara_Spak"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Larry_Weintraub"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Lee_Bey"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Len_Ziehm"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Lewis_Lazare"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Lon_Grahnke"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Lori_Rackl"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mark_Hornung"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mary_Cameron_Frey"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mike_Kiley"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Nancy_Moffett"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Olivia_Wu"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Paige_Wiser"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ray_Coffey"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Rick_Morrissey"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Robert_C._Herguth"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ron_Rapoport"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Stella_Foster"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Steve_Huntley"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Steve_Warmbir"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Stu_Courtney"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Susan_Hogan/Albach"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Teresa_Puente"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Tim_Novak"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Wynne_Delacoma"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Newspapers_published_in_Chicago,_Illinois"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Publications_established_in_1948"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Pulitzer_Prize_winning_newspapers"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Sun-Times_Media_Group_publications"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Worth_Bingham_Prize_recipients"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/><o type="iri" val="http://dbpedia.org/ontology/Newspaper"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/><o type="iri" val="http://dbpedia.org/ontology/PeriodicalLiterature"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/><o type="iri" val="http://dbpedia.org/ontology/Work"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/><o type="iri" val="http://dbpedia.org/ontology/WrittenWork"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/><o type="iri" val="http://schema.org/CreativeWork"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/><o type="iri" val="http://www.w3.org/2002/07/owl#Thing"/></data-triple-N3>
+
+<data-triple-N3 id="e379-73"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#comment"/><o type="lit"><![CDATA["The Chicago Sun-Times is an American daily tabloid published in Chicago, Illinois. It is the flagship paper of Wrapports LLC and its Sun-Times Media Group subsidiary."@en]]></o></data-triple-N3>
+
+<end id="e379-73"/>
+<entry id="e379-74" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.114Z">
+<s type="iri" val="http://dbpedia.org/resource/Kuczmarski_&amp;_Associates"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-74"><s type="iri" val="http://dbpedia.org/resource/Kuczmarski_&amp;_Associates"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["10142431"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-74"/>
+<entry id="e379-75" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.121Z">
+<s type="iri" val="http://dbpedia.org/resource/Lacy_Banks"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-75"><s type="iri" val="http://dbpedia.org/resource/Lacy_Banks"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["35184791"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-75"/>
+<entry id="e379-76" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.125Z">
+<s type="iri" val="http://dbpedia.org/resource/Lacy_J._Banks"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-76"><s type="iri" val="http://dbpedia.org/resource/Lacy_J._Banks"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["35184797"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-76"/>
+<entry id="e379-77" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.129Z">
+<s type="iri" val="http://dbpedia.org/resource/Lewis_Grizzard"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-77"><s type="iri" val="http://dbpedia.org/resource/Lewis_Grizzard"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["654636"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-77"/>
+<entry id="e379-78" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.162Z">
+<s type="iri" val="http://dbpedia.org/resource/Los_Angeles_Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-78"><s type="iri" val="http://dbpedia.org/resource/Los_Angeles_Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["273319"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-78"/>
+<entry id="e379-79" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.171Z">
+<s type="iri" val="http://dbpedia.org/resource/Lynn_Sweet"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-80" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.173Z">
+<s type="iri" val="http://dbpedia.org/resource/M.W._Newman"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-79"><s type="iri" val="http://dbpedia.org/resource/Lynn_Sweet"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["4346768"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-80"><s type="iri" val="http://dbpedia.org/resource/M.W._Newman"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["32948379"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e379-81" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.175Z">
+<s type="iri" val="http://dbpedia.org/resource/Mark_Konkol"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-79"/>
+<end id="e379-80"/>
+<data-triple-N3 id="e379-81"><s type="iri" val="http://dbpedia.org/resource/Mark_Konkol"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["32063880"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-81"/>
+<entry id="e379-82" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.211Z">
+<s type="iri" val="http://dbpedia.org/resource/Marshall_Field"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-82"><s type="iri" val="http://dbpedia.org/resource/Marshall_Field"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["8436535"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-82"/>
+<entry id="e379-83" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.217Z">
+<s type="iri" val="http://dbpedia.org/resource/Marshall_Field_III"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-83"><s type="iri" val="http://dbpedia.org/resource/Marshall_Field_III"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["16013560"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-83"/>
+<entry id="e379-84" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.221Z">
+<s type="iri" val="http://dbpedia.org/resource/Marshall_Field_family"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-84"><s type="iri" val="http://dbpedia.org/resource/Marshall_Field_family"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["8436014"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e379-85" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.223Z">
+<s type="iri" val="http://dbpedia.org/resource/Merchandise_Mart"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-84"/>
+<data-triple-N3 id="e379-85"><s type="iri" val="http://dbpedia.org/resource/Merchandise_Mart"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["417037"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-85"/>
+<entry id="e379-86" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.258Z">
+<s type="iri" val="http://dbpedia.org/resource/Michael_Sneed"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-86"><s type="iri" val="http://dbpedia.org/resource/Michael_Sneed"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["21052913"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e379-87" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.263Z">
+<s type="iri" val="http://dbpedia.org/resource/Michigan_Avenue_(Chicago)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-86"/>
+<data-triple-N3 id="e379-87"><s type="iri" val="http://dbpedia.org/resource/Michigan_Avenue_(Chicago)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["503172"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e379-88" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.268Z">
+<s type="iri" val="http://dbpedia.org/resource/Michigan_Avenue_Bridge"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-87"/>
+<data-triple-N3 id="e379-88"><s type="iri" val="http://dbpedia.org/resource/Michigan_Avenue_Bridge"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["4423755"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e379-89" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.273Z">
+<s type="iri" val="http://dbpedia.org/resource/Mike_Royko"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-88"/>
+<data-triple-N3 id="e379-89"><s type="iri" val="http://dbpedia.org/resource/Mike_Royko"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["70727"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-89"/>
+<entry id="e379-90" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.311Z">
+<s type="iri" val="http://dbpedia.org/resource/Mirage_Tavern"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-90"><s type="iri" val="http://dbpedia.org/resource/Mirage_Tavern"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["26516550"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e379-91" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.314Z">
+<s type="iri" val="http://dbpedia.org/resource/Neil_Steinberg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-90"/>
+<data-triple-N3 id="e379-91"><s type="iri" val="http://dbpedia.org/resource/Neil_Steinberg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2470597"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-91"/>
+<entry id="e379-92" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.326Z">
+<s type="iri" val="http://dbpedia.org/resource/New_York_Post"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-93" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.328Z">
+<s type="iri" val="http://dbpedia.org/resource/Newberry_Library"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-92"><s type="iri" val="http://dbpedia.org/resource/New_York_Post"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["102227"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-93"><s type="iri" val="http://dbpedia.org/resource/Newberry_Library"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["295743"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e379-94" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.330Z">
+<s type="iri" val="http://dbpedia.org/resource/News_Corp"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-92"/>
+<end id="e379-93"/>
+<data-triple-N3 id="e379-94"><s type="iri" val="http://dbpedia.org/resource/News_Corp"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["113423"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-94"/>
+<entry id="e379-95" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.361Z">
+<s type="iri" val="http://dbpedia.org/resource/News_Corporation"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-95"><s type="iri" val="http://dbpedia.org/resource/News_Corporation"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["113422"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-95"/>
+<entry id="e379-96" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.373Z">
+<s type="iri" val="http://dbpedia.org/resource/Newspaper"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-97" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.376Z">
+<s type="iri" val="http://dbpedia.org/resource/Northbrook,_Illinois"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-96"><s type="iri" val="http://dbpedia.org/resource/Newspaper"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["22112840"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-97"><s type="iri" val="http://dbpedia.org/resource/Northbrook,_Illinois"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["111021"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-96"/>
+<end id="e379-97"/>
+<entry id="e379-98" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.383Z">
+<s type="iri" val="http://dbpedia.org/resource/Pam_Zekman"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-99" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.386Z">
+<s type="iri" val="http://dbpedia.org/resource/Paywall"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-98"><s type="iri" val="http://dbpedia.org/resource/Pam_Zekman"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["10156880"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-99"><s type="iri" val="http://dbpedia.org/resource/Paywall"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["16927210"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-98"/>
+<end id="e379-99"/>
+<entry id="e379-100" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.422Z">
+<s type="iri" val="http://dbpedia.org/resource/Pulitzer_Prize"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-101" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.425Z">
+<s type="iri" val="http://dbpedia.org/resource/Pulitzer_Prizes"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-100"><s type="iri" val="http://dbpedia.org/resource/Pulitzer_Prize"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["24230"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-101"><s type="iri" val="http://dbpedia.org/resource/Pulitzer_Prizes"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["270078"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-100"/>
+<end id="e379-101"/>
+<entry id="e379-102" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.433Z">
+<s type="iri" val="http://dbpedia.org/resource/Republican_Party_(United_States)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-102"><s type="iri" val="http://dbpedia.org/resource/Republican_Party_(United_States)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["32070"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e379-103" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.435Z">
+<s type="iri" val="http://dbpedia.org/resource/Richard_M._Daley"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-104" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.438Z">
+<s type="iri" val="http://dbpedia.org/resource/Richard_Roeper"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-102"/>
+<data-triple-N3 id="e379-103"><s type="iri" val="http://dbpedia.org/resource/Richard_M._Daley"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["40222"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-104"><s type="iri" val="http://dbpedia.org/resource/Richard_Roeper"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["416998"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-103"/>
+<end id="e379-104"/>
+<entry id="e379-105" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.473Z">
+<s type="iri" val="http://dbpedia.org/resource/Rick_Telander"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-105"><s type="iri" val="http://dbpedia.org/resource/Rick_Telander"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["4489276"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-105"/>
+<entry id="e379-106" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.481Z">
+<s type="iri" val="http://dbpedia.org/resource/Robert_Feder"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-107" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.484Z">
+<s type="iri" val="http://dbpedia.org/resource/Robert_J._Parrillo"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-106"><s type="iri" val="http://dbpedia.org/resource/Robert_Feder"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["27709320"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-107"><s type="iri" val="http://dbpedia.org/resource/Robert_J._Parrillo"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["38072395"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-106"/>
+<end id="e379-107"/>
+<entry id="e379-108" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.492Z">
+<s type="iri" val="http://dbpedia.org/resource/Robert_Novak"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-109" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.493Z">
+<s type="iri" val="http://dbpedia.org/resource/Rocky_Wirtz"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-108"><s type="iri" val="http://dbpedia.org/resource/Robert_Novak"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["322394"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-109"><s type="iri" val="http://dbpedia.org/resource/Rocky_Wirtz"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["13590233"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-108"/>
+<end id="e379-109"/>
+<entry id="e379-110" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.528Z">
+<s type="iri" val="http://dbpedia.org/resource/Roger_Ebert"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-110"><s type="iri" val="http://dbpedia.org/resource/Roger_Ebert"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["50908"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-110"/>
+<entry id="e379-111" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.533Z">
+<s type="iri" val="http://dbpedia.org/resource/Roger_Simon_(journalist)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-111"><s type="iri" val="http://dbpedia.org/resource/Roger_Simon_(journalist)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["32237243"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-111"/>
+<entry id="e379-112" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.537Z">
+<s type="iri" val="http://dbpedia.org/resource/Ronald_Reagan"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-113" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.539Z">
+<s type="iri" val="http://dbpedia.org/resource/Rupert_Murdoch"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-114" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.542Z">
+<s type="iri" val="http://dbpedia.org/resource/Sports_Illustrated"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-112"><s type="iri" val="http://dbpedia.org/resource/Ronald_Reagan"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["25433"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-113"><s type="iri" val="http://dbpedia.org/resource/Rupert_Murdoch"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["26091"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-114"><s type="iri" val="http://dbpedia.org/resource/Sports_Illustrated"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["148956"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-112"/>
+<end id="e379-113"/>
+<end id="e379-114"/>
+<entry id="e379-115" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.578Z">
+<s type="iri" val="http://dbpedia.org/resource/Steve_Neal_(historian)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-115"><s type="iri" val="http://dbpedia.org/resource/Steve_Neal_(historian)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["36827982"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-115"/>
+<entry id="e379-116" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.587Z">
+<s type="iri" val="http://dbpedia.org/resource/Stream_of_consciousness_(narrative_mode)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-116"><s type="iri" val="http://dbpedia.org/resource/Stream_of_consciousness_(narrative_mode)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["101483"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e379-117" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.590Z">
+<s type="iri" val="http://dbpedia.org/resource/Sun-Times_Media"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-118" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.592Z">
+<s type="iri" val="http://dbpedia.org/resource/Sun-Times_Media_Group"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-119" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.595Z">
+<s type="iri" val="http://dbpedia.org/resource/Tabloid_(newspaper_format)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-116"/>
+<data-triple-N3 id="e379-117"><s type="iri" val="http://dbpedia.org/resource/Sun-Times_Media"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["25604567"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-118"><s type="iri" val="http://dbpedia.org/resource/Sun-Times_Media_Group"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["434806"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-119"><s type="iri" val="http://dbpedia.org/resource/Tabloid_(newspaper_format)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["30985"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-117"/>
+<end id="e379-118"/>
+<end id="e379-119"/>
+<entry id="e379-120" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.642Z">
+<s type="iri" val="http://dbpedia.org/resource/The_Baltimore_Sun"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-120"><s type="iri" val="http://dbpedia.org/resource/The_Baltimore_Sun"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["263064"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e379-121" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.646Z">
+<s type="iri" val="http://dbpedia.org/resource/The_Newberry_Library"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-122" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.650Z">
+<s type="iri" val="http://dbpedia.org/resource/The_Wall_Street_Journal"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-120"/>
+<data-triple-N3 id="e379-121"><s type="iri" val="http://dbpedia.org/resource/The_Newberry_Library"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["31738065"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-122"><s type="iri" val="http://dbpedia.org/resource/The_Wall_Street_Journal"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["173070"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e379-123" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.659Z">
+<s type="iri" val="http://dbpedia.org/resource/The_Washington_Post"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-121"/>
+<end id="e379-122"/>
+<data-triple-N3 id="e379-123"><s type="iri" val="http://dbpedia.org/resource/The_Washington_Post"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["102226"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e379-124" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.663Z">
+<s type="iri" val="http://dbpedia.org/resource/Tribune_Tower"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-123"/>
+<data-triple-N3 id="e379-124"><s type="iri" val="http://dbpedia.org/resource/Tribune_Tower"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["70730"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-124"/>
+<entry id="e379-125" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.704Z">
+<s type="iri" val="http://dbpedia.org/resource/Trump_International_Hotel_and_Tower_(Chicago)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-125"><s type="iri" val="http://dbpedia.org/resource/Trump_International_Hotel_and_Tower_(Chicago)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["672153"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e379-126" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.710Z">
+<s type="iri" val="http://dbpedia.org/resource/University_of_Illinois_at_Chicago"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-125"/>
+<data-triple-N3 id="e379-126"><s type="iri" val="http://dbpedia.org/resource/University_of_Illinois_at_Chicago"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["340787"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e379-127" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.715Z">
+<s type="iri" val="http://dbpedia.org/resource/Virginia_Tech_massacre"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-128" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.718Z">
+<s type="iri" val="http://dbpedia.org/resource/WBBM-TV"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-126"/>
+<data-triple-N3 id="e379-127"><s type="iri" val="http://dbpedia.org/resource/Virginia_Tech_massacre"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["10705678"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-128"><s type="iri" val="http://dbpedia.org/resource/WBBM-TV"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1390928"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e379-129" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.722Z">
+<s type="iri" val="http://dbpedia.org/resource/WBEW"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-127"/>
+<end id="e379-128"/>
+<data-triple-N3 id="e379-129"><s type="iri" val="http://dbpedia.org/resource/WBEW"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["15208011"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-129"/>
+<entry id="e379-130" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.763Z">
+<s type="iri" val="http://dbpedia.org/resource/WFLD"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-130"><s type="iri" val="http://dbpedia.org/resource/WFLD"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1408926"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e379-131" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.768Z">
+<s type="iri" val="http://dbpedia.org/resource/WLS-TV"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-130"/>
+<data-triple-N3 id="e379-131"><s type="iri" val="http://dbpedia.org/resource/WLS-TV"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["861943"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-131"/>
+<entry id="e379-132" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.775Z">
+<s type="iri" val="http://dbpedia.org/resource/Wall_Street_Journal"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-133" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.778Z">
+<s type="iri" val="http://dbpedia.org/resource/Washington,_D.C."/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-132"><s type="iri" val="http://dbpedia.org/resource/Wall_Street_Journal"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["183391"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-133"><s type="iri" val="http://dbpedia.org/resource/Washington,_D.C."/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["108956"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e379-134" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.781Z">
+<s type="iri" val="http://dbpedia.org/resource/Washington_D.C."/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-132"/>
+<end id="e379-133"/>
+<data-triple-N3 id="e379-134"><s type="iri" val="http://dbpedia.org/resource/Washington_D.C."/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["34003"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-134"/>
+<entry id="e379-135" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.815Z">
+<s type="iri" val="http://dbpedia.org/resource/Washington_Post"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-135"><s type="iri" val="http://dbpedia.org/resource/Washington_Post"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["229680"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-135"/>
+<entry id="e379-136" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.825Z">
+<s type="iri" val="http://dbpedia.org/resource/Wrapports"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-137" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.829Z">
+<s type="iri" val="http://dbpedia.org/resource/Wrapports_LLC"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-136"><s type="iri" val="http://dbpedia.org/resource/Wrapports"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["36350330"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-137"><s type="iri" val="http://dbpedia.org/resource/Wrapports_LLC"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["36350338"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e379-138" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.832Z">
+<s type="iri" val="http://dbpedia.org/resource/Wrigley_Building"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-136"/>
+<end id="e379-137"/>
+<data-triple-N3 id="e379-138"><s type="iri" val="http://dbpedia.org/resource/Wrigley_Building"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["70736"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e379-139" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.838Z">
+<s type="iri" val="http://dbpedia.org/resource/Zay_N._Smith"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-138"/>
+<data-triple-N3 id="e379-139"><s type="iri" val="http://dbpedia.org/resource/Zay_N._Smith"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3303336"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-139"/>
+<entry id="e379-140" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.880Z">
+<s type="iri" val="http://dbpedia.org/resource/Art_Petacque"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-141" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.886Z">
+<s type="iri" val="http://dbpedia.org/resource/Bill_Zwecker"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-142" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.889Z">
+<s type="iri" val="http://dbpedia.org/resource/Carol_Slezak"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-143" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.891Z">
+<s type="iri" val="http://dbpedia.org/resource/Celeste_Busk"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-140"/>
+<end id="e379-141"/>
+<end id="e379-142"/>
+<end id="e379-143"/>
+<entry id="e379-144" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.899Z">
+<s type="iri" val="http://dbpedia.org/resource/Dan_Jedlicka"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-144"/>
+<entry id="e379-145" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.941Z">
+<s type="iri" val="http://dbpedia.org/resource/Debra_Pickett"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-146" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.947Z">
+<s type="iri" val="http://dbpedia.org/resource/Dennis_Britton"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-147" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.950Z">
+<s type="iri" val="http://dbpedia.org/resource/Diane_Crowley"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-148" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.953Z">
+<s type="iri" val="http://dbpedia.org/resource/Doug_Elfman"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-145"/>
+<end id="e379-146"/>
+<end id="e379-147"/>
+<end id="e379-148"/>
+<entry id="e379-149" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.961Z">
+<s type="iri" val="http://dbpedia.org/resource/Esther_Cepeda"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-149"/>
+<entry id="e379-150" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:06.998Z">
+<s type="iri" val="http://dbpedia.org/resource/Gary_Deeb"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-150"/>
+<entry id="e379-151" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.007Z">
+<s type="iri" val="http://dbpedia.org/resource/Gary_Wisby"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-152" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.009Z">
+<s type="iri" val="http://dbpedia.org/resource/Greg_Couch"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-153" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.011Z">
+<s type="iri" val="http://dbpedia.org/resource/Henry_Kisor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-154" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.013Z">
+<s type="iri" val="http://dbpedia.org/resource/Howard_Wolinsky"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-151"/>
+<end id="e379-152"/>
+<end id="e379-153"/>
+<end id="e379-154"/>
+<entry id="e379-155" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.059Z">
+<s type="iri" val="http://dbpedia.org/resource/Janet_Rausa_Fuller"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-156" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.065Z">
+<s type="iri" val="http://dbpedia.org/resource/Joycelyn_Winnecke"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-157" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.069Z">
+<s type="iri" val="http://dbpedia.org/resource/Kara_Spak"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-158" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.072Z">
+<s type="iri" val="http://dbpedia.org/resource/Larry_Weintraub"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-155"/>
+<end id="e379-156"/>
+<end id="e379-157"/>
+<end id="e379-158"/>
+<entry id="e379-159" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.080Z">
+<s type="iri" val="http://dbpedia.org/resource/Lee_Bey"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-159"/>
+<entry id="e379-160" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.119Z">
+<s type="iri" val="http://dbpedia.org/resource/Len_Ziehm"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-161" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.125Z">
+<s type="iri" val="http://dbpedia.org/resource/Lewis_Lazare"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-162" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.128Z">
+<s type="iri" val="http://dbpedia.org/resource/Lon_Grahnke"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-163" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.131Z">
+<s type="iri" val="http://dbpedia.org/resource/Lori_Rackl"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-160"/>
+<end id="e379-161"/>
+<end id="e379-162"/>
+<end id="e379-163"/>
+<entry id="e379-164" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.137Z">
+<s type="iri" val="http://dbpedia.org/resource/Mark_Hornung"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-164"/>
+<entry id="e379-165" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.181Z">
+<s type="iri" val="http://dbpedia.org/resource/Mary_Cameron_Frey"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-166" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.187Z">
+<s type="iri" val="http://dbpedia.org/resource/Mike_Kiley"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-167" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.190Z">
+<s type="iri" val="http://dbpedia.org/resource/Nancy_Moffett"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-168" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.192Z">
+<s type="iri" val="http://dbpedia.org/resource/Olivia_Wu"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-165"/>
+<end id="e379-166"/>
+<end id="e379-167"/>
+<end id="e379-168"/>
+<entry id="e379-169" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.202Z">
+<s type="iri" val="http://dbpedia.org/resource/Paige_Wiser"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-169"/>
+<entry id="e379-170" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.244Z">
+<s type="iri" val="http://dbpedia.org/resource/Ray_Coffey"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-171" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.248Z">
+<s type="iri" val="http://dbpedia.org/resource/Rick_Morrissey"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-172" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.251Z">
+<s type="iri" val="http://dbpedia.org/resource/Robert_C._Herguth"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-173" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.254Z">
+<s type="iri" val="http://dbpedia.org/resource/Ron_Rapoport"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-174" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.256Z">
+<s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="var"/><o type="var"/>
+</entry>
+<end id="e379-170"/>
+<data-triple-N3 id="e379-174"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["Chicago Sun-Times"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-174"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ar.dbpedia.org/resource/شيكاغو_سن-تايمز"/></data-triple-N3>
+
+<data-triple-N3 id="e379-174"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://bn.dbpedia.org/resource/শিকাগো_সান-টাইমস"/></data-triple-N3>
+
+<data-triple-N3 id="e379-174"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Chicago_Sun-Times"/></data-triple-N3>
+
+<data-triple-N3 id="e379-174"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/Chicago_Sun-Times"/></data-triple-N3>
+
+<data-triple-N3 id="e379-174"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fa.dbpedia.org/resource/شیکاگو_سان-تایمز"/></data-triple-N3>
+
+<data-triple-N3 id="e379-174"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fi.dbpedia.org/resource/Chicago_Sun-Times"/></data-triple-N3>
+
+<data-triple-N3 id="e379-174"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/Chicago_Sun-Times"/></data-triple-N3>
+
+<data-triple-N3 id="e379-174"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://he.dbpedia.org/resource/שיקגו_סאן-טיימס"/></data-triple-N3>
+
+<data-triple-N3 id="e379-174"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://id.dbpedia.org/resource/Chicago_Sun-Times"/></data-triple-N3>
+
+<data-triple-N3 id="e379-174"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/Chicago_Sun-Times"/></data-triple-N3>
+
+<data-triple-N3 id="e379-174"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ja.dbpedia.org/resource/シカゴ・サンタイムズ"/></data-triple-N3>
+
+<data-triple-N3 id="e379-174"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/시카고_선타임스"/></data-triple-N3>
+
+<data-triple-N3 id="e379-174"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://no.dbpedia.org/resource/Chicago_Sun-Times"/></data-triple-N3>
+
+<data-triple-N3 id="e379-174"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://pl.dbpedia.org/resource/Chicago_Sun-Times"/></data-triple-N3>
+
+<data-triple-N3 id="e379-174"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://pt.dbpedia.org/resource/Chicago_Sun-Times"/></data-triple-N3>
+
+<data-triple-N3 id="e379-174"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://simple.dbpedia.org/resource/Chicago_Sun-Times"/></data-triple-N3>
+
+<data-triple-N3 id="e379-174"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://tr.dbpedia.org/resource/Chicago_Sun-Times"/></data-triple-N3>
+
+<data-triple-N3 id="e379-174"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q577417"/></data-triple-N3>
+
+<data-triple-N3 id="e379-174"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/芝加哥太陽報"/></data-triple-N3>
+
+<data-triple-N3 id="e379-174"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/Chicago_Sun-Times?oldid=544665329"/></data-triple-N3>
+
+<data-triple-N3 id="e379-174"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://xmlns.com/foaf/0.1/depiction"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/2/2b/Chicago_Sun-Times_Logo.svg"/></data-triple-N3>
+
+<data-triple-N3 id="e379-174"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://xmlns.com/foaf/0.1/homepage"/><o type="iri" val="http://www.suntimes.com"/></data-triple-N3>
+
+<data-triple-N3 id="e379-174"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://xmlns.com/foaf/0.1/homepage"/><o type="iri" val="http://www.suntimes.com"/></data-triple-N3>
+
+<data-triple-N3 id="e379-174"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://xmlns.com/foaf/0.1/homepage"/><o type="iri" val="http://www.suntimes.com"/></data-triple-N3>
+
+<data-triple-N3 id="e379-174"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/Chicago_Sun-Times"/></data-triple-N3>
+
+<data-triple-N3 id="e379-174"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://xmlns.com/foaf/0.1/name"/><o type="lit"><![CDATA["226px"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-174"><s type="iri" val="http://dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://xmlns.com/foaf/0.1/name"/><o type="lit"><![CDATA["226px"@en]]></o></data-triple-N3>
+
+<end id="e379-171"/>
+<end id="e379-172"/>
+<end id="e379-173"/>
+<end id="e379-174"/>
+<entry id="e379-175" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.268Z">
+<s type="iri" val="http://dbpedia.org/resource/Stella_Foster"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-175"/>
+<entry id="e379-176" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.309Z">
+<s type="iri" val="http://dbpedia.org/resource/Steve_Huntley"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-177" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.314Z">
+<s type="iri" val="http://dbpedia.org/resource/Steve_Warmbir"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-178" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.317Z">
+<s type="iri" val="http://dbpedia.org/resource/Stu_Courtney"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-176"/>
+<entry id="e379-179" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.321Z">
+<s type="iri" val="http://dbpedia.org/resource/Susan_Hogan/Albach"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-177"/>
+<end id="e379-178"/>
+<end id="e379-179"/>
+<entry id="e379-180" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.361Z">
+<s type="iri" val="http://dbpedia.org/resource/Teresa_Puente"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-180"/>
+<entry id="e379-181" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.369Z">
+<s type="iri" val="http://dbpedia.org/resource/Tim_Novak"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-182" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.372Z">
+<s type="iri" val="http://dbpedia.org/resource/Wynne_Delacoma"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-183" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.377Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Newspapers_published_in_Chicago,_Illinois"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-184" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.380Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Publications_established_in_1948"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-181"/>
+<data-triple-N3 id="e379-183"><s type="iri" val="http://dbpedia.org/resource/Category:Newspapers_published_in_Chicago,_Illinois"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["21831424"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-184"><s type="iri" val="http://dbpedia.org/resource/Category:Publications_established_in_1948"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["10864472"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-182"/>
+<end id="e379-183"/>
+<end id="e379-184"/>
+<entry id="e379-185" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.428Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Pulitzer_Prize_winning_newspapers"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-186" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.434Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Sun-Times_Media_Group_publications"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e379-185"><s type="iri" val="http://dbpedia.org/resource/Category:Pulitzer_Prize_winning_newspapers"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["4676088"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e379-186"><s type="iri" val="http://dbpedia.org/resource/Category:Sun-Times_Media_Group_publications"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["34260461"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e379-187" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.439Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Worth_Bingham_Prize_recipients"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-188" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.441Z">
+<s type="iri" val="http://dbpedia.org/ontology/Newspaper"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-185"/>
+<end id="e379-186"/>
+<data-triple-N3 id="e379-187"><s type="iri" val="http://dbpedia.org/resource/Category:Worth_Bingham_Prize_recipients"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["10208906"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e379-187"/>
+<end id="e379-188"/>
+<entry id="e379-189" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.448Z">
+<s type="iri" val="http://dbpedia.org/ontology/PeriodicalLiterature"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-189"/>
+<entry id="e379-190" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.487Z">
+<s type="iri" val="http://dbpedia.org/ontology/Work"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-191" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.490Z">
+<s type="iri" val="http://dbpedia.org/ontology/WrittenWork"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-192" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.492Z">
+<s type="iri" val="http://schema.org/CreativeWork"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-193" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.494Z">
+<s type="iri" val="http://www.w3.org/2002/07/owl#Thing"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-190"/>
+<end id="e379-191"/>
+<end id="e379-192"/>
+<end id="e379-193"/>
+<entry id="e379-194" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.540Z">
+<s type="iri" val="http://ar.dbpedia.org/resource/شيكاغو_سن-تايمز"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-195" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.543Z">
+<s type="iri" val="http://bn.dbpedia.org/resource/শিকাগো_সান-টাইমস"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-196" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.546Z">
+<s type="iri" val="http://de.dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-197" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.548Z">
+<s type="iri" val="http://es.dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-194"/>
+<end id="e379-195"/>
+<end id="e379-196"/>
+<end id="e379-197"/>
+<entry id="e379-198" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.561Z">
+<s type="iri" val="http://fa.dbpedia.org/resource/شیکاگو_سان-تایمز"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-199" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.563Z">
+<s type="iri" val="http://fi.dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-198"/>
+<end id="e379-199"/>
+<entry id="e379-200" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.597Z">
+<s type="iri" val="http://fr.dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-200"/>
+<entry id="e379-201" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.605Z">
+<s type="iri" val="http://he.dbpedia.org/resource/שיקגו_סאן-טיימס"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-202" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.608Z">
+<s type="iri" val="http://id.dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-201"/>
+<entry id="e379-203" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.615Z">
+<s type="iri" val="http://it.dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-204" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.619Z">
+<s type="iri" val="http://ja.dbpedia.org/resource/シカゴ・サンタイムズ"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-202"/>
+<end id="e379-203"/>
+<end id="e379-204"/>
+<entry id="e379-205" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.656Z">
+<s type="iri" val="http://ko.dbpedia.org/resource/시카고_선타임스"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-206" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.663Z">
+<s type="iri" val="http://no.dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-205"/>
+<entry id="e379-207" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.669Z">
+<s type="iri" val="http://pl.dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-208" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.670Z">
+<s type="iri" val="http://pt.dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-206"/>
+<entry id="e379-209" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.673Z">
+<s type="iri" val="http://simple.dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-207"/>
+<end id="e379-208"/>
+<end id="e379-209"/>
+<entry id="e379-210" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.716Z">
+<s type="iri" val="http://tr.dbpedia.org/resource/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-211" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.722Z">
+<s type="iri" val="http://www.wikidata.org/entity/Q577417"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-212" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.728Z">
+<s type="iri" val="http://zh.dbpedia.org/resource/芝加哥太陽報"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e379-213" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.730Z">
+<s type="iri" val="http://en.wikipedia.org/wiki/Chicago_Sun-Times?oldid=544665329"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-210"/>
+<end id="e379-211"/>
+<end id="e379-212"/>
+<end id="e379-213"/>
+<entry id="e379-214" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.736Z">
+<s type="iri" val="http://upload.wikimedia.org/wikipedia/commons/2/2b/Chicago_Sun-Times_Logo.svg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-214"/>
+<entry id="e379-215" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.774Z">
+<s type="iri" val="http://www.suntimes.com"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-215"/>
+<entry id="e379-216" client="::ffff:127.0.0.1" worker="379" time="2017-04-25T18:22:07.783Z">
+<s type="iri" val="http://en.wikipedia.org/wiki/Chicago_Sun-Times"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e379-216"/>
+ </trace>

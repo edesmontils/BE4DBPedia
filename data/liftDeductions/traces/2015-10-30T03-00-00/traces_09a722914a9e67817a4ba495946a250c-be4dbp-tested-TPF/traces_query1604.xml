@@ -1,0 +1,985 @@
+<?xml version="1.0"?><!DOCTYPE trace SYSTEM "logTPF.dtd">
+<trace>
+<msg>Master 27505 running on http://localhost:5000/.</msg>
+<msg>Worker 27511 running on http://localhost:5000/.</msg>
+<entry id="e27511-1" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:06.480Z">
+<s type="var"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5878274"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["489132637"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!?oldid=489132637"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3632887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["545017937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Doppeltes_Ausrufezeichen"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q353153"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!!?oldid=545017937"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chkchkchk.jpg/200px-Chkchkchk.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://auralstates.com/2007/10/interview-aka-chk-chk-chk-w-nic-offer.html"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://punkcast.com/423/"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://supersweet.org/main.aspx?atype=1&amp;aname=Music_Chk_Chk_Chk&amp;con=1&amp;sc1=0&amp;sc2=0"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.chkchkchk.net/"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.npr.org/templates/story/story.php?storyId=10236467"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600744"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548612260"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Billboard_200"/></data-triple-N3>
+
+<end id="e27511-1"/>
+<entry id="e27511-2" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:06.542Z">
+<s type="var"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3478776"^^http://www.w3.org/2001/XMLSchema#integer]]></o>
+</entry>
+<data-triple-N3 id="e27511-2"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3478776"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27511-2"/>
+<entry id="e27511-3" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:06.552Z">
+<s type="var"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5878274"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["489132637"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!?oldid=489132637"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3632887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["545017937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Doppeltes_Ausrufezeichen"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q353153"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!!?oldid=545017937"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chkchkchk.jpg/200px-Chkchkchk.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://auralstates.com/2007/10/interview-aka-chk-chk-chk-w-nic-offer.html"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://punkcast.com/423/"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://supersweet.org/main.aspx?atype=1&amp;aname=Music_Chk_Chk_Chk&amp;con=1&amp;sc1=0&amp;sc2=0"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.chkchkchk.net/"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.npr.org/templates/story/story.php?storyId=10236467"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600744"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548612260"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Billboard_200"/></data-triple-N3>
+
+<end id="e27511-3"/>
+<entry id="e27511-4" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:06.591Z">
+<s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://cleardarksky.com/c/AdrMsStAZkey.html?1"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.lowell.edu/"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3478776"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["540406111"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Alvan_Clark_&amp;_Sons"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Alvan_Clark_&amp;_Sons"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Apollo_program"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Arizona"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Arizona"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Asteroid"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Asteroid"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Astrograph"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Astrograph"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Astronomy"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Astronomy"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boston_University"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boston_University"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Cassegrain_reflector"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Cassegrain_reflector"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Astronomical_observatories_in_Arizona"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Astronomical_observatories_in_Arizona"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Buildings_and_structures_in_Coconino_County,_Arizona"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Buildings_and_structures_in_Coconino_County,_Arizona"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:United_States_Navy_facilities"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:United_States_Navy_facilities"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Clyde_Tombaugh"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Clyde_Tombaugh"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Coconino_County,_Arizona"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Coconino_County,_Arizona"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Delaware,_Ohio"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Delaware,_Ohio"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Figuring"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Figuring"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Flagstaff,_Arizona"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Flagstaff,_Arizona"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Georgia_State_University"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Georgia_State_University"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Interferometer"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Interferometry"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Light_pollution"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Light_pollution"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/List_of_astronomical_observatories"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/List_of_astronomical_observatories"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Lowell_Observatory"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Lowell_Observatory"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Lowell_Observatory_Near-Earth-Object_Search"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Lowell_Observatory_Near-Earth-Object_Search"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Navy_Precision_Optical_Interferometer"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Navy_Prototype_Optical_Interferometer"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Near-Earth_object"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Near-earth_object"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Observatory"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Observatory"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ohio_Wesleyan_University"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ohio_Wesleyan_University"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Perkins_Observatory"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Perkins_Observatory"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pluto"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pluto"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Project_Apollo"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Reflecting_telescope"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Reflecting_telescope"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ritchey%E2%80%93Chr%C3%A9tien_telescope"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ritchey-Chr%C3%A9tien_telescope"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ritchey-Chretien"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Schmidt_camera"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Schmidt_camera"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Telescope"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Telescope"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Thermal_expansion"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Thermal_expansion"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/U.S._Geological_Survey"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/U.S._Naval_Observatory"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/U.S._Naval_Research_Laboratory"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_Geological_Survey"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_Naval_Observatory"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_Naval_Observatory"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_Naval_Observatory_Flagstaff_Station"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_Naval_Observatory_Flagstaff_Station"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_Naval_Research_Laboratory"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Warner_&amp;_Swasey_Company"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Warner_&amp;_Swasey_Company"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Hextek"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Hextek"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/J._W._Fecker,_Inc."/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/J._W._Fecker,_Inc."/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Astronomical_observatories_in_Arizona"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Buildings_and_structures_in_Coconino_County,_Arizona"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:United_States_Navy_facilities"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://www.georss.org/georss/point"/><o type="lit"><![CDATA["35.096944444444446 -111.53583333333333"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/><o type="iri" val="http://www.opengis.net/gml/_Feature"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#comment"/><o type="lit"><![CDATA["Anderson Mesa Station is an astronomical observatory established in 1959 as a dark-sky observing site for Lowell Observatory. It is located in Coconino County, Arizona (USA), about 12 miles southeast of Lowell's main campus on Mars Hill in Flagstaff, Arizona."@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["Anderson Mesa Station"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://an.dbpedia.org/resource/Anderson_Mesa"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ca.dbpedia.org/resource/Anderson_Mesa"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/Stacio_Anderson_Mesa"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/Estacion_Anderson_Mesa"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/Anderson_Mesa_Station"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ro.dbpedia.org/resource/Statia_Anderson_Mesa"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-4"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ru.dbpedia.org/resource/Станция_Андерсон-Меса"/></data-triple-N3>
+
+<end id="e27511-4"/>
+<entry id="e27511-5" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:06.616Z">
+<s type="iri" val="http://cleardarksky.com/c/AdrMsStAZkey.html?1"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e27511-5"/>
+<entry id="e27511-6" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:06.622Z">
+<s type="iri" val="http://www.lowell.edu/"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e27511-6"/>
+<entry id="e27511-7" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:06.666Z">
+<s type="iri" val="http://dbpedia.org/resource/Alvan_Clark_&amp;_Sons"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e27511-8" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:06.670Z">
+<s type="iri" val="http://dbpedia.org/resource/Apollo_program"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e27511-9" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:06.673Z">
+<s type="iri" val="http://dbpedia.org/resource/Arizona"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27511-7"><s type="iri" val="http://dbpedia.org/resource/Alvan_Clark_&amp;_Sons"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5536866"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27511-8"><s type="iri" val="http://dbpedia.org/resource/Apollo_program"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1461"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27511-9"><s type="iri" val="http://dbpedia.org/resource/Arizona"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["21883824"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27511-7"/>
+<end id="e27511-8"/>
+<end id="e27511-9"/>
+<entry id="e27511-10" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:06.682Z">
+<s type="iri" val="http://dbpedia.org/resource/Asteroid"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27511-10"><s type="iri" val="http://dbpedia.org/resource/Asteroid"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["791"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27511-10"/>
+<entry id="e27511-11" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:06.721Z">
+<s type="iri" val="http://dbpedia.org/resource/Astrograph"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27511-11"><s type="iri" val="http://dbpedia.org/resource/Astrograph"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2313526"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27511-11"/>
+<entry id="e27511-12" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:06.736Z">
+<s type="iri" val="http://dbpedia.org/resource/Astronomy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27511-12"><s type="iri" val="http://dbpedia.org/resource/Astronomy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["50650"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27511-12"/>
+<entry id="e27511-13" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:06.765Z">
+<s type="iri" val="http://dbpedia.org/resource/Boston_University"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27511-13"><s type="iri" val="http://dbpedia.org/resource/Boston_University"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["61114"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27511-13"/>
+<entry id="e27511-14" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:06.780Z">
+<s type="iri" val="http://dbpedia.org/resource/Cassegrain_reflector"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27511-14"><s type="iri" val="http://dbpedia.org/resource/Cassegrain_reflector"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2151693"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27511-14"/>
+<entry id="e27511-15" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:06.811Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Astronomical_observatories_in_Arizona"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27511-15"><s type="iri" val="http://dbpedia.org/resource/Category:Astronomical_observatories_in_Arizona"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3390498"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27511-15"/>
+<entry id="e27511-16" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:06.825Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Buildings_and_structures_in_Coconino_County,_Arizona"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27511-16"><s type="iri" val="http://dbpedia.org/resource/Category:Buildings_and_structures_in_Coconino_County,_Arizona"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["25657857"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27511-16"/>
+<entry id="e27511-17" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:06.856Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:United_States_Navy_facilities"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27511-17"><s type="iri" val="http://dbpedia.org/resource/Category:United_States_Navy_facilities"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1864934"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27511-17"/>
+<entry id="e27511-18" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:06.868Z">
+<s type="iri" val="http://dbpedia.org/resource/Clyde_Tombaugh"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27511-18"><s type="iri" val="http://dbpedia.org/resource/Clyde_Tombaugh"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["6663"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27511-18"/>
+<entry id="e27511-19" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:06.902Z">
+<s type="iri" val="http://dbpedia.org/resource/Coconino_County,_Arizona"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27511-19"><s type="iri" val="http://dbpedia.org/resource/Coconino_County,_Arizona"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["87931"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27511-19"/>
+<entry id="e27511-20" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:06.913Z">
+<s type="iri" val="http://dbpedia.org/resource/Delaware,_Ohio"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27511-20"><s type="iri" val="http://dbpedia.org/resource/Delaware,_Ohio"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["129158"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27511-20"/>
+<entry id="e27511-21" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:06.945Z">
+<s type="iri" val="http://dbpedia.org/resource/Figuring"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27511-21"><s type="iri" val="http://dbpedia.org/resource/Figuring"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["15719685"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27511-21"/>
+<entry id="e27511-22" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:06.956Z">
+<s type="iri" val="http://dbpedia.org/resource/Flagstaff,_Arizona"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27511-22"><s type="iri" val="http://dbpedia.org/resource/Flagstaff,_Arizona"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["57554"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27511-22"/>
+<entry id="e27511-23" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:06.989Z">
+<s type="iri" val="http://dbpedia.org/resource/Georgia_State_University"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27511-23"><s type="iri" val="http://dbpedia.org/resource/Georgia_State_University"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["503118"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27511-23"/>
+<entry id="e27511-24" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.001Z">
+<s type="iri" val="http://dbpedia.org/resource/Interferometer"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e27511-25" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.004Z">
+<s type="iri" val="http://dbpedia.org/resource/Interferometry"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27511-24"><s type="iri" val="http://dbpedia.org/resource/Interferometer"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["23368143"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27511-25"><s type="iri" val="http://dbpedia.org/resource/Interferometry"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["166689"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27511-24"/>
+<end id="e27511-25"/>
+<entry id="e27511-26" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.033Z">
+<s type="iri" val="http://dbpedia.org/resource/Light_pollution"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27511-26"><s type="iri" val="http://dbpedia.org/resource/Light_pollution"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["18279"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27511-26"/>
+<entry id="e27511-27" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.044Z">
+<s type="iri" val="http://dbpedia.org/resource/List_of_astronomical_observatories"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27511-27"><s type="iri" val="http://dbpedia.org/resource/List_of_astronomical_observatories"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["415874"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27511-27"/>
+<entry id="e27511-28" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.080Z">
+<s type="iri" val="http://dbpedia.org/resource/Lowell_Observatory"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27511-28"><s type="iri" val="http://dbpedia.org/resource/Lowell_Observatory"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["81185"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27511-28"/>
+<entry id="e27511-29" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.089Z">
+<s type="iri" val="http://dbpedia.org/resource/Lowell_Observatory_Near-Earth-Object_Search"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27511-29"><s type="iri" val="http://dbpedia.org/resource/Lowell_Observatory_Near-Earth-Object_Search"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["602865"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27511-29"/>
+<entry id="e27511-30" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.125Z">
+<s type="iri" val="http://dbpedia.org/resource/Navy_Precision_Optical_Interferometer"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e27511-31" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.126Z">
+<s type="iri" val="http://dbpedia.org/resource/Navy_Prototype_Optical_Interferometer"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27511-30"><s type="iri" val="http://dbpedia.org/resource/Navy_Precision_Optical_Interferometer"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1517197"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27511-31"><s type="iri" val="http://dbpedia.org/resource/Navy_Prototype_Optical_Interferometer"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["35185487"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27511-30"/>
+<end id="e27511-31"/>
+<entry id="e27511-32" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.137Z">
+<s type="iri" val="http://dbpedia.org/resource/Near-Earth_object"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27511-32"><s type="iri" val="http://dbpedia.org/resource/Near-Earth_object"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["21626"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27511-32"/>
+<entry id="e27511-33" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.142Z">
+<s type="iri" val="http://dbpedia.org/resource/Near-earth_object"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27511-33"><s type="iri" val="http://dbpedia.org/resource/Near-earth_object"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["63875"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27511-33"/>
+<entry id="e27511-34" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.170Z">
+<s type="iri" val="http://dbpedia.org/resource/Observatory"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27511-34"><s type="iri" val="http://dbpedia.org/resource/Observatory"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["58968"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27511-34"/>
+<entry id="e27511-35" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.183Z">
+<s type="iri" val="http://dbpedia.org/resource/Ohio_Wesleyan_University"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27511-35"><s type="iri" val="http://dbpedia.org/resource/Ohio_Wesleyan_University"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["858073"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27511-35"/>
+<entry id="e27511-36" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.217Z">
+<s type="iri" val="http://dbpedia.org/resource/Perkins_Observatory"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27511-36"><s type="iri" val="http://dbpedia.org/resource/Perkins_Observatory"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1261840"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27511-36"/>
+<entry id="e27511-37" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.229Z">
+<s type="iri" val="http://dbpedia.org/resource/Pluto"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27511-37"><s type="iri" val="http://dbpedia.org/resource/Pluto"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["44469"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e27511-38" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.234Z">
+<s type="iri" val="http://dbpedia.org/resource/Project_Apollo"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e27511-39" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.236Z">
+<s type="iri" val="http://dbpedia.org/resource/Reflecting_telescope"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e27511-37"/>
+<data-triple-N3 id="e27511-38"><s type="iri" val="http://dbpedia.org/resource/Project_Apollo"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["11671377"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27511-39"><s type="iri" val="http://dbpedia.org/resource/Reflecting_telescope"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["266861"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27511-38"/>
+<end id="e27511-39"/>
+<entry id="e27511-40" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.242Z">
+<s type="iri" val="http://dbpedia.org/resource/Ritchey%E2%80%93Chr%C3%A9tien_telescope"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27511-40"><s type="iri" val="http://dbpedia.org/resource/Ritchey%E2%80%93Chr%C3%A9tien_telescope"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["203318"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27511-40"/>
+<entry id="e27511-41" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.282Z">
+<s type="iri" val="http://dbpedia.org/resource/Ritchey-Chr%C3%A9tien_telescope"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27511-41"><s type="iri" val="http://dbpedia.org/resource/Ritchey-Chr%C3%A9tien_telescope"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["27087148"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e27511-42" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.284Z">
+<s type="iri" val="http://dbpedia.org/resource/Ritchey-Chretien"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e27511-43" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.285Z">
+<s type="iri" val="http://dbpedia.org/resource/Schmidt_camera"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e27511-41"/>
+<data-triple-N3 id="e27511-42"><s type="iri" val="http://dbpedia.org/resource/Ritchey-Chretien"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["203339"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27511-43"><s type="iri" val="http://dbpedia.org/resource/Schmidt_camera"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["969720"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27511-42"/>
+<end id="e27511-43"/>
+<entry id="e27511-44" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.291Z">
+<s type="iri" val="http://dbpedia.org/resource/Telescope"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27511-44"><s type="iri" val="http://dbpedia.org/resource/Telescope"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["7070301"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27511-44"/>
+<entry id="e27511-45" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.336Z">
+<s type="iri" val="http://dbpedia.org/resource/Thermal_expansion"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e27511-46" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.339Z">
+<s type="iri" val="http://dbpedia.org/resource/U.S._Geological_Survey"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27511-45"><s type="iri" val="http://dbpedia.org/resource/Thermal_expansion"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1569600"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27511-46"><s type="iri" val="http://dbpedia.org/resource/U.S._Geological_Survey"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["23814952"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e27511-47" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.341Z">
+<s type="iri" val="http://dbpedia.org/resource/U.S._Naval_Observatory"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e27511-45"/>
+<end id="e27511-46"/>
+<data-triple-N3 id="e27511-47"><s type="iri" val="http://dbpedia.org/resource/U.S._Naval_Observatory"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["86606"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27511-47"/>
+<entry id="e27511-48" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.348Z">
+<s type="iri" val="http://dbpedia.org/resource/U.S._Naval_Research_Laboratory"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e27511-49" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.350Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_Geological_Survey"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27511-48"><s type="iri" val="http://dbpedia.org/resource/U.S._Naval_Research_Laboratory"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["4084510"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27511-49"><s type="iri" val="http://dbpedia.org/resource/United_States_Geological_Survey"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["23814944"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27511-48"/>
+<end id="e27511-49"/>
+<entry id="e27511-50" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.385Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_Naval_Observatory"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27511-50"><s type="iri" val="http://dbpedia.org/resource/United_States_Naval_Observatory"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["43596"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27511-50"/>
+<entry id="e27511-51" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.392Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_Naval_Observatory_Flagstaff_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27511-51"><s type="iri" val="http://dbpedia.org/resource/United_States_Naval_Observatory_Flagstaff_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["6059667"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e27511-51"/>
+<entry id="e27511-52" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.429Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_Naval_Research_Laboratory"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e27511-53" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.430Z">
+<s type="iri" val="http://dbpedia.org/resource/Warner_&amp;_Swasey_Company"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e27511-52"><s type="iri" val="http://dbpedia.org/resource/United_States_Naval_Research_Laboratory"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["411893"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27511-53"><s type="iri" val="http://dbpedia.org/resource/Warner_&amp;_Swasey_Company"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5452591"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e27511-54" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.432Z">
+<s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="var"/><o type="var"/>
+</entry>
+<end id="e27511-52"/>
+<end id="e27511-53"/>
+<data-triple-N3 id="e27511-54"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://sl.dbpedia.org/resource/Anderson_Mesa"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-54"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q2446595"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-54"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/><o type="lit"><![CDATA["35.096944444444446"^^http://www.w3.org/2001/XMLSchema#float]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27511-54"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#long"/><o type="lit"><![CDATA["-111.53583333333333"^^http://www.w3.org/2001/XMLSchema#float]]></o></data-triple-N3>
+
+<data-triple-N3 id="e27511-54"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/Anderson_Mesa_Station?oldid=540406111"/></data-triple-N3>
+
+<data-triple-N3 id="e27511-54"><s type="iri" val="http://dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/Anderson_Mesa_Station"/></data-triple-N3>
+
+<end id="e27511-54"/>
+<entry id="e27511-55" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.439Z">
+<s type="iri" val="http://dbpedia.org/resource/Hextek"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e27511-55"/>
+<entry id="e27511-56" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.473Z">
+<s type="iri" val="http://dbpedia.org/resource/J._W._Fecker,_Inc."/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e27511-56"/>
+<entry id="e27511-57" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.523Z">
+<s type="iri" val="http://www.opengis.net/gml/_Feature"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e27511-58" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.526Z">
+<s type="iri" val="http://an.dbpedia.org/resource/Anderson_Mesa"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e27511-57"/>
+<end id="e27511-58"/>
+<entry id="e27511-59" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.533Z">
+<s type="iri" val="http://ca.dbpedia.org/resource/Anderson_Mesa"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e27511-60" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.535Z">
+<s type="iri" val="http://eo.dbpedia.org/resource/Stacio_Anderson_Mesa"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e27511-61" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.537Z">
+<s type="iri" val="http://es.dbpedia.org/resource/Estacion_Anderson_Mesa"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e27511-62" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.538Z">
+<s type="iri" val="http://fr.dbpedia.org/resource/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e27511-59"/>
+<end id="e27511-60"/>
+<end id="e27511-61"/>
+<entry id="e27511-63" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.544Z">
+<s type="iri" val="http://ro.dbpedia.org/resource/Statia_Anderson_Mesa"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e27511-62"/>
+<end id="e27511-63"/>
+<entry id="e27511-64" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.581Z">
+<s type="iri" val="http://ru.dbpedia.org/resource/Станция_Андерсон-Меса"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e27511-64"/>
+<entry id="e27511-65" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.586Z">
+<s type="iri" val="http://sl.dbpedia.org/resource/Anderson_Mesa"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e27511-66" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.588Z">
+<s type="iri" val="http://www.wikidata.org/entity/Q2446595"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e27511-65"/>
+<end id="e27511-66"/>
+<entry id="e27511-67" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.629Z">
+<s type="iri" val="http://en.wikipedia.org/wiki/Anderson_Mesa_Station?oldid=540406111"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e27511-67"/>
+<entry id="e27511-68" client="::ffff:127.0.0.1" worker="27511" time="2017-04-25T19:49:07.633Z">
+<s type="iri" val="http://en.wikipedia.org/wiki/Anderson_Mesa_Station"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e27511-68"/>
+ </trace>

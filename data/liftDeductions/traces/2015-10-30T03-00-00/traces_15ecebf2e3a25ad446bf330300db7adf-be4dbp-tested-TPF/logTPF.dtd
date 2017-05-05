@@ -1,0 +1,28 @@
+<!ELEMENT trace (entry|data-triple-N3|end|msg)* >
+<!ELEMENT entry (query) >
+<!ATTLIST entry
+    id ID #REQUIRED
+    client CDATA #REQUIRED
+    worker CDATA #REQUIRED
+    time CDATA #REQUIRED >
+<!ELEMENT query (s,p,o) >
+<!ELEMENT s (#PCDATA)>
+<!ATTLIST s 
+	type (iri|lit|var|bnode) #REQUIRED
+	val CDATA #IMPLIED >
+<!ELEMENT p (#PCDATA)>
+<!ATTLIST p 
+	type (iri|var|bnode) #REQUIRED
+	val CDATA #IMPLIED >
+<!ELEMENT o (#PCDATA)>
+<!ATTLIST o 
+	type (iri|lit|var|bnode) #REQUIRED
+	val CDATA #IMPLIED >
+	
+<!ELEMENT data-triple-N3 (s,p,o) >
+<!ATTLIST data-triple-N3 id IDREF #REQUIRED >
+
+<!ELEMENT end EMPTY >
+<!ATTLIST end id IDREF #REQUIRED >
+
+<!ELEMENT msg (#PCDATA) >

@@ -1,0 +1,1583 @@
+<?xml version="1.0"?><!DOCTYPE trace SYSTEM "logTPF.dtd">
+<trace>
+<msg>Master 23503 running on http://localhost:5000/.</msg>
+<msg>Worker 23509 running on http://localhost:5000/.</msg>
+<entry id="e23509-1" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.364Z">
+<s type="var"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5878274"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["489132637"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!?oldid=489132637"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3632887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["545017937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Doppeltes_Ausrufezeichen"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q353153"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!!?oldid=545017937"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chkchkchk.jpg/200px-Chkchkchk.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://auralstates.com/2007/10/interview-aka-chk-chk-chk-w-nic-offer.html"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://punkcast.com/423/"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://supersweet.org/main.aspx?atype=1&amp;aname=Music_Chk_Chk_Chk&amp;con=1&amp;sc1=0&amp;sc2=0"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.chkchkchk.net/"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.npr.org/templates/story/story.php?storyId=10236467"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600744"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548612260"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Billboard_200"/></data-triple-N3>
+
+<end id="e23509-1"/>
+<entry id="e23509-2" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.423Z">
+<s type="var"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["160501"^^http://www.w3.org/2001/XMLSchema#integer]]></o>
+</entry>
+<data-triple-N3 id="e23509-2"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["160501"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-2"/>
+<entry id="e23509-3" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.431Z">
+<s type="var"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5878274"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["489132637"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!?oldid=489132637"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3632887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["545017937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Doppeltes_Ausrufezeichen"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q353153"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!!?oldid=545017937"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chkchkchk.jpg/200px-Chkchkchk.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://auralstates.com/2007/10/interview-aka-chk-chk-chk-w-nic-offer.html"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://punkcast.com/423/"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://supersweet.org/main.aspx?atype=1&amp;aname=Music_Chk_Chk_Chk&amp;con=1&amp;sc1=0&amp;sc2=0"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.chkchkchk.net/"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.npr.org/templates/story/story.php?storyId=10236467"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600744"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548612260"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Billboard_200"/></data-triple-N3>
+
+<end id="e23509-3"/>
+<entry id="e23509-4" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.471Z">
+<s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/UHF_TV_Antenna_001.JPG/200px-UHF_TV_Antenna_001.JPG"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.jneuhaus.com/fccindex/cablech.html"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.tvtower.com/Commercial%20Television%20Frequencies.html"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.vlf.it/frequency/bands.html"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["160501"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548294818"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/1.25-meter_band"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/1.25-meter_band"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/13-centimeter_band"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/13-centimeter_band"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/23-centimeter_band"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/23-centimeter_band"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/33-centimeter_band"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/33-centimeter_band"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/70-centimeter_band"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/70-centimeter_band"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Adjacent_channel"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Adjacent_channel"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Advanced_Mobile_Phone_System"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Advanced_Mobile_Phone_System"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Advanced_Wireless_Services"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Advanced_Wireless_Services"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/All-Channel_Receiver_Act"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/All-Channel_Receiver_Act"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Amateur_radio"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Amateur_radio"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Analogue_terrestrial_television_in_the_United_Kingdom"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Analogue_terrestrial_television_in_the_United_Kingdom"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Attenuation"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Attenuation"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Australasian_television_frequencies"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Australasian_television_frequencies"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bluetooth"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bluetooth"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Broadcast_television_systems"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Broadcast_television_systems"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Broadcasting"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Radio_spectrum"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Radio_spectrum"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Television_technology"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Television_technology"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Wireless"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Wireless"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Cellular_frequencies"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Cellular_frequencies"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Channel_37"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Channel_37"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Cordless_phone"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Cordless_telephone"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Cordless_telephone"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Countries_using_DAB/DMB"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Decimetre"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Decimetre"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Degradation_(telecommunications)"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Degradation_(telecommunications)"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Digital_Audio_Broadcasting"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Digital_Audio_Broadcasting"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Digital_Enhanced_Cordless_Telecommunications"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Digital_Enhanced_Cordless_Telecommunications"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Digital_television"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Digital_television"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Digital_terrestrial_television"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Digital_terrestrial_television"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Electromagnetic_radiation"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Electromagnetic_radiation"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Family_Radio_Service"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Family_Radio_Service"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Federal_Communications_Commission"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Federal_Communications_Commission"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/GSM"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/GSM"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/General_Mobile_Radio_Service"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/General_Mobile_Radio_Service"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Hertz"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Hertz"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/IEEE_802.11"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/IEEE_802.11"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/IEEE_802.15.4"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/IEEE_802.15.4-2006"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/ISM_band"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/ISM_band"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/ITU"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Image_frequency"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/International_Telecommunication_Union"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ionosphere"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ionosphere"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Knife-edge_effect"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Knife-edge_effect"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/L-band"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/LAN"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/L_band"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/L_band"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Land_mobile"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Line-of-sight_propagation"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Line-of-sight_propagation"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Local_area_network"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/MediaFLO"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/MediaFLO"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Meteorology"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-4"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Meteorology"/></data-triple-N3>
+
+<end id="e23509-4"/>
+<entry id="e23509-5" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.499Z">
+<s type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/UHF_TV_Antenna_001.JPG/200px-UHF_TV_Antenna_001.JPG"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-5"/>
+<entry id="e23509-6" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.504Z">
+<s type="iri" val="http://www.jneuhaus.com/fccindex/cablech.html"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23509-7" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.506Z">
+<s type="iri" val="http://www.tvtower.com/Commercial%20Television%20Frequencies.html"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-6"/>
+<entry id="e23509-8" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.510Z">
+<s type="iri" val="http://www.vlf.it/frequency/bands.html"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-7"/>
+<end id="e23509-8"/>
+<entry id="e23509-9" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.549Z">
+<s type="iri" val="http://dbpedia.org/resource/1.25-meter_band"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-9"><s type="iri" val="http://dbpedia.org/resource/1.25-meter_band"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1047953"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e23509-10" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.553Z">
+<s type="iri" val="http://dbpedia.org/resource/13-centimeter_band"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-9"/>
+<data-triple-N3 id="e23509-10"><s type="iri" val="http://dbpedia.org/resource/13-centimeter_band"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["17436173"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-10"/>
+<entry id="e23509-11" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.600Z">
+<s type="iri" val="http://dbpedia.org/resource/23-centimeter_band"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-11"><s type="iri" val="http://dbpedia.org/resource/23-centimeter_band"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["8407619"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e23509-12" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.603Z">
+<s type="iri" val="http://dbpedia.org/resource/33-centimeter_band"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-11"/>
+<data-triple-N3 id="e23509-12"><s type="iri" val="http://dbpedia.org/resource/33-centimeter_band"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1068013"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-12"/>
+<entry id="e23509-13" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.611Z">
+<s type="iri" val="http://dbpedia.org/resource/70-centimeter_band"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-13"><s type="iri" val="http://dbpedia.org/resource/70-centimeter_band"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["804167"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e23509-14" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.615Z">
+<s type="iri" val="http://dbpedia.org/resource/Adjacent_channel"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-13"/>
+<data-triple-N3 id="e23509-14"><s type="iri" val="http://dbpedia.org/resource/Adjacent_channel"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["272421"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-14"/>
+<entry id="e23509-15" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.625Z">
+<s type="iri" val="http://dbpedia.org/resource/Advanced_Mobile_Phone_System"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-15"><s type="iri" val="http://dbpedia.org/resource/Advanced_Mobile_Phone_System"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2815"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-15"/>
+<entry id="e23509-16" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.664Z">
+<s type="iri" val="http://dbpedia.org/resource/Advanced_Wireless_Services"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-16"><s type="iri" val="http://dbpedia.org/resource/Advanced_Wireless_Services"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["6362086"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-16"/>
+<entry id="e23509-17" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.669Z">
+<s type="iri" val="http://dbpedia.org/resource/All-Channel_Receiver_Act"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-17"><s type="iri" val="http://dbpedia.org/resource/All-Channel_Receiver_Act"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["619520"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-17"/>
+<entry id="e23509-18" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.672Z">
+<s type="iri" val="http://dbpedia.org/resource/Amateur_radio"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-18"><s type="iri" val="http://dbpedia.org/resource/Amateur_radio"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["23275402"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e23509-19" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.674Z">
+<s type="iri" val="http://dbpedia.org/resource/Analogue_terrestrial_television_in_the_United_Kingdom"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-18"/>
+<data-triple-N3 id="e23509-19"><s type="iri" val="http://dbpedia.org/resource/Analogue_terrestrial_television_in_the_United_Kingdom"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["10578678"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-19"/>
+<entry id="e23509-20" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.679Z">
+<s type="iri" val="http://dbpedia.org/resource/Attenuation"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-20"><s type="iri" val="http://dbpedia.org/resource/Attenuation"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["40735"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-20"/>
+<entry id="e23509-21" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.717Z">
+<s type="iri" val="http://dbpedia.org/resource/Australasian_television_frequencies"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-21"><s type="iri" val="http://dbpedia.org/resource/Australasian_television_frequencies"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["7574752"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-21"/>
+<entry id="e23509-22" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.725Z">
+<s type="iri" val="http://dbpedia.org/resource/Bluetooth"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-22"><s type="iri" val="http://dbpedia.org/resource/Bluetooth"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3742"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e23509-23" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.732Z">
+<s type="iri" val="http://dbpedia.org/resource/Broadcast_television_systems"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-22"/>
+<data-triple-N3 id="e23509-23"><s type="iri" val="http://dbpedia.org/resource/Broadcast_television_systems"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["441611"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-23"/>
+<entry id="e23509-24" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.739Z">
+<s type="iri" val="http://dbpedia.org/resource/Broadcasting"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-24"><s type="iri" val="http://dbpedia.org/resource/Broadcasting"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["113604"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e23509-25" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.741Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Radio_spectrum"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-24"/>
+<data-triple-N3 id="e23509-25"><s type="iri" val="http://dbpedia.org/resource/Category:Radio_spectrum"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["932435"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e23509-26" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.745Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Television_technology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-25"/>
+<data-triple-N3 id="e23509-26"><s type="iri" val="http://dbpedia.org/resource/Category:Television_technology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1257870"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-26"/>
+<entry id="e23509-27" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.789Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Wireless"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-27"><s type="iri" val="http://dbpedia.org/resource/Category:Wireless"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["7290928"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e23509-28" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.791Z">
+<s type="iri" val="http://dbpedia.org/resource/Cellular_frequencies"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-27"/>
+<data-triple-N3 id="e23509-28"><s type="iri" val="http://dbpedia.org/resource/Cellular_frequencies"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5476962"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-28"/>
+<entry id="e23509-29" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.798Z">
+<s type="iri" val="http://dbpedia.org/resource/Channel_37"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-29"><s type="iri" val="http://dbpedia.org/resource/Channel_37"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["4354277"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e23509-30" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.801Z">
+<s type="iri" val="http://dbpedia.org/resource/Cordless_phone"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23509-31" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.802Z">
+<s type="iri" val="http://dbpedia.org/resource/Cordless_telephone"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-29"/>
+<data-triple-N3 id="e23509-30"><s type="iri" val="http://dbpedia.org/resource/Cordless_phone"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1917995"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23509-31"><s type="iri" val="http://dbpedia.org/resource/Cordless_telephone"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["785028"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-30"/>
+<end id="e23509-31"/>
+<entry id="e23509-32" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.845Z">
+<s type="iri" val="http://dbpedia.org/resource/Countries_using_DAB/DMB"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23509-33" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.847Z">
+<s type="iri" val="http://dbpedia.org/resource/Decimetre"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-32"><s type="iri" val="http://dbpedia.org/resource/Countries_using_DAB/DMB"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["14287133"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23509-33"><s type="iri" val="http://dbpedia.org/resource/Decimetre"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["274747"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e23509-34" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.849Z">
+<s type="iri" val="http://dbpedia.org/resource/Degradation_(telecommunications)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-32"/>
+<end id="e23509-33"/>
+<data-triple-N3 id="e23509-34"><s type="iri" val="http://dbpedia.org/resource/Degradation_(telecommunications)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["7876158"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-34"/>
+<entry id="e23509-35" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.856Z">
+<s type="iri" val="http://dbpedia.org/resource/Digital_Audio_Broadcasting"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-35"><s type="iri" val="http://dbpedia.org/resource/Digital_Audio_Broadcasting"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["49257"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-35"/>
+<entry id="e23509-36" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.893Z">
+<s type="iri" val="http://dbpedia.org/resource/Digital_Enhanced_Cordless_Telecommunications"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-36"><s type="iri" val="http://dbpedia.org/resource/Digital_Enhanced_Cordless_Telecommunications"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["8674"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-36"/>
+<entry id="e23509-37" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.896Z">
+<s type="iri" val="http://dbpedia.org/resource/Digital_television"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-37"><s type="iri" val="http://dbpedia.org/resource/Digital_television"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["8271"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-37"/>
+<entry id="e23509-38" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.937Z">
+<s type="iri" val="http://dbpedia.org/resource/Digital_terrestrial_television"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-38"><s type="iri" val="http://dbpedia.org/resource/Digital_terrestrial_television"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["497303"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e23509-39" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.939Z">
+<s type="iri" val="http://dbpedia.org/resource/Electromagnetic_radiation"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-38"/>
+<data-triple-N3 id="e23509-39"><s type="iri" val="http://dbpedia.org/resource/Electromagnetic_radiation"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["9426"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-39"/>
+<entry id="e23509-40" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.945Z">
+<s type="iri" val="http://dbpedia.org/resource/Family_Radio_Service"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-40"><s type="iri" val="http://dbpedia.org/resource/Family_Radio_Service"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["346036"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e23509-41" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.948Z">
+<s type="iri" val="http://dbpedia.org/resource/Federal_Communications_Commission"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-40"/>
+<data-triple-N3 id="e23509-41"><s type="iri" val="http://dbpedia.org/resource/Federal_Communications_Commission"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["55974"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-41"/>
+<entry id="e23509-42" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.959Z">
+<s type="iri" val="http://dbpedia.org/resource/GSM"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23509-43" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:19.961Z">
+<s type="iri" val="http://dbpedia.org/resource/General_Mobile_Radio_Service"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-42"><s type="iri" val="http://dbpedia.org/resource/GSM"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["12808"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23509-43"><s type="iri" val="http://dbpedia.org/resource/General_Mobile_Radio_Service"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["489558"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-42"/>
+<end id="e23509-43"/>
+<entry id="e23509-44" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.005Z">
+<s type="iri" val="http://dbpedia.org/resource/Hertz"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-44"><s type="iri" val="http://dbpedia.org/resource/Hertz"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["14121"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e23509-45" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.007Z">
+<s type="iri" val="http://dbpedia.org/resource/IEEE_802.11"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-44"/>
+<data-triple-N3 id="e23509-45"><s type="iri" val="http://dbpedia.org/resource/IEEE_802.11"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["14739"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-45"/>
+<entry id="e23509-46" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.012Z">
+<s type="iri" val="http://dbpedia.org/resource/IEEE_802.15.4"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-46"><s type="iri" val="http://dbpedia.org/resource/IEEE_802.15.4"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["455777"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e23509-47" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.014Z">
+<s type="iri" val="http://dbpedia.org/resource/IEEE_802.15.4-2006"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-46"/>
+<data-triple-N3 id="e23509-47"><s type="iri" val="http://dbpedia.org/resource/IEEE_802.15.4-2006"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["31554003"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e23509-48" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.017Z">
+<s type="iri" val="http://dbpedia.org/resource/ISM_band"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23509-49" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.018Z">
+<s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="var"/><o type="var"/>
+</entry>
+<end id="e23509-47"/>
+<data-triple-N3 id="e23509-48"><s type="iri" val="http://dbpedia.org/resource/ISM_band"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["15286"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Microwave"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Microwave"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Microwave_oven"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Microwave_oven"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mobile_phone"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mobile_radio"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mobile_telephone"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/North_American_broadcast_television_frequencies"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/North_American_broadcast_television_frequencies"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/North_American_cable_television_frequencies"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/North_American_cable_television_frequencies"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/PMR446"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/PMR446"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Personal_radio_service"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Personal_radio_service"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Qualcomm"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Qualcomm"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Radio-controlled_aircraft"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Radio-controlled_aircraft"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Radio-frequency_identification"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Radio-frequency_identification"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Radio_astronomy"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Radio_astronomy"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Radio_frequency"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Radio_frequency"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Regional_implementations_of_DAB"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Repeater"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Repeater"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/SCADA"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/SCADA"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Satellite_radio"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Satellite_radio"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Sirius_Satellite_Radio"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Sirius_Satellite_Radio"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Skip_distance"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Skip_distance"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Skywave"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Skywave"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Solar_wind"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Solar_wind"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Super-high_frequency"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Super_high_frequency"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Superheterodyne_receiver"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Television_broadcasting"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Television_channel_frequencies"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Television_channel_frequencies"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Terrestrial_Trunked_Radio"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Terrestrial_Trunked_Radio"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Terrestrial_television"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Terrestrial_television"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Thing_(listening_device)"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Thing_(listening_device)"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Tropospheric_ducting"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Tropospheric_propagation"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/UHF_CB"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/UHF_CB"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/UHF_television_broadcasting"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/UHF_television_broadcasting"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/UMTS"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_2008_wireless_spectrum_auction"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_2008_wireless_spectrum_auction"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Universal_Mobile_Telecommunications_System"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Very_high_frequency"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Very_high_frequency"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Walkie-talkie"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Walkie-talkie"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Wave"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Wave"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Wi-Fi"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Wi-Fi"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/XM_Satellite_Radio"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/XM_Satellite_Radio"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/ZigBee"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/ZigBee"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:UHF_TV_Antenna_001.JPG"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:UHF_TV_Antenna_001.JPG"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Trunked_radio"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Trunked_radio"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Radio_spectrum"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Television_technology"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Wireless"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#comment"/><o type="lit"><![CDATA["Ultra-high frequency (UHF) designates the ITU radio frequency range of electromagnetic waves between 300 MHz and 3 GHz (3,000 MHz), also known as the decimetre band or decimetre wave as the wavelengths range from one to ten decimetres; that is 10 centimetres to 1 metre. Radio waves with frequencies above the UHF band fall into the SHF or microwave frequency range. Lower frequency signals fall into the VHF or lower bands."@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["Ultra high frequency"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ar.dbpedia.org/resource/تردد_فوق_العالي"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://be-x-old.dbpedia.org/resource/Дэцымэтровыя_хвалі"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ca.dbpedia.org/resource/UHF"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://da.dbpedia.org/resource/UHF"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Dezimeterwelle"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/Decimetra_ondo"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/UHF"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fa.dbpedia.org/resource/بسامد_فرابالا"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fi.dbpedia.org/resource/Ultra_high_frequency"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/Television_terrestre_UHF"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://hi.dbpedia.org/resource/परा_उच्च_आवृति"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://id.dbpedia.org/resource/Frekuensi_ultra_tinggi"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/Ultra_high_frequency"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ja.dbpedia.org/resource/極超短波"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/극초단파"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ms.dbpedia.org/resource/Frekuensi_ultra_tinggi"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-49"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://nl.dbpedia.org/resource/Ultra_high_frequency"/></data-triple-N3>
+
+<entry id="e23509-50" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.038Z">
+<s type="iri" val="http://dbpedia.org/resource/ITU"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-48"/>
+<end id="e23509-49"/>
+<data-triple-N3 id="e23509-50"><s type="iri" val="http://dbpedia.org/resource/ITU"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["10689304"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-50"/>
+<entry id="e23509-51" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.060Z">
+<s type="iri" val="http://dbpedia.org/resource/Image_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-51"><s type="iri" val="http://dbpedia.org/resource/Image_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["41252"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-51"/>
+<entry id="e23509-52" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.081Z">
+<s type="iri" val="http://dbpedia.org/resource/International_Telecommunication_Union"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23509-53" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.082Z">
+<s type="iri" val="http://dbpedia.org/resource/Ionosphere"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-52"><s type="iri" val="http://dbpedia.org/resource/International_Telecommunication_Union"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["14836"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23509-53"><s type="iri" val="http://dbpedia.org/resource/Ionosphere"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["15097"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-52"/>
+<end id="e23509-53"/>
+<entry id="e23509-54" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.086Z">
+<s type="iri" val="http://dbpedia.org/resource/Knife-edge_effect"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-54"><s type="iri" val="http://dbpedia.org/resource/Knife-edge_effect"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["41304"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-54"/>
+<entry id="e23509-55" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.126Z">
+<s type="iri" val="http://dbpedia.org/resource/L-band"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23509-56" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.130Z">
+<s type="iri" val="http://dbpedia.org/resource/LAN"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-55"><s type="iri" val="http://dbpedia.org/resource/L-band"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1063455"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23509-56"><s type="iri" val="http://dbpedia.org/resource/LAN"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3643883"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e23509-57" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.134Z">
+<s type="iri" val="http://dbpedia.org/resource/L_band"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-55"/>
+<end id="e23509-56"/>
+<data-triple-N3 id="e23509-57"><s type="iri" val="http://dbpedia.org/resource/L_band"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["553942"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-57"/>
+<entry id="e23509-58" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.140Z">
+<s type="iri" val="http://dbpedia.org/resource/Land_mobile"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-58"><s type="iri" val="http://dbpedia.org/resource/Land_mobile"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["27651673"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-58"/>
+<entry id="e23509-59" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.143Z">
+<s type="iri" val="http://dbpedia.org/resource/Line-of-sight_propagation"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-59"><s type="iri" val="http://dbpedia.org/resource/Line-of-sight_propagation"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["60455"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-59"/>
+<entry id="e23509-60" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.181Z">
+<s type="iri" val="http://dbpedia.org/resource/Local_area_network"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23509-61" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.183Z">
+<s type="iri" val="http://dbpedia.org/resource/MediaFLO"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-60"><s type="iri" val="http://dbpedia.org/resource/Local_area_network"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["17739"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23509-61"><s type="iri" val="http://dbpedia.org/resource/MediaFLO"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3667084"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-60"/>
+<end id="e23509-61"/>
+<entry id="e23509-62" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.189Z">
+<s type="iri" val="http://dbpedia.org/resource/Meteorology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-62"><s type="iri" val="http://dbpedia.org/resource/Meteorology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["19904"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-62"/>
+<entry id="e23509-63" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.193Z">
+<s type="iri" val="http://dbpedia.org/resource/Microwave"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-63"><s type="iri" val="http://dbpedia.org/resource/Microwave"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["20097"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-63"/>
+<entry id="e23509-64" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.234Z">
+<s type="iri" val="http://dbpedia.org/resource/Microwave_oven"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-64"><s type="iri" val="http://dbpedia.org/resource/Microwave_oven"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["58017"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-64"/>
+<entry id="e23509-65" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.238Z">
+<s type="iri" val="http://dbpedia.org/resource/Mobile_phone"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23509-66" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.241Z">
+<s type="iri" val="http://dbpedia.org/resource/Mobile_radio"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-65"><s type="iri" val="http://dbpedia.org/resource/Mobile_phone"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["19644137"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23509-66"><s type="iri" val="http://dbpedia.org/resource/Mobile_radio"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["6885779"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e23509-67" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.244Z">
+<s type="iri" val="http://dbpedia.org/resource/Mobile_telephone"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23509-68" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.246Z">
+<s type="iri" val="http://dbpedia.org/resource/North_American_broadcast_television_frequencies"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-65"/>
+<end id="e23509-66"/>
+<data-triple-N3 id="e23509-67"><s type="iri" val="http://dbpedia.org/resource/Mobile_telephone"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["339878"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23509-68"><s type="iri" val="http://dbpedia.org/resource/North_American_broadcast_television_frequencies"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["231076"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-67"/>
+<end id="e23509-68"/>
+<entry id="e23509-69" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.258Z">
+<s type="iri" val="http://dbpedia.org/resource/North_American_cable_television_frequencies"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-69"><s type="iri" val="http://dbpedia.org/resource/North_American_cable_television_frequencies"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["243847"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-69"/>
+<entry id="e23509-70" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.297Z">
+<s type="iri" val="http://dbpedia.org/resource/PMR446"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-70"><s type="iri" val="http://dbpedia.org/resource/PMR446"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["912292"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-70"/>
+<entry id="e23509-71" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.302Z">
+<s type="iri" val="http://dbpedia.org/resource/Personal_radio_service"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-71"><s type="iri" val="http://dbpedia.org/resource/Personal_radio_service"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["35017966"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e23509-72" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.304Z">
+<s type="iri" val="http://dbpedia.org/resource/Qualcomm"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-71"/>
+<data-triple-N3 id="e23509-72"><s type="iri" val="http://dbpedia.org/resource/Qualcomm"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["256913"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-72"/>
+<entry id="e23509-73" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.309Z">
+<s type="iri" val="http://dbpedia.org/resource/Radio-controlled_aircraft"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-73"><s type="iri" val="http://dbpedia.org/resource/Radio-controlled_aircraft"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1466438"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-73"/>
+<entry id="e23509-74" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.344Z">
+<s type="iri" val="http://dbpedia.org/resource/Radio-frequency_identification"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-74"><s type="iri" val="http://dbpedia.org/resource/Radio-frequency_identification"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["169320"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-74"/>
+<entry id="e23509-75" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.353Z">
+<s type="iri" val="http://dbpedia.org/resource/Radio_astronomy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-75"><s type="iri" val="http://dbpedia.org/resource/Radio_astronomy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["82961"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e23509-76" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.356Z">
+<s type="iri" val="http://dbpedia.org/resource/Radio_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-75"/>
+<data-triple-N3 id="e23509-76"><s type="iri" val="http://dbpedia.org/resource/Radio_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["42852"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-76"/>
+<entry id="e23509-77" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.360Z">
+<s type="iri" val="http://dbpedia.org/resource/Regional_implementations_of_DAB"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-77"><s type="iri" val="http://dbpedia.org/resource/Regional_implementations_of_DAB"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["25425242"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e23509-78" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.362Z">
+<s type="iri" val="http://dbpedia.org/resource/Repeater"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-77"/>
+<data-triple-N3 id="e23509-78"><s type="iri" val="http://dbpedia.org/resource/Repeater"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["41655"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e23509-79" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.365Z">
+<s type="iri" val="http://dbpedia.org/resource/SCADA"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-78"/>
+<data-triple-N3 id="e23509-79"><s type="iri" val="http://dbpedia.org/resource/SCADA"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["62437"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-79"/>
+<entry id="e23509-80" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.410Z">
+<s type="iri" val="http://dbpedia.org/resource/Satellite_radio"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-80"><s type="iri" val="http://dbpedia.org/resource/Satellite_radio"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["67066"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e23509-81" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.414Z">
+<s type="iri" val="http://dbpedia.org/resource/Sirius_Satellite_Radio"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-80"/>
+<data-triple-N3 id="e23509-81"><s type="iri" val="http://dbpedia.org/resource/Sirius_Satellite_Radio"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["345117"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-81"/>
+<entry id="e23509-82" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.427Z">
+<s type="iri" val="http://dbpedia.org/resource/Skip_distance"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-82"><s type="iri" val="http://dbpedia.org/resource/Skip_distance"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["229443"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-82"/>
+<entry id="e23509-83" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.434Z">
+<s type="iri" val="http://dbpedia.org/resource/Skywave"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-83"><s type="iri" val="http://dbpedia.org/resource/Skywave"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["276281"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-83"/>
+<entry id="e23509-84" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.475Z">
+<s type="iri" val="http://dbpedia.org/resource/Solar_wind"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-84"><s type="iri" val="http://dbpedia.org/resource/Solar_wind"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["28538"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e23509-85" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.481Z">
+<s type="iri" val="http://dbpedia.org/resource/Super-high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23509-86" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.484Z">
+<s type="iri" val="http://dbpedia.org/resource/Super_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-84"/>
+<data-triple-N3 id="e23509-85"><s type="iri" val="http://dbpedia.org/resource/Super-high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["33788386"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23509-86"><s type="iri" val="http://dbpedia.org/resource/Super_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["385748"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-85"/>
+<end id="e23509-86"/>
+<entry id="e23509-87" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.497Z">
+<s type="iri" val="http://dbpedia.org/resource/Superheterodyne_receiver"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-87"><s type="iri" val="http://dbpedia.org/resource/Superheterodyne_receiver"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["29341"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e23509-88" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.499Z">
+<s type="iri" val="http://dbpedia.org/resource/Television_broadcasting"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23509-89" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.501Z">
+<s type="iri" val="http://dbpedia.org/resource/Television_channel_frequencies"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-87"/>
+<data-triple-N3 id="e23509-88"><s type="iri" val="http://dbpedia.org/resource/Television_broadcasting"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1781630"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23509-89"><s type="iri" val="http://dbpedia.org/resource/Television_channel_frequencies"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["961552"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-88"/>
+<end id="e23509-89"/>
+<entry id="e23509-90" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.545Z">
+<s type="iri" val="http://dbpedia.org/resource/Terrestrial_Trunked_Radio"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-90"><s type="iri" val="http://dbpedia.org/resource/Terrestrial_Trunked_Radio"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["287831"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-90"/>
+<entry id="e23509-91" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.548Z">
+<s type="iri" val="http://dbpedia.org/resource/Terrestrial_television"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-91"><s type="iri" val="http://dbpedia.org/resource/Terrestrial_television"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["231064"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-91"/>
+<entry id="e23509-92" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.551Z">
+<s type="iri" val="http://dbpedia.org/resource/Thing_(listening_device)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-92"><s type="iri" val="http://dbpedia.org/resource/Thing_(listening_device)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["15950554"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-92"/>
+<entry id="e23509-93" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.559Z">
+<s type="iri" val="http://dbpedia.org/resource/Tropospheric_ducting"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23509-94" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.560Z">
+<s type="iri" val="http://dbpedia.org/resource/Tropospheric_propagation"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-93"><s type="iri" val="http://dbpedia.org/resource/Tropospheric_ducting"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["279610"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23509-94"><s type="iri" val="http://dbpedia.org/resource/Tropospheric_propagation"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["22416553"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-93"/>
+<end id="e23509-94"/>
+<entry id="e23509-95" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.592Z">
+<s type="iri" val="http://dbpedia.org/resource/UHF_CB"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-95"><s type="iri" val="http://dbpedia.org/resource/UHF_CB"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1748163"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-95"/>
+<entry id="e23509-96" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.605Z">
+<s type="iri" val="http://dbpedia.org/resource/UHF_television_broadcasting"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23509-97" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.609Z">
+<s type="iri" val="http://dbpedia.org/resource/UMTS"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-96"><s type="iri" val="http://dbpedia.org/resource/UHF_television_broadcasting"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["35520567"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e23509-97"><s type="iri" val="http://dbpedia.org/resource/UMTS"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["32239"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e23509-98" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.612Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_2008_wireless_spectrum_auction"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-96"/>
+<end id="e23509-97"/>
+<data-triple-N3 id="e23509-98"><s type="iri" val="http://dbpedia.org/resource/United_States_2008_wireless_spectrum_auction"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["12902100"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-98"/>
+<entry id="e23509-99" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.621Z">
+<s type="iri" val="http://dbpedia.org/resource/Universal_Mobile_Telecommunications_System"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-99"><s type="iri" val="http://dbpedia.org/resource/Universal_Mobile_Telecommunications_System"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["32237"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-99"/>
+<entry id="e23509-100" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.657Z">
+<s type="iri" val="http://dbpedia.org/resource/Very_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-100"><s type="iri" val="http://dbpedia.org/resource/Very_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["69480"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-100"/>
+<entry id="e23509-101" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.662Z">
+<s type="iri" val="http://dbpedia.org/resource/Walkie-talkie"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-101"><s type="iri" val="http://dbpedia.org/resource/Walkie-talkie"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["369685"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e23509-102" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.665Z">
+<s type="iri" val="http://dbpedia.org/resource/Wave"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-101"/>
+<data-triple-N3 id="e23509-102"><s type="iri" val="http://dbpedia.org/resource/Wave"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["33516"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-102"/>
+<entry id="e23509-103" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.672Z">
+<s type="iri" val="http://dbpedia.org/resource/Wi-Fi"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-103"><s type="iri" val="http://dbpedia.org/resource/Wi-Fi"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["63973"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-103"/>
+<entry id="e23509-104" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.709Z">
+<s type="iri" val="http://dbpedia.org/resource/XM_Satellite_Radio"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-104"><s type="iri" val="http://dbpedia.org/resource/XM_Satellite_Radio"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["165302"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e23509-104"/>
+<entry id="e23509-105" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.716Z">
+<s type="iri" val="http://dbpedia.org/resource/ZigBee"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e23509-105"><s type="iri" val="http://dbpedia.org/resource/ZigBee"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["195337"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e23509-106" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.718Z">
+<s type="iri" val="http://dbpedia.org/resource/File:UHF_TV_Antenna_001.JPG"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-105"/>
+<end id="e23509-106"/>
+<entry id="e23509-107" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.722Z">
+<s type="iri" val="http://dbpedia.org/resource/Trunked_radio"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23509-108" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.724Z">
+<s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="var"/><o type="var"/>
+</entry>
+<end id="e23509-107"/>
+<data-triple-N3 id="e23509-108"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://no.dbpedia.org/resource/Ultrahoy_frekvens"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-108"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://oc.dbpedia.org/resource/UHF"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-108"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://pl.dbpedia.org/resource/Fale_decymetrowe"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-108"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://pt.dbpedia.org/resource/Ultra_High_Frequency"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-108"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ru.dbpedia.org/resource/Дециметровые_волны"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-108"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://simple.dbpedia.org/resource/Ultra_high_frequency"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-108"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://sr.dbpedia.org/resource/Ултрависока_фреквенција"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-108"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://sv.dbpedia.org/resource/Ultra_High_Frequency"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-108"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://th.dbpedia.org/resource/ยูเอชเอฟ"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-108"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q628096"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-108"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/特高頻"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-108"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/Ultra_high_frequency?oldid=548294818"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-108"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://xmlns.com/foaf/0.1/depiction"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/d/d3/UHF_TV_Antenna_001.JPG"/></data-triple-N3>
+
+<data-triple-N3 id="e23509-108"><s type="iri" val="http://dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/Ultra_high_frequency"/></data-triple-N3>
+
+<end id="e23509-108"/>
+<entry id="e23509-109" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.769Z">
+<s type="iri" val="http://ar.dbpedia.org/resource/تردد_فوق_العالي"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23509-110" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.771Z">
+<s type="iri" val="http://be-x-old.dbpedia.org/resource/Дэцымэтровыя_хвалі"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23509-111" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.773Z">
+<s type="iri" val="http://ca.dbpedia.org/resource/UHF"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23509-112" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.775Z">
+<s type="iri" val="http://da.dbpedia.org/resource/UHF"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-109"/>
+<end id="e23509-110"/>
+<end id="e23509-111"/>
+<end id="e23509-112"/>
+<entry id="e23509-113" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.780Z">
+<s type="iri" val="http://de.dbpedia.org/resource/Dezimeterwelle"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23509-114" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.782Z">
+<s type="iri" val="http://eo.dbpedia.org/resource/Decimetra_ondo"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23509-115" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.784Z">
+<s type="iri" val="http://es.dbpedia.org/resource/UHF"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-113"/>
+<end id="e23509-114"/>
+<end id="e23509-115"/>
+<entry id="e23509-116" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.822Z">
+<s type="iri" val="http://fa.dbpedia.org/resource/بسامد_فرابالا"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-116"/>
+<entry id="e23509-117" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.832Z">
+<s type="iri" val="http://fi.dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23509-118" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.836Z">
+<s type="iri" val="http://fr.dbpedia.org/resource/Television_terrestre_UHF"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23509-119" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.838Z">
+<s type="iri" val="http://hi.dbpedia.org/resource/परा_उच्च_आवृति"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-117"/>
+<end id="e23509-118"/>
+<end id="e23509-119"/>
+<entry id="e23509-120" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.869Z">
+<s type="iri" val="http://id.dbpedia.org/resource/Frekuensi_ultra_tinggi"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-120"/>
+<entry id="e23509-121" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.881Z">
+<s type="iri" val="http://it.dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-121"/>
+<entry id="e23509-122" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.885Z">
+<s type="iri" val="http://ja.dbpedia.org/resource/極超短波"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23509-123" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.886Z">
+<s type="iri" val="http://ko.dbpedia.org/resource/극초단파"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23509-124" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.888Z">
+<s type="iri" val="http://ms.dbpedia.org/resource/Frekuensi_ultra_tinggi"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-122"/>
+<end id="e23509-123"/>
+<end id="e23509-124"/>
+<entry id="e23509-125" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.925Z">
+<s type="iri" val="http://nl.dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-125"/>
+<entry id="e23509-126" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.929Z">
+<s type="iri" val="http://no.dbpedia.org/resource/Ultrahoy_frekvens"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23509-127" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.934Z">
+<s type="iri" val="http://oc.dbpedia.org/resource/UHF"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-126"/>
+<entry id="e23509-128" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.940Z">
+<s type="iri" val="http://pl.dbpedia.org/resource/Fale_decymetrowe"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23509-129" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.942Z">
+<s type="iri" val="http://pt.dbpedia.org/resource/Ultra_High_Frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-127"/>
+<end id="e23509-128"/>
+<end id="e23509-129"/>
+<entry id="e23509-130" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.981Z">
+<s type="iri" val="http://ru.dbpedia.org/resource/Дециметровые_волны"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-130"/>
+<entry id="e23509-131" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.985Z">
+<s type="iri" val="http://simple.dbpedia.org/resource/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-131"/>
+<entry id="e23509-132" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.990Z">
+<s type="iri" val="http://sr.dbpedia.org/resource/Ултрависока_фреквенција"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23509-133" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.993Z">
+<s type="iri" val="http://sv.dbpedia.org/resource/Ultra_High_Frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23509-134" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:20.996Z">
+<s type="iri" val="http://th.dbpedia.org/resource/ยูเอชเอฟ"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-132"/>
+<end id="e23509-133"/>
+<end id="e23509-134"/>
+<entry id="e23509-135" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:21.031Z">
+<s type="iri" val="http://www.wikidata.org/entity/Q628096"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-135"/>
+<entry id="e23509-136" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:21.044Z">
+<s type="iri" val="http://zh.dbpedia.org/resource/特高頻"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-136"/>
+<entry id="e23509-137" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:21.051Z">
+<s type="iri" val="http://en.wikipedia.org/wiki/Ultra_high_frequency?oldid=548294818"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23509-138" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:21.053Z">
+<s type="iri" val="http://upload.wikimedia.org/wikipedia/commons/d/d3/UHF_TV_Antenna_001.JPG"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e23509-139" client="::ffff:127.0.0.1" worker="23509" time="2017-04-25T19:45:21.054Z">
+<s type="iri" val="http://en.wikipedia.org/wiki/Ultra_high_frequency"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e23509-137"/>
+<end id="e23509-138"/>
+<end id="e23509-139"/>
+ </trace>

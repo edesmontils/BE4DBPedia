@@ -1,0 +1,875 @@
+<?xml version="1.0"?><!DOCTYPE trace SYSTEM "logTPF.dtd">
+<trace>
+<msg>Master 14373 running on http://localhost:5000/.</msg>
+<msg>Worker 14379 running on http://localhost:5000/.</msg>
+<entry id="e14379-1" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:01.782Z">
+<s type="var"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5878274"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["489132637"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!?oldid=489132637"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3632887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["545017937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Doppeltes_Ausrufezeichen"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q353153"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!!?oldid=545017937"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chkchkchk.jpg/200px-Chkchkchk.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://auralstates.com/2007/10/interview-aka-chk-chk-chk-w-nic-offer.html"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://punkcast.com/423/"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://supersweet.org/main.aspx?atype=1&amp;aname=Music_Chk_Chk_Chk&amp;con=1&amp;sc1=0&amp;sc2=0"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.chkchkchk.net/"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.npr.org/templates/story/story.php?storyId=10236467"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600744"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548612260"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Billboard_200"/></data-triple-N3>
+
+<end id="e14379-1"/>
+<entry id="e14379-2" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:01.838Z">
+<s type="var"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["970568"^^http://www.w3.org/2001/XMLSchema#integer]]></o>
+</entry>
+<data-triple-N3 id="e14379-2"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["970568"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e14379-2"/>
+<entry id="e14379-3" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:01.845Z">
+<s type="var"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5878274"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["489132637"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!?oldid=489132637"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3632887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["545017937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Doppeltes_Ausrufezeichen"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q353153"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!!?oldid=545017937"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chkchkchk.jpg/200px-Chkchkchk.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://auralstates.com/2007/10/interview-aka-chk-chk-chk-w-nic-offer.html"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://punkcast.com/423/"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://supersweet.org/main.aspx?atype=1&amp;aname=Music_Chk_Chk_Chk&amp;con=1&amp;sc1=0&amp;sc2=0"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.chkchkchk.net/"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.npr.org/templates/story/story.php?storyId=10236467"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600744"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548612260"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Billboard_200"/></data-triple-N3>
+
+<end id="e14379-3"/>
+<entry id="e14379-4" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:01.884Z">
+<s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/areaCode"/><o type="lit"><![CDATA["06"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/areaCode"/><o type="lit"><![CDATA["06"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/country"/><o type="iri" val="http://dbpedia.org/resource/New_Zealand"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/country"/><o type="iri" val="http://dbpedia.org/resource/New_Zealand"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/isPartOf"/><o type="iri" val="http://dbpedia.org/resource/South_Wairarapa_District"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/isPartOf"/><o type="iri" val="http://dbpedia.org/resource/South_Wairarapa_District"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/isPartOf"/><o type="iri" val="http://dbpedia.org/resource/Wellington_Region"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/isPartOf"/><o type="iri" val="http://dbpedia.org/resource/Wellington_Region"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/populationTotal"/><o type="lit"><![CDATA["2340"^^http://www.w3.org/2001/XMLSchema#nonNegativeInteger]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/populationTotal"/><o type="lit"><![CDATA["2340"^^http://www.w3.org/2001/XMLSchema#nonNegativeInteger]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/postalCode"/><o type="lit"><![CDATA["5710"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/postalCode"/><o type="lit"><![CDATA["5710"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Fitzherbert_Street_in_Featherston..jpg/200px-Fitzherbert_Street_in_Featherston..jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/timeZone"/><o type="iri" val="http://dbpedia.org/resource/Time_in_New_Zealand"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/timeZone"/><o type="iri" val="http://dbpedia.org/resource/Time_in_New_Zealand"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/utcOffset"/><o type="lit"><![CDATA["+12"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/utcOffset"/><o type="lit"><![CDATA["+12"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/utcOffset"/><o type="lit"><![CDATA["+13"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/utcOffset"/><o type="lit"><![CDATA["+13"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.featherstoncounty.com/contents.htm"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["970568"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["542598182"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Geography_of_the_Wellington_Region"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Geography_of_the_Wellington_Region"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Populated_places_in_New_Zealand"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Populated_places_in_New_Zealand"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Wairarapa"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Wairarapa"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Featherston_prisoner_of_war_camp"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Featherston_prisoner_of_war_camp"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Fell_Engine_Museum"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Fell_Locomotive_Museum"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Fell_mountain_railway_system"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Fell_mountain_railway_system"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Henry_Bunny"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Henry_Bunny"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Isaac_Featherston"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Isaac_Featherston"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Lake_Wairarapa"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Lake_Wairarapa"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/M%C4%81ori_language"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Maori_language"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Masterton"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Masterton"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/New_Zealand"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/New_Zealand"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/New_Zealand_at_the_1986_Commonwealth_Games"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/New_Zealand_at_the_1986_Commonwealth_Games"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/One_Tree_Hill,_New_Zealand"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/One_Tree_Hill,_New_Zealand"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Prisoner_of_war"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Prisoners_of_War"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Regions_of_New_Zealand"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Regions_of_New_Zealand"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Rimutaka_Range"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Rimutaka_Range"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Rimutaka_Tunnel"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Rimutaka_Tunnel"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/South_Wairarapa_(district),_New_Zealand"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/South_Wairarapa_District"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/South_Wairarapa_District"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Territorial_authorities_of_New_Zealand"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Territorial_authority"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Time_in_New_Zealand"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Time_in_New_Zealand"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Wairarapa"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Wairarapa"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ward_(country_subdivision)"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ward_(country_subdivision)"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Wellington"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Wellington"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Wellington_Region"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Wellington_Region"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Robert_Algie"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Robert_Algie"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Geography_of_the_Wellington_Region"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Populated_places_in_New_Zealand"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Wairarapa"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://www.georss.org/georss/point"/><o type="lit"><![CDATA["-41.11666666666667 175.31666666666666"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://www.georss.org/georss/point"/><o type="lit"><![CDATA["-41.11666666666667 175.31666666666666"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/><o type="iri" val="http://dbpedia.org/ontology/Place"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/><o type="iri" val="http://dbpedia.org/ontology/PopulatedPlace"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/><o type="iri" val="http://dbpedia.org/ontology/Settlement"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/><o type="iri" val="http://schema.org/Place"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/><o type="iri" val="http://www.opengis.net/gml/_Feature"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/><o type="iri" val="http://www.opengis.net/gml/_Feature"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/><o type="iri" val="http://www.w3.org/2002/07/owl#Thing"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#comment"/><o type="lit"><![CDATA["Featherston is a town in the north of the Wellington Region of New Zealand. It lies in the Wairarapa, just north of the Rimutaka Tunnel, in the South Wairarapa District. The population was 2,340 in the 2006 Census. The town is on the eastern side of the Rimutaka Range close to the northern shore of Lake Wairarapa. It is 37 km south-west of Masterton and 63 km north-east of Wellington."@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["Featherston, New Zealand"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Featherston_(Neuseeland)"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://nl.dbpedia.org/resource/Featherston"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://pl.dbpedia.org/resource/Featherston"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q836942"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/><o type="lit"><![CDATA["-41.11666666666667"^^http://www.w3.org/2001/XMLSchema#float]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/><o type="lit"><![CDATA["-41.11666666666667"^^http://www.w3.org/2001/XMLSchema#float]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#long"/><o type="lit"><![CDATA["175.31666666666666"^^http://www.w3.org/2001/XMLSchema#float]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#long"/><o type="lit"><![CDATA["175.31666666666666"^^http://www.w3.org/2001/XMLSchema#float]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/Featherston,_New_Zealand?oldid=542598182"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://xmlns.com/foaf/0.1/depiction"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/d/dc/Fitzherbert_Street_in_Featherston..jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e14379-4"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/Featherston,_New_Zealand"/></data-triple-N3>
+
+<end id="e14379-4"/>
+<entry id="e14379-5" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:01.910Z">
+<s type="iri" val="http://dbpedia.org/resource/New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e14379-5"><s type="iri" val="http://dbpedia.org/resource/New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["4913064"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e14379-5"/>
+<entry id="e14379-6" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:01.914Z">
+<s type="iri" val="http://dbpedia.org/resource/South_Wairarapa_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e14379-6"><s type="iri" val="http://dbpedia.org/resource/South_Wairarapa_District"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["534513"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e14379-6"/>
+<entry id="e14379-7" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:01.953Z">
+<s type="iri" val="http://dbpedia.org/resource/Wellington_Region"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e14379-7"><s type="iri" val="http://dbpedia.org/resource/Wellington_Region"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["163350"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e14379-7"/>
+<entry id="e14379-8" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:01.997Z">
+<s type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Fitzherbert_Street_in_Featherston..jpg/200px-Fitzherbert_Street_in_Featherston..jpg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e14379-9" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.001Z">
+<s type="iri" val="http://dbpedia.org/resource/Time_in_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e14379-9"><s type="iri" val="http://dbpedia.org/resource/Time_in_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1029243"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e14379-8"/>
+<end id="e14379-9"/>
+<entry id="e14379-10" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.009Z">
+<s type="iri" val="http://www.featherstoncounty.com/contents.htm"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e14379-10"/>
+<entry id="e14379-11" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.012Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Geography_of_the_Wellington_Region"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e14379-11"><s type="iri" val="http://dbpedia.org/resource/Category:Geography_of_the_Wellington_Region"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["34366180"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e14379-11"/>
+<entry id="e14379-12" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.052Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Populated_places_in_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e14379-12"><s type="iri" val="http://dbpedia.org/resource/Category:Populated_places_in_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["27456733"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e14379-12"/>
+<entry id="e14379-13" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.058Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Wairarapa"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e14379-13"><s type="iri" val="http://dbpedia.org/resource/Category:Wairarapa"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["22586013"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e14379-13"/>
+<entry id="e14379-14" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.063Z">
+<s type="iri" val="http://dbpedia.org/resource/Featherston_prisoner_of_war_camp"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e14379-14"><s type="iri" val="http://dbpedia.org/resource/Featherston_prisoner_of_war_camp"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["6549480"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e14379-14"/>
+<entry id="e14379-15" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.102Z">
+<s type="iri" val="http://dbpedia.org/resource/Fell_Engine_Museum"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e14379-16" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.104Z">
+<s type="iri" val="http://dbpedia.org/resource/Fell_Locomotive_Museum"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e14379-15"><s type="iri" val="http://dbpedia.org/resource/Fell_Engine_Museum"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["36909012"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-16"><s type="iri" val="http://dbpedia.org/resource/Fell_Locomotive_Museum"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["8640917"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e14379-17" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.107Z">
+<s type="iri" val="http://dbpedia.org/resource/Fell_mountain_railway_system"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e14379-15"/>
+<end id="e14379-16"/>
+<data-triple-N3 id="e14379-17"><s type="iri" val="http://dbpedia.org/resource/Fell_mountain_railway_system"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["674233"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e14379-17"/>
+<entry id="e14379-18" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.114Z">
+<s type="iri" val="http://dbpedia.org/resource/Henry_Bunny"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e14379-18"><s type="iri" val="http://dbpedia.org/resource/Henry_Bunny"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["28069048"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e14379-18"/>
+<entry id="e14379-19" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.152Z">
+<s type="iri" val="http://dbpedia.org/resource/Isaac_Featherston"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e14379-19"><s type="iri" val="http://dbpedia.org/resource/Isaac_Featherston"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["974400"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e14379-19"/>
+<entry id="e14379-20" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.157Z">
+<s type="iri" val="http://dbpedia.org/resource/Lake_Wairarapa"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e14379-20"><s type="iri" val="http://dbpedia.org/resource/Lake_Wairarapa"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1200467"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e14379-20"/>
+<entry id="e14379-21" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.197Z">
+<s type="iri" val="http://dbpedia.org/resource/M%C4%81ori_language"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e14379-22" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.200Z">
+<s type="iri" val="http://dbpedia.org/resource/Maori_language"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e14379-21"><s type="iri" val="http://dbpedia.org/resource/M%C4%81ori_language"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["50788"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-22"><s type="iri" val="http://dbpedia.org/resource/Maori_language"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2123330"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e14379-21"/>
+<end id="e14379-22"/>
+<entry id="e14379-23" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.206Z">
+<s type="iri" val="http://dbpedia.org/resource/Masterton"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e14379-23"><s type="iri" val="http://dbpedia.org/resource/Masterton"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["710832"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e14379-23"/>
+<entry id="e14379-24" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.248Z">
+<s type="iri" val="http://dbpedia.org/resource/New_Zealand_at_the_1986_Commonwealth_Games"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e14379-24"><s type="iri" val="http://dbpedia.org/resource/New_Zealand_at_the_1986_Commonwealth_Games"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["19039834"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e14379-25" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.251Z">
+<s type="iri" val="http://dbpedia.org/resource/One_Tree_Hill,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e14379-24"/>
+<data-triple-N3 id="e14379-25"><s type="iri" val="http://dbpedia.org/resource/One_Tree_Hill,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["706773"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e14379-25"/>
+<entry id="e14379-26" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.259Z">
+<s type="iri" val="http://dbpedia.org/resource/Prisoner_of_war"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e14379-26"><s type="iri" val="http://dbpedia.org/resource/Prisoner_of_war"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["25008"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e14379-27" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.261Z">
+<s type="iri" val="http://dbpedia.org/resource/Prisoners_of_War"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e14379-26"/>
+<data-triple-N3 id="e14379-27"><s type="iri" val="http://dbpedia.org/resource/Prisoners_of_War"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["606544"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e14379-27"/>
+<entry id="e14379-28" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.298Z">
+<s type="iri" val="http://dbpedia.org/resource/Regions_of_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e14379-28"><s type="iri" val="http://dbpedia.org/resource/Regions_of_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["58858"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e14379-28"/>
+<entry id="e14379-29" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.302Z">
+<s type="iri" val="http://dbpedia.org/resource/Rimutaka_Range"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e14379-29"><s type="iri" val="http://dbpedia.org/resource/Rimutaka_Range"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1200332"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e14379-29"/>
+<entry id="e14379-30" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.341Z">
+<s type="iri" val="http://dbpedia.org/resource/Rimutaka_Tunnel"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e14379-30"><s type="iri" val="http://dbpedia.org/resource/Rimutaka_Tunnel"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3281005"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e14379-30"/>
+<entry id="e14379-31" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.345Z">
+<s type="iri" val="http://dbpedia.org/resource/South_Wairarapa_(district),_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e14379-31"><s type="iri" val="http://dbpedia.org/resource/South_Wairarapa_(district),_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1602245"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e14379-31"/>
+<entry id="e14379-32" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.384Z">
+<s type="iri" val="http://dbpedia.org/resource/Territorial_authorities_of_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e14379-32"><s type="iri" val="http://dbpedia.org/resource/Territorial_authorities_of_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["243907"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e14379-32"/>
+<entry id="e14379-33" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.389Z">
+<s type="iri" val="http://dbpedia.org/resource/Territorial_authority"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e14379-33"><s type="iri" val="http://dbpedia.org/resource/Territorial_authority"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2262001"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e14379-34" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.392Z">
+<s type="iri" val="http://dbpedia.org/resource/Wairarapa"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e14379-33"/>
+<data-triple-N3 id="e14379-34"><s type="iri" val="http://dbpedia.org/resource/Wairarapa"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["245795"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e14379-34"/>
+<entry id="e14379-35" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.433Z">
+<s type="iri" val="http://dbpedia.org/resource/Ward_(country_subdivision)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e14379-35"><s type="iri" val="http://dbpedia.org/resource/Ward_(country_subdivision)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3283310"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e14379-35"/>
+<entry id="e14379-36" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.436Z">
+<s type="iri" val="http://dbpedia.org/resource/Wellington"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e14379-36"><s type="iri" val="http://dbpedia.org/resource/Wellington"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["33804"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e14379-36"/>
+<entry id="e14379-37" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.477Z">
+<s type="iri" val="http://dbpedia.org/resource/Robert_Algie"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e14379-37"/>
+<entry id="e14379-38" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.483Z">
+<s type="iri" val="http://dbpedia.org/ontology/Place"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e14379-39" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.485Z">
+<s type="iri" val="http://dbpedia.org/ontology/PopulatedPlace"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e14379-38"/>
+<end id="e14379-39"/>
+<entry id="e14379-40" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.488Z">
+<s type="iri" val="http://dbpedia.org/ontology/Settlement"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e14379-41" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.491Z">
+<s type="iri" val="http://www.opengis.net/gml/_Feature"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e14379-42" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.493Z">
+<s type="iri" val="http://schema.org/Place"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e14379-40"/>
+<entry id="e14379-43" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.499Z">
+<s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="var"/><o type="var"/>
+</entry>
+<end id="e14379-41"/>
+<end id="e14379-42"/>
+<data-triple-N3 id="e14379-43"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://xmlns.com/foaf/0.1/name"/><o type="lit"><![CDATA["Featherston"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e14379-43"><s type="iri" val="http://dbpedia.org/resource/Featherston,_New_Zealand"/><p type="iri" val="http://xmlns.com/foaf/0.1/name"/><o type="lit"><![CDATA["Featherston"@en]]></o></data-triple-N3>
+
+<end id="e14379-43"/>
+<entry id="e14379-44" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.537Z">
+<s type="iri" val="http://www.w3.org/2002/07/owl#Thing"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e14379-44"/>
+<entry id="e14379-45" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.544Z">
+<s type="iri" val="http://de.dbpedia.org/resource/Featherston_(Neuseeland)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e14379-45"/>
+<entry id="e14379-46" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.581Z">
+<s type="iri" val="http://nl.dbpedia.org/resource/Featherston"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e14379-47" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.583Z">
+<s type="iri" val="http://pl.dbpedia.org/resource/Featherston"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e14379-48" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.584Z">
+<s type="iri" val="http://www.wikidata.org/entity/Q836942"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e14379-46"/>
+<end id="e14379-47"/>
+<end id="e14379-48"/>
+<entry id="e14379-49" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.629Z">
+<s type="iri" val="http://en.wikipedia.org/wiki/Featherston,_New_Zealand?oldid=542598182"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e14379-50" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.630Z">
+<s type="iri" val="http://upload.wikimedia.org/wikipedia/commons/d/dc/Fitzherbert_Street_in_Featherston..jpg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e14379-51" client="::ffff:127.0.0.1" worker="14379" time="2017-04-25T19:06:02.632Z">
+<s type="iri" val="http://en.wikipedia.org/wiki/Featherston,_New_Zealand"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e14379-49"/>
+<end id="e14379-50"/>
+<end id="e14379-51"/>
+ </trace>

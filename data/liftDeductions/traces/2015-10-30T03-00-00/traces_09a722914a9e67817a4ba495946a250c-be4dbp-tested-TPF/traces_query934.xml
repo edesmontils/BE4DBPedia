@@ -1,0 +1,1483 @@
+<?xml version="1.0"?><!DOCTYPE trace SYSTEM "logTPF.dtd">
+<trace>
+<msg>Master 10203 running on http://localhost:5000/.</msg>
+<msg>Worker 10209 running on http://localhost:5000/.</msg>
+<entry id="e10209-1" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:52.931Z">
+<s type="var"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5878274"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["489132637"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!?oldid=489132637"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3632887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["545017937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Doppeltes_Ausrufezeichen"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q353153"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!!?oldid=545017937"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chkchkchk.jpg/200px-Chkchkchk.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://auralstates.com/2007/10/interview-aka-chk-chk-chk-w-nic-offer.html"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://punkcast.com/423/"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://supersweet.org/main.aspx?atype=1&amp;aname=Music_Chk_Chk_Chk&amp;con=1&amp;sc1=0&amp;sc2=0"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.chkchkchk.net/"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.npr.org/templates/story/story.php?storyId=10236467"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600744"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548612260"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Billboard_200"/></data-triple-N3>
+
+<end id="e10209-1"/>
+<entry id="e10209-2" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:52.994Z">
+<s type="var"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["235222"^^http://www.w3.org/2001/XMLSchema#integer]]></o>
+</entry>
+<data-triple-N3 id="e10209-2"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["235222"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-2"/>
+<entry id="e10209-3" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.001Z">
+<s type="var"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5878274"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["489132637"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!?oldid=489132637"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3632887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["545017937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Doppeltes_Ausrufezeichen"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q353153"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!!?oldid=545017937"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chkchkchk.jpg/200px-Chkchkchk.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://auralstates.com/2007/10/interview-aka-chk-chk-chk-w-nic-offer.html"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://punkcast.com/423/"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://supersweet.org/main.aspx?atype=1&amp;aname=Music_Chk_Chk_Chk&amp;con=1&amp;sc1=0&amp;sc2=0"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.chkchkchk.net/"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.npr.org/templates/story/story.php?storyId=10236467"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600744"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548612260"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Billboard_200"/></data-triple-N3>
+
+<end id="e10209-3"/>
+<entry id="e10209-4" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.041Z">
+<s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Bar_at_the_Rhode_Island_Supreme_Court.jpg/200px-Bar_at_the_Rhode_Island_Supreme_Court.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.ncbex.org/assets/media_files/Comp-Guide/CompGuide.pdf"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["235222"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["547170477"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/ABET"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Accreditation_Board_for_Engineering_and_Technology"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Admission_on_motion"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Admission_to_practice_law"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Aerospace_engineering"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Alabama_State_Bar"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/American_Bar_Association"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bachelor's_degree"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Background_check"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bar_(law)"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bar_examination"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Barrister"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bencher"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/CSAB_(professional_organization)"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Call_to_the_bar"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Called_to_the_bar"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Law_schools_in_the_United_States"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Legal_profession_exams"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Practice_of_law"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Professional_certification_in_law"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:United_States_law"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chemistry"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chicago_Bar_Association"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Citizenship_in_the_United_States"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Civil_law_(common_law)"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Common_law"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Common_law_of_England"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Computer_science"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Continuing_legal_education"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Counsel"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Criminal_law"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Defendant"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Delaware_Colony"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Diploma_privilege"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/District_of_Columbia"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/English_law"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Federal_Communications_Bar_Association"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Fundamentals_of_Engineering_exam"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Good_moral_character"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Hard_and_soft_science"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Hispanic_National_Bar_Association"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Inns_of_Court"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Judge_Advocate_General's_Corps"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Juris_Doctor"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Law_degree"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Law_of_Australia"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Law_school"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Lawsuit"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Legal_aid"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Legal_ethics"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Litigant"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Marquette_University_Law_School"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Master_of_Laws"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Metropolitan_statistical_area"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Multiple-choice_question"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Multiple_choice"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Multistate_Bar_Examination"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Multistate_Essay_Examination"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Multistate_Performance_Test"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Multistate_Professional_Responsibility_Examination"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/National_Bar_Association"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/National_Conference_of_Bar_Examiners"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Naval_Justice_School"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/New_York_State_Bar_Association"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/New_York_Supreme_Court,_Appellate_Division"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Patent_attorney"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Permanent_residence_(United_States)"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Physics"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Practice_of_law"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pro_bono"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pro_bono_publico"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pro_hac_vice"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pro_se"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pro_se_legal_representation_in_the_United_States"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Professional_responsibility"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Public_defender"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Puerto_Rico"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Reading_law"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Science"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Standardized_test"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/State_Bar_of_Arizona"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/State_Bar_of_California"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/State_Bar_of_Georgia"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/State_Bar_of_Texas"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/State_bar_association"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/State_supreme_court"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Subject-matter_jurisdiction"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Supreme_Court_of_Texas"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Supreme_Court_of_the_United_States"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Texas_Supreme_Court"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/The_Judge_Advocate_General's_Legal_Center_and_School"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/USPTO_registration_examination"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Unauthorized_practice_of_law"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_Court_of_Appeals_for_the_Federal_Circuit"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_Court_of_Appeals_for_the_Fifth_Circuit"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-4"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_District_Court_for_the_District_of_Rhode_Island"/></data-triple-N3>
+
+<end id="e10209-4"/>
+<entry id="e10209-5" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.067Z">
+<s type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Bar_at_the_Rhode_Island_Supreme_Court.jpg/200px-Bar_at_the_Rhode_Island_Supreme_Court.jpg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e10209-5"/>
+<entry id="e10209-6" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.072Z">
+<s type="iri" val="http://www.ncbex.org/assets/media_files/Comp-Guide/CompGuide.pdf"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e10209-6"/>
+<entry id="e10209-7" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.112Z">
+<s type="iri" val="http://dbpedia.org/resource/ABET"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e10209-8" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.116Z">
+<s type="iri" val="http://dbpedia.org/resource/Accreditation_Board_for_Engineering_and_Technology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e10209-9" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.120Z">
+<s type="iri" val="http://dbpedia.org/resource/Admission_on_motion"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-7"><s type="iri" val="http://dbpedia.org/resource/ABET"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["532840"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-8"><s type="iri" val="http://dbpedia.org/resource/Accreditation_Board_for_Engineering_and_Technology"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["32154532"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-9"><s type="iri" val="http://dbpedia.org/resource/Admission_on_motion"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["13545186"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-7"/>
+<end id="e10209-8"/>
+<end id="e10209-9"/>
+<entry id="e10209-10" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.131Z">
+<s type="iri" val="http://dbpedia.org/resource/Admission_to_practice_law"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-10"><s type="iri" val="http://dbpedia.org/resource/Admission_to_practice_law"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5384183"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e10209-11" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.133Z">
+<s type="iri" val="http://dbpedia.org/resource/Aerospace_engineering"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e10209-10"/>
+<data-triple-N3 id="e10209-11"><s type="iri" val="http://dbpedia.org/resource/Aerospace_engineering"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["21732545"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-11"/>
+<entry id="e10209-12" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.174Z">
+<s type="iri" val="http://dbpedia.org/resource/Alabama_State_Bar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-12"><s type="iri" val="http://dbpedia.org/resource/Alabama_State_Bar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["19614764"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e10209-13" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.181Z">
+<s type="iri" val="http://dbpedia.org/resource/American_Bar_Association"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e10209-14" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.184Z">
+<s type="iri" val="http://dbpedia.org/resource/Bachelor's_degree"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e10209-12"/>
+<data-triple-N3 id="e10209-13"><s type="iri" val="http://dbpedia.org/resource/American_Bar_Association"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["459596"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-14"><s type="iri" val="http://dbpedia.org/resource/Bachelor's_degree"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["188874"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e10209-15" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.188Z">
+<s type="iri" val="http://dbpedia.org/resource/Background_check"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e10209-13"/>
+<end id="e10209-14"/>
+<data-triple-N3 id="e10209-15"><s type="iri" val="http://dbpedia.org/resource/Background_check"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["880871"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-15"/>
+<entry id="e10209-16" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.232Z">
+<s type="iri" val="http://dbpedia.org/resource/Bar_(law)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-16"><s type="iri" val="http://dbpedia.org/resource/Bar_(law)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["268188"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e10209-17" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.235Z">
+<s type="iri" val="http://dbpedia.org/resource/Bar_examination"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e10209-16"/>
+<data-triple-N3 id="e10209-17"><s type="iri" val="http://dbpedia.org/resource/Bar_examination"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["624905"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e10209-18" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.239Z">
+<s type="iri" val="http://dbpedia.org/resource/Barrister"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e10209-19" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.242Z">
+<s type="iri" val="http://dbpedia.org/resource/Bencher"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e10209-17"/>
+<data-triple-N3 id="e10209-18"><s type="iri" val="http://dbpedia.org/resource/Barrister"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["4848"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-19"><s type="iri" val="http://dbpedia.org/resource/Bencher"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["6003690"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-18"/>
+<end id="e10209-19"/>
+<entry id="e10209-20" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.277Z">
+<s type="iri" val="http://dbpedia.org/resource/CSAB_(professional_organization)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-20"><s type="iri" val="http://dbpedia.org/resource/CSAB_(professional_organization)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["28824983"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-20"/>
+<entry id="e10209-21" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.285Z">
+<s type="iri" val="http://dbpedia.org/resource/Call_to_the_bar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e10209-22" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.287Z">
+<s type="iri" val="http://dbpedia.org/resource/Called_to_the_bar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-21"><s type="iri" val="http://dbpedia.org/resource/Call_to_the_bar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["235221"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-22"><s type="iri" val="http://dbpedia.org/resource/Called_to_the_bar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["523189"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-21"/>
+<end id="e10209-22"/>
+<entry id="e10209-23" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.292Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Law_schools_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-23"><s type="iri" val="http://dbpedia.org/resource/Category:Law_schools_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3028797"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-23"/>
+<entry id="e10209-24" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.321Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Legal_profession_exams"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-24"><s type="iri" val="http://dbpedia.org/resource/Category:Legal_profession_exams"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["10045414"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-24"/>
+<entry id="e10209-25" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.333Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Practice_of_law"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e10209-26" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.334Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Professional_certification_in_law"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-25"><s type="iri" val="http://dbpedia.org/resource/Category:Practice_of_law"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["27111192"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-26"><s type="iri" val="http://dbpedia.org/resource/Category:Professional_certification_in_law"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["17982529"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-25"/>
+<end id="e10209-26"/>
+<entry id="e10209-27" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.339Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:United_States_law"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-27"><s type="iri" val="http://dbpedia.org/resource/Category:United_States_law"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["702286"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-27"/>
+<entry id="e10209-28" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.369Z">
+<s type="iri" val="http://dbpedia.org/resource/Chemistry"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-28"><s type="iri" val="http://dbpedia.org/resource/Chemistry"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5180"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-28"/>
+<entry id="e10209-29" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.378Z">
+<s type="iri" val="http://dbpedia.org/resource/Chicago_Bar_Association"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e10209-30" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.379Z">
+<s type="iri" val="http://dbpedia.org/resource/Citizenship_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-29"><s type="iri" val="http://dbpedia.org/resource/Chicago_Bar_Association"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["10476411"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-30"><s type="iri" val="http://dbpedia.org/resource/Citizenship_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["25151566"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-29"/>
+<end id="e10209-30"/>
+<entry id="e10209-31" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.385Z">
+<s type="iri" val="http://dbpedia.org/resource/Civil_law_(common_law)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-31"><s type="iri" val="http://dbpedia.org/resource/Civil_law_(common_law)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2941242"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-31"/>
+<entry id="e10209-32" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.416Z">
+<s type="iri" val="http://dbpedia.org/resource/Common_law"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-32"><s type="iri" val="http://dbpedia.org/resource/Common_law"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5254"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-32"/>
+<entry id="e10209-33" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.421Z">
+<s type="iri" val="http://dbpedia.org/resource/Common_law_of_England"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e10209-34" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.423Z">
+<s type="iri" val="http://dbpedia.org/resource/Computer_science"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-33"><s type="iri" val="http://dbpedia.org/resource/Common_law_of_England"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["9979653"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-34"><s type="iri" val="http://dbpedia.org/resource/Computer_science"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5323"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-33"/>
+<end id="e10209-34"/>
+<entry id="e10209-35" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.428Z">
+<s type="iri" val="http://dbpedia.org/resource/Continuing_legal_education"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-35"><s type="iri" val="http://dbpedia.org/resource/Continuing_legal_education"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5685241"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-35"/>
+<entry id="e10209-36" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.459Z">
+<s type="iri" val="http://dbpedia.org/resource/Counsel"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-36"><s type="iri" val="http://dbpedia.org/resource/Counsel"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["605309"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-36"/>
+<entry id="e10209-37" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.466Z">
+<s type="iri" val="http://dbpedia.org/resource/Criminal_law"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-37"><s type="iri" val="http://dbpedia.org/resource/Criminal_law"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["21351321"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e10209-38" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.470Z">
+<s type="iri" val="http://dbpedia.org/resource/Defendant"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e10209-37"/>
+<data-triple-N3 id="e10209-38"><s type="iri" val="http://dbpedia.org/resource/Defendant"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["8865"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e10209-39" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.473Z">
+<s type="iri" val="http://dbpedia.org/resource/Delaware_Colony"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e10209-38"/>
+<data-triple-N3 id="e10209-39"><s type="iri" val="http://dbpedia.org/resource/Delaware_Colony"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["487592"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-39"/>
+<entry id="e10209-40" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.505Z">
+<s type="iri" val="http://dbpedia.org/resource/Diploma_privilege"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-40"><s type="iri" val="http://dbpedia.org/resource/Diploma_privilege"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3923597"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-40"/>
+<entry id="e10209-41" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.514Z">
+<s type="iri" val="http://dbpedia.org/resource/District_of_Columbia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-41"><s type="iri" val="http://dbpedia.org/resource/District_of_Columbia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["8543"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-41"/>
+<entry id="e10209-42" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.518Z">
+<s type="iri" val="http://dbpedia.org/resource/English_law"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e10209-43" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.520Z">
+<s type="iri" val="http://dbpedia.org/resource/Federal_Communications_Bar_Association"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-42"><s type="iri" val="http://dbpedia.org/resource/English_law"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["85441"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-43"><s type="iri" val="http://dbpedia.org/resource/Federal_Communications_Bar_Association"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5194703"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-42"/>
+<end id="e10209-43"/>
+<entry id="e10209-44" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.553Z">
+<s type="iri" val="http://dbpedia.org/resource/Fundamentals_of_Engineering_exam"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-44"><s type="iri" val="http://dbpedia.org/resource/Fundamentals_of_Engineering_exam"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["350401"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-44"/>
+<entry id="e10209-45" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.556Z">
+<s type="iri" val="http://dbpedia.org/resource/Good_moral_character"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-45"><s type="iri" val="http://dbpedia.org/resource/Good_moral_character"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["14308109"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-45"/>
+<entry id="e10209-46" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.567Z">
+<s type="iri" val="http://dbpedia.org/resource/Hard_and_soft_science"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-46"><s type="iri" val="http://dbpedia.org/resource/Hard_and_soft_science"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["17097555"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e10209-47" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.570Z">
+<s type="iri" val="http://dbpedia.org/resource/Hispanic_National_Bar_Association"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e10209-46"/>
+<data-triple-N3 id="e10209-47"><s type="iri" val="http://dbpedia.org/resource/Hispanic_National_Bar_Association"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3474543"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-47"/>
+<entry id="e10209-48" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.598Z">
+<s type="iri" val="http://dbpedia.org/resource/Inns_of_Court"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-48"><s type="iri" val="http://dbpedia.org/resource/Inns_of_Court"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["249111"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e10209-49" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.603Z">
+<s type="iri" val="http://dbpedia.org/resource/Judge_Advocate_General's_Corps"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e10209-48"/>
+<data-triple-N3 id="e10209-49"><s type="iri" val="http://dbpedia.org/resource/Judge_Advocate_General's_Corps"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["697388"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-49"/>
+<entry id="e10209-50" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.612Z">
+<s type="iri" val="http://dbpedia.org/resource/Juris_Doctor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e10209-51" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.613Z">
+<s type="iri" val="http://dbpedia.org/resource/Law_degree"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-50"><s type="iri" val="http://dbpedia.org/resource/Juris_Doctor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["153041"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-51"><s type="iri" val="http://dbpedia.org/resource/Law_degree"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["534412"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-50"/>
+<end id="e10209-51"/>
+<entry id="e10209-52" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.648Z">
+<s type="iri" val="http://dbpedia.org/resource/Law_of_Australia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-52"><s type="iri" val="http://dbpedia.org/resource/Law_of_Australia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1948944"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e10209-53" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.655Z">
+<s type="iri" val="http://dbpedia.org/resource/Law_school"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e10209-52"/>
+<data-triple-N3 id="e10209-53"><s type="iri" val="http://dbpedia.org/resource/Law_school"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3262885"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e10209-54" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.658Z">
+<s type="iri" val="http://dbpedia.org/resource/Lawsuit"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e10209-55" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.659Z">
+<s type="iri" val="http://dbpedia.org/resource/Legal_aid"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e10209-53"/>
+<data-triple-N3 id="e10209-54"><s type="iri" val="http://dbpedia.org/resource/Lawsuit"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["113258"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-55"><s type="iri" val="http://dbpedia.org/resource/Legal_aid"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["499423"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-54"/>
+<end id="e10209-55"/>
+<entry id="e10209-56" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.699Z">
+<s type="iri" val="http://dbpedia.org/resource/Legal_ethics"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e10209-57" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.701Z">
+<s type="iri" val="http://dbpedia.org/resource/Litigant"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-56"><s type="iri" val="http://dbpedia.org/resource/Legal_ethics"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["368946"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-57"><s type="iri" val="http://dbpedia.org/resource/Litigant"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["17671"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-56"/>
+<end id="e10209-57"/>
+<entry id="e10209-58" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.705Z">
+<s type="iri" val="http://dbpedia.org/resource/Marquette_University_Law_School"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e10209-59" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.707Z">
+<s type="iri" val="http://dbpedia.org/resource/Master_of_Laws"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-58"><s type="iri" val="http://dbpedia.org/resource/Marquette_University_Law_School"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5221363"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-59"><s type="iri" val="http://dbpedia.org/resource/Master_of_Laws"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["464522"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-58"/>
+<end id="e10209-59"/>
+<entry id="e10209-60" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.747Z">
+<s type="iri" val="http://dbpedia.org/resource/Metropolitan_statistical_area"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e10209-61" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.750Z">
+<s type="iri" val="http://dbpedia.org/resource/Multiple-choice_question"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-60"><s type="iri" val="http://dbpedia.org/resource/Metropolitan_statistical_area"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["75799"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-61"><s type="iri" val="http://dbpedia.org/resource/Multiple-choice_question"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["4059379"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e10209-62" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.752Z">
+<s type="iri" val="http://dbpedia.org/resource/Multiple_choice"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e10209-63" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.754Z">
+<s type="iri" val="http://dbpedia.org/resource/Multistate_Bar_Examination"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e10209-60"/>
+<end id="e10209-61"/>
+<data-triple-N3 id="e10209-62"><s type="iri" val="http://dbpedia.org/resource/Multiple_choice"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["617573"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-63"><s type="iri" val="http://dbpedia.org/resource/Multistate_Bar_Examination"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["845701"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-62"/>
+<end id="e10209-63"/>
+<entry id="e10209-64" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.801Z">
+<s type="iri" val="http://dbpedia.org/resource/Multistate_Essay_Examination"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-64"><s type="iri" val="http://dbpedia.org/resource/Multistate_Essay_Examination"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["10984772"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e10209-65" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.808Z">
+<s type="iri" val="http://dbpedia.org/resource/Multistate_Performance_Test"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e10209-66" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.810Z">
+<s type="iri" val="http://dbpedia.org/resource/Multistate_Professional_Responsibility_Examination"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e10209-67" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.812Z">
+<s type="iri" val="http://dbpedia.org/resource/National_Bar_Association"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e10209-64"/>
+<data-triple-N3 id="e10209-65"><s type="iri" val="http://dbpedia.org/resource/Multistate_Performance_Test"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["10985428"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-66"><s type="iri" val="http://dbpedia.org/resource/Multistate_Professional_Responsibility_Examination"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["846590"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-67"><s type="iri" val="http://dbpedia.org/resource/National_Bar_Association"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3390467"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-65"/>
+<end id="e10209-66"/>
+<end id="e10209-67"/>
+<entry id="e10209-68" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.856Z">
+<s type="iri" val="http://dbpedia.org/resource/National_Conference_of_Bar_Examiners"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-68"><s type="iri" val="http://dbpedia.org/resource/National_Conference_of_Bar_Examiners"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["846588"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-68"/>
+<entry id="e10209-69" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.867Z">
+<s type="iri" val="http://dbpedia.org/resource/Naval_Justice_School"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-69"><s type="iri" val="http://dbpedia.org/resource/Naval_Justice_School"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["22882275"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e10209-70" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.869Z">
+<s type="iri" val="http://dbpedia.org/resource/New_York_State_Bar_Association"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e10209-71" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.870Z">
+<s type="iri" val="http://dbpedia.org/resource/New_York_Supreme_Court,_Appellate_Division"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e10209-69"/>
+<data-triple-N3 id="e10209-70"><s type="iri" val="http://dbpedia.org/resource/New_York_State_Bar_Association"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["4168860"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-71"><s type="iri" val="http://dbpedia.org/resource/New_York_Supreme_Court,_Appellate_Division"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["223896"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-70"/>
+<end id="e10209-71"/>
+<entry id="e10209-72" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.907Z">
+<s type="iri" val="http://dbpedia.org/resource/Patent_attorney"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-72"><s type="iri" val="http://dbpedia.org/resource/Patent_attorney"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["743809"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-72"/>
+<entry id="e10209-73" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.915Z">
+<s type="iri" val="http://dbpedia.org/resource/Permanent_residence_(United_States)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-73"><s type="iri" val="http://dbpedia.org/resource/Permanent_residence_(United_States)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["300237"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e10209-74" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.918Z">
+<s type="iri" val="http://dbpedia.org/resource/Physics"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e10209-73"/>
+<data-triple-N3 id="e10209-74"><s type="iri" val="http://dbpedia.org/resource/Physics"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["22939"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e10209-75" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.921Z">
+<s type="iri" val="http://dbpedia.org/resource/Practice_of_law"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e10209-74"/>
+<data-triple-N3 id="e10209-75"><s type="iri" val="http://dbpedia.org/resource/Practice_of_law"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["77298"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-75"/>
+<entry id="e10209-76" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.954Z">
+<s type="iri" val="http://dbpedia.org/resource/Pro_bono"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-76"><s type="iri" val="http://dbpedia.org/resource/Pro_bono"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["154839"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-76"/>
+<entry id="e10209-77" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.962Z">
+<s type="iri" val="http://dbpedia.org/resource/Pro_bono_publico"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-77"><s type="iri" val="http://dbpedia.org/resource/Pro_bono_publico"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["26159531"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-77"/>
+<entry id="e10209-78" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.965Z">
+<s type="iri" val="http://dbpedia.org/resource/Pro_hac_vice"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-78"><s type="iri" val="http://dbpedia.org/resource/Pro_hac_vice"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2025590"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e10209-79" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:53.968Z">
+<s type="iri" val="http://dbpedia.org/resource/Pro_se"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e10209-78"/>
+<data-triple-N3 id="e10209-79"><s type="iri" val="http://dbpedia.org/resource/Pro_se"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["19412124"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-79"/>
+<entry id="e10209-80" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.001Z">
+<s type="iri" val="http://dbpedia.org/resource/Pro_se_legal_representation_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-80"><s type="iri" val="http://dbpedia.org/resource/Pro_se_legal_representation_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["19463565"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-80"/>
+<entry id="e10209-81" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.008Z">
+<s type="iri" val="http://dbpedia.org/resource/Professional_responsibility"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-81"><s type="iri" val="http://dbpedia.org/resource/Professional_responsibility"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1598791"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-81"/>
+<entry id="e10209-82" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.017Z">
+<s type="iri" val="http://dbpedia.org/resource/Public_defender"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e10209-83" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.018Z">
+<s type="iri" val="http://dbpedia.org/resource/Puerto_Rico"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-82"><s type="iri" val="http://dbpedia.org/resource/Public_defender"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["756723"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-83"><s type="iri" val="http://dbpedia.org/resource/Puerto_Rico"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["23041"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-82"/>
+<end id="e10209-83"/>
+<entry id="e10209-84" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.022Z">
+<s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-84"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_District_Court_for_the_Eastern_District_of_Michigan"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-84"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_District_Court_for_the_Eastern_District_of_Texas"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-84"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_District_Court_for_the_Northern_District_of_Ohio"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-84"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_District_Court_for_the_Northern_District_of_Texas"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-84"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_District_Court_for_the_Southern_District_of_Florida"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-84"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_District_Court_for_the_Southern_District_of_Ohio"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-84"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_District_Court_for_the_Southern_District_of_Texas"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-84"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_District_Court_for_the_Western_District_of_Texas"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-84"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_Supreme_Court"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-84"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_Tax_Court"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-84"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_bankruptcy_court"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-84"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_court_of_appeals"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-84"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_courts_of_appeals"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-84"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_district_court"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-84"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_metropolitan_area"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-84"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_territory"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-84"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/University_of_New_Hampshire_School_of_Law"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-84"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/University_of_Wisconsin_Law_School"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-84"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Voluntary_association"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-84"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Washington,_D.C."/></data-triple-N3>
+
+<data-triple-N3 id="e10209-84"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Washington_State_Supreme_Court"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-84"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Washington_Supreme_Court"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-84"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Work_permit"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-84"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Work_visa"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-84"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:Bar_at_the_Rhode_Island_Supreme_Court.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-84"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Law_schools_in_the_United_States"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-84"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Legal_profession_exams"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-84"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Practice_of_law"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-84"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Professional_certification_in_law"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-84"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:United_States_law"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-84"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#comment"/><o type="lit"><![CDATA["Admission to the bar in the United States is the granting of permission by a particular court system to a lawyer to practice law in that system. Each US state and similar jurisdiction has its own court system and sets its own rules for bar admission (or privilege to practice law), which can lead to different admission standards among states. In most cases, a person who is "admitted" to the bar is thereby a "member" of the particular bar."@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-84"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["Admission to the bar in the United States"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-84"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/미국사법시험"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-84"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q4683819"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-84"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/Admission_to_the_bar_in_the_United_States?oldid=547170477"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-84"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://xmlns.com/foaf/0.1/depiction"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/6/66/Bar_at_the_Rhode_Island_Supreme_Court.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e10209-84"><s type="iri" val="http://dbpedia.org/resource/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/Admission_to_the_bar_in_the_United_States"/></data-triple-N3>
+
+<end id="e10209-84"/>
+<entry id="e10209-85" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.044Z">
+<s type="iri" val="http://dbpedia.org/resource/Reading_law"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-85"><s type="iri" val="http://dbpedia.org/resource/Reading_law"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["21189546"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-85"/>
+<entry id="e10209-86" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.048Z">
+<s type="iri" val="http://dbpedia.org/resource/Science"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-86"><s type="iri" val="http://dbpedia.org/resource/Science"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["26700"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-86"/>
+<entry id="e10209-87" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.061Z">
+<s type="iri" val="http://dbpedia.org/resource/Standardized_test"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-87"><s type="iri" val="http://dbpedia.org/resource/Standardized_test"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["225971"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e10209-88" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.064Z">
+<s type="iri" val="http://dbpedia.org/resource/State_Bar_of_Arizona"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e10209-87"/>
+<data-triple-N3 id="e10209-88"><s type="iri" val="http://dbpedia.org/resource/State_Bar_of_Arizona"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5814864"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-88"/>
+<entry id="e10209-89" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.089Z">
+<s type="iri" val="http://dbpedia.org/resource/State_Bar_of_California"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e10209-90" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.090Z">
+<s type="iri" val="http://dbpedia.org/resource/State_Bar_of_Georgia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-89"><s type="iri" val="http://dbpedia.org/resource/State_Bar_of_California"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2034084"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-90"><s type="iri" val="http://dbpedia.org/resource/State_Bar_of_Georgia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["15110475"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-89"/>
+<end id="e10209-90"/>
+<entry id="e10209-91" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.105Z">
+<s type="iri" val="http://dbpedia.org/resource/State_Bar_of_Texas"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-91"><s type="iri" val="http://dbpedia.org/resource/State_Bar_of_Texas"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2829593"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-91"/>
+<entry id="e10209-92" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.110Z">
+<s type="iri" val="http://dbpedia.org/resource/State_bar_association"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-92"><s type="iri" val="http://dbpedia.org/resource/State_bar_association"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["4098163"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-92"/>
+<entry id="e10209-93" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.133Z">
+<s type="iri" val="http://dbpedia.org/resource/State_supreme_court"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-93"><s type="iri" val="http://dbpedia.org/resource/State_supreme_court"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["28945"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-93"/>
+<entry id="e10209-94" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.137Z">
+<s type="iri" val="http://dbpedia.org/resource/Subject-matter_jurisdiction"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-94"><s type="iri" val="http://dbpedia.org/resource/Subject-matter_jurisdiction"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1460494"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-94"/>
+<entry id="e10209-95" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.150Z">
+<s type="iri" val="http://dbpedia.org/resource/Supreme_Court_of_Texas"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-95"><s type="iri" val="http://dbpedia.org/resource/Supreme_Court_of_Texas"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2269422"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-95"/>
+<entry id="e10209-96" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.157Z">
+<s type="iri" val="http://dbpedia.org/resource/Supreme_Court_of_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-96"><s type="iri" val="http://dbpedia.org/resource/Supreme_Court_of_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["31737"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-96"/>
+<entry id="e10209-97" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.179Z">
+<s type="iri" val="http://dbpedia.org/resource/Texas_Supreme_Court"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-97"><s type="iri" val="http://dbpedia.org/resource/Texas_Supreme_Court"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["35534848"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e10209-98" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.184Z">
+<s type="iri" val="http://dbpedia.org/resource/The_Judge_Advocate_General's_Legal_Center_and_School"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e10209-97"/>
+<data-triple-N3 id="e10209-98"><s type="iri" val="http://dbpedia.org/resource/The_Judge_Advocate_General's_Legal_Center_and_School"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["14100442"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-98"/>
+<entry id="e10209-99" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.197Z">
+<s type="iri" val="http://dbpedia.org/resource/USPTO_registration_examination"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-99"><s type="iri" val="http://dbpedia.org/resource/USPTO_registration_examination"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5917624"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-99"/>
+<entry id="e10209-100" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.201Z">
+<s type="iri" val="http://dbpedia.org/resource/Unauthorized_practice_of_law"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-100"><s type="iri" val="http://dbpedia.org/resource/Unauthorized_practice_of_law"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["4416138"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-100"/>
+<entry id="e10209-101" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.230Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_Court_of_Appeals_for_the_Federal_Circuit"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-101"><s type="iri" val="http://dbpedia.org/resource/United_States_Court_of_Appeals_for_the_Federal_Circuit"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1196782"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e10209-102" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.232Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_Court_of_Appeals_for_the_Fifth_Circuit"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e10209-101"/>
+<data-triple-N3 id="e10209-102"><s type="iri" val="http://dbpedia.org/resource/United_States_Court_of_Appeals_for_the_Fifth_Circuit"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["428326"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-102"/>
+<entry id="e10209-103" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.240Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_District_Court_for_the_District_of_Rhode_Island"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-103"><s type="iri" val="http://dbpedia.org/resource/United_States_District_Court_for_the_District_of_Rhode_Island"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["915561"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-103"/>
+<entry id="e10209-104" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.244Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_District_Court_for_the_Eastern_District_of_Michigan"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-104"><s type="iri" val="http://dbpedia.org/resource/United_States_District_Court_for_the_Eastern_District_of_Michigan"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1441787"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-104"/>
+<entry id="e10209-105" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.277Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_District_Court_for_the_Eastern_District_of_Texas"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e10209-106" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.280Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_District_Court_for_the_Northern_District_of_Ohio"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-105"><s type="iri" val="http://dbpedia.org/resource/United_States_District_Court_for_the_Eastern_District_of_Texas"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3265947"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-106"><s type="iri" val="http://dbpedia.org/resource/United_States_District_Court_for_the_Northern_District_of_Ohio"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1276929"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-105"/>
+<end id="e10209-106"/>
+<entry id="e10209-107" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.286Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_District_Court_for_the_Northern_District_of_Texas"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-107"><s type="iri" val="http://dbpedia.org/resource/United_States_District_Court_for_the_Northern_District_of_Texas"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2860056"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e10209-108" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.290Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_District_Court_for_the_Southern_District_of_Florida"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e10209-107"/>
+<data-triple-N3 id="e10209-108"><s type="iri" val="http://dbpedia.org/resource/United_States_District_Court_for_the_Southern_District_of_Florida"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["891673"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-108"/>
+<entry id="e10209-109" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.326Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_District_Court_for_the_Southern_District_of_Ohio"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-109"><s type="iri" val="http://dbpedia.org/resource/United_States_District_Court_for_the_Southern_District_of_Ohio"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1286445"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e10209-110" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.329Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_District_Court_for_the_Southern_District_of_Texas"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e10209-109"/>
+<data-triple-N3 id="e10209-110"><s type="iri" val="http://dbpedia.org/resource/United_States_District_Court_for_the_Southern_District_of_Texas"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3195303"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e10209-111" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.334Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_District_Court_for_the_Western_District_of_Texas"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e10209-110"/>
+<data-triple-N3 id="e10209-111"><s type="iri" val="http://dbpedia.org/resource/United_States_District_Court_for_the_Western_District_of_Texas"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1729266"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e10209-112" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.338Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_Supreme_Court"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e10209-111"/>
+<data-triple-N3 id="e10209-112"><s type="iri" val="http://dbpedia.org/resource/United_States_Supreme_Court"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["26957"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-112"/>
+<entry id="e10209-113" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.372Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_Tax_Court"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-113"><s type="iri" val="http://dbpedia.org/resource/United_States_Tax_Court"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1740800"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-113"/>
+<entry id="e10209-114" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.377Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_bankruptcy_court"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-114"><s type="iri" val="http://dbpedia.org/resource/United_States_bankruptcy_court"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["70237"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-114"/>
+<entry id="e10209-115" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.381Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_court_of_appeals"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e10209-116" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.384Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_courts_of_appeals"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-115"><s type="iri" val="http://dbpedia.org/resource/United_States_court_of_appeals"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["22796456"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-116"><s type="iri" val="http://dbpedia.org/resource/United_States_courts_of_appeals"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["70228"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-115"/>
+<end id="e10209-116"/>
+<entry id="e10209-117" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.412Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_district_court"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-117"><s type="iri" val="http://dbpedia.org/resource/United_States_district_court"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["70235"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-117"/>
+<entry id="e10209-118" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.425Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_metropolitan_area"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-118"><s type="iri" val="http://dbpedia.org/resource/United_States_metropolitan_area"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["31411065"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-118"/>
+<entry id="e10209-119" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.429Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_territory"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e10209-120" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.432Z">
+<s type="iri" val="http://dbpedia.org/resource/University_of_New_Hampshire_School_of_Law"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-119"><s type="iri" val="http://dbpedia.org/resource/United_States_territory"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["312572"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e10209-120"><s type="iri" val="http://dbpedia.org/resource/University_of_New_Hampshire_School_of_Law"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2163001"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-119"/>
+<end id="e10209-120"/>
+<entry id="e10209-121" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.453Z">
+<s type="iri" val="http://dbpedia.org/resource/University_of_Wisconsin_Law_School"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-121"><s type="iri" val="http://dbpedia.org/resource/University_of_Wisconsin_Law_School"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2429663"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-121"/>
+<entry id="e10209-122" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.468Z">
+<s type="iri" val="http://dbpedia.org/resource/Voluntary_association"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-122"><s type="iri" val="http://dbpedia.org/resource/Voluntary_association"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["28831284"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-122"/>
+<entry id="e10209-123" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.473Z">
+<s type="iri" val="http://dbpedia.org/resource/Washington,_D.C."/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-123"><s type="iri" val="http://dbpedia.org/resource/Washington,_D.C."/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["108956"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-123"/>
+<entry id="e10209-124" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.477Z">
+<s type="iri" val="http://dbpedia.org/resource/Washington_State_Supreme_Court"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-124"><s type="iri" val="http://dbpedia.org/resource/Washington_State_Supreme_Court"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2973429"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-124"/>
+<entry id="e10209-125" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.504Z">
+<s type="iri" val="http://dbpedia.org/resource/Washington_Supreme_Court"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-125"><s type="iri" val="http://dbpedia.org/resource/Washington_Supreme_Court"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2012267"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-125"/>
+<entry id="e10209-126" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.512Z">
+<s type="iri" val="http://dbpedia.org/resource/Work_permit"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-126"><s type="iri" val="http://dbpedia.org/resource/Work_permit"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["14666962"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-126"/>
+<entry id="e10209-127" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.519Z">
+<s type="iri" val="http://dbpedia.org/resource/Work_visa"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-127"><s type="iri" val="http://dbpedia.org/resource/Work_visa"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["28798495"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-127"/>
+<entry id="e10209-128" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.527Z">
+<s type="iri" val="http://dbpedia.org/resource/File:Bar_at_the_Rhode_Island_Supreme_Court.jpg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e10209-128"/>
+<entry id="e10209-129" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.554Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Law_schools_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-129"><s type="iri" val="http://dbpedia.org/resource/Category:Law_schools_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3028797"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-129"/>
+<entry id="e10209-130" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.564Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Legal_profession_exams"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-130"><s type="iri" val="http://dbpedia.org/resource/Category:Legal_profession_exams"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["10045414"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e10209-131" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.569Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Practice_of_law"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e10209-130"/>
+<data-triple-N3 id="e10209-131"><s type="iri" val="http://dbpedia.org/resource/Category:Practice_of_law"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["27111192"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-131"/>
+<entry id="e10209-132" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.581Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Professional_certification_in_law"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-132"><s type="iri" val="http://dbpedia.org/resource/Category:Professional_certification_in_law"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["17982529"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-132"/>
+<entry id="e10209-133" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.603Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:United_States_law"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e10209-133"><s type="iri" val="http://dbpedia.org/resource/Category:United_States_law"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["702286"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e10209-133"/>
+<entry id="e10209-134" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.630Z">
+<s type="iri" val="http://ko.dbpedia.org/resource/미국사법시험"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e10209-134"/>
+<entry id="e10209-135" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.650Z">
+<s type="iri" val="http://www.wikidata.org/entity/Q4683819"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e10209-136" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.652Z">
+<s type="iri" val="http://en.wikipedia.org/wiki/Admission_to_the_bar_in_the_United_States?oldid=547170477"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e10209-137" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.656Z">
+<s type="iri" val="http://upload.wikimedia.org/wikipedia/commons/6/66/Bar_at_the_Rhode_Island_Supreme_Court.jpg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e10209-135"/>
+<end id="e10209-136"/>
+<end id="e10209-137"/>
+<entry id="e10209-138" client="::ffff:127.0.0.1" worker="10209" time="2017-04-25T23:04:54.682Z">
+<s type="iri" val="http://en.wikipedia.org/wiki/Admission_to_the_bar_in_the_United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e10209-138"/>
+ </trace>

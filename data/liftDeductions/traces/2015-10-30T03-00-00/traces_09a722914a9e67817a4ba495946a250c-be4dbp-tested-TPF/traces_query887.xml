@@ -1,0 +1,1425 @@
+<?xml version="1.0"?><!DOCTYPE trace SYSTEM "logTPF.dtd">
+<trace>
+<msg>Master 796 running on http://localhost:5000/.</msg>
+<msg>Worker 803 running on http://localhost:5000/.</msg>
+<entry id="e803-1" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:02.868Z">
+<s type="var"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5878274"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["489132637"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!?oldid=489132637"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3632887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["545017937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Doppeltes_Ausrufezeichen"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q353153"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!!?oldid=545017937"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chkchkchk.jpg/200px-Chkchkchk.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://auralstates.com/2007/10/interview-aka-chk-chk-chk-w-nic-offer.html"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://punkcast.com/423/"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://supersweet.org/main.aspx?atype=1&amp;aname=Music_Chk_Chk_Chk&amp;con=1&amp;sc1=0&amp;sc2=0"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.chkchkchk.net/"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.npr.org/templates/story/story.php?storyId=10236467"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600744"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548612260"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e803-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Billboard_200"/></data-triple-N3>
+
+<end id="e803-1"/>
+<entry id="e803-2" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:02.929Z">
+<s type="var"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["215153"^^http://www.w3.org/2001/XMLSchema#integer]]></o>
+</entry>
+<data-triple-N3 id="e803-2"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["215153"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e803-2"/>
+<entry id="e803-3" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:02.938Z">
+<s type="var"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5878274"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["489132637"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!?oldid=489132637"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3632887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["545017937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Doppeltes_Ausrufezeichen"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q353153"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!!?oldid=545017937"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chkchkchk.jpg/200px-Chkchkchk.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://auralstates.com/2007/10/interview-aka-chk-chk-chk-w-nic-offer.html"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://punkcast.com/423/"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://supersweet.org/main.aspx?atype=1&amp;aname=Music_Chk_Chk_Chk&amp;con=1&amp;sc1=0&amp;sc2=0"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.chkchkchk.net/"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.npr.org/templates/story/story.php?storyId=10236467"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600744"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548612260"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e803-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Billboard_200"/></data-triple-N3>
+
+<end id="e803-3"/>
+<entry id="e803-4" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:02.977Z">
+<s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/6/69/V&amp;A_-_Raphael,_Christ's_Charge_to_Peter_(1515).jpg/200px-V&amp;A_-_Raphael,_Christ's_Charge_to_Peter_(1515).jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.PaganChristianity.net"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.christianitytoday.com/leaders/features/administration.html"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.gumpoint.com/church/pastor.html"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.lifeway.com/menu/?id=200734"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.newadvent.org/cathen/11537b.htm"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["215153"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["547565571"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/1_Corinthians"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Acts_of_the_Apostles"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Augustine_of_Hippo"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Baptist"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Baptists"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bible"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bird"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bishop"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Book_of_Genesis"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Book_of_Jeremiah"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Burnout_(psychology)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Christian_clergy_by_type"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Christian_group_structuring"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Christian_religious_occupations"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Ecclesiastical_titles"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Local_Christian_church_officials"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Christian"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Christian_Church_(Disciples_of_Christ)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Christian_counseling"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Christian_denomination"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Christmas"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Church_of_Christ"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Churches_of_Christ"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Clergy"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Diocesan_bishop"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Dominie"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Elder_(Christianity)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ephesians"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ephesus"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Epistle_to_the_Ephesians"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/First_Epistle_of_Peter"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/First_Epistle_to_the_Corinthians"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Genus"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Gospel_of_John"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Gospel_of_Luke"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Greek_language"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Hebrew_Bible"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Hebrew_language"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Herr_Pastor"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Holy_Spirit"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Huldrych_Zwingli"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Imam"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Jesus"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/John_Calvin"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Latin"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Latin_language"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Lutheranism"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Methodism"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Methodist"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Minister_(Christianity)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Minister_of_religion"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Missionaries"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Missionary"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Murshid"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/New_American_Standard_Bible"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/New_Testament"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ordain"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Ordination"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pastoral_care"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pastoral_counseling"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Paul_of_Tarsus"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Paul_the_Apostle"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Peer_group"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pentecostal"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pentecostalism"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Preacher"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Presbyter"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Presbyterian"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Presbyterianism"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Presbyters"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Priest"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Priesthood_of_all_believers"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Priests"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Protestant"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Protestant_Reformation"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Protestant_denominations"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Protestantism"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Rabbi"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Restoration_Movement"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Roman_Empire"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Rowland_Croucher"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Seventh-day_Adventist"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Seventh-day_Adventist_Church"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Sexual_abuse"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Shepherd"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Stress_(biology)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Stress_(medicine)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Universal_priesthood_(doctrine)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:Bielsko-Bia%C5%82a_Arthur_Schmidt_001.JPG"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:V&amp;A_-_Raphael,_Christ's_Charge_to_Peter_(1515).jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Christian_clergy_by_type"/></data-triple-N3>
+
+<data-triple-N3 id="e803-4"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Christian_group_structuring"/></data-triple-N3>
+
+<end id="e803-4"/>
+<entry id="e803-5" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.000Z">
+<s type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/6/69/V&amp;A_-_Raphael,_Christ's_Charge_to_Peter_(1515).jpg/200px-V&amp;A_-_Raphael,_Christ's_Charge_to_Peter_(1515).jpg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-5"/>
+<entry id="e803-6" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.006Z">
+<s type="iri" val="http://www.PaganChristianity.net"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-7" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.009Z">
+<s type="iri" val="http://www.christianitytoday.com/leaders/features/administration.html"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-6"/>
+<entry id="e803-8" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.013Z">
+<s type="iri" val="http://www.gumpoint.com/church/pastor.html"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-7"/>
+<end id="e803-8"/>
+<entry id="e803-9" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.051Z">
+<s type="iri" val="http://www.lifeway.com/menu/?id=200734"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-10" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.059Z">
+<s type="iri" val="http://www.newadvent.org/cathen/11537b.htm"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-9"/>
+<end id="e803-10"/>
+<entry id="e803-11" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.103Z">
+<s type="iri" val="http://dbpedia.org/resource/1_Corinthians"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e803-11"><s type="iri" val="http://dbpedia.org/resource/1_Corinthians"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["35536"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e803-11"/>
+<entry id="e803-12" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.110Z">
+<s type="iri" val="http://dbpedia.org/resource/Acts_of_the_Apostles"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-13" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.113Z">
+<s type="iri" val="http://dbpedia.org/resource/Augustine_of_Hippo"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-14" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.115Z">
+<s type="iri" val="http://dbpedia.org/resource/Baptist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e803-12"><s type="iri" val="http://dbpedia.org/resource/Acts_of_the_Apostles"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2084"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-13"><s type="iri" val="http://dbpedia.org/resource/Augustine_of_Hippo"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2030"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-14"><s type="iri" val="http://dbpedia.org/resource/Baptist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["26585969"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e803-15" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.118Z">
+<s type="iri" val="http://dbpedia.org/resource/Baptists"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-12"/>
+<end id="e803-13"/>
+<end id="e803-14"/>
+<data-triple-N3 id="e803-15"><s type="iri" val="http://dbpedia.org/resource/Baptists"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3979"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e803-16" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.126Z">
+<s type="iri" val="http://dbpedia.org/resource/Bible"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-17" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.129Z">
+<s type="iri" val="http://dbpedia.org/resource/Bird"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-15"/>
+<data-triple-N3 id="e803-16"><s type="iri" val="http://dbpedia.org/resource/Bible"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3390"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-17"><s type="iri" val="http://dbpedia.org/resource/Bird"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3410"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e803-16"/>
+<end id="e803-17"/>
+<entry id="e803-18" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.165Z">
+<s type="iri" val="http://dbpedia.org/resource/Bishop"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e803-18"><s type="iri" val="http://dbpedia.org/resource/Bishop"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["4092"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e803-18"/>
+<entry id="e803-19" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.173Z">
+<s type="iri" val="http://dbpedia.org/resource/Book_of_Genesis"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-20" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.175Z">
+<s type="iri" val="http://dbpedia.org/resource/Book_of_Jeremiah"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e803-19"><s type="iri" val="http://dbpedia.org/resource/Book_of_Genesis"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["12667"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-20"><s type="iri" val="http://dbpedia.org/resource/Book_of_Jeremiah"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["4363"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e803-21" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.178Z">
+<s type="iri" val="http://dbpedia.org/resource/Burnout_(psychology)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-22" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.181Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Christian_clergy_by_type"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-19"/>
+<end id="e803-20"/>
+<data-triple-N3 id="e803-21"><s type="iri" val="http://dbpedia.org/resource/Burnout_(psychology)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["318360"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-22"><s type="iri" val="http://dbpedia.org/resource/Category:Christian_clergy_by_type"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["9034555"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e803-21"/>
+<end id="e803-22"/>
+<entry id="e803-23" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.231Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Christian_group_structuring"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e803-23"><s type="iri" val="http://dbpedia.org/resource/Category:Christian_group_structuring"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1208164"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e803-24" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.240Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Christian_religious_occupations"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-25" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.243Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Ecclesiastical_titles"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-23"/>
+<data-triple-N3 id="e803-24"><s type="iri" val="http://dbpedia.org/resource/Category:Christian_religious_occupations"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["22515372"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-25"><s type="iri" val="http://dbpedia.org/resource/Category:Ecclesiastical_titles"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2910096"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e803-26" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.249Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Local_Christian_church_officials"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-24"/>
+<end id="e803-25"/>
+<data-triple-N3 id="e803-26"><s type="iri" val="http://dbpedia.org/resource/Category:Local_Christian_church_officials"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["19044469"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e803-27" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.256Z">
+<s type="iri" val="http://dbpedia.org/resource/Christian"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-26"/>
+<data-triple-N3 id="e803-27"><s type="iri" val="http://dbpedia.org/resource/Christian"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["18337522"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e803-27"/>
+<entry id="e803-28" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.293Z">
+<s type="iri" val="http://dbpedia.org/resource/Christian_Church_(Disciples_of_Christ)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e803-28"><s type="iri" val="http://dbpedia.org/resource/Christian_Church_(Disciples_of_Christ)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["8660"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e803-29" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.295Z">
+<s type="iri" val="http://dbpedia.org/resource/Christian_counseling"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-28"/>
+<data-triple-N3 id="e803-29"><s type="iri" val="http://dbpedia.org/resource/Christian_counseling"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5345332"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e803-29"/>
+<entry id="e803-30" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.303Z">
+<s type="iri" val="http://dbpedia.org/resource/Christian_denomination"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e803-30"><s type="iri" val="http://dbpedia.org/resource/Christian_denomination"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["342411"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e803-31" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.305Z">
+<s type="iri" val="http://dbpedia.org/resource/Christmas"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-32" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.306Z">
+<s type="iri" val="http://dbpedia.org/resource/Church_of_Christ"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-30"/>
+<data-triple-N3 id="e803-31"><s type="iri" val="http://dbpedia.org/resource/Christmas"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["6237"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-32"><s type="iri" val="http://dbpedia.org/resource/Church_of_Christ"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["414191"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e803-31"/>
+<end id="e803-32"/>
+<entry id="e803-33" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.341Z">
+<s type="iri" val="http://dbpedia.org/resource/Churches_of_Christ"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e803-33"><s type="iri" val="http://dbpedia.org/resource/Churches_of_Christ"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["384218"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e803-33"/>
+<entry id="e803-34" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.349Z">
+<s type="iri" val="http://dbpedia.org/resource/Clergy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-35" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.350Z">
+<s type="iri" val="http://dbpedia.org/resource/Diocesan_bishop"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e803-34"><s type="iri" val="http://dbpedia.org/resource/Clergy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["50405"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-35"><s type="iri" val="http://dbpedia.org/resource/Diocesan_bishop"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3653974"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e803-36" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.353Z">
+<s type="iri" val="http://dbpedia.org/resource/Dominie"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-37" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.355Z">
+<s type="iri" val="http://dbpedia.org/resource/Elder_(Christianity)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-34"/>
+<end id="e803-35"/>
+<data-triple-N3 id="e803-36"><s type="iri" val="http://dbpedia.org/resource/Dominie"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2713433"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-37"><s type="iri" val="http://dbpedia.org/resource/Elder_(Christianity)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["9034599"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e803-36"/>
+<end id="e803-37"/>
+<entry id="e803-38" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.400Z">
+<s type="iri" val="http://dbpedia.org/resource/Ephesians"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e803-38"><s type="iri" val="http://dbpedia.org/resource/Ephesians"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["204387"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e803-39" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.404Z">
+<s type="iri" val="http://dbpedia.org/resource/Ephesus"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-38"/>
+<data-triple-N3 id="e803-39"><s type="iri" val="http://dbpedia.org/resource/Ephesus"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["9843"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e803-40" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.410Z">
+<s type="iri" val="http://dbpedia.org/resource/Epistle_to_the_Ephesians"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-41" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.412Z">
+<s type="iri" val="http://dbpedia.org/resource/First_Epistle_of_Peter"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-39"/>
+<data-triple-N3 id="e803-40"><s type="iri" val="http://dbpedia.org/resource/Epistle_to_the_Ephesians"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["9869"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-41"><s type="iri" val="http://dbpedia.org/resource/First_Epistle_of_Peter"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["11387"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e803-42" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.417Z">
+<s type="iri" val="http://dbpedia.org/resource/First_Epistle_to_the_Corinthians"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-40"/>
+<end id="e803-41"/>
+<data-triple-N3 id="e803-42"><s type="iri" val="http://dbpedia.org/resource/First_Epistle_to_the_Corinthians"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["11378"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e803-42"/>
+<entry id="e803-43" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.459Z">
+<s type="iri" val="http://dbpedia.org/resource/Genus"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e803-43"><s type="iri" val="http://dbpedia.org/resource/Genus"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["38493"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e803-44" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.466Z">
+<s type="iri" val="http://dbpedia.org/resource/Gospel_of_John"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-43"/>
+<data-triple-N3 id="e803-44"><s type="iri" val="http://dbpedia.org/resource/Gospel_of_John"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["12493"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e803-45" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.470Z">
+<s type="iri" val="http://dbpedia.org/resource/Gospel_of_Luke"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-46" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.471Z">
+<s type="iri" val="http://dbpedia.org/resource/Greek_language"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-44"/>
+<data-triple-N3 id="e803-45"><s type="iri" val="http://dbpedia.org/resource/Gospel_of_Luke"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["12491"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-46"><s type="iri" val="http://dbpedia.org/resource/Greek_language"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["11887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e803-47" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.474Z">
+<s type="iri" val="http://dbpedia.org/resource/Hebrew_Bible"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-45"/>
+<end id="e803-46"/>
+<data-triple-N3 id="e803-47"><s type="iri" val="http://dbpedia.org/resource/Hebrew_Bible"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["193857"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e803-47"/>
+<entry id="e803-48" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.518Z">
+<s type="iri" val="http://dbpedia.org/resource/Hebrew_language"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-49" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.519Z">
+<s type="iri" val="http://dbpedia.org/resource/Herr_Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e803-48"><s type="iri" val="http://dbpedia.org/resource/Hebrew_language"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["13450"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-49"><s type="iri" val="http://dbpedia.org/resource/Herr_Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5546464"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e803-50" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.521Z">
+<s type="iri" val="http://dbpedia.org/resource/Holy_Spirit"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-51" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.522Z">
+<s type="iri" val="http://dbpedia.org/resource/Huldrych_Zwingli"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-48"/>
+<end id="e803-49"/>
+<data-triple-N3 id="e803-50"><s type="iri" val="http://dbpedia.org/resource/Holy_Spirit"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["14379"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-51"><s type="iri" val="http://dbpedia.org/resource/Huldrych_Zwingli"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["13602"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e803-50"/>
+<end id="e803-51"/>
+<entry id="e803-52" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.528Z">
+<s type="iri" val="http://dbpedia.org/resource/Imam"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e803-52"><s type="iri" val="http://dbpedia.org/resource/Imam"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["15240"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e803-52"/>
+<entry id="e803-53" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.567Z">
+<s type="iri" val="http://dbpedia.org/resource/Jesus"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e803-53"><s type="iri" val="http://dbpedia.org/resource/Jesus"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1095706"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e803-54" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.572Z">
+<s type="iri" val="http://dbpedia.org/resource/John_Calvin"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-55" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.576Z">
+<s type="iri" val="http://dbpedia.org/resource/Latin"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-53"/>
+<data-triple-N3 id="e803-54"><s type="iri" val="http://dbpedia.org/resource/John_Calvin"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["15930"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-55"><s type="iri" val="http://dbpedia.org/resource/Latin"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["17730"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e803-56" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.580Z">
+<s type="iri" val="http://dbpedia.org/resource/Latin_language"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-54"/>
+<end id="e803-55"/>
+<data-triple-N3 id="e803-56"><s type="iri" val="http://dbpedia.org/resource/Latin_language"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1291988"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e803-57" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.585Z">
+<s type="iri" val="http://dbpedia.org/resource/Lutheranism"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-56"/>
+<data-triple-N3 id="e803-57"><s type="iri" val="http://dbpedia.org/resource/Lutheranism"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["23371382"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e803-57"/>
+<entry id="e803-58" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.629Z">
+<s type="iri" val="http://dbpedia.org/resource/Methodism"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e803-58"><s type="iri" val="http://dbpedia.org/resource/Methodism"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["20119"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e803-59" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.635Z">
+<s type="iri" val="http://dbpedia.org/resource/Methodist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-60" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.637Z">
+<s type="iri" val="http://dbpedia.org/resource/Minister_(Christianity)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-58"/>
+<data-triple-N3 id="e803-59"><s type="iri" val="http://dbpedia.org/resource/Methodist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["162374"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-60"><s type="iri" val="http://dbpedia.org/resource/Minister_(Christianity)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["739238"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e803-61" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.639Z">
+<s type="iri" val="http://dbpedia.org/resource/Minister_of_religion"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-59"/>
+<end id="e803-60"/>
+<data-triple-N3 id="e803-61"><s type="iri" val="http://dbpedia.org/resource/Minister_of_religion"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["9596484"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e803-62" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.642Z">
+<s type="iri" val="http://dbpedia.org/resource/Missionaries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-61"/>
+<data-triple-N3 id="e803-62"><s type="iri" val="http://dbpedia.org/resource/Missionaries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["154402"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e803-62"/>
+<entry id="e803-63" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.684Z">
+<s type="iri" val="http://dbpedia.org/resource/Missionary"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e803-63"><s type="iri" val="http://dbpedia.org/resource/Missionary"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["53831"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e803-64" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.686Z">
+<s type="iri" val="http://dbpedia.org/resource/Murshid"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-63"/>
+<data-triple-N3 id="e803-64"><s type="iri" val="http://dbpedia.org/resource/Murshid"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2149169"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e803-65" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.691Z">
+<s type="iri" val="http://dbpedia.org/resource/New_American_Standard_Bible"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-66" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.695Z">
+<s type="iri" val="http://dbpedia.org/resource/New_Testament"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-64"/>
+<data-triple-N3 id="e803-65"><s type="iri" val="http://dbpedia.org/resource/New_American_Standard_Bible"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["547305"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-66"><s type="iri" val="http://dbpedia.org/resource/New_Testament"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["21433"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e803-67" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.699Z">
+<s type="iri" val="http://dbpedia.org/resource/Ordain"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-65"/>
+<end id="e803-66"/>
+<data-triple-N3 id="e803-67"><s type="iri" val="http://dbpedia.org/resource/Ordain"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["671910"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e803-67"/>
+<entry id="e803-68" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.738Z">
+<s type="iri" val="http://dbpedia.org/resource/Ordination"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e803-68"><s type="iri" val="http://dbpedia.org/resource/Ordination"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["217115"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e803-68"/>
+<entry id="e803-69" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.744Z">
+<s type="iri" val="http://dbpedia.org/resource/Pastoral_care"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-70" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.745Z">
+<s type="iri" val="http://dbpedia.org/resource/Pastoral_counseling"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e803-69"><s type="iri" val="http://dbpedia.org/resource/Pastoral_care"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["6616830"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-70"><s type="iri" val="http://dbpedia.org/resource/Pastoral_counseling"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2278666"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e803-69"/>
+<end id="e803-70"/>
+<entry id="e803-71" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.750Z">
+<s type="iri" val="http://dbpedia.org/resource/Paul_of_Tarsus"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-72" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.752Z">
+<s type="iri" val="http://dbpedia.org/resource/Paul_the_Apostle"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e803-71"><s type="iri" val="http://dbpedia.org/resource/Paul_of_Tarsus"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["29331866"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-72"><s type="iri" val="http://dbpedia.org/resource/Paul_the_Apostle"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["24140"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e803-71"/>
+<end id="e803-72"/>
+<entry id="e803-73" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.790Z">
+<s type="iri" val="http://dbpedia.org/resource/Peer_group"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-74" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.792Z">
+<s type="iri" val="http://dbpedia.org/resource/Pentecostal"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e803-73"><s type="iri" val="http://dbpedia.org/resource/Peer_group"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["272607"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-74"><s type="iri" val="http://dbpedia.org/resource/Pentecostal"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["28644312"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e803-73"/>
+<end id="e803-74"/>
+<entry id="e803-75" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.802Z">
+<s type="iri" val="http://dbpedia.org/resource/Pentecostalism"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-76" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.804Z">
+<s type="iri" val="http://dbpedia.org/resource/Preacher"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e803-75"><s type="iri" val="http://dbpedia.org/resource/Pentecostalism"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["23555"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-76"><s type="iri" val="http://dbpedia.org/resource/Preacher"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["24972"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e803-77" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.806Z">
+<s type="iri" val="http://dbpedia.org/resource/Presbyter"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-75"/>
+<end id="e803-76"/>
+<data-triple-N3 id="e803-77"><s type="iri" val="http://dbpedia.org/resource/Presbyter"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["74222"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e803-77"/>
+<entry id="e803-78" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.844Z">
+<s type="iri" val="http://dbpedia.org/resource/Presbyterian"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e803-78"><s type="iri" val="http://dbpedia.org/resource/Presbyterian"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1106342"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e803-78"/>
+<entry id="e803-79" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.853Z">
+<s type="iri" val="http://dbpedia.org/resource/Presbyterianism"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-80" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.856Z">
+<s type="iri" val="http://dbpedia.org/resource/Presbyters"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-81" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.857Z">
+<s type="iri" val="http://dbpedia.org/resource/Priest"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e803-79"><s type="iri" val="http://dbpedia.org/resource/Presbyterianism"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["24403"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-80"><s type="iri" val="http://dbpedia.org/resource/Presbyters"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1371060"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-81"><s type="iri" val="http://dbpedia.org/resource/Priest"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["23707"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e803-82" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.859Z">
+<s type="iri" val="http://dbpedia.org/resource/Priesthood_of_all_believers"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-83" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.861Z">
+<s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="var"/><o type="var"/>
+</entry>
+<end id="e803-79"/>
+<end id="e803-80"/>
+<end id="e803-81"/>
+<data-triple-N3 id="e803-82"><s type="iri" val="http://dbpedia.org/resource/Priesthood_of_all_believers"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["36435421"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Christian_religious_occupations"/></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Ecclesiastical_titles"/></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Local_Christian_church_officials"/></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#comment"/><o type="lit"><![CDATA["A pastor is usually an ordained leader of a Christian congregation. When used as an ecclesiastical styling or title, the term may be abbreviated to "Pr" or often "Ps.""@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["Pastor"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://bg.dbpedia.org/resource/Пастор"/></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://cs.dbpedia.org/resource/Pastor"/></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://da.dbpedia.org/resource/Pastor"/></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Pastor"/></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://el.dbpedia.org/resource/Ποιμένας"/></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/Pastoro"/></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/Pastor_(ministro_religioso)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/Pastor"/></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fi.dbpedia.org/resource/Pastori"/></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/Pasteur_protestant"/></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fy.dbpedia.org/resource/Pastoar"/></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://he.dbpedia.org/resource/כומר"/></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://hr.dbpedia.org/resource/Pastor"/></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://hu.dbpedia.org/resource/Lelkipasztor"/></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://id.dbpedia.org/resource/Pastor"/></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/Pastore_(religione)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ja.dbpedia.org/resource/牧師"/></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/목사"/></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://lt.dbpedia.org/resource/Pastorius"/></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://nl.dbpedia.org/resource/Pastor"/></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://no.dbpedia.org/resource/Pastor"/></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://pl.dbpedia.org/resource/Pastor"/></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://pt.dbpedia.org/resource/Pastor_(religiao)"/></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ru.dbpedia.org/resource/Пастор"/></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://sh.dbpedia.org/resource/Pastor"/></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://simple.dbpedia.org/resource/Pastor"/></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://sr.dbpedia.org/resource/Пастор"/></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://sv.dbpedia.org/resource/Pastor"/></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://th.dbpedia.org/resource/ศิษยาภิบาล"/></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://uk.dbpedia.org/resource/Пастор"/></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://vi.dbpedia.org/resource/Muc_su"/></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q152002"/></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://yi.dbpedia.org/resource/גלח"/></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh-yue.dbpedia.org/resource/牧師"/></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/牧师"/></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/Pastor?oldid=547565571"/></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://xmlns.com/foaf/0.1/depiction"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/6/69/V&amp;A_-_Raphael,_Christ's_Charge_to_Peter_(1515).jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e803-83"><s type="iri" val="http://dbpedia.org/resource/Pastor"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/Pastor"/></data-triple-N3>
+
+<end id="e803-82"/>
+<end id="e803-83"/>
+<entry id="e803-84" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.900Z">
+<s type="iri" val="http://dbpedia.org/resource/Priests"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e803-84"><s type="iri" val="http://dbpedia.org/resource/Priests"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["801518"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e803-84"/>
+<entry id="e803-85" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.904Z">
+<s type="iri" val="http://dbpedia.org/resource/Protestant"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e803-85"><s type="iri" val="http://dbpedia.org/resource/Protestant"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["23641"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e803-85"/>
+<entry id="e803-86" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.906Z">
+<s type="iri" val="http://dbpedia.org/resource/Protestant_Reformation"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e803-86"><s type="iri" val="http://dbpedia.org/resource/Protestant_Reformation"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["37857"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e803-86"/>
+<entry id="e803-87" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.909Z">
+<s type="iri" val="http://dbpedia.org/resource/Protestant_denominations"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e803-87"><s type="iri" val="http://dbpedia.org/resource/Protestant_denominations"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["23685180"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e803-87"/>
+<entry id="e803-88" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.948Z">
+<s type="iri" val="http://dbpedia.org/resource/Protestantism"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-89" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.950Z">
+<s type="iri" val="http://dbpedia.org/resource/Rabbi"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e803-88"><s type="iri" val="http://dbpedia.org/resource/Protestantism"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["25814008"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-89"><s type="iri" val="http://dbpedia.org/resource/Rabbi"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["51273"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e803-90" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.952Z">
+<s type="iri" val="http://dbpedia.org/resource/Restoration_Movement"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-88"/>
+<end id="e803-89"/>
+<data-triple-N3 id="e803-90"><s type="iri" val="http://dbpedia.org/resource/Restoration_Movement"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["294903"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e803-91" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.954Z">
+<s type="iri" val="http://dbpedia.org/resource/Roman_Empire"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-90"/>
+<data-triple-N3 id="e803-91"><s type="iri" val="http://dbpedia.org/resource/Roman_Empire"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["25507"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e803-91"/>
+<entry id="e803-92" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.992Z">
+<s type="iri" val="http://dbpedia.org/resource/Rowland_Croucher"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-93" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.994Z">
+<s type="iri" val="http://dbpedia.org/resource/Seventh-day_Adventist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e803-92"><s type="iri" val="http://dbpedia.org/resource/Rowland_Croucher"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["11032769"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-93"><s type="iri" val="http://dbpedia.org/resource/Seventh-day_Adventist"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["28633"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e803-92"/>
+<end id="e803-93"/>
+<entry id="e803-94" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.997Z">
+<s type="iri" val="http://dbpedia.org/resource/Seventh-day_Adventist_Church"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-95" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:03.999Z">
+<s type="iri" val="http://dbpedia.org/resource/Sexual_abuse"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-96" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.000Z">
+<s type="iri" val="http://dbpedia.org/resource/Shepherd"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e803-94"><s type="iri" val="http://dbpedia.org/resource/Seventh-day_Adventist_Church"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["28632"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-95"><s type="iri" val="http://dbpedia.org/resource/Sexual_abuse"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["7397019"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e803-96"><s type="iri" val="http://dbpedia.org/resource/Shepherd"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["21188297"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e803-94"/>
+<end id="e803-95"/>
+<end id="e803-96"/>
+<entry id="e803-97" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.036Z">
+<s type="iri" val="http://dbpedia.org/resource/Stress_(biology)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e803-97"><s type="iri" val="http://dbpedia.org/resource/Stress_(biology)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["146072"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e803-97"/>
+<entry id="e803-98" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.041Z">
+<s type="iri" val="http://dbpedia.org/resource/Stress_(medicine)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e803-98"><s type="iri" val="http://dbpedia.org/resource/Stress_(medicine)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["17912712"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e803-98"/>
+<entry id="e803-99" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.045Z">
+<s type="iri" val="http://dbpedia.org/resource/Universal_priesthood_(doctrine)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-100" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.046Z">
+<s type="iri" val="http://dbpedia.org/resource/File:Bielsko-Bia%C5%82a_Arthur_Schmidt_001.JPG"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e803-99"><s type="iri" val="http://dbpedia.org/resource/Universal_priesthood_(doctrine)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["178453"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e803-101" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.048Z">
+<s type="iri" val="http://dbpedia.org/resource/File:V&amp;A_-_Raphael,_Christ's_Charge_to_Peter_(1515).jpg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-99"/>
+<end id="e803-100"/>
+<end id="e803-101"/>
+<entry id="e803-102" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.095Z">
+<s type="iri" val="http://bg.dbpedia.org/resource/Пастор"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-103" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.101Z">
+<s type="iri" val="http://cs.dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-104" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.104Z">
+<s type="iri" val="http://da.dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-105" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.107Z">
+<s type="iri" val="http://de.dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-102"/>
+<end id="e803-103"/>
+<end id="e803-104"/>
+<entry id="e803-106" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.115Z">
+<s type="iri" val="http://el.dbpedia.org/resource/Ποιμένας"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-105"/>
+<end id="e803-106"/>
+<entry id="e803-107" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.153Z">
+<s type="iri" val="http://eo.dbpedia.org/resource/Pastoro"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-107"/>
+<entry id="e803-108" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.158Z">
+<s type="iri" val="http://es.dbpedia.org/resource/Pastor_(ministro_religioso)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-109" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.161Z">
+<s type="iri" val="http://et.dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-110" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.164Z">
+<s type="iri" val="http://fi.dbpedia.org/resource/Pastori"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-111" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.165Z">
+<s type="iri" val="http://fr.dbpedia.org/resource/Pasteur_protestant"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-108"/>
+<end id="e803-109"/>
+<end id="e803-110"/>
+<end id="e803-111"/>
+<entry id="e803-112" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.210Z">
+<s type="iri" val="http://fy.dbpedia.org/resource/Pastoar"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-113" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.212Z">
+<s type="iri" val="http://he.dbpedia.org/resource/כומר"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-114" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.216Z">
+<s type="iri" val="http://hr.dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-112"/>
+<end id="e803-113"/>
+<entry id="e803-115" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.222Z">
+<s type="iri" val="http://hu.dbpedia.org/resource/Lelkipasztor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-116" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.226Z">
+<s type="iri" val="http://id.dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-114"/>
+<end id="e803-115"/>
+<end id="e803-116"/>
+<entry id="e803-117" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.260Z">
+<s type="iri" val="http://it.dbpedia.org/resource/Pastore_(religione)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-117"/>
+<entry id="e803-118" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.269Z">
+<s type="iri" val="http://ja.dbpedia.org/resource/牧師"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-119" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.271Z">
+<s type="iri" val="http://ko.dbpedia.org/resource/목사"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-120" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.272Z">
+<s type="iri" val="http://lt.dbpedia.org/resource/Pastorius"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-121" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.274Z">
+<s type="iri" val="http://nl.dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-118"/>
+<end id="e803-119"/>
+<end id="e803-120"/>
+<end id="e803-121"/>
+<entry id="e803-122" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.322Z">
+<s type="iri" val="http://no.dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-123" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.325Z">
+<s type="iri" val="http://pl.dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-124" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.328Z">
+<s type="iri" val="http://pt.dbpedia.org/resource/Pastor_(religiao)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-125" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.332Z">
+<s type="iri" val="http://ru.dbpedia.org/resource/Пастор"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-122"/>
+<end id="e803-123"/>
+<end id="e803-124"/>
+<end id="e803-125"/>
+<entry id="e803-126" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.338Z">
+<s type="iri" val="http://sh.dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-126"/>
+<entry id="e803-127" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.382Z">
+<s type="iri" val="http://simple.dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-128" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.387Z">
+<s type="iri" val="http://sr.dbpedia.org/resource/Пастор"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-129" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.392Z">
+<s type="iri" val="http://sv.dbpedia.org/resource/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-130" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.395Z">
+<s type="iri" val="http://th.dbpedia.org/resource/ศิษยาภิบาล"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-127"/>
+<end id="e803-128"/>
+<end id="e803-129"/>
+<end id="e803-130"/>
+<entry id="e803-131" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.404Z">
+<s type="iri" val="http://uk.dbpedia.org/resource/Пастор"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-131"/>
+<entry id="e803-132" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.453Z">
+<s type="iri" val="http://vi.dbpedia.org/resource/Muc_su"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-133" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.456Z">
+<s type="iri" val="http://www.wikidata.org/entity/Q152002"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-134" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.458Z">
+<s type="iri" val="http://yi.dbpedia.org/resource/גלח"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-135" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.460Z">
+<s type="iri" val="http://zh-yue.dbpedia.org/resource/牧師"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-132"/>
+<end id="e803-133"/>
+<end id="e803-134"/>
+<end id="e803-135"/>
+<entry id="e803-136" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.473Z">
+<s type="iri" val="http://zh.dbpedia.org/resource/牧师"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-136"/>
+<entry id="e803-137" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.506Z">
+<s type="iri" val="http://en.wikipedia.org/wiki/Pastor?oldid=547565571"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-138" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.510Z">
+<s type="iri" val="http://upload.wikimedia.org/wikipedia/commons/6/69/V&amp;A_-_Raphael,_Christ's_Charge_to_Peter_(1515).jpg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e803-139" client="::ffff:127.0.0.1" worker="803" time="2017-04-25T22:56:04.513Z">
+<s type="iri" val="http://en.wikipedia.org/wiki/Pastor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e803-137"/>
+<end id="e803-138"/>
+<end id="e803-139"/>
+ </trace>

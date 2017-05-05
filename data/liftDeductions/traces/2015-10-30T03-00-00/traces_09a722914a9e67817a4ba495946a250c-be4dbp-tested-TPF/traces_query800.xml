@@ -1,0 +1,929 @@
+<?xml version="1.0"?><!DOCTYPE trace SYSTEM "logTPF.dtd">
+<trace>
+<msg>Master 18073 running on http://localhost:5000/.</msg>
+<msg>Worker 18079 running on http://localhost:5000/.</msg>
+<entry id="e18079-1" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:42.663Z">
+<s type="var"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5878274"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["489132637"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!?oldid=489132637"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3632887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["545017937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Doppeltes_Ausrufezeichen"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q353153"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!!?oldid=545017937"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chkchkchk.jpg/200px-Chkchkchk.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://auralstates.com/2007/10/interview-aka-chk-chk-chk-w-nic-offer.html"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://punkcast.com/423/"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://supersweet.org/main.aspx?atype=1&amp;aname=Music_Chk_Chk_Chk&amp;con=1&amp;sc1=0&amp;sc2=0"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.chkchkchk.net/"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.npr.org/templates/story/story.php?storyId=10236467"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600744"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548612260"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Billboard_200"/></data-triple-N3>
+
+<end id="e18079-1"/>
+<entry id="e18079-2" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:42.718Z">
+<s type="var"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["137677"^^http://www.w3.org/2001/XMLSchema#integer]]></o>
+</entry>
+<data-triple-N3 id="e18079-2"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["137677"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e18079-2"/>
+<entry id="e18079-3" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:42.725Z">
+<s type="var"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5878274"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["489132637"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!?oldid=489132637"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3632887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["545017937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Doppeltes_Ausrufezeichen"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q353153"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!!?oldid=545017937"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chkchkchk.jpg/200px-Chkchkchk.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://auralstates.com/2007/10/interview-aka-chk-chk-chk-w-nic-offer.html"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://punkcast.com/423/"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://supersweet.org/main.aspx?atype=1&amp;aname=Music_Chk_Chk_Chk&amp;con=1&amp;sc1=0&amp;sc2=0"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.chkchkchk.net/"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.npr.org/templates/story/story.php?storyId=10236467"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600744"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548612260"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Billboard_200"/></data-triple-N3>
+
+<end id="e18079-3"/>
+<entry id="e18079-4" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:42.764Z">
+<s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/PopulatedPlace/areaTotal"/><o type="lit"><![CDATA["2.3"^^http://dbpedia.org/datatype/squareKilometre]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/PopulatedPlace/areaTotal"/><o type="lit"><![CDATA["2.3309892993024"^^http://dbpedia.org/datatype/squareKilometre]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/PopulatedPlace/populationDensity"/><o type="lit"><![CDATA["183.28269466009908"^^http://dbpedia.org/datatype/inhabitantsPerSquareKilometre]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/PopulatedPlace/populationDensity"/><o type="lit"><![CDATA["183.3"^^http://dbpedia.org/datatype/inhabitantsPerSquareKilometre]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/areaCode"/><o type="lit"><![CDATA["540"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/areaLand"/><o type="lit"><![CDATA["2300000.0"^^http://www.w3.org/2001/XMLSchema#double]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/areaLand"/><o type="lit"><![CDATA["2330989.2993024"^^http://www.w3.org/2001/XMLSchema#double]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/areaTotal"/><o type="lit"><![CDATA["2300000.0"^^http://www.w3.org/2001/XMLSchema#double]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/areaTotal"/><o type="lit"><![CDATA["2330989.2993024"^^http://www.w3.org/2001/XMLSchema#double]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/areaWater"/><o type="lit"><![CDATA["0.0"^^http://www.w3.org/2001/XMLSchema#double]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/country"/><o type="iri" val="http://dbpedia.org/resource/United_States"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/elevation"/><o type="lit"><![CDATA["139.9032"^^http://www.w3.org/2001/XMLSchema#double]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/elevation"/><o type="lit"><![CDATA["140.0"^^http://www.w3.org/2001/XMLSchema#double]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/isPartOf"/><o type="iri" val="http://dbpedia.org/resource/Louisa_County,_Virginia"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/isPartOf"/><o type="iri" val="http://dbpedia.org/resource/Virginia"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/leaderTitle"/><o type="lit"><![CDATA["Mayor"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/populationDensity"/><o type="lit"><![CDATA["183.28269466009908"^^http://www.w3.org/2001/XMLSchema#double]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/populationDensity"/><o type="lit"><![CDATA["183.3"^^http://www.w3.org/2001/XMLSchema#double]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/populationTotal"/><o type="lit"><![CDATA["424"^^http://www.w3.org/2001/XMLSchema#nonNegativeInteger]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/postalCode"/><o type="lit"><![CDATA["23117"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/VAMap-doton-Mineral.PNG/200px-VAMap-doton-Mineral.PNG"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/timeZone"/><o type="iri" val="http://dbpedia.org/resource/Eastern_Time_Zone"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/type"/><o type="iri" val="http://dbpedia.org/resource/Town"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/utcOffset"/><o type="lit"><![CDATA["-4"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/utcOffset"/><o type="lit"><![CDATA["-5"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://townofmineral.com/"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["137677"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["543387391"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/2000_United_States_Census"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/2000_United_States_Census"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Area_code_540"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Area_code_540"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Black_(U.S._Census)"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Populated_places_established_in_1890"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Populated_places_established_in_1890"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Populated_places_in_Louisa_County,_Virginia"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Populated_places_in_Louisa_County,_Virginia"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Towns_in_Virginia"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:Towns_in_Virginia"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Census"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Census"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Eastern_Time_Zone"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Eastern_Time_Zone"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Federal_Information_Processing_Standard"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Federal_Information_Processing_Standard"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:Mineral_C&amp;O_Depot_WJGrimes.JPG"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/File:Mineral_C&amp;O_Depot_WJGrimes.JPG"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Geographic_Names_Information_System"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Geographic_Names_Information_System"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/List_of_counties_in_Virginia"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/List_of_counties_in_Virginia"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/List_of_countries"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/List_of_sovereign_states"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Louisa_County,_Virginia"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Louisa_County,_Virginia"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Marriage"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Marriage"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mayor"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Mayor"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Per_capita_income"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Per_capita_income"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Population_density"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Population_density"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Poverty_line"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Poverty_threshold"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Race_and_ethnicity_in_the_United_States_Census"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Town"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Town"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/U.S._state"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/US_state"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_Census_Bureau"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/United_States_Census_Bureau"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Virginia"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Virginia"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/White_(U.S._Census)"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/ZIP_code"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/ZIP_code"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Populated_places_established_in_1890"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Populated_places_in_Louisa_County,_Virginia"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:Towns_in_Virginia"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://www.georss.org/georss/point"/><o type="lit"><![CDATA["38.00611111111111 -77.90944444444445"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://www.georss.org/georss/point"/><o type="lit"><![CDATA["38.00611111111111 -77.90944444444445"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/><o type="iri" val="http://dbpedia.org/ontology/Place"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/><o type="iri" val="http://dbpedia.org/ontology/PopulatedPlace"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/><o type="iri" val="http://dbpedia.org/ontology/Settlement"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/><o type="iri" val="http://dbpedia.org/ontology/Town"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/><o type="iri" val="http://schema.org/Place"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/><o type="iri" val="http://www.opengis.net/gml/_Feature"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/><o type="iri" val="http://www.opengis.net/gml/_Feature"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/><o type="iri" val="http://www.w3.org/2002/07/owl#Thing"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#comment"/><o type="lit"><![CDATA["Mineral is a town in Louisa County, Virginia, United States. The population was 424 at the 2000 census."@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["Mineral, Virginia"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ca.dbpedia.org/resource/Mineral_(Virginia)"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/Mineral_(Virginia)"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/Mineral_(Virginie)"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ht.dbpedia.org/resource/Mineral,_Vijini"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://nl.dbpedia.org/resource/Mineral_(Virginia)"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-4"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://pt.dbpedia.org/resource/Mineral_(Virginia)"/></data-triple-N3>
+
+<end id="e18079-4"/>
+<entry id="e18079-5" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:42.794Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e18079-5"><s type="iri" val="http://dbpedia.org/resource/United_States"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3434750"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e18079-5"/>
+<entry id="e18079-6" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:42.800Z">
+<s type="iri" val="http://dbpedia.org/resource/Louisa_County,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e18079-6"><s type="iri" val="http://dbpedia.org/resource/Louisa_County,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["91293"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e18079-6"/>
+<entry id="e18079-7" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:42.840Z">
+<s type="iri" val="http://dbpedia.org/resource/Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e18079-7"><s type="iri" val="http://dbpedia.org/resource/Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["32432"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e18079-7"/>
+<entry id="e18079-8" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:42.891Z">
+<s type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/VAMap-doton-Mineral.PNG/200px-VAMap-doton-Mineral.PNG"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e18079-9" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:42.899Z">
+<s type="iri" val="http://dbpedia.org/resource/Eastern_Time_Zone"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e18079-9"><s type="iri" val="http://dbpedia.org/resource/Eastern_Time_Zone"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["496028"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e18079-10" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:42.903Z">
+<s type="iri" val="http://dbpedia.org/resource/Town"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e18079-8"/>
+<end id="e18079-9"/>
+<data-triple-N3 id="e18079-10"><s type="iri" val="http://dbpedia.org/resource/Town"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["52911"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e18079-10"/>
+<entry id="e18079-11" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:42.916Z">
+<s type="iri" val="http://townofmineral.com/"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e18079-11"/>
+<entry id="e18079-12" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:42.954Z">
+<s type="iri" val="http://dbpedia.org/resource/2000_United_States_Census"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e18079-12"><s type="iri" val="http://dbpedia.org/resource/2000_United_States_Census"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["432383"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e18079-12"/>
+<entry id="e18079-13" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:42.961Z">
+<s type="iri" val="http://dbpedia.org/resource/Area_code_540"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e18079-13"><s type="iri" val="http://dbpedia.org/resource/Area_code_540"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3311922"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e18079-13"/>
+<entry id="e18079-14" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:42.966Z">
+<s type="iri" val="http://dbpedia.org/resource/Black_(U.S._Census)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e18079-15" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:42.968Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Populated_places_established_in_1890"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e18079-14"><s type="iri" val="http://dbpedia.org/resource/Black_(U.S._Census)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1183078"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-15"><s type="iri" val="http://dbpedia.org/resource/Category:Populated_places_established_in_1890"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["27643619"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e18079-14"/>
+<end id="e18079-15"/>
+<entry id="e18079-16" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.008Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Populated_places_in_Louisa_County,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e18079-16"><s type="iri" val="http://dbpedia.org/resource/Category:Populated_places_in_Louisa_County,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["30110837"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e18079-16"/>
+<entry id="e18079-17" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.015Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:Towns_in_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e18079-17"><s type="iri" val="http://dbpedia.org/resource/Category:Towns_in_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["739902"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e18079-17"/>
+<entry id="e18079-18" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.055Z">
+<s type="iri" val="http://dbpedia.org/resource/Census"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e18079-18"><s type="iri" val="http://dbpedia.org/resource/Census"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["6889"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e18079-18"/>
+<entry id="e18079-19" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.065Z">
+<s type="iri" val="http://dbpedia.org/resource/Federal_Information_Processing_Standard"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e18079-19"><s type="iri" val="http://dbpedia.org/resource/Federal_Information_Processing_Standard"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["11113"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e18079-19"/>
+<entry id="e18079-20" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.072Z">
+<s type="iri" val="http://dbpedia.org/resource/File:Mineral_C&amp;O_Depot_WJGrimes.JPG"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e18079-20"><s type="iri" val="http://dbpedia.org/resource/File:Mineral_C&amp;O_Depot_WJGrimes.JPG"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["15345008"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e18079-20"/>
+<entry id="e18079-21" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.113Z">
+<s type="iri" val="http://dbpedia.org/resource/Geographic_Names_Information_System"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e18079-21"><s type="iri" val="http://dbpedia.org/resource/Geographic_Names_Information_System"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["351656"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e18079-21"/>
+<entry id="e18079-22" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.118Z">
+<s type="iri" val="http://dbpedia.org/resource/List_of_counties_in_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e18079-22"><s type="iri" val="http://dbpedia.org/resource/List_of_counties_in_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["81088"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e18079-23" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.124Z">
+<s type="iri" val="http://dbpedia.org/resource/List_of_countries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e18079-24" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.126Z">
+<s type="iri" val="http://dbpedia.org/resource/List_of_sovereign_states"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e18079-22"/>
+<data-triple-N3 id="e18079-23"><s type="iri" val="http://dbpedia.org/resource/List_of_countries"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1779040"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-24"><s type="iri" val="http://dbpedia.org/resource/List_of_sovereign_states"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["68253"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e18079-23"/>
+<end id="e18079-24"/>
+<entry id="e18079-25" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.175Z">
+<s type="iri" val="http://dbpedia.org/resource/Marriage"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e18079-25"><s type="iri" val="http://dbpedia.org/resource/Marriage"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["19728"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e18079-26" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.178Z">
+<s type="iri" val="http://dbpedia.org/resource/Mayor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e18079-25"/>
+<data-triple-N3 id="e18079-26"><s type="iri" val="http://dbpedia.org/resource/Mayor"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["101146"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e18079-26"/>
+<entry id="e18079-27" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.227Z">
+<s type="iri" val="http://dbpedia.org/resource/Per_capita_income"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e18079-27"><s type="iri" val="http://dbpedia.org/resource/Per_capita_income"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["23893"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e18079-28" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.230Z">
+<s type="iri" val="http://dbpedia.org/resource/Population_density"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e18079-27"/>
+<data-triple-N3 id="e18079-28"><s type="iri" val="http://dbpedia.org/resource/Population_density"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["128608"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e18079-28"/>
+<entry id="e18079-29" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.237Z">
+<s type="iri" val="http://dbpedia.org/resource/Poverty_line"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e18079-29"><s type="iri" val="http://dbpedia.org/resource/Poverty_line"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5022596"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e18079-30" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.239Z">
+<s type="iri" val="http://dbpedia.org/resource/Poverty_threshold"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e18079-29"/>
+<data-triple-N3 id="e18079-30"><s type="iri" val="http://dbpedia.org/resource/Poverty_threshold"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["170584"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e18079-30"/>
+<entry id="e18079-31" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.277Z">
+<s type="iri" val="http://dbpedia.org/resource/Race_and_ethnicity_in_the_United_States_Census"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e18079-31"><s type="iri" val="http://dbpedia.org/resource/Race_and_ethnicity_in_the_United_States_Census"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["273285"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e18079-31"/>
+<entry id="e18079-32" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.286Z">
+<s type="iri" val="http://dbpedia.org/resource/U.S._state"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e18079-32"><s type="iri" val="http://dbpedia.org/resource/U.S._state"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["18618239"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e18079-32"/>
+<entry id="e18079-33" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.322Z">
+<s type="iri" val="http://dbpedia.org/resource/US_state"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e18079-33"><s type="iri" val="http://dbpedia.org/resource/US_state"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["60182"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e18079-33"/>
+<entry id="e18079-34" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.333Z">
+<s type="iri" val="http://dbpedia.org/resource/United_States_Census_Bureau"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e18079-34"><s type="iri" val="http://dbpedia.org/resource/United_States_Census_Bureau"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["57070"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e18079-34"/>
+<entry id="e18079-35" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.380Z">
+<s type="iri" val="http://dbpedia.org/resource/White_(U.S._Census)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e18079-36" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.382Z">
+<s type="iri" val="http://dbpedia.org/resource/ZIP_code"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e18079-35"><s type="iri" val="http://dbpedia.org/resource/White_(U.S._Census)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["873772"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-36"><s type="iri" val="http://dbpedia.org/resource/ZIP_code"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["51550"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e18079-37" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.385Z">
+<s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="var"/><o type="var"/>
+</entry>
+<end id="e18079-35"/>
+<end id="e18079-36"/>
+<data-triple-N3 id="e18079-37"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://simple.dbpedia.org/resource/Mineral,_Virginia"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-37"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://sr.dbpedia.org/resource/Минерал_(Вирџинија)"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-37"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://uz.dbpedia.org/resource/Mineral_(Virginia)"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-37"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://vo.dbpedia.org/resource/Mineral_(Virginia)"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-37"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q968870"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-37"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/><o type="lit"><![CDATA["38.00611111111111"^^http://www.w3.org/2001/XMLSchema#float]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-37"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/><o type="lit"><![CDATA["38.00611111111111"^^http://www.w3.org/2001/XMLSchema#float]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-37"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#long"/><o type="lit"><![CDATA["-77.90944444444445"^^http://www.w3.org/2001/XMLSchema#float]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-37"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://www.w3.org/2003/01/geo/wgs84_pos#long"/><o type="lit"><![CDATA["-77.90944444444445"^^http://www.w3.org/2001/XMLSchema#float]]></o></data-triple-N3>
+
+<data-triple-N3 id="e18079-37"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/Mineral,_Virginia?oldid=543387391"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-37"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://xmlns.com/foaf/0.1/depiction"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/4/4a/VAMap-doton-Mineral.PNG"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-37"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://xmlns.com/foaf/0.1/homepage"/><o type="iri" val="http://townofmineral.com/"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-37"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://xmlns.com/foaf/0.1/homepage"/><o type="iri" val="http://townofmineral.com/"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-37"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/Mineral,_Virginia"/></data-triple-N3>
+
+<data-triple-N3 id="e18079-37"><s type="iri" val="http://dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://xmlns.com/foaf/0.1/name"/><o type="lit"><![CDATA["Mineral, Virginia"@en]]></o></data-triple-N3>
+
+<end id="e18079-37"/>
+<entry id="e18079-38" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.438Z">
+<s type="iri" val="http://dbpedia.org/ontology/Place"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e18079-39" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.440Z">
+<s type="iri" val="http://dbpedia.org/ontology/PopulatedPlace"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e18079-40" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.442Z">
+<s type="iri" val="http://dbpedia.org/ontology/Settlement"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e18079-38"/>
+<end id="e18079-39"/>
+<end id="e18079-40"/>
+<entry id="e18079-41" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.447Z">
+<s type="iri" val="http://schema.org/Place"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e18079-42" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.448Z">
+<s type="iri" val="http://dbpedia.org/ontology/Town"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e18079-41"/>
+<end id="e18079-42"/>
+<entry id="e18079-43" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.488Z">
+<s type="iri" val="http://www.opengis.net/gml/_Feature"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e18079-44" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.495Z">
+<s type="iri" val="http://www.w3.org/2002/07/owl#Thing"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e18079-43"/>
+<end id="e18079-44"/>
+<entry id="e18079-45" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.549Z">
+<s type="iri" val="http://ca.dbpedia.org/resource/Mineral_(Virginia)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e18079-46" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.551Z">
+<s type="iri" val="http://es.dbpedia.org/resource/Mineral_(Virginia)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e18079-47" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.553Z">
+<s type="iri" val="http://fr.dbpedia.org/resource/Mineral_(Virginie)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e18079-48" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.555Z">
+<s type="iri" val="http://ht.dbpedia.org/resource/Mineral,_Vijini"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e18079-45"/>
+<end id="e18079-46"/>
+<end id="e18079-47"/>
+<end id="e18079-48"/>
+<entry id="e18079-49" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.562Z">
+<s type="iri" val="http://nl.dbpedia.org/resource/Mineral_(Virginia)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e18079-50" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.564Z">
+<s type="iri" val="http://pt.dbpedia.org/resource/Mineral_(Virginia)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e18079-49"/>
+<end id="e18079-50"/>
+<entry id="e18079-51" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.601Z">
+<s type="iri" val="http://simple.dbpedia.org/resource/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e18079-52" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.605Z">
+<s type="iri" val="http://sr.dbpedia.org/resource/Минерал_(Вирџинија)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e18079-51"/>
+<entry id="e18079-53" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.610Z">
+<s type="iri" val="http://uz.dbpedia.org/resource/Mineral_(Virginia)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e18079-54" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.613Z">
+<s type="iri" val="http://vo.dbpedia.org/resource/Mineral_(Virginia)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e18079-52"/>
+<end id="e18079-53"/>
+<end id="e18079-54"/>
+<entry id="e18079-55" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.649Z">
+<s type="iri" val="http://www.wikidata.org/entity/Q968870"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e18079-55"/>
+<entry id="e18079-56" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.697Z">
+<s type="iri" val="http://en.wikipedia.org/wiki/Mineral,_Virginia?oldid=543387391"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e18079-57" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.703Z">
+<s type="iri" val="http://upload.wikimedia.org/wikipedia/commons/4/4a/VAMap-doton-Mineral.PNG"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e18079-56"/>
+<end id="e18079-57"/>
+<entry id="e18079-58" client="::ffff:127.0.0.1" worker="18079" time="2017-04-25T22:40:43.713Z">
+<s type="iri" val="http://en.wikipedia.org/wiki/Mineral,_Virginia"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e18079-58"/>
+ </trace>

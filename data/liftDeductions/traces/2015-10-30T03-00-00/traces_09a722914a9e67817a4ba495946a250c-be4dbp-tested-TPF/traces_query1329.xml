@@ -1,0 +1,1363 @@
+<?xml version="1.0"?><!DOCTYPE trace SYSTEM "logTPF.dtd">
+<trace>
+<msg>Master 12390 running on http://localhost:5000/.</msg>
+<msg>Worker 12396 running on http://localhost:5000/.</msg>
+<entry id="e12396-1" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:05.538Z">
+<s type="var"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5878274"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["489132637"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!?oldid=489132637"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3632887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["545017937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Doppeltes_Ausrufezeichen"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q353153"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!!?oldid=545017937"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chkchkchk.jpg/200px-Chkchkchk.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://auralstates.com/2007/10/interview-aka-chk-chk-chk-w-nic-offer.html"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://punkcast.com/423/"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://supersweet.org/main.aspx?atype=1&amp;aname=Music_Chk_Chk_Chk&amp;con=1&amp;sc1=0&amp;sc2=0"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.chkchkchk.net/"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.npr.org/templates/story/story.php?storyId=10236467"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600744"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548612260"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-1"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Billboard_200"/></data-triple-N3>
+
+<end id="e12396-1"/>
+<entry id="e12396-2" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:05.595Z">
+<s type="var"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["683599"^^http://www.w3.org/2001/XMLSchema#integer]]></o>
+</entry>
+<data-triple-N3 id="e12396-2"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["683599"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-2"/>
+<entry id="e12396-3" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:05.602Z">
+<s type="var"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["5878274"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRedirects"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["489132637"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!?oldid=489132637"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageDisambiguates"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3632887"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["545017937"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!_(disambiguation)"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Boolean_data_type"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Chess_annotation_symbols"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_factorial"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Double_negative"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Exclamation_mark"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Haskell_(programming_language)"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Retroflex_clicks"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["!!"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/Doppeltes_Ausrufezeichen"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://eo.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://et.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://it.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://ko.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q353153"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://zh.dbpedia.org/resource/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/!!?oldid=545017937"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/activeYearsStartYear"/><o type="lit"><![CDATA["1996"^^http://www.w3.org/2001/XMLSchema#gYear]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedBand"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/LCD_Soundsystem"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Maserati_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Out_Hud"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/The_Juan_MacLean"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/associatedMusicalArtist"/><o type="iri" val="http://dbpedia.org/resource/Turing_Machine_(band)"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/background"/><o type="lit"><![CDATA["group_or_band"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/bandMember"/><o type="iri" val="http://dbpedia.org/resource/Nic_Offer"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Jerry_Fuchs"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/formerBandMember"/><o type="iri" val="http://dbpedia.org/resource/Justin_Van_Der_Volgen"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Dance-punk"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Indie_rock"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/genre"/><o type="iri" val="http://dbpedia.org/resource/Post-punk_revival"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/hometown"/><o type="iri" val="http://dbpedia.org/resource/Sacramento,_California"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Gold_Standard_Laboratories"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Touch_and_Go_Records"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/recordLabel"/><o type="iri" val="http://dbpedia.org/resource/Warp_(record_label)"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chkchkchk.jpg/200px-Chkchkchk.jpg"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://auralstates.com/2007/10/interview-aka-chk-chk-chk-w-nic-offer.html"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://punkcast.com/423/"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://supersweet.org/main.aspx?atype=1&amp;aname=Music_Chk_Chk_Chk&amp;con=1&amp;sc1=0&amp;sc2=0"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.chkchkchk.net/"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.npr.org/templates/story/story.php?storyId=10236467"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["600744"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["548612260"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/!!!_(album)"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bassline"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-3"><s type="iri" val="http://dbpedia.org/resource/!!!"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Billboard_200"/></data-triple-N3>
+
+<end id="e12396-3"/>
+<entry id="e12396-4" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:05.641Z">
+<s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/thumbnail"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/County_Championship_logo.svg/200px-County_Championship_logo.svg.png"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://static.espncricinfo.com/db/NATIONAL/ENG/CHAMPIONSHIP/CC_HISTORY.html"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://stats.cricinfo.com/ci/engine/current/records/index.html"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageExternalLink"/><o type="iri" val="http://www.lv.com/aboutus/sponsorship/lv-county-championship/index"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["683599"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageRevisionID"/><o type="lit"><![CDATA["541185988"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/1827_English_cricket_season"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/1827_English_cricket_season"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/1890_English_cricket_season"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/1890_English_cricket_season"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/2006_County_Championship"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/2006_County_Championship"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/2007_County_Championship"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/2007_County_Championship"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/2008_County_Championship"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/2008_County_Championship"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/2009_County_Championship"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/2009_County_Championship"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/2010_County_Championship"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/2010_County_Championship"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/2011_County_Championship"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/2011_County_Championship"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/2012_County_Championship"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/2012_County_Championship"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/AXA"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/AXA"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/All-England_Eleven"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/All-England_cricket_teams"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Arthur_Haygarth"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Arthur_Haygarth"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Berkshire_county_cricket_teams"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Berkshire_county_cricket_teams"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bragging_rights"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Bragging_rights"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Brighton_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Brighton_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Buckinghamshire_County_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Buckinghamshire_County_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Cambridgeshire_County_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Cambridgeshire_County_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:1890_establishments"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:1890_establishments"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:County_Championship"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:County_Championship"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:English_cricket_in_the_19th_century"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:English_cricket_in_the_19th_century"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:English_cricket_in_the_20th_century"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:English_cricket_in_the_20th_century"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:English_cricket_in_the_21st_century"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:English_cricket_in_the_21st_century"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:English_domestic_cricket_competitions"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Category:English_domestic_cricket_competitions"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Charles_Lennox,_2nd_Duke_of_Richmond"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Charles_Lennox,_2nd_Duke_of_Richmond"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Cricinfo"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Cricket"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Cricket"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Dartford_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Dartford_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Derbyshire_County_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Derbyshire_County_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Derek_Birley"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Derek_Birley"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Devon_County_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Devon_County_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Durham_County_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Durham_County_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/ESPNcricinfo"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/ESPNcricinfo"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Edward_Stead"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Edwin_Stead"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/England"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/England"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/England_and_Wales_Cricket_Board"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/England_and_Wales_Cricket_Board"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Essex_County_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Essex_County_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/First-class_cricket"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/First-class_cricket"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Friends_Provident_Trophy"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Friends_Provident_Trophy"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Glamorgan_County_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Glamorgan_County_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Gloucestershire_County_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Gloucestershire_County_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Hambledon_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Hambledon_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Hampshire_County_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Hampshire_County_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Hampshire_county_cricket_teams"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Hampshire_county_cricket_teams"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Kent_County_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Kent_County_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Kent_county_cricket_teams"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Kent_county_cricket_teams"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/LV_(company)"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/LV_(company)"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Lancashire_County_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Lancashire_County_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-4"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Leicestershire_County_Cricket_Club"/></data-triple-N3>
+
+<end id="e12396-4"/>
+<entry id="e12396-5" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:05.671Z">
+<s type="iri" val="http://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/County_Championship_logo.svg/200px-County_Championship_logo.svg.png"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12396-5"/>
+<entry id="e12396-6" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:05.678Z">
+<s type="iri" val="http://static.espncricinfo.com/db/NATIONAL/ENG/CHAMPIONSHIP/CC_HISTORY.html"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e12396-7" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:05.681Z">
+<s type="iri" val="http://stats.cricinfo.com/ci/engine/current/records/index.html"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12396-6"/>
+<entry id="e12396-8" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:05.684Z">
+<s type="iri" val="http://www.lv.com/aboutus/sponsorship/lv-county-championship/index"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12396-7"/>
+<end id="e12396-8"/>
+<entry id="e12396-9" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:05.719Z">
+<s type="iri" val="http://dbpedia.org/resource/1827_English_cricket_season"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-9"><s type="iri" val="http://dbpedia.org/resource/1827_English_cricket_season"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["7679994"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12396-10" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:05.723Z">
+<s type="iri" val="http://dbpedia.org/resource/1890_English_cricket_season"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12396-9"/>
+<data-triple-N3 id="e12396-10"><s type="iri" val="http://dbpedia.org/resource/1890_English_cricket_season"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2356753"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-10"/>
+<entry id="e12396-11" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:05.769Z">
+<s type="iri" val="http://dbpedia.org/resource/2006_County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-11"><s type="iri" val="http://dbpedia.org/resource/2006_County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["24432073"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12396-12" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:05.771Z">
+<s type="iri" val="http://dbpedia.org/resource/2007_County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12396-11"/>
+<data-triple-N3 id="e12396-12"><s type="iri" val="http://dbpedia.org/resource/2007_County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["19977189"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-12"/>
+<entry id="e12396-13" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:05.777Z">
+<s type="iri" val="http://dbpedia.org/resource/2008_County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-13"><s type="iri" val="http://dbpedia.org/resource/2008_County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["17765351"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12396-14" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:05.782Z">
+<s type="iri" val="http://dbpedia.org/resource/2009_County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12396-13"/>
+<data-triple-N3 id="e12396-14"><s type="iri" val="http://dbpedia.org/resource/2009_County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["21380240"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-14"/>
+<entry id="e12396-15" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:05.791Z">
+<s type="iri" val="http://dbpedia.org/resource/2010_County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-15"><s type="iri" val="http://dbpedia.org/resource/2010_County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["27064222"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-15"/>
+<entry id="e12396-16" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:05.829Z">
+<s type="iri" val="http://dbpedia.org/resource/2011_County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-16"><s type="iri" val="http://dbpedia.org/resource/2011_County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["31329766"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-16"/>
+<entry id="e12396-17" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:05.837Z">
+<s type="iri" val="http://dbpedia.org/resource/2012_County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-17"><s type="iri" val="http://dbpedia.org/resource/2012_County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["33095428"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12396-18" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:05.840Z">
+<s type="iri" val="http://dbpedia.org/resource/AXA"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12396-17"/>
+<data-triple-N3 id="e12396-18"><s type="iri" val="http://dbpedia.org/resource/AXA"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1256149"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-18"/>
+<entry id="e12396-19" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:05.845Z">
+<s type="iri" val="http://dbpedia.org/resource/All-England_Eleven"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-19"><s type="iri" val="http://dbpedia.org/resource/All-England_Eleven"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["30384045"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12396-20" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:05.848Z">
+<s type="iri" val="http://dbpedia.org/resource/All-England_cricket_teams"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12396-19"/>
+<data-triple-N3 id="e12396-20"><s type="iri" val="http://dbpedia.org/resource/All-England_cricket_teams"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["6408059"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12396-21" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:05.850Z">
+<s type="iri" val="http://dbpedia.org/resource/Arthur_Haygarth"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12396-20"/>
+<data-triple-N3 id="e12396-21"><s type="iri" val="http://dbpedia.org/resource/Arthur_Haygarth"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2809531"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-21"/>
+<entry id="e12396-22" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:05.892Z">
+<s type="iri" val="http://dbpedia.org/resource/Berkshire_county_cricket_teams"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-22"><s type="iri" val="http://dbpedia.org/resource/Berkshire_county_cricket_teams"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["7406369"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-22"/>
+<entry id="e12396-23" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:05.897Z">
+<s type="iri" val="http://dbpedia.org/resource/Bragging_rights"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-23"><s type="iri" val="http://dbpedia.org/resource/Bragging_rights"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["13463850"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12396-24" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:05.900Z">
+<s type="iri" val="http://dbpedia.org/resource/Brighton_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12396-23"/>
+<data-triple-N3 id="e12396-24"><s type="iri" val="http://dbpedia.org/resource/Brighton_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["14632132"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-24"/>
+<entry id="e12396-25" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:05.907Z">
+<s type="iri" val="http://dbpedia.org/resource/Buckinghamshire_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-25"><s type="iri" val="http://dbpedia.org/resource/Buckinghamshire_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3702814"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-25"/>
+<entry id="e12396-26" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:05.949Z">
+<s type="iri" val="http://dbpedia.org/resource/Cambridgeshire_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-26"><s type="iri" val="http://dbpedia.org/resource/Cambridgeshire_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1986069"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12396-27" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:05.952Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:1890_establishments"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12396-26"/>
+<data-triple-N3 id="e12396-27"><s type="iri" val="http://dbpedia.org/resource/Category:1890_establishments"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2396566"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-27"/>
+<entry id="e12396-28" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:05.993Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e12396-29" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:05.994Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:English_cricket_in_the_19th_century"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-28"><s type="iri" val="http://dbpedia.org/resource/Category:County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["23996361"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12396-29"><s type="iri" val="http://dbpedia.org/resource/Category:English_cricket_in_the_19th_century"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["8168566"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-28"/>
+<end id="e12396-29"/>
+<entry id="e12396-30" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.001Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:English_cricket_in_the_20th_century"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-30"><s type="iri" val="http://dbpedia.org/resource/Category:English_cricket_in_the_20th_century"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["8168793"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-30"/>
+<entry id="e12396-31" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.037Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:English_cricket_in_the_21st_century"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-31"><s type="iri" val="http://dbpedia.org/resource/Category:English_cricket_in_the_21st_century"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["8168834"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-31"/>
+<entry id="e12396-32" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.044Z">
+<s type="iri" val="http://dbpedia.org/resource/Category:English_domestic_cricket_competitions"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-32"><s type="iri" val="http://dbpedia.org/resource/Category:English_domestic_cricket_competitions"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2515106"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12396-33" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.048Z">
+<s type="iri" val="http://dbpedia.org/resource/Charles_Lennox,_2nd_Duke_of_Richmond"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12396-32"/>
+<data-triple-N3 id="e12396-33"><s type="iri" val="http://dbpedia.org/resource/Charles_Lennox,_2nd_Duke_of_Richmond"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2295928"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-33"/>
+<entry id="e12396-34" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.093Z">
+<s type="iri" val="http://dbpedia.org/resource/Cricinfo"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e12396-35" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.095Z">
+<s type="iri" val="http://dbpedia.org/resource/Cricket"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-34"><s type="iri" val="http://dbpedia.org/resource/Cricinfo"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["29762917"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12396-35"><s type="iri" val="http://dbpedia.org/resource/Cricket"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["25675557"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12396-36" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.099Z">
+<s type="iri" val="http://dbpedia.org/resource/Dartford_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12396-34"/>
+<end id="e12396-35"/>
+<data-triple-N3 id="e12396-36"><s type="iri" val="http://dbpedia.org/resource/Dartford_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2628306"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-36"/>
+<entry id="e12396-37" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.146Z">
+<s type="iri" val="http://dbpedia.org/resource/Derbyshire_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-37"><s type="iri" val="http://dbpedia.org/resource/Derbyshire_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1829984"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-37"/>
+<entry id="e12396-38" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.148Z">
+<s type="iri" val="http://dbpedia.org/resource/Derek_Birley"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-38"><s type="iri" val="http://dbpedia.org/resource/Derek_Birley"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2809321"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-38"/>
+<entry id="e12396-39" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.152Z">
+<s type="iri" val="http://dbpedia.org/resource/Devon_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-39"><s type="iri" val="http://dbpedia.org/resource/Devon_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["3691070"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12396-40" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.155Z">
+<s type="iri" val="http://dbpedia.org/resource/Durham_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12396-39"/>
+<data-triple-N3 id="e12396-40"><s type="iri" val="http://dbpedia.org/resource/Durham_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1176371"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-40"/>
+<entry id="e12396-41" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.163Z">
+<s type="iri" val="http://dbpedia.org/resource/ESPNcricinfo"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-41"><s type="iri" val="http://dbpedia.org/resource/ESPNcricinfo"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1147947"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-41"/>
+<entry id="e12396-42" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.202Z">
+<s type="iri" val="http://dbpedia.org/resource/Edward_Stead"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e12396-43" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.208Z">
+<s type="iri" val="http://dbpedia.org/resource/Edwin_Stead"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-42"><s type="iri" val="http://dbpedia.org/resource/Edward_Stead"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["36205177"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12396-43"><s type="iri" val="http://dbpedia.org/resource/Edwin_Stead"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2862235"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-42"/>
+<end id="e12396-43"/>
+<entry id="e12396-44" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.217Z">
+<s type="iri" val="http://dbpedia.org/resource/England"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-44"><s type="iri" val="http://dbpedia.org/resource/England"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["9316"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-44"/>
+<entry id="e12396-45" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.220Z">
+<s type="iri" val="http://dbpedia.org/resource/England_and_Wales_Cricket_Board"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-45"><s type="iri" val="http://dbpedia.org/resource/England_and_Wales_Cricket_Board"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["431449"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-45"/>
+<entry id="e12396-46" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.223Z">
+<s type="iri" val="http://dbpedia.org/resource/Essex_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-46"><s type="iri" val="http://dbpedia.org/resource/Essex_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1622252"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-46"/>
+<entry id="e12396-47" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.263Z">
+<s type="iri" val="http://dbpedia.org/resource/First-class_cricket"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-47"><s type="iri" val="http://dbpedia.org/resource/First-class_cricket"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["11040"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-47"/>
+<entry id="e12396-48" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.269Z">
+<s type="iri" val="http://dbpedia.org/resource/Friends_Provident_Trophy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e12396-49" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.273Z">
+<s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="var"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-48"><s type="iri" val="http://dbpedia.org/resource/Friends_Provident_Trophy"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1899702"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Leicestershire_County_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/London_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/London_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Lord's_Cricket_Ground"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Lord's_Cricket_Ground"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Middlesex_County_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Middlesex_County_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Napoleonic_Wars"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Napoleonic_Wars"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Northamptonshire_County_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Northamptonshire_County_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Nottingham_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Nottingham_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Nottinghamshire_County_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Nottinghamshire_County_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Phil_Mead"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Phil_Mead"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pro40"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Pro40"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Resolution_plc"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Resolution_plc"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Roundarm_bowling"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Roundarm_bowling"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Roundarm_trial_matches"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Roundarm_trial_matches"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Rowland_Bowen"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Rowland_Bowen"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Schweppes"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Schweppes"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Seven_Years'_War"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Seven_Years_War"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Sir_William_Gage,_7th_Baronet"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Sir_William_Gage,_7th_Baronet"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Slindon_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Slindon_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Somerset_County_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Somerset_County_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Surrey_County_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Surrey_County_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Surrey_county_cricket_teams"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Surrey_county_cricket_teams"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Sussex_County_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Sussex_County_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Sussex_county_cricket_teams"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Sussex_county_cricket_teams"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/The_Guardian"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/The_Guardian"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/The_Oval"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/The_Oval"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Thomas_Waymark"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Thomas_Waymark"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Tich_Freeman"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Tich_Freeman"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Twenty20_Cup"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Twenty20_Cup"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/W._G._Grace"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/W_G_Grace"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Wales"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Wales"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Warwickshire_County_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Warwickshire_County_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Wooden_spoon_(award)"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Wooden_spoon_(award)"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Worcestershire_County_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Worcestershire_County_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/World_War_II"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/World_War_II"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Yorkshire_County_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageWikiLink"/><o type="iri" val="http://dbpedia.org/resource/Yorkshire_County_Cricket_Club"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:1890_establishments"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:County_Championship"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:English_cricket_in_the_19th_century"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:English_cricket_in_the_20th_century"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:English_cricket_in_the_21st_century"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://purl.org/dc/terms/subject"/><o type="iri" val="http://dbpedia.org/resource/Category:English_domestic_cricket_competitions"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#comment"/><o type="lit"><![CDATA["The County Championship (currently known as the LV= County Championship because of its sponsorship) is the domestic first-class cricket competition in England and Wales. The competition consists of eighteen clubs named after, and originally representing, historic counties, seventeen from England and one from Wales."@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://www.w3.org/2000/01/rdf-schema#label"/><o type="lit"><![CDATA["County Championship"@en]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://de.dbpedia.org/resource/County_Championship"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://es.dbpedia.org/resource/County_Championship"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://fr.dbpedia.org/resource/County_Championship"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://mr.dbpedia.org/resource/काउंटी_अजिंक्यपद"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://www.w3.org/2002/07/owl#sameAs"/><o type="iri" val="http://www.wikidata.org/entity/Q1137275"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://www.w3.org/ns/prov#wasDerivedFrom"/><o type="iri" val="http://en.wikipedia.org/wiki/County_Championship?oldid=541185988"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://xmlns.com/foaf/0.1/depiction"/><o type="iri" val="http://upload.wikimedia.org/wikipedia/commons/7/7d/County_Championship_logo.svg"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://xmlns.com/foaf/0.1/homepage"/><o type="iri" val="http://www.lv.com/aboutus/sponsorship/lv-county-championship/index"/></data-triple-N3>
+
+<data-triple-N3 id="e12396-49"><s type="iri" val="http://dbpedia.org/resource/County_Championship"/><p type="iri" val="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/><o type="iri" val="http://en.wikipedia.org/wiki/County_Championship"/></data-triple-N3>
+
+<entry id="e12396-50" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.285Z">
+<s type="iri" val="http://dbpedia.org/resource/Glamorgan_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12396-48"/>
+<end id="e12396-49"/>
+<data-triple-N3 id="e12396-50"><s type="iri" val="http://dbpedia.org/resource/Glamorgan_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1622320"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-50"/>
+<entry id="e12396-51" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.292Z">
+<s type="iri" val="http://dbpedia.org/resource/Gloucestershire_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-51"><s type="iri" val="http://dbpedia.org/resource/Gloucestershire_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1622322"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-51"/>
+<entry id="e12396-52" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.335Z">
+<s type="iri" val="http://dbpedia.org/resource/Hambledon_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-52"><s type="iri" val="http://dbpedia.org/resource/Hambledon_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2391816"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12396-53" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.339Z">
+<s type="iri" val="http://dbpedia.org/resource/Hampshire_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12396-52"/>
+<data-triple-N3 id="e12396-53"><s type="iri" val="http://dbpedia.org/resource/Hampshire_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1919370"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-53"/>
+<entry id="e12396-54" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.347Z">
+<s type="iri" val="http://dbpedia.org/resource/Hampshire_county_cricket_teams"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-54"><s type="iri" val="http://dbpedia.org/resource/Hampshire_county_cricket_teams"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["7409981"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12396-55" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.350Z">
+<s type="iri" val="http://dbpedia.org/resource/Kent_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12396-54"/>
+<data-triple-N3 id="e12396-55"><s type="iri" val="http://dbpedia.org/resource/Kent_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1177719"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-55"/>
+<entry id="e12396-56" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.355Z">
+<s type="iri" val="http://dbpedia.org/resource/Kent_county_cricket_teams"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-56"><s type="iri" val="http://dbpedia.org/resource/Kent_county_cricket_teams"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["7370256"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-56"/>
+<entry id="e12396-57" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.392Z">
+<s type="iri" val="http://dbpedia.org/resource/LV_(company)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-57"><s type="iri" val="http://dbpedia.org/resource/LV_(company)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["10561040"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-57"/>
+<entry id="e12396-58" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.397Z">
+<s type="iri" val="http://dbpedia.org/resource/Lancashire_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-58"><s type="iri" val="http://dbpedia.org/resource/Lancashire_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["749919"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12396-59" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.399Z">
+<s type="iri" val="http://dbpedia.org/resource/Leicestershire_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12396-58"/>
+<data-triple-N3 id="e12396-59"><s type="iri" val="http://dbpedia.org/resource/Leicestershire_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1622318"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-59"/>
+<entry id="e12396-60" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.402Z">
+<s type="iri" val="http://dbpedia.org/resource/London_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-60"><s type="iri" val="http://dbpedia.org/resource/London_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2400474"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12396-61" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.404Z">
+<s type="iri" val="http://dbpedia.org/resource/Lord's_Cricket_Ground"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12396-60"/>
+<data-triple-N3 id="e12396-61"><s type="iri" val="http://dbpedia.org/resource/Lord's_Cricket_Ground"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["381880"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-61"/>
+<entry id="e12396-62" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.449Z">
+<s type="iri" val="http://dbpedia.org/resource/Middlesex_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-62"><s type="iri" val="http://dbpedia.org/resource/Middlesex_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["822103"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12396-63" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.451Z">
+<s type="iri" val="http://dbpedia.org/resource/Napoleonic_Wars"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12396-62"/>
+<data-triple-N3 id="e12396-63"><s type="iri" val="http://dbpedia.org/resource/Napoleonic_Wars"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["45420"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-63"/>
+<entry id="e12396-64" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.457Z">
+<s type="iri" val="http://dbpedia.org/resource/Northamptonshire_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-64"><s type="iri" val="http://dbpedia.org/resource/Northamptonshire_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["530308"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12396-65" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.458Z">
+<s type="iri" val="http://dbpedia.org/resource/Nottingham_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12396-64"/>
+<data-triple-N3 id="e12396-65"><s type="iri" val="http://dbpedia.org/resource/Nottingham_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["6808338"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-65"/>
+<entry id="e12396-66" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.465Z">
+<s type="iri" val="http://dbpedia.org/resource/Nottinghamshire_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-66"><s type="iri" val="http://dbpedia.org/resource/Nottinghamshire_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["667341"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-66"/>
+<entry id="e12396-67" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.500Z">
+<s type="iri" val="http://dbpedia.org/resource/Phil_Mead"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-67"><s type="iri" val="http://dbpedia.org/resource/Phil_Mead"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1597362"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-67"/>
+<entry id="e12396-68" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.508Z">
+<s type="iri" val="http://dbpedia.org/resource/Pro40"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-68"><s type="iri" val="http://dbpedia.org/resource/Pro40"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1177737"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12396-69" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.511Z">
+<s type="iri" val="http://dbpedia.org/resource/Resolution_plc"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12396-68"/>
+<data-triple-N3 id="e12396-69"><s type="iri" val="http://dbpedia.org/resource/Resolution_plc"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["6874647"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-69"/>
+<entry id="e12396-70" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.518Z">
+<s type="iri" val="http://dbpedia.org/resource/Roundarm_bowling"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-70"><s type="iri" val="http://dbpedia.org/resource/Roundarm_bowling"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2614826"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12396-71" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.520Z">
+<s type="iri" val="http://dbpedia.org/resource/Roundarm_trial_matches"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12396-70"/>
+<data-triple-N3 id="e12396-71"><s type="iri" val="http://dbpedia.org/resource/Roundarm_trial_matches"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["11695138"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-71"/>
+<entry id="e12396-72" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.561Z">
+<s type="iri" val="http://dbpedia.org/resource/Rowland_Bowen"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-72"><s type="iri" val="http://dbpedia.org/resource/Rowland_Bowen"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["6318196"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-72"/>
+<entry id="e12396-73" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.565Z">
+<s type="iri" val="http://dbpedia.org/resource/Schweppes"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-73"><s type="iri" val="http://dbpedia.org/resource/Schweppes"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["581098"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-73"/>
+<entry id="e12396-74" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.568Z">
+<s type="iri" val="http://dbpedia.org/resource/Seven_Years'_War"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e12396-75" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.569Z">
+<s type="iri" val="http://dbpedia.org/resource/Seven_Years_War"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-74"><s type="iri" val="http://dbpedia.org/resource/Seven_Years'_War"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["19039354"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12396-75"><s type="iri" val="http://dbpedia.org/resource/Seven_Years_War"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["19039373"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12396-76" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.573Z">
+<s type="iri" val="http://dbpedia.org/resource/Sir_William_Gage,_7th_Baronet"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12396-74"/>
+<end id="e12396-75"/>
+<data-triple-N3 id="e12396-76"><s type="iri" val="http://dbpedia.org/resource/Sir_William_Gage,_7th_Baronet"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2862348"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-76"/>
+<entry id="e12396-77" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.580Z">
+<s type="iri" val="http://dbpedia.org/resource/Slindon_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-77"><s type="iri" val="http://dbpedia.org/resource/Slindon_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["16192924"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-77"/>
+<entry id="e12396-78" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.618Z">
+<s type="iri" val="http://dbpedia.org/resource/Somerset_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-78"><s type="iri" val="http://dbpedia.org/resource/Somerset_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1622178"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-78"/>
+<entry id="e12396-79" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.626Z">
+<s type="iri" val="http://dbpedia.org/resource/Surrey_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e12396-80" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.634Z">
+<s type="iri" val="http://dbpedia.org/resource/Surrey_county_cricket_teams"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-79"><s type="iri" val="http://dbpedia.org/resource/Surrey_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["766575"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12396-80"><s type="iri" val="http://dbpedia.org/resource/Surrey_county_cricket_teams"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["7378263"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-79"/>
+<end id="e12396-80"/>
+<entry id="e12396-81" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.645Z">
+<s type="iri" val="http://dbpedia.org/resource/Sussex_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-81"><s type="iri" val="http://dbpedia.org/resource/Sussex_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1763691"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-81"/>
+<entry id="e12396-82" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.681Z">
+<s type="iri" val="http://dbpedia.org/resource/Sussex_county_cricket_teams"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-82"><s type="iri" val="http://dbpedia.org/resource/Sussex_county_cricket_teams"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["6770379"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-82"/>
+<entry id="e12396-83" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.688Z">
+<s type="iri" val="http://dbpedia.org/resource/The_Guardian"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-83"><s type="iri" val="http://dbpedia.org/resource/The_Guardian"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["19344515"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12396-84" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.690Z">
+<s type="iri" val="http://dbpedia.org/resource/The_Oval"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12396-83"/>
+<data-triple-N3 id="e12396-84"><s type="iri" val="http://dbpedia.org/resource/The_Oval"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["387687"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-84"/>
+<entry id="e12396-85" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.695Z">
+<s type="iri" val="http://dbpedia.org/resource/Thomas_Waymark"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-85"><s type="iri" val="http://dbpedia.org/resource/Thomas_Waymark"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["2814906"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12396-86" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.697Z">
+<s type="iri" val="http://dbpedia.org/resource/Tich_Freeman"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12396-85"/>
+<data-triple-N3 id="e12396-86"><s type="iri" val="http://dbpedia.org/resource/Tich_Freeman"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1556060"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-86"/>
+<entry id="e12396-87" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.737Z">
+<s type="iri" val="http://dbpedia.org/resource/Twenty20_Cup"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-87"><s type="iri" val="http://dbpedia.org/resource/Twenty20_Cup"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["771758"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-87"/>
+<entry id="e12396-88" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.740Z">
+<s type="iri" val="http://dbpedia.org/resource/W._G._Grace"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-88"><s type="iri" val="http://dbpedia.org/resource/W._G._Grace"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["34119"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12396-89" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.742Z">
+<s type="iri" val="http://dbpedia.org/resource/W_G_Grace"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12396-88"/>
+<data-triple-N3 id="e12396-89"><s type="iri" val="http://dbpedia.org/resource/W_G_Grace"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["6912301"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12396-90" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.745Z">
+<s type="iri" val="http://dbpedia.org/resource/Wales"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12396-89"/>
+<data-triple-N3 id="e12396-90"><s type="iri" val="http://dbpedia.org/resource/Wales"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["69894"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12396-91" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.747Z">
+<s type="iri" val="http://dbpedia.org/resource/Warwickshire_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12396-90"/>
+<data-triple-N3 id="e12396-91"><s type="iri" val="http://dbpedia.org/resource/Warwickshire_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["667292"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-91"/>
+<entry id="e12396-92" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.788Z">
+<s type="iri" val="http://dbpedia.org/resource/Wooden_spoon_(award)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e12396-93" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.790Z">
+<s type="iri" val="http://dbpedia.org/resource/Worcestershire_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-92"><s type="iri" val="http://dbpedia.org/resource/Wooden_spoon_(award)"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1193861"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<data-triple-N3 id="e12396-93"><s type="iri" val="http://dbpedia.org/resource/Worcestershire_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["1156428"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-92"/>
+<end id="e12396-93"/>
+<entry id="e12396-94" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.798Z">
+<s type="iri" val="http://dbpedia.org/resource/World_War_II"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<data-triple-N3 id="e12396-94"><s type="iri" val="http://dbpedia.org/resource/World_War_II"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["32927"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<entry id="e12396-95" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.800Z">
+<s type="iri" val="http://dbpedia.org/resource/Yorkshire_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12396-94"/>
+<data-triple-N3 id="e12396-95"><s type="iri" val="http://dbpedia.org/resource/Yorkshire_County_Cricket_Club"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="lit"><![CDATA["869945"^^http://www.w3.org/2001/XMLSchema#integer]]></o></data-triple-N3>
+
+<end id="e12396-95"/>
+<entry id="e12396-96" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.841Z">
+<s type="iri" val="http://de.dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e12396-97" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.843Z">
+<s type="iri" val="http://es.dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e12396-98" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.845Z">
+<s type="iri" val="http://fr.dbpedia.org/resource/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e12396-99" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.848Z">
+<s type="iri" val="http://mr.dbpedia.org/resource/काउंटी_अजिंक्यपद"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12396-96"/>
+<end id="e12396-97"/>
+<end id="e12396-98"/>
+<end id="e12396-99"/>
+<entry id="e12396-100" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.856Z">
+<s type="iri" val="http://www.wikidata.org/entity/Q1137275"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e12396-101" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.858Z">
+<s type="iri" val="http://en.wikipedia.org/wiki/County_Championship?oldid=541185988"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<entry id="e12396-102" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.861Z">
+<s type="iri" val="http://upload.wikimedia.org/wikipedia/commons/7/7d/County_Championship_logo.svg"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12396-100"/>
+<end id="e12396-101"/>
+<end id="e12396-102"/>
+<entry id="e12396-103" client="::ffff:127.0.0.1" worker="12396" time="2017-04-25T19:04:06.904Z">
+<s type="iri" val="http://en.wikipedia.org/wiki/County_Championship"/><p type="iri" val="http://dbpedia.org/ontology/wikiPageID"/><o type="var"/>
+</entry>
+<end id="e12396-103"/>
+ </trace>
