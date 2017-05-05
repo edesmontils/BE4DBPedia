@@ -23,7 +23,7 @@ path = args.groundTruth
 head,tail = os.path.split(path)
 print('head :', head)
 print('tail :', tail)
-path = os.path.join("../","analysis","precisionRecall",tail)
+path = os.path.join("data","precisionRecall",tail)
 print('path :',path)
 if not os.path.exists(path): # if the directory does not exist
     os.mkdir(path) # make the directory
