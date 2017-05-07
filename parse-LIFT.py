@@ -10,6 +10,7 @@ import re
 from urllib.parse import *
 from tools.tools import *
 from tools.FSM import *
+from tools.ProcessSet import *
 from lib.bgp import *
 import sys
 import argparse
@@ -195,7 +196,6 @@ class LiftLog(Log):
 	reTPo = re.compile(r'\A(?P<s>.+)\s+(?P<p>\S+)\s+(?P<o>.+)\s*\Z')
 
 	def manageTP(tp,nm):
-		#if 'null' in tp: print(tp)
 		cdc = ''
 		if ' ?p ' in tp and ' ?o' in tp: 
 			m = LiftLog.reTPpo.search(tp)
@@ -323,20 +323,10 @@ class CTX:
 #==================================================
 #==================================================
 
-def analyse(in_queue):
-	while True:
-		try:
-			mess = in_queue.get()
-			if mess is None: break
-			else: 
-				l = LiftLog(mess)
-				for (x, y, z) in l :
-					pass #assert (x,y,z) == (True,True,True)
-		except Empty as e:
-			print('empty!')
-		except Exception as e:
-			print(mess, e)
-			break
+def analyse(idp, mess): 
+	l = LiftLog(mess)
+	for (x, y, z) in l :
+		pass #assert (x,y,z) == (True,True,True)
 
 #==================================================
 #==================================================
@@ -351,26 +341,12 @@ if __name__ == '__main__':
 	                    help="Number of processes used (%d by default)" % mp.cpu_count())
 	args = parser.parse_args()
 	file_set = args.files
-	nb_processes = args.nb_processes
 
-	compute_queue = mp.Queue(nb_processes)
-	process_list = [
-	    mp.Process(target=analyse, args=(compute_queue,))
-	    for _ in range(nb_processes)
-	]
-	for process in process_list:
-	    process.start()
+	ps = ProcessSet(args.nb_processes, analyse,)
+	ps.start()
 
 	for file in file_set:
 	    if existFile(file):
-	        compute_queue.put(file)
+	        ps.put(file)
 
-	for process in process_list:
-	    compute_queue.put(None)
-	for process in process_list:
-	    process.join()
-
-
-
-
-
+	ps.stop()

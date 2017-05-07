@@ -29,25 +29,6 @@ from lxml import etree  # http://lxml.de/index.html#documentation
 #==================================================
 #==================================================
 
-# def analyse(in_queue, endpoint,emptyTest, stat):
-#     logging.debug('Start analyse worker "%s"', os.getpid())
-#     while True:
-#         try:
-#             mess = in_queue.get()
-#             if mess is None:
-#                 break
-#             else:
-#                 logging.debug('Treat mess in %s %s', os.getpid(), mess)
-#                 TestAnalysis(mess, stat, endpoint,emptyTest)
-#         except Empty as e:
-#             print('empty!')
-#         except Exception as e:
-#             print(mess, e)
-#             break
-#     logging.debug('Stop analyse worker "%s"', os.getpid())
-
-#==================================================
-
 reTimeout = re.compile(r'TimeoutExpired')
 
 #==================================================
@@ -99,44 +80,7 @@ def test(endpoint, entry, stat,emptyTest, cacheTO):
         print('PB error for:',ide)
         stat.stdput('other')
 
-
-# def test(endpoint, entry, stat,emptyTest, cacheTO):
-#     ide = entry.get('logline')
-#     query = entry.find('request').text
-#     hq = endpoint.hash(query)
-#     try:
-#         if hq in cacheTO:
-#             stat.stdput('to')
-#             print('Another Timeout for',ide)
-#             entry.set('valid','TO'+emptyTest)
-#         else:            
-#             (ok, wf) = endpoint.notEmpty(query)
-#             if ok:
-#                 entry.set('valid',emptyTest)
-#                 stat.stdput('valid')
-#                 #print('OK for',ide)
-#             elif wf:
-#                 #print('Empty for',ide)
-#                 entry.set('valid','Empty'+emptyTest)
-#                 stat.stdput('empty')
-#             else:
-#                 #print('PB QBF for:',ide)
-#                 stat.stdput('bfq')
-#                 entry.set('valid','QBF'+emptyTest)
-#     except Exception as e:
-#         if reTimeout.search(e.__str__()):
-#             stat.stdput('to')
-#             print('Timeout for',ide)
-#             entry.set('valid','TO'+emptyTest)
-#             cacheTO.add(hq)
-#         else:
-#             print('PB error for:',ide)
-#             print(e)
-#             stat.stdput('other')
-
-#==================================================
-
-def TestAnalysis(file, stat, endpoint,emptyTest):
+def TestAnalysis(idp, file, stat, endpoint,emptyTest):
     logging.debug('testAnalysis for %s' % file)
     print('testAnalysis for %s' % file)
     file_tested = file[:-4]+'-tested-'+emptyTest+'.xml'
