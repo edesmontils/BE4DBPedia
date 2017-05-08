@@ -87,6 +87,8 @@ class ProcessSet:
 			self.isStarted = False
 		else: raise Exception("Processes are stoped !")
 
+	def isStoped(self):
+		return not(self.isStarted)
 
 class ProcessSetBack(ProcessSet):
 	def __init__(self, nb_processes, func, *args):
