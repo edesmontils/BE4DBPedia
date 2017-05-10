@@ -101,11 +101,9 @@ class Stat:
         if file != '':
             self.saveCSV(file)
 
-    def stop(self, print = False):
+    def stop(self, stdout = False):
         with self.sem :
             self.stat_queue.put(None)
-            self.stat_proc.join()
-            self.stopped = True
             nb = 0
             r = self.res_queue.get()
             while r is not None:
@@ -114,8 +112,9 @@ class Stat:
                 self.total.join(c)
                 self.counters[d] = c
                 r = self.res_queue.get()
-
-        if print and nb>0: 
+        self.stat_proc.join()
+        self.stopped = True
+        if stdout and nb>0: 
             self.print()
 
     def saveCSV(self, file, sep='\t'):

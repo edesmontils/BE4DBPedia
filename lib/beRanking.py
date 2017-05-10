@@ -73,7 +73,7 @@ def entryOk(entry, mode):
 
 def rankAnalysis(idp, file, stat, mode):
     logging.debug('rankAnalysis for %s' % file)
-    #print('Traitement de %s' % file)
+    print('Traitement de %s' % file)
     parser = etree.XMLParser(recover=True, strip_cdata=True)
     tree = etree.parse(file, parser)
     #---
@@ -84,7 +84,8 @@ def rankAnalysis(idp, file, stat, mode):
 
     ranking = []
     nbe = 0
-    date = ''
+    date = 'no-date'
+    ip = tree.getroot().get('ip').split('-')[0]
     for entry in tree.getroot():
         if entryOk(entry,mode):
             nbe += 1
@@ -102,16 +103,20 @@ def rankAnalysis(idp, file, stat, mode):
     node_tree_ranking.set('ip', tree.getroot().get('ip'))
     rank = 0
     old_freq = 0;
-    stat.put(date,'file')
+
+    ref = ip
+    #ref = date
+
+    stat.put(ref,'file')
     nb = 0
     for (i, (bgp, freq, query, lines)) in enumerate(ranking):
         nb +=1
         if freq != old_freq:
-            stat.put(date,'rank')
+            stat.put(ref,'rank')
             rank += 1
             old_freq = freq
         f = freq / nbe
-        stat.mput(date,'occurrences',freq)
+        stat.mput(ref,'occurrences',freq)
         node_r = etree.SubElement(
             node_tree_ranking,
             'entry-rank',
@@ -127,8 +132,8 @@ def rankAnalysis(idp, file, stat, mode):
         request_node = etree.SubElement(node_r, 'request')
         request_node.text = query
     if nb > MODE_CUTE:
-        stat.put(date,'cut'+str(MODE_CUTE))
-    stat.mput(date,'entry-rank',nb)
+        stat.put(ref,'cut'+str(MODE_CUTE))
+    stat.mput(ref,'entry-rank',nb)
     try:
         file_ranking = file[:-4]+'-ranking.xml'
         logging.debug('Ecriture de "%s"', file_ranking)
