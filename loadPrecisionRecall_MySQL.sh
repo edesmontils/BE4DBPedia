@@ -16,8 +16,6 @@ preci DECIMAL(6,5),
 recall DECIMAL(6,5)
 );"
 
-# Precision table should be empty to avoid having duplicates.
-# echo "Table traces has been emptied"
 
 # All precisionRecall.csv files are loaded into the precision table.
 for file in data/precisionRecall/*/*precisionRecall.csv
@@ -52,3 +50,5 @@ SELECT AVG(quality)
 FROM (SELECT date_,ip, MAX((preci+recall)/2) quality 
 	FROM precisionRecall 
 	GROUP BY date_,ip,bgp_dbp) x;"
+
+#  For more queries execute queries.sql

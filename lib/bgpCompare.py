@@ -40,25 +40,34 @@ def compare(file_ground_truth, file_lift_deduction):
 	result = []
 	for entry_dbp in root_dbp.findall('entry-rank'):
 		size_bgp_dbp = len(entry_dbp.findall("./bgp/tp"))
-		cano_dbp = unSerializeBGP(entry_dbp.find('bgp'))
-		for entry_lift in root_lift.findall('entry-rank'):
-			size_bgp_lift = len(entry_lift.findall("./bgp/tp"))
-			cano_lift = unSerializeBGP(entry_lift.find('bgp'))
-			if cano_dbp == cano_lift:# If ground truth and deduction is equal then precision and recall are 1
-				result += [(cano_dbp,cano_lift,entry_dbp.get('nb-occurrences'),entry_lift.get('nb-occurrences'),entry_dbp.get('rank'),entry_lift.get('rank'),1,1)]
-			else:
-				in_both, in_first, in_second = graph_diff(cano_dbp,cano_lift)
-				b = len(in_both) # b has the number of well deduced triple patterns
-				for s,p,o in in_first:
-					for ss,pp,oo in in_second:
-						if ((isinstance(s,Variable) and isinstance(ss,Variable)) and p==pp and o==oo) or (
-						s==ss and p==pp and (isinstance(o,Variable) and isinstance(oo,Variable)) or (
-						s==ss and (isinstance(p,Variable) and isinstance(pp,Variable)) and o==oo)):
-							b += 1 # b is incremented with triple patterns whose variables were canonized differently because the size of the BGP and that have two things in common (subject, predicate, or object);
-							break
-				precision = b/size_bgp_lift #How many deduced triple patterns are relevant
-				recall = b/size_bgp_dbp # How many relevant triple patterns are deduced
-				result += [(cano_dbp,cano_lift,entry_dbp.get('nb-occurrences'),entry_lift.get('nb-occurrences'),entry_dbp.get('rank'),entry_lift.get('rank'),precision,recall)]
+		if size_bgp_dbp > 1: # Only BGPs with more than one triple pattern are analyzed
+			cano_dbp = unSerializeBGP(entry_dbp.find('bgp'))
+			for entry_lift in root_lift.findall('entry-rank'):
+				size_bgp_lift = len(entry_lift.findall("./bgp/tp"))
+				cano_lift = unSerializeBGP(entry_lift.find('bgp'))
+				if cano_dbp == cano_lift:# If ground truth and deduction is equal then precision and recall are 1
+					result += [(cano_dbp,cano_lift,entry_dbp.get('nb-occurrences'),entry_lift.get('nb-occurrences'),entry_dbp.get('rank'),entry_lift.get('rank'),1,1)]
+				else:
+					in_both, in_first, in_second = graph_diff(cano_dbp,cano_lift)
+					b = len(in_both) # b has the number of well deduced triple patterns
+					for s,p,o in in_first:
+						for ss,pp,oo in in_second:
+							if ((isinstance(s,Variable) and isinstance(ss,Variable)) and p==pp and o==oo) or (
+							s==ss and p==pp and (isinstance(o,Variable) and isinstance(oo,Variable)) or (
+							s==ss and (isinstance(p,Variable) and isinstance(pp,Variable)) and o==oo)):
+								b += 1 # b is incremented with triple patterns whose variables were canonized differently because the size of the BGP and that have two things in common (subject, predicate, or object);
+								break
+					try:
+						precision = b/size_bgp_lift #How many deduced triple patterns are relevant
+					except ZeroDivisionError:
+						precision = 0
+						print ("Division by zero in precision with size_bgp_lift")
+					try:
+						recall = b/size_bgp_dbp # How many relevant triple patterns are deduced
+					except ZeroDivisionError:
+						recall = 0
+						print ("Division by zero in recall with size_bgp_dbp")				
+					result += [(cano_dbp,cano_lift,entry_dbp.get('nb-occurrences'),entry_lift.get('nb-occurrences'),entry_dbp.get('rank'),entry_lift.get('rank'),precision,recall)]
 	return result
 
 # result = compare("rankDBpedia.xml","rankLIFT.xml")
