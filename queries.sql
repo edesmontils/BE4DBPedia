@@ -1,4 +1,4 @@
--- To see queries and results connect to mysql with mysql -u root -p mydb --force --comments -vvv
+-- To see queries and results connect to mysql with mysql -u <user_name> -p database_name --force --comments -vvv
 -- Execute this script with source queries.sql
 
 -- Queries and their results are spool on queries_result.lst
