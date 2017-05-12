@@ -67,7 +67,9 @@ psExtractor.start()
 if ctx.doRanking:
     logging.info('Lancement des %d processus d\'analyse', ctx.nb_processes)
     psRanking = ProcessSet(ctx.nb_processes, rankAnalysis, MODE_RA_ALL)
-    ps.psRanking.start()
+    statRank = Stat(Counter, ['file','cut'+str(MODE_CUTE),'rank','entry-rank','occurrences'] )
+    psRanking.setStat(statRank)
+    psRanking.start()
 
 logging.info('Lancement du traitement')
 for (query, date, param_list, ip) in ctx.file():
@@ -123,5 +125,9 @@ for d in file_set:
 if ctx.doRanking:
     logging.info('Arrêt des processus d\'analyse')
     psRanking.stop()
+    
+    statRank.stop(True)
+    csvname = 'be4dbp-ranking-'+date2filename(now())+'.csv'
+    statRank.saveCSV(csvname)
 
 ctx.close()

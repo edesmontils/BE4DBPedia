@@ -86,10 +86,10 @@ class QueryManager:
     else:
       self.defaultPrefixes = defaultPrefixes
 
-  def stop(self, print = False, save = False):
+  def stop(self, stdout = False, save = False):
     self.typeStat.stop()
     self.bgpStat.stop()
-    if print: self.printStats()
+    if stdout: self.printStats()
     if save: self.saveStats('QueryManagerStats')
 
   def printStats(self):

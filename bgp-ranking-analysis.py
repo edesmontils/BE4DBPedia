@@ -48,7 +48,7 @@ parser.add_argument("-l", "--log", dest="logLevel",
                         help="Set the logging level", default='INFO')
 parser.add_argument("-p", "--proc", type=int, default=mp.cpu_count(), dest="nb_processes",
                     help="Number of processes used (%d by default)" % mp.cpu_count())
-parser.add_argument("-t","--type", help="Request a SPARQL or a TPF endpoint to verify the query and test it returns at least one triple (%s by default)" % MODE_RA_NOTEMPTY,
+parser.add_argument("-t","--type", help="How to take into account the validation by a SPARQL or a TPF endpoint (%s by default)" % MODE_RA_NOTEMPTY,
                 choices=[MODE_RA_NOTEMPTY,MODE_RA_VALID,MODE_RA_WF, MODE_RA_ALL],dest="mode",default=MODE_RA_NOTEMPTY)
 args = parser.parse_args()
 now = date2filename(now())

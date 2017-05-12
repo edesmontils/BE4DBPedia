@@ -35,6 +35,7 @@ def validate(date, line, ip, query, ctx):
         if ctx.QM.containsUnion(query):
             logging.debug('Union (%d) : %s', line, query)
             ctx.stat.put(date,'union') #union()
+            ctx.stat.put(ip,'union')
             return (False, None, None, None)
         else:
             try:
@@ -46,6 +47,7 @@ def validate(date, line, ip, query, ctx):
                     if not(ctx.QM.isTPFCompatible(n_query)):
                         logging.debug('PB TPF Client (%d) : %s', line, n_query)
                         ctx.stat.put(date,'err_tpf')#err_tpf()
+                        ctx.stat.put(ip,'err_tpf')
                         return (False, None, None, None)
                 if ctx.emptyTest is not None :
                     (done, mss) = testQuery(ctx.QM.simplifyQuery(n_query),ctx.endpoint, ctx.cacheTO)
@@ -53,45 +55,57 @@ def validate(date, line, ip, query, ctx):
                         if mss=='Empty':
                             logging.debug('Empty Query (%d) : %s', line, query)
                             ctx.stat.put(date,'emptyQuery')#emptyQuery()
+                            ctx.stat.put(ip,'emptyQuery')
                             quality['valid'] = 'Empty'+ctx.emptyTest
                         elif mss=='QBF':
                             if ctx.emptyTest == MODE_TE_TPF:
                                 ctx.stat.put(date,'err_tpf')
+                                ctx.stat.put(ip,'err_tpf')
                             else:
                                 ctx.stat.put(date,'err_qr')#err_qr()
+                                ctx.stat.put(ip,'err_qr')
                             quality['valid'] = 'QBF'+ctx.emptyTest
                         elif mss=='TO':
                             ctx.stat.put(date,'timeout')
+                            ctx.stat.put(ip,'timeout')
                             quality['valid'] = 'TO'+ctx.emptyTest
                         else:
                             ctx.stat.put(date,'err_endpoint')#err_endpoint()
+                            ctx.stat.put(ip,'err_endpoint')
                             #quality['valid'] = 'QBF'+ctx.emptyTest
                     else:
                         quality['valid'] = ctx.emptyTest
                 ctx.stat.put(date,'ok')#.ok()
+                ctx.stat.put(ip,'ok')
                 return (True, n_query, bgp, quality)
             except BGPUnvalidException as e:
                 ctx.stat.put(date,'bgp_not_valid')#.bgp_not_valid()
+                ctx.stat.put(ip,'bgp_not_valid')
                 return (False, None, None, None)
             except BGPException as e:
                 logging.debug('PB URI in BGP (%d) : %s\n%s', line, e, query)
                 ctx.stat.put(date,'err_qr')#.err_qr()
+                ctx.stat.put(ip,'err_qr')
                 return (False, None, None, None)
             except SPARQLException as e:
                 logging.debug('PB SPARQLError (%d) : %s\n%s', line, e, query)
                 ctx.stat.put(date,'err_qr')#.err_qr()
+                ctx.stat.put(ip,'err_qr')
                 return (False, None, None, None)
             except NSException as e:
                 logging.debug('PB NS (%d) : %s\n%s', line, e, query)
                 ctx.stat.put(date,'err_ns')#.err_ns()
+                ctx.stat.put(ip,'err_ns')
                 return (False, None, None, None) 
             except TranslateQueryException as e:
                 logging.debug('PB translate (%d) : %s\n%s', line, e, query)
                 ctx.stat.put(date,'err_qr')#.err_qr()
+                ctx.stat.put(ip,'err_qr')
                 return (False, None, None, None)                
             except ParseQueryException as e:
                 logging.debug('PB parseQuery (%d) : %s\n%s', line, e, query)
                 ctx.stat.put(date,'err_qr')#.err_qr()
+                ctx.stat.put(ip,'err_qr')
                 return (False, None, None, None)
     else:
         #cpt.inc('autre')

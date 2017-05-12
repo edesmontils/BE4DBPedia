@@ -63,6 +63,9 @@ class Endpoint:
     def setTimeOut(self,to):
     	self.timeOut = to
 
+    def getTimeOut(self):
+        return self.timeOut
+
     def loadCache(self):
         cacheName = self.cacheDir+"/be4dbp-"+self.cacheType+".csv"
         if os.path.isfile(cacheName) :

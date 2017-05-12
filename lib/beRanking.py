@@ -81,42 +81,50 @@ def rankAnalysis(idp, file, stat, mode):
     assert dtd.validate(tree), '%s non valide au chargement : %s' % (
         file, dtd.error_log.filter_from_errors()[0])
     #---
-
+    #print('DTD valide !')
     ranking = []
     nbe = 0
     date = 'no-date'
-    ip = tree.getroot().get('ip').split('-')[0]
+    ip = 'ip-'+tree.getroot().get('ip').split('-')[0]
+    #print('ranking building')
     for entry in tree.getroot():
         if entryOk(entry,mode):
             nbe += 1
+            #print('(%d) new entry to add' % nbe)
             if nbe == 1:
                 date = entry.get('datetime')
             ide = entry.get('logline')
+            #print('Getting BGP')
             bgp = unSerializeBGP(entry.find('bgp'))
+            #print('canonalize BGP')
             cbgp = canonicalize_sparql_bgp(bgp)
+            #print('effective ranking')
             query = entry.find('request').text
             addBGP2Rank(cbgp, query, ide, ranking)
+        else:
+            pass #print('Bad entry')
+    #print('sorting ranking')
     ranking.sort(key=itemgetter(1), reverse=True)
 
-    print('Ranking Generation')
+    #print('Ranking Generation')
     node_tree_ranking = etree.Element('ranking')
     node_tree_ranking.set('ip', tree.getroot().get('ip'))
     rank = 0
     old_freq = 0;
 
-    ref = ip
-    #ref = date
-
-    stat.put(ref,'file')
+    stat.put(date,'file')
+    stat.put(ip,'file')
     nb = 0
     for (i, (bgp, freq, query, lines)) in enumerate(ranking):
         nb +=1
         if freq != old_freq:
-            stat.put(ref,'rank')
+            stat.put(date,'rank')
+            stat.put(ip,'rank')
             rank += 1
             old_freq = freq
         f = freq / nbe
-        stat.mput(ref,'occurrences',freq)
+        stat.mput(date,'occurrences',freq)
+        stat.mput(ip,'occurrences',freq)
         node_r = etree.SubElement(
             node_tree_ranking,
             'entry-rank',
@@ -132,8 +140,10 @@ def rankAnalysis(idp, file, stat, mode):
         request_node = etree.SubElement(node_r, 'request')
         request_node.text = query
     if nb > MODE_CUTE:
-        stat.put(ref,'cut'+str(MODE_CUTE))
-    stat.mput(ref,'entry-rank',nb)
+        stat.put(date,'cut'+str(MODE_CUTE))
+        stat.put(ip,'cut'+str(MODE_CUTE))
+    stat.mput(date,'entry-rank',nb)
+    stat.mput(ip,'entry-rank',nb)
     try:
         file_ranking = file[:-4]+'-ranking.xml'
         logging.debug('Ecriture de "%s"', file_ranking)
