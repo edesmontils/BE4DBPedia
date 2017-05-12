@@ -52,7 +52,7 @@ class LiftLog(Log):
 				 Transition(" ",s10,s11),
 				 Transition("Single LDFs",s11,s12), Transition(" ",s11,s11),
 				 Transition(" ",s12,s13),
-				 Transition("Deduced LDF_",s13,s14,action=LiftLog.newSingleTP), 
+				 Transition("Deduced LDF_",s13,s14),#action=LiftLog.newSingleTP), 
 				 Transition(" ",s13,s13),
 				 Transition("received @[dbpediaLDF]",s14,s13), Transition("Single LDFs", s13,s15),
 				 Transition("S",s15,s15), # gestion de PB dans une source
