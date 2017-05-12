@@ -60,25 +60,30 @@ def testQuery(qr,endpoint, cacheTO):
             return (False, 'autre')
 
 
-def test(endpoint, entry, stat,emptyTest, cacheTO):
+def test(ip,date,endpoint, entry, stat,emptyTest, cacheTO):
     ide = entry.get('logline')
     query = entry.find('request').text
     (ok, mss) = testQuery(query,endpoint,cacheTO)
     if ok:
         entry.set('valid',emptyTest)
-        stat.stdput('valid')
+        stat.put(date,'valid')
+        stat.put(ip,'valid')
     elif mss == 'Empty':
         entry.set('valid','Empty'+emptyTest)
-        stat.stdput('empty')
+        stat.put(date,'empty')
+        stat.put(ip,'empty')
     elif mss == 'QBF':
-        stat.stdput('bfq')
+        stat.put(date,'bfq')
+        stat.put(ip,'bfq')
         entry.set('valid','QBF'+emptyTest)
     elif mss == 'TO':
-        stat.stdput('to')
+        stat.put(date,'to')
+        stat.put(ip,'to')
         entry.set('valid','TO'+emptyTest)
     else:
         print('PB error for:',ide)
-        stat.stdput('other')
+        stat.put(date,'other')
+        stat.put(ip,'other')
 
 def TestAnalysis(idp, file, stat, endpoint,emptyTest):
     logging.debug('testAnalysis for %s' % file)
@@ -97,29 +102,40 @@ def TestAnalysis(idp, file, stat, endpoint,emptyTest):
         file, dtd.error_log.filter_from_errors()[0])
     #---
     nbe = 0
+    date='no-date'
     cacheTO = set()
+    ip = 'ip-'+tree.getroot().get('ip').split('-')[0]
     for entry in tree.getroot():
         nbe += 1
+        if nbe == 1:
+            date = entry.get('datetime')
         valid = entry.get("valid")
         ide = entry.get('logline')
         if  valid == None:
-            test(endpoint,entry,stat,emptyTest, cacheTO)
+            test(ip,date,endpoint,entry,stat,emptyTest, cacheTO)
         else:
             if valid == emptyTest: #in [MODE_TE_SPARQL, MODE_TE_TPF]:
-                stat.stdput('valid')
+                stat.put(date,'valid')
+                stat.put(ip,'valid')
                 #print('Always OK for',ide)
             elif valid == 'Empty'+emptyTest: #in ['Empty'+MODE_TE_SPARQL, 'Empty'+MODE_TE_TPF]:
-                stat.stdput('empty')
+                stat.put(date,'empty')
+                stat.put(ip,'empty')
                 #print('Always Empty for',ide)
             elif valid == 'QBF'+emptyTest: #in ['QBF'+MODE_TE_SPARQL, 'QBF'+MODE_TE_TPF]:
                 #print('Always QBF for:',ide)
-                stat.stdput('bfq')
+                stat.put(date,'bfq')
+                stat.put(ip,'bfq')
             elif valid == 'TO'+emptyTest: #in ['TO'+MODE_TE_SPARQL, 'TO'+MODE_TE_TPF]:
-                print('Old Timeout, redo:',ide)
-                test(endpoint,entry,stat,emptyTest,cacheTO)
+                if (endpoint.getTimeOut() > 0):
+                    print('Old Timeout, redo:',ide)
+                    test(ip,date,endpoint,entry,stat,emptyTest,cacheTO)
+                else:
+                    stat.put(date,'to')
+                    stat.put(ip,'to')
             else:
                 #print('Tested for the first time')
-                test(endpoint,entry,stat,emptyTest,cacheTO)
+                test(ip,date,endpoint,entry,stat,emptyTest,cacheTO)
     try:
         #file_tested = file[:-4]+'-tested.xml'
         logging.debug('Ecriture de "%s"', file_tested)

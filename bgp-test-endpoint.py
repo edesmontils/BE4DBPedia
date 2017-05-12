@@ -60,10 +60,12 @@ parser.add_argument("-e","--empty", help="Request a SPARQL or a TPF endpoint to 
 parser.add_argument("-ep","--endpoint", help="The endpoint requested for the '-e' ('--empty') option (for exemple '%s' for %s by default)" % (DEFAULT_TPF_EP,MODE_TE_TPF),
                 dest="ep", default=DEFAULT_TPF_EP)
 parser.add_argument("-to", "--timeout", type=int, default=60, dest="timeout",
-                    help="Endpoint Time Out (%d by default)" % 60)
+                    help="Endpoint Time Out (%d by default). If '-to 0' and the file already tested, the entry is not tested again." % 60)
 args = parser.parse_args()
 emptyTest = args.doEmpty
-manageLogging(args.logLevel, 'be4dbp-tests-'+emptyTest+'-'+date2filename(now())+'.log')
+now = date2filename(now())
+manageLogging(args.logLevel, 'be4dbp-tests-'+emptyTest+'-'+now+'.log')
+csvname = 'be4dbp-tests-'+now+'.csv'
 
 file_set = args.files
 
@@ -112,4 +114,5 @@ ps.stop()
 logging.info('Fin')
 endpoint.saveCache()
 stat.stop(True)
+stat.saveCSV(csvname)
 logging.info('End')
