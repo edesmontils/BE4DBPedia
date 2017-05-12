@@ -5,6 +5,50 @@
 Query OK, 0 rows affected (0,00 sec)
 
 --------------
+DESC precisionRecall
+--------------
+
++---------------------+---------------+------+-----+---------+-------+
+| Field               | Type          | Null | Key | Default | Extra |
++---------------------+---------------+------+-----+---------+-------+
+| date_               | varchar(20)   | YES  |     | NULL    |       |
+| ip                  | varchar(33)   | YES  |     | NULL    |       |
+| bgp_dbp             | varchar(2000) | YES  |     | NULL    |       |
+| bgp_lift            | varchar(2000) | YES  |     | NULL    |       |
+| nb_occurrences_dbp  | int(4)        | YES  |     | NULL    |       |
+| nb_occurrences_lift | int(4)        | YES  |     | NULL    |       |
+| rank_dbp            | int(5)        | YES  |     | NULL    |       |
+| rank_lift           | int(5)        | YES  |     | NULL    |       |
+| preci               | decimal(6,5)  | YES  |     | NULL    |       |
+| recall              | decimal(6,5)  | YES  |     | NULL    |       |
++---------------------+---------------+------+-----+---------+-------+
+10 rows in set (0,00 sec)
+
+--------------
+-- This table contains the highgest values of the "quality" of LIFT deductions. We consider as quality the average of precision and recall.
+--------------
+
+Query OK, 0 rows affected (0,00 sec)
+
+--------------
+-- Returns the average of the quality of the LIFT deductions
+--------------
+
+Query OK, 0 rows affected (0,00 sec)
+
+--------------
+SELECT AVG(quality) 
+FROM quality
+--------------
+
++--------------+
+| AVG(quality) |
++--------------+
+|  0.668153106 |
++--------------+
+1 row in set (0,01 sec)
+
+--------------
 -- Returns the total average of precision
 --------------
 
@@ -68,7 +112,7 @@ ORDER BY 1 DESC
 |               1 |    0.83333 |
 |               1 |    0.75000 |
 +-----------------+------------+
-11 rows in set (0,02 sec)
+11 rows in set (0,01 sec)
 
 --------------
 -- Returns the different values of recall and the number of BGPs having that value
@@ -127,7 +171,7 @@ ORDER BY 2 DESC
 | 2015-10-30T03-00-00 |  0.666833278 |
 | 2015-10-30T09-00-00 |  0.622892270 |
 +---------------------+--------------+
-10 rows in set (0,01 sec)
+10 rows in set (0,02 sec)
 
 --------------
 -- Returns the average of precision obtained by date
@@ -156,7 +200,7 @@ ORDER BY 2 DESC
 | 2015-10-30T03-00-00 |     0.672221868 |
 | 2015-10-30T04-00-00 |     0.672195147 |
 +---------------------+-----------------+
-10 rows in set (0,02 sec)
+10 rows in set (0,01 sec)
 
 --------------
 -- Returns the average of recall obtained by date
@@ -317,7 +361,7 @@ ORDER BY 2 DESC
 | 6ac17ffd135c2f1e9577831a69e01a8a |     0.333330000 |
 | 5a6c0ef4da85c4098133ce2719c35873 |     0.000000000 |
 +----------------------------------+-----------------+
-47 rows in set (0,01 sec)
+47 rows in set (0,02 sec)
 
 --------------
 -- Returns the average of recall by ip
@@ -383,7 +427,7 @@ ORDER BY 2 DESC
 | ba097493b941b2486772621c93fcf25c | 0.173079615 |
 | 5a6c0ef4da85c4098133ce2719c35873 | 0.000000000 |
 +----------------------------------+-------------+
-47 rows in set (0,02 sec)
+47 rows in set (0,01 sec)
 
 --------------
 -- Returns the global quality of queries that occurred more than once
@@ -404,7 +448,7 @@ FROM (SELECT COUNT(*), AVG(quality) avg_quality_repet
 +------------------------+
 |        0.7054789308113 |
 +------------------------+
-1 row in set (0,11 sec)
+1 row in set (0,10 sec)
 
 --------------
 -- Returns the global precision of queries that occurred more than once
@@ -425,7 +469,7 @@ FROM (SELECT COUNT(*), AVG(precision_) avg_preci_repet
 +----------------------+
 |      0.8554520125755 |
 +----------------------+
-1 row in set (0,10 sec)
+1 row in set (0,11 sec)
 
 --------------
 -- Returns the global recall of queries that occurred more than once
@@ -446,11 +490,15 @@ FROM (SELECT COUNT(*), AVG(recall) avg_recall_repet
 +-----------------------+
 |       0.5555047169811 |
 +-----------------------+
-1 row in set (0,11 sec)
+1 row in set (0,12 sec)
 
 --------------
-==
 -- Returns the quality of queries that occurred more than once
+--------------
+
+Query OK, 0 rows affected (0,00 sec)
+
+--------------
 SELECT COUNT(*), AVG(quality) avg_quality_repet
 FROM quality
 GROUP BY bgp_dbp 
@@ -458,9 +506,118 @@ HAVING count(*)>1
 ORDER BY 1 DESC
 --------------
 
-ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==
--- Returns the quality of queries that occurred more than once
-SELECT COUNT(*' at line 1
++----------+-------------------+
+| COUNT(*) | avg_quality_repet |
++----------+-------------------+
+|        9 |       0.960316666 |
+|        8 |       0.928570000 |
+|        6 |       0.500000000 |
+|        5 |       0.583340000 |
+|        5 |       0.583340000 |
+|        5 |       0.583340000 |
+|        5 |       0.583340000 |
+|        5 |       0.583340000 |
+|        5 |       0.583340000 |
+|        5 |       0.583340000 |
+|        5 |       0.600000000 |
+|        3 |       0.666670000 |
+|        3 |       0.666670000 |
+|        3 |       0.666670000 |
+|        3 |       0.750000000 |
+|        3 |       0.750000000 |
+|        3 |       0.750000000 |
+|        3 |       0.750000000 |
+|        3 |       0.750000000 |
+|        3 |       0.750000000 |
+|        3 |       0.750000000 |
+|        3 |       0.750000000 |
+|        3 |       0.750000000 |
+|        3 |       0.875000000 |
+|        2 |       0.666670000 |
+|        2 |       0.666670000 |
+|        2 |       0.666670000 |
+|        2 |       0.666670000 |
+|        2 |       0.666670000 |
+|        2 |       0.666670000 |
+|        2 |       0.666670000 |
+|        2 |       0.666670000 |
+|        2 |       0.666670000 |
+|        2 |       0.666670000 |
+|        2 |       0.666670000 |
+|        2 |       0.666670000 |
+|        2 |       0.666670000 |
+|        2 |       0.666670000 |
+|        2 |       0.666670000 |
+|        2 |       0.666670000 |
+|        2 |       0.666670000 |
+|        2 |       0.666670000 |
+|        2 |       0.666670000 |
+|        2 |       0.666670000 |
+|        2 |       0.666670000 |
+|        2 |       0.666670000 |
+|        2 |       0.666670000 |
+|        2 |       0.666670000 |
+|        2 |       0.666670000 |
+|        2 |       0.666670000 |
+|        2 |       0.666670000 |
+|        2 |       0.666670000 |
+|        2 |       0.666670000 |
+|        2 |       0.666670000 |
+|        2 |       0.666670000 |
+|        2 |       0.666670000 |
+|        2 |       0.666670000 |
+|        2 |       0.666670000 |
+|        2 |       0.666670000 |
+|        2 |       0.666670000 |
+|        2 |       0.666670000 |
+|        2 |       0.666670000 |
+|        2 |       0.666670000 |
+|        2 |       0.750000000 |
+|        2 |       0.750000000 |
+|        2 |       0.750000000 |
+|        2 |       0.750000000 |
+|        2 |       0.750000000 |
+|        2 |       0.750000000 |
+|        2 |       0.750000000 |
+|        2 |       0.750000000 |
+|        2 |       0.750000000 |
+|        2 |       0.750000000 |
+|        2 |       0.750000000 |
+|        2 |       0.750000000 |
+|        2 |       0.750000000 |
+|        2 |       0.750000000 |
+|        2 |       0.750000000 |
+|        2 |       0.750000000 |
+|        2 |       0.750000000 |
+|        2 |       0.750000000 |
+|        2 |       0.750000000 |
+|        2 |       0.750000000 |
+|        2 |       0.750000000 |
+|        2 |       0.750000000 |
+|        2 |       0.666670000 |
+|        2 |       0.750000000 |
+|        2 |       0.750000000 |
+|        2 |       0.750000000 |
+|        2 |       0.750000000 |
+|        2 |       0.750000000 |
+|        2 |       0.750000000 |
+|        2 |       0.750000000 |
+|        2 |       0.750000000 |
+|        2 |       0.750000000 |
+|        2 |       0.750000000 |
+|        2 |       0.750000000 |
+|        2 |       0.750000000 |
+|        2 |       0.750000000 |
+|        2 |       0.666670000 |
+|        2 |       0.750000000 |
+|        2 |       1.000000000 |
+|        2 |       0.583340000 |
+|        2 |       0.583340000 |
+|        2 |       0.583340000 |
+|        2 |       1.000000000 |
++----------+-------------------+
+106 rows in set (0,11 sec)
+
 --------------
 -- Returns the precision of queries that occurred more than once
 --------------
@@ -585,7 +742,7 @@ ORDER BY 1 DESC
 |        2 |     1.000000000 |
 |        2 |     1.000000000 |
 +----------+-----------------+
-106 rows in set (0,14 sec)
+106 rows in set (0,11 sec)
 
 --------------
 -- Returns the recall of queries that occurred more than once
@@ -711,22 +868,82 @@ ORDER BY 1 DESC
 |        2 |      0.166670000 |
 |        2 |      1.000000000 |
 +----------+------------------+
-106 rows in set (0,13 sec)
+106 rows in set (0,10 sec)
 
 --------------
-==
 -- Next queries return the number of occurrences (if higher than 1) and the quality of the TOP N most repeated BGPs
+--------------
+
+Query OK, 0 rows affected (0,00 sec)
+
+--------------
 SELECT AVG(avg_quality_repet) 
 FROM (SELECT COUNT(*), AVG(quality) avg_quality_repet 
 	FROM quality 
 	GROUP BY bgp_dbp 
 	HAVING count(*)>1 
 	ORDER BY 1 DESC
-	LIMIT 20) x
+	LIMIT 53) x
 --------------
 
-ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==
--- Next queries return the number of occurrences (if higher than 1) and the q' at line 1
++------------------------+
+| AVG(avg_quality_repet) |
++------------------------+
+|        0.6798246540755 |
++------------------------+
+1 row in set (0,12 sec)
+
+--------------
+SELECT AVG(avg_quality_repet) 
+FROM (SELECT COUNT(*), AVG(quality) avg_quality_repet 
+	FROM quality 
+	GROUP BY bgp_dbp 
+	HAVING count(*)>1 
+	ORDER BY 1 DESC
+	LIMIT 42) x
+--------------
+
++------------------------+
+| AVG(avg_quality_repet) |
++------------------------+
+|        0.6832699206190 |
++------------------------+
+1 row in set (0,11 sec)
+
+--------------
+SELECT AVG(avg_quality_repet) 
+FROM (SELECT COUNT(*), AVG(quality) avg_quality_repet 
+	FROM quality 
+	GROUP BY bgp_dbp 
+	HAVING count(*)>1 
+	ORDER BY 1 DESC
+	LIMIT 31) x
+--------------
+
++------------------------+
+| AVG(avg_quality_repet) |
++------------------------+
+|        0.6891602150323 |
++------------------------+
+1 row in set (0,11 sec)
+
+--------------
+SELECT AVG(avg_quality_repet) 
+FROM (SELECT COUNT(*), AVG(quality) avg_quality_repet 
+	FROM quality 
+	GROUP BY bgp_dbp 
+	HAVING count(*)>1 
+	ORDER BY 1 DESC
+	LIMIT 21) x
+--------------
+
++------------------------+
+| AVG(avg_quality_repet) |
++------------------------+
+|        0.6820131745714 |
++------------------------+
+1 row in set (0,11 sec)
+
 --------------
 SELECT AVG(avg_quality_repet) 
 FROM (SELECT COUNT(*), AVG(quality) avg_quality_repet 
@@ -791,15 +1008,66 @@ FROM (SELECT COUNT(*), AVG(precision_) avg_preci_repet
 	GROUP BY bgp_dbp 
 	HAVING count(*)>1 
 	ORDER BY 1 DESC
-	LIMIT 20) x
+	LIMIT 53) x
 --------------
 
 +----------------------+
 | AVG(avg_preci_repet) |
 +----------------------+
-|      0.8838891666500 |
+|      0.7737964779811 |
++----------------------+
+1 row in set (0,13 sec)
+
+--------------
+SELECT AVG(avg_preci_repet) 
+FROM (SELECT COUNT(*), AVG(precision_) avg_preci_repet 
+	FROM preci 
+	GROUP BY bgp_dbp 
+	HAVING count(*)>1 
+	ORDER BY 1 DESC
+	LIMIT 42) x
+--------------
+
++----------------------+
+| AVG(avg_preci_repet) |
++----------------------+
+|      0.8018534126905 |
++----------------------+
+1 row in set (0,11 sec)
+
+--------------
+SELECT AVG(avg_preci_repet) 
+FROM (SELECT COUNT(*), AVG(precision_) avg_preci_repet 
+	FROM preci 
+	GROUP BY bgp_dbp 
+	HAVING count(*)>1 
+	ORDER BY 1 DESC
+	LIMIT 31) x
+--------------
+
++----------------------+
+| AVG(avg_preci_repet) |
++----------------------+
+|      0.8498217204194 |
 +----------------------+
 1 row in set (0,12 sec)
+
+--------------
+SELECT AVG(avg_preci_repet) 
+FROM (SELECT COUNT(*), AVG(precision_) avg_preci_repet 
+	FROM preci 
+	GROUP BY bgp_dbp 
+	HAVING count(*)>1 
+	ORDER BY 1 DESC
+	LIMIT 21) x
+--------------
+
++----------------------+
+| AVG(avg_preci_repet) |
++----------------------+
+|      0.8894182539524 |
++----------------------+
+1 row in set (0,13 sec)
 
 --------------
 SELECT AVG(avg_preci_repet) 
@@ -833,7 +1101,7 @@ FROM (SELECT COUNT(*), AVG(precision_) avg_preci_repet
 +----------------------+
 |      0.9277773333000 |
 +----------------------+
-1 row in set (0,12 sec)
+1 row in set (0,13 sec)
 
 --------------
 SELECT AVG(avg_preci_repet) 
@@ -865,15 +1133,66 @@ FROM (SELECT COUNT(*), AVG(recall) avg_recall_repet
 	GROUP BY bgp_dbp 
 	HAVING count(*)>1 
 	ORDER BY 1 DESC
-	LIMIT 20) x
+	LIMIT 53) x
 --------------
 
 +-----------------------+
 | AVG(avg_recall_repet) |
 +-----------------------+
-|       0.4733350000000 |
+|       0.5858515094340 |
 +-----------------------+
 1 row in set (0,13 sec)
+
+--------------
+SELECT AVG(avg_recall_repet) 
+FROM (SELECT COUNT(*), AVG(recall) avg_recall_repet 
+	FROM recall 
+	GROUP BY bgp_dbp 
+	HAVING count(*)>1 
+	ORDER BY 1 DESC
+	LIMIT 42) x
+--------------
+
++-----------------------+
+| AVG(avg_recall_repet) |
++-----------------------+
+|       0.5646847619048 |
++-----------------------+
+1 row in set (0,12 sec)
+
+--------------
+SELECT AVG(avg_recall_repet) 
+FROM (SELECT COUNT(*), AVG(recall) avg_recall_repet 
+	FROM recall 
+	GROUP BY bgp_dbp 
+	HAVING count(*)>1 
+	ORDER BY 1 DESC
+	LIMIT 31) x
+--------------
+
++-----------------------+
+| AVG(avg_recall_repet) |
++-----------------------+
+|       0.5284964516129 |
++-----------------------+
+1 row in set (0,12 sec)
+
+--------------
+SELECT AVG(avg_recall_repet) 
+FROM (SELECT COUNT(*), AVG(recall) avg_recall_repet 
+	FROM recall 
+	GROUP BY bgp_dbp 
+	HAVING count(*)>1 
+	ORDER BY 1 DESC
+	LIMIT 21) x
+--------------
+
++-----------------------+
+| AVG(avg_recall_repet) |
++-----------------------+
+|       0.4746047619048 |
++-----------------------+
+1 row in set (0,11 sec)
 
 --------------
 SELECT AVG(avg_recall_repet) 
@@ -890,7 +1209,7 @@ FROM (SELECT COUNT(*), AVG(recall) avg_recall_repet
 +-----------------------+
 |       0.3666690000000 |
 +-----------------------+
-1 row in set (0,11 sec)
+1 row in set (0,14 sec)
 
 --------------
 SELECT AVG(avg_recall_repet) 
@@ -907,7 +1226,7 @@ FROM (SELECT COUNT(*), AVG(recall) avg_recall_repet
 +-----------------------+
 |       0.4644466666667 |
 +-----------------------+
-1 row in set (0,11 sec)
+1 row in set (0,13 sec)
 
 --------------
 SELECT AVG(avg_recall_repet) 
@@ -924,7 +1243,7 @@ FROM (SELECT COUNT(*), AVG(recall) avg_recall_repet
 +-----------------------+
 |       0.5666680000000 |
 +-----------------------+
-1 row in set (0,12 sec)
+1 row in set (0,11 sec)
 
 --------------
 -- nb_occurrences_dbp gives the number of same queries existing in one hour in the ground truth. As LIFT merges these same queries if they appear in the same input log, only one of them was executed and analyzed with lift.
@@ -995,7 +1314,7 @@ group by ip ORDER BY 2 DESC
 | fd5a786c4cab499cac15f1fc4f030981 |                       1 |  1.000000000 |
 | d1f76e3ffc8d50ba1e4dde1e3a7279ac |                       1 |  1.000000000 |
 +----------------------------------+-------------------------+--------------+
-47 rows in set (0,02 sec)
+47 rows in set (0,03 sec)
 
 --------------
 -- Returns by ip the number of occurrence of the same BGP and their precision
@@ -1060,7 +1379,7 @@ group by ip ORDER BY 2 DESC
 | fd5a786c4cab499cac15f1fc4f030981 |                       1 |     1.000000000 |
 | d1f76e3ffc8d50ba1e4dde1e3a7279ac |                       1 |     1.000000000 |
 +----------------------------------+-------------------------+-----------------+
-47 rows in set (0,02 sec)
+47 rows in set (0,03 sec)
 
 --------------
 -- Returns by ip the number of occurrence of the same BGP and their recall
@@ -1126,5 +1445,5 @@ ORDER BY 2 DESC
 | fd5a786c4cab499cac15f1fc4f030981 |                       1 | 1.000000000 |
 | d1f76e3ffc8d50ba1e4dde1e3a7279ac |                       1 | 1.000000000 |
 +----------------------------------+-------------------------+-------------+
-47 rows in set (0,02 sec)
+47 rows in set (0,03 sec)
 
