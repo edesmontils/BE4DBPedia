@@ -1,0 +1,1130 @@
+--------------
+-- This table contains all values of precision and recall calculated as a cartesian product of ground truth queries (SPARQL queries of DBpedia) and deduced queries (BGP's extraction of LIFT)
+--------------
+
+Query OK, 0 rows affected (0,00 sec)
+
+--------------
+-- Returns the total average of precision
+--------------
+
+Query OK, 0 rows affected (0,00 sec)
+
+--------------
+SELECT AVG(precision_) 
+FROM preci
+--------------
+
++-----------------+
+| AVG(precision_) |
++-----------------+
+|     0.694102325 |
++-----------------+
+1 row in set (0,01 sec)
+
+--------------
+-- Returns the total average of recall
+--------------
+
+Query OK, 0 rows affected (0,00 sec)
+
+--------------
+SELECT AVG(recall) 
+FROM recall
+--------------
+
++-------------+
+| AVG(recall) |
++-------------+
+| 0.642290754 |
++-------------+
+1 row in set (0,01 sec)
+
+--------------
+-- Returns the different values of precision and the number of BGPs having that value
+--------------
+
+Query OK, 0 rows affected (0,00 sec)
+
+--------------
+SELECT count(precision_) nb_bgps_date_ip, precision_
+FROM preci
+GROUP BY precision_
+ORDER BY 1 DESC
+--------------
+
++-----------------+------------+
+| nb_bgps_date_ip | precision_ |
++-----------------+------------+
+|           12962 |    0.66667 |
+|            1231 |    1.00000 |
+|              25 |    0.00000 |
+|              21 |    0.50000 |
+|              13 |    0.85714 |
+|               2 |    0.33333 |
+|               1 |    0.28571 |
+|               1 |    0.25000 |
+|               1 |    0.40000 |
+|               1 |    0.83333 |
+|               1 |    0.75000 |
++-----------------+------------+
+11 rows in set (0,02 sec)
+
+--------------
+-- Returns the different values of recall and the number of BGPs having that value
+--------------
+
+Query OK, 0 rows affected (0,00 sec)
+
+--------------
+SELECT count(recall) nb_bgps_date_ip, recall
+FROM recall
+GROUP BY recall
+ORDER BY 1 DESC
+--------------
+
++-----------------+---------+
+| nb_bgps_date_ip | recall  |
++-----------------+---------+
+|           12964 | 0.66667 |
+|             844 | 0.33333 |
+|             292 | 0.50000 |
+|              73 | 1.00000 |
+|              42 | 0.16667 |
+|              25 | 0.00000 |
+|              10 | 0.20000 |
+|               6 | 0.75000 |
+|               1 | 0.80000 |
+|               1 | 0.83333 |
+|               1 | 0.25000 |
++-----------------+---------+
+11 rows in set (0,01 sec)
+
+--------------
+-- Returns the average of precision obtained by date
+--------------
+
+Query OK, 0 rows affected (0,00 sec)
+
+--------------
+SELECT date_, AVG(quality)
+FROM quality
+GROUP BY date_
+ORDER BY 2 DESC
+--------------
+
++---------------------+--------------+
+| date_               | AVG(quality) |
++---------------------+--------------+
+| 2015-10-30T12-00-00 |  0.705915400 |
+| 2015-10-30T11-00-00 |  0.699734712 |
+| 2015-10-30T06-00-00 |  0.696510865 |
+| 2015-10-30T08-00-00 |  0.690450120 |
+| 2015-10-30T07-00-00 |  0.682959473 |
+| 2015-10-30T10-00-00 |  0.682592125 |
+| 2015-10-30T05-00-00 |  0.669219587 |
+| 2015-10-30T04-00-00 |  0.667363249 |
+| 2015-10-30T03-00-00 |  0.666833278 |
+| 2015-10-30T09-00-00 |  0.622892270 |
++---------------------+--------------+
+10 rows in set (0,01 sec)
+
+--------------
+-- Returns the average of precision obtained by date
+--------------
+
+Query OK, 0 rows affected (0,00 sec)
+
+--------------
+SELECT date_, AVG(precision_)
+FROM preci 
+GROUP BY date_
+ORDER BY 2 DESC
+--------------
+
++---------------------+-----------------+
+| date_               | AVG(precision_) |
++---------------------+-----------------+
+| 2015-10-30T07-00-00 |     0.988721754 |
+| 2015-10-30T12-00-00 |     0.985714266 |
+| 2015-10-30T08-00-00 |     0.975272409 |
+| 2015-10-30T11-00-00 |     0.974507591 |
+| 2015-10-30T06-00-00 |     0.973786634 |
+| 2015-10-30T10-00-00 |     0.946428500 |
+| 2015-10-30T09-00-00 |     0.919085537 |
+| 2015-10-30T05-00-00 |     0.689522650 |
+| 2015-10-30T03-00-00 |     0.672221868 |
+| 2015-10-30T04-00-00 |     0.672195147 |
++---------------------+-----------------+
+10 rows in set (0,02 sec)
+
+--------------
+-- Returns the average of recall obtained by date
+--------------
+
+Query OK, 0 rows affected (0,00 sec)
+
+--------------
+SELECT date_, AVG(recall) 
+FROM recall
+GROUP BY date_
+ORDER BY 2 DESC
+--------------
+
++---------------------+-------------+
+| date_               | AVG(recall) |
++---------------------+-------------+
+| 2015-10-30T04-00-00 | 0.662604876 |
+| 2015-10-30T03-00-00 | 0.661444552 |
+| 2015-10-30T05-00-00 | 0.649091506 |
+| 2015-10-30T12-00-00 | 0.426108533 |
+| 2015-10-30T11-00-00 | 0.424953874 |
+| 2015-10-30T06-00-00 | 0.421152403 |
+| 2015-10-30T10-00-00 | 0.418748625 |
+| 2015-10-30T08-00-00 | 0.405620722 |
+| 2015-10-30T07-00-00 | 0.377191491 |
+| 2015-10-30T09-00-00 | 0.326690597 |
++---------------------+-------------+
+10 rows in set (0,02 sec)
+
+--------------
+-- Returns the average of precision by ip
+--------------
+
+Query OK, 0 rows affected (0,00 sec)
+
+--------------
+SELECT ip, AVG(quality) 
+FROM quality
+GROUP BY ip  
+ORDER BY 2 DESC
+--------------
+
++----------------------------------+--------------+
+| ip                               | AVG(quality) |
++----------------------------------+--------------+
+| fdc5ef2736b762440c1898e6343ada61 |  1.000000000 |
+| d1f76e3ffc8d50ba1e4dde1e3a7279ac |  1.000000000 |
+| 7d73d8a99b8ad151168077ac1d7391d5 |  1.000000000 |
+| 22eb80a98deb0d2dd0633bd6e7f07a53 |  1.000000000 |
+| ff0f5aecdcbd81f0f00f04587936b53c |  1.000000000 |
+| 48b3acb5c4c1cd4732edef1e40928cf3 |  1.000000000 |
+| ab7ea38c96b835bc1fbcdf6b9e2c746a |  1.000000000 |
+| 20024c4fff179231b87531ec9ee3753d |  1.000000000 |
+| d4744c38871d71b238ab8f549a90e831 |  1.000000000 |
+| 00803c96bbe4ce2fe9039610f273e775 |  1.000000000 |
+| 362afca1abfa0797d9656b9150801b4e |  1.000000000 |
+| 20a822b0fec202f3914ae18139d969b0 |  1.000000000 |
+| fd5a786c4cab499cac15f1fc4f030981 |  1.000000000 |
+| 64d7679ceb0a0396c52c3098cf230b40 |  1.000000000 |
+| 913763b39b43daeed320774f4fe10161 |  1.000000000 |
+| 2a7a816b56fd355e57b3b58b42224449 |  0.945377058 |
+| f7655f752244fcae2a76f9a112484bdc |  0.937500000 |
+| 159fa42bac0aec60f86b3562d6180eb4 |  0.906250000 |
+| c71fc19f458cd7679faabe1fa5a910b9 |  0.875000000 |
+| d4c9f23b5562ac5a02dba6831dac2ad5 |  0.875000000 |
+| e2b6174c131f364407f276fbc020f3a7 |  0.854170000 |
+| 74814cd1dd3d0979d41bb48f90625d86 |  0.833340000 |
+| 024f118e6dae30dbbd76260799a67b8c |  0.833330000 |
+| 6c890ada684dab99fb1d3952dff1e7f6 |  0.816670000 |
+| 12824ed17a4829052228e2407b2ca30e |  0.805560000 |
+| 272832c30b56ad127d52890cc30d3e3a |  0.750000000 |
+| a9c520a4f4d619b6bda7608e63839f83 |  0.750000000 |
+| fa5cd155c1ccc1704bc08441d8e357c9 |  0.750000000 |
+| 4773161861619abdadcc920de2a37441 |  0.750000000 |
+| 4e044bfebd84c059bda03859dabdfeea |  0.750000000 |
+| c5f49c024e37fbf62b323feb56d17596 |  0.743478260 |
+| 531aea22168af305b5cbd2c293b942fc |  0.679167500 |
+| 09a722914a9e67817a4ba495946a250c |  0.666670000 |
+| 368639055477714d582de2c2faa8c119 |  0.666670000 |
+| cddd37cf9bf21af549a60acb5166c8d4 |  0.666670000 |
+| bc0b09a03e1ade23baed88f82049b3df |  0.666670000 |
+| 878834a3811c99e75ba1d5c773717f80 |  0.666666666 |
+| 2646c3cfefd5db516f6ca39b10594e7b |  0.650333862 |
+| a6ce081d7e2b94ea57865d6661eb1c0e |  0.625000000 |
+| 2583b4723a8250435283b8f8ceb0cb88 |  0.625000000 |
+| edbdfc08f325ed117373add505a688ca |  0.625000000 |
+| ba097493b941b2486772621c93fcf25c |  0.586543846 |
+| 1a75d3820ec963244f9da6ed14058322 |  0.500000000 |
+| 312798d8937f569c17b523faa79cb186 |  0.500000000 |
+| 6ac17ffd135c2f1e9577831a69e01a8a |  0.416670000 |
+| 09469cd331172c979ffa8b83d6db5ee4 |  0.392065000 |
+| 5a6c0ef4da85c4098133ce2719c35873 |  0.000000000 |
++----------------------------------+--------------+
+47 rows in set (0,01 sec)
+
+--------------
+-- Returns the average of precision by ip
+--------------
+
+Query OK, 0 rows affected (0,00 sec)
+
+--------------
+SELECT ip, AVG(precision_) 
+FROM preci
+GROUP BY ip  
+ORDER BY 2 DESC
+--------------
+
++----------------------------------+-----------------+
+| ip                               | AVG(precision_) |
++----------------------------------+-----------------+
+| cddd37cf9bf21af549a60acb5166c8d4 |     1.000000000 |
+| bc0b09a03e1ade23baed88f82049b3df |     1.000000000 |
+| a6ce081d7e2b94ea57865d6661eb1c0e |     1.000000000 |
+| 74814cd1dd3d0979d41bb48f90625d86 |     1.000000000 |
+| fdc5ef2736b762440c1898e6343ada61 |     1.000000000 |
+| d1f76e3ffc8d50ba1e4dde1e3a7279ac |     1.000000000 |
+| 272832c30b56ad127d52890cc30d3e3a |     1.000000000 |
+| 7d73d8a99b8ad151168077ac1d7391d5 |     1.000000000 |
+| 22eb80a98deb0d2dd0633bd6e7f07a53 |     1.000000000 |
+| ff0f5aecdcbd81f0f00f04587936b53c |     1.000000000 |
+| c71fc19f458cd7679faabe1fa5a910b9 |     1.000000000 |
+| 48b3acb5c4c1cd4732edef1e40928cf3 |     1.000000000 |
+| ab7ea38c96b835bc1fbcdf6b9e2c746a |     1.000000000 |
+| 20024c4fff179231b87531ec9ee3753d |     1.000000000 |
+| d4744c38871d71b238ab8f549a90e831 |     1.000000000 |
+| a9c520a4f4d619b6bda7608e63839f83 |     1.000000000 |
+| fa5cd155c1ccc1704bc08441d8e357c9 |     1.000000000 |
+| 00803c96bbe4ce2fe9039610f273e775 |     1.000000000 |
+| 4e044bfebd84c059bda03859dabdfeea |     1.000000000 |
+| d4c9f23b5562ac5a02dba6831dac2ad5 |     1.000000000 |
+| 362afca1abfa0797d9656b9150801b4e |     1.000000000 |
+| ba097493b941b2486772621c93fcf25c |     1.000000000 |
+| 20a822b0fec202f3914ae18139d969b0 |     1.000000000 |
+| fd5a786c4cab499cac15f1fc4f030981 |     1.000000000 |
+| 64d7679ceb0a0396c52c3098cf230b40 |     1.000000000 |
+| f7655f752244fcae2a76f9a112484bdc |     1.000000000 |
+| 913763b39b43daeed320774f4fe10161 |     1.000000000 |
+| c5f49c024e37fbf62b323feb56d17596 |     0.991304347 |
+| 2646c3cfefd5db516f6ca39b10594e7b |     0.975495915 |
+| 2a7a816b56fd355e57b3b58b42224449 |     0.890754117 |
+| 531aea22168af305b5cbd2c293b942fc |     0.875000000 |
+| e2b6174c131f364407f276fbc020f3a7 |     0.833335000 |
+| 6c890ada684dab99fb1d3952dff1e7f6 |     0.833335000 |
+| 024f118e6dae30dbbd76260799a67b8c |     0.833330000 |
+| 159fa42bac0aec60f86b3562d6180eb4 |     0.812500000 |
+| 12824ed17a4829052228e2407b2ca30e |     0.722223333 |
+| 09a722914a9e67817a4ba495946a250c |     0.666670000 |
+| 368639055477714d582de2c2faa8c119 |     0.666670000 |
+| 1a75d3820ec963244f9da6ed14058322 |     0.500000000 |
+| 878834a3811c99e75ba1d5c773717f80 |     0.500000000 |
+| 312798d8937f569c17b523faa79cb186 |     0.500000000 |
+| 4773161861619abdadcc920de2a37441 |     0.500000000 |
+| edbdfc08f325ed117373add505a688ca |     0.500000000 |
+| 2583b4723a8250435283b8f8ceb0cb88 |     0.416666666 |
+| 09469cd331172c979ffa8b83d6db5ee4 |     0.336506666 |
+| 6ac17ffd135c2f1e9577831a69e01a8a |     0.333330000 |
+| 5a6c0ef4da85c4098133ce2719c35873 |     0.000000000 |
++----------------------------------+-----------------+
+47 rows in set (0,01 sec)
+
+--------------
+-- Returns the average of recall by ip
+--------------
+
+Query OK, 0 rows affected (0,00 sec)
+
+--------------
+SELECT ip, AVG(recall) 
+FROM recall
+GROUP BY ip 
+ORDER BY 2 DESC
+--------------
+
++----------------------------------+-------------+
+| ip                               | AVG(recall) |
++----------------------------------+-------------+
+| 159fa42bac0aec60f86b3562d6180eb4 | 1.000000000 |
+| fdc5ef2736b762440c1898e6343ada61 | 1.000000000 |
+| d1f76e3ffc8d50ba1e4dde1e3a7279ac | 1.000000000 |
+| 7d73d8a99b8ad151168077ac1d7391d5 | 1.000000000 |
+| 22eb80a98deb0d2dd0633bd6e7f07a53 | 1.000000000 |
+| ff0f5aecdcbd81f0f00f04587936b53c | 1.000000000 |
+| 48b3acb5c4c1cd4732edef1e40928cf3 | 1.000000000 |
+| ab7ea38c96b835bc1fbcdf6b9e2c746a | 1.000000000 |
+| 20024c4fff179231b87531ec9ee3753d | 1.000000000 |
+| d4744c38871d71b238ab8f549a90e831 | 1.000000000 |
+| 2a7a816b56fd355e57b3b58b42224449 | 1.000000000 |
+| 00803c96bbe4ce2fe9039610f273e775 | 1.000000000 |
+| 4773161861619abdadcc920de2a37441 | 1.000000000 |
+| 362afca1abfa0797d9656b9150801b4e | 1.000000000 |
+| 20a822b0fec202f3914ae18139d969b0 | 1.000000000 |
+| fd5a786c4cab499cac15f1fc4f030981 | 1.000000000 |
+| 64d7679ceb0a0396c52c3098cf230b40 | 1.000000000 |
+| 913763b39b43daeed320774f4fe10161 | 1.000000000 |
+| 6c890ada684dab99fb1d3952dff1e7f6 | 0.900000000 |
+| 12824ed17a4829052228e2407b2ca30e | 0.888890000 |
+| e2b6174c131f364407f276fbc020f3a7 | 0.875000000 |
+| f7655f752244fcae2a76f9a112484bdc | 0.875000000 |
+| 878834a3811c99e75ba1d5c773717f80 | 0.833333333 |
+| 2583b4723a8250435283b8f8ceb0cb88 | 0.833333333 |
+| 024f118e6dae30dbbd76260799a67b8c | 0.833330000 |
+| c71fc19f458cd7679faabe1fa5a910b9 | 0.750000000 |
+| edbdfc08f325ed117373add505a688ca | 0.750000000 |
+| d4c9f23b5562ac5a02dba6831dac2ad5 | 0.750000000 |
+| 09a722914a9e67817a4ba495946a250c | 0.666670000 |
+| 368639055477714d582de2c2faa8c119 | 0.666670000 |
+| 74814cd1dd3d0979d41bb48f90625d86 | 0.666670000 |
+| 531aea22168af305b5cbd2c293b942fc | 0.666667500 |
+| 1a75d3820ec963244f9da6ed14058322 | 0.500000000 |
+| 09469cd331172c979ffa8b83d6db5ee4 | 0.500000000 |
+| 272832c30b56ad127d52890cc30d3e3a | 0.500000000 |
+| 312798d8937f569c17b523faa79cb186 | 0.500000000 |
+| a9c520a4f4d619b6bda7608e63839f83 | 0.500000000 |
+| fa5cd155c1ccc1704bc08441d8e357c9 | 0.500000000 |
+| 4e044bfebd84c059bda03859dabdfeea | 0.500000000 |
+| 6ac17ffd135c2f1e9577831a69e01a8a | 0.500000000 |
+| c5f49c024e37fbf62b323feb56d17596 | 0.495652173 |
+| cddd37cf9bf21af549a60acb5166c8d4 | 0.333330000 |
+| bc0b09a03e1ade23baed88f82049b3df | 0.333330000 |
+| 2646c3cfefd5db516f6ca39b10594e7b | 0.325162053 |
+| a6ce081d7e2b94ea57865d6661eb1c0e | 0.250000000 |
+| ba097493b941b2486772621c93fcf25c | 0.173079615 |
+| 5a6c0ef4da85c4098133ce2719c35873 | 0.000000000 |
++----------------------------------+-------------+
+47 rows in set (0,02 sec)
+
+--------------
+-- Returns the global quality of queries that occurred more than once
+--------------
+
+Query OK, 0 rows affected (0,00 sec)
+
+--------------
+SELECT AVG(avg_quality_repet)
+FROM (SELECT COUNT(*), AVG(quality) avg_quality_repet
+	FROM quality
+	GROUP BY bgp_dbp 
+	HAVING count(*)>1) y
+--------------
+
++------------------------+
+| AVG(avg_quality_repet) |
++------------------------+
+|        0.7054789308113 |
++------------------------+
+1 row in set (0,11 sec)
+
+--------------
+-- Returns the global precision of queries that occurred more than once
+--------------
+
+Query OK, 0 rows affected (0,00 sec)
+
+--------------
+SELECT AVG(avg_preci_repet)
+FROM (SELECT COUNT(*), AVG(precision_) avg_preci_repet
+	FROM preci
+	GROUP BY bgp_dbp 
+	HAVING count(*)>1) y
+--------------
+
++----------------------+
+| AVG(avg_preci_repet) |
++----------------------+
+|      0.8554520125755 |
++----------------------+
+1 row in set (0,10 sec)
+
+--------------
+-- Returns the global recall of queries that occurred more than once
+--------------
+
+Query OK, 0 rows affected (0,00 sec)
+
+--------------
+SELECT AVG(avg_recall_repet)
+FROM (SELECT COUNT(*), AVG(recall) avg_recall_repet
+	FROM recall
+	GROUP BY bgp_dbp 
+	HAVING count(*)>1) y
+--------------
+
++-----------------------+
+| AVG(avg_recall_repet) |
++-----------------------+
+|       0.5555047169811 |
++-----------------------+
+1 row in set (0,11 sec)
+
+--------------
+==
+-- Returns the quality of queries that occurred more than once
+SELECT COUNT(*), AVG(quality) avg_quality_repet
+FROM quality
+GROUP BY bgp_dbp 
+HAVING count(*)>1
+ORDER BY 1 DESC
+--------------
+
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==
+-- Returns the quality of queries that occurred more than once
+SELECT COUNT(*' at line 1
+--------------
+-- Returns the precision of queries that occurred more than once
+--------------
+
+Query OK, 0 rows affected (0,00 sec)
+
+--------------
+SELECT COUNT(*), AVG(precision_) avg_preci_repet
+FROM preci
+GROUP BY bgp_dbp 
+HAVING count(*)>1
+ORDER BY 1 DESC
+--------------
+
++----------+-----------------+
+| COUNT(*) | avg_preci_repet |
++----------+-----------------+
+|        9 |     0.920633333 |
+|        8 |     0.857140000 |
+|        6 |     0.500000000 |
+|        5 |     1.000000000 |
+|        5 |     1.000000000 |
+|        5 |     1.000000000 |
+|        5 |     1.000000000 |
+|        5 |     1.000000000 |
+|        5 |     1.000000000 |
+|        5 |     1.000000000 |
+|        5 |     0.400000000 |
+|        3 |     0.666670000 |
+|        3 |     0.666670000 |
+|        3 |     0.666670000 |
+|        3 |     1.000000000 |
+|        3 |     1.000000000 |
+|        3 |     1.000000000 |
+|        3 |     1.000000000 |
+|        3 |     1.000000000 |
+|        3 |     1.000000000 |
+|        3 |     1.000000000 |
+|        3 |     1.000000000 |
+|        3 |     1.000000000 |
+|        3 |     1.000000000 |
+|        2 |     0.666670000 |
+|        2 |     0.666670000 |
+|        2 |     0.666670000 |
+|        2 |     0.666670000 |
+|        2 |     0.666670000 |
+|        2 |     0.666670000 |
+|        2 |     0.666670000 |
+|        2 |     0.666670000 |
+|        2 |     0.666670000 |
+|        2 |     0.666670000 |
+|        2 |     0.666670000 |
+|        2 |     0.666670000 |
+|        2 |     0.666670000 |
+|        2 |     0.666670000 |
+|        2 |     0.666670000 |
+|        2 |     0.666670000 |
+|        2 |     0.666670000 |
+|        2 |     0.666670000 |
+|        2 |     0.666670000 |
+|        2 |     0.666670000 |
+|        2 |     0.666670000 |
+|        2 |     0.666670000 |
+|        2 |     0.666670000 |
+|        2 |     0.666670000 |
+|        2 |     0.666670000 |
+|        2 |     0.666670000 |
+|        2 |     0.666670000 |
+|        2 |     0.666670000 |
+|        2 |     0.666670000 |
+|        2 |     0.666670000 |
+|        2 |     0.666670000 |
+|        2 |     0.666670000 |
+|        2 |     0.666670000 |
+|        2 |     0.666670000 |
+|        2 |     0.666670000 |
+|        2 |     0.666670000 |
+|        2 |     0.666670000 |
+|        2 |     0.666670000 |
+|        2 |     0.666670000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
+|        2 |     1.000000000 |
++----------+-----------------+
+106 rows in set (0,14 sec)
+
+--------------
+-- Returns the recall of queries that occurred more than once
+--------------
+
+Query OK, 0 rows affected (0,00 sec)
+
+--------------
+SELECT COUNT(*), AVG(recall) avg_recall_repet
+FROM recall
+GROUP BY bgp_dbp 
+HAVING count(*)>1
+ORDER BY 1 DESC
+--------------
+
++----------+------------------+
+| COUNT(*) | avg_recall_repet |
++----------+------------------+
+|        9 |      1.000000000 |
+|        8 |      1.000000000 |
+|        6 |      0.500000000 |
+|        5 |      0.166670000 |
+|        5 |      0.166670000 |
+|        5 |      0.166670000 |
+|        5 |      0.166670000 |
+|        5 |      0.166670000 |
+|        5 |      0.166670000 |
+|        5 |      0.166670000 |
+|        5 |      0.800000000 |
+|        3 |      0.666670000 |
+|        3 |      0.666670000 |
+|        3 |      0.666670000 |
+|        3 |      0.500000000 |
+|        3 |      0.500000000 |
+|        3 |      0.500000000 |
+|        3 |      0.500000000 |
+|        3 |      0.500000000 |
+|        3 |      0.500000000 |
+|        3 |      0.500000000 |
+|        3 |      0.500000000 |
+|        3 |      0.500000000 |
+|        3 |      0.750000000 |
+|        2 |      0.666670000 |
+|        2 |      0.666670000 |
+|        2 |      0.666670000 |
+|        2 |      0.666670000 |
+|        2 |      0.666670000 |
+|        2 |      0.666670000 |
+|        2 |      0.666670000 |
+|        2 |      0.666670000 |
+|        2 |      0.666670000 |
+|        2 |      0.666670000 |
+|        2 |      0.666670000 |
+|        2 |      0.666670000 |
+|        2 |      0.666670000 |
+|        2 |      0.666670000 |
+|        2 |      0.666670000 |
+|        2 |      0.666670000 |
+|        2 |      0.666670000 |
+|        2 |      0.666670000 |
+|        2 |      0.666670000 |
+|        2 |      0.666670000 |
+|        2 |      0.666670000 |
+|        2 |      0.666670000 |
+|        2 |      0.666670000 |
+|        2 |      0.666670000 |
+|        2 |      0.666670000 |
+|        2 |      0.666670000 |
+|        2 |      0.666670000 |
+|        2 |      0.666670000 |
+|        2 |      0.666670000 |
+|        2 |      0.666670000 |
+|        2 |      0.666670000 |
+|        2 |      0.666670000 |
+|        2 |      0.666670000 |
+|        2 |      0.666670000 |
+|        2 |      0.666670000 |
+|        2 |      0.666670000 |
+|        2 |      0.666670000 |
+|        2 |      0.666670000 |
+|        2 |      0.666670000 |
+|        2 |      0.500000000 |
+|        2 |      0.500000000 |
+|        2 |      0.500000000 |
+|        2 |      0.500000000 |
+|        2 |      0.500000000 |
+|        2 |      0.500000000 |
+|        2 |      0.500000000 |
+|        2 |      0.500000000 |
+|        2 |      0.500000000 |
+|        2 |      0.500000000 |
+|        2 |      0.500000000 |
+|        2 |      0.500000000 |
+|        2 |      0.500000000 |
+|        2 |      0.500000000 |
+|        2 |      0.500000000 |
+|        2 |      0.500000000 |
+|        2 |      0.500000000 |
+|        2 |      0.500000000 |
+|        2 |      0.500000000 |
+|        2 |      0.500000000 |
+|        2 |      0.500000000 |
+|        2 |      0.500000000 |
+|        2 |      0.333330000 |
+|        2 |      0.500000000 |
+|        2 |      0.500000000 |
+|        2 |      0.500000000 |
+|        2 |      0.500000000 |
+|        2 |      0.500000000 |
+|        2 |      0.500000000 |
+|        2 |      0.500000000 |
+|        2 |      0.500000000 |
+|        2 |      0.500000000 |
+|        2 |      0.500000000 |
+|        2 |      0.500000000 |
+|        2 |      0.500000000 |
+|        2 |      0.500000000 |
+|        2 |      0.333330000 |
+|        2 |      0.500000000 |
+|        2 |      1.000000000 |
+|        2 |      0.166670000 |
+|        2 |      0.166670000 |
+|        2 |      0.166670000 |
+|        2 |      1.000000000 |
++----------+------------------+
+106 rows in set (0,13 sec)
+
+--------------
+==
+-- Next queries return the number of occurrences (if higher than 1) and the quality of the TOP N most repeated BGPs
+SELECT AVG(avg_quality_repet) 
+FROM (SELECT COUNT(*), AVG(quality) avg_quality_repet 
+	FROM quality 
+	GROUP BY bgp_dbp 
+	HAVING count(*)>1 
+	ORDER BY 1 DESC
+	LIMIT 20) x
+--------------
+
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==
+-- Next queries return the number of occurrences (if higher than 1) and the q' at line 1
+--------------
+SELECT AVG(avg_quality_repet) 
+FROM (SELECT COUNT(*), AVG(quality) avg_quality_repet 
+	FROM quality 
+	GROUP BY bgp_dbp 
+	HAVING count(*)>1 
+	ORDER BY 1 DESC
+	LIMIT 15) x
+--------------
+
++------------------------+
+| AVG(avg_quality_repet) |
++------------------------+
+|        0.6548184444000 |
++------------------------+
+1 row in set (0,12 sec)
+
+--------------
+SELECT AVG(avg_quality_repet) 
+FROM (SELECT COUNT(*), AVG(quality) avg_quality_repet 
+	FROM quality 
+	GROUP BY bgp_dbp 
+	HAVING count(*)>1 
+	ORDER BY 1 DESC
+	LIMIT 10) x
+--------------
+
++------------------------+
+| AVG(avg_quality_repet) |
++------------------------+
+|        0.6472266666000 |
++------------------------+
+1 row in set (0,11 sec)
+
+--------------
+SELECT AVG(avg_quality_repet) 
+FROM (SELECT COUNT(*), AVG(quality) avg_quality_repet 
+	FROM quality 
+	GROUP BY bgp_dbp 
+	HAVING count(*)>1 
+	ORDER BY 1 DESC
+	LIMIT 5) x
+--------------
+
++------------------------+
+| AVG(avg_quality_repet) |
++------------------------+
+|        0.7111133332000 |
++------------------------+
+1 row in set (0,11 sec)
+
+--------------
+-- Next queries return the number of occurrences (if higher than 1) and the precision of the TOP N most repeated BGPs
+--------------
+
+Query OK, 0 rows affected (0,00 sec)
+
+--------------
+SELECT AVG(avg_preci_repet) 
+FROM (SELECT COUNT(*), AVG(precision_) avg_preci_repet 
+	FROM preci 
+	GROUP BY bgp_dbp 
+	HAVING count(*)>1 
+	ORDER BY 1 DESC
+	LIMIT 20) x
+--------------
+
++----------------------+
+| AVG(avg_preci_repet) |
++----------------------+
+|      0.8838891666500 |
++----------------------+
+1 row in set (0,12 sec)
+
+--------------
+SELECT AVG(avg_preci_repet) 
+FROM (SELECT COUNT(*), AVG(precision_) avg_preci_repet 
+	FROM preci 
+	GROUP BY bgp_dbp 
+	HAVING count(*)>1 
+	ORDER BY 1 DESC
+	LIMIT 15) x
+--------------
+
++----------------------+
+| AVG(avg_preci_repet) |
++----------------------+
+|      0.8451855555333 |
++----------------------+
+1 row in set (0,11 sec)
+
+--------------
+SELECT AVG(avg_preci_repet) 
+FROM (SELECT COUNT(*), AVG(precision_) avg_preci_repet 
+	FROM preci 
+	GROUP BY bgp_dbp 
+	HAVING count(*)>1 
+	ORDER BY 1 DESC
+	LIMIT 10) x
+--------------
+
++----------------------+
+| AVG(avg_preci_repet) |
++----------------------+
+|      0.9277773333000 |
++----------------------+
+1 row in set (0,12 sec)
+
+--------------
+SELECT AVG(avg_preci_repet) 
+FROM (SELECT COUNT(*), AVG(precision_) avg_preci_repet 
+	FROM preci 
+	GROUP BY bgp_dbp 
+	HAVING count(*)>1 
+	ORDER BY 1 DESC
+	LIMIT 5) x
+--------------
+
++----------------------+
+| AVG(avg_preci_repet) |
++----------------------+
+|      0.8555546666000 |
++----------------------+
+1 row in set (0,12 sec)
+
+--------------
+-- Next queries return the number of occurrences (if higher than 1) and the recall of the TOP N most repeated BGPs
+--------------
+
+Query OK, 0 rows affected (0,00 sec)
+
+--------------
+SELECT AVG(avg_recall_repet) 
+FROM (SELECT COUNT(*), AVG(recall) avg_recall_repet 
+	FROM recall 
+	GROUP BY bgp_dbp 
+	HAVING count(*)>1 
+	ORDER BY 1 DESC
+	LIMIT 20) x
+--------------
+
++-----------------------+
+| AVG(avg_recall_repet) |
++-----------------------+
+|       0.4733350000000 |
++-----------------------+
+1 row in set (0,13 sec)
+
+--------------
+SELECT AVG(avg_recall_repet) 
+FROM (SELECT COUNT(*), AVG(recall) avg_recall_repet 
+	FROM recall 
+	GROUP BY bgp_dbp 
+	HAVING count(*)>1 
+	ORDER BY 1 DESC
+	LIMIT 10) x
+--------------
+
++-----------------------+
+| AVG(avg_recall_repet) |
++-----------------------+
+|       0.3666690000000 |
++-----------------------+
+1 row in set (0,11 sec)
+
+--------------
+SELECT AVG(avg_recall_repet) 
+FROM (SELECT COUNT(*), AVG(recall) avg_recall_repet 
+	FROM recall 
+	GROUP BY bgp_dbp 
+	HAVING count(*)>1 
+	ORDER BY 1 DESC
+	LIMIT 15) x
+--------------
+
++-----------------------+
+| AVG(avg_recall_repet) |
++-----------------------+
+|       0.4644466666667 |
++-----------------------+
+1 row in set (0,11 sec)
+
+--------------
+SELECT AVG(avg_recall_repet) 
+FROM (SELECT COUNT(*), AVG(recall) avg_recall_repet 
+	FROM recall 
+	GROUP BY bgp_dbp 
+	HAVING count(*)>1 
+	ORDER BY 1 DESC
+	LIMIT 5) x
+--------------
+
++-----------------------+
+| AVG(avg_recall_repet) |
++-----------------------+
+|       0.5666680000000 |
++-----------------------+
+1 row in set (0,12 sec)
+
+--------------
+-- nb_occurrences_dbp gives the number of same queries existing in one hour in the ground truth. As LIFT merges these same queries if they appear in the same input log, only one of them was executed and analyzed with lift.
+--------------
+
+Query OK, 0 rows affected (0,00 sec)
+
+--------------
+-- Returns by ip the number of occurrence of the same BGP and their quality
+--------------
+
+Query OK, 0 rows affected (0,00 sec)
+
+--------------
+SELECT ip,sum(nb_occurrences_dbp), AVG(quality) 
+FROM quality
+group by ip ORDER BY 2 DESC
+--------------
+
++----------------------------------+-------------------------+--------------+
+| ip                               | sum(nb_occurrences_dbp) | AVG(quality) |
++----------------------------------+-------------------------+--------------+
+| 09a722914a9e67817a4ba495946a250c |                   13072 |  0.666670000 |
+| 2646c3cfefd5db516f6ca39b10594e7b |                     884 |  0.650333862 |
+| a9c520a4f4d619b6bda7608e63839f83 |                     248 |  0.750000000 |
+| ba097493b941b2486772621c93fcf25c |                     123 |  0.586543846 |
+| c5f49c024e37fbf62b323feb56d17596 |                     115 |  0.743478260 |
+| 2a7a816b56fd355e57b3b58b42224449 |                      49 |  0.945377058 |
+| d4744c38871d71b238ab8f549a90e831 |                      20 |  1.000000000 |
+| 878834a3811c99e75ba1d5c773717f80 |                      17 |  0.666666666 |
+| ab7ea38c96b835bc1fbcdf6b9e2c746a |                      16 |  1.000000000 |
+| 1a75d3820ec963244f9da6ed14058322 |                      15 |  0.500000000 |
+| 159fa42bac0aec60f86b3562d6180eb4 |                      13 |  0.906250000 |
+| 272832c30b56ad127d52890cc30d3e3a |                      12 |  0.750000000 |
+| cddd37cf9bf21af549a60acb5166c8d4 |                       7 |  0.666670000 |
+| fa5cd155c1ccc1704bc08441d8e357c9 |                       7 |  0.750000000 |
+| 2583b4723a8250435283b8f8ceb0cb88 |                       6 |  0.625000000 |
+| 09469cd331172c979ffa8b83d6db5ee4 |                       6 |  0.392065000 |
+| 12824ed17a4829052228e2407b2ca30e |                       6 |  0.805560000 |
+| 6c890ada684dab99fb1d3952dff1e7f6 |                       5 |  0.816670000 |
+| e2b6174c131f364407f276fbc020f3a7 |                       4 |  0.854170000 |
+| f7655f752244fcae2a76f9a112484bdc |                       4 |  0.937500000 |
+| 531aea22168af305b5cbd2c293b942fc |                       4 |  0.679167500 |
+| 74814cd1dd3d0979d41bb48f90625d86 |                       3 |  0.833340000 |
+| d4c9f23b5562ac5a02dba6831dac2ad5 |                       3 |  0.875000000 |
+| 20a822b0fec202f3914ae18139d969b0 |                       2 |  1.000000000 |
+| 024f118e6dae30dbbd76260799a67b8c |                       2 |  0.833330000 |
+| 22eb80a98deb0d2dd0633bd6e7f07a53 |                       2 |  1.000000000 |
+| 48b3acb5c4c1cd4732edef1e40928cf3 |                       2 |  1.000000000 |
+| edbdfc08f325ed117373add505a688ca |                       2 |  0.625000000 |
+| 368639055477714d582de2c2faa8c119 |                       2 |  0.666670000 |
+| ff0f5aecdcbd81f0f00f04587936b53c |                       2 |  1.000000000 |
+| a6ce081d7e2b94ea57865d6661eb1c0e |                       2 |  0.625000000 |
+| 20024c4fff179231b87531ec9ee3753d |                       2 |  1.000000000 |
+| 00803c96bbe4ce2fe9039610f273e775 |                       1 |  1.000000000 |
+| 64d7679ceb0a0396c52c3098cf230b40 |                       1 |  1.000000000 |
+| 7d73d8a99b8ad151168077ac1d7391d5 |                       1 |  1.000000000 |
+| c71fc19f458cd7679faabe1fa5a910b9 |                       1 |  0.875000000 |
+| 4773161861619abdadcc920de2a37441 |                       1 |  0.750000000 |
+| 5a6c0ef4da85c4098133ce2719c35873 |                       1 |  0.000000000 |
+| 362afca1abfa0797d9656b9150801b4e |                       1 |  1.000000000 |
+| 6ac17ffd135c2f1e9577831a69e01a8a |                       1 |  0.416670000 |
+| 913763b39b43daeed320774f4fe10161 |                       1 |  1.000000000 |
+| bc0b09a03e1ade23baed88f82049b3df |                       1 |  0.666670000 |
+| fdc5ef2736b762440c1898e6343ada61 |                       1 |  1.000000000 |
+| 312798d8937f569c17b523faa79cb186 |                       1 |  0.500000000 |
+| 4e044bfebd84c059bda03859dabdfeea |                       1 |  0.750000000 |
+| fd5a786c4cab499cac15f1fc4f030981 |                       1 |  1.000000000 |
+| d1f76e3ffc8d50ba1e4dde1e3a7279ac |                       1 |  1.000000000 |
++----------------------------------+-------------------------+--------------+
+47 rows in set (0,02 sec)
+
+--------------
+-- Returns by ip the number of occurrence of the same BGP and their precision
+--------------
+
+Query OK, 0 rows affected (0,00 sec)
+
+--------------
+SELECT ip,sum(nb_occurrences_dbp), AVG(precision_) 
+FROM preci
+group by ip ORDER BY 2 DESC
+--------------
+
++----------------------------------+-------------------------+-----------------+
+| ip                               | sum(nb_occurrences_dbp) | AVG(precision_) |
++----------------------------------+-------------------------+-----------------+
+| 09a722914a9e67817a4ba495946a250c |                   13072 |     0.666670000 |
+| 2646c3cfefd5db516f6ca39b10594e7b |                     884 |     0.975495915 |
+| a9c520a4f4d619b6bda7608e63839f83 |                     248 |     1.000000000 |
+| ba097493b941b2486772621c93fcf25c |                     123 |     1.000000000 |
+| c5f49c024e37fbf62b323feb56d17596 |                     115 |     0.991304347 |
+| 2a7a816b56fd355e57b3b58b42224449 |                      49 |     0.890754117 |
+| d4744c38871d71b238ab8f549a90e831 |                      20 |     1.000000000 |
+| 878834a3811c99e75ba1d5c773717f80 |                      17 |     0.500000000 |
+| ab7ea38c96b835bc1fbcdf6b9e2c746a |                      16 |     1.000000000 |
+| 1a75d3820ec963244f9da6ed14058322 |                      15 |     0.500000000 |
+| 159fa42bac0aec60f86b3562d6180eb4 |                      13 |     0.812500000 |
+| 272832c30b56ad127d52890cc30d3e3a |                      12 |     1.000000000 |
+| cddd37cf9bf21af549a60acb5166c8d4 |                       7 |     1.000000000 |
+| fa5cd155c1ccc1704bc08441d8e357c9 |                       7 |     1.000000000 |
+| 2583b4723a8250435283b8f8ceb0cb88 |                       6 |     0.416666666 |
+| 09469cd331172c979ffa8b83d6db5ee4 |                       6 |     0.336506666 |
+| 12824ed17a4829052228e2407b2ca30e |                       6 |     0.722223333 |
+| 6c890ada684dab99fb1d3952dff1e7f6 |                       5 |     0.833335000 |
+| e2b6174c131f364407f276fbc020f3a7 |                       4 |     0.833335000 |
+| f7655f752244fcae2a76f9a112484bdc |                       4 |     1.000000000 |
+| 531aea22168af305b5cbd2c293b942fc |                       4 |     0.875000000 |
+| 74814cd1dd3d0979d41bb48f90625d86 |                       3 |     1.000000000 |
+| d4c9f23b5562ac5a02dba6831dac2ad5 |                       3 |     1.000000000 |
+| 20a822b0fec202f3914ae18139d969b0 |                       2 |     1.000000000 |
+| 024f118e6dae30dbbd76260799a67b8c |                       2 |     0.833330000 |
+| 22eb80a98deb0d2dd0633bd6e7f07a53 |                       2 |     1.000000000 |
+| 48b3acb5c4c1cd4732edef1e40928cf3 |                       2 |     1.000000000 |
+| edbdfc08f325ed117373add505a688ca |                       2 |     0.500000000 |
+| 368639055477714d582de2c2faa8c119 |                       2 |     0.666670000 |
+| ff0f5aecdcbd81f0f00f04587936b53c |                       2 |     1.000000000 |
+| a6ce081d7e2b94ea57865d6661eb1c0e |                       2 |     1.000000000 |
+| 20024c4fff179231b87531ec9ee3753d |                       2 |     1.000000000 |
+| 00803c96bbe4ce2fe9039610f273e775 |                       1 |     1.000000000 |
+| 64d7679ceb0a0396c52c3098cf230b40 |                       1 |     1.000000000 |
+| 7d73d8a99b8ad151168077ac1d7391d5 |                       1 |     1.000000000 |
+| c71fc19f458cd7679faabe1fa5a910b9 |                       1 |     1.000000000 |
+| 4773161861619abdadcc920de2a37441 |                       1 |     0.500000000 |
+| 5a6c0ef4da85c4098133ce2719c35873 |                       1 |     0.000000000 |
+| 362afca1abfa0797d9656b9150801b4e |                       1 |     1.000000000 |
+| 6ac17ffd135c2f1e9577831a69e01a8a |                       1 |     0.333330000 |
+| 913763b39b43daeed320774f4fe10161 |                       1 |     1.000000000 |
+| bc0b09a03e1ade23baed88f82049b3df |                       1 |     1.000000000 |
+| fdc5ef2736b762440c1898e6343ada61 |                       1 |     1.000000000 |
+| 312798d8937f569c17b523faa79cb186 |                       1 |     0.500000000 |
+| 4e044bfebd84c059bda03859dabdfeea |                       1 |     1.000000000 |
+| fd5a786c4cab499cac15f1fc4f030981 |                       1 |     1.000000000 |
+| d1f76e3ffc8d50ba1e4dde1e3a7279ac |                       1 |     1.000000000 |
++----------------------------------+-------------------------+-----------------+
+47 rows in set (0,02 sec)
+
+--------------
+-- Returns by ip the number of occurrence of the same BGP and their recall
+--------------
+
+Query OK, 0 rows affected (0,00 sec)
+
+--------------
+SELECT ip, SUM(nb_occurrences_dbp), AVG(recall) 
+FROM recall 
+group by ip 
+ORDER BY 2 DESC
+--------------
+
++----------------------------------+-------------------------+-------------+
+| ip                               | SUM(nb_occurrences_dbp) | AVG(recall) |
++----------------------------------+-------------------------+-------------+
+| 09a722914a9e67817a4ba495946a250c |                   13072 | 0.666670000 |
+| 2646c3cfefd5db516f6ca39b10594e7b |                     884 | 0.325162053 |
+| a9c520a4f4d619b6bda7608e63839f83 |                     248 | 0.500000000 |
+| ba097493b941b2486772621c93fcf25c |                     123 | 0.173079615 |
+| c5f49c024e37fbf62b323feb56d17596 |                     115 | 0.495652173 |
+| 2a7a816b56fd355e57b3b58b42224449 |                      49 | 1.000000000 |
+| d4744c38871d71b238ab8f549a90e831 |                      20 | 1.000000000 |
+| 878834a3811c99e75ba1d5c773717f80 |                      17 | 0.833333333 |
+| ab7ea38c96b835bc1fbcdf6b9e2c746a |                      16 | 1.000000000 |
+| 1a75d3820ec963244f9da6ed14058322 |                      15 | 0.500000000 |
+| 159fa42bac0aec60f86b3562d6180eb4 |                      13 | 1.000000000 |
+| 272832c30b56ad127d52890cc30d3e3a |                      12 | 0.500000000 |
+| cddd37cf9bf21af549a60acb5166c8d4 |                       7 | 0.333330000 |
+| fa5cd155c1ccc1704bc08441d8e357c9 |                       7 | 0.500000000 |
+| 2583b4723a8250435283b8f8ceb0cb88 |                       6 | 0.833333333 |
+| 09469cd331172c979ffa8b83d6db5ee4 |                       6 | 0.500000000 |
+| 12824ed17a4829052228e2407b2ca30e |                       6 | 0.888890000 |
+| 6c890ada684dab99fb1d3952dff1e7f6 |                       5 | 0.900000000 |
+| e2b6174c131f364407f276fbc020f3a7 |                       4 | 0.875000000 |
+| f7655f752244fcae2a76f9a112484bdc |                       4 | 0.875000000 |
+| 531aea22168af305b5cbd2c293b942fc |                       4 | 0.666667500 |
+| 74814cd1dd3d0979d41bb48f90625d86 |                       3 | 0.666670000 |
+| d4c9f23b5562ac5a02dba6831dac2ad5 |                       3 | 0.750000000 |
+| 20a822b0fec202f3914ae18139d969b0 |                       2 | 1.000000000 |
+| 024f118e6dae30dbbd76260799a67b8c |                       2 | 0.833330000 |
+| 22eb80a98deb0d2dd0633bd6e7f07a53 |                       2 | 1.000000000 |
+| 48b3acb5c4c1cd4732edef1e40928cf3 |                       2 | 1.000000000 |
+| edbdfc08f325ed117373add505a688ca |                       2 | 0.750000000 |
+| 368639055477714d582de2c2faa8c119 |                       2 | 0.666670000 |
+| ff0f5aecdcbd81f0f00f04587936b53c |                       2 | 1.000000000 |
+| a6ce081d7e2b94ea57865d6661eb1c0e |                       2 | 0.250000000 |
+| 20024c4fff179231b87531ec9ee3753d |                       2 | 1.000000000 |
+| 00803c96bbe4ce2fe9039610f273e775 |                       1 | 1.000000000 |
+| 64d7679ceb0a0396c52c3098cf230b40 |                       1 | 1.000000000 |
+| 7d73d8a99b8ad151168077ac1d7391d5 |                       1 | 1.000000000 |
+| c71fc19f458cd7679faabe1fa5a910b9 |                       1 | 0.750000000 |
+| 4773161861619abdadcc920de2a37441 |                       1 | 1.000000000 |
+| 5a6c0ef4da85c4098133ce2719c35873 |                       1 | 0.000000000 |
+| 362afca1abfa0797d9656b9150801b4e |                       1 | 1.000000000 |
+| 6ac17ffd135c2f1e9577831a69e01a8a |                       1 | 0.500000000 |
+| 913763b39b43daeed320774f4fe10161 |                       1 | 1.000000000 |
+| bc0b09a03e1ade23baed88f82049b3df |                       1 | 0.333330000 |
+| fdc5ef2736b762440c1898e6343ada61 |                       1 | 1.000000000 |
+| 312798d8937f569c17b523faa79cb186 |                       1 | 0.500000000 |
+| 4e044bfebd84c059bda03859dabdfeea |                       1 | 0.500000000 |
+| fd5a786c4cab499cac15f1fc4f030981 |                       1 | 1.000000000 |
+| d1f76e3ffc8d50ba1e4dde1e3a7279ac |                       1 | 1.000000000 |
++----------------------------------+-------------------------+-------------+
+47 rows in set (0,02 sec)
+
