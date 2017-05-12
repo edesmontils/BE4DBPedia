@@ -104,7 +104,7 @@ def analysis(idp, file):
             encoding="UTF-8",
             xml_declaration=True,
             pretty_print=True,
-            doctype='<!DOCTYPE log SYSTEM "log.dtd">')
+            doctype='<!DOCTYPE log SYSTEM "http://documents.ls2n.fr/be4dbp/log.dtd">')
         try:
             f = open(file_tested, 'w')
             f.write(tosave.decode('utf-8'))

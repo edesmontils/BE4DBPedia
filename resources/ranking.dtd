@@ -14,6 +14,6 @@
     nb-occurences : integer
     rank : integer
     -->
-<!ENTITY % bgp SYSTEM 'bgp.dtd' >
+<!ENTITY % bgp SYSTEM 'http://documents.ls2n.fr/be4dbp/bgp.dtd' >
 %bgp;
 <!ELEMENT request (#PCDATA) >	

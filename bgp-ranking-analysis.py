@@ -59,7 +59,7 @@ manageLogging(args.logLevel, logname)
 file_set = args.files
 mode = args.mode
 
-stat = Stat(Counter, ['file','cut'+str(MODE_CUTE),'rank','entry-rank','occurrences'] )
+stat = Stat(Counter, ['file','cut'+str(MODE_CUTE),'rank','entry-rank','occurrences','self'] )
 ps = ProcessSet(args.nb_processes, rankAnalysis ,mode)
 ps.setStat(stat)
 ps.start()

@@ -77,7 +77,7 @@ def rankAnalysis(idp, file, stat, mode):
     parser = etree.XMLParser(recover=True, strip_cdata=True)
     tree = etree.parse(file, parser)
     #---
-    dtd = etree.DTD('./resources/log.dtd')
+    dtd = etree.DTD('http://documents.ls2n.fr/be4dbp/log.dtd')#'./resources/log.dtd')
     assert dtd.validate(tree), '%s non valide au chargement : %s' % (
         file, dtd.error_log.filter_from_errors()[0])
     #---
@@ -136,6 +136,9 @@ def rankAnalysis(idp, file, stat, mode):
                 }
         )
         node_b = serializeBGP(bgp)
+        if haveSelfJoin(bgp): 
+            stat.put(date,'self')
+            stat.put(ip,'self')
         node_r.append(node_b)
         request_node = etree.SubElement(node_r, 'request')
         request_node.text = query
@@ -152,7 +155,7 @@ def rankAnalysis(idp, file, stat, mode):
             encoding="UTF-8",
             xml_declaration=True,
             pretty_print=True,
-            doctype='<!DOCTYPE ranking SYSTEM "ranking.dtd">')
+            doctype='<!DOCTYPE ranking SYSTEM "http://documents.ls2n.fr/be4dbp/ranking.dtd">')
         try:
             f = open(file_ranking, 'w')
             f.write(tosave.decode('utf-8'))

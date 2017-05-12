@@ -148,8 +148,8 @@ class Context:
         if not (os.path.isdir(rep)):
             logging.info('Creation of "%s"', rep)
             os.makedirs(rep)
-            for x in self.resourceSet:
-                shutil.copyfile(self.current_dir+'/'+self.resourcesDir+'/'+x, rep + '/'+x)
+            # for x in self.resourceSet:
+            #     shutil.copyfile(self.current_dir+'/'+self.resourcesDir+'/'+x, rep + '/'+x)
         rep = rep + '/'
         return rep
 

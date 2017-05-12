@@ -156,7 +156,7 @@ def saveEntry(file, s, host, test=existFile):
         else:
             logging.debug('Création de "%s"', file)
             xml_str = '<?xml version="1.0" encoding="utf-8"?>\n'
-            xml_str += '<!DOCTYPE log SYSTEM "log.dtd">\n'
+            xml_str += '<!DOCTYPE log SYSTEM "http://documents.ls2n.fr/be4dbp/log.dtd">\n'
             xml_str += '<log ip="%s" date="%s">\n' % (host,now())
             f_out = open(file, 'w')
             f_out.write(xml_str)

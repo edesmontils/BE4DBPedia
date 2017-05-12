@@ -270,7 +270,7 @@ class CTX:
 			cdc = etree.tostring(self.root_log,
 						encoding="UTF-8",
 						pretty_print=True,
-						xml_declaration=True, doctype='<!DOCTYPE log SYSTEM "./resources/log.dtd">'
+						xml_declaration=True, doctype='<!DOCTYPE log SYSTEM "http://documents.ls2n.fr/be4dbp/log.dtd">'
 						)
 			f_out.write(cdc.decode('utf-8'))
 		except Exception as e:

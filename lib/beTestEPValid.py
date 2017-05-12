@@ -96,7 +96,7 @@ def TestAnalysis(idp, file, stat, endpoint,emptyTest):
     else:
         parser = etree.XMLParser(recover=True, strip_cdata=True)
         tree = etree.parse(file, parser)
-    dtd = etree.DTD('./resources/log.dtd')
+    dtd = etree.DTD('http://documents.ls2n.fr/be4dbp/log.dtd')#'./resources/log.dtd')
     #---
     assert dtd.validate(tree), '%s non valide au chargement : %s' % (
         file, dtd.error_log.filter_from_errors()[0])
@@ -144,7 +144,7 @@ def TestAnalysis(idp, file, stat, endpoint,emptyTest):
             encoding="UTF-8",
             xml_declaration=True,
             pretty_print=True,
-            doctype='<!DOCTYPE log SYSTEM "log.dtd">')
+            doctype='<!DOCTYPE log SYSTEM "http://documents.ls2n.fr/be4dbp/log.dtd">')
         try:
             f = open(file_tested, 'w')
             f.write(tosave.decode('utf-8'))

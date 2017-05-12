@@ -314,6 +314,16 @@ def valid(bgp):
             break
     return ok
 
+def haveSelfJoin(bgp):
+    hSJ = False
+    for (i, (si, pi, oi)) in enumerate(bgp):
+        for (j, (sj, pj, oj)) in enumerate(bgp[(i+1):]) :
+            # print('i:',i,si, pi, oi,'j:',j, sj, pj, oj)
+            if (pi==pj) and ((si==sj) or (si==oj) or (oi==sj) or (oi==oj)):
+                hSJ = True
+                break
+    return hSJ
+
 #==================================================
 
 def nm(n1, n2):
@@ -493,39 +503,39 @@ def isSGO(g1, g2):
 if __name__ == "__main__":
     print("main")
 
-    g6 = nx.MultiDiGraph()
-    g6.add_edges_from([ (1,2,dict(prop='type')), 
-                        (1,3,dict(prop='manage')),
-                        #(1,4,dict(prop='manage')),
-                        (1,3,dict(prop='knows')),
-                        (3,2,dict(prop='type')),
-                        (4,2,dict(prop='type'))  
-                      ])
-    print('g6')
-    for e in g6.edges(data=True):
-        pprint(e)
+    # g6 = nx.MultiDiGraph()
+    # g6.add_edges_from([ (1,2,dict(prop='type')), 
+    #                     (1,3,dict(prop='manage')),
+    #                     #(1,4,dict(prop='manage')),
+    #                     (1,3,dict(prop='knows')),
+    #                     (3,2,dict(prop='type')),
+    #                     (4,2,dict(prop='type'))  
+    #                   ])
+    # print('g6')
+    # for e in g6.edges(data=True):
+    #     pprint(e)
 
-    g7 = nx.MultiDiGraph()
-    g7.add_edges_from([ (5,6,dict(prop='type')), 
-                        (5,7,dict(prop='knows')),
-                        (7,6,dict(prop='type')),
-                        (8,6,dict(prop='type')),
-                        (9,6,dict(prop='type')),
-                        (5,10,dict(prop='bP'))  
-                      ])
-    print('g7')
-    for e in g7.edges(data=True):
-        pprint(e)
+    # g7 = nx.MultiDiGraph()
+    # g7.add_edges_from([ (5,6,dict(prop='type')), 
+    #                     (5,7,dict(prop='knows')),
+    #                     (7,6,dict(prop='type')),
+    #                     (8,6,dict(prop='type')),
+    #                     (9,6,dict(prop='type')),
+    #                     (5,10,dict(prop='bP'))  
+    #                   ])
+    # print('g7')
+    # for e in g7.edges(data=True):
+    #     pprint(e)
 
-    map = isSGO(g6,g7)
-    if map is not None: print('g6 in g7 : ', map)
-    else: print('g6 not in g7') 
-    # ne répond pas bien avec : (1,3,dict(prop='manage')) -> g6 in g7 :  {5: 1, 6: 2, 7: 3, 8: 4}
-    # mais bonne réponse si remplacé par : (1,4,dict(prop='manage')) -> g6 not in g7
+    # map = isSGO(g6,g7)
+    # if map is not None: print('g6 in g7 : ', map)
+    # else: print('g6 not in g7') 
+    # # ne répond pas bien avec : (1,3,dict(prop='manage')) -> g6 in g7 :  {5: 1, 6: 2, 7: 3, 8: 4}
+    # # mais bonne réponse si remplacé par : (1,4,dict(prop='manage')) -> g6 not in g7
 
-    map = isSGO(g7,g6)
-    if map is not None: print('g7 in g6 : ', map)
-    else: print('g7 not in g6')
+    # map = isSGO(g7,g6)
+    # if map is not None: print('g7 in g6 : ', map)
+    # else: print('g7 not in g6')
 
     query4 = """
     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -557,9 +567,10 @@ if __name__ == "__main__":
            }
     """
     
-    # qm = QueryManager(modeStat = False)
-    # (BGPSet4, _) = qm.extractBGP(query4)
-    # (BGPSet5, _) = qm.extractBGP(query5)
-    # print(calcPrecisionRecall(BGPSet4,BGPSet5))
+    qm = QueryManager(modeStat = False)
+    (BGPSet4, _) = qm.extractBGP(query4)
+    (BGPSet5, _) = qm.extractBGP(query5)
+    #print(calcPrecisionRecall(BGPSet4,BGPSet5))
+    haveSelfJoin(BGPSet4)
 
 
