@@ -1,4 +1,5 @@
 -- To see queries and results connect to mysql with mysql -u <user_name> -p database_name --force --comments -vvv
+-- This scrip can be executed after loading the database with loadPrecisionRecall_MySQL.sh
 -- Execute this script with source queries.sql
 
 -- Queries and their results are spool on queries_result.lst
