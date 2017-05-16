@@ -136,9 +136,12 @@ def rankAnalysis(idp, file, stat, mode):
                 }
         )
         node_b = serializeBGP(bgp)
-        if haveSelfJoin(bgp): 
-            stat.put(date,'self')
-            stat.put(ip,'self')
+
+        join = haveJoin(bgp)
+        for (j,n) in join.items():
+            stat.mput(date,j,n*freq)
+            stat.mput(ip,j,n*freq)
+        
         node_r.append(node_b)
         request_node = etree.SubElement(node_r, 'request')
         request_node.text = query

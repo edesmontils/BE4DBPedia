@@ -314,15 +314,31 @@ def valid(bgp):
             break
     return ok
 
-def haveSelfJoin(bgp):
-    hSJ = False
+def haveJoin(bgp):
+    #hSJ = False
+    join_count = {'s-s':0, 'o-o':0,'s-o':0,'o-s':0, 'sp-sp':0, 'po-po':0, 'sp-po':0, 'po-sp':0}
     for (i, (si, pi, oi)) in enumerate(bgp):
         for (j, (sj, pj, oj)) in enumerate(bgp[(i+1):]) :
             # print('i:',i,si, pi, oi,'j:',j, sj, pj, oj)
-            if (pi==pj) and ((si==sj) or (si==oj) or (oi==sj) or (oi==oj)):
-                hSJ = True
-                break
-    return hSJ
+            if (pi==pj) :
+                if (si==sj):
+                    join_count['sp-sp'] +=1
+                elif (si==oj):
+                    join_count['sp-po'] +=1
+                elif (oi==sj):
+                    join_count['po-sp'] +=1
+                elif (oi==oj):
+                    join_count['po-po'] +=1
+            else:
+                if (si==sj):
+                    join_count['s-s'] +=1    
+                elif (si==oj):
+                    join_count['s-o'] +=1
+                elif (oi==sj):
+                    join_count['o-s'] +=1
+                elif (oi==oj):
+                    join_count['o-o'] +=1
+    return join_count #hSJ
 
 #==================================================
 
