@@ -80,6 +80,13 @@ def analysis(idp, file):
             root_node.remove(entry)
         else:
             bgp_node = entry.find('bgp')
+            bgp = unSerializeBGP(entry.find('bgp'))
+
+            # join = haveJoin(bgp)
+            # for (j,n) in join.items():
+            #     stat.mput(date,j,n)
+            #     stat.mput(ip,j,n)
+            
             for tp in bgp_node:
                 for i in tp:
                     type = i.get("type")
