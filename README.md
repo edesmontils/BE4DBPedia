@@ -7,42 +7,15 @@
 - Patricia Serrano-Alvarado (Patricia.Serrano-Alvarado_at_univ-nantes.fr)
 
 ## usage
-###  bgp-extractor
+
+### bgp-extractor
 
 ```
 usage: bgp-extractor.py [-h] [-l {DEBUG,INFO,WARNING,ERROR,CRITICAL}]
-                        [-t REFDATE] [-d BASEDIR] [-r] [--tpfc] [-e] [-ep EP]
+                        [-t REFDATE] [-d BASEDIR] [-r] [--tpfc]
+                        [-e {SPARQLEP,TPF,None}] [-ep EP] [-to TIMEOUT]
+                        [-p NB_PROCESSES]
                         file
-
-BGP Extractor for DBPedia log.
-
-positional arguments:
-  file                  Set the file to study
-
-optional arguments:
-  -h, --help            show this help message and exit
-  -l {DEBUG,INFO,WARNING,ERROR,CRITICAL}, --log {DEBUG,INFO,WARNING,ERROR,CRITICAL}
-                        Set the logging level (INFO by default)
-  -t REFDATE, --datetime REFDATE
-                        Set the date-time to study in the log
-  -d BASEDIR, --dir BASEDIR
-                        Set the directory for results ('./logs' by default)
-  -r, --ranking         do ranking after extraction
-  --tpfc                filter some query the TPF Client does'nt treat
-  -e, --empty           Request an endpoint to verify the query and test it
-                        returns at least one triple
-  -ep EP, --endpoint EP
-                        The endpoint requested for the '-e' ('--empty') option
-                        ('http://dbpedia.org/sparql' by default)
-```
-
-### bgp-extractor-mp
-
-```
-usage: bgp-extractor-mp.py [-h] [-l {DEBUG,INFO,WARNING,ERROR,CRITICAL}]
-                           [-t REFDATE] [-d BASEDIR] [-r] [--tpfc] [-e]
-                           [-ep EP] [-p NB_PROCESSES]
-                           file
 
 Parallel BGP Extractor for DBPedia log.
 
@@ -59,21 +32,57 @@ optional arguments:
                         Set the directory for results ('./logs' by default)
   -r, --ranking         do ranking after extraction
   --tpfc                filter some query the TPF Client does'nt treat
-  -e, --empty           Request an endpoint to verify the query and test it
-                        returns at least one triple
+  -e {SPARQLEP,TPF,None}, --empty {SPARQLEP,TPF,None}
+                        Request a SPARQL or a TPF endpoint to verify the query
+                        and test it returns at least one triple
   -ep EP, --endpoint EP
                         The endpoint requested for the '-e' ('--empty') option
-                        ('http://dbpedia.org/sparql' by default)
+                        ( for exemple 'http://dbpedia.org/sparql' for SPARQL)
+  -to TIMEOUT, --timeout TIMEOUT
+                        Endpoint Time Out (60 by default)
   -p NB_PROCESSES, --proc NB_PROCESSES
                         Number of processes used to extract (4 by default)
                         over 8 usuable processes
 ```
+
+### bgp-test-endpoint
+
+```
+usage: bgp-test-endpoint.py [-h] [-l {DEBUG,INFO,WARNING,ERROR,CRITICAL}]
+                            [-p NB_PROCESSES] [-e {SPARQL,TPF}] [-ep EP]
+                            [-to TIMEOUT]
+                            file [file ...]
+
+Etude des requêtes
+
+positional arguments:
+  file                  files to analyse
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -l {DEBUG,INFO,WARNING,ERROR,CRITICAL}, --log {DEBUG,INFO,WARNING,ERROR,CRITICAL}
+                        Set the logging level
+  -p NB_PROCESSES, --proc NB_PROCESSES
+                        Number of processes used (8 by default)
+  -e {SPARQL,TPF}, --empty {SPARQL,TPF}
+                        Request a SPARQL or a TPF endpoint to verify the query
+                        and test it returns at least one triple (TPF by
+                        default)
+  -ep EP, --endpoint EP
+                        The endpoint requested for the '-e' ('--empty') option
+                        (for exemple 'http://localhost:5001/dbpedia_3_9' for
+                        TPF by default)
+  -to TIMEOUT, --timeout TIMEOUT
+                        Endpoint Time Out (60 by default). If '-to 0' and the
+                        file already tested, the entry is not tested again.
+
 
 ### bgp-ranking-analysis
 
 ```
 usage: bgp-ranking-analysis.py [-h] [-l {DEBUG,INFO,WARNING,ERROR,CRITICAL}]
                                [-p NB_PROCESSES]
+                               [-t {NotEmpty,Valid,WellFormed,All}]
                                file [file ...]
 
 Etude du ranking
@@ -87,6 +96,9 @@ optional arguments:
                         Set the logging level
   -p NB_PROCESSES, --proc NB_PROCESSES
                         Number of processes used (8 by default)
+  -t {NotEmpty,Valid,WellFormed,All}, --type {NotEmpty,Valid,WellFormed,All}
+                        How to take into account the validation by a SPARQL or
+                        a TPF endpoint (NotEmpty by default)
 ```
 
 ## Exemple
