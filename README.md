@@ -113,7 +113,7 @@ tar cvfz logs-20151031.tar ./logs-20151031/ ; gzip logs-20151031.tar
 ```
 ## Librairies to install 
 
-- RDFLib : https://github.com/RDFLib/rdflib https://rdflib.readthedocs.io/
-- SPARQLWarpper : https://github.com/RDFLib/sparqlwrapper https://rdflib.github.io/sparqlwrapper/
+- RDFLib : https://github.com/RDFLib/rdflib (doc: https://rdflib.readthedocs.io/)
+- SPARQLWarpper : https://github.com/RDFLib/sparqlwrapper (doc: https://rdflib.github.io/sparqlwrapper/)
 - lxml : http://lxml.de/
 
