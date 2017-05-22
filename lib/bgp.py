@@ -168,8 +168,9 @@ def serialize2string(i):
     elif isinstance(i, URIRef):
         return '<' + i.__str__() + '>'
     elif isinstance(i, Literal):
-        if i._language is not None: return '"'+i.__str__() + '"@'+i._language
-        elif i._datatype is not None: return '"'+i.__str__() + '"^^'+i._datatype
+        if i.language is not None: return '"'+i.__str__() + '"@'+str(i.language)
+        elif i.datatype is not None: 
+            return '"'+i.__str__() + '"^^'+str(i.datatype)
         else: 
             return '"'+i.__str__() + '"'
     else:
@@ -183,8 +184,8 @@ def serialize2str(name, i):
         return '<' + name + ' type="iri" val="' + i.__str__().replace('&', '&amp;') + '"/>'
     elif isinstance(i, Literal):
         s = '<' + name + ' type="lit"'
-        if i._language: s += ' language="'+i._language+'"'
-        elif i._datatype: s += ' datatype="'+i._datatype+'"'
+        if i.language: s += ' language="'+str(i.language)+'"'
+        elif i.datatype: s += ' datatype="'+str(i.datatype)+'"'
         s += '><![CDATA[' + i.__str__() + ']]></' + name + '>'
         return s
     else:
@@ -203,8 +204,8 @@ def serialize(name, i):
     elif isinstance(i, Literal):
         node.set('type', 'lit')
         node.text = i.__str__()  # '<![CDATA[' + i.__str__() + ']]>'
-        if i._language: node.set('language',i._language)
-        elif i._datatype: node.set('datatype',i._datatype)
+        if i.language: node.set('language',str(i.language))
+        elif i.datatype: node.set('datatype',str(i.datatype))
     else:
         node.set('type', 'bnode')
         node.set('val', i.__str__())
@@ -273,6 +274,7 @@ def unSerialize(i):
             if m:
                 lit = m.group('str')
                 iri = m.group('iri')
+                if not(isValidURI(iri)) : print ('***************** Pb iri :',iri)
                 return Literal(re.sub('"','\'',lit), datatype=iri)
             else:
                 m = reLiteral2.search(val)
