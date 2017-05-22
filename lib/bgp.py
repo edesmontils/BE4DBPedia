@@ -20,12 +20,14 @@ from rdflib.namespace import XSD
 
 import networkx as nx
 import networkx.algorithms.isomorphism as iso
-
+import re
 import sys
 import xml.etree.ElementTree as ET
 
 from urllib.parse import urlparse, urlencode, quote, unquote
 from lxml import etree  # http://lxml.de/index.html#documentation
+
+from tools.tools import *
 
 #==================================================
 
@@ -162,12 +164,12 @@ def getBGP(n):
 
 def serialize2string(i):
     if isinstance(i, Variable):
-        return i.__str__()
+        return '?'+ i.__str__()
     elif isinstance(i, URIRef):
         return '<' + i.__str__() + '>'
     elif isinstance(i, Literal):
-        if i._language: return '"'+i.__str__() + '"@'+i._language
-        elif i._datatype: return '"'+i.__str__() + '"^^'+i._datatype
+        if i._language is not None: return '"'+i.__str__() + '"@'+i._language
+        elif i._datatype is not None: return '"'+i.__str__() + '"^^'+i._datatype
         else: 
             return '"'+i.__str__() + '"'
     else:
@@ -210,6 +212,10 @@ def serialize(name, i):
 
 #==================================================
 
+def serializeTP2str(s,p,o):
+    return '<tp>' + serialize2str('s', s) + serialize2str('p', p) + serialize2str('o', o) + '</tp>'
+
+
 def serializeBGP2str(bgp):
     """
     from rdflib -> string
@@ -218,8 +224,8 @@ def serializeBGP2str(bgp):
     assert bgp is not None
     #---
     ser = '<bgp>\n'
-    for (s, p, o) in bgp:
-        ser += '<tp>' + serialize2str('s', s) + serialize2str('p', p) + serialize2str('o', o) + '</tp>\n'
+    for (s,p,o) in bgp:
+        ser += serializeTP2str(s,p,o) + '\n' # '<tp>' + serialize2str('s', s) + serialize2str('p', p) + serialize2str('o', o) + '</tp>\n'
     ser += '</bgp>\n'
     return ser
 
@@ -241,7 +247,9 @@ def serializeBGP(bgp):
     return bgp_node
 
 #==================================================
-
+reLiteral1 = re.compile(r'\A"(?P<str>.*)"\^\^\<?(?P<iri>http.*)\>?\s*\Z')
+reLiteral2 = re.compile(r'\A"(?P<str>.*)"\@(?P<lang>\w+)\s*\Z')
+reLiteral3 = re.compile(r'\A"(?P<str>.*)"\s*\Z')
 
 def unSerialize(i):
     if i.attrib['type'] == 'var':
@@ -251,11 +259,39 @@ def unSerialize(i):
     elif i.attrib['type'] == 'lit':
         if 'language' in i.attrib : 
             lang = i.attrib['language']
+            #print ('lang:',lang)
             return Literal(i.text, lang=lang)
-        elif 'datatype' in i.attrib : return Literal(i.text, datatype=i.attrib['datatype'])
-        else: return Literal(i.text)
+        elif 'datatype' in i.attrib : 
+            dtt = i.attrib['datatype']
+            #print('datatype:',dtt,':')
+            l = Literal(i.text, datatype=dtt)
+            #print(isValidURI(dtt))
+            return l
+        else: 
+            val = i.text
+            m = reLiteral1.search(val)
+            if m:
+                lit = m.group('str')
+                iri = m.group('iri')
+                return Literal(re.sub('"','\'',lit), datatype=iri)
+            else:
+                m = reLiteral2.search(val)
+                if m:
+                    lit = m.group('str')
+                    lang = m.group('lang')
+                    return Literal(re.sub('"','\'',lit), lang=lang)
+                else: 
+                    m = reLiteral3.search(val)
+                    if m:
+                        lit = m.group('str')
+                        return Literal(re.sub('"','\'',lit))
+                    else: 
+                        return Literal(re.sub('"','\'',val))
     else:
         return BNode(i.attrib['val'])
+
+def unSerializeTP(tp):
+    return (unSerialize(tp[0]), unSerialize(tp[1]), unSerialize(tp[2]))
 
 def unSerializeBGP(bgp):
     """
@@ -263,7 +299,7 @@ def unSerializeBGP(bgp):
     """
     nbgp = []
     for tp in bgp:
-        nbgp += [(unSerialize(tp[0]), unSerialize(tp[1]), unSerialize(tp[2]))]
+        nbgp += [unSerializeTP(tp)] #[(unSerialize(tp[0]), unSerialize(tp[1]), unSerialize(tp[2]))]
     return nbgp
 
 

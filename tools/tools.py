@@ -11,7 +11,7 @@ Generic set of tools
 
 import datetime as dt
 import os.path
-
+# import iso8601 # https://pypi.python.org/pypi/iso8601/     http://pyiso8601.readthedocs.io/en/latest/
 #==================================================
 class Timezone(dt.tzinfo):
     def __init__(self, name="+0000"):
@@ -27,6 +27,13 @@ class Timezone(dt.tzinfo):
 
     def tzname(self, dt):
         return self.name
+
+# def t(u): 
+#     try:
+#         return iso8601.parse_date(u.attrib['t'])
+#     except iso8601.ParseError:
+#         return iso8601.parse_date(date.today().isoformat()+'T'+u.attrib['t'])
+#     #return time.strptime(u.attrib['t'], "%Y-%m-%dT%H:%M:%S")
 
 #==================================================
 def existFile(f):
