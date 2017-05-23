@@ -513,8 +513,8 @@ def inGraph(tpSet, Gref):
     return isSubGraphOf(g,Gref)
 
 def max (un, deux):
-  (p1, r1, s1) = un
-  (p2, r2, s2) = deux
+  (p1, r1, s1, m1) = un
+  (p2, r2, s2, m2) = deux
   if p2*r2 > p1*r1: return deux
   else: return un
 
@@ -600,26 +600,28 @@ def calcPrecisionRecall(BGPref, BGPtst):
   ref = len(BGPref)
   tst = len(BGPtst)  
   s = dict()
-  m = (0,0,{})
+  m = (0,0,{},[])
   s[0] = []
   ltp = set()
   for tp in BGPtst:
-    if includes(BGPref,[tp]):# inGraph({tp}, Gref) :
+    mapping = includes(BGPref,[tp])
+    if mapping :# inGraph({tp}, Gref) :
       ltp.add(tp)
-      common = (1/tst, 1/ref, {tp})
+      common = (1/tst, 1/ref, {tp}, mapping)
       m = max(m, common)
       s[0].append( common )
   #pprint(s[0])
   for l in range(1,len(ltp)):
     s[l] = []
     for tp in ltp:
-      for (p,r,x) in s[l-1] :
+      for (p,r,x,mp) in s[l-1] :
         if tp not in x:
           ns = x.copy()
           ns.add(tp)
-          if includes(BGPref,ns):#inGraph(ns, Gref):
+          mapping = includes(BGPref,ns)
+          if mapping :#inGraph(ns, Gref):
             cm = len(ns)
-            common = (cm/tst, cm/ref,ns)
+            common = (cm/tst, cm/ref,ns, mapping)
             m = max(m, common)
             if common not in s[l]: s[l].append( common )
     #print('pour ',l)
