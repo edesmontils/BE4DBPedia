@@ -609,7 +609,7 @@ def calcPrecisionRecall(BGPref, BGPtst):
       common = (1/tst, 1/ref, {tp})
       m = max(m, common)
       s[0].append( common )
-  pprint(s[0])
+  #pprint(s[0])
   for l in range(1,len(ltp)):
     s[l] = []
     for tp in ltp:
@@ -622,8 +622,8 @@ def calcPrecisionRecall(BGPref, BGPtst):
             common = (cm/tst, cm/ref,ns)
             m = max(m, common)
             if common not in s[l]: s[l].append( common )
-    print('pour ',l)
-    pprint(s[l])
+    #print('pour ',l)
+    #pprint(s[l])
   return m
 
 def isSGO(g1, g2):
