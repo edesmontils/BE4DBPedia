@@ -354,28 +354,35 @@ def valid(bgp):
 
 def haveJoin(bgp):
     #hSJ = False
-    join_count = {'s-s':0, 'o-o':0,'s-o':0,'o-s':0, 'sp-sp':0, 'po-po':0, 'sp-po':0, 'po-sp':0}
+    join_count = {'s-s':0, 'o-o':0,'s-o':0, 'sp-sp':0, 'po-po':0, 'sp-po':0, 'self':0, 'star':0, 'path':0}
     for (i, (si, pi, oi)) in enumerate(bgp):
         for (j, (sj, pj, oj)) in enumerate(bgp[(i+1):]) :
             # print('i:',i,si, pi, oi,'j:',j, sj, pj, oj)
-            if (pi==pj) :
-                if (si==sj):
+            if (oi==si)  and isinstance(si,Variable) and isinstance(oi,Variable):
+                join_count['self'] +=1
+            if (pi==pj):# and isinstance(pi,Variable) and isinstance(pj,Variable) :
+                if (si==sj) and isinstance(si,Variable) and isinstance(sj,Variable):
                     join_count['sp-sp'] +=1
-                elif (si==oj):
+                elif (si==oj)  and isinstance(si,Variable) and isinstance(oj,Variable):
                     join_count['sp-po'] +=1
-                elif (oi==sj):
-                    join_count['po-sp'] +=1
-                elif (oi==oj):
+                elif (oi==sj) and isinstance(oi,Variable) and isinstance(sj,Variable):
+                    join_count['sp-po'] +=1
+                if (oi==oj) and isinstance(oi,Variable) and isinstance(oj,Variable):
                     join_count['po-po'] +=1
             else:
-                if (si==sj):
+                if (si==sj) and isinstance(si,Variable) and isinstance(sj,Variable):
                     join_count['s-s'] +=1    
-                elif (si==oj):
+                elif (si==oj) and isinstance(si,Variable) and isinstance(oj,Variable):
                     join_count['s-o'] +=1
-                elif (oi==sj):
-                    join_count['o-s'] +=1
-                elif (oi==oj):
+                elif (oi==sj) and isinstance(oi,Variable) and isinstance(sj,Variable):
+                    join_count['s-o'] +=1
+                if (oi==oj) and isinstance(oi,Variable) and isinstance(oj,Variable):
                     join_count['o-o'] +=1
+    nbTP = len(bgp)
+    if  (join_count['s-s'] == nbTP) or (join_count['o-o'] == nbTP):
+        join_count['star'] +=1
+    if join_count['s-o'] == nbTP-1 :
+        join_count['path'] += 1
     return join_count #hSJ
 
 #==================================================
@@ -511,8 +518,85 @@ def max (un, deux):
   if p2*r2 > p1*r1: return deux
   else: return un
 
+
+
+def egal(tp1, tp2):
+    (s1, p1, o1) = tp1
+    (s2, p2, o2) = tp2
+
+    okS = (s1 == s2) or (isinstance(s1,Variable) and  isinstance(s2,Variable))
+    okP = (p1 == p2) or (isinstance(p1,Variable) and  isinstance(p2,Variable))
+    okO = (o1 == o2) or (isinstance(o1,Variable) and  isinstance(o2,Variable))
+    mapping = dict()
+    if okS and (isinstance(s1,Variable) and  isinstance(s2,Variable)): 
+        mapping[s1] = s2
+    if okP and (isinstance(p1,Variable) and  isinstance(p2,Variable)): 
+        if p1 in mapping:
+            okP = mapping[p1] == p2
+        else: mapping[p1] = p2
+    if okP and (isinstance(o1,Variable) and  isinstance(o2,Variable)): 
+        if o1 in mapping:
+            okO = mapping[o1] == o2
+        else: mapping[o1] = o2        
+    ok = okS and okP and okO  
+    # print('----------------------------')
+    # print(tp1) 
+    # print(tp2)
+    # if ok: print(mapping)
+    # else: print('...')
+    return (ok, mapping )
+
+def includes(BGPref, BGPtest):
+    v = list()
+    for tp1 in BGPtest:
+        mappingList = list()
+        for tp2 in BGPref:
+            (ok, m) = egal(tp1,tp2)
+            if ok:
+                mappingList.append(m)
+        v.append( (tp1, mappingList) )
+    #pprint(v)
+    mapping=dict()
+    for (tp,ml) in v:
+        for x in ml:
+            for k in x:
+                mapping[k]=None
+    #pprint(mapping)
+    res = choice('',v,mapping)
+    #pprint(res)
+    return res
+
+def choice(tab,s,mapping):
+    if len(s)==0:
+        #print(tab,'Yes!')
+        return mapping
+    else:
+        #print(tab,s[0])
+        (tp,lm) = s[0]
+        for m in lm:
+            mpg = mapping.copy()
+            #print(tab,mpg)
+            ok = True
+            for v in m:
+                #print(tab,'for v=',v,'->',m[v])
+                if (m[v] in mpg.values()) and mpg[v]!=m[v]:
+                    ok = False
+                elif mpg[v]==m[v]:
+                    ok = ok and True
+                elif mpg[v] is None:
+                    mpg[v]=m[v]
+                    ok = ok and True
+                else:
+                    ok = False
+            if ok:
+                #print(tab,mpg)
+                res = choice(tab+'\t',s[1:],mpg)
+                if res is not None:
+                    return res
+        return None
+
 def calcPrecisionRecall(BGPref, BGPtst):
-  Gref = BGPtoGraph(BGPref)
+  #Gref = BGPtoGraph(BGPref)
   ref = len(BGPref)
   tst = len(BGPtst)  
   s = dict()
@@ -520,7 +604,7 @@ def calcPrecisionRecall(BGPref, BGPtst):
   s[0] = []
   ltp = set()
   for tp in BGPtst:
-    if inGraph({tp}, Gref) :
+    if includes(BGPref,[tp]):# inGraph({tp}, Gref) :
       ltp.add(tp)
       common = (1/tst, 1/ref, {tp})
       m = max(m, common)
@@ -533,7 +617,7 @@ def calcPrecisionRecall(BGPref, BGPtst):
         if tp not in x:
           ns = x.copy()
           ns.add(tp)
-          if inGraph(ns, Gref):
+          if includes(BGPref,ns):#inGraph(ns, Gref):
             cm = len(ns)
             common = (cm/tst, cm/ref,ns)
             m = max(m, common)
