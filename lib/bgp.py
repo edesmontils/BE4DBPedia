@@ -626,7 +626,7 @@ def calcPrecisionRecall(BGPref, BGPtst):
             if common not in s[l]: s[l].append( common )
     #print('pour ',l)
     #pprint(s[l])
-  return m
+  return m # return (precision, recall, {TP of BGPtst in BGPref}, dict of mapping of variables )
 
 def isSGO(g1, g2):
     GM = nx.isomorphism.GraphMatcher(g2, g1 ,
