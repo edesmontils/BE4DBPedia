@@ -12,10 +12,23 @@ Calls the function compare() from bgpCompare.py to calculate the precision and r
 import os
 import argparse
 from lib.bgpCompare import *
+from tools.ProcessSet import * #ED
+import multiprocessing as mp #ED
+
+#==================================================
+#ED
+def p(idp, mess, groundTruth, deduction, path):
+    (file1, file2) = mess
+    print("Comparing ",file1," with ", file2)
+    result = compare(os.path.join(groundTruth,file1),os.path.join(deduction,file2))
+    write_result_csv(result,path,file1[:+33])
+#==================================================
+        
 
 parser = argparse.ArgumentParser()
 parser.add_argument("groundTruth", help="the ground truth directory with xml files WITHOUT THE LAST SLASH /")
 parser.add_argument("deduction", help="the deduction directory with xml files WITHOUT THE LAST SLASH /")
+parser.add_argument("-p", "--proc", type=int, default=mp.cpu_count(), dest="nb_processes", help="Number of processes used (%d by default)" % mp.cpu_count()) #ED
 args = parser.parse_args()
 
 # path = "precisionRecall/"+args.groundTruth
@@ -38,10 +51,17 @@ included_extensions=['ranking.xml']
 file_names1 = [fn for fn in sorted(os.listdir(args.groundTruth)) if any(fn.endswith(ext) for ext in included_extensions)]
 file_names2 = [fn for fn in sorted(os.listdir(args.deduction)) if any(fn.endswith(ext) for ext in included_extensions)]
 
+psb = ProcessSet(args.nb_processes,p, args.groundTruth, args.deduction,path) #ED
+psb.start() #ED
+
 for file1 in file_names1:
-	for file2 in file_names2:
-		if file1[:+33] == file2[:+33]:
-			print("Comparing ",file1," with ", file2)
-			result = compare(os.path.join(args.groundTruth,file1),os.path.join(args.deduction,file2))
-			write_result_csv(result,path,file1[:+33]) #result has the precision/recall, tail is the date by hour (name of the directory), file1 is the IP
-			exit
+    for file2 in file_names2:
+        if file1[:+33] == file2[:+33]:
+            psb.put( (file1,file2) ) #ED
+			#print("Comparing ",file1," with ", file2)
+			#result = compare(os.path.join(args.groundTruth,file1),os.path.join(args.deduction,file2))
+			#write_result_csv(result,path,file1[:+33]) #result has the precision/recall, tail is the date by hour (name of the directory), file1 is the IP
+			#exit
+
+psb.stop() #ED
+resultProcess.join() #ED
