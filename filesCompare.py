@@ -51,17 +51,16 @@ included_extensions=['ranking.xml']
 file_names1 = [fn for fn in sorted(os.listdir(args.groundTruth)) if any(fn.endswith(ext) for ext in included_extensions)]
 file_names2 = [fn for fn in sorted(os.listdir(args.deduction)) if any(fn.endswith(ext) for ext in included_extensions)]
 
-psb = ProcessSet(args.nb_processes,p, args.groundTruth, args.deduction,path) #ED
-psb.start() #ED
+ps = ProcessSet(args.nb_processes,p, args.groundTruth, args.deduction,path) #ED
+ps.start() #ED
 
 for file1 in file_names1:
     for file2 in file_names2:
         if file1[:+33] == file2[:+33]:
-            psb.put( (file1,file2) ) #ED
-			#print("Comparing ",file1," with ", file2)
-			#result = compare(os.path.join(args.groundTruth,file1),os.path.join(args.deduction,file2))
-			#write_result_csv(result,path,file1[:+33]) #result has the precision/recall, tail is the date by hour (name of the directory), file1 is the IP
+            ps.put( (file1,file2) ) #ED
+            # print("Comparing ",file1," with ", file2)
+            # result = compare(os.path.join(args.groundTruth,file1),os.path.join(args.deduction,file2))
+            # write_result_csv(result,path,file1[:+33]) #result has the precision/recall, tail is the date by hour (name of the directory), file1 is the IP
 			#exit
 
-psb.stop() #ED
-resultProcess.join() #ED
+ps.stop() #ED
