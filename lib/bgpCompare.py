@@ -55,7 +55,9 @@ def processBGPs(idp, mess):
 		result = (cano_dbp,cano_lift,dbp_occ, lift_occ, dbp_rank, lift_rank,precision,recall)
 	if recall == 0:
 		return ()
-	else: return result
+	else: 
+		#print(precision,recall)
+		return result
 
 #==================================================
 #ED
@@ -65,14 +67,13 @@ class Context:
 	def __init__(self):
 		self.result_set = manager.list()
 
-def processResults(inq, ctx):
+def processResults(inq, ctx): 
 	result = inq.get()
 	while result is not None:
 		if result != (): 
 			#print(result)
 			ctx.result_set.append(result)
 		result = inq.get()
-
 
 #==================================================
 def write_result_csv(result,path,fileName):
