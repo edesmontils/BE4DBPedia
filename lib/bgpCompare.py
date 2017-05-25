@@ -32,31 +32,35 @@ def processBGPs(idp, mess):
 	precision = 0
 	recall = 0
 	if cano_dbp == cano_lift:# If ground truth and deduction is equal then precision and recall are 1
-		result = (cano_dbp,cano_lift,dbp_occ, lift_occ, dbp_rank, lift_rank,1,1)
+		precision = 1
+		recall = 1
 	else:
-		# in_both, in_first, in_second = graph_diff(cano_dbp,cano_lift)
-		# b = len(in_both) # b has the number of well deduced triple patterns
-		# for s,p,o in in_first:
-		# 	for ss,pp,oo in in_second:
-		# 		if ((isinstance(s,Variable) and isinstance(ss,Variable)) and p==pp and o==oo) or (
-		# 		s==ss and p==pp and (isinstance(o,Variable) and isinstance(oo,Variable)) or (
-		# 		s==ss and (isinstance(p,Variable) and isinstance(pp,Variable)) and o==oo)):
-		# 			b += 1 # b is incremented with triple patterns whose variables were canonized differently because the size of the BGP and that have two things in common (subject, predicate, or object);
-		# 			break
-		# try:
-		# 	precision = b/size_bgp_lift #How many deduced triple patterns are relevant
-		# except ZeroDivisionError:
-		# 	print ("Division by zero in precision with size_bgp_lift")
-		# try:
-		# 	recall = b/size_bgp_dbp # How many relevant triple patterns are deduced
-		# except ZeroDivisionError:
-		# 	print ("Division by zero in recall with size_bgp_dbp")		
-		(precision, recall, inter, mapping) = calcPrecisionRecall(cano_dbp,cano_lift)		
-		result = (cano_dbp,cano_lift,dbp_occ, lift_occ, dbp_rank, lift_rank,precision,recall)
+		in_both, in_first, in_second = graph_diff(cano_dbp,cano_lift)
+		b = len(in_both) # b has the number of well deduced triple patterns
+		for s,p,o in in_first:
+			for ss,pp,oo in in_second:
+				if ((isinstance(s,Variable) and isinstance(ss,Variable)) and p==pp and o==oo) or (
+				s==ss and p==pp and (isinstance(o,Variable) and isinstance(oo,Variable)) or (
+				s==ss and (isinstance(p,Variable) and isinstance(pp,Variable)) and o==oo)):
+					b += 1 # b is incremented with triple patterns whose variables were canonized differently because the size of the BGP and that have two things in common (subject, predicate, or object);
+					break
+		try:
+			precision = b/size_bgp_lift #How many deduced triple patterns are relevant
+		except ZeroDivisionError:
+			precision = 0
+			print ("Division by zero in precision with size_bgp_lift")
+		try:
+			recall = b/size_bgp_dbp # How many relevant triple patterns are deduced
+		except ZeroDivisionError:
+			recall = 0
+			print ("Division by zero in recall with size_bgp_dbp")				
+
+	#(precision2, recall2, inter, mapping) = calcPrecisionRecall(cano_dbp,cano_lift)
+	#print(precision,recall,'|',precision2,recall2)
 	if recall == 0:
 		return ()
 	else: 
-		#print(precision,recall)
+		result = (cano_dbp,cano_lift,dbp_occ, lift_occ, dbp_rank, lift_rank,precision,recall)
 		return result
 
 #==================================================
@@ -95,7 +99,7 @@ def compare(file_ground_truth, file_lift_deduction):
 
 	result = []
 
-	psb = ProcessSetBack(mp.cpu_count(),processBGPs,)	#ED
+	psb = ProcessSetBack(1,processBGPs,)	#ED  mp.cpu_count()
 	psb.start()	#ED
 	ctx = Context() #ED
 	resultProcess = mp.Process(target=processResults,args=(psb.back_queue,ctx))	#ED
@@ -108,7 +112,9 @@ def compare(file_ground_truth, file_lift_deduction):
 			for entry_lift in root_lift.findall('entry-rank'):
 				size_bgp_lift = len(entry_lift.findall("./bgp/tp"))
 				cano_lift = unSerializeBGP(entry_lift.find('bgp'))
-
+				#print(cano_dbp)
+				#print(cano_lift)
+				#print('---')
 				psb.put( (cano_dbp, cano_lift,size_bgp_dbp, size_bgp_lift,entry_dbp.get('nb-occurrences'),entry_lift.get('nb-occurrences'),entry_dbp.get('rank'),entry_lift.get('rank')) ) #ED
 
 				# if cano_dbp == cano_lift:# If ground truth and deduction is equal then precision and recall are 1
