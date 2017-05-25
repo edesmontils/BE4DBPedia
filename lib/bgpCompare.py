@@ -99,7 +99,7 @@ def compare(file_ground_truth, file_lift_deduction):
 
 	result = []
 
-	psb = ProcessSetBack(1,processBGPs,)	#ED  mp.cpu_count()
+	psb = ProcessSetBack(mp.cpu_count(),processBGPs,)	#ED  mp.cpu_count()
 	psb.start()	#ED
 	ctx = Context() #ED
 	resultProcess = mp.Process(target=processResults,args=(psb.back_queue,ctx))	#ED
