@@ -27,10 +27,9 @@ import multiprocessing as mp #ED
 
 #==================================================
 #ED
-def processBGPs(idp, mess):
-	(cano_dbp, cano_lift,size_bgp_dbp,size_bgp_lift,dbp_occ, lift_occ, dbp_rank, lift_rank) = mess
-	precision = 0
-	recall = 0
+
+
+def calcPrecisionRecall2(cano_dbp,cano_lift,size_bgp_dbp,size_bgp_lift):
 	if cano_dbp == cano_lift:# If ground truth and deduction is equal then precision and recall are 1
 		precision = 1
 		recall = 1
@@ -54,8 +53,12 @@ def processBGPs(idp, mess):
 		except ZeroDivisionError:
 			recall = 0
 			print ("Division by zero in recall with size_bgp_dbp")				
+	return (precision, recall)
 
-	#(precision2, recall2, inter, mapping) = calcPrecisionRecall(cano_dbp,cano_lift)
+def processBGPs(idp, mess):
+	(cano_dbp, cano_lift,size_bgp_dbp,size_bgp_lift,dbp_occ, lift_occ, dbp_rank, lift_rank) = mess
+	#(precision, recall) = calcPrecisionRecall2(cano_dbp,cano_lift,size_bgp_dbp,size_bgp_lift)
+	(precision, recall, inter, mapping) = calcPrecisionRecall(cano_dbp,cano_lift)
 	#print(precision,recall,'|',precision2,recall2)
 	if recall == 0:
 		return ()
