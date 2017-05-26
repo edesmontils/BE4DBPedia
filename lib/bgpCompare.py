@@ -28,7 +28,6 @@ import multiprocessing as mp #ED
 #==================================================
 #ED
 
-
 def calcPrecisionRecall2(cano_dbp,cano_lift,size_bgp_dbp,size_bgp_lift):
 	if cano_dbp == cano_lift:# If ground truth and deduction is equal then precision and recall are 1
 		precision = 1
@@ -57,12 +56,15 @@ def calcPrecisionRecall2(cano_dbp,cano_lift,size_bgp_dbp,size_bgp_lift):
 
 def processBGPs(idp, mess):
 	(cano_dbp, cano_lift,size_bgp_dbp,size_bgp_lift,dbp_occ, lift_occ, dbp_rank, lift_rank) = mess
-	#(precision, recall) = calcPrecisionRecall2(cano_dbp,cano_lift,size_bgp_dbp,size_bgp_lift)
-	(precision, recall, inter, mapping) = calcPrecisionRecall(cano_dbp,cano_lift)
-	#print(precision,recall,'|',precision2,recall2)
-	if recall == 0:
+	(precision, recall) = calcPrecisionRecall2(cano_dbp,cano_lift,size_bgp_dbp,size_bgp_lift) # Pat version
+	#(precision2, recall2, inter, mapping) = calcPrecisionRecall(cano_dbp,cano_lift) # Ed version
+	if (recall == 0):# and (recall2==0):
 		return ()
 	else: 
+		# print(precision,recall,'|',precision2,recall2)
+		# if (precision!=precision2) or (recall!=recall2):
+		# 	print(serializeBGP2str(cano_dbp))
+		# 	print(serializeBGP2str(cano_lift))
 		result = (cano_dbp,cano_lift,dbp_occ, lift_occ, dbp_rank, lift_rank,precision,recall)
 		return result
 
