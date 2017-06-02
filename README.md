@@ -22,7 +22,7 @@ Then, filter BGP that can be excuted on the data provider (e.g. a TPF serveur wi
 python3.6 bgp-test-endpoint.py -e TPF ./data/logs20151031/logs-20151031-extract/*/*-be4dbp.xml -to 20
 ```
 
-The result is, for each user file, a file (named 'userIp-be4dbp-tested-TPF.xml'), valid with 'http://documents.ls2n.fr/be4dbp/log.dtd', where each 'entry' (a BGP) is evaluated according to the data provider.
+The result is, for each user file, a file (named 'userIp-be4dbp-tested-TPF.xml'), valid with 'http://documents.ls2n.fr/be4dbp/log.dtd' (which uses 'http://documents.ls2n.fr/be4dbp/bgp.dtd'), where each 'entry' (a BGP) is evaluated according to the data provider.
 
 Next, rank BGPs to identify most frequent ones
 
