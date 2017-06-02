@@ -8,6 +8,48 @@
 
 ## usage
 
+To analyse a day of DBPedia 2015 (e.g. October 31). Consider the log of this day is in the directory './data/logs20151031/' and it is called 'access.log-20151031.log'. 
+
+The first step is to extract BGP from this log :
+```
+python3.6 bgp-extractor.py -p 64 -d ./data/logs20151031/logs-20151031-extract -f ../data/logs20151031/access.log-20151031.log
+```
+The result is a set of directories (one for each hour) that contains one file by user. Each file is named '<user-ip>-be4dbp.xml'
+
+Then, filter BGP that can be excuted on the data provider (e.g. a TPF serveur with a timeout of 20 secondes)
+
+```
+python3.6 bgp-test-endpoint.py -e TPF ./data/logs20151031/logs-20151031-extract/*/*-be4dbp.xml -to 20
+```
+
+The result is, for each user file, a file (names '<user-ip>-be4dbp-tested-TPF') where each 'entry' (a BGP) is evaluated according to the data provider.
+
+Next, rank BGP. 
+
+```
+python3.6 bgp-ranking-analysis.py ./data/logs20151031/logs-20151031-extract/*/*-tested-TPF.xml
+```
+
+Next, we suppose that LIFT results are in the directory './data/divers/liftDeductions/traces/'.
+
+```
+python3.6 bgp-ranking-analysis.py ./data/divers/liftDeductions/traces/*/traces_*-be4dbp-tested-TPF-ranking/*-ldqp.xml -t All
+```
+
+Then, compute precision and recall that produce a set of CSV files
+
+```
+sh bigCompare.sh 
+```
+
+Finaly, to be able to calculate agregates (avg, max...), load CSV files in a MySQL database.
+
+```
+sh loadPrecisionRecall_MySQL.sh
+```
+
+## Command descriptions
+
 ### bgp-extractor
 
 ```
@@ -30,16 +72,6 @@ optional arguments:
                         Set the date-time to study in the log
   -d BASEDIR, --dir BASEDIR
                         Set the directory for results ('./logs' by default)
-  -r, --ranking         do ranking after extraction
-  --tpfc                filter some query the TPF Client does'nt treat
-  -e {SPARQLEP,TPF,None}, --empty {SPARQLEP,TPF,None}
-                        Request a SPARQL or a TPF endpoint to verify the query
-                        and test it returns at least one triple
-  -ep EP, --endpoint EP
-                        The endpoint requested for the '-e' ('--empty') option
-                        ( for exemple 'http://dbpedia.org/sparql' for SPARQL)
-  -to TIMEOUT, --timeout TIMEOUT
-                        Endpoint Time Out (60 by default)
   -p NB_PROCESSES, --proc NB_PROCESSES
                         Number of processes used to extract (4 by default)
                         over 8 usuable processes
@@ -101,16 +133,7 @@ optional arguments:
                         a TPF endpoint (NotEmpty by default)
 ```
 
-## Exemple
 
-Creating a BGP analysis for DBPedia 2015 (October 31)
-
-
-```
-python3.2 -OO bgp-extractor-mp.py -p 64 -d ./logs-20151031 access.log-20151031.log
-python3.2 -OO bgp-ranking-analysis.py ./logs-20151031/*/*-be4dbp.xml
-tar cvfz logs-20151031.tar ./logs-20151031/ ; gzip logs-20151031.tar
-```
 ## Librairies to install 
 
 - RDFLib : https://github.com/RDFLib/rdflib (doc: https://rdflib.readthedocs.io/)
