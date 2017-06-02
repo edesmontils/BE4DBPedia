@@ -12,9 +12,9 @@ To analyse a day of DBPedia 2015 (e.g. October 31). Consider the log of this day
 
 The first step is to extract BGP from this log :
 ```
-python3.6 bgp-extractor.py -p 64 -d ./data/logs20151031/logs-20151031-extract -f ../data/logs20151031/access.log-20151031.log
+python3.6 bgp-extractor.py -p 64 -d ./data/logs20151031/logs-20151031-extract -f ./data/logs20151031/access.log-20151031.log
 ```
-The result is a set of directories (one for each hour) that contains one file by user. Each file is named '<user-ip>-be4dbp.xml'
+The result is a set of directories (one for each hour) that contains one file by user. Each file is named 'userIp-be4dbp.xml'
 
 Then, filter BGP that can be excuted on the data provider (e.g. a TPF serveur with a timeout of 20 secondes)
 
@@ -22,7 +22,7 @@ Then, filter BGP that can be excuted on the data provider (e.g. a TPF serveur wi
 python3.6 bgp-test-endpoint.py -e TPF ./data/logs20151031/logs-20151031-extract/*/*-be4dbp.xml -to 20
 ```
 
-The result is, for each user file, a file (named '<user-ip>-be4dbp-tested-TPF.xml'), valid with 'http://documents.ls2n.fr/be4dbp/log.dtd', where each 'entry' (a BGP) is evaluated according to the data provider.
+The result is, for each user file, a file (named 'userIp-be4dbp-tested-TPF.xml'), valid with 'http://documents.ls2n.fr/be4dbp/log.dtd', where each 'entry' (a BGP) is evaluated according to the data provider.
 
 Next, rank BGPs. 
 
@@ -30,9 +30,9 @@ Next, rank BGPs.
 python3.6 bgp-ranking-analysis.py ./data/logs20151031/logs-20151031-extract/*/*-tested-TPF.xml
 ```
 
-The result is, ror each user file, a file (named '<user-ip>-be4dbp-tested-TPF-ranking.xml') valid with 'http://documents.ls2n.fr/be4dbp/ranking.dtd'.
+The result is, ror each user file, a file (named 'userIp-be4dbp-tested-TPF-ranking.xml') valid with 'http://documents.ls2n.fr/be4dbp/ranking.dtd'.
 
-Next, we suppose that LIFT results are in the directory './data/divers/liftDeductions/traces/'.
+Next, we suppose that LIFT results are in the directory './data/divers/liftDeductions/traces/'. 
 
 ```
 python3.6 bgp-ranking-analysis.py ./data/divers/liftDeductions/traces/*/traces_*-be4dbp-tested-TPF-ranking/*-ldqp.xml -t All
