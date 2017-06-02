@@ -32,7 +32,7 @@ python3.6 bgp-ranking-analysis.py ./data/logs20151031/logs-20151031-extract/*/*-
 
 The result is, for each user file, a file (named 'userIp-be4dbp-tested-TPF-ranking.xml') valid with 'http://documents.ls2n.fr/be4dbp/ranking.dtd'.
 
-Next, we suppose that LIFT results are in the directory './data/divers/liftDeductions/traces/'. This directory contains a set of directories (one by hour). Each one contains a file for each user (same hierarchy as for dbpedia log extraction).
+Next, we suppose that LIFT results (for extracted queries) are in the directory './data/divers/liftDeductions/traces/' (see 'https://github.com/coumbaya/lift' for execution LIFT). This directory contains a set of directories (one by hour). Each one contains a file for each user (same hierarchy as for dbpedia log extraction).
 
 Like for dbpedia extracted BGPs, rank BGP founded by LIFT.
 
@@ -111,7 +111,7 @@ optional arguments:
   -to TIMEOUT, --timeout TIMEOUT
                         Endpoint Time Out (60 by default). If '-to 0' and the
                         file already tested, the entry is not tested again.
-```
+``
 
 ### bgp-ranking-analysis
 
