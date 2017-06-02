@@ -137,6 +137,11 @@ optional arguments:
                         a TPF endpoint (NotEmpty by default)
 ```
 
+The '-t' argument describes entries the process has to take into account :
+- 'All' : all entries,
+- 'WellFormed' : only correct SPARQL queries,
+- 'Valid' : only queries that are accepted by the endpoint (e.g. TPF client does'nt accept all SPARQL queries)
+- 'NotEmpty' : only queries having at least one answer with the endpoint 
 
 ## Librairies to install 
 
