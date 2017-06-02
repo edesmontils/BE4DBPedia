@@ -63,7 +63,7 @@ usage: bgp-extractor.py [-h] [-l {DEBUG,INFO,WARNING,ERROR,CRITICAL}]
                         [-p NB_PROCESSES]
                         file
 
-Parallel BGP Extractor for DBPedia log.
+BGP Extractor for DBPedia log.
 
 positional arguments:
   file                  Set the file to study
@@ -89,7 +89,7 @@ usage: bgp-test-endpoint.py [-h] [-l {DEBUG,INFO,WARNING,ERROR,CRITICAL}]
                             [-to TIMEOUT]
                             file [file ...]
 
-Etude des requêtes
+Request test with SPARQL endpoint or TPF server
 
 positional arguments:
   file                  files to analyse
@@ -121,7 +121,7 @@ usage: bgp-ranking-analysis.py [-h] [-l {DEBUG,INFO,WARNING,ERROR,CRITICAL}]
                                [-t {NotEmpty,Valid,WellFormed,All}]
                                file [file ...]
 
-Etude du ranking
+Ranking analysis of BGPs
 
 positional arguments:
   file                  files to analyse
