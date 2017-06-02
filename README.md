@@ -22,13 +22,15 @@ Then, filter BGP that can be excuted on the data provider (e.g. a TPF serveur wi
 python3.6 bgp-test-endpoint.py -e TPF ./data/logs20151031/logs-20151031-extract/*/*-be4dbp.xml -to 20
 ```
 
-The result is, for each user file, a file (names '<user-ip>-be4dbp-tested-TPF') where each 'entry' (a BGP) is evaluated according to the data provider.
+The result is, for each user file, a file (named '<user-ip>-be4dbp-tested-TPF.xml'), valid with 'http://documents.ls2n.fr/be4dbp/log.dtd', where each 'entry' (a BGP) is evaluated according to the data provider.
 
-Next, rank BGP. 
+Next, rank BGPs. 
 
 ```
 python3.6 bgp-ranking-analysis.py ./data/logs20151031/logs-20151031-extract/*/*-tested-TPF.xml
 ```
+
+The result is, ror each user file, a file (named '<user-ip>-be4dbp-tested-TPF-ranking.xml') valid with 'http://documents.ls2n.fr/be4dbp/ranking.dtd'.
 
 Next, we suppose that LIFT results are in the directory './data/divers/liftDeductions/traces/'.
 
@@ -107,7 +109,7 @@ optional arguments:
   -to TIMEOUT, --timeout TIMEOUT
                         Endpoint Time Out (60 by default). If '-to 0' and the
                         file already tested, the entry is not tested again.
-```
+``
 
 ### bgp-ranking-analysis
 
