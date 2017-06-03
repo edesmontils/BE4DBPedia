@@ -44,7 +44,7 @@ Finaly, to be able to calculate agregates (avg, max, etc.), load CSV files in a 
 ```
 sh loadPrecisionRecall_MySQL.sh
 ```
-Once the CSV files loaded in the MySQL datatabase you can execute the script queries.sql.
+Once the CSV files are loaded in the MySQL datatabase you can execute the script queries.sql.
 
 ## Command descriptions
 
