@@ -8,49 +8,43 @@
 
 ## usage
 
-To analyse a day of DBPedia 2015 (e.g. October 31). Consider the log of this day is in the directory './data/logs20151031/' and it is called 'access.log-20151031.log'. 
+This is a guide to analyse a day of DBPedia 2015. Consider the log of October 31th located in './data/logs20151031/'access.log-20151031.log'. 
 
-The first step is to extract BGP from this log :
+The first step is, to extract BGPs from each line that corresponds to a http request containing a SPARQL query:
 ```
 python3.6 bgp-extractor.py -p 64 -d ./data/logs20151031/logs-20151031-extract -f ./data/logs20151031/access.log-20151031.log
 ```
 The result is a set of directories (one for each hour) that contains one file by user. Each file is named 'userIp-be4dbp.xml'
 
-Then, filter BGP that can be excuted on the data provider (e.g. a TPF serveur with a timeout of 20 secondes)
-
+Then, filter BGPs that can be excuted on the data provider (e.g. a TPF serveur with a timeout of 20 secondes)
 ```
 python3.6 bgp-test-endpoint.py -e TPF ./data/logs20151031/logs-20151031-extract/*/*-be4dbp.xml -to 20
 ```
+The result is, for each user file, a file (named 'userIp-be4dbp-tested-TPF.xml') conform to 'http://documents.ls2n.fr/be4dbp/log.dtd' (which uses 'http://documents.ls2n.fr/be4dbp/bgp.dtd'), where each 'entry' (a BGP) is evaluated according to the data provider.
 
-The result is, for each user file, a file (named 'userIp-be4dbp-tested-TPF.xml'), valid with 'http://documents.ls2n.fr/be4dbp/log.dtd' (which uses 'http://documents.ls2n.fr/be4dbp/bgp.dtd'), where each 'entry' (a BGP) is evaluated according to the data provider.
-
-Next, rank BGPs to identify most frequent ones
-
+Next, rank BGPs to identify most the frequents:
 ```
 python3.6 bgp-ranking-analysis.py ./data/logs20151031/logs-20151031-extract/*/*-tested-TPF.xml
 ```
-
 The result is, for each user file, a file (named 'userIp-be4dbp-tested-TPF-ranking.xml') valid with 'http://documents.ls2n.fr/be4dbp/ranking.dtd'.
 
-Next, we suppose that LIFT results (for extracted queries) are in the directory './data/divers/liftDeductions/traces/' (see 'https://github.com/coumbaya/lift' for execution LIFT). This directory contains a set of directories (one by hour). Each one contains a file for each user (same hierarchy as for dbpedia log extraction).
-
+Next, these XML files are given as input to LIFT. We suppose that LIFT results (for extracted queries) are in the directory './data/divers/liftDeductions/traces/' (see 'https://github.com/coumbaya/lift' for execution LIFT). This directory contains a set of directories (one by hour). Each one contains a file for each user (same hierarchy as for dbpedia log extraction).
 Like for dbpedia extracted BGPs, rank BGP founded by LIFT.
-
 ```
 python3.6 bgp-ranking-analysis.py ./data/divers/liftDeductions/traces/*/traces_*-be4dbp-tested-TPF-ranking/*-ldqp.xml -t All
 ```
 
-Then, compute precision and recall to produce a set of CSV files
-
+Then, compute precision and recall to produce a set of CSV files:
 ```
 sh bigCompare.sh 
 ```
 
-Finaly, to be able to calculate agregates (avg, max...), load CSV files in a MySQL database.
+Finaly, to be able to calculate agregates (avg, max, etc.), load CSV files in a MySQL database (you have to modify loadPrecisionRecall_MySQL.sh to introduce the name of your database, your user and password).
 
 ```
 sh loadPrecisionRecall_MySQL.sh
 ```
+Once the CSV files loaded in the MySQL datatabase you can execute the script queries.sql.
 
 ## Command descriptions
 
