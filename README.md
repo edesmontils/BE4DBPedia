@@ -6,7 +6,7 @@
 - Emmanuel Desmontils (Emmanuel.Desmontils_at_univ-nantes.fr)
 - Patricia Serrano-Alvarado (Patricia.Serrano-Alvarado_at_univ-nantes.fr)
 
-## usage
+## User guide
 
 This is a guide to analyse a day of DBPedia 2015. Consider the log of October 31th located in './data/logs20151031/'access.log-20151031.log'. 
 
