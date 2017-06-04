@@ -56,8 +56,8 @@ def calcPrecisionRecall2(cano_dbp,cano_lift,size_bgp_dbp,size_bgp_lift):
 
 def processBGPs(idp, mess):
 	(cano_dbp, cano_lift,size_bgp_dbp,size_bgp_lift,dbp_occ, lift_occ, dbp_rank, lift_rank) = mess
-	(precision, recall) = calcPrecisionRecall2(cano_dbp,cano_lift,size_bgp_dbp,size_bgp_lift) # Pat version
-	#(precision2, recall2, inter, mapping) = calcPrecisionRecall(cano_dbp,cano_lift) # Ed version
+	#(precision, recall) = calcPrecisionRecall2(cano_dbp,cano_lift,size_bgp_dbp,size_bgp_lift) # Pat version
+	(precision, recall, inter, mapping) = calcPrecisionRecall(cano_dbp,cano_lift) # Ed version
 	if (recall == 0):# and (recall2==0):
 		return ()
 	else: 
