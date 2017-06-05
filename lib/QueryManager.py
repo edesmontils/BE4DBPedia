@@ -83,6 +83,7 @@ class QueryManager:
       self.defaultPrefixes['dbpedia'] = 'http://dbpedia.org/'
       self.defaultPrefixes['dbpedia2'] = 'http://dbpedia.org/property/'
       self.defaultPrefixes['dbpedia3'] = 'http://dbpedia.org/resource/'
+      self.defaultPrefixes['ex']='http://www.example.org/'
     else:
       self.defaultPrefixes = defaultPrefixes
 
