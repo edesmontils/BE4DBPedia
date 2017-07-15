@@ -33,7 +33,7 @@ def fromISO(u):
     try:
         return iso8601.parse_date(u)
     except iso8601.ParseError:
-        return iso8601.parse_date(date.today().isoformat()+'T'+u)
+        return iso8601.parse_date(dt.date.today().isoformat()+'T'+u)
     #return time.strptime(u, "%Y-%m-%dT%H:%M:%S")
 
 #==================================================

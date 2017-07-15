@@ -38,7 +38,7 @@ class EndpointException(Exception):
 EP_QueryBadFormed = False
 EP_QueryWellFormed = True
 
-DEFAULT_TPF_EP = 'http://localhost:5001/dbpedia_3_9' # http://172.16.9.3:5001/dbpedia_3_9   http://localhost:5001/dbpedia_3_9
+DEFAULT_TPF_EP = 'http://localhost:5001' # http://172.16.9.3:5001/dbpedia_3_9   http://localhost:5001/dbpedia_3_9
 DEFAULT_SPARQL_EP = 'http://172.16.9.15:8890/sparql' # "http://dbpedia.org/sparql" "http://172.16.9.15:8890/sparql"
 
 MODE_TE_SPARQL = 'SPARQL'
