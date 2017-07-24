@@ -534,7 +534,7 @@ def egal(tp1, tp2):
         if p1 in mapping:
             okP = mapping[p1] == p2
         else: mapping[p1] = p2
-    if okP and (isinstance(o1,Variable) and  isinstance(o2,Variable)): 
+    if okO and (isinstance(o1,Variable) and  isinstance(o2,Variable)): 
         if o1 in mapping:
             okO = mapping[o1] == o2
         else: mapping[o1] = o2        

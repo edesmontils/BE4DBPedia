@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!ELEMENT log (entry*) >
 <!ATTLIST log ip CDATA #REQUIRED date CDATA #IMPLIED>
-<!ELEMENT entry (request,bgp+,param*) >
+<!ELEMENT entry (request,bgp,param*) >
 <!ATTLIST entry 
     datetime CDATA #REQUIRED
     logline CDATA #IMPLIED
